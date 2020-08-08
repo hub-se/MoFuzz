@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UyuVEIGqEeqSC4bGMjXJ9g" name="DELETE_Constraint_IN_Namespace_(ownedRule)" description="Deletes one Constraint in Namespace">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UyuVEYGqEeqSC4bGMjXJ9g" name="deleteConstraint_IN_Namespace" description="deletes one Constraint in the context: Namespace">
+    <lhs xmi:id="_UyuVEoGqEeqSC4bGMjXJ9g" name="LHS">
+      <nodes xmi:id="_UyuVE4GqEeqSC4bGMjXJ9g" name="Selected" incoming="_UyuVFoGqEeqSC4bGMjXJ9g" outgoing="_UyuVFYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Namespace"/>
+      </nodes>
+      <nodes xmi:id="_UyuVFIGqEeqSC4bGMjXJ9g" name="ToBeDeleted" incoming="_UyuVFYGqEeqSC4bGMjXJ9g" outgoing="_UyuVFoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Constraint"/>
+      </nodes>
+      <edges xmi:id="_UyuVFYGqEeqSC4bGMjXJ9g" source="_UyuVE4GqEeqSC4bGMjXJ9g" target="_UyuVFIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Namespace/ownedRule"/>
+      </edges>
+      <edges xmi:id="_UyuVFoGqEeqSC4bGMjXJ9g" source="_UyuVFIGqEeqSC4bGMjXJ9g" target="_UyuVE4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Constraint/context"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_UyuVF4GqEeqSC4bGMjXJ9g" name="RHS">
+      <nodes xmi:id="_UyuVGIGqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Namespace"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_UyuVGYGqEeqSC4bGMjXJ9g" origin="_UyuVE4GqEeqSC4bGMjXJ9g" image="_UyuVGIGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

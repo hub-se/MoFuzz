@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_TaYpIIGqEeqSC4bGMjXJ9g" name="REMOVE_RedefinableTemplateSignature_(parameter)_TGT_TemplateParameter" description="Removes RedefinableTemplateSignature's reference parameter the target TemplateParameter">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_TaYpIYGqEeqSC4bGMjXJ9g" name="removeFromRedefinableTemplateSignature_parameter_TemplateParameter" description="Removes from RedefinableTemplateSignature's reference parameter the target TemplateParameter">
+    <lhs xmi:id="_TaYpIoGqEeqSC4bGMjXJ9g" name="LHS">
+      <nodes xmi:id="_TaYpI4GqEeqSC4bGMjXJ9g" name="Selected" outgoing="_TaYpJYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//RedefinableTemplateSignature"/>
+      </nodes>
+      <nodes xmi:id="_TaYpJIGqEeqSC4bGMjXJ9g" name="OldTarget" incoming="_TaYpJYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameter"/>
+      </nodes>
+      <edges xmi:id="_TaYpJYGqEeqSC4bGMjXJ9g" source="_TaYpI4GqEeqSC4bGMjXJ9g" target="_TaYpJIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateSignature/parameter"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_TaYpJoGqEeqSC4bGMjXJ9g" name="RHS">
+      <nodes xmi:id="_TaYpJ4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//RedefinableTemplateSignature"/>
+      </nodes>
+      <nodes xmi:id="_TaYpKIGqEeqSC4bGMjXJ9g" name="OldTarget">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameter"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_TaYpKYGqEeqSC4bGMjXJ9g" origin="_TaYpI4GqEeqSC4bGMjXJ9g" image="_TaYpJ4GqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_TaYpKoGqEeqSC4bGMjXJ9g" origin="_TaYpJIGqEeqSC4bGMjXJ9g" image="_TaYpKIGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_1Ou_UIGoEeqjxJ91AzqJlg" name="DELETE_ReplyAction_IN_SequenceNode_(executableNode)" description="Deletes one ReplyAction in SequenceNode">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_1Ou_UYGoEeqjxJ91AzqJlg" name="deleteReplyAction_IN_SequenceNode" description="deletes one ReplyAction in the context: SequenceNode">
+    <lhs xmi:id="_1Ou_UoGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_1Ou_U4GoEeqjxJ91AzqJlg" name="Selected" outgoing="_1Ou_V4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//SequenceNode"/>
+      </nodes>
+      <nodes xmi:id="_1Ou_VIGoEeqjxJ91AzqJlg" name="ToBeDeleted" incoming="_1Ou_V4GoEeqjxJ91AzqJlg" outgoing="_1Ou_WIGoEeqjxJ91AzqJlg _1Ou_WYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ReplyAction"/>
+      </nodes>
+      <nodes xmi:id="_1Ou_VYGoEeqjxJ91AzqJlg" name="Child" incoming="_1Ou_WIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InputPin"/>
+      </nodes>
+      <nodes xmi:id="_1Ou_VoGoEeqjxJ91AzqJlg" name="Existing" incoming="_1Ou_WYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Trigger"/>
+      </nodes>
+      <edges xmi:id="_1Ou_V4GoEeqjxJ91AzqJlg" source="_1Ou_U4GoEeqjxJ91AzqJlg" target="_1Ou_VIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//SequenceNode/executableNode"/>
+      </edges>
+      <edges xmi:id="_1Ou_WIGoEeqjxJ91AzqJlg" source="_1Ou_VIGoEeqjxJ91AzqJlg" target="_1Ou_VYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ReplyAction/returnInformation"/>
+      </edges>
+      <edges xmi:id="_1Ou_WYGoEeqjxJ91AzqJlg" source="_1Ou_VIGoEeqjxJ91AzqJlg" target="_1Ou_VoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ReplyAction/replyToCall"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_1Ou_WoGoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_1Ou_W4GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//SequenceNode"/>
+      </nodes>
+      <nodes xmi:id="_1Ou_XIGoEeqjxJ91AzqJlg" name="Existing">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Trigger"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_1Ou_XYGoEeqjxJ91AzqJlg" origin="_1Ou_U4GoEeqjxJ91AzqJlg" image="_1Ou_W4GoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_1Ou_XoGoEeqjxJ91AzqJlg" origin="_1Ou_VoGoEeqjxJ91AzqJlg" image="_1Ou_XIGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UJ5agIGqEeqSC4bGMjXJ9g" name="CREATE_StateInvariant_IN_InteractionOperand_(fragment)" description="Creates one StateInvariant in InteractionOperand">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UJ5agYGqEeqSC4bGMjXJ9g" name="createStateInvariant_IN_InteractionOperand" description="creates one StateInvariant in the context: InteractionOperand">
+    <lhs xmi:id="_UJ5agoGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_UJ5ag4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InteractionOperand"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_UJ5ahIGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_UJ5ahYGqEeqSC4bGMjXJ9g" name="Selected" incoming="_UJ5aiIGqEeqSC4bGMjXJ9g" outgoing="_UJ5ah4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InteractionOperand"/>
+      </nodes>
+      <nodes xmi:id="_UJ5ahoGqEeqSC4bGMjXJ9g" name="New" incoming="_UJ5ah4GqEeqSC4bGMjXJ9g" outgoing="_UJ5aiIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//StateInvariant"/>
+      </nodes>
+      <edges xmi:id="_UJ5ah4GqEeqSC4bGMjXJ9g" source="_UJ5ahYGqEeqSC4bGMjXJ9g" target="_UJ5ahoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InteractionOperand/fragment"/>
+      </edges>
+      <edges xmi:id="_UJ5aiIGqEeqSC4bGMjXJ9g" source="_UJ5ahoGqEeqSC4bGMjXJ9g" target="_UJ5ahYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InteractionFragment/enclosingOperand"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_UJ5aiYGqEeqSC4bGMjXJ9g" origin="_UJ5ag4GqEeqSC4bGMjXJ9g" image="_UJ5ahYGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

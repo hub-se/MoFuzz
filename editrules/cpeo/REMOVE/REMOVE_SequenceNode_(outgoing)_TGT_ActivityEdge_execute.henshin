@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_2KQMYIGoEeqjxJ91AzqJlg" name="REMOVE_SequenceNode_(outgoing)_TGT_ActivityEdge" description="Removes SequenceNode's reference outgoing the target ActivityEdge">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_2KQMYYGoEeqjxJ91AzqJlg" name="removeFromSequenceNode_outgoing_ActivityEdge" description="Removes from SequenceNode's reference outgoing the target ActivityEdge">
+    <lhs xmi:id="_2KQMYoGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_2KQMY4GoEeqjxJ91AzqJlg" name="Selected" incoming="_2KQMZoGoEeqjxJ91AzqJlg" outgoing="_2KQMZYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//SequenceNode"/>
+      </nodes>
+      <nodes xmi:id="_2KQMZIGoEeqjxJ91AzqJlg" name="OldTarget" incoming="_2KQMZYGoEeqjxJ91AzqJlg" outgoing="_2KQMZoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityEdge"/>
+      </nodes>
+      <edges xmi:id="_2KQMZYGoEeqjxJ91AzqJlg" source="_2KQMY4GoEeqjxJ91AzqJlg" target="_2KQMZIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityNode/outgoing"/>
+      </edges>
+      <edges xmi:id="_2KQMZoGoEeqjxJ91AzqJlg" source="_2KQMZIGoEeqjxJ91AzqJlg" target="_2KQMY4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityEdge/source"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_2KQMZ4GoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_2KQMaIGoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//SequenceNode"/>
+      </nodes>
+      <nodes xmi:id="_2KQMaYGoEeqjxJ91AzqJlg" name="OldTarget">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityEdge"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_2KQMaoGoEeqjxJ91AzqJlg" origin="_2KQMY4GoEeqjxJ91AzqJlg" image="_2KQMaIGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_2KQMa4GoEeqjxJ91AzqJlg" origin="_2KQMZIGoEeqjxJ91AzqJlg" image="_2KQMaYGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

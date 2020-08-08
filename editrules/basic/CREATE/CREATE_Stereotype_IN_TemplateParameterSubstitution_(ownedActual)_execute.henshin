@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UINYcIGqEeqSC4bGMjXJ9g" name="CREATE_Stereotype_IN_TemplateParameterSubstitution_(ownedActual)" description="Creates one Stereotype in TemplateParameterSubstitution">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UINYcYGqEeqSC4bGMjXJ9g" name="createStereotype_IN_TemplateParameterSubstitution" description="creates one Stereotype in the context: TemplateParameterSubstitution">
+    <parameters xmi:id="_UINYcoGqEeqSC4bGMjXJ9g" name="IsLeaf" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <parameters xmi:id="_UINYc4GqEeqSC4bGMjXJ9g" name="IsAbstract" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <parameters xmi:id="_UINYdIGqEeqSC4bGMjXJ9g" name="IsFinalSpecialization" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <parameters xmi:id="_UINYdYGqEeqSC4bGMjXJ9g" name="IsActive" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <lhs xmi:id="_UINYdoGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_UINYd4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameterSubstitution"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_UINYeIGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_UINYeYGqEeqSC4bGMjXJ9g" name="Selected" outgoing="_UINYf4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameterSubstitution"/>
+      </nodes>
+      <nodes xmi:id="_UINYeoGqEeqSC4bGMjXJ9g" name="New" incoming="_UINYf4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Stereotype"/>
+        <attributes xmi:id="_UINYe4GqEeqSC4bGMjXJ9g" value="IsLeaf">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//RedefinableElement/isLeaf"/>
+        </attributes>
+        <attributes xmi:id="_UINYfIGqEeqSC4bGMjXJ9g" value="IsAbstract">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier/isAbstract"/>
+        </attributes>
+        <attributes xmi:id="_UINYfYGqEeqSC4bGMjXJ9g" value="IsFinalSpecialization">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier/isFinalSpecialization"/>
+        </attributes>
+        <attributes xmi:id="_UINYfoGqEeqSC4bGMjXJ9g" value="IsActive">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Class/isActive"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_UINYf4GqEeqSC4bGMjXJ9g" source="_UINYeYGqEeqSC4bGMjXJ9g" target="_UINYeoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameterSubstitution/ownedActual"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_UINYgIGqEeqSC4bGMjXJ9g" origin="_UINYd4GqEeqSC4bGMjXJ9g" image="_UINYeYGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

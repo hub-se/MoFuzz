@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_2GP2IIGoEeqjxJ91AzqJlg" name="REMOVE_Interaction_(postcondition)_TGT_Constraint" description="Removes Interaction's reference postcondition the target Constraint">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_2GP2IYGoEeqjxJ91AzqJlg" name="removeFromInteraction_postcondition_Constraint" description="Removes from Interaction's reference postcondition the target Constraint">
+    <lhs xmi:id="_2GP2IoGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_2GP2I4GoEeqjxJ91AzqJlg" name="Selected" outgoing="_2GP2JYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Interaction"/>
+      </nodes>
+      <nodes xmi:id="_2GP2JIGoEeqjxJ91AzqJlg" name="OldTarget" incoming="_2GP2JYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Constraint"/>
+      </nodes>
+      <edges xmi:id="_2GP2JYGoEeqjxJ91AzqJlg" source="_2GP2I4GoEeqjxJ91AzqJlg" target="_2GP2JIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Behavior/postcondition"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_2GP2JoGoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_2GP2J4GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Interaction"/>
+      </nodes>
+      <nodes xmi:id="_2GP2KIGoEeqjxJ91AzqJlg" name="OldTarget">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Constraint"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_2GP2KYGoEeqjxJ91AzqJlg" origin="_2GP2I4GoEeqjxJ91AzqJlg" image="_2GP2J4GoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_2GP2KoGoEeqjxJ91AzqJlg" origin="_2GP2JIGoEeqjxJ91AzqJlg" image="_2GP2KIGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

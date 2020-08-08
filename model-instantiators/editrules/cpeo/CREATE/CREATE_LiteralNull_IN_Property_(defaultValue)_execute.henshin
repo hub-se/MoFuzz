@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_198OsIGoEeqjxJ91AzqJlg" name="CREATE_LiteralNull_IN_Property_(defaultValue)" description="Creates one LiteralNull in Property">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_198OsYGoEeqjxJ91AzqJlg" name="createLiteralNull_IN_Property" description="creates one LiteralNull in the context: Property">
+    <lhs xmi:id="_198OsoGoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_198Os4GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Property"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_198OtIGoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_198OtYGoEeqjxJ91AzqJlg" name="Selected" outgoing="_198Ot4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Property"/>
+      </nodes>
+      <nodes xmi:id="_198OtoGoEeqjxJ91AzqJlg" name="New" incoming="_198Ot4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LiteralNull"/>
+      </nodes>
+      <edges xmi:id="_198Ot4GoEeqjxJ91AzqJlg" source="_198OtYGoEeqjxJ91AzqJlg" target="_198OtoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Property/defaultValue"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_198OuIGoEeqjxJ91AzqJlg" origin="_198Os4GoEeqjxJ91AzqJlg" image="_198OtYGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

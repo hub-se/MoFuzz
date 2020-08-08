@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_TuaYYIGqEeqSC4bGMjXJ9g" name="MOVE_Property_FROM_Association_(ownedEnd)_TO_Association_(ownedEnd)" description="MOVEs Property from Association(Reference:ownedEnd) to Association(Reference:ownedEnd">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_TuaYYYGqEeqSC4bGMjXJ9g" name="moveProperty_FROM_Association_ownedEnd_TO_Association_Association" description="Moves Property from Association(Reference:ownedEnd) toAssociation(Reference:Association)">
+    <lhs xmi:id="_TuaYYoGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_TuaYY4GqEeqSC4bGMjXJ9g" name="Selected" incoming="_TuaYZoGqEeqSC4bGMjXJ9g" outgoing="_TuaYZ4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Property"/>
+      </nodes>
+      <nodes xmi:id="_TuaYZIGqEeqSC4bGMjXJ9g" name="OldSource" incoming="_TuaYZ4GqEeqSC4bGMjXJ9g" outgoing="_TuaYZoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Association"/>
+      </nodes>
+      <nodes xmi:id="_TuaYZYGqEeqSC4bGMjXJ9g" name="NewSource">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Association"/>
+      </nodes>
+      <edges xmi:id="_TuaYZoGqEeqSC4bGMjXJ9g" source="_TuaYZIGqEeqSC4bGMjXJ9g" target="_TuaYY4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Association/ownedEnd"/>
+      </edges>
+      <edges xmi:id="_TuaYZ4GqEeqSC4bGMjXJ9g" source="_TuaYY4GqEeqSC4bGMjXJ9g" target="_TuaYZIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Property/owningAssociation"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_TuaYaIGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_TuaYaYGqEeqSC4bGMjXJ9g" name="Selected" incoming="_TuaYbIGqEeqSC4bGMjXJ9g" outgoing="_TuaYbYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Property"/>
+      </nodes>
+      <nodes xmi:id="_TuaYaoGqEeqSC4bGMjXJ9g" name="OldSource">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Association"/>
+      </nodes>
+      <nodes xmi:id="_TuaYa4GqEeqSC4bGMjXJ9g" name="NewSource" incoming="_TuaYbYGqEeqSC4bGMjXJ9g" outgoing="_TuaYbIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Association"/>
+      </nodes>
+      <edges xmi:id="_TuaYbIGqEeqSC4bGMjXJ9g" source="_TuaYa4GqEeqSC4bGMjXJ9g" target="_TuaYaYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Association/ownedEnd"/>
+      </edges>
+      <edges xmi:id="_TuaYbYGqEeqSC4bGMjXJ9g" source="_TuaYaYGqEeqSC4bGMjXJ9g" target="_TuaYa4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Property/owningAssociation"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_TuaYboGqEeqSC4bGMjXJ9g" origin="_TuaYY4GqEeqSC4bGMjXJ9g" image="_TuaYaYGqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_TuaYb4GqEeqSC4bGMjXJ9g" origin="_TuaYZIGqEeqSC4bGMjXJ9g" image="_TuaYaoGqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_TuaYcIGqEeqSC4bGMjXJ9g" origin="_TuaYZYGqEeqSC4bGMjXJ9g" image="_TuaYa4GqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

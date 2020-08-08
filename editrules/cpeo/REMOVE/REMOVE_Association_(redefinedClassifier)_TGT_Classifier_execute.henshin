@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_2L7nYIGoEeqjxJ91AzqJlg" name="REMOVE_Association_(redefinedClassifier)_TGT_Classifier" description="Removes Association's reference redefinedClassifier the target Classifier">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_2L7nYYGoEeqjxJ91AzqJlg" name="removeFromAssociation_redefinedClassifier_Classifier" description="Removes from Association's reference redefinedClassifier the target Classifier">
+    <lhs xmi:id="_2L7nYoGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_2L7nY4GoEeqjxJ91AzqJlg" name="Selected" outgoing="_2L7nZYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Association"/>
+      </nodes>
+      <nodes xmi:id="_2L7nZIGoEeqjxJ91AzqJlg" name="OldTarget" incoming="_2L7nZYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier"/>
+      </nodes>
+      <edges xmi:id="_2L7nZYGoEeqjxJ91AzqJlg" source="_2L7nY4GoEeqjxJ91AzqJlg" target="_2L7nZIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier/redefinedClassifier"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_2L7nZoGoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_2L7nZ4GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Association"/>
+      </nodes>
+      <nodes xmi:id="_2L7naIGoEeqjxJ91AzqJlg" name="OldTarget">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_2L7naYGoEeqjxJ91AzqJlg" origin="_2L7nY4GoEeqjxJ91AzqJlg" image="_2L7nZ4GoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_2L7naoGoEeqjxJ91AzqJlg" origin="_2L7nZIGoEeqjxJ91AzqJlg" image="_2L7naIGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

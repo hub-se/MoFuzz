@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_2CgloIGoEeqjxJ91AzqJlg" name="CREATE_Class_IN_TemplateParameter_(ownedDefault)" description="Creates one Class in TemplateParameter">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_2CgloYGoEeqjxJ91AzqJlg" name="createClass_IN_TemplateParameter" description="creates one Class in the context: TemplateParameter">
+    <parameters xmi:id="_2CglooGoEeqjxJ91AzqJlg" name="IsLeaf" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <parameters xmi:id="_2Cglo4GoEeqjxJ91AzqJlg" name="IsAbstract" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <parameters xmi:id="_2CglpIGoEeqjxJ91AzqJlg" name="IsFinalSpecialization" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <parameters xmi:id="_2CglpYGoEeqjxJ91AzqJlg" name="IsActive" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <lhs xmi:id="_2CglpoGoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_2Cglp4GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameter"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_2CglqIGoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_2CglqYGoEeqjxJ91AzqJlg" name="Selected" outgoing="_2Cglr4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameter"/>
+      </nodes>
+      <nodes xmi:id="_2CglqoGoEeqjxJ91AzqJlg" name="New" incoming="_2Cglr4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+        <attributes xmi:id="_2Cglq4GoEeqjxJ91AzqJlg" value="IsLeaf">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//RedefinableElement/isLeaf"/>
+        </attributes>
+        <attributes xmi:id="_2CglrIGoEeqjxJ91AzqJlg" value="IsAbstract">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier/isAbstract"/>
+        </attributes>
+        <attributes xmi:id="_2CglrYGoEeqjxJ91AzqJlg" value="IsFinalSpecialization">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier/isFinalSpecialization"/>
+        </attributes>
+        <attributes xmi:id="_2CglroGoEeqjxJ91AzqJlg" value="IsActive">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Class/isActive"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_2Cglr4GoEeqjxJ91AzqJlg" source="_2CglqYGoEeqjxJ91AzqJlg" target="_2CglqoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameter/ownedDefault"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_2CglsIGoEeqjxJ91AzqJlg" origin="_2Cglp4GoEeqjxJ91AzqJlg" image="_2CglqYGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

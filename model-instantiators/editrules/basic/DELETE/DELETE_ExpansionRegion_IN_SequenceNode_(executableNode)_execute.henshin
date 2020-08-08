@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_Ul4L4IGqEeqSC4bGMjXJ9g" name="DELETE_ExpansionRegion_IN_SequenceNode_(executableNode)" description="Deletes one ExpansionRegion in SequenceNode">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_Ul4L4YGqEeqSC4bGMjXJ9g" name="deleteExpansionRegion_IN_SequenceNode" description="deletes one ExpansionRegion in the context: SequenceNode">
+    <lhs xmi:id="_Ul4L4oGqEeqSC4bGMjXJ9g" name="LHS">
+      <nodes xmi:id="_Ul4L44GqEeqSC4bGMjXJ9g" name="Selected" outgoing="_Ul4L5YGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//SequenceNode"/>
+      </nodes>
+      <nodes xmi:id="_Ul4L5IGqEeqSC4bGMjXJ9g" name="ToBeDeleted" incoming="_Ul4L5YGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ExpansionRegion"/>
+      </nodes>
+      <edges xmi:id="_Ul4L5YGqEeqSC4bGMjXJ9g" source="_Ul4L44GqEeqSC4bGMjXJ9g" target="_Ul4L5IGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//SequenceNode/executableNode"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_Ul4L5oGqEeqSC4bGMjXJ9g" name="RHS">
+      <nodes xmi:id="_Ul4L54GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//SequenceNode"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_Ul4L6IGqEeqSC4bGMjXJ9g" origin="_Ul4L44GqEeqSC4bGMjXJ9g" image="_Ul4L54GqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

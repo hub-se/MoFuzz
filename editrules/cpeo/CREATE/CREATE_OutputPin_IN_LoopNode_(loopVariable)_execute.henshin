@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_1oRgsIGoEeqjxJ91AzqJlg" name="CREATE_OutputPin_IN_LoopNode_(loopVariable)" description="Creates one OutputPin in LoopNode">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_1oRgsYGoEeqjxJ91AzqJlg" name="createOutputPin_IN_LoopNode" description="creates one OutputPin in the context: LoopNode">
+    <parameters xmi:id="_1oRgsoGoEeqjxJ91AzqJlg" name="IsLeaf" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <parameters xmi:id="_1oRgs4GoEeqjxJ91AzqJlg" name="IsControlType" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <parameters xmi:id="_1oRgtIGoEeqjxJ91AzqJlg" name="Ordering" kind="IN">
+      <type xsi:type="ecore:EEnum" href="http://www.eclipse.org/uml2/5.0.0/UML#//ObjectNodeOrderingKind"/>
+    </parameters>
+    <parameters xmi:id="_1oRgtYGoEeqjxJ91AzqJlg" name="IsOrdered" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <parameters xmi:id="_1oRgtoGoEeqjxJ91AzqJlg" name="IsUnique" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <parameters xmi:id="_1oRgt4GoEeqjxJ91AzqJlg" name="IsControl1" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <lhs xmi:id="_1oRguIGoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_1oRguYGoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LoopNode"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_1oRguoGoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_1oRgu4GoEeqjxJ91AzqJlg" name="Selected" outgoing="_1oRgw4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LoopNode"/>
+      </nodes>
+      <nodes xmi:id="_1oRgvIGoEeqjxJ91AzqJlg" name="New" incoming="_1oRgw4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//OutputPin"/>
+        <attributes xmi:id="_1oRgvYGoEeqjxJ91AzqJlg" value="IsLeaf">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//RedefinableElement/isLeaf"/>
+        </attributes>
+        <attributes xmi:id="_1oRgvoGoEeqjxJ91AzqJlg" value="IsControlType">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ObjectNode/isControlType"/>
+        </attributes>
+        <attributes xmi:id="_1oRgv4GoEeqjxJ91AzqJlg" value="Ordering">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ObjectNode/ordering"/>
+        </attributes>
+        <attributes xmi:id="_1oRgwIGoEeqjxJ91AzqJlg" value="IsOrdered">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//MultiplicityElement/isOrdered"/>
+        </attributes>
+        <attributes xmi:id="_1oRgwYGoEeqjxJ91AzqJlg" value="IsUnique">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//MultiplicityElement/isUnique"/>
+        </attributes>
+        <attributes xmi:id="_1oRgwoGoEeqjxJ91AzqJlg" value="IsControl1">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Pin/isControl"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_1oRgw4GoEeqjxJ91AzqJlg" source="_1oRgu4GoEeqjxJ91AzqJlg" target="_1oRgvIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LoopNode/loopVariable"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_1oRgxIGoEeqjxJ91AzqJlg" origin="_1oRguYGoEeqjxJ91AzqJlg" image="_1oRgu4GoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_T5ni0IGqEeqSC4bGMjXJ9g" name="MOVE_Trigger_FROM_State_(deferrableTrigger)_TO_State_(deferrableTrigger)" description="MOVEs Trigger from State(Reference:deferrableTrigger) to State(Reference:deferrableTrigger">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_T5ni0YGqEeqSC4bGMjXJ9g" name="moveTrigger_FROM_State_deferrableTrigger_TO_State_State" description="Moves Trigger from State(Reference:deferrableTrigger) toState(Reference:State)">
+    <lhs xmi:id="_T5ni0oGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_T5ni04GqEeqSC4bGMjXJ9g" name="Selected" incoming="_T5ni1oGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Trigger"/>
+      </nodes>
+      <nodes xmi:id="_T5ni1IGqEeqSC4bGMjXJ9g" name="OldSource" outgoing="_T5ni1oGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//State"/>
+      </nodes>
+      <nodes xmi:id="_T5ni1YGqEeqSC4bGMjXJ9g" name="NewSource">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//State"/>
+      </nodes>
+      <edges xmi:id="_T5ni1oGqEeqSC4bGMjXJ9g" source="_T5ni1IGqEeqSC4bGMjXJ9g" target="_T5ni04GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//State/deferrableTrigger"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_T5ni14GqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_T5ni2IGqEeqSC4bGMjXJ9g" name="Selected" incoming="_T5ni24GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Trigger"/>
+      </nodes>
+      <nodes xmi:id="_T5ni2YGqEeqSC4bGMjXJ9g" name="OldSource">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//State"/>
+      </nodes>
+      <nodes xmi:id="_T5ni2oGqEeqSC4bGMjXJ9g" name="NewSource" outgoing="_T5ni24GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//State"/>
+      </nodes>
+      <edges xmi:id="_T5ni24GqEeqSC4bGMjXJ9g" source="_T5ni2oGqEeqSC4bGMjXJ9g" target="_T5ni2IGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//State/deferrableTrigger"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_T5ni3IGqEeqSC4bGMjXJ9g" origin="_T5ni04GqEeqSC4bGMjXJ9g" image="_T5ni2IGqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_T5ni3YGqEeqSC4bGMjXJ9g" origin="_T5ni1IGqEeqSC4bGMjXJ9g" image="_T5ni2YGqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_T5ni3oGqEeqSC4bGMjXJ9g" origin="_T5ni1YGqEeqSC4bGMjXJ9g" image="_T5ni2oGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

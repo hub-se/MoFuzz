@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UYnL8IGqEeqSC4bGMjXJ9g" name="CREATE_LiteralNull_IN_Slot_(value)" description="Creates one LiteralNull in Slot">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UYnL8YGqEeqSC4bGMjXJ9g" name="createLiteralNull_IN_Slot" description="creates one LiteralNull in the context: Slot">
+    <lhs xmi:id="_UYnL8oGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_UYnL84GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Slot"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_UYnL9IGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_UYnL9YGqEeqSC4bGMjXJ9g" name="Selected" outgoing="_UYnL94GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Slot"/>
+      </nodes>
+      <nodes xmi:id="_UYnL9oGqEeqSC4bGMjXJ9g" name="New" incoming="_UYnL94GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LiteralNull"/>
+      </nodes>
+      <edges xmi:id="_UYnL94GqEeqSC4bGMjXJ9g" source="_UYnL9YGqEeqSC4bGMjXJ9g" target="_UYnL9oGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Slot/value"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_UYnL-IGqEeqSC4bGMjXJ9g" origin="_UYnL84GqEeqSC4bGMjXJ9g" image="_UYnL9YGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

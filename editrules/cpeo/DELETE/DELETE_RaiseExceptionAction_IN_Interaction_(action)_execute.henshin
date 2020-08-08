@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_1FRhUIGoEeqjxJ91AzqJlg" name="DELETE_RaiseExceptionAction_IN_Interaction_(action)" description="Deletes one RaiseExceptionAction in Interaction">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_1FRhUYGoEeqjxJ91AzqJlg" name="deleteRaiseExceptionAction_IN_Interaction" description="deletes one RaiseExceptionAction in the context: Interaction">
+    <lhs xmi:id="_1FRhUoGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_1FRhU4GoEeqjxJ91AzqJlg" name="Selected" outgoing="_1FRhVoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Interaction"/>
+      </nodes>
+      <nodes xmi:id="_1FRhVIGoEeqjxJ91AzqJlg" name="ToBeDeleted" incoming="_1FRhVoGoEeqjxJ91AzqJlg" outgoing="_1FRhV4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//RaiseExceptionAction"/>
+      </nodes>
+      <nodes xmi:id="_1FRhVYGoEeqjxJ91AzqJlg" name="Child" incoming="_1FRhV4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InputPin"/>
+      </nodes>
+      <edges xmi:id="_1FRhVoGoEeqjxJ91AzqJlg" source="_1FRhU4GoEeqjxJ91AzqJlg" target="_1FRhVIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Interaction/action"/>
+      </edges>
+      <edges xmi:id="_1FRhV4GoEeqjxJ91AzqJlg" source="_1FRhVIGoEeqjxJ91AzqJlg" target="_1FRhVYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//RaiseExceptionAction/exception"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_1FRhWIGoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_1FRhWYGoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Interaction"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_1FRhWoGoEeqjxJ91AzqJlg" origin="_1FRhU4GoEeqjxJ91AzqJlg" image="_1FRhWYGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

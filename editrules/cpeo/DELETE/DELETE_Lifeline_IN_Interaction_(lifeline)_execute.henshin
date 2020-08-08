@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_1AERMIGoEeqjxJ91AzqJlg" name="DELETE_Lifeline_IN_Interaction_(lifeline)" description="Deletes one Lifeline in Interaction">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_1AERMYGoEeqjxJ91AzqJlg" name="deleteLifeline_IN_Interaction" description="deletes one Lifeline in the context: Interaction">
+    <lhs xmi:id="_1AERMoGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_1AERM4GoEeqjxJ91AzqJlg" name="Selected" incoming="_1AERNoGoEeqjxJ91AzqJlg" outgoing="_1AERNYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Interaction"/>
+      </nodes>
+      <nodes xmi:id="_1AERNIGoEeqjxJ91AzqJlg" name="ToBeDeleted" incoming="_1AERNYGoEeqjxJ91AzqJlg" outgoing="_1AERNoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Lifeline"/>
+      </nodes>
+      <edges xmi:id="_1AERNYGoEeqjxJ91AzqJlg" source="_1AERM4GoEeqjxJ91AzqJlg" target="_1AERNIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Interaction/lifeline"/>
+      </edges>
+      <edges xmi:id="_1AERNoGoEeqjxJ91AzqJlg" source="_1AERNIGoEeqjxJ91AzqJlg" target="_1AERM4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Lifeline/interaction"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_1AERN4GoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_1AEROIGoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Interaction"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_1AEROYGoEeqjxJ91AzqJlg" origin="_1AERM4GoEeqjxJ91AzqJlg" image="_1AEROIGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

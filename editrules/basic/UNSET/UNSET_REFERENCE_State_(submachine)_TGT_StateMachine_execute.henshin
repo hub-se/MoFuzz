@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_Uip4wIGqEeqSC4bGMjXJ9g" name="UNSET_REFERENCE_State_(submachine)_TGT_StateMachine" description="Sets State's reference submachine the target StateMachine">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_Uip4wYGqEeqSC4bGMjXJ9g" name="setState_submachine_TO_StateMachine" description="SetStateRefsubmachineToStateMachine">
+    <lhs xmi:id="_Uip4woGqEeqSC4bGMjXJ9g" name="LHS">
+      <nodes xmi:id="_Uip4w4GqEeqSC4bGMjXJ9g" name="Selected" incoming="_Uip4xoGqEeqSC4bGMjXJ9g" outgoing="_Uip4xYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//State"/>
+      </nodes>
+      <nodes xmi:id="_Uip4xIGqEeqSC4bGMjXJ9g" name="NewTarget" incoming="_Uip4xYGqEeqSC4bGMjXJ9g" outgoing="_Uip4xoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//StateMachine"/>
+      </nodes>
+      <edges xmi:id="_Uip4xYGqEeqSC4bGMjXJ9g" source="_Uip4w4GqEeqSC4bGMjXJ9g" target="_Uip4xIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//State/submachine"/>
+      </edges>
+      <edges xmi:id="_Uip4xoGqEeqSC4bGMjXJ9g" source="_Uip4xIGqEeqSC4bGMjXJ9g" target="_Uip4w4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//StateMachine/submachineState"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_Uip4x4GqEeqSC4bGMjXJ9g" name="RHS">
+      <nodes xmi:id="_Uip4yIGqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//State"/>
+      </nodes>
+      <nodes xmi:id="_Uip4yYGqEeqSC4bGMjXJ9g" name="NewTarget">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//StateMachine"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_Uip4yoGqEeqSC4bGMjXJ9g" origin="_Uip4w4GqEeqSC4bGMjXJ9g" image="_Uip4yIGqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_Uip4y4GqEeqSC4bGMjXJ9g" origin="_Uip4xIGqEeqSC4bGMjXJ9g" image="_Uip4yYGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

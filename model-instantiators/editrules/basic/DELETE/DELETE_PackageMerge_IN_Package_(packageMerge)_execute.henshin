@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_Up0QsIGqEeqSC4bGMjXJ9g" name="DELETE_PackageMerge_IN_Package_(packageMerge)" description="Deletes one PackageMerge in Package">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_Up0QsYGqEeqSC4bGMjXJ9g" name="deletePackageMerge_IN_Package" description="deletes one PackageMerge in the context: Package">
+    <lhs xmi:id="_Up0QsoGqEeqSC4bGMjXJ9g" name="LHS">
+      <nodes xmi:id="_Up0Qs4GqEeqSC4bGMjXJ9g" name="Selected" incoming="_Up0QtoGqEeqSC4bGMjXJ9g" outgoing="_Up0QtYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </nodes>
+      <nodes xmi:id="_Up0QtIGqEeqSC4bGMjXJ9g" name="ToBeDeleted" incoming="_Up0QtYGqEeqSC4bGMjXJ9g" outgoing="_Up0QtoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//PackageMerge"/>
+      </nodes>
+      <edges xmi:id="_Up0QtYGqEeqSC4bGMjXJ9g" source="_Up0Qs4GqEeqSC4bGMjXJ9g" target="_Up0QtIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Package/packageMerge"/>
+      </edges>
+      <edges xmi:id="_Up0QtoGqEeqSC4bGMjXJ9g" source="_Up0QtIGqEeqSC4bGMjXJ9g" target="_Up0Qs4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//PackageMerge/receivingPackage"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_Up0Qt4GqEeqSC4bGMjXJ9g" name="RHS">
+      <nodes xmi:id="_Up0QuIGqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_Up0QuYGqEeqSC4bGMjXJ9g" origin="_Up0Qs4GqEeqSC4bGMjXJ9g" image="_Up0QuIGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

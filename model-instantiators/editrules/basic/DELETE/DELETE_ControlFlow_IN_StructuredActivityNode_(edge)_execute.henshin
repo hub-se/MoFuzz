@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_Un_rwIGqEeqSC4bGMjXJ9g" name="DELETE_ControlFlow_IN_StructuredActivityNode_(edge)" description="Deletes one ControlFlow in StructuredActivityNode">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_Un_rwYGqEeqSC4bGMjXJ9g" name="deleteControlFlow_IN_StructuredActivityNode" description="deletes one ControlFlow in the context: StructuredActivityNode">
+    <lhs xmi:id="_Un_rwoGqEeqSC4bGMjXJ9g" name="LHS">
+      <nodes xmi:id="_Un_rw4GqEeqSC4bGMjXJ9g" name="Selected" incoming="_Un_rxoGqEeqSC4bGMjXJ9g" outgoing="_Un_rxYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//StructuredActivityNode"/>
+      </nodes>
+      <nodes xmi:id="_Un_rxIGqEeqSC4bGMjXJ9g" name="ToBeDeleted" incoming="_Un_rxYGqEeqSC4bGMjXJ9g" outgoing="_Un_rxoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ControlFlow"/>
+      </nodes>
+      <edges xmi:id="_Un_rxYGqEeqSC4bGMjXJ9g" source="_Un_rw4GqEeqSC4bGMjXJ9g" target="_Un_rxIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//StructuredActivityNode/edge"/>
+      </edges>
+      <edges xmi:id="_Un_rxoGqEeqSC4bGMjXJ9g" source="_Un_rxIGqEeqSC4bGMjXJ9g" target="_Un_rw4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityEdge/inStructuredNode"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_Un_rx4GqEeqSC4bGMjXJ9g" name="RHS">
+      <nodes xmi:id="_Un_ryIGqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//StructuredActivityNode"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_Un_ryYGqEeqSC4bGMjXJ9g" origin="_Un_rw4GqEeqSC4bGMjXJ9g" image="_Un_ryIGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

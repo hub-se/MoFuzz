@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UK-YkIGqEeqSC4bGMjXJ9g" name="CREATE_ControlFlow_IN_StructuredActivityNode_(edge)" description="Creates one ControlFlow in StructuredActivityNode">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UK-YkYGqEeqSC4bGMjXJ9g" name="createControlFlow_IN_StructuredActivityNode" description="creates one ControlFlow in the context: StructuredActivityNode">
+    <parameters xmi:id="_UK-YkoGqEeqSC4bGMjXJ9g" name="IsLeaf" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <lhs xmi:id="_UK-Yk4GqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_UK-YlIGqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//StructuredActivityNode"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_UK-YlYGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_UK-YloGqEeqSC4bGMjXJ9g" name="Selected" incoming="_UK-YmoGqEeqSC4bGMjXJ9g" outgoing="_UK-YmYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//StructuredActivityNode"/>
+      </nodes>
+      <nodes xmi:id="_UK-Yl4GqEeqSC4bGMjXJ9g" name="New" incoming="_UK-YmYGqEeqSC4bGMjXJ9g" outgoing="_UK-YmoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ControlFlow"/>
+        <attributes xmi:id="_UK-YmIGqEeqSC4bGMjXJ9g" value="IsLeaf">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//RedefinableElement/isLeaf"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_UK-YmYGqEeqSC4bGMjXJ9g" source="_UK-YloGqEeqSC4bGMjXJ9g" target="_UK-Yl4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//StructuredActivityNode/edge"/>
+      </edges>
+      <edges xmi:id="_UK-YmoGqEeqSC4bGMjXJ9g" source="_UK-Yl4GqEeqSC4bGMjXJ9g" target="_UK-YloGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityEdge/inStructuredNode"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_UK-Ym4GqEeqSC4bGMjXJ9g" origin="_UK-YlIGqEeqSC4bGMjXJ9g" image="_UK-YloGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_1206EIGoEeqjxJ91AzqJlg" name="CREATE_CallEvent_IN_TemplateParameter_(ownedDefault)" description="Creates one CallEvent in TemplateParameter">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_1206EYGoEeqjxJ91AzqJlg" name="createCallEvent_IN_TemplateParameter" description="creates one CallEvent in the context: TemplateParameter">
+    <lhs xmi:id="_1206EoGoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_1206E4GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameter"/>
+      </nodes>
+      <nodes xmi:id="_1206FIGoEeqjxJ91AzqJlg" name="Existing">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Operation"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_1206FYGoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_1206FoGoEeqjxJ91AzqJlg" name="Selected" outgoing="_1206GYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameter"/>
+      </nodes>
+      <nodes xmi:id="_1206F4GoEeqjxJ91AzqJlg" name="New" incoming="_1206GYGoEeqjxJ91AzqJlg" outgoing="_1206GoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//CallEvent"/>
+      </nodes>
+      <nodes xmi:id="_1206GIGoEeqjxJ91AzqJlg" name="Existing" incoming="_1206GoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Operation"/>
+      </nodes>
+      <edges xmi:id="_1206GYGoEeqjxJ91AzqJlg" source="_1206FoGoEeqjxJ91AzqJlg" target="_1206F4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameter/ownedDefault"/>
+      </edges>
+      <edges xmi:id="_1206GoGoEeqjxJ91AzqJlg" source="_1206F4GoEeqjxJ91AzqJlg" target="_1206GIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//CallEvent/operation"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_1206G4GoEeqjxJ91AzqJlg" origin="_1206E4GoEeqjxJ91AzqJlg" image="_1206FoGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_1206HIGoEeqjxJ91AzqJlg" origin="_1206FIGoEeqjxJ91AzqJlg" image="_1206GIGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

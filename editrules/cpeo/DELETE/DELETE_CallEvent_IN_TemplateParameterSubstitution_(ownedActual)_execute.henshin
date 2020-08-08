@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_1D8EkIGoEeqjxJ91AzqJlg" name="DELETE_CallEvent_IN_TemplateParameterSubstitution_(ownedActual)" description="Deletes one CallEvent in TemplateParameterSubstitution">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_1D8EkYGoEeqjxJ91AzqJlg" name="deleteCallEvent_IN_TemplateParameterSubstitution" description="deletes one CallEvent in the context: TemplateParameterSubstitution">
+    <lhs xmi:id="_1D8EkoGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_1D8Ek4GoEeqjxJ91AzqJlg" name="Selected" outgoing="_1D8EloGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameterSubstitution"/>
+      </nodes>
+      <nodes xmi:id="_1D8ElIGoEeqjxJ91AzqJlg" name="ToBeDeleted" incoming="_1D8EloGoEeqjxJ91AzqJlg" outgoing="_1D8El4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//CallEvent"/>
+      </nodes>
+      <nodes xmi:id="_1D8ElYGoEeqjxJ91AzqJlg" name="Existing" incoming="_1D8El4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Operation"/>
+      </nodes>
+      <edges xmi:id="_1D8EloGoEeqjxJ91AzqJlg" source="_1D8Ek4GoEeqjxJ91AzqJlg" target="_1D8ElIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameterSubstitution/ownedActual"/>
+      </edges>
+      <edges xmi:id="_1D8El4GoEeqjxJ91AzqJlg" source="_1D8ElIGoEeqjxJ91AzqJlg" target="_1D8ElYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//CallEvent/operation"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_1D8EmIGoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_1D8EmYGoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameterSubstitution"/>
+      </nodes>
+      <nodes xmi:id="_1D8EmoGoEeqjxJ91AzqJlg" name="Existing">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Operation"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_1D8Em4GoEeqjxJ91AzqJlg" origin="_1D8Ek4GoEeqjxJ91AzqJlg" image="_1D8EmYGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_1D8EnIGoEeqjxJ91AzqJlg" origin="_1D8ElYGoEeqjxJ91AzqJlg" image="_1D8EmoGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_2bj-0IGoEeqjxJ91AzqJlg" name="MOVE_Constraint_FROM_Action_(localPrecondition)_TO_Action_(localPrecondition)" description="MOVEs Constraint from Action(Reference:localPrecondition) to Action(Reference:localPrecondition">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_2bj-0YGoEeqjxJ91AzqJlg" name="moveConstraint_FROM_Action_localPrecondition_TO_Action_Action" description="Moves Constraint from Action(Reference:localPrecondition) toAction(Reference:Action)">
+    <lhs xmi:id="_2bj-0oGoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_2bj-04GoEeqjxJ91AzqJlg" name="Selected" incoming="_2bj-1oGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Constraint"/>
+      </nodes>
+      <nodes xmi:id="_2bj-1IGoEeqjxJ91AzqJlg" name="OldSource" outgoing="_2bj-1oGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Action"/>
+      </nodes>
+      <nodes xmi:id="_2bj-1YGoEeqjxJ91AzqJlg" name="NewSource">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Action"/>
+      </nodes>
+      <edges xmi:id="_2bj-1oGoEeqjxJ91AzqJlg" source="_2bj-1IGoEeqjxJ91AzqJlg" target="_2bj-04GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Action/localPrecondition"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_2bj-14GoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_2bj-2IGoEeqjxJ91AzqJlg" name="Selected" incoming="_2bj-24GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Constraint"/>
+      </nodes>
+      <nodes xmi:id="_2bj-2YGoEeqjxJ91AzqJlg" name="OldSource">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Action"/>
+      </nodes>
+      <nodes xmi:id="_2bj-2oGoEeqjxJ91AzqJlg" name="NewSource" outgoing="_2bj-24GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Action"/>
+      </nodes>
+      <edges xmi:id="_2bj-24GoEeqjxJ91AzqJlg" source="_2bj-2oGoEeqjxJ91AzqJlg" target="_2bj-2IGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Action/localPrecondition"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_2bj-3IGoEeqjxJ91AzqJlg" origin="_2bj-04GoEeqjxJ91AzqJlg" image="_2bj-2IGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_2bj-3YGoEeqjxJ91AzqJlg" origin="_2bj-1IGoEeqjxJ91AzqJlg" image="_2bj-2YGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_2bj-3oGoEeqjxJ91AzqJlg" origin="_2bj-1YGoEeqjxJ91AzqJlg" image="_2bj-2oGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

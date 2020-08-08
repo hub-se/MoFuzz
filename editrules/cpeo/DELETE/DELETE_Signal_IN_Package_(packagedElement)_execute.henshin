@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_1IemUIGoEeqjxJ91AzqJlg" name="DELETE_Signal_IN_Package_(packagedElement)" description="Deletes one Signal in Package">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_1IemUYGoEeqjxJ91AzqJlg" name="deleteSignal_IN_Package" description="deletes one Signal in the context: Package">
+    <lhs xmi:id="_1IemUoGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_1IemU4GoEeqjxJ91AzqJlg" name="Selected" outgoing="_1IemVYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </nodes>
+      <nodes xmi:id="_1IemVIGoEeqjxJ91AzqJlg" name="ToBeDeleted" incoming="_1IemVYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Signal"/>
+      </nodes>
+      <edges xmi:id="_1IemVYGoEeqjxJ91AzqJlg" source="_1IemU4GoEeqjxJ91AzqJlg" target="_1IemVIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Package/packagedElement"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_1IemVoGoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_1IemV4GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_1IemWIGoEeqjxJ91AzqJlg" origin="_1IemU4GoEeqjxJ91AzqJlg" image="_1IemV4GoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

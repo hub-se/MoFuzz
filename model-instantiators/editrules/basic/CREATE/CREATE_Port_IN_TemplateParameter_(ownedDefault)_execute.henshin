@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UcKPMIGqEeqSC4bGMjXJ9g" name="CREATE_Port_IN_TemplateParameter_(ownedDefault)" description="Creates one Port in TemplateParameter">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UcKPMYGqEeqSC4bGMjXJ9g" name="createPort_IN_TemplateParameter" description="creates one Port in the context: TemplateParameter">
+    <parameters xmi:id="_UcKPMoGqEeqSC4bGMjXJ9g" name="IsLeaf" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <parameters xmi:id="_UcKPM4GqEeqSC4bGMjXJ9g" name="IsStatic" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <parameters xmi:id="_UcKPNIGqEeqSC4bGMjXJ9g" name="IsOrdered" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <parameters xmi:id="_UcKPNYGqEeqSC4bGMjXJ9g" name="IsUnique" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <parameters xmi:id="_UcKPNoGqEeqSC4bGMjXJ9g" name="IsReadOnly" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <parameters xmi:id="_UcKPN4GqEeqSC4bGMjXJ9g" name="Aggregation" kind="IN">
+      <type xsi:type="ecore:EEnum" href="http://www.eclipse.org/uml2/5.0.0/UML#//AggregationKind"/>
+    </parameters>
+    <parameters xmi:id="_UcKPOIGqEeqSC4bGMjXJ9g" name="IsDerived" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <parameters xmi:id="_UcKPOYGqEeqSC4bGMjXJ9g" name="IsDerivedUnion" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <parameters xmi:id="_UcKPOoGqEeqSC4bGMjXJ9g" name="IsID" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <parameters xmi:id="_UcKPO4GqEeqSC4bGMjXJ9g" name="IsBehavior" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <parameters xmi:id="_UcKPPIGqEeqSC4bGMjXJ9g" name="IsConjugated" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <parameters xmi:id="_UcKPPYGqEeqSC4bGMjXJ9g" name="IsService" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <lhs xmi:id="_UcKPPoGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_UcKPP4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameter"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_UcKPQIGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_UcKPQYGqEeqSC4bGMjXJ9g" name="Selected" outgoing="_UcKPT4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameter"/>
+      </nodes>
+      <nodes xmi:id="_UcKPQoGqEeqSC4bGMjXJ9g" name="New" incoming="_UcKPT4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Port"/>
+        <attributes xmi:id="_UcKPQ4GqEeqSC4bGMjXJ9g" value="IsLeaf">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//RedefinableElement/isLeaf"/>
+        </attributes>
+        <attributes xmi:id="_UcKPRIGqEeqSC4bGMjXJ9g" value="IsStatic">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Feature/isStatic"/>
+        </attributes>
+        <attributes xmi:id="_UcKPRYGqEeqSC4bGMjXJ9g" value="IsOrdered">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//MultiplicityElement/isOrdered"/>
+        </attributes>
+        <attributes xmi:id="_UcKPRoGqEeqSC4bGMjXJ9g" value="IsUnique">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//MultiplicityElement/isUnique"/>
+        </attributes>
+        <attributes xmi:id="_UcKPR4GqEeqSC4bGMjXJ9g" value="IsReadOnly">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//StructuralFeature/isReadOnly"/>
+        </attributes>
+        <attributes xmi:id="_UcKPSIGqEeqSC4bGMjXJ9g" value="Aggregation">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Property/aggregation"/>
+        </attributes>
+        <attributes xmi:id="_UcKPSYGqEeqSC4bGMjXJ9g" value="IsDerived">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Property/isDerived"/>
+        </attributes>
+        <attributes xmi:id="_UcKPSoGqEeqSC4bGMjXJ9g" value="IsDerivedUnion">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Property/isDerivedUnion"/>
+        </attributes>
+        <attributes xmi:id="_UcKPS4GqEeqSC4bGMjXJ9g" value="IsID">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Property/isID"/>
+        </attributes>
+        <attributes xmi:id="_UcKPTIGqEeqSC4bGMjXJ9g" value="IsBehavior">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Port/isBehavior"/>
+        </attributes>
+        <attributes xmi:id="_UcKPTYGqEeqSC4bGMjXJ9g" value="IsConjugated">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Port/isConjugated"/>
+        </attributes>
+        <attributes xmi:id="_UcKPToGqEeqSC4bGMjXJ9g" value="IsService">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Port/isService"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_UcKPT4GqEeqSC4bGMjXJ9g" source="_UcKPQYGqEeqSC4bGMjXJ9g" target="_UcKPQoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameter/ownedDefault"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_UcKPUIGqEeqSC4bGMjXJ9g" origin="_UcKPP4GqEeqSC4bGMjXJ9g" image="_UcKPQYGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

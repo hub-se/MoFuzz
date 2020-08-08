@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_2DVFAIGoEeqjxJ91AzqJlg" name="UNSET_REFERENCE_ActivityEdge_(interrupts)_TGT_InterruptibleActivityRegion" description="Sets ActivityEdge's reference interrupts the target InterruptibleActivityRegion">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_2DVFAYGoEeqjxJ91AzqJlg" name="setActivityEdge_interrupts_TO_InterruptibleActivityRegion" description="SetActivityEdgeRefinterruptsToInterruptibleActivityRegion">
+    <lhs xmi:id="_2DVFAoGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_2DVFA4GoEeqjxJ91AzqJlg" name="Selected" incoming="_2DVFBoGoEeqjxJ91AzqJlg" outgoing="_2DVFBYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityEdge"/>
+      </nodes>
+      <nodes xmi:id="_2DVFBIGoEeqjxJ91AzqJlg" name="NewTarget" incoming="_2DVFBYGoEeqjxJ91AzqJlg" outgoing="_2DVFBoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InterruptibleActivityRegion"/>
+      </nodes>
+      <edges xmi:id="_2DVFBYGoEeqjxJ91AzqJlg" source="_2DVFA4GoEeqjxJ91AzqJlg" target="_2DVFBIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityEdge/interrupts"/>
+      </edges>
+      <edges xmi:id="_2DVFBoGoEeqjxJ91AzqJlg" source="_2DVFBIGoEeqjxJ91AzqJlg" target="_2DVFA4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InterruptibleActivityRegion/interruptingEdge"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_2DVFB4GoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_2DVFCIGoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityEdge"/>
+      </nodes>
+      <nodes xmi:id="_2DVFCYGoEeqjxJ91AzqJlg" name="NewTarget">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InterruptibleActivityRegion"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_2DVFCoGoEeqjxJ91AzqJlg" origin="_2DVFA4GoEeqjxJ91AzqJlg" image="_2DVFCIGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_2DVFC4GoEeqjxJ91AzqJlg" origin="_2DVFBIGoEeqjxJ91AzqJlg" image="_2DVFCYGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

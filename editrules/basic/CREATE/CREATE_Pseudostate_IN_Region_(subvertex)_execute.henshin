@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UWOmUIGqEeqSC4bGMjXJ9g" name="CREATE_Pseudostate_IN_Region_(subvertex)" description="Creates one Pseudostate in Region">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UWOmUYGqEeqSC4bGMjXJ9g" name="createPseudostate_IN_Region" description="creates one Pseudostate in the context: Region">
+    <parameters xmi:id="_UWOmUoGqEeqSC4bGMjXJ9g" name="Kind" kind="IN">
+      <type xsi:type="ecore:EEnum" href="http://www.eclipse.org/uml2/5.0.0/UML#//PseudostateKind"/>
+    </parameters>
+    <lhs xmi:id="_UWOmU4GqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_UWOmVIGqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Region"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_UWOmVYGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_UWOmVoGqEeqSC4bGMjXJ9g" name="Selected" incoming="_UWOmWoGqEeqSC4bGMjXJ9g" outgoing="_UWOmWYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Region"/>
+      </nodes>
+      <nodes xmi:id="_UWOmV4GqEeqSC4bGMjXJ9g" name="New" incoming="_UWOmWYGqEeqSC4bGMjXJ9g" outgoing="_UWOmWoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Pseudostate"/>
+        <attributes xmi:id="_UWOmWIGqEeqSC4bGMjXJ9g" value="Kind">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Pseudostate/kind"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_UWOmWYGqEeqSC4bGMjXJ9g" source="_UWOmVoGqEeqSC4bGMjXJ9g" target="_UWOmV4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Region/subvertex"/>
+      </edges>
+      <edges xmi:id="_UWOmWoGqEeqSC4bGMjXJ9g" source="_UWOmV4GqEeqSC4bGMjXJ9g" target="_UWOmVoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Vertex/container"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_UWOmW4GqEeqSC4bGMjXJ9g" origin="_UWOmVIGqEeqSC4bGMjXJ9g" image="_UWOmVoGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

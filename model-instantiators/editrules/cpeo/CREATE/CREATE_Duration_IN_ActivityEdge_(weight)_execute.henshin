@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_1qgVUIGoEeqjxJ91AzqJlg" name="CREATE_Duration_IN_ActivityEdge_(weight)" description="Creates one Duration in ActivityEdge">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_1qgVUYGoEeqjxJ91AzqJlg" name="createDuration_IN_ActivityEdge" description="creates one Duration in the context: ActivityEdge">
+    <lhs xmi:id="_1qgVUoGoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_1qgVU4GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityEdge"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_1qgVVIGoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_1qgVVYGoEeqjxJ91AzqJlg" name="Selected" outgoing="_1qgVV4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityEdge"/>
+      </nodes>
+      <nodes xmi:id="_1qgVVoGoEeqjxJ91AzqJlg" name="New" incoming="_1qgVV4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Duration"/>
+      </nodes>
+      <edges xmi:id="_1qgVV4GoEeqjxJ91AzqJlg" source="_1qgVVYGoEeqjxJ91AzqJlg" target="_1qgVVoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityEdge/weight"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_1qgVWIGoEeqjxJ91AzqJlg" origin="_1qgVU4GoEeqjxJ91AzqJlg" image="_1qgVVYGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

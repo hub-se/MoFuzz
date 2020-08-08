@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_2PSdYIGoEeqjxJ91AzqJlg" name="REMOVE_CallAction_(inPartition)_TGT_ActivityPartition" description="Removes CallAction's reference inPartition the target ActivityPartition">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_2PSdYYGoEeqjxJ91AzqJlg" name="removeFromCallAction_inPartition_ActivityPartition" description="Removes from CallAction's reference inPartition the target ActivityPartition">
+    <lhs xmi:id="_2PSdYoGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_2PSdY4GoEeqjxJ91AzqJlg" name="Selected" incoming="_2PSdZoGoEeqjxJ91AzqJlg" outgoing="_2PSdZYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//CallAction"/>
+      </nodes>
+      <nodes xmi:id="_2PSdZIGoEeqjxJ91AzqJlg" name="OldTarget" incoming="_2PSdZYGoEeqjxJ91AzqJlg" outgoing="_2PSdZoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityPartition"/>
+      </nodes>
+      <edges xmi:id="_2PSdZYGoEeqjxJ91AzqJlg" source="_2PSdY4GoEeqjxJ91AzqJlg" target="_2PSdZIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityNode/inPartition"/>
+      </edges>
+      <edges xmi:id="_2PSdZoGoEeqjxJ91AzqJlg" source="_2PSdZIGoEeqjxJ91AzqJlg" target="_2PSdY4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityPartition/node"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_2PSdZ4GoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_2PSdaIGoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//CallAction"/>
+      </nodes>
+      <nodes xmi:id="_2PSdaYGoEeqjxJ91AzqJlg" name="OldTarget">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityPartition"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_2PSdaoGoEeqjxJ91AzqJlg" origin="_2PSdY4GoEeqjxJ91AzqJlg" image="_2PSdaIGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_2PSda4GoEeqjxJ91AzqJlg" origin="_2PSdZIGoEeqjxJ91AzqJlg" image="_2PSdaYGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

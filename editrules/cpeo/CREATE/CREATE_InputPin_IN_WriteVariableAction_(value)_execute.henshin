@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_1pu5QIGoEeqjxJ91AzqJlg" name="CREATE_InputPin_IN_WriteVariableAction_(value)" description="Creates one InputPin in WriteVariableAction">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_1pu5QYGoEeqjxJ91AzqJlg" name="createInputPin_IN_WriteVariableAction" description="creates one InputPin in the context: WriteVariableAction">
+    <parameters xmi:id="_1pu5QoGoEeqjxJ91AzqJlg" name="IsLeaf" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <parameters xmi:id="_1pu5Q4GoEeqjxJ91AzqJlg" name="IsControlType" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <parameters xmi:id="_1pu5RIGoEeqjxJ91AzqJlg" name="Ordering" kind="IN">
+      <type xsi:type="ecore:EEnum" href="http://www.eclipse.org/uml2/5.0.0/UML#//ObjectNodeOrderingKind"/>
+    </parameters>
+    <parameters xmi:id="_1pu5RYGoEeqjxJ91AzqJlg" name="IsOrdered" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <parameters xmi:id="_1pu5RoGoEeqjxJ91AzqJlg" name="IsUnique" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <parameters xmi:id="_1pu5R4GoEeqjxJ91AzqJlg" name="IsControl1" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <lhs xmi:id="_1pu5SIGoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_1pu5SYGoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//WriteVariableAction"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_1pu5SoGoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_1pu5S4GoEeqjxJ91AzqJlg" name="Selected" outgoing="_1pu5U4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//WriteVariableAction"/>
+      </nodes>
+      <nodes xmi:id="_1pu5TIGoEeqjxJ91AzqJlg" name="New" incoming="_1pu5U4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InputPin"/>
+        <attributes xmi:id="_1pu5TYGoEeqjxJ91AzqJlg" value="IsLeaf">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//RedefinableElement/isLeaf"/>
+        </attributes>
+        <attributes xmi:id="_1pu5ToGoEeqjxJ91AzqJlg" value="IsControlType">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ObjectNode/isControlType"/>
+        </attributes>
+        <attributes xmi:id="_1pu5T4GoEeqjxJ91AzqJlg" value="Ordering">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ObjectNode/ordering"/>
+        </attributes>
+        <attributes xmi:id="_1pu5UIGoEeqjxJ91AzqJlg" value="IsOrdered">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//MultiplicityElement/isOrdered"/>
+        </attributes>
+        <attributes xmi:id="_1pu5UYGoEeqjxJ91AzqJlg" value="IsUnique">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//MultiplicityElement/isUnique"/>
+        </attributes>
+        <attributes xmi:id="_1pu5UoGoEeqjxJ91AzqJlg" value="IsControl1">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Pin/isControl"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_1pu5U4GoEeqjxJ91AzqJlg" source="_1pu5S4GoEeqjxJ91AzqJlg" target="_1pu5TIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//WriteVariableAction/value"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_1pu5VIGoEeqjxJ91AzqJlg" origin="_1pu5SYGoEeqjxJ91AzqJlg" image="_1pu5S4GoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

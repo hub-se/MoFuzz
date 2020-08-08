@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_1HJJkIGoEeqjxJ91AzqJlg" name="DELETE_ValuePin_IN_OpaqueAction_(inputValue)" description="Deletes one ValuePin in OpaqueAction">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_1HJJkYGoEeqjxJ91AzqJlg" name="deleteValuePin_IN_OpaqueAction" description="deletes one ValuePin in the context: OpaqueAction">
+    <lhs xmi:id="_1HJJkoGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_1HJJk4GoEeqjxJ91AzqJlg" name="Selected" outgoing="_1HJJloGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//OpaqueAction"/>
+      </nodes>
+      <nodes xmi:id="_1HJJlIGoEeqjxJ91AzqJlg" name="ToBeDeleted" incoming="_1HJJloGoEeqjxJ91AzqJlg" outgoing="_1HJJl4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ValuePin"/>
+      </nodes>
+      <nodes xmi:id="_1HJJlYGoEeqjxJ91AzqJlg" name="Child" incoming="_1HJJl4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ValueSpecification"/>
+      </nodes>
+      <edges xmi:id="_1HJJloGoEeqjxJ91AzqJlg" source="_1HJJk4GoEeqjxJ91AzqJlg" target="_1HJJlIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//OpaqueAction/inputValue"/>
+      </edges>
+      <edges xmi:id="_1HJJl4GoEeqjxJ91AzqJlg" source="_1HJJlIGoEeqjxJ91AzqJlg" target="_1HJJlYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ValuePin/value"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_1HJJmIGoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_1HJJmYGoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//OpaqueAction"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_1HJJmoGoEeqjxJ91AzqJlg" origin="_1HJJk4GoEeqjxJ91AzqJlg" image="_1HJJmYGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

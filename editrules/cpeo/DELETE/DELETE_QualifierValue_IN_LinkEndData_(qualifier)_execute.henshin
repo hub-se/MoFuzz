@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_1E7jEIGoEeqjxJ91AzqJlg" name="DELETE_QualifierValue_IN_LinkEndData_(qualifier)" description="Deletes one QualifierValue in LinkEndData">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_1E7jEYGoEeqjxJ91AzqJlg" name="deleteQualifierValue_IN_LinkEndData" description="deletes one QualifierValue in the context: LinkEndData">
+    <lhs xmi:id="_1E7jEoGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_1E7jE4GoEeqjxJ91AzqJlg" name="Selected" outgoing="_1E7jF4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LinkEndData"/>
+      </nodes>
+      <nodes xmi:id="_1E7jFIGoEeqjxJ91AzqJlg" name="ToBeDeleted" incoming="_1E7jF4GoEeqjxJ91AzqJlg" outgoing="_1E7jGIGoEeqjxJ91AzqJlg _1E7jGYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//QualifierValue"/>
+      </nodes>
+      <nodes xmi:id="_1E7jFYGoEeqjxJ91AzqJlg" name="Existing" incoming="_1E7jGIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InputPin"/>
+      </nodes>
+      <nodes xmi:id="_1E7jFoGoEeqjxJ91AzqJlg" name="Existing1" incoming="_1E7jGYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Property"/>
+      </nodes>
+      <edges xmi:id="_1E7jF4GoEeqjxJ91AzqJlg" source="_1E7jE4GoEeqjxJ91AzqJlg" target="_1E7jFIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LinkEndData/qualifier"/>
+      </edges>
+      <edges xmi:id="_1E7jGIGoEeqjxJ91AzqJlg" source="_1E7jFIGoEeqjxJ91AzqJlg" target="_1E7jFYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//QualifierValue/value"/>
+      </edges>
+      <edges xmi:id="_1E7jGYGoEeqjxJ91AzqJlg" source="_1E7jFIGoEeqjxJ91AzqJlg" target="_1E7jFoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//QualifierValue/qualifier"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_1E7jGoGoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_1E7jG4GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LinkEndData"/>
+      </nodes>
+      <nodes xmi:id="_1E7jHIGoEeqjxJ91AzqJlg" name="Existing">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InputPin"/>
+      </nodes>
+      <nodes xmi:id="_1E7jHYGoEeqjxJ91AzqJlg" name="Existing1">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Property"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_1E7jHoGoEeqjxJ91AzqJlg" origin="_1E7jE4GoEeqjxJ91AzqJlg" image="_1E7jG4GoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_1E7jH4GoEeqjxJ91AzqJlg" origin="_1E7jFYGoEeqjxJ91AzqJlg" image="_1E7jHIGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_1E7jIIGoEeqjxJ91AzqJlg" origin="_1E7jFoGoEeqjxJ91AzqJlg" image="_1E7jHYGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UKFnwIGqEeqSC4bGMjXJ9g" name="CREATE_Interval_IN_MultiplicityElement_(lowerValue)" description="Creates one Interval in MultiplicityElement">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UKFnwYGqEeqSC4bGMjXJ9g" name="createInterval_IN_MultiplicityElement" description="creates one Interval in the context: MultiplicityElement">
+    <lhs xmi:id="_UKFnwoGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_UKFnw4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//MultiplicityElement"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_UKFnxIGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_UKFnxYGqEeqSC4bGMjXJ9g" name="Selected" outgoing="_UKFnx4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//MultiplicityElement"/>
+      </nodes>
+      <nodes xmi:id="_UKFnxoGqEeqSC4bGMjXJ9g" name="New" incoming="_UKFnx4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Interval"/>
+      </nodes>
+      <edges xmi:id="_UKFnx4GqEeqSC4bGMjXJ9g" source="_UKFnxYGqEeqSC4bGMjXJ9g" target="_UKFnxoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//MultiplicityElement/lowerValue"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_UKFnyIGqEeqSC4bGMjXJ9g" origin="_UKFnw4GqEeqSC4bGMjXJ9g" image="_UKFnxYGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

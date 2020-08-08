@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UuDQcIGqEeqSC4bGMjXJ9g" name="DELETE_InterruptibleActivityRegion_IN_Activity_(ownedGroup)" description="Deletes one InterruptibleActivityRegion in Activity">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UuDQcYGqEeqSC4bGMjXJ9g" name="deleteInterruptibleActivityRegion_IN_Activity" description="deletes one InterruptibleActivityRegion in the context: Activity">
+    <lhs xmi:id="_UuDQcoGqEeqSC4bGMjXJ9g" name="LHS">
+      <nodes xmi:id="_UuDQc4GqEeqSC4bGMjXJ9g" name="Selected" outgoing="_UuDQdYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Activity"/>
+      </nodes>
+      <nodes xmi:id="_UuDQdIGqEeqSC4bGMjXJ9g" name="ToBeDeleted" incoming="_UuDQdYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InterruptibleActivityRegion"/>
+      </nodes>
+      <edges xmi:id="_UuDQdYGqEeqSC4bGMjXJ9g" source="_UuDQc4GqEeqSC4bGMjXJ9g" target="_UuDQdIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Activity/ownedGroup"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_UuDQdoGqEeqSC4bGMjXJ9g" name="RHS">
+      <nodes xmi:id="_UuDQd4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Activity"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_UuDQeIGqEeqSC4bGMjXJ9g" origin="_UuDQc4GqEeqSC4bGMjXJ9g" image="_UuDQd4GqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

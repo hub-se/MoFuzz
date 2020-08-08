@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_TXyBEIGqEeqSC4bGMjXJ9g" name="REMOVE_Signal_(redefinedClassifier)_TGT_Classifier" description="Removes Signal's reference redefinedClassifier the target Classifier">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_TXyBEYGqEeqSC4bGMjXJ9g" name="removeFromSignal_redefinedClassifier_Classifier" description="Removes from Signal's reference redefinedClassifier the target Classifier">
+    <lhs xmi:id="_TXyBEoGqEeqSC4bGMjXJ9g" name="LHS">
+      <nodes xmi:id="_TXyBE4GqEeqSC4bGMjXJ9g" name="Selected" outgoing="_TXyBFYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Signal"/>
+      </nodes>
+      <nodes xmi:id="_TXyBFIGqEeqSC4bGMjXJ9g" name="OldTarget" incoming="_TXyBFYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier"/>
+      </nodes>
+      <edges xmi:id="_TXyBFYGqEeqSC4bGMjXJ9g" source="_TXyBE4GqEeqSC4bGMjXJ9g" target="_TXyBFIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier/redefinedClassifier"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_TXyBFoGqEeqSC4bGMjXJ9g" name="RHS">
+      <nodes xmi:id="_TXyBF4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Signal"/>
+      </nodes>
+      <nodes xmi:id="_TXyBGIGqEeqSC4bGMjXJ9g" name="OldTarget">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_TXyBGYGqEeqSC4bGMjXJ9g" origin="_TXyBE4GqEeqSC4bGMjXJ9g" image="_TXyBF4GqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_TXyBGoGqEeqSC4bGMjXJ9g" origin="_TXyBFIGqEeqSC4bGMjXJ9g" image="_TXyBGIGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

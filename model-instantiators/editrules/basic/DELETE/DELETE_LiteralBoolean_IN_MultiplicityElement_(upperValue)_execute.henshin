@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_Upb2MIGqEeqSC4bGMjXJ9g" name="DELETE_LiteralBoolean_IN_MultiplicityElement_(upperValue)" description="Deletes one LiteralBoolean in MultiplicityElement">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_Upb2MYGqEeqSC4bGMjXJ9g" name="deleteLiteralBoolean_IN_MultiplicityElement" description="deletes one LiteralBoolean in the context: MultiplicityElement">
+    <lhs xmi:id="_Upb2MoGqEeqSC4bGMjXJ9g" name="LHS">
+      <nodes xmi:id="_Upb2M4GqEeqSC4bGMjXJ9g" name="Selected" outgoing="_Upb2NYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//MultiplicityElement"/>
+      </nodes>
+      <nodes xmi:id="_Upb2NIGqEeqSC4bGMjXJ9g" name="ToBeDeleted" incoming="_Upb2NYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LiteralBoolean"/>
+      </nodes>
+      <edges xmi:id="_Upb2NYGqEeqSC4bGMjXJ9g" source="_Upb2M4GqEeqSC4bGMjXJ9g" target="_Upb2NIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//MultiplicityElement/upperValue"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_Upb2NoGqEeqSC4bGMjXJ9g" name="RHS">
+      <nodes xmi:id="_Upb2N4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//MultiplicityElement"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_Upb2OIGqEeqSC4bGMjXJ9g" origin="_Upb2M4GqEeqSC4bGMjXJ9g" image="_Upb2N4GqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_ThMbwIGqEeqSC4bGMjXJ9g" name="REMOVE_Port_(redefinedPort)_TGT_Port" description="Removes Port's reference redefinedPort the target Port">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_ThMbwYGqEeqSC4bGMjXJ9g" name="removeFromPort_redefinedPort_Port" description="Removes from Port's reference redefinedPort the target Port">
+    <lhs xmi:id="_ThMbwoGqEeqSC4bGMjXJ9g" name="LHS">
+      <nodes xmi:id="_ThMbw4GqEeqSC4bGMjXJ9g" name="Selected" outgoing="_ThMbxYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Port"/>
+      </nodes>
+      <nodes xmi:id="_ThMbxIGqEeqSC4bGMjXJ9g" name="OldTarget" incoming="_ThMbxYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Port"/>
+      </nodes>
+      <edges xmi:id="_ThMbxYGqEeqSC4bGMjXJ9g" source="_ThMbw4GqEeqSC4bGMjXJ9g" target="_ThMbxIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Port/redefinedPort"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_ThMbxoGqEeqSC4bGMjXJ9g" name="RHS">
+      <nodes xmi:id="_ThMbx4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Port"/>
+      </nodes>
+      <nodes xmi:id="_ThMbyIGqEeqSC4bGMjXJ9g" name="OldTarget">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Port"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_ThMbyYGqEeqSC4bGMjXJ9g" origin="_ThMbw4GqEeqSC4bGMjXJ9g" image="_ThMbx4GqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_ThMbyoGqEeqSC4bGMjXJ9g" origin="_ThMbxIGqEeqSC4bGMjXJ9g" image="_ThMbyIGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

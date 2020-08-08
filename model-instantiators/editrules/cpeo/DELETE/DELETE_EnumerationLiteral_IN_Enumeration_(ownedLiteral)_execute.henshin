@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_1EOYcIGoEeqjxJ91AzqJlg" name="DELETE_EnumerationLiteral_IN_Enumeration_(ownedLiteral)" description="Deletes one EnumerationLiteral in Enumeration">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_1EOYcYGoEeqjxJ91AzqJlg" name="deleteEnumerationLiteral_IN_Enumeration" description="deletes one EnumerationLiteral in the context: Enumeration">
+    <lhs xmi:id="_1EOYcoGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_1EOYc4GoEeqjxJ91AzqJlg" name="Selected" incoming="_1EOYdoGoEeqjxJ91AzqJlg" outgoing="_1EOYdYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Enumeration"/>
+      </nodes>
+      <nodes xmi:id="_1EOYdIGoEeqjxJ91AzqJlg" name="ToBeDeleted" incoming="_1EOYdYGoEeqjxJ91AzqJlg" outgoing="_1EOYdoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//EnumerationLiteral"/>
+      </nodes>
+      <edges xmi:id="_1EOYdYGoEeqjxJ91AzqJlg" source="_1EOYc4GoEeqjxJ91AzqJlg" target="_1EOYdIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Enumeration/ownedLiteral"/>
+      </edges>
+      <edges xmi:id="_1EOYdoGoEeqjxJ91AzqJlg" source="_1EOYdIGoEeqjxJ91AzqJlg" target="_1EOYc4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//EnumerationLiteral/enumeration"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_1EOYd4GoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_1EOYeIGoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Enumeration"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_1EOYeYGoEeqjxJ91AzqJlg" origin="_1EOYc4GoEeqjxJ91AzqJlg" image="_1EOYeIGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

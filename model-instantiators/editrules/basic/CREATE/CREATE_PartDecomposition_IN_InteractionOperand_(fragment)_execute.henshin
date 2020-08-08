@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UNxN4IGqEeqSC4bGMjXJ9g" name="CREATE_PartDecomposition_IN_InteractionOperand_(fragment)" description="Creates one PartDecomposition in InteractionOperand">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UNxN4YGqEeqSC4bGMjXJ9g" name="createPartDecomposition_IN_InteractionOperand" description="creates one PartDecomposition in the context: InteractionOperand">
+    <lhs xmi:id="_UNxN4oGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_UNxN44GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InteractionOperand"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_UNxN5IGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_UNxN5YGqEeqSC4bGMjXJ9g" name="Selected" incoming="_UNxN6IGqEeqSC4bGMjXJ9g" outgoing="_UNxN54GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InteractionOperand"/>
+      </nodes>
+      <nodes xmi:id="_UNxN5oGqEeqSC4bGMjXJ9g" name="New" incoming="_UNxN54GqEeqSC4bGMjXJ9g" outgoing="_UNxN6IGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//PartDecomposition"/>
+      </nodes>
+      <edges xmi:id="_UNxN54GqEeqSC4bGMjXJ9g" source="_UNxN5YGqEeqSC4bGMjXJ9g" target="_UNxN5oGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InteractionOperand/fragment"/>
+      </edges>
+      <edges xmi:id="_UNxN6IGqEeqSC4bGMjXJ9g" source="_UNxN5oGqEeqSC4bGMjXJ9g" target="_UNxN5YGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InteractionFragment/enclosingOperand"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_UNxN6YGqEeqSC4bGMjXJ9g" origin="_UNxN44GqEeqSC4bGMjXJ9g" image="_UNxN5YGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

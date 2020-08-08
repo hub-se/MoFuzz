@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_09gFYIGoEeqjxJ91AzqJlg" name="DELETE_AcceptEventAction_IN_Activity_(ownedNode)" description="Deletes one AcceptEventAction in Activity">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_09gFYYGoEeqjxJ91AzqJlg" name="deleteAcceptEventAction_IN_Activity" description="deletes one AcceptEventAction in the context: Activity">
+    <lhs xmi:id="_09gFYoGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_09gFY4GoEeqjxJ91AzqJlg" name="Selected" outgoing="_09gFZ4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Activity"/>
+      </nodes>
+      <nodes xmi:id="_09gFZIGoEeqjxJ91AzqJlg" name="ToBeDeleted" incoming="_09gFZ4GoEeqjxJ91AzqJlg" outgoing="_09gFaIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//AcceptEventAction"/>
+      </nodes>
+      <nodes xmi:id="_09gFZYGoEeqjxJ91AzqJlg" name="Child" incoming="_09gFaIGoEeqjxJ91AzqJlg" outgoing="_09gFaYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Trigger"/>
+      </nodes>
+      <nodes xmi:id="_09gFZoGoEeqjxJ91AzqJlg" name="Existing" incoming="_09gFaYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Event"/>
+      </nodes>
+      <edges xmi:id="_09gFZ4GoEeqjxJ91AzqJlg" source="_09gFY4GoEeqjxJ91AzqJlg" target="_09gFZIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Activity/ownedNode"/>
+      </edges>
+      <edges xmi:id="_09gFaIGoEeqjxJ91AzqJlg" source="_09gFZIGoEeqjxJ91AzqJlg" target="_09gFZYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//AcceptEventAction/trigger"/>
+      </edges>
+      <edges xmi:id="_09gFaYGoEeqjxJ91AzqJlg" source="_09gFZYGoEeqjxJ91AzqJlg" target="_09gFZoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Trigger/event"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_09gFaoGoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_09gFa4GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Activity"/>
+      </nodes>
+      <nodes xmi:id="_09gFbIGoEeqjxJ91AzqJlg" name="Existing">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Event"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_09gFbYGoEeqjxJ91AzqJlg" origin="_09gFY4GoEeqjxJ91AzqJlg" image="_09gFa4GoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_09gFboGoEeqjxJ91AzqJlg" origin="_09gFZoGoEeqjxJ91AzqJlg" image="_09gFbIGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

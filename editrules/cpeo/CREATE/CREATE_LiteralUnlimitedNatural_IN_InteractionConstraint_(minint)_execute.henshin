@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_1pPKAIGoEeqjxJ91AzqJlg" name="CREATE_LiteralUnlimitedNatural_IN_InteractionConstraint_(minint)" description="Creates one LiteralUnlimitedNatural in InteractionConstraint">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_1pPKAYGoEeqjxJ91AzqJlg" name="createLiteralUnlimitedNatural_IN_InteractionConstraint" description="creates one LiteralUnlimitedNatural in the context: InteractionConstraint">
+    <parameters xmi:id="_1pPKAoGoEeqjxJ91AzqJlg" name="Value" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//UnlimitedNatural"/>
+    </parameters>
+    <lhs xmi:id="_1pPKA4GoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_1pPKBIGoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InteractionConstraint"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_1pPKBYGoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_1pPKBoGoEeqjxJ91AzqJlg" name="Selected" outgoing="_1pPKCYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InteractionConstraint"/>
+      </nodes>
+      <nodes xmi:id="_1pPKB4GoEeqjxJ91AzqJlg" name="New" incoming="_1pPKCYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LiteralUnlimitedNatural"/>
+        <attributes xmi:id="_1pPKCIGoEeqjxJ91AzqJlg" value="Value">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LiteralUnlimitedNatural/value"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_1pPKCYGoEeqjxJ91AzqJlg" source="_1pPKBoGoEeqjxJ91AzqJlg" target="_1pPKB4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InteractionConstraint/minint"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_1pPKCoGoEeqjxJ91AzqJlg" origin="_1pPKBIGoEeqjxJ91AzqJlg" image="_1pPKBoGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

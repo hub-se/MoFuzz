@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UubD4IGqEeqSC4bGMjXJ9g" name="DELETE_ExceptionHandler_IN_ExecutableNode_(handler)" description="Deletes one ExceptionHandler in ExecutableNode">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UubD4YGqEeqSC4bGMjXJ9g" name="deleteExceptionHandler_IN_ExecutableNode" description="deletes one ExceptionHandler in the context: ExecutableNode">
+    <lhs xmi:id="_UubD4oGqEeqSC4bGMjXJ9g" name="LHS">
+      <nodes xmi:id="_UubD44GqEeqSC4bGMjXJ9g" name="Selected" incoming="_UubD5oGqEeqSC4bGMjXJ9g" outgoing="_UubD5YGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ExecutableNode"/>
+      </nodes>
+      <nodes xmi:id="_UubD5IGqEeqSC4bGMjXJ9g" name="ToBeDeleted" incoming="_UubD5YGqEeqSC4bGMjXJ9g" outgoing="_UubD5oGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ExceptionHandler"/>
+      </nodes>
+      <edges xmi:id="_UubD5YGqEeqSC4bGMjXJ9g" source="_UubD44GqEeqSC4bGMjXJ9g" target="_UubD5IGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ExecutableNode/handler"/>
+      </edges>
+      <edges xmi:id="_UubD5oGqEeqSC4bGMjXJ9g" source="_UubD5IGqEeqSC4bGMjXJ9g" target="_UubD44GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ExceptionHandler/protectedNode"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_UubD54GqEeqSC4bGMjXJ9g" name="RHS">
+      <nodes xmi:id="_UubD6IGqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ExecutableNode"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_UubD6YGqEeqSC4bGMjXJ9g" origin="_UubD44GqEeqSC4bGMjXJ9g" image="_UubD6IGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

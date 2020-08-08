@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UT1ZoIGqEeqSC4bGMjXJ9g" name="CREATE_TimeExpression_IN_TemplateParameterSubstitution_(ownedActual)" description="Creates one TimeExpression in TemplateParameterSubstitution">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UT1ZoYGqEeqSC4bGMjXJ9g" name="createTimeExpression_IN_TemplateParameterSubstitution" description="creates one TimeExpression in the context: TemplateParameterSubstitution">
+    <lhs xmi:id="_UT1ZooGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_UT1Zo4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameterSubstitution"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_UT1ZpIGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_UT1ZpYGqEeqSC4bGMjXJ9g" name="Selected" outgoing="_UT1Zp4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameterSubstitution"/>
+      </nodes>
+      <nodes xmi:id="_UT1ZpoGqEeqSC4bGMjXJ9g" name="New" incoming="_UT1Zp4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TimeExpression"/>
+      </nodes>
+      <edges xmi:id="_UT1Zp4GqEeqSC4bGMjXJ9g" source="_UT1ZpYGqEeqSC4bGMjXJ9g" target="_UT1ZpoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameterSubstitution/ownedActual"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_UT1ZqIGqEeqSC4bGMjXJ9g" origin="_UT1Zo4GqEeqSC4bGMjXJ9g" image="_UT1ZpYGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

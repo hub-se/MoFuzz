@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_2QAPEIGoEeqjxJ91AzqJlg" name="MOVE_LiteralInteger_FROM_JoinNode_(joinSpec)_TO_JoinNode_(joinSpec)" description="MOVEs LiteralInteger from JoinNode(Reference:joinSpec) to JoinNode(Reference:joinSpec">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_2QAPEYGoEeqjxJ91AzqJlg" name="moveLiteralInteger_FROM_JoinNode_joinSpec_TO_JoinNode_JoinNode" description="Moves LiteralInteger from JoinNode(Reference:joinSpec) toJoinNode(Reference:JoinNode)">
+    <lhs xmi:id="_2QAPEoGoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_2QAPE4GoEeqjxJ91AzqJlg" name="Selected" incoming="_2QAPFoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LiteralInteger"/>
+      </nodes>
+      <nodes xmi:id="_2QAPFIGoEeqjxJ91AzqJlg" name="OldSource" outgoing="_2QAPFoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//JoinNode"/>
+      </nodes>
+      <nodes xmi:id="_2QAPFYGoEeqjxJ91AzqJlg" name="NewSource">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//JoinNode"/>
+      </nodes>
+      <edges xmi:id="_2QAPFoGoEeqjxJ91AzqJlg" source="_2QAPFIGoEeqjxJ91AzqJlg" target="_2QAPE4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//JoinNode/joinSpec"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_2QAPF4GoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_2QAPGIGoEeqjxJ91AzqJlg" name="Selected" incoming="_2QAPG4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LiteralInteger"/>
+      </nodes>
+      <nodes xmi:id="_2QAPGYGoEeqjxJ91AzqJlg" name="OldSource">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//JoinNode"/>
+      </nodes>
+      <nodes xmi:id="_2QAPGoGoEeqjxJ91AzqJlg" name="NewSource" outgoing="_2QAPG4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//JoinNode"/>
+      </nodes>
+      <edges xmi:id="_2QAPG4GoEeqjxJ91AzqJlg" source="_2QAPGoGoEeqjxJ91AzqJlg" target="_2QAPGIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//JoinNode/joinSpec"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_2QAPHIGoEeqjxJ91AzqJlg" origin="_2QAPE4GoEeqjxJ91AzqJlg" image="_2QAPGIGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_2QAPHYGoEeqjxJ91AzqJlg" origin="_2QAPFIGoEeqjxJ91AzqJlg" image="_2QAPGYGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_2QAPHoGoEeqjxJ91AzqJlg" origin="_2QAPFYGoEeqjxJ91AzqJlg" image="_2QAPGoGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

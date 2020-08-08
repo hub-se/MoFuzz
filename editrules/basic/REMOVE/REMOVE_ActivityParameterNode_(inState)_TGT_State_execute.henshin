@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_TgiUcIGqEeqSC4bGMjXJ9g" name="REMOVE_ActivityParameterNode_(inState)_TGT_State" description="Removes ActivityParameterNode's reference inState the target State">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_TgiUcYGqEeqSC4bGMjXJ9g" name="removeFromActivityParameterNode_inState_State" description="Removes from ActivityParameterNode's reference inState the target State">
+    <lhs xmi:id="_TgiUcoGqEeqSC4bGMjXJ9g" name="LHS">
+      <nodes xmi:id="_TgiUc4GqEeqSC4bGMjXJ9g" name="Selected" outgoing="_TgiUdYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityParameterNode"/>
+      </nodes>
+      <nodes xmi:id="_TgiUdIGqEeqSC4bGMjXJ9g" name="OldTarget" incoming="_TgiUdYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//State"/>
+      </nodes>
+      <edges xmi:id="_TgiUdYGqEeqSC4bGMjXJ9g" source="_TgiUc4GqEeqSC4bGMjXJ9g" target="_TgiUdIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ObjectNode/inState"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_TgiUdoGqEeqSC4bGMjXJ9g" name="RHS">
+      <nodes xmi:id="_TgiUd4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityParameterNode"/>
+      </nodes>
+      <nodes xmi:id="_TgiUeIGqEeqSC4bGMjXJ9g" name="OldTarget">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//State"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_TgiUeYGqEeqSC4bGMjXJ9g" origin="_TgiUc4GqEeqSC4bGMjXJ9g" image="_TgiUd4GqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_TgiUeoGqEeqSC4bGMjXJ9g" origin="_TgiUdIGqEeqSC4bGMjXJ9g" image="_TgiUeIGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_U1EecIGqEeqSC4bGMjXJ9g" name="DELETE_Interaction_IN_BehavioredClassifier_(ownedBehavior)" description="Deletes one Interaction in BehavioredClassifier">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_U1EecYGqEeqSC4bGMjXJ9g" name="deleteInteraction_IN_BehavioredClassifier" description="deletes one Interaction in the context: BehavioredClassifier">
+    <lhs xmi:id="_U1EecoGqEeqSC4bGMjXJ9g" name="LHS">
+      <nodes xmi:id="_U1Eec4GqEeqSC4bGMjXJ9g" name="Selected" outgoing="_U1EedYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//BehavioredClassifier"/>
+      </nodes>
+      <nodes xmi:id="_U1EedIGqEeqSC4bGMjXJ9g" name="ToBeDeleted" incoming="_U1EedYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Interaction"/>
+      </nodes>
+      <edges xmi:id="_U1EedYGqEeqSC4bGMjXJ9g" source="_U1Eec4GqEeqSC4bGMjXJ9g" target="_U1EedIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//BehavioredClassifier/ownedBehavior"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_U1EedoGqEeqSC4bGMjXJ9g" name="RHS">
+      <nodes xmi:id="_U1Eed4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//BehavioredClassifier"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_U1EeeIGqEeqSC4bGMjXJ9g" origin="_U1Eec4GqEeqSC4bGMjXJ9g" image="_U1Eed4GqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

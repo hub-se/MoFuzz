@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_1qo4MIGoEeqjxJ91AzqJlg" name="CREATE_DestroyObjectAction_IN_SequenceNode_(executableNode)" description="Creates one DestroyObjectAction in SequenceNode">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_1qo4MYGoEeqjxJ91AzqJlg" name="createDestroyObjectAction_IN_SequenceNode" description="creates one DestroyObjectAction in the context: SequenceNode">
+    <parameters xmi:id="_1qo4MoGoEeqjxJ91AzqJlg" name="IsLeaf" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <parameters xmi:id="_1qo4M4GoEeqjxJ91AzqJlg" name="IsLocallyReentrant" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <parameters xmi:id="_1qo4NIGoEeqjxJ91AzqJlg" name="IsDestroyLinks" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <parameters xmi:id="_1qo4NYGoEeqjxJ91AzqJlg" name="IsDestroyOwnedObjects" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <parameters xmi:id="_1qo4NoGoEeqjxJ91AzqJlg" name="IsLeaf1" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <parameters xmi:id="_1qo4N4GoEeqjxJ91AzqJlg" name="IsControlType" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <parameters xmi:id="_1qo4OIGoEeqjxJ91AzqJlg" name="Ordering" kind="IN">
+      <type xsi:type="ecore:EEnum" href="http://www.eclipse.org/uml2/5.0.0/UML#//ObjectNodeOrderingKind"/>
+    </parameters>
+    <parameters xmi:id="_1qo4OYGoEeqjxJ91AzqJlg" name="IsOrdered" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <parameters xmi:id="_1qo4OoGoEeqjxJ91AzqJlg" name="IsUnique" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <parameters xmi:id="_1qo4O4GoEeqjxJ91AzqJlg" name="IsControl1" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <lhs xmi:id="_1qo4PIGoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_1qo4PYGoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//SequenceNode"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_1qo4PoGoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_1qo4P4GoEeqjxJ91AzqJlg" name="Selected" outgoing="_1qo4TIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//SequenceNode"/>
+      </nodes>
+      <nodes xmi:id="_1qo4QIGoEeqjxJ91AzqJlg" name="New" incoming="_1qo4TIGoEeqjxJ91AzqJlg" outgoing="_1qo4TYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//DestroyObjectAction"/>
+        <attributes xmi:id="_1qo4QYGoEeqjxJ91AzqJlg" value="IsLeaf">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//RedefinableElement/isLeaf"/>
+        </attributes>
+        <attributes xmi:id="_1qo4QoGoEeqjxJ91AzqJlg" value="IsLocallyReentrant">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Action/isLocallyReentrant"/>
+        </attributes>
+        <attributes xmi:id="_1qo4Q4GoEeqjxJ91AzqJlg" value="IsDestroyLinks">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//DestroyObjectAction/isDestroyLinks"/>
+        </attributes>
+        <attributes xmi:id="_1qo4RIGoEeqjxJ91AzqJlg" value="IsDestroyOwnedObjects">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//DestroyObjectAction/isDestroyOwnedObjects"/>
+        </attributes>
+      </nodes>
+      <nodes xmi:id="_1qo4RYGoEeqjxJ91AzqJlg" name="Child" incoming="_1qo4TYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InputPin"/>
+        <attributes xmi:id="_1qo4RoGoEeqjxJ91AzqJlg" value="IsLeaf1">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//RedefinableElement/isLeaf"/>
+        </attributes>
+        <attributes xmi:id="_1qo4R4GoEeqjxJ91AzqJlg" value="IsControlType">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ObjectNode/isControlType"/>
+        </attributes>
+        <attributes xmi:id="_1qo4SIGoEeqjxJ91AzqJlg" value="Ordering">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ObjectNode/ordering"/>
+        </attributes>
+        <attributes xmi:id="_1qo4SYGoEeqjxJ91AzqJlg" value="IsOrdered">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//MultiplicityElement/isOrdered"/>
+        </attributes>
+        <attributes xmi:id="_1qo4SoGoEeqjxJ91AzqJlg" value="IsUnique">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//MultiplicityElement/isUnique"/>
+        </attributes>
+        <attributes xmi:id="_1qo4S4GoEeqjxJ91AzqJlg" value="IsControl1">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Pin/isControl"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_1qo4TIGoEeqjxJ91AzqJlg" source="_1qo4P4GoEeqjxJ91AzqJlg" target="_1qo4QIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//SequenceNode/executableNode"/>
+      </edges>
+      <edges xmi:id="_1qo4TYGoEeqjxJ91AzqJlg" source="_1qo4QIGoEeqjxJ91AzqJlg" target="_1qo4RYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//DestroyObjectAction/target"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_1qo4ToGoEeqjxJ91AzqJlg" origin="_1qo4PYGoEeqjxJ91AzqJlg" image="_1qo4P4GoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

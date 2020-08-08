@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_1fq-UIGoEeqjxJ91AzqJlg" name="ADD_ParameterSet_(parameter)_TGT_Parameter" description="Adds to ParameterSet's reference parameter the target Parameter">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_1fq-UYGoEeqjxJ91AzqJlg" name="addToParameterSet_parameter_Parameter" description="Adds to ParameterSet's reference parameter the target Parameter">
+    <lhs xmi:id="_1fq-UoGoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_1fq-U4GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ParameterSet"/>
+      </nodes>
+      <nodes xmi:id="_1fq-VIGoEeqjxJ91AzqJlg" name="NewTarget">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Parameter"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_1fq-VYGoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_1fq-VoGoEeqjxJ91AzqJlg" name="Selected" incoming="_1fq-WYGoEeqjxJ91AzqJlg" outgoing="_1fq-WIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ParameterSet"/>
+      </nodes>
+      <nodes xmi:id="_1fq-V4GoEeqjxJ91AzqJlg" name="NewTarget" incoming="_1fq-WIGoEeqjxJ91AzqJlg" outgoing="_1fq-WYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Parameter"/>
+      </nodes>
+      <edges xmi:id="_1fq-WIGoEeqjxJ91AzqJlg" source="_1fq-VoGoEeqjxJ91AzqJlg" target="_1fq-V4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ParameterSet/parameter"/>
+      </edges>
+      <edges xmi:id="_1fq-WYGoEeqjxJ91AzqJlg" source="_1fq-V4GoEeqjxJ91AzqJlg" target="_1fq-VoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Parameter/parameterSet"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_1fq-WoGoEeqjxJ91AzqJlg" origin="_1fq-U4GoEeqjxJ91AzqJlg" image="_1fq-VoGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_1fq-W4GoEeqjxJ91AzqJlg" origin="_1fq-VIGoEeqjxJ91AzqJlg" image="_1fq-V4GoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

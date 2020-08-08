@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UPoPEIGqEeqSC4bGMjXJ9g" name="CREATE_DurationConstraint_IN_Action_(localPrecondition)" description="Creates one DurationConstraint in Action">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UPoPEYGqEeqSC4bGMjXJ9g" name="createDurationConstraint_IN_Action" description="creates one DurationConstraint in the context: Action">
+    <lhs xmi:id="_UPoPEoGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_UPoPE4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Action"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_UPoPFIGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_UPoPFYGqEeqSC4bGMjXJ9g" name="Selected" outgoing="_UPoPF4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Action"/>
+      </nodes>
+      <nodes xmi:id="_UPoPFoGqEeqSC4bGMjXJ9g" name="New" incoming="_UPoPF4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//DurationConstraint"/>
+      </nodes>
+      <edges xmi:id="_UPoPF4GqEeqSC4bGMjXJ9g" source="_UPoPFYGqEeqSC4bGMjXJ9g" target="_UPoPFoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Action/localPrecondition"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_UPoPGIGqEeqSC4bGMjXJ9g" origin="_UPoPE4GqEeqSC4bGMjXJ9g" image="_UPoPFYGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

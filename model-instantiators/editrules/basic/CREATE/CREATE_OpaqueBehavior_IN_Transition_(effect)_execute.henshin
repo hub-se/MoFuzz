@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UHQWMIGqEeqSC4bGMjXJ9g" name="CREATE_OpaqueBehavior_IN_Transition_(effect)" description="Creates one OpaqueBehavior in Transition">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UHQWMYGqEeqSC4bGMjXJ9g" name="createOpaqueBehavior_IN_Transition" description="creates one OpaqueBehavior in the context: Transition">
+    <parameters xmi:id="_UHQWMoGqEeqSC4bGMjXJ9g" name="IsLeaf" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <parameters xmi:id="_UHQWM4GqEeqSC4bGMjXJ9g" name="IsAbstract" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <parameters xmi:id="_UHQWNIGqEeqSC4bGMjXJ9g" name="IsFinalSpecialization" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <parameters xmi:id="_UHQWNYGqEeqSC4bGMjXJ9g" name="IsActive" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <lhs xmi:id="_UHQWNoGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_UHQWN4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Transition"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_UHQWOIGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_UHQWOYGqEeqSC4bGMjXJ9g" name="Selected" outgoing="_UHQWP4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Transition"/>
+      </nodes>
+      <nodes xmi:id="_UHQWOoGqEeqSC4bGMjXJ9g" name="New" incoming="_UHQWP4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//OpaqueBehavior"/>
+        <attributes xmi:id="_UHQWO4GqEeqSC4bGMjXJ9g" value="IsLeaf">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//RedefinableElement/isLeaf"/>
+        </attributes>
+        <attributes xmi:id="_UHQWPIGqEeqSC4bGMjXJ9g" value="IsAbstract">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier/isAbstract"/>
+        </attributes>
+        <attributes xmi:id="_UHQWPYGqEeqSC4bGMjXJ9g" value="IsFinalSpecialization">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier/isFinalSpecialization"/>
+        </attributes>
+        <attributes xmi:id="_UHQWPoGqEeqSC4bGMjXJ9g" value="IsActive">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Class/isActive"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_UHQWP4GqEeqSC4bGMjXJ9g" source="_UHQWOYGqEeqSC4bGMjXJ9g" target="_UHQWOoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Transition/effect"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_UHQWQIGqEeqSC4bGMjXJ9g" origin="_UHQWN4GqEeqSC4bGMjXJ9g" image="_UHQWOYGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

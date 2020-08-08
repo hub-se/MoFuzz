@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UfvusIGqEeqSC4bGMjXJ9g" name="CREATE_ProfileApplication_IN_Package_(profileApplication)" description="Creates one ProfileApplication in Package">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UfvusYGqEeqSC4bGMjXJ9g" name="createProfileApplication_IN_Package" description="creates one ProfileApplication in the context: Package">
+    <parameters xmi:id="_UfvusoGqEeqSC4bGMjXJ9g" name="IsStrict" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <lhs xmi:id="_Ufvus4GqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_UfvutIGqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_UfvutYGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_UfvutoGqEeqSC4bGMjXJ9g" name="Selected" incoming="_UfvuuoGqEeqSC4bGMjXJ9g" outgoing="_UfvuuYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </nodes>
+      <nodes xmi:id="_Ufvut4GqEeqSC4bGMjXJ9g" name="New" incoming="_UfvuuYGqEeqSC4bGMjXJ9g" outgoing="_UfvuuoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ProfileApplication"/>
+        <attributes xmi:id="_UfvuuIGqEeqSC4bGMjXJ9g" value="IsStrict">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ProfileApplication/isStrict"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_UfvuuYGqEeqSC4bGMjXJ9g" source="_UfvutoGqEeqSC4bGMjXJ9g" target="_Ufvut4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Package/profileApplication"/>
+      </edges>
+      <edges xmi:id="_UfvuuoGqEeqSC4bGMjXJ9g" source="_Ufvut4GqEeqSC4bGMjXJ9g" target="_UfvutoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ProfileApplication/applyingPackage"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_Ufvuu4GqEeqSC4bGMjXJ9g" origin="_UfvutIGqEeqSC4bGMjXJ9g" image="_UfvutoGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

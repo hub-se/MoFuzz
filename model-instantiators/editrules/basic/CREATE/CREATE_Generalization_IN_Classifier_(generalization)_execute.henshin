@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UMgCkIGqEeqSC4bGMjXJ9g" name="CREATE_Generalization_IN_Classifier_(generalization)" description="Creates one Generalization in Classifier">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UMgCkYGqEeqSC4bGMjXJ9g" name="createGeneralization_IN_Classifier" description="creates one Generalization in the context: Classifier">
+    <lhs xmi:id="_UMgCkoGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_UMgCk4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_UMgClIGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_UMgClYGqEeqSC4bGMjXJ9g" name="Selected" incoming="_UMgCmIGqEeqSC4bGMjXJ9g" outgoing="_UMgCl4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier"/>
+      </nodes>
+      <nodes xmi:id="_UMgCloGqEeqSC4bGMjXJ9g" name="New" incoming="_UMgCl4GqEeqSC4bGMjXJ9g" outgoing="_UMgCmIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Generalization"/>
+      </nodes>
+      <edges xmi:id="_UMgCl4GqEeqSC4bGMjXJ9g" source="_UMgClYGqEeqSC4bGMjXJ9g" target="_UMgCloGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier/generalization"/>
+      </edges>
+      <edges xmi:id="_UMgCmIGqEeqSC4bGMjXJ9g" source="_UMgCloGqEeqSC4bGMjXJ9g" target="_UMgClYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Generalization/specific"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_UMgCmYGqEeqSC4bGMjXJ9g" origin="_UMgCk4GqEeqSC4bGMjXJ9g" image="_UMgClYGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

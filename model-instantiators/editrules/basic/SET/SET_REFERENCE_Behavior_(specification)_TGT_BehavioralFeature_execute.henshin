@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_TlvkkIGqEeqSC4bGMjXJ9g" name="SET_REFERENCE_Behavior_(specification)_TGT_BehavioralFeature" description="Sets Behavior's reference specification the target BehavioralFeature">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_TlvkkYGqEeqSC4bGMjXJ9g" name="setBehavior_specification_TO_BehavioralFeature" description="SetBehaviorRefspecificationToBehavioralFeature">
+    <lhs xmi:id="_TlvkkoGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_Tlvkk4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Behavior"/>
+      </nodes>
+      <nodes xmi:id="_TlvklIGqEeqSC4bGMjXJ9g" name="NewTarget">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//BehavioralFeature"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_TlvklYGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_TlvkloGqEeqSC4bGMjXJ9g" name="Selected" incoming="_TlvkmYGqEeqSC4bGMjXJ9g" outgoing="_TlvkmIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Behavior"/>
+      </nodes>
+      <nodes xmi:id="_Tlvkl4GqEeqSC4bGMjXJ9g" name="NewTarget" incoming="_TlvkmIGqEeqSC4bGMjXJ9g" outgoing="_TlvkmYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//BehavioralFeature"/>
+      </nodes>
+      <edges xmi:id="_TlvkmIGqEeqSC4bGMjXJ9g" source="_TlvkloGqEeqSC4bGMjXJ9g" target="_Tlvkl4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Behavior/specification"/>
+      </edges>
+      <edges xmi:id="_TlvkmYGqEeqSC4bGMjXJ9g" source="_Tlvkl4GqEeqSC4bGMjXJ9g" target="_TlvkloGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//BehavioralFeature/method"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_TlvkmoGqEeqSC4bGMjXJ9g" origin="_Tlvkk4GqEeqSC4bGMjXJ9g" image="_TlvkloGqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_Tlvkm4GqEeqSC4bGMjXJ9g" origin="_TlvklIGqEeqSC4bGMjXJ9g" image="_Tlvkl4GqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

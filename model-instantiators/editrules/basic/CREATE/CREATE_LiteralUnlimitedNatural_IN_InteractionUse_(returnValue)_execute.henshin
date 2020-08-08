@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UFdmcIGqEeqSC4bGMjXJ9g" name="CREATE_LiteralUnlimitedNatural_IN_InteractionUse_(returnValue)" description="Creates one LiteralUnlimitedNatural in InteractionUse">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UFdmcYGqEeqSC4bGMjXJ9g" name="createLiteralUnlimitedNatural_IN_InteractionUse" description="creates one LiteralUnlimitedNatural in the context: InteractionUse">
+    <parameters xmi:id="_UFdmcoGqEeqSC4bGMjXJ9g" name="Value" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//UnlimitedNatural"/>
+    </parameters>
+    <lhs xmi:id="_UFdmc4GqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_UFdmdIGqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InteractionUse"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_UFdmdYGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_UFdmdoGqEeqSC4bGMjXJ9g" name="Selected" outgoing="_UFdmeYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InteractionUse"/>
+      </nodes>
+      <nodes xmi:id="_UFdmd4GqEeqSC4bGMjXJ9g" name="New" incoming="_UFdmeYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LiteralUnlimitedNatural"/>
+        <attributes xmi:id="_UFdmeIGqEeqSC4bGMjXJ9g" value="Value">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LiteralUnlimitedNatural/value"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_UFdmeYGqEeqSC4bGMjXJ9g" source="_UFdmdoGqEeqSC4bGMjXJ9g" target="_UFdmd4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InteractionUse/returnValue"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_UFdmeoGqEeqSC4bGMjXJ9g" origin="_UFdmdIGqEeqSC4bGMjXJ9g" image="_UFdmdoGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_1crUsIGoEeqjxJ91AzqJlg" name="ADD_Extension_(redefinedClassifier)_TGT_Classifier" description="Adds to Extension's reference redefinedClassifier the target Classifier">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_1crUsYGoEeqjxJ91AzqJlg" name="addToExtension_redefinedClassifier_Classifier" description="Adds to Extension's reference redefinedClassifier the target Classifier">
+    <lhs xmi:id="_1crUsoGoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_1crUs4GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Extension"/>
+      </nodes>
+      <nodes xmi:id="_1crUtIGoEeqjxJ91AzqJlg" name="NewTarget">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_1crUtYGoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_1crUtoGoEeqjxJ91AzqJlg" name="Selected" outgoing="_1crUuIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Extension"/>
+      </nodes>
+      <nodes xmi:id="_1crUt4GoEeqjxJ91AzqJlg" name="NewTarget" incoming="_1crUuIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier"/>
+      </nodes>
+      <edges xmi:id="_1crUuIGoEeqjxJ91AzqJlg" source="_1crUtoGoEeqjxJ91AzqJlg" target="_1crUt4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier/redefinedClassifier"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_1crUuYGoEeqjxJ91AzqJlg" origin="_1crUs4GoEeqjxJ91AzqJlg" image="_1crUtoGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_1crUuoGoEeqjxJ91AzqJlg" origin="_1crUtIGoEeqjxJ91AzqJlg" image="_1crUt4GoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

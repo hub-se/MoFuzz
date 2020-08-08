@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_T98CIIGqEeqSC4bGMjXJ9g" name="MOVE_Substitution_FROM_Classifier_(substitution)_TO_Classifier_(substitution)" description="MOVEs Substitution from Classifier(Reference:substitution) to Classifier(Reference:substitution">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_T98CIYGqEeqSC4bGMjXJ9g" name="moveSubstitution_FROM_Classifier_substitution_TO_Classifier_Classifier" description="Moves Substitution from Classifier(Reference:substitution) toClassifier(Reference:Classifier)">
+    <lhs xmi:id="_T98CIoGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_T98CI4GqEeqSC4bGMjXJ9g" name="Selected" incoming="_T98CJoGqEeqSC4bGMjXJ9g" outgoing="_T98CJ4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Substitution"/>
+      </nodes>
+      <nodes xmi:id="_T98CJIGqEeqSC4bGMjXJ9g" name="OldSource" incoming="_T98CJ4GqEeqSC4bGMjXJ9g" outgoing="_T98CJoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier"/>
+      </nodes>
+      <nodes xmi:id="_T98CJYGqEeqSC4bGMjXJ9g" name="NewSource">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier"/>
+      </nodes>
+      <edges xmi:id="_T98CJoGqEeqSC4bGMjXJ9g" source="_T98CJIGqEeqSC4bGMjXJ9g" target="_T98CI4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier/substitution"/>
+      </edges>
+      <edges xmi:id="_T98CJ4GqEeqSC4bGMjXJ9g" source="_T98CI4GqEeqSC4bGMjXJ9g" target="_T98CJIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Substitution/substitutingClassifier"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_T98CKIGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_T98CKYGqEeqSC4bGMjXJ9g" name="Selected" incoming="_T98CLIGqEeqSC4bGMjXJ9g" outgoing="_T98CLYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Substitution"/>
+      </nodes>
+      <nodes xmi:id="_T98CKoGqEeqSC4bGMjXJ9g" name="OldSource">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier"/>
+      </nodes>
+      <nodes xmi:id="_T98CK4GqEeqSC4bGMjXJ9g" name="NewSource" incoming="_T98CLYGqEeqSC4bGMjXJ9g" outgoing="_T98CLIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier"/>
+      </nodes>
+      <edges xmi:id="_T98CLIGqEeqSC4bGMjXJ9g" source="_T98CK4GqEeqSC4bGMjXJ9g" target="_T98CKYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier/substitution"/>
+      </edges>
+      <edges xmi:id="_T98CLYGqEeqSC4bGMjXJ9g" source="_T98CKYGqEeqSC4bGMjXJ9g" target="_T98CK4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Substitution/substitutingClassifier"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_T98CLoGqEeqSC4bGMjXJ9g" origin="_T98CI4GqEeqSC4bGMjXJ9g" image="_T98CKYGqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_T98CL4GqEeqSC4bGMjXJ9g" origin="_T98CJIGqEeqSC4bGMjXJ9g" image="_T98CKoGqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_T98CMIGqEeqSC4bGMjXJ9g" origin="_T98CJYGqEeqSC4bGMjXJ9g" image="_T98CK4GqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

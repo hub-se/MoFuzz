@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_06Ng0IGoEeqjxJ91AzqJlg" name="DELETE_DurationObservation_IN_Component_(packagedElement)" description="Deletes one DurationObservation in Component">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_06Ng0YGoEeqjxJ91AzqJlg" name="deleteDurationObservation_IN_Component" description="deletes one DurationObservation in the context: Component">
+    <lhs xmi:id="_06Ng0oGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_06Ng04GoEeqjxJ91AzqJlg" name="Selected" outgoing="_06Ng1oGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Component"/>
+      </nodes>
+      <nodes xmi:id="_06Ng1IGoEeqjxJ91AzqJlg" name="ToBeDeleted" incoming="_06Ng1oGoEeqjxJ91AzqJlg" outgoing="_06Ng14GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//DurationObservation"/>
+      </nodes>
+      <nodes xmi:id="_06Ng1YGoEeqjxJ91AzqJlg" name="Existing" incoming="_06Ng14GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//NamedElement"/>
+      </nodes>
+      <edges xmi:id="_06Ng1oGoEeqjxJ91AzqJlg" source="_06Ng04GoEeqjxJ91AzqJlg" target="_06Ng1IGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Component/packagedElement"/>
+      </edges>
+      <edges xmi:id="_06Ng14GoEeqjxJ91AzqJlg" source="_06Ng1IGoEeqjxJ91AzqJlg" target="_06Ng1YGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//DurationObservation/event"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_06Ng2IGoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_06Ng2YGoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Component"/>
+      </nodes>
+      <nodes xmi:id="_06Ng2oGoEeqjxJ91AzqJlg" name="Existing">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//NamedElement"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_06Ng24GoEeqjxJ91AzqJlg" origin="_06Ng04GoEeqjxJ91AzqJlg" image="_06Ng2YGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_06Ng3IGoEeqjxJ91AzqJlg" origin="_06Ng1YGoEeqjxJ91AzqJlg" image="_06Ng2oGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

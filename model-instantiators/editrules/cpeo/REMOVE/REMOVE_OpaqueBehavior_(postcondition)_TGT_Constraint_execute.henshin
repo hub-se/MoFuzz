@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_2DtfgIGoEeqjxJ91AzqJlg" name="REMOVE_OpaqueBehavior_(postcondition)_TGT_Constraint" description="Removes OpaqueBehavior's reference postcondition the target Constraint">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_2DuGkIGoEeqjxJ91AzqJlg" name="removeFromOpaqueBehavior_postcondition_Constraint" description="Removes from OpaqueBehavior's reference postcondition the target Constraint">
+    <lhs xmi:id="_2DuGkYGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_2DuGkoGoEeqjxJ91AzqJlg" name="Selected" outgoing="_2DuGlIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//OpaqueBehavior"/>
+      </nodes>
+      <nodes xmi:id="_2DuGk4GoEeqjxJ91AzqJlg" name="OldTarget" incoming="_2DuGlIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Constraint"/>
+      </nodes>
+      <edges xmi:id="_2DuGlIGoEeqjxJ91AzqJlg" source="_2DuGkoGoEeqjxJ91AzqJlg" target="_2DuGk4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Behavior/postcondition"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_2DuGlYGoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_2DuGloGoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//OpaqueBehavior"/>
+      </nodes>
+      <nodes xmi:id="_2DuGl4GoEeqjxJ91AzqJlg" name="OldTarget">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Constraint"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_2DuGmIGoEeqjxJ91AzqJlg" origin="_2DuGkoGoEeqjxJ91AzqJlg" image="_2DuGloGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_2DuGmYGoEeqjxJ91AzqJlg" origin="_2DuGk4GoEeqjxJ91AzqJlg" image="_2DuGl4GoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

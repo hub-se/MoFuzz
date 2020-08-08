@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_TVkakIGqEeqSC4bGMjXJ9g" name="REMOVE_Extension_(redefinedClassifier)_TGT_Classifier" description="Removes Extension's reference redefinedClassifier the target Classifier">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_TVkakYGqEeqSC4bGMjXJ9g" name="removeFromExtension_redefinedClassifier_Classifier" description="Removes from Extension's reference redefinedClassifier the target Classifier">
+    <lhs xmi:id="_TVkakoGqEeqSC4bGMjXJ9g" name="LHS">
+      <nodes xmi:id="_TVkak4GqEeqSC4bGMjXJ9g" name="Selected" outgoing="_TVkalYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Extension"/>
+      </nodes>
+      <nodes xmi:id="_TVkalIGqEeqSC4bGMjXJ9g" name="OldTarget" incoming="_TVkalYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier"/>
+      </nodes>
+      <edges xmi:id="_TVkalYGqEeqSC4bGMjXJ9g" source="_TVkak4GqEeqSC4bGMjXJ9g" target="_TVkalIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier/redefinedClassifier"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_TVkaloGqEeqSC4bGMjXJ9g" name="RHS">
+      <nodes xmi:id="_TVkal4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Extension"/>
+      </nodes>
+      <nodes xmi:id="_TVkamIGqEeqSC4bGMjXJ9g" name="OldTarget">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_TVkamYGqEeqSC4bGMjXJ9g" origin="_TVkak4GqEeqSC4bGMjXJ9g" image="_TVkal4GqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_TVkamoGqEeqSC4bGMjXJ9g" origin="_TVkalIGqEeqSC4bGMjXJ9g" image="_TVkamIGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_Uwe5YIGqEeqSC4bGMjXJ9g" name="DELETE_OutputPin_IN_StructuredActivityNode_(structuredNodeOutput)" description="Deletes one OutputPin in StructuredActivityNode">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_Uwe5YYGqEeqSC4bGMjXJ9g" name="deleteOutputPin_IN_StructuredActivityNode" description="deletes one OutputPin in the context: StructuredActivityNode">
+    <lhs xmi:id="_Uwe5YoGqEeqSC4bGMjXJ9g" name="LHS">
+      <nodes xmi:id="_Uwe5Y4GqEeqSC4bGMjXJ9g" name="Selected" outgoing="_Uwe5ZYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//StructuredActivityNode"/>
+      </nodes>
+      <nodes xmi:id="_Uwe5ZIGqEeqSC4bGMjXJ9g" name="ToBeDeleted" incoming="_Uwe5ZYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//OutputPin"/>
+      </nodes>
+      <edges xmi:id="_Uwe5ZYGqEeqSC4bGMjXJ9g" source="_Uwe5Y4GqEeqSC4bGMjXJ9g" target="_Uwe5ZIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//StructuredActivityNode/structuredNodeOutput"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_Uwe5ZoGqEeqSC4bGMjXJ9g" name="RHS">
+      <nodes xmi:id="_Uwe5Z4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//StructuredActivityNode"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_Uwe5aIGqEeqSC4bGMjXJ9g" origin="_Uwe5Y4GqEeqSC4bGMjXJ9g" image="_Uwe5Z4GqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

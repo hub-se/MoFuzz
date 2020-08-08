@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_1xKW8IGoEeqjxJ91AzqJlg" name="CREATE_Substitution_IN_Classifier_(substitution)" description="Creates one Substitution in Classifier">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_1xKW8YGoEeqjxJ91AzqJlg" name="createSubstitution_IN_Classifier" description="creates one Substitution in the context: Classifier">
+    <lhs xmi:id="_1xKW8oGoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_1xKW84GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier"/>
+      </nodes>
+      <nodes xmi:id="_1xKW9IGoEeqjxJ91AzqJlg" name="Existing">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_1xKW9YGoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_1xKW9oGoEeqjxJ91AzqJlg" name="Selected" incoming="_1xKW-oGoEeqjxJ91AzqJlg _1xKW_YGoEeqjxJ91AzqJlg" outgoing="_1xKW-YGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier"/>
+      </nodes>
+      <nodes xmi:id="_1xKW94GoEeqjxJ91AzqJlg" name="New" incoming="_1xKW-YGoEeqjxJ91AzqJlg" outgoing="_1xKW-oGoEeqjxJ91AzqJlg _1xKW-4GoEeqjxJ91AzqJlg _1xKW_IGoEeqjxJ91AzqJlg _1xKW_YGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Substitution"/>
+      </nodes>
+      <nodes xmi:id="_1xKW-IGoEeqjxJ91AzqJlg" name="Existing" incoming="_1xKW-4GoEeqjxJ91AzqJlg _1xKW_IGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier"/>
+      </nodes>
+      <edges xmi:id="_1xKW-YGoEeqjxJ91AzqJlg" source="_1xKW9oGoEeqjxJ91AzqJlg" target="_1xKW94GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier/substitution"/>
+      </edges>
+      <edges xmi:id="_1xKW-oGoEeqjxJ91AzqJlg" source="_1xKW94GoEeqjxJ91AzqJlg" target="_1xKW9oGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Substitution/substitutingClassifier"/>
+      </edges>
+      <edges xmi:id="_1xKW-4GoEeqjxJ91AzqJlg" source="_1xKW94GoEeqjxJ91AzqJlg" target="_1xKW-IGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Substitution/contract"/>
+      </edges>
+      <edges xmi:id="_1xKW_IGoEeqjxJ91AzqJlg" source="_1xKW94GoEeqjxJ91AzqJlg" target="_1xKW-IGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Dependency/supplier"/>
+      </edges>
+      <edges xmi:id="_1xKW_YGoEeqjxJ91AzqJlg" source="_1xKW94GoEeqjxJ91AzqJlg" target="_1xKW9oGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Dependency/client"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_1xKW_oGoEeqjxJ91AzqJlg" origin="_1xKW84GoEeqjxJ91AzqJlg" image="_1xKW9oGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_1xKW_4GoEeqjxJ91AzqJlg" origin="_1xKW9IGoEeqjxJ91AzqJlg" image="_1xKW-IGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

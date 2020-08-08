@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_1saZ0IGoEeqjxJ91AzqJlg" name="CREATE_DurationObservation_IN_TemplateParameter_(ownedDefault)" description="Creates one DurationObservation in TemplateParameter">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_1saZ0YGoEeqjxJ91AzqJlg" name="createDurationObservation_IN_TemplateParameter" description="creates one DurationObservation in the context: TemplateParameter">
+    <lhs xmi:id="_1saZ0oGoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_1saZ04GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameter"/>
+      </nodes>
+      <nodes xmi:id="_1saZ1IGoEeqjxJ91AzqJlg" name="Existing">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//NamedElement"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_1saZ1YGoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_1saZ1oGoEeqjxJ91AzqJlg" name="Selected" outgoing="_1saZ2YGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameter"/>
+      </nodes>
+      <nodes xmi:id="_1saZ14GoEeqjxJ91AzqJlg" name="New" incoming="_1saZ2YGoEeqjxJ91AzqJlg" outgoing="_1saZ2oGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//DurationObservation"/>
+      </nodes>
+      <nodes xmi:id="_1saZ2IGoEeqjxJ91AzqJlg" name="Existing" incoming="_1saZ2oGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//NamedElement"/>
+      </nodes>
+      <edges xmi:id="_1saZ2YGoEeqjxJ91AzqJlg" source="_1saZ1oGoEeqjxJ91AzqJlg" target="_1saZ14GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameter/ownedDefault"/>
+      </edges>
+      <edges xmi:id="_1saZ2oGoEeqjxJ91AzqJlg" source="_1saZ14GoEeqjxJ91AzqJlg" target="_1saZ2IGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//DurationObservation/event"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_1saZ24GoEeqjxJ91AzqJlg" origin="_1saZ04GoEeqjxJ91AzqJlg" image="_1saZ1oGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_1saZ3IGoEeqjxJ91AzqJlg" origin="_1saZ1IGoEeqjxJ91AzqJlg" image="_1saZ2IGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

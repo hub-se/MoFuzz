@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_1S8w8IGoEeqjxJ91AzqJlg" name="DELETE_ProtocolStateMachine_IN_Package_(packagedElement)" description="Deletes one ProtocolStateMachine in Package">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_1S8w8YGoEeqjxJ91AzqJlg" name="deleteProtocolStateMachine_IN_Package" description="deletes one ProtocolStateMachine in the context: Package">
+    <lhs xmi:id="_1S8w8oGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_1S8w84GoEeqjxJ91AzqJlg" name="Selected" outgoing="_1S9YAoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </nodes>
+      <nodes xmi:id="_1S9YAIGoEeqjxJ91AzqJlg" name="ToBeDeleted" incoming="_1S9YAoGoEeqjxJ91AzqJlg _1S9YBIGoEeqjxJ91AzqJlg" outgoing="_1S9YA4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ProtocolStateMachine"/>
+      </nodes>
+      <nodes xmi:id="_1S9YAYGoEeqjxJ91AzqJlg" name="Child" incoming="_1S9YA4GoEeqjxJ91AzqJlg" outgoing="_1S9YBIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Region"/>
+      </nodes>
+      <edges xmi:id="_1S9YAoGoEeqjxJ91AzqJlg" source="_1S8w84GoEeqjxJ91AzqJlg" target="_1S9YAIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Package/packagedElement"/>
+      </edges>
+      <edges xmi:id="_1S9YA4GoEeqjxJ91AzqJlg" source="_1S9YAIGoEeqjxJ91AzqJlg" target="_1S9YAYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//StateMachine/region"/>
+      </edges>
+      <edges xmi:id="_1S9YBIGoEeqjxJ91AzqJlg" source="_1S9YAYGoEeqjxJ91AzqJlg" target="_1S9YAIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Region/stateMachine"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_1S9YBYGoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_1S9YBoGoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_1S9YB4GoEeqjxJ91AzqJlg" origin="_1S8w84GoEeqjxJ91AzqJlg" image="_1S9YBoGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

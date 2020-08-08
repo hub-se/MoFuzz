@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UDrdwIGqEeqSC4bGMjXJ9g" name="MOVE_Region_FROM_StateMachine_(region)_TO_StateMachine_(region)" description="MOVEs Region from StateMachine(Reference:region) to StateMachine(Reference:region">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UDrdwYGqEeqSC4bGMjXJ9g" name="moveRegion_FROM_StateMachine_region_TO_StateMachine_StateMachine" description="Moves Region from StateMachine(Reference:region) toStateMachine(Reference:StateMachine)">
+    <lhs xmi:id="_UDrdwoGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_UDrdw4GqEeqSC4bGMjXJ9g" name="Selected" incoming="_UDrdxoGqEeqSC4bGMjXJ9g" outgoing="_UDrdx4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Region"/>
+      </nodes>
+      <nodes xmi:id="_UDrdxIGqEeqSC4bGMjXJ9g" name="OldSource" incoming="_UDrdx4GqEeqSC4bGMjXJ9g" outgoing="_UDrdxoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//StateMachine"/>
+      </nodes>
+      <nodes xmi:id="_UDrdxYGqEeqSC4bGMjXJ9g" name="NewSource">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//StateMachine"/>
+      </nodes>
+      <edges xmi:id="_UDrdxoGqEeqSC4bGMjXJ9g" source="_UDrdxIGqEeqSC4bGMjXJ9g" target="_UDrdw4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//StateMachine/region"/>
+      </edges>
+      <edges xmi:id="_UDrdx4GqEeqSC4bGMjXJ9g" source="_UDrdw4GqEeqSC4bGMjXJ9g" target="_UDrdxIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Region/stateMachine"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_UDrdyIGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_UDrdyYGqEeqSC4bGMjXJ9g" name="Selected" incoming="_UDrdzIGqEeqSC4bGMjXJ9g" outgoing="_UDrdzYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Region"/>
+      </nodes>
+      <nodes xmi:id="_UDrdyoGqEeqSC4bGMjXJ9g" name="OldSource">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//StateMachine"/>
+      </nodes>
+      <nodes xmi:id="_UDrdy4GqEeqSC4bGMjXJ9g" name="NewSource" incoming="_UDrdzYGqEeqSC4bGMjXJ9g" outgoing="_UDrdzIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//StateMachine"/>
+      </nodes>
+      <edges xmi:id="_UDrdzIGqEeqSC4bGMjXJ9g" source="_UDrdy4GqEeqSC4bGMjXJ9g" target="_UDrdyYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//StateMachine/region"/>
+      </edges>
+      <edges xmi:id="_UDrdzYGqEeqSC4bGMjXJ9g" source="_UDrdyYGqEeqSC4bGMjXJ9g" target="_UDrdy4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Region/stateMachine"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_UDrdzoGqEeqSC4bGMjXJ9g" origin="_UDrdw4GqEeqSC4bGMjXJ9g" image="_UDrdyYGqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_UDrdz4GqEeqSC4bGMjXJ9g" origin="_UDrdxIGqEeqSC4bGMjXJ9g" image="_UDrdyoGqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_UDrd0IGqEeqSC4bGMjXJ9g" origin="_UDrdxYGqEeqSC4bGMjXJ9g" image="_UDrdy4GqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

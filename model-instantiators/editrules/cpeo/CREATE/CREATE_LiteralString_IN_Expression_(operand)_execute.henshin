@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_1__dIIGoEeqjxJ91AzqJlg" name="CREATE_LiteralString_IN_Expression_(operand)" description="Creates one LiteralString in Expression">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_1__dIYGoEeqjxJ91AzqJlg" name="createLiteralString_IN_Expression" description="creates one LiteralString in the context: Expression">
+    <lhs xmi:id="_1__dIoGoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_1__dI4GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Expression"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_1__dJIGoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_1__dJYGoEeqjxJ91AzqJlg" name="Selected" outgoing="_1__dJ4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Expression"/>
+      </nodes>
+      <nodes xmi:id="_1__dJoGoEeqjxJ91AzqJlg" name="New" incoming="_1__dJ4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LiteralString"/>
+      </nodes>
+      <edges xmi:id="_1__dJ4GoEeqjxJ91AzqJlg" source="_1__dJYGoEeqjxJ91AzqJlg" target="_1__dJoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Expression/operand"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_1__dKIGoEeqjxJ91AzqJlg" origin="_1__dI4GoEeqjxJ91AzqJlg" image="_1__dJYGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

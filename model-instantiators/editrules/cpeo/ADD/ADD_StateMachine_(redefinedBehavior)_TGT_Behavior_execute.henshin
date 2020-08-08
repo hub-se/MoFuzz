@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_1h8PMIGoEeqjxJ91AzqJlg" name="ADD_StateMachine_(redefinedBehavior)_TGT_Behavior" description="Adds to StateMachine's reference redefinedBehavior the target Behavior">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_1h8PMYGoEeqjxJ91AzqJlg" name="addToStateMachine_redefinedBehavior_Behavior" description="Adds to StateMachine's reference redefinedBehavior the target Behavior">
+    <lhs xmi:id="_1h8PMoGoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_1h8PM4GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//StateMachine"/>
+      </nodes>
+      <nodes xmi:id="_1h8PNIGoEeqjxJ91AzqJlg" name="NewTarget">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//StateMachine"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_1h8PNYGoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_1h8PNoGoEeqjxJ91AzqJlg" name="Selected" outgoing="_1h8POIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//StateMachine"/>
+      </nodes>
+      <nodes xmi:id="_1h8PN4GoEeqjxJ91AzqJlg" name="NewTarget" incoming="_1h8POIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//StateMachine"/>
+      </nodes>
+      <edges xmi:id="_1h8POIGoEeqjxJ91AzqJlg" source="_1h8PNoGoEeqjxJ91AzqJlg" target="_1h8PN4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Behavior/redefinedBehavior"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_1h8POYGoEeqjxJ91AzqJlg" origin="_1h8PM4GoEeqjxJ91AzqJlg" image="_1h8PNoGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_1h8POoGoEeqjxJ91AzqJlg" origin="_1h8PNIGoEeqjxJ91AzqJlg" image="_1h8PN4GoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

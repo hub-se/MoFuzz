@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_U7i54IGqEeqSC4bGMjXJ9g" name="ADD_LoopNode_(bodyOutput)_TGT_OutputPin" description="Adds to LoopNode's reference bodyOutput the target OutputPin">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_U7i54YGqEeqSC4bGMjXJ9g" name="addToLoopNode_bodyOutput_OutputPin" description="Adds to LoopNode's reference bodyOutput the target OutputPin">
+    <lhs xmi:id="_U7i54oGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_U7i544GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LoopNode"/>
+      </nodes>
+      <nodes xmi:id="_U7i55IGqEeqSC4bGMjXJ9g" name="NewTarget">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//OutputPin"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_U7i55YGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_U7i55oGqEeqSC4bGMjXJ9g" name="Selected" outgoing="_U7i56IGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LoopNode"/>
+      </nodes>
+      <nodes xmi:id="_U7i554GqEeqSC4bGMjXJ9g" name="NewTarget" incoming="_U7i56IGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//OutputPin"/>
+      </nodes>
+      <edges xmi:id="_U7i56IGqEeqSC4bGMjXJ9g" source="_U7i55oGqEeqSC4bGMjXJ9g" target="_U7i554GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LoopNode/bodyOutput"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_U7i56YGqEeqSC4bGMjXJ9g" origin="_U7i544GqEeqSC4bGMjXJ9g" image="_U7i55oGqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_U7i56oGqEeqSC4bGMjXJ9g" origin="_U7i55IGqEeqSC4bGMjXJ9g" image="_U7i554GqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

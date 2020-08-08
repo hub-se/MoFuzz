@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UCtNYIGqEeqSC4bGMjXJ9g" name="MOVE_ActivityPartition_FROM_ActivityPartition_(subpartition)_TO_ActivityPartition_(subpartition)" description="MOVEs ActivityPartition from ActivityPartition(Reference:subpartition) to ActivityPartition(Reference:subpartition">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UCtNYYGqEeqSC4bGMjXJ9g" name="moveActivityPartition_FROM_ActivityPartition_subpartition_TO_ActivityPartition_ActivityPartition" description="Moves ActivityPartition from ActivityPartition(Reference:subpartition) toActivityPartition(Reference:ActivityPartition)">
+    <lhs xmi:id="_UCtNYoGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_UCtNY4GqEeqSC4bGMjXJ9g" name="Selected" incoming="_UCtNZoGqEeqSC4bGMjXJ9g" outgoing="_UCtNZ4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityPartition"/>
+      </nodes>
+      <nodes xmi:id="_UCtNZIGqEeqSC4bGMjXJ9g" name="OldSource" incoming="_UCtNZ4GqEeqSC4bGMjXJ9g" outgoing="_UCtNZoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityPartition"/>
+      </nodes>
+      <nodes xmi:id="_UCtNZYGqEeqSC4bGMjXJ9g" name="NewSource">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityPartition"/>
+      </nodes>
+      <edges xmi:id="_UCtNZoGqEeqSC4bGMjXJ9g" source="_UCtNZIGqEeqSC4bGMjXJ9g" target="_UCtNY4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityPartition/subpartition"/>
+      </edges>
+      <edges xmi:id="_UCtNZ4GqEeqSC4bGMjXJ9g" source="_UCtNY4GqEeqSC4bGMjXJ9g" target="_UCtNZIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityPartition/superPartition"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_UCtNaIGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_UCtNaYGqEeqSC4bGMjXJ9g" name="Selected" incoming="_UCtNbIGqEeqSC4bGMjXJ9g" outgoing="_UCtNbYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityPartition"/>
+      </nodes>
+      <nodes xmi:id="_UCtNaoGqEeqSC4bGMjXJ9g" name="OldSource">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityPartition"/>
+      </nodes>
+      <nodes xmi:id="_UCtNa4GqEeqSC4bGMjXJ9g" name="NewSource" incoming="_UCtNbYGqEeqSC4bGMjXJ9g" outgoing="_UCtNbIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityPartition"/>
+      </nodes>
+      <edges xmi:id="_UCtNbIGqEeqSC4bGMjXJ9g" source="_UCtNa4GqEeqSC4bGMjXJ9g" target="_UCtNaYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityPartition/subpartition"/>
+      </edges>
+      <edges xmi:id="_UCtNbYGqEeqSC4bGMjXJ9g" source="_UCtNaYGqEeqSC4bGMjXJ9g" target="_UCtNa4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityPartition/superPartition"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_UCtNboGqEeqSC4bGMjXJ9g" origin="_UCtNY4GqEeqSC4bGMjXJ9g" image="_UCtNaYGqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_UCtNb4GqEeqSC4bGMjXJ9g" origin="_UCtNZIGqEeqSC4bGMjXJ9g" image="_UCtNaoGqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_UCtNcIGqEeqSC4bGMjXJ9g" origin="_UCtNZYGqEeqSC4bGMjXJ9g" image="_UCtNa4GqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

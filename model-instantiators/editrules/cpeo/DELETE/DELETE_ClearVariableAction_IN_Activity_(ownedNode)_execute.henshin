@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_05_eYIGoEeqjxJ91AzqJlg" name="DELETE_ClearVariableAction_IN_Activity_(ownedNode)" description="Deletes one ClearVariableAction in Activity">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_05_eYYGoEeqjxJ91AzqJlg" name="deleteClearVariableAction_IN_Activity" description="deletes one ClearVariableAction in the context: Activity">
+    <lhs xmi:id="_05_eYoGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_05_eY4GoEeqjxJ91AzqJlg" name="Selected" outgoing="_05_eZoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Activity"/>
+      </nodes>
+      <nodes xmi:id="_05_eZIGoEeqjxJ91AzqJlg" name="ToBeDeleted" incoming="_05_eZoGoEeqjxJ91AzqJlg" outgoing="_05_eZ4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ClearVariableAction"/>
+      </nodes>
+      <nodes xmi:id="_05_eZYGoEeqjxJ91AzqJlg" name="Existing" incoming="_05_eZ4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Variable"/>
+      </nodes>
+      <edges xmi:id="_05_eZoGoEeqjxJ91AzqJlg" source="_05_eY4GoEeqjxJ91AzqJlg" target="_05_eZIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Activity/ownedNode"/>
+      </edges>
+      <edges xmi:id="_05_eZ4GoEeqjxJ91AzqJlg" source="_05_eZIGoEeqjxJ91AzqJlg" target="_05_eZYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//VariableAction/variable"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_05_eaIGoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_05_eaYGoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Activity"/>
+      </nodes>
+      <nodes xmi:id="_05_eaoGoEeqjxJ91AzqJlg" name="Existing">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Variable"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_05_ea4GoEeqjxJ91AzqJlg" origin="_05_eY4GoEeqjxJ91AzqJlg" image="_05_eaYGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_05_ebIGoEeqjxJ91AzqJlg" origin="_05_eZYGoEeqjxJ91AzqJlg" image="_05_eaoGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

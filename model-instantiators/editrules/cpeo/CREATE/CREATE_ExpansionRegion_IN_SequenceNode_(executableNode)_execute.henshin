@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_2A2YwIGoEeqjxJ91AzqJlg" name="CREATE_ExpansionRegion_IN_SequenceNode_(executableNode)" description="Creates one ExpansionRegion in SequenceNode">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_2A2YwYGoEeqjxJ91AzqJlg" name="createExpansionRegion_IN_SequenceNode" description="creates one ExpansionRegion in the context: SequenceNode">
+    <parameters xmi:id="_2A2YwoGoEeqjxJ91AzqJlg" name="IsLeaf" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <parameters xmi:id="_2A2Yw4GoEeqjxJ91AzqJlg" name="IsLocallyReentrant" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <parameters xmi:id="_2A2YxIGoEeqjxJ91AzqJlg" name="MustIsolate" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <parameters xmi:id="_2A2YxYGoEeqjxJ91AzqJlg" name="Mode" kind="IN">
+      <type xsi:type="ecore:EEnum" href="http://www.eclipse.org/uml2/5.0.0/UML#//ExpansionKind"/>
+    </parameters>
+    <lhs xmi:id="_2A2YxoGoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_2A2Yx4GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//SequenceNode"/>
+      </nodes>
+      <nodes xmi:id="_2A2YyIGoEeqjxJ91AzqJlg" name="Existing">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ExpansionNode"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_2A2YyYGoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_2A2YyoGoEeqjxJ91AzqJlg" name="Selected" outgoing="_2A2Y0YGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//SequenceNode"/>
+      </nodes>
+      <nodes xmi:id="_2A2Yy4GoEeqjxJ91AzqJlg" name="New" incoming="_2A2Y0YGoEeqjxJ91AzqJlg _2A2Y04GoEeqjxJ91AzqJlg" outgoing="_2A2Y0oGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ExpansionRegion"/>
+        <attributes xmi:id="_2A2YzIGoEeqjxJ91AzqJlg" value="IsLeaf">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//RedefinableElement/isLeaf"/>
+        </attributes>
+        <attributes xmi:id="_2A2YzYGoEeqjxJ91AzqJlg" value="IsLocallyReentrant">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Action/isLocallyReentrant"/>
+        </attributes>
+        <attributes xmi:id="_2A2YzoGoEeqjxJ91AzqJlg" value="MustIsolate">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//StructuredActivityNode/mustIsolate"/>
+        </attributes>
+        <attributes xmi:id="_2A2Yz4GoEeqjxJ91AzqJlg" value="Mode">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ExpansionRegion/mode"/>
+        </attributes>
+      </nodes>
+      <nodes xmi:id="_2A2Y0IGoEeqjxJ91AzqJlg" name="Existing" incoming="_2A2Y0oGoEeqjxJ91AzqJlg" outgoing="_2A2Y04GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ExpansionNode"/>
+      </nodes>
+      <edges xmi:id="_2A2Y0YGoEeqjxJ91AzqJlg" source="_2A2YyoGoEeqjxJ91AzqJlg" target="_2A2Yy4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//SequenceNode/executableNode"/>
+      </edges>
+      <edges xmi:id="_2A2Y0oGoEeqjxJ91AzqJlg" source="_2A2Yy4GoEeqjxJ91AzqJlg" target="_2A2Y0IGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ExpansionRegion/inputElement"/>
+      </edges>
+      <edges xmi:id="_2A2Y04GoEeqjxJ91AzqJlg" source="_2A2Y0IGoEeqjxJ91AzqJlg" target="_2A2Yy4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ExpansionNode/regionAsInput"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_2A2Y1IGoEeqjxJ91AzqJlg" origin="_2A2Yx4GoEeqjxJ91AzqJlg" image="_2A2YyoGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_2A2Y1YGoEeqjxJ91AzqJlg" origin="_2A2YyIGoEeqjxJ91AzqJlg" image="_2A2Y0IGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

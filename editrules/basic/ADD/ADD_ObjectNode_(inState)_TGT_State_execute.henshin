@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_U42LMIGqEeqSC4bGMjXJ9g" name="ADD_ObjectNode_(inState)_TGT_State" description="Adds to ObjectNode's reference inState the target State">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_U42LMYGqEeqSC4bGMjXJ9g" name="addToObjectNode_inState_State" description="Adds to ObjectNode's reference inState the target State">
+    <lhs xmi:id="_U42LMoGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_U42LM4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ObjectNode"/>
+      </nodes>
+      <nodes xmi:id="_U42LNIGqEeqSC4bGMjXJ9g" name="NewTarget">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//State"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_U42LNYGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_U42LNoGqEeqSC4bGMjXJ9g" name="Selected" outgoing="_U42LOIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ObjectNode"/>
+      </nodes>
+      <nodes xmi:id="_U42LN4GqEeqSC4bGMjXJ9g" name="NewTarget" incoming="_U42LOIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//State"/>
+      </nodes>
+      <edges xmi:id="_U42LOIGqEeqSC4bGMjXJ9g" source="_U42LNoGqEeqSC4bGMjXJ9g" target="_U42LN4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ObjectNode/inState"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_U42LOYGqEeqSC4bGMjXJ9g" origin="_U42LM4GqEeqSC4bGMjXJ9g" image="_U42LNoGqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_U42LOoGqEeqSC4bGMjXJ9g" origin="_U42LNIGqEeqSC4bGMjXJ9g" image="_U42LN4GqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

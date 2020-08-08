@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_1Jy08IGoEeqjxJ91AzqJlg" name="DELETE_OpaqueExpression_IN_MultiplicityElement_(upperValue)" description="Deletes one OpaqueExpression in MultiplicityElement">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_1Jy08YGoEeqjxJ91AzqJlg" name="deleteOpaqueExpression_IN_MultiplicityElement" description="deletes one OpaqueExpression in the context: MultiplicityElement">
+    <lhs xmi:id="_1Jy08oGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_1Jy084GoEeqjxJ91AzqJlg" name="Selected" outgoing="_1Jy09YGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//MultiplicityElement"/>
+      </nodes>
+      <nodes xmi:id="_1Jy09IGoEeqjxJ91AzqJlg" name="ToBeDeleted" incoming="_1Jy09YGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//OpaqueExpression"/>
+      </nodes>
+      <edges xmi:id="_1Jy09YGoEeqjxJ91AzqJlg" source="_1Jy084GoEeqjxJ91AzqJlg" target="_1Jy09IGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//MultiplicityElement/upperValue"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_1Jy09oGoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_1Jy094GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//MultiplicityElement"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_1Jy0-IGoEeqjxJ91AzqJlg" origin="_1Jy084GoEeqjxJ91AzqJlg" image="_1Jy094GoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

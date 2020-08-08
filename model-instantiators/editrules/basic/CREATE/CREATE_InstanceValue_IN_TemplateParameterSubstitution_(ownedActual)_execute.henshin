@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UbSsgIGqEeqSC4bGMjXJ9g" name="CREATE_InstanceValue_IN_TemplateParameterSubstitution_(ownedActual)" description="Creates one InstanceValue in TemplateParameterSubstitution">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UbSsgYGqEeqSC4bGMjXJ9g" name="createInstanceValue_IN_TemplateParameterSubstitution" description="creates one InstanceValue in the context: TemplateParameterSubstitution">
+    <lhs xmi:id="_UbSsgoGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_UbSsg4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameterSubstitution"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_UbSshIGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_UbSshYGqEeqSC4bGMjXJ9g" name="Selected" outgoing="_UbSsh4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameterSubstitution"/>
+      </nodes>
+      <nodes xmi:id="_UbSshoGqEeqSC4bGMjXJ9g" name="New" incoming="_UbSsh4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InstanceValue"/>
+      </nodes>
+      <edges xmi:id="_UbSsh4GqEeqSC4bGMjXJ9g" source="_UbSshYGqEeqSC4bGMjXJ9g" target="_UbSshoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameterSubstitution/ownedActual"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_UbSsiIGqEeqSC4bGMjXJ9g" origin="_UbSsg4GqEeqSC4bGMjXJ9g" image="_UbSshYGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

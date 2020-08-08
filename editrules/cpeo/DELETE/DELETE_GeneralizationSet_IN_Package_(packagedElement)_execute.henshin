@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_06QkIIGoEeqjxJ91AzqJlg" name="DELETE_GeneralizationSet_IN_Package_(packagedElement)" description="Deletes one GeneralizationSet in Package">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_06QkIYGoEeqjxJ91AzqJlg" name="deleteGeneralizationSet_IN_Package" description="deletes one GeneralizationSet in the context: Package">
+    <lhs xmi:id="_06QkIoGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_06QkI4GoEeqjxJ91AzqJlg" name="Selected" outgoing="_06QkJYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </nodes>
+      <nodes xmi:id="_06QkJIGoEeqjxJ91AzqJlg" name="ToBeDeleted" incoming="_06QkJYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//GeneralizationSet"/>
+      </nodes>
+      <edges xmi:id="_06QkJYGoEeqjxJ91AzqJlg" source="_06QkI4GoEeqjxJ91AzqJlg" target="_06QkJIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Package/packagedElement"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_06QkJoGoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_06QkJ4GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_06QkKIGoEeqjxJ91AzqJlg" origin="_06QkI4GoEeqjxJ91AzqJlg" image="_06QkJ4GoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

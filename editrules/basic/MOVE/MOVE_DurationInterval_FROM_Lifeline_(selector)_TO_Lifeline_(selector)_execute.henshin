@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_T9VlMIGqEeqSC4bGMjXJ9g" name="MOVE_DurationInterval_FROM_Lifeline_(selector)_TO_Lifeline_(selector)" description="MOVEs DurationInterval from Lifeline(Reference:selector) to Lifeline(Reference:selector">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_T9VlMYGqEeqSC4bGMjXJ9g" name="moveDurationInterval_FROM_Lifeline_selector_TO_Lifeline_Lifeline" description="Moves DurationInterval from Lifeline(Reference:selector) toLifeline(Reference:Lifeline)">
+    <lhs xmi:id="_T9VlMoGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_T9VlM4GqEeqSC4bGMjXJ9g" name="Selected" incoming="_T9VlNoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//DurationInterval"/>
+      </nodes>
+      <nodes xmi:id="_T9VlNIGqEeqSC4bGMjXJ9g" name="OldSource" outgoing="_T9VlNoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Lifeline"/>
+      </nodes>
+      <nodes xmi:id="_T9VlNYGqEeqSC4bGMjXJ9g" name="NewSource">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Lifeline"/>
+      </nodes>
+      <edges xmi:id="_T9VlNoGqEeqSC4bGMjXJ9g" source="_T9VlNIGqEeqSC4bGMjXJ9g" target="_T9VlM4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Lifeline/selector"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_T9VlN4GqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_T9VlOIGqEeqSC4bGMjXJ9g" name="Selected" incoming="_T9VlO4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//DurationInterval"/>
+      </nodes>
+      <nodes xmi:id="_T9VlOYGqEeqSC4bGMjXJ9g" name="OldSource">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Lifeline"/>
+      </nodes>
+      <nodes xmi:id="_T9VlOoGqEeqSC4bGMjXJ9g" name="NewSource" outgoing="_T9VlO4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Lifeline"/>
+      </nodes>
+      <edges xmi:id="_T9VlO4GqEeqSC4bGMjXJ9g" source="_T9VlOoGqEeqSC4bGMjXJ9g" target="_T9VlOIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Lifeline/selector"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_T9VlPIGqEeqSC4bGMjXJ9g" origin="_T9VlM4GqEeqSC4bGMjXJ9g" image="_T9VlOIGqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_T9VlPYGqEeqSC4bGMjXJ9g" origin="_T9VlNIGqEeqSC4bGMjXJ9g" image="_T9VlOYGqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_T9VlPoGqEeqSC4bGMjXJ9g" origin="_T9VlNYGqEeqSC4bGMjXJ9g" image="_T9VlOoGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_2gI80IGoEeqjxJ91AzqJlg" name="MOVE_TimeInterval_FROM_JoinNode_(joinSpec)_TO_JoinNode_(joinSpec)" description="MOVEs TimeInterval from JoinNode(Reference:joinSpec) to JoinNode(Reference:joinSpec">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_2gI80YGoEeqjxJ91AzqJlg" name="moveTimeInterval_FROM_JoinNode_joinSpec_TO_JoinNode_JoinNode" description="Moves TimeInterval from JoinNode(Reference:joinSpec) toJoinNode(Reference:JoinNode)">
+    <lhs xmi:id="_2gI80oGoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_2gI804GoEeqjxJ91AzqJlg" name="Selected" incoming="_2gI81oGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TimeInterval"/>
+      </nodes>
+      <nodes xmi:id="_2gI81IGoEeqjxJ91AzqJlg" name="OldSource" outgoing="_2gI81oGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//JoinNode"/>
+      </nodes>
+      <nodes xmi:id="_2gI81YGoEeqjxJ91AzqJlg" name="NewSource">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//JoinNode"/>
+      </nodes>
+      <edges xmi:id="_2gI81oGoEeqjxJ91AzqJlg" source="_2gI81IGoEeqjxJ91AzqJlg" target="_2gI804GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//JoinNode/joinSpec"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_2gI814GoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_2gI82IGoEeqjxJ91AzqJlg" name="Selected" incoming="_2gI824GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TimeInterval"/>
+      </nodes>
+      <nodes xmi:id="_2gI82YGoEeqjxJ91AzqJlg" name="OldSource">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//JoinNode"/>
+      </nodes>
+      <nodes xmi:id="_2gI82oGoEeqjxJ91AzqJlg" name="NewSource" outgoing="_2gI824GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//JoinNode"/>
+      </nodes>
+      <edges xmi:id="_2gI824GoEeqjxJ91AzqJlg" source="_2gI82oGoEeqjxJ91AzqJlg" target="_2gI82IGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//JoinNode/joinSpec"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_2gI83IGoEeqjxJ91AzqJlg" origin="_2gI804GoEeqjxJ91AzqJlg" image="_2gI82IGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_2gI83YGoEeqjxJ91AzqJlg" origin="_2gI81IGoEeqjxJ91AzqJlg" image="_2gI82YGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_2gI83oGoEeqjxJ91AzqJlg" origin="_2gI81YGoEeqjxJ91AzqJlg" image="_2gI82oGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

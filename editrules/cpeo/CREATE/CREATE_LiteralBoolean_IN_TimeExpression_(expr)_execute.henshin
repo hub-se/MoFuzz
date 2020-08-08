@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_1tEhIIGoEeqjxJ91AzqJlg" name="CREATE_LiteralBoolean_IN_TimeExpression_(expr)" description="Creates one LiteralBoolean in TimeExpression">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_1tEhIYGoEeqjxJ91AzqJlg" name="createLiteralBoolean_IN_TimeExpression" description="creates one LiteralBoolean in the context: TimeExpression">
+    <parameters xmi:id="_1tEhIoGoEeqjxJ91AzqJlg" name="Value" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <lhs xmi:id="_1tEhI4GoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_1tEhJIGoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TimeExpression"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_1tEhJYGoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_1tEhJoGoEeqjxJ91AzqJlg" name="Selected" outgoing="_1tEhKYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TimeExpression"/>
+      </nodes>
+      <nodes xmi:id="_1tEhJ4GoEeqjxJ91AzqJlg" name="New" incoming="_1tEhKYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LiteralBoolean"/>
+        <attributes xmi:id="_1tEhKIGoEeqjxJ91AzqJlg" value="Value">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LiteralBoolean/value"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_1tEhKYGoEeqjxJ91AzqJlg" source="_1tEhJoGoEeqjxJ91AzqJlg" target="_1tEhJ4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TimeExpression/expr"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_1tEhKoGoEeqjxJ91AzqJlg" origin="_1tEhJIGoEeqjxJ91AzqJlg" image="_1tEhJoGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

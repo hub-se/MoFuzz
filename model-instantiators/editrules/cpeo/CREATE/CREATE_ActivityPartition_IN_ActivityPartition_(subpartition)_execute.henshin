@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_1nT3YIGoEeqjxJ91AzqJlg" name="CREATE_ActivityPartition_IN_ActivityPartition_(subpartition)" description="Creates one ActivityPartition in ActivityPartition">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_1nT3YYGoEeqjxJ91AzqJlg" name="createActivityPartition_IN_ActivityPartition" description="creates one ActivityPartition in the context: ActivityPartition">
+    <parameters xmi:id="_1nT3YoGoEeqjxJ91AzqJlg" name="IsDimension" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <parameters xmi:id="_1nT3Y4GoEeqjxJ91AzqJlg" name="IsExternal" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <lhs xmi:id="_1nT3ZIGoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_1nT3ZYGoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityPartition"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_1nT3ZoGoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_1nT3Z4GoEeqjxJ91AzqJlg" name="Selected" incoming="_1nT3bIGoEeqjxJ91AzqJlg" outgoing="_1nT3a4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityPartition"/>
+      </nodes>
+      <nodes xmi:id="_1nT3aIGoEeqjxJ91AzqJlg" name="New" incoming="_1nT3a4GoEeqjxJ91AzqJlg" outgoing="_1nT3bIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityPartition"/>
+        <attributes xmi:id="_1nT3aYGoEeqjxJ91AzqJlg" value="IsDimension">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityPartition/isDimension"/>
+        </attributes>
+        <attributes xmi:id="_1nT3aoGoEeqjxJ91AzqJlg" value="IsExternal">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityPartition/isExternal"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_1nT3a4GoEeqjxJ91AzqJlg" source="_1nT3Z4GoEeqjxJ91AzqJlg" target="_1nT3aIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityPartition/subpartition"/>
+      </edges>
+      <edges xmi:id="_1nT3bIGoEeqjxJ91AzqJlg" source="_1nT3aIGoEeqjxJ91AzqJlg" target="_1nT3Z4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityPartition/superPartition"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_1nT3bYGoEeqjxJ91AzqJlg" origin="_1nT3ZYGoEeqjxJ91AzqJlg" image="_1nT3Z4GoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

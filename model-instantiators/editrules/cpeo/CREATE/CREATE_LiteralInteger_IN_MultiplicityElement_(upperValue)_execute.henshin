@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_1zLJIIGoEeqjxJ91AzqJlg" name="CREATE_LiteralInteger_IN_MultiplicityElement_(upperValue)" description="Creates one LiteralInteger in MultiplicityElement">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_1zLJIYGoEeqjxJ91AzqJlg" name="createLiteralInteger_IN_MultiplicityElement" description="creates one LiteralInteger in the context: MultiplicityElement">
+    <parameters xmi:id="_1zLJIoGoEeqjxJ91AzqJlg" name="Value" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Integer"/>
+    </parameters>
+    <lhs xmi:id="_1zLJI4GoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_1zLJJIGoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//MultiplicityElement"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_1zLJJYGoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_1zLJJoGoEeqjxJ91AzqJlg" name="Selected" outgoing="_1zLJKYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//MultiplicityElement"/>
+      </nodes>
+      <nodes xmi:id="_1zLJJ4GoEeqjxJ91AzqJlg" name="New" incoming="_1zLJKYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LiteralInteger"/>
+        <attributes xmi:id="_1zLJKIGoEeqjxJ91AzqJlg" value="Value">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LiteralInteger/value"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_1zLJKYGoEeqjxJ91AzqJlg" source="_1zLJJoGoEeqjxJ91AzqJlg" target="_1zLJJ4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//MultiplicityElement/upperValue"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_1zLJKoGoEeqjxJ91AzqJlg" origin="_1zLJJIGoEeqjxJ91AzqJlg" image="_1zLJJoGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

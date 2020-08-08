@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_1t-gEIGoEeqjxJ91AzqJlg" name="CREATE_StateMachine_IN_Transition_(effect)" description="Creates one StateMachine in Transition">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_1t-gEYGoEeqjxJ91AzqJlg" name="createStateMachine_IN_Transition" description="creates one StateMachine in the context: Transition">
+    <parameters xmi:id="_1t-gEoGoEeqjxJ91AzqJlg" name="IsLeaf" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <parameters xmi:id="_1t-gE4GoEeqjxJ91AzqJlg" name="IsAbstract" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <parameters xmi:id="_1t-gFIGoEeqjxJ91AzqJlg" name="IsFinalSpecialization" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <parameters xmi:id="_1t-gFYGoEeqjxJ91AzqJlg" name="IsActive" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <parameters xmi:id="_1t-gFoGoEeqjxJ91AzqJlg" name="IsLeaf1" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <lhs xmi:id="_1t-gF4GoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_1t-gGIGoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Transition"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_1t-gGYGoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_1t-gGoGoEeqjxJ91AzqJlg" name="Selected" outgoing="_1t-gIoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Transition"/>
+      </nodes>
+      <nodes xmi:id="_1t-gG4GoEeqjxJ91AzqJlg" name="New" incoming="_1t-gIoGoEeqjxJ91AzqJlg _1t-gJIGoEeqjxJ91AzqJlg" outgoing="_1t-gI4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//StateMachine"/>
+        <attributes xmi:id="_1t-gHIGoEeqjxJ91AzqJlg" value="IsLeaf">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//RedefinableElement/isLeaf"/>
+        </attributes>
+        <attributes xmi:id="_1t-gHYGoEeqjxJ91AzqJlg" value="IsAbstract">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier/isAbstract"/>
+        </attributes>
+        <attributes xmi:id="_1t-gHoGoEeqjxJ91AzqJlg" value="IsFinalSpecialization">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier/isFinalSpecialization"/>
+        </attributes>
+        <attributes xmi:id="_1t-gH4GoEeqjxJ91AzqJlg" value="IsActive">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Class/isActive"/>
+        </attributes>
+      </nodes>
+      <nodes xmi:id="_1t-gIIGoEeqjxJ91AzqJlg" name="Child" incoming="_1t-gI4GoEeqjxJ91AzqJlg" outgoing="_1t-gJIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Region"/>
+        <attributes xmi:id="_1t-gIYGoEeqjxJ91AzqJlg" value="IsLeaf1">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//RedefinableElement/isLeaf"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_1t-gIoGoEeqjxJ91AzqJlg" source="_1t-gGoGoEeqjxJ91AzqJlg" target="_1t-gG4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Transition/effect"/>
+      </edges>
+      <edges xmi:id="_1t-gI4GoEeqjxJ91AzqJlg" source="_1t-gG4GoEeqjxJ91AzqJlg" target="_1t-gIIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//StateMachine/region"/>
+      </edges>
+      <edges xmi:id="_1t-gJIGoEeqjxJ91AzqJlg" source="_1t-gIIGoEeqjxJ91AzqJlg" target="_1t-gG4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Region/stateMachine"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_1t-gJYGoEeqjxJ91AzqJlg" origin="_1t-gGIGoEeqjxJ91AzqJlg" image="_1t-gGoGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

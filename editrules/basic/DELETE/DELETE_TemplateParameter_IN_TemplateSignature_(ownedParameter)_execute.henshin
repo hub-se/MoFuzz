@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_Upij4IGqEeqSC4bGMjXJ9g" name="DELETE_TemplateParameter_IN_TemplateSignature_(ownedParameter)" description="Deletes one TemplateParameter in TemplateSignature">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_Upij4YGqEeqSC4bGMjXJ9g" name="deleteTemplateParameter_IN_TemplateSignature" description="deletes one TemplateParameter in the context: TemplateSignature">
+    <lhs xmi:id="_Upij4oGqEeqSC4bGMjXJ9g" name="LHS">
+      <nodes xmi:id="_Upij44GqEeqSC4bGMjXJ9g" name="Selected" incoming="_Upij5oGqEeqSC4bGMjXJ9g" outgoing="_Upij5YGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateSignature"/>
+      </nodes>
+      <nodes xmi:id="_Upij5IGqEeqSC4bGMjXJ9g" name="ToBeDeleted" incoming="_Upij5YGqEeqSC4bGMjXJ9g" outgoing="_Upij5oGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameter"/>
+      </nodes>
+      <edges xmi:id="_Upij5YGqEeqSC4bGMjXJ9g" source="_Upij44GqEeqSC4bGMjXJ9g" target="_Upij5IGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateSignature/ownedParameter"/>
+      </edges>
+      <edges xmi:id="_Upij5oGqEeqSC4bGMjXJ9g" source="_Upij5IGqEeqSC4bGMjXJ9g" target="_Upij44GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameter/signature"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_Upij54GqEeqSC4bGMjXJ9g" name="RHS">
+      <nodes xmi:id="_Upij6IGqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateSignature"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_Upij6YGqEeqSC4bGMjXJ9g" origin="_Upij44GqEeqSC4bGMjXJ9g" image="_Upij6IGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

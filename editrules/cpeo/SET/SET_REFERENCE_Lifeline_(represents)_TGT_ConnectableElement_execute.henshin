@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_2nm2wIGoEeqjxJ91AzqJlg" name="SET_REFERENCE_Lifeline_(represents)_TGT_ConnectableElement" description="Sets Lifeline's reference represents the target ConnectableElement">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_2nm2wYGoEeqjxJ91AzqJlg" name="setLifeline_represents_TO_ConnectableElement" description="SetLifelineRefrepresentsToConnectableElement">
+    <lhs xmi:id="_2nm2woGoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_2nm2w4GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Lifeline"/>
+      </nodes>
+      <nodes xmi:id="_2nm2xIGoEeqjxJ91AzqJlg" name="NewTarget">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ConnectableElement"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_2nm2xYGoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_2nm2xoGoEeqjxJ91AzqJlg" name="Selected" outgoing="_2nm2yIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Lifeline"/>
+      </nodes>
+      <nodes xmi:id="_2nm2x4GoEeqjxJ91AzqJlg" name="NewTarget" incoming="_2nm2yIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ConnectableElement"/>
+      </nodes>
+      <edges xmi:id="_2nm2yIGoEeqjxJ91AzqJlg" source="_2nm2xoGoEeqjxJ91AzqJlg" target="_2nm2x4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Lifeline/represents"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_2nm2yYGoEeqjxJ91AzqJlg" origin="_2nm2w4GoEeqjxJ91AzqJlg" image="_2nm2xoGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_2nm2yoGoEeqjxJ91AzqJlg" origin="_2nm2xIGoEeqjxJ91AzqJlg" image="_2nm2x4GoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

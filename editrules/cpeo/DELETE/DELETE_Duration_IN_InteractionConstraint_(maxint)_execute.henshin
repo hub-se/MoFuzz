@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_08VAsIGoEeqjxJ91AzqJlg" name="DELETE_Duration_IN_InteractionConstraint_(maxint)" description="Deletes one Duration in InteractionConstraint">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_08VAsYGoEeqjxJ91AzqJlg" name="deleteDuration_IN_InteractionConstraint" description="deletes one Duration in the context: InteractionConstraint">
+    <lhs xmi:id="_08VAsoGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_08VAs4GoEeqjxJ91AzqJlg" name="Selected" outgoing="_08VAtYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InteractionConstraint"/>
+      </nodes>
+      <nodes xmi:id="_08VAtIGoEeqjxJ91AzqJlg" name="ToBeDeleted" incoming="_08VAtYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Duration"/>
+      </nodes>
+      <edges xmi:id="_08VAtYGoEeqjxJ91AzqJlg" source="_08VAs4GoEeqjxJ91AzqJlg" target="_08VAtIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InteractionConstraint/maxint"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_08VAtoGoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_08VAt4GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InteractionConstraint"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_08VAuIGoEeqjxJ91AzqJlg" origin="_08VAs4GoEeqjxJ91AzqJlg" image="_08VAt4GoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

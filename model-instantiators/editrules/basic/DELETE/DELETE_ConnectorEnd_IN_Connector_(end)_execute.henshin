@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UoI1sIGqEeqSC4bGMjXJ9g" name="DELETE_ConnectorEnd_IN_Connector_(end)" description="Deletes one ConnectorEnd in Connector">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UoI1sYGqEeqSC4bGMjXJ9g" name="deleteConnectorEnd_IN_Connector" description="deletes one ConnectorEnd in the context: Connector">
+    <lhs xmi:id="_UoI1soGqEeqSC4bGMjXJ9g" name="LHS">
+      <nodes xmi:id="_UoI1s4GqEeqSC4bGMjXJ9g" name="Selected" outgoing="_UoI1tYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Connector"/>
+      </nodes>
+      <nodes xmi:id="_UoI1tIGqEeqSC4bGMjXJ9g" name="ToBeDeleted" incoming="_UoI1tYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ConnectorEnd"/>
+      </nodes>
+      <edges xmi:id="_UoI1tYGqEeqSC4bGMjXJ9g" source="_UoI1s4GqEeqSC4bGMjXJ9g" target="_UoI1tIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Connector/end"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_UoI1toGqEeqSC4bGMjXJ9g" name="RHS">
+      <nodes xmi:id="_UoI1t4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Connector"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_UoI1uIGqEeqSC4bGMjXJ9g" origin="_UoI1s4GqEeqSC4bGMjXJ9g" image="_UoI1t4GqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

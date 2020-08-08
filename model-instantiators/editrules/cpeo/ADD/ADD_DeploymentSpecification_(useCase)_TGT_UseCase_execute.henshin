@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_1eQCAIGoEeqjxJ91AzqJlg" name="ADD_DeploymentSpecification_(useCase)_TGT_UseCase" description="Adds to DeploymentSpecification's reference useCase the target UseCase">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_1eQCAYGoEeqjxJ91AzqJlg" name="addToDeploymentSpecification_useCase_UseCase" description="Adds to DeploymentSpecification's reference useCase the target UseCase">
+    <lhs xmi:id="_1eQCAoGoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_1eQCA4GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//DeploymentSpecification"/>
+      </nodes>
+      <nodes xmi:id="_1eQCBIGoEeqjxJ91AzqJlg" name="NewTarget">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//UseCase"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_1eQCBYGoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_1eQCBoGoEeqjxJ91AzqJlg" name="Selected" incoming="_1eQCCYGoEeqjxJ91AzqJlg" outgoing="_1eQCCIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//DeploymentSpecification"/>
+      </nodes>
+      <nodes xmi:id="_1eQCB4GoEeqjxJ91AzqJlg" name="NewTarget" incoming="_1eQCCIGoEeqjxJ91AzqJlg" outgoing="_1eQCCYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//UseCase"/>
+      </nodes>
+      <edges xmi:id="_1eQCCIGoEeqjxJ91AzqJlg" source="_1eQCBoGoEeqjxJ91AzqJlg" target="_1eQCB4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier/useCase"/>
+      </edges>
+      <edges xmi:id="_1eQCCYGoEeqjxJ91AzqJlg" source="_1eQCB4GoEeqjxJ91AzqJlg" target="_1eQCBoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//UseCase/subject"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_1eQCCoGoEeqjxJ91AzqJlg" origin="_1eQCA4GoEeqjxJ91AzqJlg" image="_1eQCBoGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_1eQCC4GoEeqjxJ91AzqJlg" origin="_1eQCBIGoEeqjxJ91AzqJlg" image="_1eQCB4GoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

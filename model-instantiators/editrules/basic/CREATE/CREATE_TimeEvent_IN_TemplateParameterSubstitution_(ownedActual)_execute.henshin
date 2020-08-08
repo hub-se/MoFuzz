@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UHZgIIGqEeqSC4bGMjXJ9g" name="CREATE_TimeEvent_IN_TemplateParameterSubstitution_(ownedActual)" description="Creates one TimeEvent in TemplateParameterSubstitution">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UHZgIYGqEeqSC4bGMjXJ9g" name="createTimeEvent_IN_TemplateParameterSubstitution" description="creates one TimeEvent in the context: TemplateParameterSubstitution">
+    <parameters xmi:id="_UHZgIoGqEeqSC4bGMjXJ9g" name="IsRelative" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <lhs xmi:id="_UHZgI4GqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_UHZgJIGqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameterSubstitution"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_UHZgJYGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_UHZgJoGqEeqSC4bGMjXJ9g" name="Selected" outgoing="_UHZgKYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameterSubstitution"/>
+      </nodes>
+      <nodes xmi:id="_UHZgJ4GqEeqSC4bGMjXJ9g" name="New" incoming="_UHZgKYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TimeEvent"/>
+        <attributes xmi:id="_UHZgKIGqEeqSC4bGMjXJ9g" value="IsRelative">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TimeEvent/isRelative"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_UHZgKYGqEeqSC4bGMjXJ9g" source="_UHZgJoGqEeqSC4bGMjXJ9g" target="_UHZgJ4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameterSubstitution/ownedActual"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_UHZgKoGqEeqSC4bGMjXJ9g" origin="_UHZgJIGqEeqSC4bGMjXJ9g" image="_UHZgJoGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

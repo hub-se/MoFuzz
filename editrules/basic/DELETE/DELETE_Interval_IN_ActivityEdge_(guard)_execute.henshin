@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UlvpAIGqEeqSC4bGMjXJ9g" name="DELETE_Interval_IN_ActivityEdge_(guard)" description="Deletes one Interval in ActivityEdge">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UlvpAYGqEeqSC4bGMjXJ9g" name="deleteInterval_IN_ActivityEdge" description="deletes one Interval in the context: ActivityEdge">
+    <lhs xmi:id="_UlvpAoGqEeqSC4bGMjXJ9g" name="LHS">
+      <nodes xmi:id="_UlvpA4GqEeqSC4bGMjXJ9g" name="Selected" outgoing="_UlvpBYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityEdge"/>
+      </nodes>
+      <nodes xmi:id="_UlvpBIGqEeqSC4bGMjXJ9g" name="ToBeDeleted" incoming="_UlvpBYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Interval"/>
+      </nodes>
+      <edges xmi:id="_UlvpBYGqEeqSC4bGMjXJ9g" source="_UlvpA4GqEeqSC4bGMjXJ9g" target="_UlvpBIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityEdge/guard"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_UlvpBoGqEeqSC4bGMjXJ9g" name="RHS">
+      <nodes xmi:id="_UlvpB4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityEdge"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_UlvpCIGqEeqSC4bGMjXJ9g" origin="_UlvpA4GqEeqSC4bGMjXJ9g" image="_UlvpB4GqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

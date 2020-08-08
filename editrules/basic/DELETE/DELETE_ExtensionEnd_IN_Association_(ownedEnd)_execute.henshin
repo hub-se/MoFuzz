@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UlM2cIGqEeqSC4bGMjXJ9g" name="DELETE_ExtensionEnd_IN_Association_(ownedEnd)" description="Deletes one ExtensionEnd in Association">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UlM2cYGqEeqSC4bGMjXJ9g" name="deleteExtensionEnd_IN_Association" description="deletes one ExtensionEnd in the context: Association">
+    <lhs xmi:id="_UlM2coGqEeqSC4bGMjXJ9g" name="LHS">
+      <nodes xmi:id="_UlM2c4GqEeqSC4bGMjXJ9g" name="Selected" incoming="_UlM2doGqEeqSC4bGMjXJ9g" outgoing="_UlM2dYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Extension"/>
+      </nodes>
+      <nodes xmi:id="_UlM2dIGqEeqSC4bGMjXJ9g" name="ToBeDeleted" incoming="_UlM2dYGqEeqSC4bGMjXJ9g" outgoing="_UlM2doGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ExtensionEnd"/>
+      </nodes>
+      <edges xmi:id="_UlM2dYGqEeqSC4bGMjXJ9g" source="_UlM2c4GqEeqSC4bGMjXJ9g" target="_UlM2dIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Association/ownedEnd"/>
+      </edges>
+      <edges xmi:id="_UlM2doGqEeqSC4bGMjXJ9g" source="_UlM2dIGqEeqSC4bGMjXJ9g" target="_UlM2c4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Property/owningAssociation"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_UlM2d4GqEeqSC4bGMjXJ9g" name="RHS">
+      <nodes xmi:id="_UlM2eIGqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Extension"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_UlM2eYGqEeqSC4bGMjXJ9g" origin="_UlM2c4GqEeqSC4bGMjXJ9g" image="_UlM2eIGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

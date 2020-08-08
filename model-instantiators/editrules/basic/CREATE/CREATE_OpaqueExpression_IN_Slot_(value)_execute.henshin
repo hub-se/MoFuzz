@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UPxZAIGqEeqSC4bGMjXJ9g" name="CREATE_OpaqueExpression_IN_Slot_(value)" description="Creates one OpaqueExpression in Slot">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UPxZAYGqEeqSC4bGMjXJ9g" name="createOpaqueExpression_IN_Slot" description="creates one OpaqueExpression in the context: Slot">
+    <lhs xmi:id="_UPxZAoGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_UPxZA4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Slot"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_UPxZBIGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_UPxZBYGqEeqSC4bGMjXJ9g" name="Selected" outgoing="_UPxZB4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Slot"/>
+      </nodes>
+      <nodes xmi:id="_UPxZBoGqEeqSC4bGMjXJ9g" name="New" incoming="_UPxZB4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//OpaqueExpression"/>
+      </nodes>
+      <edges xmi:id="_UPxZB4GqEeqSC4bGMjXJ9g" source="_UPxZBYGqEeqSC4bGMjXJ9g" target="_UPxZBoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Slot/value"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_UPxZCIGqEeqSC4bGMjXJ9g" origin="_UPxZA4GqEeqSC4bGMjXJ9g" image="_UPxZBYGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

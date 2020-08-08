@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_2HhBcIGoEeqjxJ91AzqJlg" name="REMOVE_Activity_(redefinedClassifier)_TGT_Classifier" description="Removes Activity's reference redefinedClassifier the target Classifier">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_2HhBcYGoEeqjxJ91AzqJlg" name="removeFromActivity_redefinedClassifier_Classifier" description="Removes from Activity's reference redefinedClassifier the target Classifier">
+    <lhs xmi:id="_2HhBcoGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_2HhBc4GoEeqjxJ91AzqJlg" name="Selected" outgoing="_2HhBdYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Activity"/>
+      </nodes>
+      <nodes xmi:id="_2HhBdIGoEeqjxJ91AzqJlg" name="OldTarget" incoming="_2HhBdYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier"/>
+      </nodes>
+      <edges xmi:id="_2HhBdYGoEeqjxJ91AzqJlg" source="_2HhBc4GoEeqjxJ91AzqJlg" target="_2HhBdIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier/redefinedClassifier"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_2HhBdoGoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_2HhBd4GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Activity"/>
+      </nodes>
+      <nodes xmi:id="_2HhBeIGoEeqjxJ91AzqJlg" name="OldTarget">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_2HhBeYGoEeqjxJ91AzqJlg" origin="_2HhBc4GoEeqjxJ91AzqJlg" image="_2HhBd4GoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_2HhBeoGoEeqjxJ91AzqJlg" origin="_2HhBdIGoEeqjxJ91AzqJlg" image="_2HhBeIGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

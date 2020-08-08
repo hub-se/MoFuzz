@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_1zFCgIGoEeqjxJ91AzqJlg" name="CREATE_InstanceValue_IN_ActivityEdge_(weight)" description="Creates one InstanceValue in ActivityEdge">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_1zFCgYGoEeqjxJ91AzqJlg" name="createInstanceValue_IN_ActivityEdge" description="creates one InstanceValue in the context: ActivityEdge">
+    <lhs xmi:id="_1zFCgoGoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_1zFCg4GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityEdge"/>
+      </nodes>
+      <nodes xmi:id="_1zFChIGoEeqjxJ91AzqJlg" name="Existing">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InstanceSpecification"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_1zFChYGoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_1zFChoGoEeqjxJ91AzqJlg" name="Selected" outgoing="_1zFCiYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityEdge"/>
+      </nodes>
+      <nodes xmi:id="_1zFCh4GoEeqjxJ91AzqJlg" name="New" incoming="_1zFCiYGoEeqjxJ91AzqJlg" outgoing="_1zFCioGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InstanceValue"/>
+      </nodes>
+      <nodes xmi:id="_1zFCiIGoEeqjxJ91AzqJlg" name="Existing" incoming="_1zFCioGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InstanceSpecification"/>
+      </nodes>
+      <edges xmi:id="_1zFCiYGoEeqjxJ91AzqJlg" source="_1zFChoGoEeqjxJ91AzqJlg" target="_1zFCh4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityEdge/weight"/>
+      </edges>
+      <edges xmi:id="_1zFCioGoEeqjxJ91AzqJlg" source="_1zFCh4GoEeqjxJ91AzqJlg" target="_1zFCiIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InstanceValue/instance"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_1zFCi4GoEeqjxJ91AzqJlg" origin="_1zFCg4GoEeqjxJ91AzqJlg" image="_1zFChoGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_1zFCjIGoEeqjxJ91AzqJlg" origin="_1zFChIGoEeqjxJ91AzqJlg" image="_1zFCiIGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

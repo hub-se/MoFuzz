@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_15yHcIGoEeqjxJ91AzqJlg" name="CREATE_RedefinableTemplateSignature_IN_TemplateableElement_(ownedTemplateSignature)" description="Creates one RedefinableTemplateSignature in TemplateableElement">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_15yHcYGoEeqjxJ91AzqJlg" name="createRedefinableTemplateSignature_IN_TemplateableElement" description="creates one RedefinableTemplateSignature in the context: TemplateableElement">
+    <parameters xmi:id="_15yHcoGoEeqjxJ91AzqJlg" name="IsLeaf" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <lhs xmi:id="_15yHc4GoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_15yHdIGoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier"/>
+      </nodes>
+      <nodes xmi:id="_15yHdYGoEeqjxJ91AzqJlg" name="Existing">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameter"/>
+      </nodes>
+      <nodes xmi:id="_15yHdoGoEeqjxJ91AzqJlg" name="Existing1">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_15yHd4GoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_15yHeIGoEeqjxJ91AzqJlg" name="Selected" incoming="_15yHfoGoEeqjxJ91AzqJlg" outgoing="_15yHfYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier"/>
+      </nodes>
+      <nodes xmi:id="_15yHeYGoEeqjxJ91AzqJlg" name="New" incoming="_15yHfYGoEeqjxJ91AzqJlg" outgoing="_15yHfoGoEeqjxJ91AzqJlg _15yHf4GoEeqjxJ91AzqJlg _15yHgIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//RedefinableTemplateSignature"/>
+        <attributes xmi:id="_15yHeoGoEeqjxJ91AzqJlg" value="IsLeaf">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//RedefinableElement/isLeaf"/>
+        </attributes>
+      </nodes>
+      <nodes xmi:id="_15yHe4GoEeqjxJ91AzqJlg" name="Existing" incoming="_15yHf4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameter"/>
+      </nodes>
+      <nodes xmi:id="_15yHfIGoEeqjxJ91AzqJlg" name="Existing1" incoming="_15yHgIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier"/>
+      </nodes>
+      <edges xmi:id="_15yHfYGoEeqjxJ91AzqJlg" source="_15yHeIGoEeqjxJ91AzqJlg" target="_15yHeYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateableElement/ownedTemplateSignature"/>
+      </edges>
+      <edges xmi:id="_15yHfoGoEeqjxJ91AzqJlg" source="_15yHeYGoEeqjxJ91AzqJlg" target="_15yHeIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateSignature/template"/>
+      </edges>
+      <edges xmi:id="_15yHf4GoEeqjxJ91AzqJlg" source="_15yHeYGoEeqjxJ91AzqJlg" target="_15yHe4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateSignature/parameter"/>
+      </edges>
+      <edges xmi:id="_15yHgIGoEeqjxJ91AzqJlg" source="_15yHeYGoEeqjxJ91AzqJlg" target="_15yHfIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//RedefinableTemplateSignature/classifier"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_15yHgYGoEeqjxJ91AzqJlg" origin="_15yHdIGoEeqjxJ91AzqJlg" image="_15yHeIGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_15yHgoGoEeqjxJ91AzqJlg" origin="_15yHdYGoEeqjxJ91AzqJlg" image="_15yHe4GoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_15yHg4GoEeqjxJ91AzqJlg" origin="_15yHdoGoEeqjxJ91AzqJlg" image="_15yHfIGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

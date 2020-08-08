@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_11VFQIGoEeqjxJ91AzqJlg" name="CREATE_Expression_IN_InstanceSpecification_(specification)" description="Creates one Expression in InstanceSpecification">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_11VFQYGoEeqjxJ91AzqJlg" name="createExpression_IN_InstanceSpecification" description="creates one Expression in the context: InstanceSpecification">
+    <lhs xmi:id="_11VFQoGoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_11VFQ4GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InstanceSpecification"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_11VFRIGoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_11VFRYGoEeqjxJ91AzqJlg" name="Selected" outgoing="_11VFR4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InstanceSpecification"/>
+      </nodes>
+      <nodes xmi:id="_11VFRoGoEeqjxJ91AzqJlg" name="New" incoming="_11VFR4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Expression"/>
+      </nodes>
+      <edges xmi:id="_11VFR4GoEeqjxJ91AzqJlg" source="_11VFRYGoEeqjxJ91AzqJlg" target="_11VFRoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InstanceSpecification/specification"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_11VFSIGoEeqjxJ91AzqJlg" origin="_11VFQ4GoEeqjxJ91AzqJlg" image="_11VFRYGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

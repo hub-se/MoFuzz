@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_U8hKQIGqEeqSC4bGMjXJ9g" name="ADD_Operation_(redefinedOperation)_TGT_Operation" description="Adds to Operation's reference redefinedOperation the target Operation">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_U8hKQYGqEeqSC4bGMjXJ9g" name="addToOperation_redefinedOperation_Operation" description="Adds to Operation's reference redefinedOperation the target Operation">
+    <lhs xmi:id="_U8hKQoGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_U8hKQ4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Operation"/>
+      </nodes>
+      <nodes xmi:id="_U8hKRIGqEeqSC4bGMjXJ9g" name="NewTarget">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Operation"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_U8hKRYGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_U8hKRoGqEeqSC4bGMjXJ9g" name="Selected" outgoing="_U8hKSIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Operation"/>
+      </nodes>
+      <nodes xmi:id="_U8hKR4GqEeqSC4bGMjXJ9g" name="NewTarget" incoming="_U8hKSIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Operation"/>
+      </nodes>
+      <edges xmi:id="_U8hKSIGqEeqSC4bGMjXJ9g" source="_U8hKRoGqEeqSC4bGMjXJ9g" target="_U8hKR4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Operation/redefinedOperation"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_U8hKSYGqEeqSC4bGMjXJ9g" origin="_U8hKQ4GqEeqSC4bGMjXJ9g" image="_U8hKRoGqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_U8hKSoGqEeqSC4bGMjXJ9g" origin="_U8hKRIGqEeqSC4bGMjXJ9g" image="_U8hKR4GqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_Ud_bMIGqEeqSC4bGMjXJ9g" name="CREATE_InstanceValue_IN_Expression_(operand)" description="Creates one InstanceValue in Expression">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_Ud_bMYGqEeqSC4bGMjXJ9g" name="createInstanceValue_IN_Expression" description="creates one InstanceValue in the context: Expression">
+    <lhs xmi:id="_Ud_bMoGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_Ud_bM4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Expression"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_Ud_bNIGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_Ud_bNYGqEeqSC4bGMjXJ9g" name="Selected" outgoing="_Ud_bN4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Expression"/>
+      </nodes>
+      <nodes xmi:id="_Ud_bNoGqEeqSC4bGMjXJ9g" name="New" incoming="_Ud_bN4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InstanceValue"/>
+      </nodes>
+      <edges xmi:id="_Ud_bN4GqEeqSC4bGMjXJ9g" source="_Ud_bNYGqEeqSC4bGMjXJ9g" target="_Ud_bNoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Expression/operand"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_Ud_bOIGqEeqSC4bGMjXJ9g" origin="_Ud_bM4GqEeqSC4bGMjXJ9g" image="_Ud_bNYGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

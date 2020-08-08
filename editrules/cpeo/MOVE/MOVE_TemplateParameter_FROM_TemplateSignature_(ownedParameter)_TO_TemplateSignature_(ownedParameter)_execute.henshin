@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_2R8IwIGoEeqjxJ91AzqJlg" name="MOVE_TemplateParameter_FROM_TemplateSignature_(ownedParameter)_TO_TemplateSignature_(ownedParameter)" description="MOVEs TemplateParameter from TemplateSignature(Reference:ownedParameter) to TemplateSignature(Reference:ownedParameter">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_2R8IwYGoEeqjxJ91AzqJlg" name="moveTemplateParameter_FROM_TemplateSignature_ownedParameter_TO_TemplateSignature_TemplateSignature" description="Moves TemplateParameter from TemplateSignature(Reference:ownedParameter) toTemplateSignature(Reference:TemplateSignature)">
+    <lhs xmi:id="_2R8IwoGoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_2R8Iw4GoEeqjxJ91AzqJlg" name="Selected" incoming="_2R8IxoGoEeqjxJ91AzqJlg" outgoing="_2R8Ix4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameter"/>
+      </nodes>
+      <nodes xmi:id="_2R8IxIGoEeqjxJ91AzqJlg" name="OldSource" incoming="_2R8Ix4GoEeqjxJ91AzqJlg" outgoing="_2R8IxoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateSignature"/>
+      </nodes>
+      <nodes xmi:id="_2R8IxYGoEeqjxJ91AzqJlg" name="NewSource">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateSignature"/>
+      </nodes>
+      <edges xmi:id="_2R8IxoGoEeqjxJ91AzqJlg" source="_2R8IxIGoEeqjxJ91AzqJlg" target="_2R8Iw4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateSignature/ownedParameter"/>
+      </edges>
+      <edges xmi:id="_2R8Ix4GoEeqjxJ91AzqJlg" source="_2R8Iw4GoEeqjxJ91AzqJlg" target="_2R8IxIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameter/signature"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_2R8IyIGoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_2R8IyYGoEeqjxJ91AzqJlg" name="Selected" incoming="_2R8IzIGoEeqjxJ91AzqJlg" outgoing="_2R8IzYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameter"/>
+      </nodes>
+      <nodes xmi:id="_2R8IyoGoEeqjxJ91AzqJlg" name="OldSource">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateSignature"/>
+      </nodes>
+      <nodes xmi:id="_2R8Iy4GoEeqjxJ91AzqJlg" name="NewSource" incoming="_2R8IzYGoEeqjxJ91AzqJlg" outgoing="_2R8IzIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateSignature"/>
+      </nodes>
+      <edges xmi:id="_2R8IzIGoEeqjxJ91AzqJlg" source="_2R8Iy4GoEeqjxJ91AzqJlg" target="_2R8IyYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateSignature/ownedParameter"/>
+      </edges>
+      <edges xmi:id="_2R8IzYGoEeqjxJ91AzqJlg" source="_2R8IyYGoEeqjxJ91AzqJlg" target="_2R8Iy4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameter/signature"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_2R8IzoGoEeqjxJ91AzqJlg" origin="_2R8Iw4GoEeqjxJ91AzqJlg" image="_2R8IyYGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_2R8Iz4GoEeqjxJ91AzqJlg" origin="_2R8IxIGoEeqjxJ91AzqJlg" image="_2R8IyoGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_2R8I0IGoEeqjxJ91AzqJlg" origin="_2R8IxYGoEeqjxJ91AzqJlg" image="_2R8Iy4GoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

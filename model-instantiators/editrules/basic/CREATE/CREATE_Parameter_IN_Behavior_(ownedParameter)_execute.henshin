@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UaXfcIGqEeqSC4bGMjXJ9g" name="CREATE_Parameter_IN_Behavior_(ownedParameter)" description="Creates one Parameter in Behavior">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UaXfcYGqEeqSC4bGMjXJ9g" name="createParameter_IN_Behavior" description="creates one Parameter in the context: Behavior">
+    <parameters xmi:id="_UaXfcoGqEeqSC4bGMjXJ9g" name="IsOrdered" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <parameters xmi:id="_UaXfc4GqEeqSC4bGMjXJ9g" name="IsUnique" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <parameters xmi:id="_UaXfdIGqEeqSC4bGMjXJ9g" name="Direction" kind="IN">
+      <type xsi:type="ecore:EEnum" href="http://www.eclipse.org/uml2/5.0.0/UML#//ParameterDirectionKind"/>
+    </parameters>
+    <parameters xmi:id="_UaXfdYGqEeqSC4bGMjXJ9g" name="IsException" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <parameters xmi:id="_UaXfdoGqEeqSC4bGMjXJ9g" name="IsStream" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <lhs xmi:id="_UaXfd4GqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_UaXfeIGqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Behavior"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_UaXfeYGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_UaXfeoGqEeqSC4bGMjXJ9g" name="Selected" outgoing="_UaXfgYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Behavior"/>
+      </nodes>
+      <nodes xmi:id="_UaXfe4GqEeqSC4bGMjXJ9g" name="New" incoming="_UaXfgYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Parameter"/>
+        <attributes xmi:id="_UaXffIGqEeqSC4bGMjXJ9g" value="IsOrdered">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//MultiplicityElement/isOrdered"/>
+        </attributes>
+        <attributes xmi:id="_UaXffYGqEeqSC4bGMjXJ9g" value="IsUnique">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//MultiplicityElement/isUnique"/>
+        </attributes>
+        <attributes xmi:id="_UaXffoGqEeqSC4bGMjXJ9g" value="Direction">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Parameter/direction"/>
+        </attributes>
+        <attributes xmi:id="_UaXff4GqEeqSC4bGMjXJ9g" value="IsException">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Parameter/isException"/>
+        </attributes>
+        <attributes xmi:id="_UaXfgIGqEeqSC4bGMjXJ9g" value="IsStream">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Parameter/isStream"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_UaXfgYGqEeqSC4bGMjXJ9g" source="_UaXfeoGqEeqSC4bGMjXJ9g" target="_UaXfe4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Behavior/ownedParameter"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_UaXfgoGqEeqSC4bGMjXJ9g" origin="_UaXfeIGqEeqSC4bGMjXJ9g" image="_UaXfeoGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

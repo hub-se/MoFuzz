@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UgadEIGqEeqSC4bGMjXJ9g" name="CREATE_ConnectorEnd_IN_Connector_(end)" description="Creates one ConnectorEnd in Connector">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UgadEYGqEeqSC4bGMjXJ9g" name="createConnectorEnd_IN_Connector" description="creates one ConnectorEnd in the context: Connector">
+    <parameters xmi:id="_UgadEoGqEeqSC4bGMjXJ9g" name="IsOrdered" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <parameters xmi:id="_UgadE4GqEeqSC4bGMjXJ9g" name="IsUnique" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <lhs xmi:id="_UgadFIGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_UgadFYGqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Connector"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_UgadFoGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_UgadF4GqEeqSC4bGMjXJ9g" name="Selected" outgoing="_UgadG4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Connector"/>
+      </nodes>
+      <nodes xmi:id="_UgadGIGqEeqSC4bGMjXJ9g" name="New" incoming="_UgadG4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ConnectorEnd"/>
+        <attributes xmi:id="_UgadGYGqEeqSC4bGMjXJ9g" value="IsOrdered">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//MultiplicityElement/isOrdered"/>
+        </attributes>
+        <attributes xmi:id="_UgadGoGqEeqSC4bGMjXJ9g" value="IsUnique">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//MultiplicityElement/isUnique"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_UgadG4GqEeqSC4bGMjXJ9g" source="_UgadF4GqEeqSC4bGMjXJ9g" target="_UgadGIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Connector/end"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_UgadHIGqEeqSC4bGMjXJ9g" origin="_UgadFYGqEeqSC4bGMjXJ9g" image="_UgadF4GqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

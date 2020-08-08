@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UjQ8wIGqEeqSC4bGMjXJ9g" name="DELETE_Variable_IN_Activity_(variable)" description="Deletes one Variable in Activity">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UjQ8wYGqEeqSC4bGMjXJ9g" name="deleteVariable_IN_Activity" description="deletes one Variable in the context: Activity">
+    <lhs xmi:id="_UjQ8woGqEeqSC4bGMjXJ9g" name="LHS">
+      <nodes xmi:id="_UjQ8w4GqEeqSC4bGMjXJ9g" name="Selected" incoming="_UjQ8xoGqEeqSC4bGMjXJ9g" outgoing="_UjQ8xYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Activity"/>
+      </nodes>
+      <nodes xmi:id="_UjQ8xIGqEeqSC4bGMjXJ9g" name="ToBeDeleted" incoming="_UjQ8xYGqEeqSC4bGMjXJ9g" outgoing="_UjQ8xoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Variable"/>
+      </nodes>
+      <edges xmi:id="_UjQ8xYGqEeqSC4bGMjXJ9g" source="_UjQ8w4GqEeqSC4bGMjXJ9g" target="_UjQ8xIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Activity/variable"/>
+      </edges>
+      <edges xmi:id="_UjQ8xoGqEeqSC4bGMjXJ9g" source="_UjQ8xIGqEeqSC4bGMjXJ9g" target="_UjQ8w4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Variable/activityScope"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_UjQ8x4GqEeqSC4bGMjXJ9g" name="RHS">
+      <nodes xmi:id="_UjQ8yIGqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Activity"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_UjQ8yYGqEeqSC4bGMjXJ9g" origin="_UjQ8w4GqEeqSC4bGMjXJ9g" image="_UjQ8yIGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

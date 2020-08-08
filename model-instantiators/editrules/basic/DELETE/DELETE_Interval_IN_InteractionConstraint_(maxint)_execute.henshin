@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UqXqUIGqEeqSC4bGMjXJ9g" name="DELETE_Interval_IN_InteractionConstraint_(maxint)" description="Deletes one Interval in InteractionConstraint">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UqXqUYGqEeqSC4bGMjXJ9g" name="deleteInterval_IN_InteractionConstraint" description="deletes one Interval in the context: InteractionConstraint">
+    <lhs xmi:id="_UqXqUoGqEeqSC4bGMjXJ9g" name="LHS">
+      <nodes xmi:id="_UqXqU4GqEeqSC4bGMjXJ9g" name="Selected" outgoing="_UqXqVYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InteractionConstraint"/>
+      </nodes>
+      <nodes xmi:id="_UqXqVIGqEeqSC4bGMjXJ9g" name="ToBeDeleted" incoming="_UqXqVYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Interval"/>
+      </nodes>
+      <edges xmi:id="_UqXqVYGqEeqSC4bGMjXJ9g" source="_UqXqU4GqEeqSC4bGMjXJ9g" target="_UqXqVIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InteractionConstraint/maxint"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_UqXqVoGqEeqSC4bGMjXJ9g" name="RHS">
+      <nodes xmi:id="_UqXqV4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InteractionConstraint"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_UqXqWIGqEeqSC4bGMjXJ9g" origin="_UqXqU4GqEeqSC4bGMjXJ9g" image="_UqXqV4GqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UwrtsIGqEeqSC4bGMjXJ9g" name="DELETE_Include_IN_UseCase_(include)" description="Deletes one Include in UseCase">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UwrtsYGqEeqSC4bGMjXJ9g" name="deleteInclude_IN_UseCase" description="deletes one Include in the context: UseCase">
+    <lhs xmi:id="_UwrtsoGqEeqSC4bGMjXJ9g" name="LHS">
+      <nodes xmi:id="_Uwrts4GqEeqSC4bGMjXJ9g" name="Selected" incoming="_UwrttoGqEeqSC4bGMjXJ9g" outgoing="_UwrttYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//UseCase"/>
+      </nodes>
+      <nodes xmi:id="_UwrttIGqEeqSC4bGMjXJ9g" name="ToBeDeleted" incoming="_UwrttYGqEeqSC4bGMjXJ9g" outgoing="_UwrttoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Include"/>
+      </nodes>
+      <edges xmi:id="_UwrttYGqEeqSC4bGMjXJ9g" source="_Uwrts4GqEeqSC4bGMjXJ9g" target="_UwrttIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//UseCase/include"/>
+      </edges>
+      <edges xmi:id="_UwrttoGqEeqSC4bGMjXJ9g" source="_UwrttIGqEeqSC4bGMjXJ9g" target="_Uwrts4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Include/includingCase"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_Uwrtt4GqEeqSC4bGMjXJ9g" name="RHS">
+      <nodes xmi:id="_UwrtuIGqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//UseCase"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_UwrtuYGqEeqSC4bGMjXJ9g" origin="_Uwrts4GqEeqSC4bGMjXJ9g" image="_UwrtuIGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

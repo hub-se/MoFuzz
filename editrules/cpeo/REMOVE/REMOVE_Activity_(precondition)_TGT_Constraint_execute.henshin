@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_2EOc4IGoEeqjxJ91AzqJlg" name="REMOVE_Activity_(precondition)_TGT_Constraint" description="Removes Activity's reference precondition the target Constraint">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_2EOc4YGoEeqjxJ91AzqJlg" name="removeFromActivity_precondition_Constraint" description="Removes from Activity's reference precondition the target Constraint">
+    <lhs xmi:id="_2EOc4oGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_2EOc44GoEeqjxJ91AzqJlg" name="Selected" outgoing="_2EOc5YGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Activity"/>
+      </nodes>
+      <nodes xmi:id="_2EOc5IGoEeqjxJ91AzqJlg" name="OldTarget" incoming="_2EOc5YGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Constraint"/>
+      </nodes>
+      <edges xmi:id="_2EOc5YGoEeqjxJ91AzqJlg" source="_2EOc44GoEeqjxJ91AzqJlg" target="_2EOc5IGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Behavior/precondition"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_2EOc5oGoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_2EOc54GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Activity"/>
+      </nodes>
+      <nodes xmi:id="_2EOc6IGoEeqjxJ91AzqJlg" name="OldTarget">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Constraint"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_2EOc6YGoEeqjxJ91AzqJlg" origin="_2EOc44GoEeqjxJ91AzqJlg" image="_2EOc54GoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_2EOc6oGoEeqjxJ91AzqJlg" origin="_2EOc5IGoEeqjxJ91AzqJlg" image="_2EOc6IGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

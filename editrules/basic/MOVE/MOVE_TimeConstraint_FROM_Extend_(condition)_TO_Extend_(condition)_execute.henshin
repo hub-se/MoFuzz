@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_T4HuAIGqEeqSC4bGMjXJ9g" name="MOVE_TimeConstraint_FROM_Extend_(condition)_TO_Extend_(condition)" description="MOVEs TimeConstraint from Extend(Reference:condition) to Extend(Reference:condition">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_T4HuAYGqEeqSC4bGMjXJ9g" name="moveTimeConstraint_FROM_Extend_condition_TO_Extend_Extend" description="Moves TimeConstraint from Extend(Reference:condition) toExtend(Reference:Extend)">
+    <lhs xmi:id="_T4HuAoGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_T4HuA4GqEeqSC4bGMjXJ9g" name="Selected" incoming="_T4HuBoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TimeConstraint"/>
+      </nodes>
+      <nodes xmi:id="_T4HuBIGqEeqSC4bGMjXJ9g" name="OldSource" outgoing="_T4HuBoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Extend"/>
+      </nodes>
+      <nodes xmi:id="_T4HuBYGqEeqSC4bGMjXJ9g" name="NewSource">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Extend"/>
+      </nodes>
+      <edges xmi:id="_T4HuBoGqEeqSC4bGMjXJ9g" source="_T4HuBIGqEeqSC4bGMjXJ9g" target="_T4HuA4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Extend/condition"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_T4HuB4GqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_T4HuCIGqEeqSC4bGMjXJ9g" name="Selected" incoming="_T4HuC4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TimeConstraint"/>
+      </nodes>
+      <nodes xmi:id="_T4HuCYGqEeqSC4bGMjXJ9g" name="OldSource">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Extend"/>
+      </nodes>
+      <nodes xmi:id="_T4HuCoGqEeqSC4bGMjXJ9g" name="NewSource" outgoing="_T4HuC4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Extend"/>
+      </nodes>
+      <edges xmi:id="_T4HuC4GqEeqSC4bGMjXJ9g" source="_T4HuCoGqEeqSC4bGMjXJ9g" target="_T4HuCIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Extend/condition"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_T4HuDIGqEeqSC4bGMjXJ9g" origin="_T4HuA4GqEeqSC4bGMjXJ9g" image="_T4HuCIGqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_T4HuDYGqEeqSC4bGMjXJ9g" origin="_T4HuBIGqEeqSC4bGMjXJ9g" image="_T4HuCYGqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_T4HuDoGqEeqSC4bGMjXJ9g" origin="_T4HuBYGqEeqSC4bGMjXJ9g" image="_T4HuCoGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

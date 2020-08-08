@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_1FtmMIGoEeqjxJ91AzqJlg" name="DELETE_ReadIsClassifiedObjectAction_IN_Activity_(ownedNode)" description="Deletes one ReadIsClassifiedObjectAction in Activity">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_1FtmMYGoEeqjxJ91AzqJlg" name="deleteReadIsClassifiedObjectAction_IN_Activity" description="deletes one ReadIsClassifiedObjectAction in the context: Activity">
+    <lhs xmi:id="_1FtmMoGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_1FtmM4GoEeqjxJ91AzqJlg" name="Selected" outgoing="_1FtmOIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Activity"/>
+      </nodes>
+      <nodes xmi:id="_1FtmNIGoEeqjxJ91AzqJlg" name="ToBeDeleted" incoming="_1FtmOIGoEeqjxJ91AzqJlg" outgoing="_1FtmOYGoEeqjxJ91AzqJlg _1FtmOoGoEeqjxJ91AzqJlg _1FtmO4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ReadIsClassifiedObjectAction"/>
+      </nodes>
+      <nodes xmi:id="_1FtmNYGoEeqjxJ91AzqJlg" name="Child" incoming="_1FtmOYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//OutputPin"/>
+      </nodes>
+      <nodes xmi:id="_1FtmNoGoEeqjxJ91AzqJlg" name="Child1" incoming="_1FtmOoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InputPin"/>
+      </nodes>
+      <nodes xmi:id="_1FtmN4GoEeqjxJ91AzqJlg" name="Existing" incoming="_1FtmO4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier"/>
+      </nodes>
+      <edges xmi:id="_1FtmOIGoEeqjxJ91AzqJlg" source="_1FtmM4GoEeqjxJ91AzqJlg" target="_1FtmNIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Activity/ownedNode"/>
+      </edges>
+      <edges xmi:id="_1FtmOYGoEeqjxJ91AzqJlg" source="_1FtmNIGoEeqjxJ91AzqJlg" target="_1FtmNYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ReadIsClassifiedObjectAction/result"/>
+      </edges>
+      <edges xmi:id="_1FtmOoGoEeqjxJ91AzqJlg" source="_1FtmNIGoEeqjxJ91AzqJlg" target="_1FtmNoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ReadIsClassifiedObjectAction/object"/>
+      </edges>
+      <edges xmi:id="_1FtmO4GoEeqjxJ91AzqJlg" source="_1FtmNIGoEeqjxJ91AzqJlg" target="_1FtmN4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ReadIsClassifiedObjectAction/classifier"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_1FtmPIGoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_1FtmPYGoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Activity"/>
+      </nodes>
+      <nodes xmi:id="_1FtmPoGoEeqjxJ91AzqJlg" name="Existing">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_1FtmP4GoEeqjxJ91AzqJlg" origin="_1FtmM4GoEeqjxJ91AzqJlg" image="_1FtmPYGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_1FtmQIGoEeqjxJ91AzqJlg" origin="_1FtmN4GoEeqjxJ91AzqJlg" image="_1FtmPoGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

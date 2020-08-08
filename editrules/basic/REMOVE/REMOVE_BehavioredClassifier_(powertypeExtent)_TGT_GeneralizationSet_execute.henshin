@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_TeV8EIGqEeqSC4bGMjXJ9g" name="REMOVE_BehavioredClassifier_(powertypeExtent)_TGT_GeneralizationSet" description="Removes BehavioredClassifier's reference powertypeExtent the target GeneralizationSet">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_TeV8EYGqEeqSC4bGMjXJ9g" name="removeFromBehavioredClassifier_powertypeExtent_GeneralizationSet" description="Removes from BehavioredClassifier's reference powertypeExtent the target GeneralizationSet">
+    <lhs xmi:id="_TeV8EoGqEeqSC4bGMjXJ9g" name="LHS">
+      <nodes xmi:id="_TeV8E4GqEeqSC4bGMjXJ9g" name="Selected" incoming="_TeV8FoGqEeqSC4bGMjXJ9g" outgoing="_TeV8FYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//BehavioredClassifier"/>
+      </nodes>
+      <nodes xmi:id="_TeV8FIGqEeqSC4bGMjXJ9g" name="OldTarget" incoming="_TeV8FYGqEeqSC4bGMjXJ9g" outgoing="_TeV8FoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//GeneralizationSet"/>
+      </nodes>
+      <edges xmi:id="_TeV8FYGqEeqSC4bGMjXJ9g" source="_TeV8E4GqEeqSC4bGMjXJ9g" target="_TeV8FIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier/powertypeExtent"/>
+      </edges>
+      <edges xmi:id="_TeV8FoGqEeqSC4bGMjXJ9g" source="_TeV8FIGqEeqSC4bGMjXJ9g" target="_TeV8E4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//GeneralizationSet/powertype"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_TeV8F4GqEeqSC4bGMjXJ9g" name="RHS">
+      <nodes xmi:id="_TeV8GIGqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//BehavioredClassifier"/>
+      </nodes>
+      <nodes xmi:id="_TeV8GYGqEeqSC4bGMjXJ9g" name="OldTarget">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//GeneralizationSet"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_TeV8GoGqEeqSC4bGMjXJ9g" origin="_TeV8E4GqEeqSC4bGMjXJ9g" image="_TeV8GIGqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_TeV8G4GqEeqSC4bGMjXJ9g" origin="_TeV8FIGqEeqSC4bGMjXJ9g" image="_TeV8GYGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

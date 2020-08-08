@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_1DgmwIGoEeqjxJ91AzqJlg" name="DELETE_Package_IN_Package_(packagedElement)" description="Deletes one Package in Package">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_1DgmwYGoEeqjxJ91AzqJlg" name="deletePackage_IN_Package" description="deletes one Package in the context: Package">
+    <lhs xmi:id="_1DgmwoGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_1Dgmw4GoEeqjxJ91AzqJlg" name="Selected" outgoing="_1DgmxYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </nodes>
+      <nodes xmi:id="_1DgmxIGoEeqjxJ91AzqJlg" name="ToBeDeleted" incoming="_1DgmxYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </nodes>
+      <edges xmi:id="_1DgmxYGoEeqjxJ91AzqJlg" source="_1Dgmw4GoEeqjxJ91AzqJlg" target="_1DgmxIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Package/packagedElement"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_1DgmxoGoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_1Dgmx4GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_1DgmyIGoEeqjxJ91AzqJlg" origin="_1Dgmw4GoEeqjxJ91AzqJlg" image="_1Dgmx4GoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

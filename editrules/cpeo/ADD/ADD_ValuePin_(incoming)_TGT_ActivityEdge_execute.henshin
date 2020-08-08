@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_1dcJsIGoEeqjxJ91AzqJlg" name="ADD_ValuePin_(incoming)_TGT_ActivityEdge" description="Adds to ValuePin's reference incoming the target ActivityEdge">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_1dcwwIGoEeqjxJ91AzqJlg" name="addToValuePin_incoming_ActivityEdge" description="Adds to ValuePin's reference incoming the target ActivityEdge">
+    <lhs xmi:id="_1dcwwYGoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_1dcwwoGoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ValuePin"/>
+      </nodes>
+      <nodes xmi:id="_1dcww4GoEeqjxJ91AzqJlg" name="NewTarget">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityEdge"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_1dcwxIGoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_1dcwxYGoEeqjxJ91AzqJlg" name="Selected" incoming="_1dcwyIGoEeqjxJ91AzqJlg" outgoing="_1dcwx4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ValuePin"/>
+      </nodes>
+      <nodes xmi:id="_1dcwxoGoEeqjxJ91AzqJlg" name="NewTarget" incoming="_1dcwx4GoEeqjxJ91AzqJlg" outgoing="_1dcwyIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityEdge"/>
+      </nodes>
+      <edges xmi:id="_1dcwx4GoEeqjxJ91AzqJlg" source="_1dcwxYGoEeqjxJ91AzqJlg" target="_1dcwxoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityNode/incoming"/>
+      </edges>
+      <edges xmi:id="_1dcwyIGoEeqjxJ91AzqJlg" source="_1dcwxoGoEeqjxJ91AzqJlg" target="_1dcwxYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityEdge/target"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_1dcwyYGoEeqjxJ91AzqJlg" origin="_1dcwwoGoEeqjxJ91AzqJlg" image="_1dcwxYGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_1dcwyoGoEeqjxJ91AzqJlg" origin="_1dcww4GoEeqjxJ91AzqJlg" image="_1dcwxoGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

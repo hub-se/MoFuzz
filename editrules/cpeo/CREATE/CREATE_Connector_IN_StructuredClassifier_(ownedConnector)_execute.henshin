@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_10TKgIGoEeqjxJ91AzqJlg" name="CREATE_Connector_IN_StructuredClassifier_(ownedConnector)" description="Creates one Connector in StructuredClassifier">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_10TKgYGoEeqjxJ91AzqJlg" name="createConnector_IN_StructuredClassifier" description="creates one Connector in the context: StructuredClassifier">
+    <parameters xmi:id="_10TKgoGoEeqjxJ91AzqJlg" name="IsLeaf" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <parameters xmi:id="_10TKg4GoEeqjxJ91AzqJlg" name="IsStatic" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <parameters xmi:id="_10TKhIGoEeqjxJ91AzqJlg" name="IsOrdered" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <parameters xmi:id="_10TKhYGoEeqjxJ91AzqJlg" name="IsUnique" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <parameters xmi:id="_10TKhoGoEeqjxJ91AzqJlg" name="IsOrdered1" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <parameters xmi:id="_10TKh4GoEeqjxJ91AzqJlg" name="IsUnique1" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <lhs xmi:id="_10TKiIGoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_10TKiYGoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//StructuredClassifier"/>
+      </nodes>
+      <nodes xmi:id="_10TKioGoEeqjxJ91AzqJlg" name="Existing">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ConnectableElement"/>
+      </nodes>
+      <nodes xmi:id="_10TKi4GoEeqjxJ91AzqJlg" name="Existing1">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ConnectableElement"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_10TKjIGoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_10TKjYGoEeqjxJ91AzqJlg" name="Selected" outgoing="_10TKmYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//StructuredClassifier"/>
+      </nodes>
+      <nodes xmi:id="_10TKjoGoEeqjxJ91AzqJlg" name="New" incoming="_10TKmYGoEeqjxJ91AzqJlg" outgoing="_10TKmoGoEeqjxJ91AzqJlg _10TKnIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Connector"/>
+        <attributes xmi:id="_10TKj4GoEeqjxJ91AzqJlg" value="IsLeaf">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//RedefinableElement/isLeaf"/>
+        </attributes>
+        <attributes xmi:id="_10TKkIGoEeqjxJ91AzqJlg" value="IsStatic">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Feature/isStatic"/>
+        </attributes>
+      </nodes>
+      <nodes xmi:id="_10TKkYGoEeqjxJ91AzqJlg" name="Child" incoming="_10TKmoGoEeqjxJ91AzqJlg" outgoing="_10TKm4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ConnectorEnd"/>
+        <attributes xmi:id="_10TKkoGoEeqjxJ91AzqJlg" value="IsOrdered">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//MultiplicityElement/isOrdered"/>
+        </attributes>
+        <attributes xmi:id="_10TKk4GoEeqjxJ91AzqJlg" value="IsUnique">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//MultiplicityElement/isUnique"/>
+        </attributes>
+      </nodes>
+      <nodes xmi:id="_10TKlIGoEeqjxJ91AzqJlg" name="Existing" incoming="_10TKm4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ConnectableElement"/>
+      </nodes>
+      <nodes xmi:id="_10TKlYGoEeqjxJ91AzqJlg" name="Child1" incoming="_10TKnIGoEeqjxJ91AzqJlg" outgoing="_10TKnYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ConnectorEnd"/>
+        <attributes xmi:id="_10TKloGoEeqjxJ91AzqJlg" value="IsOrdered1">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//MultiplicityElement/isOrdered"/>
+        </attributes>
+        <attributes xmi:id="_10TKl4GoEeqjxJ91AzqJlg" value="IsUnique1">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//MultiplicityElement/isUnique"/>
+        </attributes>
+      </nodes>
+      <nodes xmi:id="_10TKmIGoEeqjxJ91AzqJlg" name="Existing1" incoming="_10TKnYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ConnectableElement"/>
+      </nodes>
+      <edges xmi:id="_10TKmYGoEeqjxJ91AzqJlg" source="_10TKjYGoEeqjxJ91AzqJlg" target="_10TKjoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//StructuredClassifier/ownedConnector"/>
+      </edges>
+      <edges xmi:id="_10TKmoGoEeqjxJ91AzqJlg" source="_10TKjoGoEeqjxJ91AzqJlg" target="_10TKkYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Connector/end"/>
+      </edges>
+      <edges xmi:id="_10TKm4GoEeqjxJ91AzqJlg" source="_10TKkYGoEeqjxJ91AzqJlg" target="_10TKlIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ConnectorEnd/role"/>
+      </edges>
+      <edges xmi:id="_10TKnIGoEeqjxJ91AzqJlg" source="_10TKjoGoEeqjxJ91AzqJlg" target="_10TKlYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Connector/end"/>
+      </edges>
+      <edges xmi:id="_10TKnYGoEeqjxJ91AzqJlg" source="_10TKlYGoEeqjxJ91AzqJlg" target="_10TKmIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ConnectorEnd/role"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_10TKnoGoEeqjxJ91AzqJlg" origin="_10TKiYGoEeqjxJ91AzqJlg" image="_10TKjYGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_10TKn4GoEeqjxJ91AzqJlg" origin="_10TKioGoEeqjxJ91AzqJlg" image="_10TKlIGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_10TKoIGoEeqjxJ91AzqJlg" origin="_10TKi4GoEeqjxJ91AzqJlg" image="_10TKmIGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

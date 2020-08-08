@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_17SjUIGoEeqjxJ91AzqJlg" name="CREATE_StructuredActivityNode_IN_Interaction_(action)" description="Creates one StructuredActivityNode in Interaction">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_17SjUYGoEeqjxJ91AzqJlg" name="createStructuredActivityNode_IN_Interaction" description="creates one StructuredActivityNode in the context: Interaction">
+    <parameters xmi:id="_17SjUoGoEeqjxJ91AzqJlg" name="IsLeaf" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <parameters xmi:id="_17SjU4GoEeqjxJ91AzqJlg" name="IsLocallyReentrant" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <parameters xmi:id="_17SjVIGoEeqjxJ91AzqJlg" name="MustIsolate" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <lhs xmi:id="_17SjVYGoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_17SjVoGoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Interaction"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_17SjV4GoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_17SjWIGoEeqjxJ91AzqJlg" name="Selected" outgoing="_17SjXYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Interaction"/>
+      </nodes>
+      <nodes xmi:id="_17SjWYGoEeqjxJ91AzqJlg" name="New" incoming="_17SjXYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//StructuredActivityNode"/>
+        <attributes xmi:id="_17SjWoGoEeqjxJ91AzqJlg" value="IsLeaf">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//RedefinableElement/isLeaf"/>
+        </attributes>
+        <attributes xmi:id="_17SjW4GoEeqjxJ91AzqJlg" value="IsLocallyReentrant">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Action/isLocallyReentrant"/>
+        </attributes>
+        <attributes xmi:id="_17SjXIGoEeqjxJ91AzqJlg" value="MustIsolate">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//StructuredActivityNode/mustIsolate"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_17SjXYGoEeqjxJ91AzqJlg" source="_17SjWIGoEeqjxJ91AzqJlg" target="_17SjWYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Interaction/action"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_17SjXoGoEeqjxJ91AzqJlg" origin="_17SjVoGoEeqjxJ91AzqJlg" image="_17SjWIGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

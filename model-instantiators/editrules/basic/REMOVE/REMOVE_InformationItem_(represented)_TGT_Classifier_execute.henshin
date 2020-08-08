@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_Tc-DEIGqEeqSC4bGMjXJ9g" name="REMOVE_InformationItem_(represented)_TGT_Classifier" description="Removes InformationItem's reference represented the target Classifier">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_Tc-DEYGqEeqSC4bGMjXJ9g" name="removeFromInformationItem_represented_Classifier" description="Removes from InformationItem's reference represented the target Classifier">
+    <lhs xmi:id="_Tc-DEoGqEeqSC4bGMjXJ9g" name="LHS">
+      <nodes xmi:id="_Tc-DE4GqEeqSC4bGMjXJ9g" name="Selected" outgoing="_Tc-DFYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InformationItem"/>
+      </nodes>
+      <nodes xmi:id="_Tc-DFIGqEeqSC4bGMjXJ9g" name="OldTarget" incoming="_Tc-DFYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier"/>
+      </nodes>
+      <edges xmi:id="_Tc-DFYGqEeqSC4bGMjXJ9g" source="_Tc-DE4GqEeqSC4bGMjXJ9g" target="_Tc-DFIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InformationItem/represented"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_Tc-DFoGqEeqSC4bGMjXJ9g" name="RHS">
+      <nodes xmi:id="_Tc-DF4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InformationItem"/>
+      </nodes>
+      <nodes xmi:id="_Tc-DGIGqEeqSC4bGMjXJ9g" name="OldTarget">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_Tc-DGYGqEeqSC4bGMjXJ9g" origin="_Tc-DE4GqEeqSC4bGMjXJ9g" image="_Tc-DF4GqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_Tc-DGoGqEeqSC4bGMjXJ9g" origin="_Tc-DFIGqEeqSC4bGMjXJ9g" image="_Tc-DGIGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

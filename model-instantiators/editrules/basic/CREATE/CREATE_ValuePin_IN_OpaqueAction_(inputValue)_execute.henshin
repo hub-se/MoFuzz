@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UQIlYIGqEeqSC4bGMjXJ9g" name="CREATE_ValuePin_IN_OpaqueAction_(inputValue)" description="Creates one ValuePin in OpaqueAction">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UQIlYYGqEeqSC4bGMjXJ9g" name="createValuePin_IN_OpaqueAction" description="creates one ValuePin in the context: OpaqueAction">
+    <parameters xmi:id="_UQIlYoGqEeqSC4bGMjXJ9g" name="IsLeaf" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <parameters xmi:id="_UQIlY4GqEeqSC4bGMjXJ9g" name="IsControlType" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <parameters xmi:id="_UQIlZIGqEeqSC4bGMjXJ9g" name="Ordering" kind="IN">
+      <type xsi:type="ecore:EEnum" href="http://www.eclipse.org/uml2/5.0.0/UML#//ObjectNodeOrderingKind"/>
+    </parameters>
+    <parameters xmi:id="_UQIlZYGqEeqSC4bGMjXJ9g" name="IsOrdered" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <parameters xmi:id="_UQIlZoGqEeqSC4bGMjXJ9g" name="IsUnique" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <parameters xmi:id="_UQIlZ4GqEeqSC4bGMjXJ9g" name="IsControl1" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <lhs xmi:id="_UQIlaIGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_UQIlaYGqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//OpaqueAction"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_UQIlaoGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_UQIla4GqEeqSC4bGMjXJ9g" name="Selected" outgoing="_UQIlc4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//OpaqueAction"/>
+      </nodes>
+      <nodes xmi:id="_UQIlbIGqEeqSC4bGMjXJ9g" name="New" incoming="_UQIlc4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ValuePin"/>
+        <attributes xmi:id="_UQIlbYGqEeqSC4bGMjXJ9g" value="IsLeaf">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//RedefinableElement/isLeaf"/>
+        </attributes>
+        <attributes xmi:id="_UQIlboGqEeqSC4bGMjXJ9g" value="IsControlType">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ObjectNode/isControlType"/>
+        </attributes>
+        <attributes xmi:id="_UQIlb4GqEeqSC4bGMjXJ9g" value="Ordering">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ObjectNode/ordering"/>
+        </attributes>
+        <attributes xmi:id="_UQIlcIGqEeqSC4bGMjXJ9g" value="IsOrdered">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//MultiplicityElement/isOrdered"/>
+        </attributes>
+        <attributes xmi:id="_UQIlcYGqEeqSC4bGMjXJ9g" value="IsUnique">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//MultiplicityElement/isUnique"/>
+        </attributes>
+        <attributes xmi:id="_UQIlcoGqEeqSC4bGMjXJ9g" value="IsControl1">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Pin/isControl"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_UQIlc4GqEeqSC4bGMjXJ9g" source="_UQIla4GqEeqSC4bGMjXJ9g" target="_UQIlbIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//OpaqueAction/inputValue"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_UQIldIGqEeqSC4bGMjXJ9g" origin="_UQIlaYGqEeqSC4bGMjXJ9g" image="_UQIla4GqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

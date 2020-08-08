@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_2nkagIGoEeqjxJ91AzqJlg" name="SET_REFERENCE_DecisionNode_(decisionInput)_TGT_Behavior" description="Sets DecisionNode's reference decisionInput the target Behavior">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_2nkagYGoEeqjxJ91AzqJlg" name="setDecisionNode_decisionInput_TO_Behavior" description="SetDecisionNodeRefdecisionInputToBehavior">
+    <lhs xmi:id="_2nkagoGoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_2nkag4GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//DecisionNode"/>
+      </nodes>
+      <nodes xmi:id="_2nkahIGoEeqjxJ91AzqJlg" name="NewTarget">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Behavior"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_2nkahYGoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_2nkahoGoEeqjxJ91AzqJlg" name="Selected" outgoing="_2nkaiIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//DecisionNode"/>
+      </nodes>
+      <nodes xmi:id="_2nkah4GoEeqjxJ91AzqJlg" name="NewTarget" incoming="_2nkaiIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Behavior"/>
+      </nodes>
+      <edges xmi:id="_2nkaiIGoEeqjxJ91AzqJlg" source="_2nkahoGoEeqjxJ91AzqJlg" target="_2nkah4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//DecisionNode/decisionInput"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_2nkaiYGoEeqjxJ91AzqJlg" origin="_2nkag4GoEeqjxJ91AzqJlg" image="_2nkahoGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_2nkaioGoEeqjxJ91AzqJlg" origin="_2nkahIGoEeqjxJ91AzqJlg" image="_2nkah4GoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

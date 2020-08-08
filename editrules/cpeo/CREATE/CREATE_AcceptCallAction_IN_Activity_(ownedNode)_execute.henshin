@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_1yTmcIGoEeqjxJ91AzqJlg" name="CREATE_AcceptCallAction_IN_Activity_(ownedNode)" description="Creates one AcceptCallAction in Activity">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_1yTmcYGoEeqjxJ91AzqJlg" name="createAcceptCallAction_IN_Activity" description="creates one AcceptCallAction in the context: Activity">
+    <parameters xmi:id="_1yTmcoGoEeqjxJ91AzqJlg" name="IsLeaf" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <parameters xmi:id="_1yTmc4GoEeqjxJ91AzqJlg" name="IsLocallyReentrant" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <parameters xmi:id="_1yTmdIGoEeqjxJ91AzqJlg" name="IsUnmarshall" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <parameters xmi:id="_1yTmdYGoEeqjxJ91AzqJlg" name="IsLeaf1" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <parameters xmi:id="_1yTmdoGoEeqjxJ91AzqJlg" name="IsControlType" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <parameters xmi:id="_1yTmd4GoEeqjxJ91AzqJlg" name="Ordering" kind="IN">
+      <type xsi:type="ecore:EEnum" href="http://www.eclipse.org/uml2/5.0.0/UML#//ObjectNodeOrderingKind"/>
+    </parameters>
+    <parameters xmi:id="_1yTmeIGoEeqjxJ91AzqJlg" name="IsOrdered" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <parameters xmi:id="_1yTmeYGoEeqjxJ91AzqJlg" name="IsUnique" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <parameters xmi:id="_1yTmeoGoEeqjxJ91AzqJlg" name="IsControl1" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <lhs xmi:id="_1yTme4GoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_1yTmfIGoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Activity"/>
+      </nodes>
+      <nodes xmi:id="_1yTmfYGoEeqjxJ91AzqJlg" name="Existing">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Event"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_1yTmfoGoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_1yTmf4GoEeqjxJ91AzqJlg" name="Selected" outgoing="_1yTmjYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Activity"/>
+      </nodes>
+      <nodes xmi:id="_1yTmgIGoEeqjxJ91AzqJlg" name="New" incoming="_1yTmjYGoEeqjxJ91AzqJlg" outgoing="_1yTmjoGoEeqjxJ91AzqJlg _1yTmkIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//AcceptCallAction"/>
+        <attributes xmi:id="_1yTmgYGoEeqjxJ91AzqJlg" value="IsLeaf">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//RedefinableElement/isLeaf"/>
+        </attributes>
+        <attributes xmi:id="_1yTmgoGoEeqjxJ91AzqJlg" value="IsLocallyReentrant">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Action/isLocallyReentrant"/>
+        </attributes>
+        <attributes xmi:id="_1yTmg4GoEeqjxJ91AzqJlg" value="IsUnmarshall">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//AcceptEventAction/isUnmarshall"/>
+        </attributes>
+      </nodes>
+      <nodes xmi:id="_1yTmhIGoEeqjxJ91AzqJlg" name="Child" incoming="_1yTmjoGoEeqjxJ91AzqJlg" outgoing="_1yTmj4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Trigger"/>
+      </nodes>
+      <nodes xmi:id="_1yTmhYGoEeqjxJ91AzqJlg" name="Existing" incoming="_1yTmj4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Event"/>
+      </nodes>
+      <nodes xmi:id="_1yTmhoGoEeqjxJ91AzqJlg" name="Child1" incoming="_1yTmkIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//OutputPin"/>
+        <attributes xmi:id="_1yTmh4GoEeqjxJ91AzqJlg" value="IsLeaf1">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//RedefinableElement/isLeaf"/>
+        </attributes>
+        <attributes xmi:id="_1yTmiIGoEeqjxJ91AzqJlg" value="IsControlType">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ObjectNode/isControlType"/>
+        </attributes>
+        <attributes xmi:id="_1yTmiYGoEeqjxJ91AzqJlg" value="Ordering">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ObjectNode/ordering"/>
+        </attributes>
+        <attributes xmi:id="_1yTmioGoEeqjxJ91AzqJlg" value="IsOrdered">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//MultiplicityElement/isOrdered"/>
+        </attributes>
+        <attributes xmi:id="_1yTmi4GoEeqjxJ91AzqJlg" value="IsUnique">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//MultiplicityElement/isUnique"/>
+        </attributes>
+        <attributes xmi:id="_1yTmjIGoEeqjxJ91AzqJlg" value="IsControl1">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Pin/isControl"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_1yTmjYGoEeqjxJ91AzqJlg" source="_1yTmf4GoEeqjxJ91AzqJlg" target="_1yTmgIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Activity/ownedNode"/>
+      </edges>
+      <edges xmi:id="_1yTmjoGoEeqjxJ91AzqJlg" source="_1yTmgIGoEeqjxJ91AzqJlg" target="_1yTmhIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//AcceptEventAction/trigger"/>
+      </edges>
+      <edges xmi:id="_1yTmj4GoEeqjxJ91AzqJlg" source="_1yTmhIGoEeqjxJ91AzqJlg" target="_1yTmhYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Trigger/event"/>
+      </edges>
+      <edges xmi:id="_1yTmkIGoEeqjxJ91AzqJlg" source="_1yTmgIGoEeqjxJ91AzqJlg" target="_1yTmhoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//AcceptCallAction/returnInformation"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_1yTmkYGoEeqjxJ91AzqJlg" origin="_1yTmfIGoEeqjxJ91AzqJlg" image="_1yTmf4GoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_1yTmkoGoEeqjxJ91AzqJlg" origin="_1yTmfYGoEeqjxJ91AzqJlg" image="_1yTmhYGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

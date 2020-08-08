@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_2RT2oIGoEeqjxJ91AzqJlg" name="MOVE_InstanceValue_FROM_ActivityEdge_(weight)_TO_ActivityEdge_(weight)" description="MOVEs InstanceValue from ActivityEdge(Reference:weight) to ActivityEdge(Reference:weight">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_2RT2oYGoEeqjxJ91AzqJlg" name="moveInstanceValue_FROM_ActivityEdge_weight_TO_ActivityEdge_ActivityEdge" description="Moves InstanceValue from ActivityEdge(Reference:weight) toActivityEdge(Reference:ActivityEdge)">
+    <lhs xmi:id="_2RT2ooGoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_2RT2o4GoEeqjxJ91AzqJlg" name="Selected" incoming="_2RT2poGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InstanceValue"/>
+      </nodes>
+      <nodes xmi:id="_2RT2pIGoEeqjxJ91AzqJlg" name="OldSource" outgoing="_2RT2poGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityEdge"/>
+      </nodes>
+      <nodes xmi:id="_2RT2pYGoEeqjxJ91AzqJlg" name="NewSource">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityEdge"/>
+      </nodes>
+      <edges xmi:id="_2RT2poGoEeqjxJ91AzqJlg" source="_2RT2pIGoEeqjxJ91AzqJlg" target="_2RT2o4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityEdge/weight"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_2RT2p4GoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_2RT2qIGoEeqjxJ91AzqJlg" name="Selected" incoming="_2RT2q4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InstanceValue"/>
+      </nodes>
+      <nodes xmi:id="_2RT2qYGoEeqjxJ91AzqJlg" name="OldSource">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityEdge"/>
+      </nodes>
+      <nodes xmi:id="_2RT2qoGoEeqjxJ91AzqJlg" name="NewSource" outgoing="_2RT2q4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityEdge"/>
+      </nodes>
+      <edges xmi:id="_2RT2q4GoEeqjxJ91AzqJlg" source="_2RT2qoGoEeqjxJ91AzqJlg" target="_2RT2qIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityEdge/weight"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_2RT2rIGoEeqjxJ91AzqJlg" origin="_2RT2o4GoEeqjxJ91AzqJlg" image="_2RT2qIGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_2RT2rYGoEeqjxJ91AzqJlg" origin="_2RT2pIGoEeqjxJ91AzqJlg" image="_2RT2qYGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_2RT2roGoEeqjxJ91AzqJlg" origin="_2RT2pYGoEeqjxJ91AzqJlg" image="_2RT2qoGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

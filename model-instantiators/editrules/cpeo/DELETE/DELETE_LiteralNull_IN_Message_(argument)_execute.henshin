@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_07bBwIGoEeqjxJ91AzqJlg" name="DELETE_LiteralNull_IN_Message_(argument)" description="Deletes one LiteralNull in Message">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_07bBwYGoEeqjxJ91AzqJlg" name="deleteLiteralNull_IN_Message" description="deletes one LiteralNull in the context: Message">
+    <lhs xmi:id="_07bBwoGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_07bBw4GoEeqjxJ91AzqJlg" name="Selected" outgoing="_07bBxYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Message"/>
+      </nodes>
+      <nodes xmi:id="_07bBxIGoEeqjxJ91AzqJlg" name="ToBeDeleted" incoming="_07bBxYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LiteralNull"/>
+      </nodes>
+      <edges xmi:id="_07bBxYGoEeqjxJ91AzqJlg" source="_07bBw4GoEeqjxJ91AzqJlg" target="_07bBxIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Message/argument"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_07bBxoGoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_07bBx4GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Message"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_07bByIGoEeqjxJ91AzqJlg" origin="_07bBw4GoEeqjxJ91AzqJlg" image="_07bBx4GoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

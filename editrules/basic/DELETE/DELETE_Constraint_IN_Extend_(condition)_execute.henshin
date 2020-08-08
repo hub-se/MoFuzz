@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UtugUIGqEeqSC4bGMjXJ9g" name="DELETE_Constraint_IN_Extend_(condition)" description="Deletes one Constraint in Extend">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UtugUYGqEeqSC4bGMjXJ9g" name="deleteConstraint_IN_Extend" description="deletes one Constraint in the context: Extend">
+    <lhs xmi:id="_UtugUoGqEeqSC4bGMjXJ9g" name="LHS">
+      <nodes xmi:id="_UtugU4GqEeqSC4bGMjXJ9g" name="Selected" outgoing="_UtugVYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Extend"/>
+      </nodes>
+      <nodes xmi:id="_UtugVIGqEeqSC4bGMjXJ9g" name="ToBeDeleted" incoming="_UtugVYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Constraint"/>
+      </nodes>
+      <edges xmi:id="_UtugVYGqEeqSC4bGMjXJ9g" source="_UtugU4GqEeqSC4bGMjXJ9g" target="_UtugVIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Extend/condition"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_UtvHYIGqEeqSC4bGMjXJ9g" name="RHS">
+      <nodes xmi:id="_UtvHYYGqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Extend"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_UtvHYoGqEeqSC4bGMjXJ9g" origin="_UtugU4GqEeqSC4bGMjXJ9g" image="_UtvHYYGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

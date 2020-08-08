@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_1OQeMIGoEeqjxJ91AzqJlg" name="DELETE_ReadStructuralFeatureAction_IN_Interaction_(action)" description="Deletes one ReadStructuralFeatureAction in Interaction">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_1OQeMYGoEeqjxJ91AzqJlg" name="deleteReadStructuralFeatureAction_IN_Interaction" description="deletes one ReadStructuralFeatureAction in the context: Interaction">
+    <lhs xmi:id="_1OQeMoGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_1OQeM4GoEeqjxJ91AzqJlg" name="Selected" outgoing="_1OQeOIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Interaction"/>
+      </nodes>
+      <nodes xmi:id="_1OQeNIGoEeqjxJ91AzqJlg" name="ToBeDeleted" incoming="_1OQeOIGoEeqjxJ91AzqJlg" outgoing="_1OQeOYGoEeqjxJ91AzqJlg _1OQeOoGoEeqjxJ91AzqJlg _1OQeO4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ReadStructuralFeatureAction"/>
+      </nodes>
+      <nodes xmi:id="_1OQeNYGoEeqjxJ91AzqJlg" name="Child" incoming="_1OQeOYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//OutputPin"/>
+      </nodes>
+      <nodes xmi:id="_1OQeNoGoEeqjxJ91AzqJlg" name="Child1" incoming="_1OQeOoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InputPin"/>
+      </nodes>
+      <nodes xmi:id="_1OQeN4GoEeqjxJ91AzqJlg" name="Existing" incoming="_1OQeO4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//StructuralFeature"/>
+      </nodes>
+      <edges xmi:id="_1OQeOIGoEeqjxJ91AzqJlg" source="_1OQeM4GoEeqjxJ91AzqJlg" target="_1OQeNIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Interaction/action"/>
+      </edges>
+      <edges xmi:id="_1OQeOYGoEeqjxJ91AzqJlg" source="_1OQeNIGoEeqjxJ91AzqJlg" target="_1OQeNYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ReadStructuralFeatureAction/result"/>
+      </edges>
+      <edges xmi:id="_1OQeOoGoEeqjxJ91AzqJlg" source="_1OQeNIGoEeqjxJ91AzqJlg" target="_1OQeNoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//StructuralFeatureAction/object"/>
+      </edges>
+      <edges xmi:id="_1OQeO4GoEeqjxJ91AzqJlg" source="_1OQeNIGoEeqjxJ91AzqJlg" target="_1OQeN4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//StructuralFeatureAction/structuralFeature"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_1OQePIGoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_1OQePYGoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Interaction"/>
+      </nodes>
+      <nodes xmi:id="_1OQePoGoEeqjxJ91AzqJlg" name="Existing">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//StructuralFeature"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_1OQeP4GoEeqjxJ91AzqJlg" origin="_1OQeM4GoEeqjxJ91AzqJlg" image="_1OQePYGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_1OQeQIGoEeqjxJ91AzqJlg" origin="_1OQeN4GoEeqjxJ91AzqJlg" image="_1OQePoGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

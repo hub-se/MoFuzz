@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_2h2NAIGoEeqjxJ91AzqJlg" name="MOVE_ComponentRealization_FROM_CollaborationUse_(roleBinding)_TO_CollaborationUse_(roleBinding)" description="MOVEs ComponentRealization from CollaborationUse(Reference:roleBinding) to CollaborationUse(Reference:roleBinding">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_2h2NAYGoEeqjxJ91AzqJlg" name="moveComponentRealization_FROM_CollaborationUse_roleBinding_TO_CollaborationUse_CollaborationUse" description="Moves ComponentRealization from CollaborationUse(Reference:roleBinding) toCollaborationUse(Reference:CollaborationUse)">
+    <lhs xmi:id="_2h2NAoGoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_2h2NA4GoEeqjxJ91AzqJlg" name="Selected" incoming="_2h2NBoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ComponentRealization"/>
+      </nodes>
+      <nodes xmi:id="_2h2NBIGoEeqjxJ91AzqJlg" name="OldSource" outgoing="_2h2NBoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//CollaborationUse"/>
+      </nodes>
+      <nodes xmi:id="_2h2NBYGoEeqjxJ91AzqJlg" name="NewSource">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//CollaborationUse"/>
+      </nodes>
+      <edges xmi:id="_2h2NBoGoEeqjxJ91AzqJlg" source="_2h2NBIGoEeqjxJ91AzqJlg" target="_2h2NA4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//CollaborationUse/roleBinding"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_2h2NB4GoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_2h2NCIGoEeqjxJ91AzqJlg" name="Selected" incoming="_2h2NC4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ComponentRealization"/>
+      </nodes>
+      <nodes xmi:id="_2h2NCYGoEeqjxJ91AzqJlg" name="OldSource">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//CollaborationUse"/>
+      </nodes>
+      <nodes xmi:id="_2h2NCoGoEeqjxJ91AzqJlg" name="NewSource" outgoing="_2h2NC4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//CollaborationUse"/>
+      </nodes>
+      <edges xmi:id="_2h2NC4GoEeqjxJ91AzqJlg" source="_2h2NCoGoEeqjxJ91AzqJlg" target="_2h2NCIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//CollaborationUse/roleBinding"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_2h2NDIGoEeqjxJ91AzqJlg" origin="_2h2NA4GoEeqjxJ91AzqJlg" image="_2h2NCIGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_2h2NDYGoEeqjxJ91AzqJlg" origin="_2h2NBIGoEeqjxJ91AzqJlg" image="_2h2NCYGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_2h2NDoGoEeqjxJ91AzqJlg" origin="_2h2NBYGoEeqjxJ91AzqJlg" image="_2h2NCoGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

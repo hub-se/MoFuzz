@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UIba4IGqEeqSC4bGMjXJ9g" name="CREATE_Transition_IN_Region_(transition)" description="Creates one Transition in Region">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UIba4YGqEeqSC4bGMjXJ9g" name="createTransition_IN_Region" description="creates one Transition in the context: Region">
+    <parameters xmi:id="_UIba4oGqEeqSC4bGMjXJ9g" name="IsLeaf" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <parameters xmi:id="_UIba44GqEeqSC4bGMjXJ9g" name="Kind" kind="IN">
+      <type xsi:type="ecore:EEnum" href="http://www.eclipse.org/uml2/5.0.0/UML#//TransitionKind"/>
+    </parameters>
+    <lhs xmi:id="_UIba5IGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_UIba5YGqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Region"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_UIba5oGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_UIba54GqEeqSC4bGMjXJ9g" name="Selected" incoming="_UIba7IGqEeqSC4bGMjXJ9g" outgoing="_UIba64GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Region"/>
+      </nodes>
+      <nodes xmi:id="_UIba6IGqEeqSC4bGMjXJ9g" name="New" incoming="_UIba64GqEeqSC4bGMjXJ9g" outgoing="_UIba7IGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Transition"/>
+        <attributes xmi:id="_UIba6YGqEeqSC4bGMjXJ9g" value="IsLeaf">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//RedefinableElement/isLeaf"/>
+        </attributes>
+        <attributes xmi:id="_UIba6oGqEeqSC4bGMjXJ9g" value="Kind">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Transition/kind"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_UIba64GqEeqSC4bGMjXJ9g" source="_UIba54GqEeqSC4bGMjXJ9g" target="_UIba6IGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Region/transition"/>
+      </edges>
+      <edges xmi:id="_UIba7IGqEeqSC4bGMjXJ9g" source="_UIba6IGqEeqSC4bGMjXJ9g" target="_UIba54GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Transition/container"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_UIba7YGqEeqSC4bGMjXJ9g" origin="_UIba5YGqEeqSC4bGMjXJ9g" image="_UIba54GqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

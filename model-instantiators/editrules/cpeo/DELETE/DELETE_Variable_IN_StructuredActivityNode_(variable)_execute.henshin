@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_09dpIIGoEeqjxJ91AzqJlg" name="DELETE_Variable_IN_StructuredActivityNode_(variable)" description="Deletes one Variable in StructuredActivityNode">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_09dpIYGoEeqjxJ91AzqJlg" name="deleteVariable_IN_StructuredActivityNode" description="deletes one Variable in the context: StructuredActivityNode">
+    <lhs xmi:id="_09dpIoGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_09dpI4GoEeqjxJ91AzqJlg" name="Selected" incoming="_09dpJoGoEeqjxJ91AzqJlg" outgoing="_09dpJYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//StructuredActivityNode"/>
+      </nodes>
+      <nodes xmi:id="_09dpJIGoEeqjxJ91AzqJlg" name="ToBeDeleted" incoming="_09dpJYGoEeqjxJ91AzqJlg" outgoing="_09dpJoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Variable"/>
+      </nodes>
+      <edges xmi:id="_09dpJYGoEeqjxJ91AzqJlg" source="_09dpI4GoEeqjxJ91AzqJlg" target="_09dpJIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//StructuredActivityNode/variable"/>
+      </edges>
+      <edges xmi:id="_09dpJoGoEeqjxJ91AzqJlg" source="_09dpJIGoEeqjxJ91AzqJlg" target="_09dpI4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Variable/scope"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_09dpJ4GoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_09dpKIGoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//StructuredActivityNode"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_09dpKYGoEeqjxJ91AzqJlg" origin="_09dpI4GoEeqjxJ91AzqJlg" image="_09dpKIGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

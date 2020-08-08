@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_2XO4cIGoEeqjxJ91AzqJlg" name="MOVE_LiteralReal_FROM_Slot_(value)_TO_Slot_(value)" description="MOVEs LiteralReal from Slot(Reference:value) to Slot(Reference:value">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_2XO4cYGoEeqjxJ91AzqJlg" name="moveLiteralReal_FROM_Slot_value_TO_Slot_Slot" description="Moves LiteralReal from Slot(Reference:value) toSlot(Reference:Slot)">
+    <lhs xmi:id="_2XO4coGoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_2XO4c4GoEeqjxJ91AzqJlg" name="Selected" incoming="_2XO4doGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LiteralReal"/>
+      </nodes>
+      <nodes xmi:id="_2XO4dIGoEeqjxJ91AzqJlg" name="OldSource" outgoing="_2XO4doGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Slot"/>
+      </nodes>
+      <nodes xmi:id="_2XO4dYGoEeqjxJ91AzqJlg" name="NewSource">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Slot"/>
+      </nodes>
+      <edges xmi:id="_2XO4doGoEeqjxJ91AzqJlg" source="_2XO4dIGoEeqjxJ91AzqJlg" target="_2XO4c4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Slot/value"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_2XO4d4GoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_2XO4eIGoEeqjxJ91AzqJlg" name="Selected" incoming="_2XO4e4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LiteralReal"/>
+      </nodes>
+      <nodes xmi:id="_2XO4eYGoEeqjxJ91AzqJlg" name="OldSource">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Slot"/>
+      </nodes>
+      <nodes xmi:id="_2XO4eoGoEeqjxJ91AzqJlg" name="NewSource" outgoing="_2XO4e4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Slot"/>
+      </nodes>
+      <edges xmi:id="_2XO4e4GoEeqjxJ91AzqJlg" source="_2XO4eoGoEeqjxJ91AzqJlg" target="_2XO4eIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Slot/value"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_2XO4fIGoEeqjxJ91AzqJlg" origin="_2XO4c4GoEeqjxJ91AzqJlg" image="_2XO4eIGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_2XO4fYGoEeqjxJ91AzqJlg" origin="_2XO4dIGoEeqjxJ91AzqJlg" image="_2XO4eYGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_2XO4foGoEeqjxJ91AzqJlg" origin="_2XO4dYGoEeqjxJ91AzqJlg" image="_2XO4eoGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

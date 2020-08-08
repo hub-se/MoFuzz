@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_1fYDYIGoEeqjxJ91AzqJlg" name="ADD_Realization_(supplier)_TGT_NamedElement" description="Adds to Realization's reference supplier the target NamedElement">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_1fYDYYGoEeqjxJ91AzqJlg" name="addToRealization_supplier_NamedElement" description="Adds to Realization's reference supplier the target NamedElement">
+    <lhs xmi:id="_1fYDYoGoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_1fYDY4GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Realization"/>
+      </nodes>
+      <nodes xmi:id="_1fYDZIGoEeqjxJ91AzqJlg" name="NewTarget">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//NamedElement"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_1fYDZYGoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_1fYDZoGoEeqjxJ91AzqJlg" name="Selected" outgoing="_1fYDaIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Realization"/>
+      </nodes>
+      <nodes xmi:id="_1fYDZ4GoEeqjxJ91AzqJlg" name="NewTarget" incoming="_1fYDaIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//NamedElement"/>
+      </nodes>
+      <edges xmi:id="_1fYDaIGoEeqjxJ91AzqJlg" source="_1fYDZoGoEeqjxJ91AzqJlg" target="_1fYDZ4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Dependency/supplier"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_1fYDaYGoEeqjxJ91AzqJlg" origin="_1fYDY4GoEeqjxJ91AzqJlg" image="_1fYDZoGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_1fYDaoGoEeqjxJ91AzqJlg" origin="_1fYDZIGoEeqjxJ91AzqJlg" image="_1fYDZ4GoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

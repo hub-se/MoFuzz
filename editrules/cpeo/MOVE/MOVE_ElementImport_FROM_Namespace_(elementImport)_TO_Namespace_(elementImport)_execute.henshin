@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_2RWS4IGoEeqjxJ91AzqJlg" name="MOVE_ElementImport_FROM_Namespace_(elementImport)_TO_Namespace_(elementImport)" description="MOVEs ElementImport from Namespace(Reference:elementImport) to Namespace(Reference:elementImport">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_2RWS4YGoEeqjxJ91AzqJlg" name="moveElementImport_FROM_Namespace_elementImport_TO_Namespace_Namespace" description="Moves ElementImport from Namespace(Reference:elementImport) toNamespace(Reference:Namespace)">
+    <lhs xmi:id="_2RWS4oGoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_2RWS44GoEeqjxJ91AzqJlg" name="Selected" incoming="_2RWS5oGoEeqjxJ91AzqJlg" outgoing="_2RWS54GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ElementImport"/>
+      </nodes>
+      <nodes xmi:id="_2RWS5IGoEeqjxJ91AzqJlg" name="OldSource" incoming="_2RWS54GoEeqjxJ91AzqJlg" outgoing="_2RWS5oGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Namespace"/>
+      </nodes>
+      <nodes xmi:id="_2RWS5YGoEeqjxJ91AzqJlg" name="NewSource">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Namespace"/>
+      </nodes>
+      <edges xmi:id="_2RWS5oGoEeqjxJ91AzqJlg" source="_2RWS5IGoEeqjxJ91AzqJlg" target="_2RWS44GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Namespace/elementImport"/>
+      </edges>
+      <edges xmi:id="_2RWS54GoEeqjxJ91AzqJlg" source="_2RWS44GoEeqjxJ91AzqJlg" target="_2RWS5IGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ElementImport/importingNamespace"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_2RWS6IGoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_2RWS6YGoEeqjxJ91AzqJlg" name="Selected" incoming="_2RWS7IGoEeqjxJ91AzqJlg" outgoing="_2RWS7YGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ElementImport"/>
+      </nodes>
+      <nodes xmi:id="_2RWS6oGoEeqjxJ91AzqJlg" name="OldSource">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Namespace"/>
+      </nodes>
+      <nodes xmi:id="_2RWS64GoEeqjxJ91AzqJlg" name="NewSource" incoming="_2RWS7YGoEeqjxJ91AzqJlg" outgoing="_2RWS7IGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Namespace"/>
+      </nodes>
+      <edges xmi:id="_2RWS7IGoEeqjxJ91AzqJlg" source="_2RWS64GoEeqjxJ91AzqJlg" target="_2RWS6YGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Namespace/elementImport"/>
+      </edges>
+      <edges xmi:id="_2RWS7YGoEeqjxJ91AzqJlg" source="_2RWS6YGoEeqjxJ91AzqJlg" target="_2RWS64GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ElementImport/importingNamespace"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_2RWS7oGoEeqjxJ91AzqJlg" origin="_2RWS44GoEeqjxJ91AzqJlg" image="_2RWS6YGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_2RWS74GoEeqjxJ91AzqJlg" origin="_2RWS5IGoEeqjxJ91AzqJlg" image="_2RWS6oGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_2RWS8IGoEeqjxJ91AzqJlg" origin="_2RWS5YGoEeqjxJ91AzqJlg" image="_2RWS64GoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

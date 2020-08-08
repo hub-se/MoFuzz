@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_1vIWoIGoEeqjxJ91AzqJlg" name="CREATE_ControlFlow_IN_Activity_(edge)" description="Creates one ControlFlow in Activity">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_1vIWoYGoEeqjxJ91AzqJlg" name="createControlFlow_IN_Activity" description="creates one ControlFlow in the context: Activity">
+    <parameters xmi:id="_1vIWooGoEeqjxJ91AzqJlg" name="IsLeaf" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <lhs xmi:id="_1vIWo4GoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_1vIWpIGoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Activity"/>
+      </nodes>
+      <nodes xmi:id="_1vIWpYGoEeqjxJ91AzqJlg" name="Existing">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityNode"/>
+      </nodes>
+      <nodes xmi:id="_1vIWpoGoEeqjxJ91AzqJlg" name="Existing1">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityNode"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_1vIWp4GoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_1vIWqIGoEeqjxJ91AzqJlg" name="Selected" incoming="_1vIWroGoEeqjxJ91AzqJlg" outgoing="_1vIWrYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Activity"/>
+      </nodes>
+      <nodes xmi:id="_1vIWqYGoEeqjxJ91AzqJlg" name="New" incoming="_1vIWrYGoEeqjxJ91AzqJlg _1vIWsIGoEeqjxJ91AzqJlg _1vIWsoGoEeqjxJ91AzqJlg" outgoing="_1vIWroGoEeqjxJ91AzqJlg _1vIWr4GoEeqjxJ91AzqJlg _1vIWsYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ControlFlow"/>
+        <attributes xmi:id="_1vIWqoGoEeqjxJ91AzqJlg" value="IsLeaf">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//RedefinableElement/isLeaf"/>
+        </attributes>
+      </nodes>
+      <nodes xmi:id="_1vIWq4GoEeqjxJ91AzqJlg" name="Existing" incoming="_1vIWr4GoEeqjxJ91AzqJlg" outgoing="_1vIWsIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityNode"/>
+      </nodes>
+      <nodes xmi:id="_1vIWrIGoEeqjxJ91AzqJlg" name="Existing1" incoming="_1vIWsYGoEeqjxJ91AzqJlg" outgoing="_1vIWsoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityNode"/>
+      </nodes>
+      <edges xmi:id="_1vIWrYGoEeqjxJ91AzqJlg" source="_1vIWqIGoEeqjxJ91AzqJlg" target="_1vIWqYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Activity/edge"/>
+      </edges>
+      <edges xmi:id="_1vIWroGoEeqjxJ91AzqJlg" source="_1vIWqYGoEeqjxJ91AzqJlg" target="_1vIWqIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityEdge/activity"/>
+      </edges>
+      <edges xmi:id="_1vIWr4GoEeqjxJ91AzqJlg" source="_1vIWqYGoEeqjxJ91AzqJlg" target="_1vIWq4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityEdge/target"/>
+      </edges>
+      <edges xmi:id="_1vIWsIGoEeqjxJ91AzqJlg" source="_1vIWq4GoEeqjxJ91AzqJlg" target="_1vIWqYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityNode/incoming"/>
+      </edges>
+      <edges xmi:id="_1vIWsYGoEeqjxJ91AzqJlg" source="_1vIWqYGoEeqjxJ91AzqJlg" target="_1vIWrIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityEdge/source"/>
+      </edges>
+      <edges xmi:id="_1vIWsoGoEeqjxJ91AzqJlg" source="_1vIWrIGoEeqjxJ91AzqJlg" target="_1vIWqYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityNode/outgoing"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_1vIWs4GoEeqjxJ91AzqJlg" origin="_1vIWpIGoEeqjxJ91AzqJlg" image="_1vIWqIGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_1vIWtIGoEeqjxJ91AzqJlg" origin="_1vIWpYGoEeqjxJ91AzqJlg" image="_1vIWq4GoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_1vIWtYGoEeqjxJ91AzqJlg" origin="_1vIWpoGoEeqjxJ91AzqJlg" image="_1vIWrIGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

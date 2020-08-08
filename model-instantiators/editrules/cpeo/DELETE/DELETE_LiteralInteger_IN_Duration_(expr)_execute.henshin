@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_1Sfd8IGoEeqjxJ91AzqJlg" name="DELETE_LiteralInteger_IN_Duration_(expr)" description="Deletes one LiteralInteger in Duration">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_1SgFAIGoEeqjxJ91AzqJlg" name="deleteLiteralInteger_IN_Duration" description="deletes one LiteralInteger in the context: Duration">
+    <lhs xmi:id="_1SgFAYGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_1SgFAoGoEeqjxJ91AzqJlg" name="Selected" outgoing="_1SgFBIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Duration"/>
+      </nodes>
+      <nodes xmi:id="_1SgFA4GoEeqjxJ91AzqJlg" name="ToBeDeleted" incoming="_1SgFBIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LiteralInteger"/>
+      </nodes>
+      <edges xmi:id="_1SgFBIGoEeqjxJ91AzqJlg" source="_1SgFAoGoEeqjxJ91AzqJlg" target="_1SgFA4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Duration/expr"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_1SgFBYGoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_1SgFBoGoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Duration"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_1SgFB4GoEeqjxJ91AzqJlg" origin="_1SgFAoGoEeqjxJ91AzqJlg" image="_1SgFBoGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_2nmPsIGoEeqjxJ91AzqJlg" name="SET_REFERENCE_DecisionNode_(decisionInputFlow)_TGT_ObjectFlow" description="Sets DecisionNode's reference decisionInputFlow the target ObjectFlow">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_2nmPsYGoEeqjxJ91AzqJlg" name="setDecisionNode_decisionInputFlow_TO_ObjectFlow" description="SetDecisionNodeRefdecisionInputFlowToObjectFlow">
+    <lhs xmi:id="_2nmPsoGoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_2nmPs4GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//DecisionNode"/>
+      </nodes>
+      <nodes xmi:id="_2nmPtIGoEeqjxJ91AzqJlg" name="NewTarget">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ObjectFlow"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_2nmPtYGoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_2nmPtoGoEeqjxJ91AzqJlg" name="Selected" outgoing="_2nmPuIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//DecisionNode"/>
+      </nodes>
+      <nodes xmi:id="_2nmPt4GoEeqjxJ91AzqJlg" name="NewTarget" incoming="_2nmPuIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ObjectFlow"/>
+      </nodes>
+      <edges xmi:id="_2nmPuIGoEeqjxJ91AzqJlg" source="_2nmPtoGoEeqjxJ91AzqJlg" target="_2nmPt4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//DecisionNode/decisionInputFlow"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_2nmPuYGoEeqjxJ91AzqJlg" origin="_2nmPs4GoEeqjxJ91AzqJlg" image="_2nmPtoGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_2nmPuoGoEeqjxJ91AzqJlg" origin="_2nmPtIGoEeqjxJ91AzqJlg" image="_2nmPt4GoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_Tuc0oIGqEeqSC4bGMjXJ9g" name="MOVE_InterruptibleActivityRegion_FROM_Activity_(ownedGroup)_TO_Activity_(ownedGroup)" description="MOVEs InterruptibleActivityRegion from Activity(Reference:ownedGroup) to Activity(Reference:ownedGroup">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_Tuc0oYGqEeqSC4bGMjXJ9g" name="moveInterruptibleActivityRegion_FROM_Activity_ownedGroup_TO_Activity_Activity" description="Moves InterruptibleActivityRegion from Activity(Reference:ownedGroup) toActivity(Reference:Activity)">
+    <lhs xmi:id="_Tuc0ooGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_Tuc0o4GqEeqSC4bGMjXJ9g" name="Selected" incoming="_Tuc0poGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InterruptibleActivityRegion"/>
+      </nodes>
+      <nodes xmi:id="_Tuc0pIGqEeqSC4bGMjXJ9g" name="OldSource" outgoing="_Tuc0poGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Activity"/>
+      </nodes>
+      <nodes xmi:id="_Tuc0pYGqEeqSC4bGMjXJ9g" name="NewSource">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Activity"/>
+      </nodes>
+      <edges xmi:id="_Tuc0poGqEeqSC4bGMjXJ9g" source="_Tuc0pIGqEeqSC4bGMjXJ9g" target="_Tuc0o4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Activity/ownedGroup"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_Tuc0p4GqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_Tuc0qIGqEeqSC4bGMjXJ9g" name="Selected" incoming="_Tuc0q4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InterruptibleActivityRegion"/>
+      </nodes>
+      <nodes xmi:id="_Tuc0qYGqEeqSC4bGMjXJ9g" name="OldSource">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Activity"/>
+      </nodes>
+      <nodes xmi:id="_Tuc0qoGqEeqSC4bGMjXJ9g" name="NewSource" outgoing="_Tuc0q4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Activity"/>
+      </nodes>
+      <edges xmi:id="_Tuc0q4GqEeqSC4bGMjXJ9g" source="_Tuc0qoGqEeqSC4bGMjXJ9g" target="_Tuc0qIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Activity/ownedGroup"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_Tuc0rIGqEeqSC4bGMjXJ9g" origin="_Tuc0o4GqEeqSC4bGMjXJ9g" image="_Tuc0qIGqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_Tuc0rYGqEeqSC4bGMjXJ9g" origin="_Tuc0pIGqEeqSC4bGMjXJ9g" image="_Tuc0qYGqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_Tuc0roGqEeqSC4bGMjXJ9g" origin="_Tuc0pYGqEeqSC4bGMjXJ9g" image="_Tuc0qoGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

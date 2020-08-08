@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_1x9BIIGoEeqjxJ91AzqJlg" name="CREATE_Interaction_IN_InteractionOperand_(fragment)" description="Creates one Interaction in InteractionOperand">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_1x9BIYGoEeqjxJ91AzqJlg" name="createInteraction_IN_InteractionOperand" description="creates one Interaction in the context: InteractionOperand">
+    <parameters xmi:id="_1x9BIoGoEeqjxJ91AzqJlg" name="IsLeaf" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <parameters xmi:id="_1x9BI4GoEeqjxJ91AzqJlg" name="IsAbstract" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <parameters xmi:id="_1x9BJIGoEeqjxJ91AzqJlg" name="IsFinalSpecialization" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <parameters xmi:id="_1x9BJYGoEeqjxJ91AzqJlg" name="IsActive" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <lhs xmi:id="_1x9BJoGoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_1x9BJ4GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InteractionOperand"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_1x9BKIGoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_1x9BKYGoEeqjxJ91AzqJlg" name="Selected" incoming="_1x9BMIGoEeqjxJ91AzqJlg" outgoing="_1x9BL4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InteractionOperand"/>
+      </nodes>
+      <nodes xmi:id="_1x9BKoGoEeqjxJ91AzqJlg" name="New" incoming="_1x9BL4GoEeqjxJ91AzqJlg" outgoing="_1x9BMIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Interaction"/>
+        <attributes xmi:id="_1x9BK4GoEeqjxJ91AzqJlg" value="IsLeaf">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//RedefinableElement/isLeaf"/>
+        </attributes>
+        <attributes xmi:id="_1x9BLIGoEeqjxJ91AzqJlg" value="IsAbstract">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier/isAbstract"/>
+        </attributes>
+        <attributes xmi:id="_1x9BLYGoEeqjxJ91AzqJlg" value="IsFinalSpecialization">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier/isFinalSpecialization"/>
+        </attributes>
+        <attributes xmi:id="_1x9BLoGoEeqjxJ91AzqJlg" value="IsActive">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Class/isActive"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_1x9BL4GoEeqjxJ91AzqJlg" source="_1x9BKYGoEeqjxJ91AzqJlg" target="_1x9BKoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InteractionOperand/fragment"/>
+      </edges>
+      <edges xmi:id="_1x9BMIGoEeqjxJ91AzqJlg" source="_1x9BKoGoEeqjxJ91AzqJlg" target="_1x9BKYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InteractionFragment/enclosingOperand"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_1x9BMYGoEeqjxJ91AzqJlg" origin="_1x9BJ4GoEeqjxJ91AzqJlg" image="_1x9BKYGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_1LGcgIGoEeqjxJ91AzqJlg" name="DELETE_ActionInputPin_IN_WriteVariableAction_(value)" description="Deletes one ActionInputPin in WriteVariableAction">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_1LGcgYGoEeqjxJ91AzqJlg" name="deleteActionInputPin_IN_WriteVariableAction" description="deletes one ActionInputPin in the context: WriteVariableAction">
+    <lhs xmi:id="_1LGcgoGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_1LGcg4GoEeqjxJ91AzqJlg" name="Selected" outgoing="_1LGchoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//WriteVariableAction"/>
+      </nodes>
+      <nodes xmi:id="_1LGchIGoEeqjxJ91AzqJlg" name="ToBeDeleted" incoming="_1LGchoGoEeqjxJ91AzqJlg" outgoing="_1LGch4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActionInputPin"/>
+      </nodes>
+      <nodes xmi:id="_1LGchYGoEeqjxJ91AzqJlg" name="Child" incoming="_1LGch4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Action"/>
+      </nodes>
+      <edges xmi:id="_1LGchoGoEeqjxJ91AzqJlg" source="_1LGcg4GoEeqjxJ91AzqJlg" target="_1LGchIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//WriteVariableAction/value"/>
+      </edges>
+      <edges xmi:id="_1LGch4GoEeqjxJ91AzqJlg" source="_1LGchIGoEeqjxJ91AzqJlg" target="_1LGchYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActionInputPin/fromAction"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_1LGciIGoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_1LGciYGoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//WriteVariableAction"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_1LGcioGoEeqjxJ91AzqJlg" origin="_1LGcg4GoEeqjxJ91AzqJlg" image="_1LGciYGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

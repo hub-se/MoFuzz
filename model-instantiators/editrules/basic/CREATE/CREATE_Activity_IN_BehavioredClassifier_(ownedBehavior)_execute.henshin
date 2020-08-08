@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UXqwwIGqEeqSC4bGMjXJ9g" name="CREATE_Activity_IN_BehavioredClassifier_(ownedBehavior)" description="Creates one Activity in BehavioredClassifier">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UXqwwYGqEeqSC4bGMjXJ9g" name="createActivity_IN_BehavioredClassifier" description="creates one Activity in the context: BehavioredClassifier">
+    <parameters xmi:id="_UXqwwoGqEeqSC4bGMjXJ9g" name="IsLeaf" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <parameters xmi:id="_UXqww4GqEeqSC4bGMjXJ9g" name="IsAbstract" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <parameters xmi:id="_UXqwxIGqEeqSC4bGMjXJ9g" name="IsFinalSpecialization" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <parameters xmi:id="_UXqwxYGqEeqSC4bGMjXJ9g" name="IsActive" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <parameters xmi:id="_UXqwxoGqEeqSC4bGMjXJ9g" name="IsReadOnly" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <parameters xmi:id="_UXqwx4GqEeqSC4bGMjXJ9g" name="IsSingleExecution" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <lhs xmi:id="_UXqwyIGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_UXqwyYGqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//BehavioredClassifier"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_UXqwyoGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_UXqwy4GqEeqSC4bGMjXJ9g" name="Selected" outgoing="_UXqw04GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//BehavioredClassifier"/>
+      </nodes>
+      <nodes xmi:id="_UXqwzIGqEeqSC4bGMjXJ9g" name="New" incoming="_UXqw04GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Activity"/>
+        <attributes xmi:id="_UXqwzYGqEeqSC4bGMjXJ9g" value="IsLeaf">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//RedefinableElement/isLeaf"/>
+        </attributes>
+        <attributes xmi:id="_UXqwzoGqEeqSC4bGMjXJ9g" value="IsAbstract">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier/isAbstract"/>
+        </attributes>
+        <attributes xmi:id="_UXqwz4GqEeqSC4bGMjXJ9g" value="IsFinalSpecialization">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier/isFinalSpecialization"/>
+        </attributes>
+        <attributes xmi:id="_UXqw0IGqEeqSC4bGMjXJ9g" value="IsActive">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Class/isActive"/>
+        </attributes>
+        <attributes xmi:id="_UXqw0YGqEeqSC4bGMjXJ9g" value="IsReadOnly">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Activity/isReadOnly"/>
+        </attributes>
+        <attributes xmi:id="_UXqw0oGqEeqSC4bGMjXJ9g" value="IsSingleExecution">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Activity/isSingleExecution"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_UXqw04GqEeqSC4bGMjXJ9g" source="_UXqwy4GqEeqSC4bGMjXJ9g" target="_UXqwzIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//BehavioredClassifier/ownedBehavior"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_UXqw1IGqEeqSC4bGMjXJ9g" origin="_UXqwyYGqEeqSC4bGMjXJ9g" image="_UXqwy4GqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

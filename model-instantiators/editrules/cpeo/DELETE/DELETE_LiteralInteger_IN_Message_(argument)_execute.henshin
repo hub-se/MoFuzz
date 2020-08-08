@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_1MbSMIGoEeqjxJ91AzqJlg" name="DELETE_LiteralInteger_IN_Message_(argument)" description="Deletes one LiteralInteger in Message">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_1MbSMYGoEeqjxJ91AzqJlg" name="deleteLiteralInteger_IN_Message" description="deletes one LiteralInteger in the context: Message">
+    <lhs xmi:id="_1MbSMoGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_1MbSM4GoEeqjxJ91AzqJlg" name="Selected" outgoing="_1MbSNYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Message"/>
+      </nodes>
+      <nodes xmi:id="_1MbSNIGoEeqjxJ91AzqJlg" name="ToBeDeleted" incoming="_1MbSNYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LiteralInteger"/>
+      </nodes>
+      <edges xmi:id="_1MbSNYGoEeqjxJ91AzqJlg" source="_1MbSM4GoEeqjxJ91AzqJlg" target="_1MbSNIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Message/argument"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_1MbSNoGoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_1MbSN4GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Message"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_1MbSOIGoEeqjxJ91AzqJlg" origin="_1MbSM4GoEeqjxJ91AzqJlg" image="_1MbSN4GoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UJVZ0IGqEeqSC4bGMjXJ9g" name="CREATE_Lifeline_IN_Interaction_(lifeline)" description="Creates one Lifeline in Interaction">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UJVZ0YGqEeqSC4bGMjXJ9g" name="createLifeline_IN_Interaction" description="creates one Lifeline in the context: Interaction">
+    <lhs xmi:id="_UJVZ0oGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_UJVZ04GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Interaction"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_UJVZ1IGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_UJVZ1YGqEeqSC4bGMjXJ9g" name="Selected" incoming="_UJVZ2IGqEeqSC4bGMjXJ9g" outgoing="_UJVZ14GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Interaction"/>
+      </nodes>
+      <nodes xmi:id="_UJVZ1oGqEeqSC4bGMjXJ9g" name="New" incoming="_UJVZ14GqEeqSC4bGMjXJ9g" outgoing="_UJVZ2IGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Lifeline"/>
+      </nodes>
+      <edges xmi:id="_UJVZ14GqEeqSC4bGMjXJ9g" source="_UJVZ1YGqEeqSC4bGMjXJ9g" target="_UJVZ1oGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Interaction/lifeline"/>
+      </edges>
+      <edges xmi:id="_UJVZ2IGqEeqSC4bGMjXJ9g" source="_UJVZ1oGqEeqSC4bGMjXJ9g" target="_UJVZ1YGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Lifeline/interaction"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_UJVZ2YGqEeqSC4bGMjXJ9g" origin="_UJVZ04GqEeqSC4bGMjXJ9g" image="_UJVZ1YGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

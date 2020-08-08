@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_0_S1IIGoEeqjxJ91AzqJlg" name="DELETE_DestroyLinkAction_IN_SequenceNode_(executableNode)" description="Deletes one DestroyLinkAction in SequenceNode">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_0_S1IYGoEeqjxJ91AzqJlg" name="deleteDestroyLinkAction_IN_SequenceNode" description="deletes one DestroyLinkAction in the context: SequenceNode">
+    <lhs xmi:id="_0_S1IoGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_0_S1I4GoEeqjxJ91AzqJlg" name="Selected" outgoing="_0_S1KoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//SequenceNode"/>
+      </nodes>
+      <nodes xmi:id="_0_S1JIGoEeqjxJ91AzqJlg" name="ToBeDeleted" incoming="_0_S1KoGoEeqjxJ91AzqJlg" outgoing="_0_S1K4GoEeqjxJ91AzqJlg _0_S1LIGoEeqjxJ91AzqJlg _0_S1LoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//DestroyLinkAction"/>
+      </nodes>
+      <nodes xmi:id="_0_S1JYGoEeqjxJ91AzqJlg" name="Child" incoming="_0_S1K4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InputPin"/>
+      </nodes>
+      <nodes xmi:id="_0_S1JoGoEeqjxJ91AzqJlg" name="Child1" incoming="_0_S1LIGoEeqjxJ91AzqJlg" outgoing="_0_S1LYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LinkEndDestructionData"/>
+      </nodes>
+      <nodes xmi:id="_0_S1J4GoEeqjxJ91AzqJlg" name="Existing" incoming="_0_S1LYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Property"/>
+      </nodes>
+      <nodes xmi:id="_0_S1KIGoEeqjxJ91AzqJlg" name="Child2" incoming="_0_S1LoGoEeqjxJ91AzqJlg" outgoing="_0_S1L4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LinkEndDestructionData"/>
+      </nodes>
+      <nodes xmi:id="_0_S1KYGoEeqjxJ91AzqJlg" name="Existing1" incoming="_0_S1L4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Property"/>
+      </nodes>
+      <edges xmi:id="_0_S1KoGoEeqjxJ91AzqJlg" source="_0_S1I4GoEeqjxJ91AzqJlg" target="_0_S1JIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//SequenceNode/executableNode"/>
+      </edges>
+      <edges xmi:id="_0_S1K4GoEeqjxJ91AzqJlg" source="_0_S1JIGoEeqjxJ91AzqJlg" target="_0_S1JYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LinkAction/inputValue"/>
+      </edges>
+      <edges xmi:id="_0_S1LIGoEeqjxJ91AzqJlg" source="_0_S1JIGoEeqjxJ91AzqJlg" target="_0_S1JoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LinkAction/endData"/>
+      </edges>
+      <edges xmi:id="_0_S1LYGoEeqjxJ91AzqJlg" source="_0_S1JoGoEeqjxJ91AzqJlg" target="_0_S1J4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LinkEndData/end"/>
+      </edges>
+      <edges xmi:id="_0_S1LoGoEeqjxJ91AzqJlg" source="_0_S1JIGoEeqjxJ91AzqJlg" target="_0_S1KIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LinkAction/endData"/>
+      </edges>
+      <edges xmi:id="_0_S1L4GoEeqjxJ91AzqJlg" source="_0_S1KIGoEeqjxJ91AzqJlg" target="_0_S1KYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LinkEndData/end"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_0_S1MIGoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_0_S1MYGoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//SequenceNode"/>
+      </nodes>
+      <nodes xmi:id="_0_S1MoGoEeqjxJ91AzqJlg" name="Existing">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Property"/>
+      </nodes>
+      <nodes xmi:id="_0_S1M4GoEeqjxJ91AzqJlg" name="Existing1">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Property"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_0_S1NIGoEeqjxJ91AzqJlg" origin="_0_S1I4GoEeqjxJ91AzqJlg" image="_0_S1MYGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_0_S1NYGoEeqjxJ91AzqJlg" origin="_0_S1J4GoEeqjxJ91AzqJlg" image="_0_S1MoGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_0_S1NoGoEeqjxJ91AzqJlg" origin="_0_S1KYGoEeqjxJ91AzqJlg" image="_0_S1M4GoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_2QewMIGoEeqjxJ91AzqJlg" name="MOVE_DurationConstraint_FROM_ParameterSet_(condition)_TO_ParameterSet_(condition)" description="MOVEs DurationConstraint from ParameterSet(Reference:condition) to ParameterSet(Reference:condition">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_2QewMYGoEeqjxJ91AzqJlg" name="moveDurationConstraint_FROM_ParameterSet_condition_TO_ParameterSet_ParameterSet" description="Moves DurationConstraint from ParameterSet(Reference:condition) toParameterSet(Reference:ParameterSet)">
+    <lhs xmi:id="_2QewMoGoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_2QewM4GoEeqjxJ91AzqJlg" name="Selected" incoming="_2QewNoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//DurationConstraint"/>
+      </nodes>
+      <nodes xmi:id="_2QewNIGoEeqjxJ91AzqJlg" name="OldSource" outgoing="_2QewNoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ParameterSet"/>
+      </nodes>
+      <nodes xmi:id="_2QewNYGoEeqjxJ91AzqJlg" name="NewSource">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ParameterSet"/>
+      </nodes>
+      <edges xmi:id="_2QewNoGoEeqjxJ91AzqJlg" source="_2QewNIGoEeqjxJ91AzqJlg" target="_2QewM4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ParameterSet/condition"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_2QewN4GoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_2QewOIGoEeqjxJ91AzqJlg" name="Selected" incoming="_2QewO4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//DurationConstraint"/>
+      </nodes>
+      <nodes xmi:id="_2QewOYGoEeqjxJ91AzqJlg" name="OldSource">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ParameterSet"/>
+      </nodes>
+      <nodes xmi:id="_2QewOoGoEeqjxJ91AzqJlg" name="NewSource" outgoing="_2QewO4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ParameterSet"/>
+      </nodes>
+      <edges xmi:id="_2QewO4GoEeqjxJ91AzqJlg" source="_2QewOoGoEeqjxJ91AzqJlg" target="_2QewOIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ParameterSet/condition"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_2QewPIGoEeqjxJ91AzqJlg" origin="_2QewM4GoEeqjxJ91AzqJlg" image="_2QewOIGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_2QewPYGoEeqjxJ91AzqJlg" origin="_2QewNIGoEeqjxJ91AzqJlg" image="_2QewOYGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_2QewPoGoEeqjxJ91AzqJlg" origin="_2QewNYGoEeqjxJ91AzqJlg" image="_2QewOoGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

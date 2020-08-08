@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_1YNEYIGoEeqjxJ91AzqJlg" name="ADD_BehavioredClassifier_(redefinedClassifier)_TGT_Classifier" description="Adds to BehavioredClassifier's reference redefinedClassifier the target Classifier">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_1YNEYYGoEeqjxJ91AzqJlg" name="addToBehavioredClassifier_redefinedClassifier_Classifier" description="Adds to BehavioredClassifier's reference redefinedClassifier the target Classifier">
+    <lhs xmi:id="_1YNEYoGoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_1YNEY4GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//BehavioredClassifier"/>
+      </nodes>
+      <nodes xmi:id="_1YNEZIGoEeqjxJ91AzqJlg" name="NewTarget">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_1YNEZYGoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_1YNEZoGoEeqjxJ91AzqJlg" name="Selected" outgoing="_1YNEaIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//BehavioredClassifier"/>
+      </nodes>
+      <nodes xmi:id="_1YNEZ4GoEeqjxJ91AzqJlg" name="NewTarget" incoming="_1YNEaIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier"/>
+      </nodes>
+      <edges xmi:id="_1YNEaIGoEeqjxJ91AzqJlg" source="_1YNEZoGoEeqjxJ91AzqJlg" target="_1YNEZ4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier/redefinedClassifier"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_1YNEaYGoEeqjxJ91AzqJlg" origin="_1YNEY4GoEeqjxJ91AzqJlg" image="_1YNEZoGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_1YNEaoGoEeqjxJ91AzqJlg" origin="_1YNEZIGoEeqjxJ91AzqJlg" image="_1YNEZ4GoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

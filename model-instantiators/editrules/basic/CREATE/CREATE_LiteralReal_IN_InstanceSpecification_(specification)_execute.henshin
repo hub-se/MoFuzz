@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UGoEEIGqEeqSC4bGMjXJ9g" name="CREATE_LiteralReal_IN_InstanceSpecification_(specification)" description="Creates one LiteralReal in InstanceSpecification">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UGoEEYGqEeqSC4bGMjXJ9g" name="createLiteralReal_IN_InstanceSpecification" description="creates one LiteralReal in the context: InstanceSpecification">
+    <parameters xmi:id="_UGoEEoGqEeqSC4bGMjXJ9g" name="Value" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Real"/>
+    </parameters>
+    <lhs xmi:id="_UGoEE4GqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_UGoEFIGqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InstanceSpecification"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_UGoEFYGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_UGoEFoGqEeqSC4bGMjXJ9g" name="Selected" outgoing="_UGoEGYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InstanceSpecification"/>
+      </nodes>
+      <nodes xmi:id="_UGoEF4GqEeqSC4bGMjXJ9g" name="New" incoming="_UGoEGYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LiteralReal"/>
+        <attributes xmi:id="_UGoEGIGqEeqSC4bGMjXJ9g" value="Value">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LiteralReal/value"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_UGoEGYGqEeqSC4bGMjXJ9g" source="_UGoEFoGqEeqSC4bGMjXJ9g" target="_UGoEF4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InstanceSpecification/specification"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_UGoEGoGqEeqSC4bGMjXJ9g" origin="_UGoEFIGqEeqSC4bGMjXJ9g" image="_UGoEFoGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

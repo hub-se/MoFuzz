@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_0675kIGoEeqjxJ91AzqJlg" name="DELETE_ObjectFlow_IN_StructuredActivityNode_(edge)" description="Deletes one ObjectFlow in StructuredActivityNode">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_0675kYGoEeqjxJ91AzqJlg" name="deleteObjectFlow_IN_StructuredActivityNode" description="deletes one ObjectFlow in the context: StructuredActivityNode">
+    <lhs xmi:id="_0675koGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_0675k4GoEeqjxJ91AzqJlg" name="Selected" incoming="_0675mIGoEeqjxJ91AzqJlg" outgoing="_0675l4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//StructuredActivityNode"/>
+      </nodes>
+      <nodes xmi:id="_0675lIGoEeqjxJ91AzqJlg" name="ToBeDeleted" incoming="_0675l4GoEeqjxJ91AzqJlg _0675moGoEeqjxJ91AzqJlg _0675nIGoEeqjxJ91AzqJlg" outgoing="_0675mIGoEeqjxJ91AzqJlg _0675mYGoEeqjxJ91AzqJlg _0675m4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ObjectFlow"/>
+      </nodes>
+      <nodes xmi:id="_0675lYGoEeqjxJ91AzqJlg" name="Existing" incoming="_0675mYGoEeqjxJ91AzqJlg" outgoing="_0675moGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityNode"/>
+      </nodes>
+      <nodes xmi:id="_0675loGoEeqjxJ91AzqJlg" name="Existing1" incoming="_0675m4GoEeqjxJ91AzqJlg" outgoing="_0675nIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityNode"/>
+      </nodes>
+      <edges xmi:id="_0675l4GoEeqjxJ91AzqJlg" source="_0675k4GoEeqjxJ91AzqJlg" target="_0675lIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//StructuredActivityNode/edge"/>
+      </edges>
+      <edges xmi:id="_0675mIGoEeqjxJ91AzqJlg" source="_0675lIGoEeqjxJ91AzqJlg" target="_0675k4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityEdge/inStructuredNode"/>
+      </edges>
+      <edges xmi:id="_0675mYGoEeqjxJ91AzqJlg" source="_0675lIGoEeqjxJ91AzqJlg" target="_0675lYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityEdge/target"/>
+      </edges>
+      <edges xmi:id="_0675moGoEeqjxJ91AzqJlg" source="_0675lYGoEeqjxJ91AzqJlg" target="_0675lIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityNode/incoming"/>
+      </edges>
+      <edges xmi:id="_0675m4GoEeqjxJ91AzqJlg" source="_0675lIGoEeqjxJ91AzqJlg" target="_0675loGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityEdge/source"/>
+      </edges>
+      <edges xmi:id="_0675nIGoEeqjxJ91AzqJlg" source="_0675loGoEeqjxJ91AzqJlg" target="_0675lIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityNode/outgoing"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_0675nYGoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_0675noGoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//StructuredActivityNode"/>
+      </nodes>
+      <nodes xmi:id="_0675n4GoEeqjxJ91AzqJlg" name="Existing">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityNode"/>
+      </nodes>
+      <nodes xmi:id="_0675oIGoEeqjxJ91AzqJlg" name="Existing1">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityNode"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_0675oYGoEeqjxJ91AzqJlg" origin="_0675k4GoEeqjxJ91AzqJlg" image="_0675noGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_0675ooGoEeqjxJ91AzqJlg" origin="_0675lYGoEeqjxJ91AzqJlg" image="_0675n4GoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_0675o4GoEeqjxJ91AzqJlg" origin="_0675loGoEeqjxJ91AzqJlg" image="_0675oIGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

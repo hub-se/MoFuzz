@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_VBFhMIGqEeqSC4bGMjXJ9g" name="ADD_MergeNode_(outgoing)_TGT_ActivityEdge" description="Adds to MergeNode's reference outgoing the target ActivityEdge">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_VBFhMYGqEeqSC4bGMjXJ9g" name="addToMergeNode_outgoing_ActivityEdge" description="Adds to MergeNode's reference outgoing the target ActivityEdge">
+    <lhs xmi:id="_VBFhMoGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_VBFhM4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//MergeNode"/>
+      </nodes>
+      <nodes xmi:id="_VBFhNIGqEeqSC4bGMjXJ9g" name="NewTarget">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityEdge"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_VBFhNYGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_VBFhNoGqEeqSC4bGMjXJ9g" name="Selected" incoming="_VBFhOYGqEeqSC4bGMjXJ9g" outgoing="_VBFhOIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//MergeNode"/>
+      </nodes>
+      <nodes xmi:id="_VBFhN4GqEeqSC4bGMjXJ9g" name="NewTarget" incoming="_VBFhOIGqEeqSC4bGMjXJ9g" outgoing="_VBFhOYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityEdge"/>
+      </nodes>
+      <edges xmi:id="_VBFhOIGqEeqSC4bGMjXJ9g" source="_VBFhNoGqEeqSC4bGMjXJ9g" target="_VBFhN4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityNode/outgoing"/>
+      </edges>
+      <edges xmi:id="_VBFhOYGqEeqSC4bGMjXJ9g" source="_VBFhN4GqEeqSC4bGMjXJ9g" target="_VBFhNoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityEdge/source"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_VBFhOoGqEeqSC4bGMjXJ9g" origin="_VBFhM4GqEeqSC4bGMjXJ9g" image="_VBFhNoGqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_VBFhO4GqEeqSC4bGMjXJ9g" origin="_VBFhNIGqEeqSC4bGMjXJ9g" image="_VBFhN4GqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

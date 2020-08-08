@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_2nsWUIGoEeqjxJ91AzqJlg" name="SET_REFERENCE_ObjectFlow_(selection)_TGT_Behavior" description="Sets ObjectFlow's reference selection the target Behavior">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_2nsWUYGoEeqjxJ91AzqJlg" name="setObjectFlow_selection_TO_Behavior" description="SetObjectFlowRefselectionToBehavior">
+    <lhs xmi:id="_2nsWUoGoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_2nsWU4GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ObjectFlow"/>
+      </nodes>
+      <nodes xmi:id="_2nsWVIGoEeqjxJ91AzqJlg" name="NewTarget">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Behavior"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_2nsWVYGoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_2nsWVoGoEeqjxJ91AzqJlg" name="Selected" outgoing="_2nsWWIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ObjectFlow"/>
+      </nodes>
+      <nodes xmi:id="_2nsWV4GoEeqjxJ91AzqJlg" name="NewTarget" incoming="_2nsWWIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Behavior"/>
+      </nodes>
+      <edges xmi:id="_2nsWWIGoEeqjxJ91AzqJlg" source="_2nsWVoGoEeqjxJ91AzqJlg" target="_2nsWV4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ObjectFlow/selection"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_2nsWWYGoEeqjxJ91AzqJlg" origin="_2nsWU4GoEeqjxJ91AzqJlg" image="_2nsWVoGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_2nsWWoGoEeqjxJ91AzqJlg" origin="_2nsWVIGoEeqjxJ91AzqJlg" image="_2nsWV4GoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

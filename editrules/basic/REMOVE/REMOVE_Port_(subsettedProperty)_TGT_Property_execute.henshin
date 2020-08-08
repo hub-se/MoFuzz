@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_TiajwIGqEeqSC4bGMjXJ9g" name="REMOVE_Port_(subsettedProperty)_TGT_Property" description="Removes Port's reference subsettedProperty the target Property">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_TiajwYGqEeqSC4bGMjXJ9g" name="removeFromPort_subsettedProperty_Property" description="Removes from Port's reference subsettedProperty the target Property">
+    <lhs xmi:id="_TiajwoGqEeqSC4bGMjXJ9g" name="LHS">
+      <nodes xmi:id="_Tiajw4GqEeqSC4bGMjXJ9g" name="Selected" outgoing="_TiajxYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Port"/>
+      </nodes>
+      <nodes xmi:id="_TiajxIGqEeqSC4bGMjXJ9g" name="OldTarget" incoming="_TiajxYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Property"/>
+      </nodes>
+      <edges xmi:id="_TiajxYGqEeqSC4bGMjXJ9g" source="_Tiajw4GqEeqSC4bGMjXJ9g" target="_TiajxIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Property/subsettedProperty"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_TiajxoGqEeqSC4bGMjXJ9g" name="RHS">
+      <nodes xmi:id="_Tiajx4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Port"/>
+      </nodes>
+      <nodes xmi:id="_TiajyIGqEeqSC4bGMjXJ9g" name="OldTarget">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Property"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_TiajyYGqEeqSC4bGMjXJ9g" origin="_Tiajw4GqEeqSC4bGMjXJ9g" image="_Tiajx4GqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_TiajyoGqEeqSC4bGMjXJ9g" origin="_TiajxIGqEeqSC4bGMjXJ9g" image="_TiajyIGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

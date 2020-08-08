@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_18XhYIGoEeqjxJ91AzqJlg" name="CREATE_ActionExecutionSpecification_IN_Interaction_(fragment)" description="Creates one ActionExecutionSpecification in Interaction">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_18XhYYGoEeqjxJ91AzqJlg" name="createActionExecutionSpecification_IN_Interaction" description="creates one ActionExecutionSpecification in the context: Interaction">
+    <lhs xmi:id="_18XhYoGoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_18XhY4GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Interaction"/>
+      </nodes>
+      <nodes xmi:id="_18XhZIGoEeqjxJ91AzqJlg" name="Existing">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//OccurrenceSpecification"/>
+      </nodes>
+      <nodes xmi:id="_18XhZYGoEeqjxJ91AzqJlg" name="Existing1">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Action"/>
+      </nodes>
+      <nodes xmi:id="_18XhZoGoEeqjxJ91AzqJlg" name="Existing2">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//OccurrenceSpecification"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_18XhZ4GoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_18XhaIGoEeqjxJ91AzqJlg" name="Selected" incoming="_18XhboGoEeqjxJ91AzqJlg" outgoing="_18XhbYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Interaction"/>
+      </nodes>
+      <nodes xmi:id="_18XhaYGoEeqjxJ91AzqJlg" name="New" incoming="_18XhbYGoEeqjxJ91AzqJlg" outgoing="_18XhboGoEeqjxJ91AzqJlg _18Xhb4GoEeqjxJ91AzqJlg _18XhcIGoEeqjxJ91AzqJlg _18XhcYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActionExecutionSpecification"/>
+      </nodes>
+      <nodes xmi:id="_18XhaoGoEeqjxJ91AzqJlg" name="Existing" incoming="_18Xhb4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//OccurrenceSpecification"/>
+      </nodes>
+      <nodes xmi:id="_18Xha4GoEeqjxJ91AzqJlg" name="Existing1" incoming="_18XhcIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Action"/>
+      </nodes>
+      <nodes xmi:id="_18XhbIGoEeqjxJ91AzqJlg" name="Existing2" incoming="_18XhcYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//OccurrenceSpecification"/>
+      </nodes>
+      <edges xmi:id="_18XhbYGoEeqjxJ91AzqJlg" source="_18XhaIGoEeqjxJ91AzqJlg" target="_18XhaYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Interaction/fragment"/>
+      </edges>
+      <edges xmi:id="_18XhboGoEeqjxJ91AzqJlg" source="_18XhaYGoEeqjxJ91AzqJlg" target="_18XhaIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InteractionFragment/enclosingInteraction"/>
+      </edges>
+      <edges xmi:id="_18Xhb4GoEeqjxJ91AzqJlg" source="_18XhaYGoEeqjxJ91AzqJlg" target="_18XhaoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ExecutionSpecification/start"/>
+      </edges>
+      <edges xmi:id="_18XhcIGoEeqjxJ91AzqJlg" source="_18XhaYGoEeqjxJ91AzqJlg" target="_18Xha4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActionExecutionSpecification/action"/>
+      </edges>
+      <edges xmi:id="_18XhcYGoEeqjxJ91AzqJlg" source="_18XhaYGoEeqjxJ91AzqJlg" target="_18XhbIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ExecutionSpecification/finish"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_18XhcoGoEeqjxJ91AzqJlg" origin="_18XhY4GoEeqjxJ91AzqJlg" image="_18XhaIGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_18Xhc4GoEeqjxJ91AzqJlg" origin="_18XhZIGoEeqjxJ91AzqJlg" image="_18XhaoGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_18XhdIGoEeqjxJ91AzqJlg" origin="_18XhZYGoEeqjxJ91AzqJlg" image="_18Xha4GoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_18XhdYGoEeqjxJ91AzqJlg" origin="_18XhZoGoEeqjxJ91AzqJlg" image="_18XhbIGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

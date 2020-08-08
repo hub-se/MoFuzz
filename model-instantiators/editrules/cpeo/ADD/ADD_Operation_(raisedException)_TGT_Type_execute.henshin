@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_1X6wgIGoEeqjxJ91AzqJlg" name="ADD_Operation_(raisedException)_TGT_Type" description="Adds to Operation's reference raisedException the target Type">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_1X6wgYGoEeqjxJ91AzqJlg" name="addToOperation_raisedException_Type" description="Adds to Operation's reference raisedException the target Type">
+    <lhs xmi:id="_1X6wgoGoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_1X6wg4GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Operation"/>
+      </nodes>
+      <nodes xmi:id="_1X6whIGoEeqjxJ91AzqJlg" name="NewTarget">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Type"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_1X6whYGoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_1X6whoGoEeqjxJ91AzqJlg" name="Selected" outgoing="_1X6wiIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Operation"/>
+      </nodes>
+      <nodes xmi:id="_1X6wh4GoEeqjxJ91AzqJlg" name="NewTarget" incoming="_1X6wiIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Type"/>
+      </nodes>
+      <edges xmi:id="_1X6wiIGoEeqjxJ91AzqJlg" source="_1X6whoGoEeqjxJ91AzqJlg" target="_1X6wh4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//BehavioralFeature/raisedException"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_1X6wiYGoEeqjxJ91AzqJlg" origin="_1X6wg4GoEeqjxJ91AzqJlg" image="_1X6whoGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_1X6wioGoEeqjxJ91AzqJlg" origin="_1X6whIGoEeqjxJ91AzqJlg" image="_1X6wh4GoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

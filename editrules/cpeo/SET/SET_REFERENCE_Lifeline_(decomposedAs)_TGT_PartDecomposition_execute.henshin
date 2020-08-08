@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_2nhXMIGoEeqjxJ91AzqJlg" name="SET_REFERENCE_Lifeline_(decomposedAs)_TGT_PartDecomposition" description="Sets Lifeline's reference decomposedAs the target PartDecomposition">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_2nhXMYGoEeqjxJ91AzqJlg" name="setLifeline_decomposedAs_TO_PartDecomposition" description="SetLifelineRefdecomposedAsToPartDecomposition">
+    <lhs xmi:id="_2nhXMoGoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_2nhXM4GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Lifeline"/>
+      </nodes>
+      <nodes xmi:id="_2nhXNIGoEeqjxJ91AzqJlg" name="NewTarget">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//PartDecomposition"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_2nhXNYGoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_2nhXNoGoEeqjxJ91AzqJlg" name="Selected" outgoing="_2nhXOIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Lifeline"/>
+      </nodes>
+      <nodes xmi:id="_2nhXN4GoEeqjxJ91AzqJlg" name="NewTarget" incoming="_2nhXOIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//PartDecomposition"/>
+      </nodes>
+      <edges xmi:id="_2nhXOIGoEeqjxJ91AzqJlg" source="_2nhXNoGoEeqjxJ91AzqJlg" target="_2nhXN4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Lifeline/decomposedAs"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_2nhXOYGoEeqjxJ91AzqJlg" origin="_2nhXM4GoEeqjxJ91AzqJlg" image="_2nhXNoGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_2nhXOoGoEeqjxJ91AzqJlg" origin="_2nhXNIGoEeqjxJ91AzqJlg" image="_2nhXN4GoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

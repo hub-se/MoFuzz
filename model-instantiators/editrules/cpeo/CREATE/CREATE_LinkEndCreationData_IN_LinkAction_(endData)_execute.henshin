@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_2Cq9sIGoEeqjxJ91AzqJlg" name="CREATE_LinkEndCreationData_IN_LinkAction_(endData)" description="Creates one LinkEndCreationData in LinkAction">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_2Cq9sYGoEeqjxJ91AzqJlg" name="createLinkEndCreationData_IN_LinkAction" description="creates one LinkEndCreationData in the context: LinkAction">
+    <parameters xmi:id="_2Cq9soGoEeqjxJ91AzqJlg" name="IsReplaceAll" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <lhs xmi:id="_2Cq9s4GoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_2Cq9tIGoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//CreateLinkAction"/>
+      </nodes>
+      <nodes xmi:id="_2Cq9tYGoEeqjxJ91AzqJlg" name="Existing">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Property"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_2Cq9toGoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_2Cq9t4GoEeqjxJ91AzqJlg" name="Selected" outgoing="_2Cq9u4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//CreateLinkAction"/>
+      </nodes>
+      <nodes xmi:id="_2Cq9uIGoEeqjxJ91AzqJlg" name="New" incoming="_2Cq9u4GoEeqjxJ91AzqJlg" outgoing="_2Cq9vIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LinkEndCreationData"/>
+        <attributes xmi:id="_2Cq9uYGoEeqjxJ91AzqJlg" value="IsReplaceAll">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LinkEndCreationData/isReplaceAll"/>
+        </attributes>
+      </nodes>
+      <nodes xmi:id="_2Cq9uoGoEeqjxJ91AzqJlg" name="Existing" incoming="_2Cq9vIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Property"/>
+      </nodes>
+      <edges xmi:id="_2Cq9u4GoEeqjxJ91AzqJlg" source="_2Cq9t4GoEeqjxJ91AzqJlg" target="_2Cq9uIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LinkAction/endData"/>
+      </edges>
+      <edges xmi:id="_2Cq9vIGoEeqjxJ91AzqJlg" source="_2Cq9uIGoEeqjxJ91AzqJlg" target="_2Cq9uoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LinkEndData/end"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_2Cq9vYGoEeqjxJ91AzqJlg" origin="_2Cq9tIGoEeqjxJ91AzqJlg" image="_2Cq9t4GoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_2Cq9voGoEeqjxJ91AzqJlg" origin="_2Cq9tYGoEeqjxJ91AzqJlg" image="_2Cq9uoGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

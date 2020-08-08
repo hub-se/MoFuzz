@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_U_zu0IGqEeqSC4bGMjXJ9g" name="ADD_Comment_(annotatedElement)_TGT_Element" description="Adds to Comment's reference annotatedElement the target Element">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_U_zu0YGqEeqSC4bGMjXJ9g" name="addToComment_annotatedElement_Element" description="Adds to Comment's reference annotatedElement the target Element">
+    <lhs xmi:id="_U_zu0oGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_U_zu04GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Comment"/>
+      </nodes>
+      <nodes xmi:id="_U_zu1IGqEeqSC4bGMjXJ9g" name="NewTarget">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Element"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_U_zu1YGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_U_zu1oGqEeqSC4bGMjXJ9g" name="Selected" outgoing="_U_zu2IGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Comment"/>
+      </nodes>
+      <nodes xmi:id="_U_zu14GqEeqSC4bGMjXJ9g" name="NewTarget" incoming="_U_zu2IGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Element"/>
+      </nodes>
+      <edges xmi:id="_U_zu2IGqEeqSC4bGMjXJ9g" source="_U_zu1oGqEeqSC4bGMjXJ9g" target="_U_zu14GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Comment/annotatedElement"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_U_zu2YGqEeqSC4bGMjXJ9g" origin="_U_zu04GqEeqSC4bGMjXJ9g" image="_U_zu1oGqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_U_zu2oGqEeqSC4bGMjXJ9g" origin="_U_zu1IGqEeqSC4bGMjXJ9g" image="_U_zu14GqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

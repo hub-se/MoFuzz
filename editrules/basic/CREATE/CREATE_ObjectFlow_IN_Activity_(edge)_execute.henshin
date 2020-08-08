@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UW57wIGqEeqSC4bGMjXJ9g" name="CREATE_ObjectFlow_IN_Activity_(edge)" description="Creates one ObjectFlow in Activity">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UW57wYGqEeqSC4bGMjXJ9g" name="createObjectFlow_IN_Activity" description="creates one ObjectFlow in the context: Activity">
+    <parameters xmi:id="_UW57woGqEeqSC4bGMjXJ9g" name="IsLeaf" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <parameters xmi:id="_UW57w4GqEeqSC4bGMjXJ9g" name="IsMulticast" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <parameters xmi:id="_UW57xIGqEeqSC4bGMjXJ9g" name="IsMultireceive" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <lhs xmi:id="_UW57xYGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_UW57xoGqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Activity"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_UW57x4GqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_UW57yIGqEeqSC4bGMjXJ9g" name="Selected" incoming="_UW57zoGqEeqSC4bGMjXJ9g" outgoing="_UW57zYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Activity"/>
+      </nodes>
+      <nodes xmi:id="_UW57yYGqEeqSC4bGMjXJ9g" name="New" incoming="_UW57zYGqEeqSC4bGMjXJ9g" outgoing="_UW57zoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ObjectFlow"/>
+        <attributes xmi:id="_UW57yoGqEeqSC4bGMjXJ9g" value="IsLeaf">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//RedefinableElement/isLeaf"/>
+        </attributes>
+        <attributes xmi:id="_UW57y4GqEeqSC4bGMjXJ9g" value="IsMulticast">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ObjectFlow/isMulticast"/>
+        </attributes>
+        <attributes xmi:id="_UW57zIGqEeqSC4bGMjXJ9g" value="IsMultireceive">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ObjectFlow/isMultireceive"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_UW57zYGqEeqSC4bGMjXJ9g" source="_UW57yIGqEeqSC4bGMjXJ9g" target="_UW57yYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Activity/edge"/>
+      </edges>
+      <edges xmi:id="_UW57zoGqEeqSC4bGMjXJ9g" source="_UW57yYGqEeqSC4bGMjXJ9g" target="_UW57yIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityEdge/activity"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_UW57z4GqEeqSC4bGMjXJ9g" origin="_UW57xoGqEeqSC4bGMjXJ9g" image="_UW57yIGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

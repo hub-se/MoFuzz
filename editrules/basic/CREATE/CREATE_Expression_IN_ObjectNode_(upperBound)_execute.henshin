@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UPrSYIGqEeqSC4bGMjXJ9g" name="CREATE_Expression_IN_ObjectNode_(upperBound)" description="Creates one Expression in ObjectNode">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UPrSYYGqEeqSC4bGMjXJ9g" name="createExpression_IN_ObjectNode" description="creates one Expression in the context: ObjectNode">
+    <lhs xmi:id="_UPrSYoGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_UPrSY4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ObjectNode"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_UPrSZIGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_UPrSZYGqEeqSC4bGMjXJ9g" name="Selected" outgoing="_UPrSZ4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ObjectNode"/>
+      </nodes>
+      <nodes xmi:id="_UPrSZoGqEeqSC4bGMjXJ9g" name="New" incoming="_UPrSZ4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Expression"/>
+      </nodes>
+      <edges xmi:id="_UPrSZ4GqEeqSC4bGMjXJ9g" source="_UPrSZYGqEeqSC4bGMjXJ9g" target="_UPrSZoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ObjectNode/upperBound"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_UPrSaIGqEeqSC4bGMjXJ9g" origin="_UPrSY4GqEeqSC4bGMjXJ9g" image="_UPrSZYGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

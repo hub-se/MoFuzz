@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UK8jYIGqEeqSC4bGMjXJ9g" name="CREATE_TimeEvent_IN_TemplateParameter_(ownedDefault)" description="Creates one TimeEvent in TemplateParameter">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UK8jYYGqEeqSC4bGMjXJ9g" name="createTimeEvent_IN_TemplateParameter" description="creates one TimeEvent in the context: TemplateParameter">
+    <parameters xmi:id="_UK8jYoGqEeqSC4bGMjXJ9g" name="IsRelative" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <lhs xmi:id="_UK8jY4GqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_UK8jZIGqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameter"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_UK8jZYGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_UK8jZoGqEeqSC4bGMjXJ9g" name="Selected" outgoing="_UK8jaYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameter"/>
+      </nodes>
+      <nodes xmi:id="_UK8jZ4GqEeqSC4bGMjXJ9g" name="New" incoming="_UK8jaYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TimeEvent"/>
+        <attributes xmi:id="_UK8jaIGqEeqSC4bGMjXJ9g" value="IsRelative">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TimeEvent/isRelative"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_UK8jaYGqEeqSC4bGMjXJ9g" source="_UK8jZoGqEeqSC4bGMjXJ9g" target="_UK8jZ4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameter/ownedDefault"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_UK8jaoGqEeqSC4bGMjXJ9g" origin="_UK8jZIGqEeqSC4bGMjXJ9g" image="_UK8jZoGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

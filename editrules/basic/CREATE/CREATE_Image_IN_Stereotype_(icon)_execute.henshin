@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UTRY8IGqEeqSC4bGMjXJ9g" name="CREATE_Image_IN_Stereotype_(icon)" description="Creates one Image in Stereotype">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UTRY8YGqEeqSC4bGMjXJ9g" name="createImage_IN_Stereotype" description="creates one Image in the context: Stereotype">
+    <lhs xmi:id="_UTRY8oGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_UTRY84GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Stereotype"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_UTRY9IGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_UTRY9YGqEeqSC4bGMjXJ9g" name="Selected" outgoing="_UTRY94GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Stereotype"/>
+      </nodes>
+      <nodes xmi:id="_UTRY9oGqEeqSC4bGMjXJ9g" name="New" incoming="_UTRY94GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Image"/>
+      </nodes>
+      <edges xmi:id="_UTRY94GqEeqSC4bGMjXJ9g" source="_UTRY9YGqEeqSC4bGMjXJ9g" target="_UTRY9oGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Stereotype/icon"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_UTRY-IGqEeqSC4bGMjXJ9g" origin="_UTRY84GqEeqSC4bGMjXJ9g" image="_UTRY9YGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

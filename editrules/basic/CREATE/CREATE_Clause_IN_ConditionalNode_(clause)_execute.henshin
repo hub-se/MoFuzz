@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UaCIQIGqEeqSC4bGMjXJ9g" name="CREATE_Clause_IN_ConditionalNode_(clause)" description="Creates one Clause in ConditionalNode">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UaCIQYGqEeqSC4bGMjXJ9g" name="createClause_IN_ConditionalNode" description="creates one Clause in the context: ConditionalNode">
+    <lhs xmi:id="_UaCIQoGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_UaCIQ4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ConditionalNode"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_UaCIRIGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_UaCIRYGqEeqSC4bGMjXJ9g" name="Selected" outgoing="_UaCIR4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ConditionalNode"/>
+      </nodes>
+      <nodes xmi:id="_UaCIRoGqEeqSC4bGMjXJ9g" name="New" incoming="_UaCIR4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Clause"/>
+      </nodes>
+      <edges xmi:id="_UaCIR4GqEeqSC4bGMjXJ9g" source="_UaCIRYGqEeqSC4bGMjXJ9g" target="_UaCIRoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ConditionalNode/clause"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_UaCISIGqEeqSC4bGMjXJ9g" origin="_UaCIQ4GqEeqSC4bGMjXJ9g" image="_UaCIRYGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

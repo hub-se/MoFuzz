@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UFWRsIGqEeqSC4bGMjXJ9g" name="CREATE_Variable_IN_TemplateParameter_(ownedDefault)" description="Creates one Variable in TemplateParameter">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UFWRsYGqEeqSC4bGMjXJ9g" name="createVariable_IN_TemplateParameter" description="creates one Variable in the context: TemplateParameter">
+    <parameters xmi:id="_UFWRsoGqEeqSC4bGMjXJ9g" name="IsOrdered" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <parameters xmi:id="_UFWRs4GqEeqSC4bGMjXJ9g" name="IsUnique" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <lhs xmi:id="_UFWRtIGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_UFWRtYGqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameter"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_UFWRtoGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_UFWRt4GqEeqSC4bGMjXJ9g" name="Selected" outgoing="_UFWRu4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameter"/>
+      </nodes>
+      <nodes xmi:id="_UFWRuIGqEeqSC4bGMjXJ9g" name="New" incoming="_UFWRu4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Variable"/>
+        <attributes xmi:id="_UFWRuYGqEeqSC4bGMjXJ9g" value="IsOrdered">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//MultiplicityElement/isOrdered"/>
+        </attributes>
+        <attributes xmi:id="_UFWRuoGqEeqSC4bGMjXJ9g" value="IsUnique">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//MultiplicityElement/isUnique"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_UFWRu4GqEeqSC4bGMjXJ9g" source="_UFWRt4GqEeqSC4bGMjXJ9g" target="_UFWRuIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameter/ownedDefault"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_UFWRvIGqEeqSC4bGMjXJ9g" origin="_UFWRtYGqEeqSC4bGMjXJ9g" image="_UFWRt4GqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

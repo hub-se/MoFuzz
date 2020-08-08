@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_1dE9UIGoEeqjxJ91AzqJlg" name="ADD_Deployment_(client)_TGT_NamedElement" description="Adds to Deployment's reference client the target NamedElement">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_1dE9UYGoEeqjxJ91AzqJlg" name="addToDeployment_client_NamedElement" description="Adds to Deployment's reference client the target NamedElement">
+    <lhs xmi:id="_1dE9UoGoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_1dE9U4GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Deployment"/>
+      </nodes>
+      <nodes xmi:id="_1dE9VIGoEeqjxJ91AzqJlg" name="NewTarget">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//NamedElement"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_1dE9VYGoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_1dE9VoGoEeqjxJ91AzqJlg" name="Selected" outgoing="_1dE9WIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Deployment"/>
+      </nodes>
+      <nodes xmi:id="_1dE9V4GoEeqjxJ91AzqJlg" name="NewTarget" incoming="_1dE9WIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//NamedElement"/>
+      </nodes>
+      <edges xmi:id="_1dE9WIGoEeqjxJ91AzqJlg" source="_1dE9VoGoEeqjxJ91AzqJlg" target="_1dE9V4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Dependency/client"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_1dE9WYGoEeqjxJ91AzqJlg" origin="_1dE9U4GoEeqjxJ91AzqJlg" image="_1dE9VoGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_1dE9WoGoEeqjxJ91AzqJlg" origin="_1dE9VIGoEeqjxJ91AzqJlg" image="_1dE9V4GoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

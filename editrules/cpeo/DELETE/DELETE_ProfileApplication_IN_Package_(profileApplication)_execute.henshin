@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_1B9HkIGoEeqjxJ91AzqJlg" name="DELETE_ProfileApplication_IN_Package_(profileApplication)" description="Deletes one ProfileApplication in Package">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_1B9HkYGoEeqjxJ91AzqJlg" name="deleteProfileApplication_IN_Package" description="deletes one ProfileApplication in the context: Package">
+    <lhs xmi:id="_1B9HkoGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_1B9Hk4GoEeqjxJ91AzqJlg" name="Selected" incoming="_1B9Hl4GoEeqjxJ91AzqJlg" outgoing="_1B9HloGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </nodes>
+      <nodes xmi:id="_1B9HlIGoEeqjxJ91AzqJlg" name="ToBeDeleted" incoming="_1B9HloGoEeqjxJ91AzqJlg" outgoing="_1B9Hl4GoEeqjxJ91AzqJlg _1B9HmIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ProfileApplication"/>
+      </nodes>
+      <nodes xmi:id="_1B9HlYGoEeqjxJ91AzqJlg" name="Existing" incoming="_1B9HmIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Profile"/>
+      </nodes>
+      <edges xmi:id="_1B9HloGoEeqjxJ91AzqJlg" source="_1B9Hk4GoEeqjxJ91AzqJlg" target="_1B9HlIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Package/profileApplication"/>
+      </edges>
+      <edges xmi:id="_1B9Hl4GoEeqjxJ91AzqJlg" source="_1B9HlIGoEeqjxJ91AzqJlg" target="_1B9Hk4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ProfileApplication/applyingPackage"/>
+      </edges>
+      <edges xmi:id="_1B9HmIGoEeqjxJ91AzqJlg" source="_1B9HlIGoEeqjxJ91AzqJlg" target="_1B9HlYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ProfileApplication/appliedProfile"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_1B9HmYGoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_1B9HmoGoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </nodes>
+      <nodes xmi:id="_1B9Hm4GoEeqjxJ91AzqJlg" name="Existing">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Profile"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_1B9HnIGoEeqjxJ91AzqJlg" origin="_1B9Hk4GoEeqjxJ91AzqJlg" image="_1B9HmoGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_1B9HnYGoEeqjxJ91AzqJlg" origin="_1B9HlYGoEeqjxJ91AzqJlg" image="_1B9Hm4GoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

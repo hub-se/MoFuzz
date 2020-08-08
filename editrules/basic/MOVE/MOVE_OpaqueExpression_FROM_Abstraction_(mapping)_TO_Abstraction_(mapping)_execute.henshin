@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_TrHMwIGqEeqSC4bGMjXJ9g" name="MOVE_OpaqueExpression_FROM_Abstraction_(mapping)_TO_Abstraction_(mapping)" description="MOVEs OpaqueExpression from Abstraction(Reference:mapping) to Abstraction(Reference:mapping">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_TrHMwYGqEeqSC4bGMjXJ9g" name="moveOpaqueExpression_FROM_Abstraction_mapping_TO_Abstraction_Abstraction" description="Moves OpaqueExpression from Abstraction(Reference:mapping) toAbstraction(Reference:Abstraction)">
+    <lhs xmi:id="_TrHMwoGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_TrHMw4GqEeqSC4bGMjXJ9g" name="Selected" incoming="_TrHMxoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//OpaqueExpression"/>
+      </nodes>
+      <nodes xmi:id="_TrHMxIGqEeqSC4bGMjXJ9g" name="OldSource" outgoing="_TrHMxoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Abstraction"/>
+      </nodes>
+      <nodes xmi:id="_TrHMxYGqEeqSC4bGMjXJ9g" name="NewSource">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Abstraction"/>
+      </nodes>
+      <edges xmi:id="_TrHMxoGqEeqSC4bGMjXJ9g" source="_TrHMxIGqEeqSC4bGMjXJ9g" target="_TrHMw4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Abstraction/mapping"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_TrHMx4GqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_TrHMyIGqEeqSC4bGMjXJ9g" name="Selected" incoming="_TrHMy4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//OpaqueExpression"/>
+      </nodes>
+      <nodes xmi:id="_TrHMyYGqEeqSC4bGMjXJ9g" name="OldSource">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Abstraction"/>
+      </nodes>
+      <nodes xmi:id="_TrHMyoGqEeqSC4bGMjXJ9g" name="NewSource" outgoing="_TrHMy4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Abstraction"/>
+      </nodes>
+      <edges xmi:id="_TrHMy4GqEeqSC4bGMjXJ9g" source="_TrHMyoGqEeqSC4bGMjXJ9g" target="_TrHMyIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Abstraction/mapping"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_TrHMzIGqEeqSC4bGMjXJ9g" origin="_TrHMw4GqEeqSC4bGMjXJ9g" image="_TrHMyIGqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_TrHMzYGqEeqSC4bGMjXJ9g" origin="_TrHMxIGqEeqSC4bGMjXJ9g" image="_TrHMyYGqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_TrHMzoGqEeqSC4bGMjXJ9g" origin="_TrHMxYGqEeqSC4bGMjXJ9g" image="_TrHMyoGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

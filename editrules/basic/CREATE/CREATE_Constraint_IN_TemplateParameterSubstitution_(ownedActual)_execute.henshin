@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UMe0cIGqEeqSC4bGMjXJ9g" name="CREATE_Constraint_IN_TemplateParameterSubstitution_(ownedActual)" description="Creates one Constraint in TemplateParameterSubstitution">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UMe0cYGqEeqSC4bGMjXJ9g" name="createConstraint_IN_TemplateParameterSubstitution" description="creates one Constraint in the context: TemplateParameterSubstitution">
+    <lhs xmi:id="_UMe0coGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_UMe0c4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameterSubstitution"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_UMe0dIGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_UMe0dYGqEeqSC4bGMjXJ9g" name="Selected" outgoing="_UMe0d4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameterSubstitution"/>
+      </nodes>
+      <nodes xmi:id="_UMe0doGqEeqSC4bGMjXJ9g" name="New" incoming="_UMe0d4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Constraint"/>
+      </nodes>
+      <edges xmi:id="_UMe0d4GqEeqSC4bGMjXJ9g" source="_UMe0dYGqEeqSC4bGMjXJ9g" target="_UMe0doGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameterSubstitution/ownedActual"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_UMe0eIGqEeqSC4bGMjXJ9g" origin="_UMe0c4GqEeqSC4bGMjXJ9g" image="_UMe0dYGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

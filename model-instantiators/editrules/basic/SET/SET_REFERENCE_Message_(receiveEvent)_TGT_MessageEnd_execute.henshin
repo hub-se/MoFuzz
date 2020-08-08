@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_TlqFAIGqEeqSC4bGMjXJ9g" name="SET_REFERENCE_Message_(receiveEvent)_TGT_MessageEnd" description="Sets Message's reference receiveEvent the target MessageEnd">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_TlqFAYGqEeqSC4bGMjXJ9g" name="setMessage_receiveEvent_TO_MessageEnd" description="SetMessageRefreceiveEventToMessageEnd">
+    <lhs xmi:id="_TlqFAoGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_TlqFA4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Message"/>
+      </nodes>
+      <nodes xmi:id="_TlqFBIGqEeqSC4bGMjXJ9g" name="NewTarget">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//MessageEnd"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_TlqFBYGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_TlqFBoGqEeqSC4bGMjXJ9g" name="Selected" outgoing="_TlqFCIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Message"/>
+      </nodes>
+      <nodes xmi:id="_TlqFB4GqEeqSC4bGMjXJ9g" name="NewTarget" incoming="_TlqFCIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//MessageEnd"/>
+      </nodes>
+      <edges xmi:id="_TlqFCIGqEeqSC4bGMjXJ9g" source="_TlqFBoGqEeqSC4bGMjXJ9g" target="_TlqFB4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Message/receiveEvent"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_TlqFCYGqEeqSC4bGMjXJ9g" origin="_TlqFA4GqEeqSC4bGMjXJ9g" image="_TlqFBoGqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_TlqFCoGqEeqSC4bGMjXJ9g" origin="_TlqFBIGqEeqSC4bGMjXJ9g" image="_TlqFB4GqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

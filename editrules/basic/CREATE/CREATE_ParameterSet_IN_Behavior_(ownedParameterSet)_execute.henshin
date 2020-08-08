@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_USmqkIGqEeqSC4bGMjXJ9g" name="CREATE_ParameterSet_IN_Behavior_(ownedParameterSet)" description="Creates one ParameterSet in Behavior">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_USnRoIGqEeqSC4bGMjXJ9g" name="createParameterSet_IN_Behavior" description="creates one ParameterSet in the context: Behavior">
+    <lhs xmi:id="_USnRoYGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_USnRooGqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Behavior"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_USnRo4GqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_USnRpIGqEeqSC4bGMjXJ9g" name="Selected" outgoing="_USnRpoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Behavior"/>
+      </nodes>
+      <nodes xmi:id="_USnRpYGqEeqSC4bGMjXJ9g" name="New" incoming="_USnRpoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ParameterSet"/>
+      </nodes>
+      <edges xmi:id="_USnRpoGqEeqSC4bGMjXJ9g" source="_USnRpIGqEeqSC4bGMjXJ9g" target="_USnRpYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Behavior/ownedParameterSet"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_USnRp4GqEeqSC4bGMjXJ9g" origin="_USnRooGqEeqSC4bGMjXJ9g" image="_USnRpIGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

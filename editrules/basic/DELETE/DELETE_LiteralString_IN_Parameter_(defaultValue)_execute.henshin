@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_Uu_EkIGqEeqSC4bGMjXJ9g" name="DELETE_LiteralString_IN_Parameter_(defaultValue)" description="Deletes one LiteralString in Parameter">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_Uu_EkYGqEeqSC4bGMjXJ9g" name="deleteLiteralString_IN_Parameter" description="deletes one LiteralString in the context: Parameter">
+    <lhs xmi:id="_Uu_EkoGqEeqSC4bGMjXJ9g" name="LHS">
+      <nodes xmi:id="_Uu_Ek4GqEeqSC4bGMjXJ9g" name="Selected" outgoing="_Uu_ElYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Parameter"/>
+      </nodes>
+      <nodes xmi:id="_Uu_ElIGqEeqSC4bGMjXJ9g" name="ToBeDeleted" incoming="_Uu_ElYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LiteralString"/>
+      </nodes>
+      <edges xmi:id="_Uu_ElYGqEeqSC4bGMjXJ9g" source="_Uu_Ek4GqEeqSC4bGMjXJ9g" target="_Uu_ElIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Parameter/defaultValue"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_Uu_EloGqEeqSC4bGMjXJ9g" name="RHS">
+      <nodes xmi:id="_Uu_El4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Parameter"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_Uu_EmIGqEeqSC4bGMjXJ9g" origin="_Uu_Ek4GqEeqSC4bGMjXJ9g" image="_Uu_El4GqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

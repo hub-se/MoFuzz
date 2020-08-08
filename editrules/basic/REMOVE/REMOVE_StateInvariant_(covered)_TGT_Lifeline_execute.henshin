@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_TW1l4IGqEeqSC4bGMjXJ9g" name="REMOVE_StateInvariant_(covered)_TGT_Lifeline" description="Removes StateInvariant's reference covered the target Lifeline">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_TW1l4YGqEeqSC4bGMjXJ9g" name="removeFromStateInvariant_covered_Lifeline" description="Removes from StateInvariant's reference covered the target Lifeline">
+    <lhs xmi:id="_TW1l4oGqEeqSC4bGMjXJ9g" name="LHS">
+      <nodes xmi:id="_TW1l44GqEeqSC4bGMjXJ9g" name="Selected" incoming="_TW1l5oGqEeqSC4bGMjXJ9g" outgoing="_TW1l5YGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//StateInvariant"/>
+      </nodes>
+      <nodes xmi:id="_TW1l5IGqEeqSC4bGMjXJ9g" name="OldTarget" incoming="_TW1l5YGqEeqSC4bGMjXJ9g" outgoing="_TW1l5oGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Lifeline"/>
+      </nodes>
+      <edges xmi:id="_TW1l5YGqEeqSC4bGMjXJ9g" source="_TW1l44GqEeqSC4bGMjXJ9g" target="_TW1l5IGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InteractionFragment/covered"/>
+      </edges>
+      <edges xmi:id="_TW1l5oGqEeqSC4bGMjXJ9g" source="_TW1l5IGqEeqSC4bGMjXJ9g" target="_TW1l44GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Lifeline/coveredBy"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_TW1l54GqEeqSC4bGMjXJ9g" name="RHS">
+      <nodes xmi:id="_TW1l6IGqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//StateInvariant"/>
+      </nodes>
+      <nodes xmi:id="_TW1l6YGqEeqSC4bGMjXJ9g" name="OldTarget">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Lifeline"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_TW1l6oGqEeqSC4bGMjXJ9g" origin="_TW1l44GqEeqSC4bGMjXJ9g" image="_TW1l6IGqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_TW1l64GqEeqSC4bGMjXJ9g" origin="_TW1l5IGqEeqSC4bGMjXJ9g" image="_TW1l6YGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

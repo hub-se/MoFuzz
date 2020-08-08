@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UjQVsIGqEeqSC4bGMjXJ9g" name="DELETE_Abstraction_IN_Package_(packagedElement)" description="Deletes one Abstraction in Package">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UjQVsYGqEeqSC4bGMjXJ9g" name="deleteAbstraction_IN_Package" description="deletes one Abstraction in the context: Package">
+    <lhs xmi:id="_UjQVsoGqEeqSC4bGMjXJ9g" name="LHS">
+      <nodes xmi:id="_UjQVs4GqEeqSC4bGMjXJ9g" name="Selected" outgoing="_UjQVtYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </nodes>
+      <nodes xmi:id="_UjQVtIGqEeqSC4bGMjXJ9g" name="ToBeDeleted" incoming="_UjQVtYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Abstraction"/>
+      </nodes>
+      <edges xmi:id="_UjQVtYGqEeqSC4bGMjXJ9g" source="_UjQVs4GqEeqSC4bGMjXJ9g" target="_UjQVtIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Package/packagedElement"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_UjQVtoGqEeqSC4bGMjXJ9g" name="RHS">
+      <nodes xmi:id="_UjQVt4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_UjQVuIGqEeqSC4bGMjXJ9g" origin="_UjQVs4GqEeqSC4bGMjXJ9g" image="_UjQVt4GqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

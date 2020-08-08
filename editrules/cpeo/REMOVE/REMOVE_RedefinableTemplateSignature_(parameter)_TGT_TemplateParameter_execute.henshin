@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_2LoscIGoEeqjxJ91AzqJlg" name="REMOVE_RedefinableTemplateSignature_(parameter)_TGT_TemplateParameter" description="Removes RedefinableTemplateSignature's reference parameter the target TemplateParameter">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_2LoscYGoEeqjxJ91AzqJlg" name="removeFromRedefinableTemplateSignature_parameter_TemplateParameter" description="Removes from RedefinableTemplateSignature's reference parameter the target TemplateParameter">
+    <lhs xmi:id="_2LoscoGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_2Losc4GoEeqjxJ91AzqJlg" name="Selected" outgoing="_2LosdYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//RedefinableTemplateSignature"/>
+      </nodes>
+      <nodes xmi:id="_2LosdIGoEeqjxJ91AzqJlg" name="OldTarget" incoming="_2LosdYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameter"/>
+      </nodes>
+      <edges xmi:id="_2LosdYGoEeqjxJ91AzqJlg" source="_2Losc4GoEeqjxJ91AzqJlg" target="_2LosdIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateSignature/parameter"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_2LosdoGoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_2Losd4GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//RedefinableTemplateSignature"/>
+      </nodes>
+      <nodes xmi:id="_2LoseIGoEeqjxJ91AzqJlg" name="OldTarget">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameter"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_2LoseYGoEeqjxJ91AzqJlg" origin="_2Losc4GoEeqjxJ91AzqJlg" image="_2Losd4GoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_2LoseoGoEeqjxJ91AzqJlg" origin="_2LosdIGoEeqjxJ91AzqJlg" image="_2LoseIGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

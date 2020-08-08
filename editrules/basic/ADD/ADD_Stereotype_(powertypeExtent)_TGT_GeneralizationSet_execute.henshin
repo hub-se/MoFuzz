@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_U55UEIGqEeqSC4bGMjXJ9g" name="ADD_Stereotype_(powertypeExtent)_TGT_GeneralizationSet" description="Adds to Stereotype's reference powertypeExtent the target GeneralizationSet">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_U55UEYGqEeqSC4bGMjXJ9g" name="addToStereotype_powertypeExtent_GeneralizationSet" description="Adds to Stereotype's reference powertypeExtent the target GeneralizationSet">
+    <lhs xmi:id="_U55UEoGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_U55UE4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Stereotype"/>
+      </nodes>
+      <nodes xmi:id="_U55UFIGqEeqSC4bGMjXJ9g" name="NewTarget">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//GeneralizationSet"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_U55UFYGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_U55UFoGqEeqSC4bGMjXJ9g" name="Selected" incoming="_U55UGYGqEeqSC4bGMjXJ9g" outgoing="_U55UGIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Stereotype"/>
+      </nodes>
+      <nodes xmi:id="_U55UF4GqEeqSC4bGMjXJ9g" name="NewTarget" incoming="_U55UGIGqEeqSC4bGMjXJ9g" outgoing="_U55UGYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//GeneralizationSet"/>
+      </nodes>
+      <edges xmi:id="_U55UGIGqEeqSC4bGMjXJ9g" source="_U55UFoGqEeqSC4bGMjXJ9g" target="_U55UF4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier/powertypeExtent"/>
+      </edges>
+      <edges xmi:id="_U55UGYGqEeqSC4bGMjXJ9g" source="_U55UF4GqEeqSC4bGMjXJ9g" target="_U55UFoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//GeneralizationSet/powertype"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_U55UGoGqEeqSC4bGMjXJ9g" origin="_U55UE4GqEeqSC4bGMjXJ9g" image="_U55UFoGqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_U55UG4GqEeqSC4bGMjXJ9g" origin="_U55UFIGqEeqSC4bGMjXJ9g" image="_U55UF4GqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

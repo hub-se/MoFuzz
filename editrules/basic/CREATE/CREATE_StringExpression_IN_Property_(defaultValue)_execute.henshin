@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UUWXAIGqEeqSC4bGMjXJ9g" name="CREATE_StringExpression_IN_Property_(defaultValue)" description="Creates one StringExpression in Property">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UUWXAYGqEeqSC4bGMjXJ9g" name="createStringExpression_IN_Property" description="creates one StringExpression in the context: Property">
+    <lhs xmi:id="_UUWXAoGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_UUWXA4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Property"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_UUWXBIGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_UUWXBYGqEeqSC4bGMjXJ9g" name="Selected" outgoing="_UUWXB4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Property"/>
+      </nodes>
+      <nodes xmi:id="_UUWXBoGqEeqSC4bGMjXJ9g" name="New" incoming="_UUWXB4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//StringExpression"/>
+      </nodes>
+      <edges xmi:id="_UUWXB4GqEeqSC4bGMjXJ9g" source="_UUWXBYGqEeqSC4bGMjXJ9g" target="_UUWXBoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Property/defaultValue"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_UUWXCIGqEeqSC4bGMjXJ9g" origin="_UUWXA4GqEeqSC4bGMjXJ9g" image="_UUWXBYGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

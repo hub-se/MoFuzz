@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_16i8cIGoEeqjxJ91AzqJlg" name="CREATE_TimeEvent_IN_TemplateParameterSubstitution_(ownedActual)" description="Creates one TimeEvent in TemplateParameterSubstitution">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_16i8cYGoEeqjxJ91AzqJlg" name="createTimeEvent_IN_TemplateParameterSubstitution" description="creates one TimeEvent in the context: TemplateParameterSubstitution">
+    <parameters xmi:id="_16i8coGoEeqjxJ91AzqJlg" name="IsRelative" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <lhs xmi:id="_16i8c4GoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_16i8dIGoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameterSubstitution"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_16i8dYGoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_16i8doGoEeqjxJ91AzqJlg" name="Selected" outgoing="_16i8eoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameterSubstitution"/>
+      </nodes>
+      <nodes xmi:id="_16i8d4GoEeqjxJ91AzqJlg" name="New" incoming="_16i8eoGoEeqjxJ91AzqJlg" outgoing="_16i8e4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TimeEvent"/>
+        <attributes xmi:id="_16i8eIGoEeqjxJ91AzqJlg" value="IsRelative">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TimeEvent/isRelative"/>
+        </attributes>
+      </nodes>
+      <nodes xmi:id="_16i8eYGoEeqjxJ91AzqJlg" name="Child" incoming="_16i8e4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TimeExpression"/>
+      </nodes>
+      <edges xmi:id="_16i8eoGoEeqjxJ91AzqJlg" source="_16i8doGoEeqjxJ91AzqJlg" target="_16i8d4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameterSubstitution/ownedActual"/>
+      </edges>
+      <edges xmi:id="_16i8e4GoEeqjxJ91AzqJlg" source="_16i8d4GoEeqjxJ91AzqJlg" target="_16i8eYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TimeEvent/when"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_16i8fIGoEeqjxJ91AzqJlg" origin="_16i8dIGoEeqjxJ91AzqJlg" image="_16i8doGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

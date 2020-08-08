@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UJB30IGqEeqSC4bGMjXJ9g" name="CREATE_RedefinableTemplateSignature_IN_TemplateableElement_(ownedTemplateSignature)" description="Creates one RedefinableTemplateSignature in TemplateableElement">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UJB30YGqEeqSC4bGMjXJ9g" name="createRedefinableTemplateSignature_IN_TemplateableElement" description="creates one RedefinableTemplateSignature in the context: TemplateableElement">
+    <parameters xmi:id="_UJB30oGqEeqSC4bGMjXJ9g" name="IsLeaf" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <lhs xmi:id="_UJB304GqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_UJB31IGqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_UJB31YGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_UJB31oGqEeqSC4bGMjXJ9g" name="Selected" incoming="_UJB32oGqEeqSC4bGMjXJ9g" outgoing="_UJB32YGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier"/>
+      </nodes>
+      <nodes xmi:id="_UJB314GqEeqSC4bGMjXJ9g" name="New" incoming="_UJB32YGqEeqSC4bGMjXJ9g" outgoing="_UJB32oGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//RedefinableTemplateSignature"/>
+        <attributes xmi:id="_UJB32IGqEeqSC4bGMjXJ9g" value="IsLeaf">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//RedefinableElement/isLeaf"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_UJB32YGqEeqSC4bGMjXJ9g" source="_UJB31oGqEeqSC4bGMjXJ9g" target="_UJB314GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateableElement/ownedTemplateSignature"/>
+      </edges>
+      <edges xmi:id="_UJB32oGqEeqSC4bGMjXJ9g" source="_UJB314GqEeqSC4bGMjXJ9g" target="_UJB31oGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateSignature/template"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_UJB324GqEeqSC4bGMjXJ9g" origin="_UJB31IGqEeqSC4bGMjXJ9g" image="_UJB31oGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

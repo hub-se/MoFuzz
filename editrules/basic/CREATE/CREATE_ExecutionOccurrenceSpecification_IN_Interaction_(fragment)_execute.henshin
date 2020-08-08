@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UMFy4IGqEeqSC4bGMjXJ9g" name="CREATE_ExecutionOccurrenceSpecification_IN_Interaction_(fragment)" description="Creates one ExecutionOccurrenceSpecification in Interaction">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UMFy4YGqEeqSC4bGMjXJ9g" name="createExecutionOccurrenceSpecification_IN_Interaction" description="creates one ExecutionOccurrenceSpecification in the context: Interaction">
+    <lhs xmi:id="_UMFy4oGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_UMFy44GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Interaction"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_UMFy5IGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_UMFy5YGqEeqSC4bGMjXJ9g" name="Selected" incoming="_UMFy6IGqEeqSC4bGMjXJ9g" outgoing="_UMFy54GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Interaction"/>
+      </nodes>
+      <nodes xmi:id="_UMFy5oGqEeqSC4bGMjXJ9g" name="New" incoming="_UMFy54GqEeqSC4bGMjXJ9g" outgoing="_UMFy6IGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ExecutionOccurrenceSpecification"/>
+      </nodes>
+      <edges xmi:id="_UMFy54GqEeqSC4bGMjXJ9g" source="_UMFy5YGqEeqSC4bGMjXJ9g" target="_UMFy5oGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Interaction/fragment"/>
+      </edges>
+      <edges xmi:id="_UMFy6IGqEeqSC4bGMjXJ9g" source="_UMFy5oGqEeqSC4bGMjXJ9g" target="_UMFy5YGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InteractionFragment/enclosingInteraction"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_UMFy6YGqEeqSC4bGMjXJ9g" origin="_UMFy44GqEeqSC4bGMjXJ9g" image="_UMFy5YGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

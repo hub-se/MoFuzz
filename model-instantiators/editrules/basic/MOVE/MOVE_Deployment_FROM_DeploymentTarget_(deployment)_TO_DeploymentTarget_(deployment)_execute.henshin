@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_T-rB8IGqEeqSC4bGMjXJ9g" name="MOVE_Deployment_FROM_DeploymentTarget_(deployment)_TO_DeploymentTarget_(deployment)" description="MOVEs Deployment from DeploymentTarget(Reference:deployment) to DeploymentTarget(Reference:deployment">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_T-rB8YGqEeqSC4bGMjXJ9g" name="moveDeployment_FROM_DeploymentTarget_deployment_TO_DeploymentTarget_DeploymentTarget" description="Moves Deployment from DeploymentTarget(Reference:deployment) toDeploymentTarget(Reference:DeploymentTarget)">
+    <lhs xmi:id="_T-rB8oGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_T-rB84GqEeqSC4bGMjXJ9g" name="Selected" incoming="_T-rB9oGqEeqSC4bGMjXJ9g" outgoing="_T-rB94GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Deployment"/>
+      </nodes>
+      <nodes xmi:id="_T-rB9IGqEeqSC4bGMjXJ9g" name="OldSource" incoming="_T-rB94GqEeqSC4bGMjXJ9g" outgoing="_T-rB9oGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//DeploymentTarget"/>
+      </nodes>
+      <nodes xmi:id="_T-rB9YGqEeqSC4bGMjXJ9g" name="NewSource">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//DeploymentTarget"/>
+      </nodes>
+      <edges xmi:id="_T-rB9oGqEeqSC4bGMjXJ9g" source="_T-rB9IGqEeqSC4bGMjXJ9g" target="_T-rB84GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//DeploymentTarget/deployment"/>
+      </edges>
+      <edges xmi:id="_T-rB94GqEeqSC4bGMjXJ9g" source="_T-rB84GqEeqSC4bGMjXJ9g" target="_T-rB9IGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Deployment/location"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_T-rB-IGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_T-rB-YGqEeqSC4bGMjXJ9g" name="Selected" incoming="_T-rB_IGqEeqSC4bGMjXJ9g" outgoing="_T-rB_YGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Deployment"/>
+      </nodes>
+      <nodes xmi:id="_T-rB-oGqEeqSC4bGMjXJ9g" name="OldSource">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//DeploymentTarget"/>
+      </nodes>
+      <nodes xmi:id="_T-rB-4GqEeqSC4bGMjXJ9g" name="NewSource" incoming="_T-rB_YGqEeqSC4bGMjXJ9g" outgoing="_T-rB_IGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//DeploymentTarget"/>
+      </nodes>
+      <edges xmi:id="_T-rB_IGqEeqSC4bGMjXJ9g" source="_T-rB-4GqEeqSC4bGMjXJ9g" target="_T-rB-YGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//DeploymentTarget/deployment"/>
+      </edges>
+      <edges xmi:id="_T-rB_YGqEeqSC4bGMjXJ9g" source="_T-rB-YGqEeqSC4bGMjXJ9g" target="_T-rB-4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Deployment/location"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_T-rB_oGqEeqSC4bGMjXJ9g" origin="_T-rB84GqEeqSC4bGMjXJ9g" image="_T-rB-YGqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_T-rB_4GqEeqSC4bGMjXJ9g" origin="_T-rB9IGqEeqSC4bGMjXJ9g" image="_T-rB-oGqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_T-rCAIGqEeqSC4bGMjXJ9g" origin="_T-rB9YGqEeqSC4bGMjXJ9g" image="_T-rB-4GqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

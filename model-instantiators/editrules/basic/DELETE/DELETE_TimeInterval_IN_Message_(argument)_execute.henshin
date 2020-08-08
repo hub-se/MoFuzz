@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UzYcYIGqEeqSC4bGMjXJ9g" name="DELETE_TimeInterval_IN_Message_(argument)" description="Deletes one TimeInterval in Message">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UzYcYYGqEeqSC4bGMjXJ9g" name="deleteTimeInterval_IN_Message" description="deletes one TimeInterval in the context: Message">
+    <lhs xmi:id="_UzYcYoGqEeqSC4bGMjXJ9g" name="LHS">
+      <nodes xmi:id="_UzYcY4GqEeqSC4bGMjXJ9g" name="Selected" outgoing="_UzYcZYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Message"/>
+      </nodes>
+      <nodes xmi:id="_UzYcZIGqEeqSC4bGMjXJ9g" name="ToBeDeleted" incoming="_UzYcZYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TimeInterval"/>
+      </nodes>
+      <edges xmi:id="_UzYcZYGqEeqSC4bGMjXJ9g" source="_UzYcY4GqEeqSC4bGMjXJ9g" target="_UzYcZIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Message/argument"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_UzYcZoGqEeqSC4bGMjXJ9g" name="RHS">
+      <nodes xmi:id="_UzYcZ4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Message"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_UzYcaIGqEeqSC4bGMjXJ9g" origin="_UzYcY4GqEeqSC4bGMjXJ9g" image="_UzYcZ4GqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

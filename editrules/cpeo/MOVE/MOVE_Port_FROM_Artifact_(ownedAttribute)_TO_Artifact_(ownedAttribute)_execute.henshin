@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_2fMhoIGoEeqjxJ91AzqJlg" name="MOVE_Port_FROM_Artifact_(ownedAttribute)_TO_Artifact_(ownedAttribute)" description="MOVEs Port from Artifact(Reference:ownedAttribute) to Artifact(Reference:ownedAttribute">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_2fMhoYGoEeqjxJ91AzqJlg" name="movePort_FROM_Artifact_ownedAttribute_TO_Artifact_Artifact" description="Moves Port from Artifact(Reference:ownedAttribute) toArtifact(Reference:Artifact)">
+    <lhs xmi:id="_2fMhooGoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_2fMho4GoEeqjxJ91AzqJlg" name="Selected" incoming="_2fMhpoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Port"/>
+      </nodes>
+      <nodes xmi:id="_2fMhpIGoEeqjxJ91AzqJlg" name="OldSource" outgoing="_2fMhpoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Artifact"/>
+      </nodes>
+      <nodes xmi:id="_2fMhpYGoEeqjxJ91AzqJlg" name="NewSource">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Artifact"/>
+      </nodes>
+      <edges xmi:id="_2fMhpoGoEeqjxJ91AzqJlg" source="_2fMhpIGoEeqjxJ91AzqJlg" target="_2fMho4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Artifact/ownedAttribute"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_2fMhp4GoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_2fMhqIGoEeqjxJ91AzqJlg" name="Selected" incoming="_2fMhq4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Port"/>
+      </nodes>
+      <nodes xmi:id="_2fMhqYGoEeqjxJ91AzqJlg" name="OldSource">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Artifact"/>
+      </nodes>
+      <nodes xmi:id="_2fMhqoGoEeqjxJ91AzqJlg" name="NewSource" outgoing="_2fMhq4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Artifact"/>
+      </nodes>
+      <edges xmi:id="_2fMhq4GoEeqjxJ91AzqJlg" source="_2fMhqoGoEeqjxJ91AzqJlg" target="_2fMhqIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Artifact/ownedAttribute"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_2fMhrIGoEeqjxJ91AzqJlg" origin="_2fMho4GoEeqjxJ91AzqJlg" image="_2fMhqIGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_2fMhrYGoEeqjxJ91AzqJlg" origin="_2fMhpIGoEeqjxJ91AzqJlg" image="_2fMhqYGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_2fMhroGoEeqjxJ91AzqJlg" origin="_2fMhpYGoEeqjxJ91AzqJlg" image="_2fMhqoGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

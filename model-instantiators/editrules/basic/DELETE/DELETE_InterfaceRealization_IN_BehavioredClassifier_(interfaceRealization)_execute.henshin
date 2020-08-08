@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UnQE4IGqEeqSC4bGMjXJ9g" name="DELETE_InterfaceRealization_IN_BehavioredClassifier_(interfaceRealization)" description="Deletes one InterfaceRealization in BehavioredClassifier">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UnQE4YGqEeqSC4bGMjXJ9g" name="deleteInterfaceRealization_IN_BehavioredClassifier" description="deletes one InterfaceRealization in the context: BehavioredClassifier">
+    <lhs xmi:id="_UnQE4oGqEeqSC4bGMjXJ9g" name="LHS">
+      <nodes xmi:id="_UnQE44GqEeqSC4bGMjXJ9g" name="Selected" incoming="_UnQE5oGqEeqSC4bGMjXJ9g" outgoing="_UnQE5YGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//BehavioredClassifier"/>
+      </nodes>
+      <nodes xmi:id="_UnQE5IGqEeqSC4bGMjXJ9g" name="ToBeDeleted" incoming="_UnQE5YGqEeqSC4bGMjXJ9g" outgoing="_UnQE5oGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InterfaceRealization"/>
+      </nodes>
+      <edges xmi:id="_UnQE5YGqEeqSC4bGMjXJ9g" source="_UnQE44GqEeqSC4bGMjXJ9g" target="_UnQE5IGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//BehavioredClassifier/interfaceRealization"/>
+      </edges>
+      <edges xmi:id="_UnQE5oGqEeqSC4bGMjXJ9g" source="_UnQE5IGqEeqSC4bGMjXJ9g" target="_UnQE44GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InterfaceRealization/implementingClassifier"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_UnQE54GqEeqSC4bGMjXJ9g" name="RHS">
+      <nodes xmi:id="_UnQE6IGqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//BehavioredClassifier"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_UnQE6YGqEeqSC4bGMjXJ9g" origin="_UnQE44GqEeqSC4bGMjXJ9g" image="_UnQE6IGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

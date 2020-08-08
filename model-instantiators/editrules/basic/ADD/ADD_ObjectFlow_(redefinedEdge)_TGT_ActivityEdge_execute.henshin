@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_U4-HAIGqEeqSC4bGMjXJ9g" name="ADD_ObjectFlow_(redefinedEdge)_TGT_ActivityEdge" description="Adds to ObjectFlow's reference redefinedEdge the target ActivityEdge">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_U4-HAYGqEeqSC4bGMjXJ9g" name="addToObjectFlow_redefinedEdge_ActivityEdge" description="Adds to ObjectFlow's reference redefinedEdge the target ActivityEdge">
+    <lhs xmi:id="_U4-HAoGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_U4-HA4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ObjectFlow"/>
+      </nodes>
+      <nodes xmi:id="_U4-HBIGqEeqSC4bGMjXJ9g" name="NewTarget">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityEdge"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_U4-HBYGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_U4-HBoGqEeqSC4bGMjXJ9g" name="Selected" outgoing="_U4-HCIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ObjectFlow"/>
+      </nodes>
+      <nodes xmi:id="_U4-HB4GqEeqSC4bGMjXJ9g" name="NewTarget" incoming="_U4-HCIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityEdge"/>
+      </nodes>
+      <edges xmi:id="_U4-HCIGqEeqSC4bGMjXJ9g" source="_U4-HBoGqEeqSC4bGMjXJ9g" target="_U4-HB4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityEdge/redefinedEdge"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_U4-HCYGqEeqSC4bGMjXJ9g" origin="_U4-HA4GqEeqSC4bGMjXJ9g" image="_U4-HBoGqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_U4-HCoGqEeqSC4bGMjXJ9g" origin="_U4-HBIGqEeqSC4bGMjXJ9g" image="_U4-HB4GqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

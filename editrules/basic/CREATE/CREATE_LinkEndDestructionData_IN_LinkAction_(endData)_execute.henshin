@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UMliIIGqEeqSC4bGMjXJ9g" name="CREATE_LinkEndDestructionData_IN_LinkAction_(endData)" description="Creates one LinkEndDestructionData in LinkAction">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UMliIYGqEeqSC4bGMjXJ9g" name="createLinkEndDestructionData_IN_LinkAction" description="creates one LinkEndDestructionData in the context: LinkAction">
+    <parameters xmi:id="_UMliIoGqEeqSC4bGMjXJ9g" name="IsDestroyDuplicates" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <lhs xmi:id="_UMliI4GqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_UMliJIGqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//DestroyLinkAction"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_UMliJYGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_UMliJoGqEeqSC4bGMjXJ9g" name="Selected" outgoing="_UMliKYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//DestroyLinkAction"/>
+      </nodes>
+      <nodes xmi:id="_UMliJ4GqEeqSC4bGMjXJ9g" name="New" incoming="_UMliKYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LinkEndDestructionData"/>
+        <attributes xmi:id="_UMliKIGqEeqSC4bGMjXJ9g" value="IsDestroyDuplicates">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LinkEndDestructionData/isDestroyDuplicates"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_UMliKYGqEeqSC4bGMjXJ9g" source="_UMliJoGqEeqSC4bGMjXJ9g" target="_UMliJ4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LinkAction/endData"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_UMliKoGqEeqSC4bGMjXJ9g" origin="_UMliJIGqEeqSC4bGMjXJ9g" image="_UMliJoGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UYhsYIGqEeqSC4bGMjXJ9g" name="CREATE_LiteralInteger_IN_InteractionConstraint_(maxint)" description="Creates one LiteralInteger in InteractionConstraint">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UYhsYYGqEeqSC4bGMjXJ9g" name="createLiteralInteger_IN_InteractionConstraint" description="creates one LiteralInteger in the context: InteractionConstraint">
+    <parameters xmi:id="_UYiTcIGqEeqSC4bGMjXJ9g" name="Value" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Integer"/>
+    </parameters>
+    <lhs xmi:id="_UYiTcYGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_UYiTcoGqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InteractionConstraint"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_UYiTc4GqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_UYiTdIGqEeqSC4bGMjXJ9g" name="Selected" outgoing="_UYiTd4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InteractionConstraint"/>
+      </nodes>
+      <nodes xmi:id="_UYiTdYGqEeqSC4bGMjXJ9g" name="New" incoming="_UYiTd4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LiteralInteger"/>
+        <attributes xmi:id="_UYiTdoGqEeqSC4bGMjXJ9g" value="Value">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LiteralInteger/value"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_UYiTd4GqEeqSC4bGMjXJ9g" source="_UYiTdIGqEeqSC4bGMjXJ9g" target="_UYiTdYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InteractionConstraint/maxint"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_UYiTeIGqEeqSC4bGMjXJ9g" origin="_UYiTcoGqEeqSC4bGMjXJ9g" image="_UYiTdIGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

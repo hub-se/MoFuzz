@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_U7vuMIGqEeqSC4bGMjXJ9g" name="ADD_ExpansionRegion_(outputElement)_TGT_ExpansionNode" description="Adds to ExpansionRegion's reference outputElement the target ExpansionNode">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_U7vuMYGqEeqSC4bGMjXJ9g" name="addToExpansionRegion_outputElement_ExpansionNode" description="Adds to ExpansionRegion's reference outputElement the target ExpansionNode">
+    <lhs xmi:id="_U7vuMoGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_U7vuM4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ExpansionRegion"/>
+      </nodes>
+      <nodes xmi:id="_U7vuNIGqEeqSC4bGMjXJ9g" name="NewTarget">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ExpansionNode"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_U7vuNYGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_U7vuNoGqEeqSC4bGMjXJ9g" name="Selected" incoming="_U7vuOYGqEeqSC4bGMjXJ9g" outgoing="_U7vuOIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ExpansionRegion"/>
+      </nodes>
+      <nodes xmi:id="_U7vuN4GqEeqSC4bGMjXJ9g" name="NewTarget" incoming="_U7vuOIGqEeqSC4bGMjXJ9g" outgoing="_U7vuOYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ExpansionNode"/>
+      </nodes>
+      <edges xmi:id="_U7vuOIGqEeqSC4bGMjXJ9g" source="_U7vuNoGqEeqSC4bGMjXJ9g" target="_U7vuN4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ExpansionRegion/outputElement"/>
+      </edges>
+      <edges xmi:id="_U7vuOYGqEeqSC4bGMjXJ9g" source="_U7vuN4GqEeqSC4bGMjXJ9g" target="_U7vuNoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ExpansionNode/regionAsOutput"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_U7vuOoGqEeqSC4bGMjXJ9g" origin="_U7vuM4GqEeqSC4bGMjXJ9g" image="_U7vuNoGqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_U7vuO4GqEeqSC4bGMjXJ9g" origin="_U7vuNIGqEeqSC4bGMjXJ9g" image="_U7vuN4GqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

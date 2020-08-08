@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UIynQIGqEeqSC4bGMjXJ9g" name="CREATE_Interval_IN_Parameter_(defaultValue)" description="Creates one Interval in Parameter">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UIynQYGqEeqSC4bGMjXJ9g" name="createInterval_IN_Parameter" description="creates one Interval in the context: Parameter">
+    <lhs xmi:id="_UIynQoGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_UIynQ4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Parameter"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_UIynRIGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_UIynRYGqEeqSC4bGMjXJ9g" name="Selected" outgoing="_UIynR4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Parameter"/>
+      </nodes>
+      <nodes xmi:id="_UIynRoGqEeqSC4bGMjXJ9g" name="New" incoming="_UIynR4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Interval"/>
+      </nodes>
+      <edges xmi:id="_UIynR4GqEeqSC4bGMjXJ9g" source="_UIynRYGqEeqSC4bGMjXJ9g" target="_UIynRoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Parameter/defaultValue"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_UIynSIGqEeqSC4bGMjXJ9g" origin="_UIynQ4GqEeqSC4bGMjXJ9g" image="_UIynRYGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

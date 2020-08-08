@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UclF8IGqEeqSC4bGMjXJ9g" name="CREATE_LiteralUnlimitedNatural_IN_MultiplicityElement_(lowerValue)" description="Creates one LiteralUnlimitedNatural in MultiplicityElement">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UclF8YGqEeqSC4bGMjXJ9g" name="createLiteralUnlimitedNatural_IN_MultiplicityElement" description="creates one LiteralUnlimitedNatural in the context: MultiplicityElement">
+    <parameters xmi:id="_UclF8oGqEeqSC4bGMjXJ9g" name="Value" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//UnlimitedNatural"/>
+    </parameters>
+    <lhs xmi:id="_UclF84GqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_UclF9IGqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//MultiplicityElement"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_UclF9YGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_UclF9oGqEeqSC4bGMjXJ9g" name="Selected" outgoing="_UclF-YGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//MultiplicityElement"/>
+      </nodes>
+      <nodes xmi:id="_UclF94GqEeqSC4bGMjXJ9g" name="New" incoming="_UclF-YGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LiteralUnlimitedNatural"/>
+        <attributes xmi:id="_UclF-IGqEeqSC4bGMjXJ9g" value="Value">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LiteralUnlimitedNatural/value"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_UclF-YGqEeqSC4bGMjXJ9g" source="_UclF9oGqEeqSC4bGMjXJ9g" target="_UclF94GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//MultiplicityElement/lowerValue"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_UclF-oGqEeqSC4bGMjXJ9g" origin="_UclF9IGqEeqSC4bGMjXJ9g" image="_UclF9oGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

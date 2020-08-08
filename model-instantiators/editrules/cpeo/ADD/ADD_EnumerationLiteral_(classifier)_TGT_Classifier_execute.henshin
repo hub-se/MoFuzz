@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_1XPbEIGoEeqjxJ91AzqJlg" name="ADD_EnumerationLiteral_(classifier)_TGT_Classifier" description="Adds to EnumerationLiteral's reference classifier the target Classifier">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_1XPbEYGoEeqjxJ91AzqJlg" name="addToEnumerationLiteral_classifier_Classifier" description="Adds to EnumerationLiteral's reference classifier the target Classifier">
+    <lhs xmi:id="_1XPbEoGoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_1XPbE4GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//EnumerationLiteral"/>
+      </nodes>
+      <nodes xmi:id="_1XPbFIGoEeqjxJ91AzqJlg" name="NewTarget">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Enumeration"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_1XPbFYGoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_1XPbFoGoEeqjxJ91AzqJlg" name="Selected" outgoing="_1XPbGIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//EnumerationLiteral"/>
+      </nodes>
+      <nodes xmi:id="_1XPbF4GoEeqjxJ91AzqJlg" name="NewTarget" incoming="_1XPbGIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Enumeration"/>
+      </nodes>
+      <edges xmi:id="_1XPbGIGoEeqjxJ91AzqJlg" source="_1XPbFoGoEeqjxJ91AzqJlg" target="_1XPbF4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InstanceSpecification/classifier"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_1XPbGYGoEeqjxJ91AzqJlg" origin="_1XPbE4GoEeqjxJ91AzqJlg" image="_1XPbFoGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_1XPbGoGoEeqjxJ91AzqJlg" origin="_1XPbFIGoEeqjxJ91AzqJlg" image="_1XPbF4GoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_2G-18IGoEeqjxJ91AzqJlg" name="REMOVE_ProtocolStateMachine_(submachineState)_TGT_State" description="Removes ProtocolStateMachine's reference submachineState the target State">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_2G-18YGoEeqjxJ91AzqJlg" name="removeFromProtocolStateMachine_submachineState_State" description="Removes from ProtocolStateMachine's reference submachineState the target State">
+    <lhs xmi:id="_2G-18oGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_2G-184GoEeqjxJ91AzqJlg" name="Selected" incoming="_2G-19oGoEeqjxJ91AzqJlg" outgoing="_2G-19YGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ProtocolStateMachine"/>
+      </nodes>
+      <nodes xmi:id="_2G-19IGoEeqjxJ91AzqJlg" name="OldTarget" incoming="_2G-19YGoEeqjxJ91AzqJlg" outgoing="_2G-19oGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//State"/>
+      </nodes>
+      <edges xmi:id="_2G-19YGoEeqjxJ91AzqJlg" source="_2G-184GoEeqjxJ91AzqJlg" target="_2G-19IGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//StateMachine/submachineState"/>
+      </edges>
+      <edges xmi:id="_2G-19oGoEeqjxJ91AzqJlg" source="_2G-19IGoEeqjxJ91AzqJlg" target="_2G-184GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//State/submachine"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_2G-194GoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_2G-1-IGoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ProtocolStateMachine"/>
+      </nodes>
+      <nodes xmi:id="_2G-1-YGoEeqjxJ91AzqJlg" name="OldTarget">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//State"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_2G-1-oGoEeqjxJ91AzqJlg" origin="_2G-184GoEeqjxJ91AzqJlg" image="_2G-1-IGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_2G-1-4GoEeqjxJ91AzqJlg" origin="_2G-19IGoEeqjxJ91AzqJlg" image="_2G-1-YGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UktHMIGqEeqSC4bGMjXJ9g" name="DELETE_FlowFinalNode_IN_Activity_(ownedNode)" description="Deletes one FlowFinalNode in Activity">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UktHMYGqEeqSC4bGMjXJ9g" name="deleteFlowFinalNode_IN_Activity" description="deletes one FlowFinalNode in the context: Activity">
+    <lhs xmi:id="_UktHMoGqEeqSC4bGMjXJ9g" name="LHS">
+      <nodes xmi:id="_UktHM4GqEeqSC4bGMjXJ9g" name="Selected" outgoing="_UktHNYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Activity"/>
+      </nodes>
+      <nodes xmi:id="_UktHNIGqEeqSC4bGMjXJ9g" name="ToBeDeleted" incoming="_UktHNYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//FlowFinalNode"/>
+      </nodes>
+      <edges xmi:id="_UktHNYGqEeqSC4bGMjXJ9g" source="_UktHM4GqEeqSC4bGMjXJ9g" target="_UktHNIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Activity/ownedNode"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_UktHNoGqEeqSC4bGMjXJ9g" name="RHS">
+      <nodes xmi:id="_UktHN4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Activity"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_UktHOIGqEeqSC4bGMjXJ9g" origin="_UktHM4GqEeqSC4bGMjXJ9g" image="_UktHN4GqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

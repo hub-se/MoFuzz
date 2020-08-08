@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UfZJYIGqEeqSC4bGMjXJ9g" name="CREATE_StringExpression_IN_Lifeline_(selector)" description="Creates one StringExpression in Lifeline">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UfZJYYGqEeqSC4bGMjXJ9g" name="createStringExpression_IN_Lifeline" description="creates one StringExpression in the context: Lifeline">
+    <lhs xmi:id="_UfZJYoGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_UfZJY4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Lifeline"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_UfZJZIGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_UfZJZYGqEeqSC4bGMjXJ9g" name="Selected" outgoing="_UfZJZ4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Lifeline"/>
+      </nodes>
+      <nodes xmi:id="_UfZJZoGqEeqSC4bGMjXJ9g" name="New" incoming="_UfZJZ4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//StringExpression"/>
+      </nodes>
+      <edges xmi:id="_UfZJZ4GqEeqSC4bGMjXJ9g" source="_UfZJZYGqEeqSC4bGMjXJ9g" target="_UfZJZoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Lifeline/selector"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_UfZJaIGqEeqSC4bGMjXJ9g" origin="_UfZJY4GqEeqSC4bGMjXJ9g" image="_UfZJZYGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

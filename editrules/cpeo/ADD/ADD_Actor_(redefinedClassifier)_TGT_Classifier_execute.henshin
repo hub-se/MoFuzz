@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_1e9zsIGoEeqjxJ91AzqJlg" name="ADD_Actor_(redefinedClassifier)_TGT_Classifier" description="Adds to Actor's reference redefinedClassifier the target Classifier">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_1e9zsYGoEeqjxJ91AzqJlg" name="addToActor_redefinedClassifier_Classifier" description="Adds to Actor's reference redefinedClassifier the target Classifier">
+    <lhs xmi:id="_1e9zsoGoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_1e9zs4GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Actor"/>
+      </nodes>
+      <nodes xmi:id="_1e9ztIGoEeqjxJ91AzqJlg" name="NewTarget">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_1e9ztYGoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_1e9ztoGoEeqjxJ91AzqJlg" name="Selected" outgoing="_1e9zuIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Actor"/>
+      </nodes>
+      <nodes xmi:id="_1e9zt4GoEeqjxJ91AzqJlg" name="NewTarget" incoming="_1e9zuIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier"/>
+      </nodes>
+      <edges xmi:id="_1e9zuIGoEeqjxJ91AzqJlg" source="_1e9ztoGoEeqjxJ91AzqJlg" target="_1e9zt4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier/redefinedClassifier"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_1e9zuYGoEeqjxJ91AzqJlg" origin="_1e9zs4GoEeqjxJ91AzqJlg" image="_1e9ztoGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_1e9zuoGoEeqjxJ91AzqJlg" origin="_1e9ztIGoEeqjxJ91AzqJlg" image="_1e9zt4GoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

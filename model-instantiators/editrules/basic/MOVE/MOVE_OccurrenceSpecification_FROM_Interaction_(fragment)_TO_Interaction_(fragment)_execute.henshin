@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_T86ucIGqEeqSC4bGMjXJ9g" name="MOVE_OccurrenceSpecification_FROM_Interaction_(fragment)_TO_Interaction_(fragment)" description="MOVEs OccurrenceSpecification from Interaction(Reference:fragment) to Interaction(Reference:fragment">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_T86ucYGqEeqSC4bGMjXJ9g" name="moveOccurrenceSpecification_FROM_Interaction_fragment_TO_Interaction_Interaction" description="Moves OccurrenceSpecification from Interaction(Reference:fragment) toInteraction(Reference:Interaction)">
+    <lhs xmi:id="_T86ucoGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_T86uc4GqEeqSC4bGMjXJ9g" name="Selected" incoming="_T86udoGqEeqSC4bGMjXJ9g" outgoing="_T86ud4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//OccurrenceSpecification"/>
+      </nodes>
+      <nodes xmi:id="_T86udIGqEeqSC4bGMjXJ9g" name="OldSource" incoming="_T86ud4GqEeqSC4bGMjXJ9g" outgoing="_T86udoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Interaction"/>
+      </nodes>
+      <nodes xmi:id="_T86udYGqEeqSC4bGMjXJ9g" name="NewSource">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Interaction"/>
+      </nodes>
+      <edges xmi:id="_T86udoGqEeqSC4bGMjXJ9g" source="_T86udIGqEeqSC4bGMjXJ9g" target="_T86uc4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Interaction/fragment"/>
+      </edges>
+      <edges xmi:id="_T86ud4GqEeqSC4bGMjXJ9g" source="_T86uc4GqEeqSC4bGMjXJ9g" target="_T86udIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InteractionFragment/enclosingInteraction"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_T86ueIGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_T86ueYGqEeqSC4bGMjXJ9g" name="Selected" incoming="_T86ufIGqEeqSC4bGMjXJ9g" outgoing="_T86ufYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//OccurrenceSpecification"/>
+      </nodes>
+      <nodes xmi:id="_T86ueoGqEeqSC4bGMjXJ9g" name="OldSource">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Interaction"/>
+      </nodes>
+      <nodes xmi:id="_T86ue4GqEeqSC4bGMjXJ9g" name="NewSource" incoming="_T86ufYGqEeqSC4bGMjXJ9g" outgoing="_T86ufIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Interaction"/>
+      </nodes>
+      <edges xmi:id="_T86ufIGqEeqSC4bGMjXJ9g" source="_T86ue4GqEeqSC4bGMjXJ9g" target="_T86ueYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Interaction/fragment"/>
+      </edges>
+      <edges xmi:id="_T86ufYGqEeqSC4bGMjXJ9g" source="_T86ueYGqEeqSC4bGMjXJ9g" target="_T86ue4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InteractionFragment/enclosingInteraction"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_T86ufoGqEeqSC4bGMjXJ9g" origin="_T86uc4GqEeqSC4bGMjXJ9g" image="_T86ueYGqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_T86uf4GqEeqSC4bGMjXJ9g" origin="_T86udIGqEeqSC4bGMjXJ9g" image="_T86ueoGqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_T86ugIGqEeqSC4bGMjXJ9g" origin="_T86udYGqEeqSC4bGMjXJ9g" image="_T86ue4GqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

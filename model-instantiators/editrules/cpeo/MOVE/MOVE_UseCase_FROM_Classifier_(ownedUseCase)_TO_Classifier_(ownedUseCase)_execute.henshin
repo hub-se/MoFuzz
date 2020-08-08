@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_2VWpIIGoEeqjxJ91AzqJlg" name="MOVE_UseCase_FROM_Classifier_(ownedUseCase)_TO_Classifier_(ownedUseCase)" description="MOVEs UseCase from Classifier(Reference:ownedUseCase) to Classifier(Reference:ownedUseCase">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_2VWpIYGoEeqjxJ91AzqJlg" name="moveUseCase_FROM_Classifier_ownedUseCase_TO_Classifier_Classifier" description="Moves UseCase from Classifier(Reference:ownedUseCase) toClassifier(Reference:Classifier)">
+    <lhs xmi:id="_2VWpIoGoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_2VWpI4GoEeqjxJ91AzqJlg" name="Selected" incoming="_2VWpJoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//UseCase"/>
+      </nodes>
+      <nodes xmi:id="_2VWpJIGoEeqjxJ91AzqJlg" name="OldSource" outgoing="_2VWpJoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier"/>
+      </nodes>
+      <nodes xmi:id="_2VWpJYGoEeqjxJ91AzqJlg" name="NewSource">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier"/>
+      </nodes>
+      <edges xmi:id="_2VWpJoGoEeqjxJ91AzqJlg" source="_2VWpJIGoEeqjxJ91AzqJlg" target="_2VWpI4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier/ownedUseCase"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_2VWpJ4GoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_2VWpKIGoEeqjxJ91AzqJlg" name="Selected" incoming="_2VWpK4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//UseCase"/>
+      </nodes>
+      <nodes xmi:id="_2VWpKYGoEeqjxJ91AzqJlg" name="OldSource">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier"/>
+      </nodes>
+      <nodes xmi:id="_2VWpKoGoEeqjxJ91AzqJlg" name="NewSource" outgoing="_2VWpK4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier"/>
+      </nodes>
+      <edges xmi:id="_2VWpK4GoEeqjxJ91AzqJlg" source="_2VWpKoGoEeqjxJ91AzqJlg" target="_2VWpKIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier/ownedUseCase"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_2VWpLIGoEeqjxJ91AzqJlg" origin="_2VWpI4GoEeqjxJ91AzqJlg" image="_2VWpKIGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_2VWpLYGoEeqjxJ91AzqJlg" origin="_2VWpJIGoEeqjxJ91AzqJlg" image="_2VWpKYGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_2VWpLoGoEeqjxJ91AzqJlg" origin="_2VWpJYGoEeqjxJ91AzqJlg" image="_2VWpKoGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

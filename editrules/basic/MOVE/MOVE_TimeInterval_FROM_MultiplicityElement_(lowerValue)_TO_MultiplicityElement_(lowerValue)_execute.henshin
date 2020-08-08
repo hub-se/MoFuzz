@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_TmqxoIGqEeqSC4bGMjXJ9g" name="MOVE_TimeInterval_FROM_MultiplicityElement_(lowerValue)_TO_MultiplicityElement_(lowerValue)" description="MOVEs TimeInterval from MultiplicityElement(Reference:lowerValue) to MultiplicityElement(Reference:lowerValue">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_TmqxoYGqEeqSC4bGMjXJ9g" name="moveTimeInterval_FROM_MultiplicityElement_lowerValue_TO_MultiplicityElement_MultiplicityElement" description="Moves TimeInterval from MultiplicityElement(Reference:lowerValue) toMultiplicityElement(Reference:MultiplicityElement)">
+    <lhs xmi:id="_TmqxooGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_Tmqxo4GqEeqSC4bGMjXJ9g" name="Selected" incoming="_TmqxpoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TimeInterval"/>
+      </nodes>
+      <nodes xmi:id="_TmqxpIGqEeqSC4bGMjXJ9g" name="OldSource" outgoing="_TmqxpoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//MultiplicityElement"/>
+      </nodes>
+      <nodes xmi:id="_TmqxpYGqEeqSC4bGMjXJ9g" name="NewSource">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//MultiplicityElement"/>
+      </nodes>
+      <edges xmi:id="_TmqxpoGqEeqSC4bGMjXJ9g" source="_TmqxpIGqEeqSC4bGMjXJ9g" target="_Tmqxo4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//MultiplicityElement/lowerValue"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_Tmqxp4GqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_TmqxqIGqEeqSC4bGMjXJ9g" name="Selected" incoming="_Tmqxq4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TimeInterval"/>
+      </nodes>
+      <nodes xmi:id="_TmqxqYGqEeqSC4bGMjXJ9g" name="OldSource">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//MultiplicityElement"/>
+      </nodes>
+      <nodes xmi:id="_TmqxqoGqEeqSC4bGMjXJ9g" name="NewSource" outgoing="_Tmqxq4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//MultiplicityElement"/>
+      </nodes>
+      <edges xmi:id="_Tmqxq4GqEeqSC4bGMjXJ9g" source="_TmqxqoGqEeqSC4bGMjXJ9g" target="_TmqxqIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//MultiplicityElement/lowerValue"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_TmqxrIGqEeqSC4bGMjXJ9g" origin="_Tmqxo4GqEeqSC4bGMjXJ9g" image="_TmqxqIGqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_TmqxrYGqEeqSC4bGMjXJ9g" origin="_TmqxpIGqEeqSC4bGMjXJ9g" image="_TmqxqYGqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_TmqxroGqEeqSC4bGMjXJ9g" origin="_TmqxpYGqEeqSC4bGMjXJ9g" image="_TmqxqoGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

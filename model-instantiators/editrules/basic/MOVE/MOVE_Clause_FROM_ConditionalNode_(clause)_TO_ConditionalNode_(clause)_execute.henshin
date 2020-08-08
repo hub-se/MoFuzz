@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_T62R4IGqEeqSC4bGMjXJ9g" name="MOVE_Clause_FROM_ConditionalNode_(clause)_TO_ConditionalNode_(clause)" description="MOVEs Clause from ConditionalNode(Reference:clause) to ConditionalNode(Reference:clause">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_T62R4YGqEeqSC4bGMjXJ9g" name="moveClause_FROM_ConditionalNode_clause_TO_ConditionalNode_ConditionalNode" description="Moves Clause from ConditionalNode(Reference:clause) toConditionalNode(Reference:ConditionalNode)">
+    <lhs xmi:id="_T62R4oGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_T62R44GqEeqSC4bGMjXJ9g" name="Selected" incoming="_T62R5oGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Clause"/>
+      </nodes>
+      <nodes xmi:id="_T62R5IGqEeqSC4bGMjXJ9g" name="OldSource" outgoing="_T62R5oGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ConditionalNode"/>
+      </nodes>
+      <nodes xmi:id="_T62R5YGqEeqSC4bGMjXJ9g" name="NewSource">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ConditionalNode"/>
+      </nodes>
+      <edges xmi:id="_T62R5oGqEeqSC4bGMjXJ9g" source="_T62R5IGqEeqSC4bGMjXJ9g" target="_T62R44GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ConditionalNode/clause"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_T62R54GqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_T62R6IGqEeqSC4bGMjXJ9g" name="Selected" incoming="_T62R64GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Clause"/>
+      </nodes>
+      <nodes xmi:id="_T62R6YGqEeqSC4bGMjXJ9g" name="OldSource">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ConditionalNode"/>
+      </nodes>
+      <nodes xmi:id="_T62R6oGqEeqSC4bGMjXJ9g" name="NewSource" outgoing="_T62R64GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ConditionalNode"/>
+      </nodes>
+      <edges xmi:id="_T62R64GqEeqSC4bGMjXJ9g" source="_T62R6oGqEeqSC4bGMjXJ9g" target="_T62R6IGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ConditionalNode/clause"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_T62R7IGqEeqSC4bGMjXJ9g" origin="_T62R44GqEeqSC4bGMjXJ9g" image="_T62R6IGqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_T62R7YGqEeqSC4bGMjXJ9g" origin="_T62R5IGqEeqSC4bGMjXJ9g" image="_T62R6YGqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_T62R7oGqEeqSC4bGMjXJ9g" origin="_T62R5YGqEeqSC4bGMjXJ9g" image="_T62R6oGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_092qsIGoEeqjxJ91AzqJlg" name="DELETE_IntervalConstraint_IN_Extend_(condition)" description="Deletes one IntervalConstraint in Extend">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_092qsYGoEeqjxJ91AzqJlg" name="deleteIntervalConstraint_IN_Extend" description="deletes one IntervalConstraint in the context: Extend">
+    <lhs xmi:id="_092qsoGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_092qs4GoEeqjxJ91AzqJlg" name="Selected" outgoing="_092qtoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Extend"/>
+      </nodes>
+      <nodes xmi:id="_092qtIGoEeqjxJ91AzqJlg" name="ToBeDeleted" incoming="_092qtoGoEeqjxJ91AzqJlg" outgoing="_092qt4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//IntervalConstraint"/>
+      </nodes>
+      <nodes xmi:id="_092qtYGoEeqjxJ91AzqJlg" name="Child" incoming="_092qt4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Interval"/>
+      </nodes>
+      <edges xmi:id="_092qtoGoEeqjxJ91AzqJlg" source="_092qs4GoEeqjxJ91AzqJlg" target="_092qtIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Extend/condition"/>
+      </edges>
+      <edges xmi:id="_092qt4GoEeqjxJ91AzqJlg" source="_092qtIGoEeqjxJ91AzqJlg" target="_092qtYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Constraint/specification"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_092quIGoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_092quYGoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Extend"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_092quoGoEeqjxJ91AzqJlg" origin="_092qs4GoEeqjxJ91AzqJlg" image="_092quYGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

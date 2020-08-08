@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UoroQIGqEeqSC4bGMjXJ9g" name="DELETE_ValuePin_IN_LinkAction_(inputValue)" description="Deletes one ValuePin in LinkAction">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UoroQYGqEeqSC4bGMjXJ9g" name="deleteValuePin_IN_LinkAction" description="deletes one ValuePin in the context: LinkAction">
+    <lhs xmi:id="_UoroQoGqEeqSC4bGMjXJ9g" name="LHS">
+      <nodes xmi:id="_UoroQ4GqEeqSC4bGMjXJ9g" name="Selected" outgoing="_UoroRYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LinkAction"/>
+      </nodes>
+      <nodes xmi:id="_UoroRIGqEeqSC4bGMjXJ9g" name="ToBeDeleted" incoming="_UoroRYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ValuePin"/>
+      </nodes>
+      <edges xmi:id="_UoroRYGqEeqSC4bGMjXJ9g" source="_UoroQ4GqEeqSC4bGMjXJ9g" target="_UoroRIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LinkAction/inputValue"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_UoroRoGqEeqSC4bGMjXJ9g" name="RHS">
+      <nodes xmi:id="_UoroR4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LinkAction"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_UoroSIGqEeqSC4bGMjXJ9g" origin="_UoroQ4GqEeqSC4bGMjXJ9g" image="_UoroR4GqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

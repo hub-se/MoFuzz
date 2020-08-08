@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_18A8EIGoEeqjxJ91AzqJlg" name="CREATE_AssociationClass_IN_TemplateParameterSubstitution_(ownedActual)" description="Creates one AssociationClass in TemplateParameterSubstitution">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_18A8EYGoEeqjxJ91AzqJlg" name="createAssociationClass_IN_TemplateParameterSubstitution" description="creates one AssociationClass in the context: TemplateParameterSubstitution">
+    <parameters xmi:id="_18A8EoGoEeqjxJ91AzqJlg" name="IsLeaf" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <parameters xmi:id="_18A8E4GoEeqjxJ91AzqJlg" name="IsAbstract" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <parameters xmi:id="_18A8FIGoEeqjxJ91AzqJlg" name="IsFinalSpecialization" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <parameters xmi:id="_18A8FYGoEeqjxJ91AzqJlg" name="IsActive" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <parameters xmi:id="_18A8FoGoEeqjxJ91AzqJlg" name="IsDerived" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <lhs xmi:id="_18A8F4GoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_18A8GIGoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameterSubstitution"/>
+      </nodes>
+      <nodes xmi:id="_18A8GYGoEeqjxJ91AzqJlg" name="Existing">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Property"/>
+      </nodes>
+      <nodes xmi:id="_18A8GoGoEeqjxJ91AzqJlg" name="Existing1">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Property"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_18A8G4GoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_18A8HIGoEeqjxJ91AzqJlg" name="Selected" outgoing="_18A8JYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameterSubstitution"/>
+      </nodes>
+      <nodes xmi:id="_18A8HYGoEeqjxJ91AzqJlg" name="New" incoming="_18A8JYGoEeqjxJ91AzqJlg _18A8J4GoEeqjxJ91AzqJlg _18A8KYGoEeqjxJ91AzqJlg" outgoing="_18A8JoGoEeqjxJ91AzqJlg _18A8KIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//AssociationClass"/>
+        <attributes xmi:id="_18A8HoGoEeqjxJ91AzqJlg" value="IsLeaf">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//RedefinableElement/isLeaf"/>
+        </attributes>
+        <attributes xmi:id="_18A8H4GoEeqjxJ91AzqJlg" value="IsAbstract">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier/isAbstract"/>
+        </attributes>
+        <attributes xmi:id="_18A8IIGoEeqjxJ91AzqJlg" value="IsFinalSpecialization">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier/isFinalSpecialization"/>
+        </attributes>
+        <attributes xmi:id="_18A8IYGoEeqjxJ91AzqJlg" value="IsActive">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Class/isActive"/>
+        </attributes>
+        <attributes xmi:id="_18A8IoGoEeqjxJ91AzqJlg" value="IsDerived">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Association/isDerived"/>
+        </attributes>
+      </nodes>
+      <nodes xmi:id="_18A8I4GoEeqjxJ91AzqJlg" name="Existing" incoming="_18A8JoGoEeqjxJ91AzqJlg" outgoing="_18A8J4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Property"/>
+      </nodes>
+      <nodes xmi:id="_18A8JIGoEeqjxJ91AzqJlg" name="Existing1" incoming="_18A8KIGoEeqjxJ91AzqJlg" outgoing="_18A8KYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Property"/>
+      </nodes>
+      <edges xmi:id="_18A8JYGoEeqjxJ91AzqJlg" source="_18A8HIGoEeqjxJ91AzqJlg" target="_18A8HYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameterSubstitution/ownedActual"/>
+      </edges>
+      <edges xmi:id="_18A8JoGoEeqjxJ91AzqJlg" source="_18A8HYGoEeqjxJ91AzqJlg" target="_18A8I4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Association/memberEnd"/>
+      </edges>
+      <edges xmi:id="_18A8J4GoEeqjxJ91AzqJlg" source="_18A8I4GoEeqjxJ91AzqJlg" target="_18A8HYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Property/association"/>
+      </edges>
+      <edges xmi:id="_18A8KIGoEeqjxJ91AzqJlg" source="_18A8HYGoEeqjxJ91AzqJlg" target="_18A8JIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Association/memberEnd"/>
+      </edges>
+      <edges xmi:id="_18A8KYGoEeqjxJ91AzqJlg" source="_18A8JIGoEeqjxJ91AzqJlg" target="_18A8HYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Property/association"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_18A8KoGoEeqjxJ91AzqJlg" origin="_18A8GIGoEeqjxJ91AzqJlg" image="_18A8HIGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_18A8K4GoEeqjxJ91AzqJlg" origin="_18A8GYGoEeqjxJ91AzqJlg" image="_18A8I4GoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_18A8LIGoEeqjxJ91AzqJlg" origin="_18A8GoGoEeqjxJ91AzqJlg" image="_18A8JIGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

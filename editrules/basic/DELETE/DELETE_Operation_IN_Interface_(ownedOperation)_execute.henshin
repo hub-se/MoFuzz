@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_U12hkIGqEeqSC4bGMjXJ9g" name="DELETE_Operation_IN_Interface_(ownedOperation)" description="Deletes one Operation in Interface">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_U12hkYGqEeqSC4bGMjXJ9g" name="deleteOperation_IN_Interface" description="deletes one Operation in the context: Interface">
+    <lhs xmi:id="_U12hkoGqEeqSC4bGMjXJ9g" name="LHS">
+      <nodes xmi:id="_U12hk4GqEeqSC4bGMjXJ9g" name="Selected" incoming="_U12hloGqEeqSC4bGMjXJ9g" outgoing="_U12hlYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Interface"/>
+      </nodes>
+      <nodes xmi:id="_U12hlIGqEeqSC4bGMjXJ9g" name="ToBeDeleted" incoming="_U12hlYGqEeqSC4bGMjXJ9g" outgoing="_U12hloGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Operation"/>
+      </nodes>
+      <edges xmi:id="_U12hlYGqEeqSC4bGMjXJ9g" source="_U12hk4GqEeqSC4bGMjXJ9g" target="_U12hlIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Interface/ownedOperation"/>
+      </edges>
+      <edges xmi:id="_U12hloGqEeqSC4bGMjXJ9g" source="_U12hlIGqEeqSC4bGMjXJ9g" target="_U12hk4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Operation/interface"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_U12hl4GqEeqSC4bGMjXJ9g" name="RHS">
+      <nodes xmi:id="_U12hmIGqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Interface"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_U12hmYGqEeqSC4bGMjXJ9g" origin="_U12hk4GqEeqSC4bGMjXJ9g" image="_U12hmIGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

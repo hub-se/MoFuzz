@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UG6_AIGqEeqSC4bGMjXJ9g" name="CREATE_LiteralUnlimitedNatural_IN_TemplateParameterSubstitution_(ownedActual)" description="Creates one LiteralUnlimitedNatural in TemplateParameterSubstitution">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UG6_AYGqEeqSC4bGMjXJ9g" name="createLiteralUnlimitedNatural_IN_TemplateParameterSubstitution" description="creates one LiteralUnlimitedNatural in the context: TemplateParameterSubstitution">
+    <parameters xmi:id="_UG6_AoGqEeqSC4bGMjXJ9g" name="Value" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//UnlimitedNatural"/>
+    </parameters>
+    <lhs xmi:id="_UG6_A4GqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_UG6_BIGqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameterSubstitution"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_UG6_BYGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_UG6_BoGqEeqSC4bGMjXJ9g" name="Selected" outgoing="_UG6_CYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameterSubstitution"/>
+      </nodes>
+      <nodes xmi:id="_UG6_B4GqEeqSC4bGMjXJ9g" name="New" incoming="_UG6_CYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LiteralUnlimitedNatural"/>
+        <attributes xmi:id="_UG6_CIGqEeqSC4bGMjXJ9g" value="Value">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LiteralUnlimitedNatural/value"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_UG6_CYGqEeqSC4bGMjXJ9g" source="_UG6_BoGqEeqSC4bGMjXJ9g" target="_UG6_B4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameterSubstitution/ownedActual"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_UG6_CoGqEeqSC4bGMjXJ9g" origin="_UG6_BIGqEeqSC4bGMjXJ9g" image="_UG6_BoGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

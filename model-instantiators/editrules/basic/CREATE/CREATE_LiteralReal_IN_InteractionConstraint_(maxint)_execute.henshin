@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UNs8cIGqEeqSC4bGMjXJ9g" name="CREATE_LiteralReal_IN_InteractionConstraint_(maxint)" description="Creates one LiteralReal in InteractionConstraint">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UNs8cYGqEeqSC4bGMjXJ9g" name="createLiteralReal_IN_InteractionConstraint" description="creates one LiteralReal in the context: InteractionConstraint">
+    <parameters xmi:id="_UNs8coGqEeqSC4bGMjXJ9g" name="Value" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Real"/>
+    </parameters>
+    <lhs xmi:id="_UNs8c4GqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_UNs8dIGqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InteractionConstraint"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_UNs8dYGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_UNs8doGqEeqSC4bGMjXJ9g" name="Selected" outgoing="_UNs8eYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InteractionConstraint"/>
+      </nodes>
+      <nodes xmi:id="_UNs8d4GqEeqSC4bGMjXJ9g" name="New" incoming="_UNs8eYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LiteralReal"/>
+        <attributes xmi:id="_UNs8eIGqEeqSC4bGMjXJ9g" value="Value">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LiteralReal/value"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_UNs8eYGqEeqSC4bGMjXJ9g" source="_UNs8doGqEeqSC4bGMjXJ9g" target="_UNs8d4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InteractionConstraint/maxint"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_UNs8eoGqEeqSC4bGMjXJ9g" origin="_UNs8dIGqEeqSC4bGMjXJ9g" image="_UNs8doGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

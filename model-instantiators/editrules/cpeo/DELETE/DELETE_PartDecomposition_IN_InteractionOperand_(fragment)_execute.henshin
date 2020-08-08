@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_063BEIGoEeqjxJ91AzqJlg" name="DELETE_PartDecomposition_IN_InteractionOperand_(fragment)" description="Deletes one PartDecomposition in InteractionOperand">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_063BEYGoEeqjxJ91AzqJlg" name="deletePartDecomposition_IN_InteractionOperand" description="deletes one PartDecomposition in the context: InteractionOperand">
+    <lhs xmi:id="_063BEoGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_063BE4GoEeqjxJ91AzqJlg" name="Selected" incoming="_063BF4GoEeqjxJ91AzqJlg" outgoing="_063BFoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InteractionOperand"/>
+      </nodes>
+      <nodes xmi:id="_063BFIGoEeqjxJ91AzqJlg" name="ToBeDeleted" incoming="_063BFoGoEeqjxJ91AzqJlg" outgoing="_063BF4GoEeqjxJ91AzqJlg _063BGIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//PartDecomposition"/>
+      </nodes>
+      <nodes xmi:id="_063BFYGoEeqjxJ91AzqJlg" name="Existing" incoming="_063BGIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Interaction"/>
+      </nodes>
+      <edges xmi:id="_063BFoGoEeqjxJ91AzqJlg" source="_063BE4GoEeqjxJ91AzqJlg" target="_063BFIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InteractionOperand/fragment"/>
+      </edges>
+      <edges xmi:id="_063BF4GoEeqjxJ91AzqJlg" source="_063BFIGoEeqjxJ91AzqJlg" target="_063BE4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InteractionFragment/enclosingOperand"/>
+      </edges>
+      <edges xmi:id="_063BGIGoEeqjxJ91AzqJlg" source="_063BFIGoEeqjxJ91AzqJlg" target="_063BFYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InteractionUse/refersTo"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_063BGYGoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_063BGoGoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InteractionOperand"/>
+      </nodes>
+      <nodes xmi:id="_063BG4GoEeqjxJ91AzqJlg" name="Existing">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Interaction"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_063BHIGoEeqjxJ91AzqJlg" origin="_063BE4GoEeqjxJ91AzqJlg" image="_063BGoGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_063BHYGoEeqjxJ91AzqJlg" origin="_063BFYGoEeqjxJ91AzqJlg" image="_063BG4GoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UmnywIGqEeqSC4bGMjXJ9g" name="DELETE_PackageImport_IN_Namespace_(packageImport)" description="Deletes one PackageImport in Namespace">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UmnywYGqEeqSC4bGMjXJ9g" name="deletePackageImport_IN_Namespace" description="deletes one PackageImport in the context: Namespace">
+    <lhs xmi:id="_UmnywoGqEeqSC4bGMjXJ9g" name="LHS">
+      <nodes xmi:id="_Umnyw4GqEeqSC4bGMjXJ9g" name="Selected" incoming="_UmnyxoGqEeqSC4bGMjXJ9g" outgoing="_UmnyxYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Namespace"/>
+      </nodes>
+      <nodes xmi:id="_UmnyxIGqEeqSC4bGMjXJ9g" name="ToBeDeleted" incoming="_UmnyxYGqEeqSC4bGMjXJ9g" outgoing="_UmnyxoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//PackageImport"/>
+      </nodes>
+      <edges xmi:id="_UmnyxYGqEeqSC4bGMjXJ9g" source="_Umnyw4GqEeqSC4bGMjXJ9g" target="_UmnyxIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Namespace/packageImport"/>
+      </edges>
+      <edges xmi:id="_UmnyxoGqEeqSC4bGMjXJ9g" source="_UmnyxIGqEeqSC4bGMjXJ9g" target="_Umnyw4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//PackageImport/importingNamespace"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_Umnyx4GqEeqSC4bGMjXJ9g" name="RHS">
+      <nodes xmi:id="_UmnyyIGqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Namespace"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_UmnyyYGqEeqSC4bGMjXJ9g" origin="_Umnyw4GqEeqSC4bGMjXJ9g" image="_UmnyyIGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

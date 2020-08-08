@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_2boQQIGoEeqjxJ91AzqJlg" name="MOVE_Variable_FROM_TemplateParameterSubstitution_(ownedActual)_TO_TemplateParameterSubstitution_(ownedActual)" description="MOVEs Variable from TemplateParameterSubstitution(Reference:ownedActual) to TemplateParameterSubstitution(Reference:ownedActual">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_2boQQYGoEeqjxJ91AzqJlg" name="moveVariable_FROM_TemplateParameterSubstitution_ownedActual_TO_TemplateParameterSubstitution_TemplateParameterSubstitution" description="Moves Variable from TemplateParameterSubstitution(Reference:ownedActual) toTemplateParameterSubstitution(Reference:TemplateParameterSubstitution)">
+    <lhs xmi:id="_2boQQoGoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_2boQQ4GoEeqjxJ91AzqJlg" name="Selected" incoming="_2boQRoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Variable"/>
+      </nodes>
+      <nodes xmi:id="_2boQRIGoEeqjxJ91AzqJlg" name="OldSource" outgoing="_2boQRoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameterSubstitution"/>
+      </nodes>
+      <nodes xmi:id="_2boQRYGoEeqjxJ91AzqJlg" name="NewSource">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameterSubstitution"/>
+      </nodes>
+      <edges xmi:id="_2boQRoGoEeqjxJ91AzqJlg" source="_2boQRIGoEeqjxJ91AzqJlg" target="_2boQQ4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameterSubstitution/ownedActual"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_2boQR4GoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_2boQSIGoEeqjxJ91AzqJlg" name="Selected" incoming="_2boQS4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Variable"/>
+      </nodes>
+      <nodes xmi:id="_2boQSYGoEeqjxJ91AzqJlg" name="OldSource">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameterSubstitution"/>
+      </nodes>
+      <nodes xmi:id="_2boQSoGoEeqjxJ91AzqJlg" name="NewSource" outgoing="_2boQS4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameterSubstitution"/>
+      </nodes>
+      <edges xmi:id="_2boQS4GoEeqjxJ91AzqJlg" source="_2boQSoGoEeqjxJ91AzqJlg" target="_2boQSIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameterSubstitution/ownedActual"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_2boQTIGoEeqjxJ91AzqJlg" origin="_2boQQ4GoEeqjxJ91AzqJlg" image="_2boQSIGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_2boQTYGoEeqjxJ91AzqJlg" origin="_2boQRIGoEeqjxJ91AzqJlg" image="_2boQSYGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_2boQToGoEeqjxJ91AzqJlg" origin="_2boQRYGoEeqjxJ91AzqJlg" image="_2boQSoGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

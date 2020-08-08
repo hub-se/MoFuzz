@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_1vLZ8IGoEeqjxJ91AzqJlg" name="CREATE_LiteralString_IN_Property_(defaultValue)" description="Creates one LiteralString in Property">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_1vMBAIGoEeqjxJ91AzqJlg" name="createLiteralString_IN_Property" description="creates one LiteralString in the context: Property">
+    <lhs xmi:id="_1vMBAYGoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_1vMBAoGoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Property"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_1vMBA4GoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_1vMBBIGoEeqjxJ91AzqJlg" name="Selected" outgoing="_1vMBBoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Property"/>
+      </nodes>
+      <nodes xmi:id="_1vMBBYGoEeqjxJ91AzqJlg" name="New" incoming="_1vMBBoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LiteralString"/>
+      </nodes>
+      <edges xmi:id="_1vMBBoGoEeqjxJ91AzqJlg" source="_1vMBBIGoEeqjxJ91AzqJlg" target="_1vMBBYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Property/defaultValue"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_1vMBB4GoEeqjxJ91AzqJlg" origin="_1vMBAoGoEeqjxJ91AzqJlg" image="_1vMBBIGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

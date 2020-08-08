@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_15BScIGoEeqjxJ91AzqJlg" name="CREATE_Duration_IN_TimeExpression_(expr)" description="Creates one Duration in TimeExpression">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_15BScYGoEeqjxJ91AzqJlg" name="createDuration_IN_TimeExpression" description="creates one Duration in the context: TimeExpression">
+    <lhs xmi:id="_15BScoGoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_15BSc4GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TimeExpression"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_15BSdIGoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_15BSdYGoEeqjxJ91AzqJlg" name="Selected" outgoing="_15BSd4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TimeExpression"/>
+      </nodes>
+      <nodes xmi:id="_15BSdoGoEeqjxJ91AzqJlg" name="New" incoming="_15BSd4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Duration"/>
+      </nodes>
+      <edges xmi:id="_15BSd4GoEeqjxJ91AzqJlg" source="_15BSdYGoEeqjxJ91AzqJlg" target="_15BSdoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TimeExpression/expr"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_15BSeIGoEeqjxJ91AzqJlg" origin="_15BSc4GoEeqjxJ91AzqJlg" image="_15BSdYGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

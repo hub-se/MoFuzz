@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UNJi0IGqEeqSC4bGMjXJ9g" name="CREATE_Interval_IN_ActivityEdge_(weight)" description="Creates one Interval in ActivityEdge">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UNJi0YGqEeqSC4bGMjXJ9g" name="createInterval_IN_ActivityEdge" description="creates one Interval in the context: ActivityEdge">
+    <lhs xmi:id="_UNJi0oGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_UNJi04GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityEdge"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_UNJi1IGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_UNJi1YGqEeqSC4bGMjXJ9g" name="Selected" outgoing="_UNJi14GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityEdge"/>
+      </nodes>
+      <nodes xmi:id="_UNJi1oGqEeqSC4bGMjXJ9g" name="New" incoming="_UNJi14GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Interval"/>
+      </nodes>
+      <edges xmi:id="_UNJi14GqEeqSC4bGMjXJ9g" source="_UNJi1YGqEeqSC4bGMjXJ9g" target="_UNJi1oGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityEdge/weight"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_UNJi2IGqEeqSC4bGMjXJ9g" origin="_UNJi04GqEeqSC4bGMjXJ9g" image="_UNJi1YGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UL_FMIGqEeqSC4bGMjXJ9g" name="CREATE_LiteralBoolean_IN_InstanceSpecification_(specification)" description="Creates one LiteralBoolean in InstanceSpecification">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UL_FMYGqEeqSC4bGMjXJ9g" name="createLiteralBoolean_IN_InstanceSpecification" description="creates one LiteralBoolean in the context: InstanceSpecification">
+    <parameters xmi:id="_UL_FMoGqEeqSC4bGMjXJ9g" name="Value" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <lhs xmi:id="_UL_FM4GqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_UL_FNIGqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InstanceSpecification"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_UL_FNYGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_UL_FNoGqEeqSC4bGMjXJ9g" name="Selected" outgoing="_UL_FOYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InstanceSpecification"/>
+      </nodes>
+      <nodes xmi:id="_UL_FN4GqEeqSC4bGMjXJ9g" name="New" incoming="_UL_FOYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LiteralBoolean"/>
+        <attributes xmi:id="_UL_FOIGqEeqSC4bGMjXJ9g" value="Value">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LiteralBoolean/value"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_UL_FOYGqEeqSC4bGMjXJ9g" source="_UL_FNoGqEeqSC4bGMjXJ9g" target="_UL_FN4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InstanceSpecification/specification"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_UL_FOoGqEeqSC4bGMjXJ9g" origin="_UL_FNIGqEeqSC4bGMjXJ9g" image="_UL_FNoGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

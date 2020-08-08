@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_11caAIGoEeqjxJ91AzqJlg" name="CREATE_Activity_IN_Interface_(nestedClassifier)" description="Creates one Activity in Interface">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_11caAYGoEeqjxJ91AzqJlg" name="createActivity_IN_Interface" description="creates one Activity in the context: Interface">
+    <parameters xmi:id="_11caAoGoEeqjxJ91AzqJlg" name="IsLeaf" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <parameters xmi:id="_11caA4GoEeqjxJ91AzqJlg" name="IsAbstract" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <parameters xmi:id="_11caBIGoEeqjxJ91AzqJlg" name="IsFinalSpecialization" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <parameters xmi:id="_11caBYGoEeqjxJ91AzqJlg" name="IsActive" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <parameters xmi:id="_11caBoGoEeqjxJ91AzqJlg" name="IsReadOnly" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <parameters xmi:id="_11caB4GoEeqjxJ91AzqJlg" name="IsSingleExecution" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <lhs xmi:id="_11caCIGoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_11caCYGoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Interface"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_11caCoGoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_11caC4GoEeqjxJ91AzqJlg" name="Selected" outgoing="_11caE4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Interface"/>
+      </nodes>
+      <nodes xmi:id="_11caDIGoEeqjxJ91AzqJlg" name="New" incoming="_11caE4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Activity"/>
+        <attributes xmi:id="_11caDYGoEeqjxJ91AzqJlg" value="IsLeaf">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//RedefinableElement/isLeaf"/>
+        </attributes>
+        <attributes xmi:id="_11caDoGoEeqjxJ91AzqJlg" value="IsAbstract">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier/isAbstract"/>
+        </attributes>
+        <attributes xmi:id="_11caD4GoEeqjxJ91AzqJlg" value="IsFinalSpecialization">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier/isFinalSpecialization"/>
+        </attributes>
+        <attributes xmi:id="_11caEIGoEeqjxJ91AzqJlg" value="IsActive">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Class/isActive"/>
+        </attributes>
+        <attributes xmi:id="_11caEYGoEeqjxJ91AzqJlg" value="IsReadOnly">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Activity/isReadOnly"/>
+        </attributes>
+        <attributes xmi:id="_11caEoGoEeqjxJ91AzqJlg" value="IsSingleExecution">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Activity/isSingleExecution"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_11caE4GoEeqjxJ91AzqJlg" source="_11caC4GoEeqjxJ91AzqJlg" target="_11caDIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Interface/nestedClassifier"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_11caFIGoEeqjxJ91AzqJlg" origin="_11caCYGoEeqjxJ91AzqJlg" image="_11caC4GoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

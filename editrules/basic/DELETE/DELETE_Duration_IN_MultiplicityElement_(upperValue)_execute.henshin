@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UyENwIGqEeqSC4bGMjXJ9g" name="DELETE_Duration_IN_MultiplicityElement_(upperValue)" description="Deletes one Duration in MultiplicityElement">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UyENwYGqEeqSC4bGMjXJ9g" name="deleteDuration_IN_MultiplicityElement" description="deletes one Duration in the context: MultiplicityElement">
+    <lhs xmi:id="_UyENwoGqEeqSC4bGMjXJ9g" name="LHS">
+      <nodes xmi:id="_UyENw4GqEeqSC4bGMjXJ9g" name="Selected" outgoing="_UyENxYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//MultiplicityElement"/>
+      </nodes>
+      <nodes xmi:id="_UyENxIGqEeqSC4bGMjXJ9g" name="ToBeDeleted" incoming="_UyENxYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Duration"/>
+      </nodes>
+      <edges xmi:id="_UyENxYGqEeqSC4bGMjXJ9g" source="_UyENw4GqEeqSC4bGMjXJ9g" target="_UyENxIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//MultiplicityElement/upperValue"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_UyENxoGqEeqSC4bGMjXJ9g" name="RHS">
+      <nodes xmi:id="_UyENx4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//MultiplicityElement"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_UyENyIGqEeqSC4bGMjXJ9g" origin="_UyENw4GqEeqSC4bGMjXJ9g" image="_UyENx4GqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

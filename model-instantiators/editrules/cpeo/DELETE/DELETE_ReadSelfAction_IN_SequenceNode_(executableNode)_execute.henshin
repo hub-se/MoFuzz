@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_1BMSkIGoEeqjxJ91AzqJlg" name="DELETE_ReadSelfAction_IN_SequenceNode_(executableNode)" description="Deletes one ReadSelfAction in SequenceNode">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_1BMSkYGoEeqjxJ91AzqJlg" name="deleteReadSelfAction_IN_SequenceNode" description="deletes one ReadSelfAction in the context: SequenceNode">
+    <lhs xmi:id="_1BMSkoGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_1BMSk4GoEeqjxJ91AzqJlg" name="Selected" outgoing="_1BMSloGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//SequenceNode"/>
+      </nodes>
+      <nodes xmi:id="_1BMSlIGoEeqjxJ91AzqJlg" name="ToBeDeleted" incoming="_1BMSloGoEeqjxJ91AzqJlg" outgoing="_1BMSl4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ReadSelfAction"/>
+      </nodes>
+      <nodes xmi:id="_1BMSlYGoEeqjxJ91AzqJlg" name="Child" incoming="_1BMSl4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//OutputPin"/>
+      </nodes>
+      <edges xmi:id="_1BMSloGoEeqjxJ91AzqJlg" source="_1BMSk4GoEeqjxJ91AzqJlg" target="_1BMSlIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//SequenceNode/executableNode"/>
+      </edges>
+      <edges xmi:id="_1BMSl4GoEeqjxJ91AzqJlg" source="_1BMSlIGoEeqjxJ91AzqJlg" target="_1BMSlYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ReadSelfAction/result"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_1BMSmIGoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_1BMSmYGoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//SequenceNode"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_1BMSmoGoEeqjxJ91AzqJlg" origin="_1BMSk4GoEeqjxJ91AzqJlg" image="_1BMSmYGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

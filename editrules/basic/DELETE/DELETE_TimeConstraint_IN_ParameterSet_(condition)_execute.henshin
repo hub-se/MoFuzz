@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_Un3I4IGqEeqSC4bGMjXJ9g" name="DELETE_TimeConstraint_IN_ParameterSet_(condition)" description="Deletes one TimeConstraint in ParameterSet">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_Un3I4YGqEeqSC4bGMjXJ9g" name="deleteTimeConstraint_IN_ParameterSet" description="deletes one TimeConstraint in the context: ParameterSet">
+    <lhs xmi:id="_Un3I4oGqEeqSC4bGMjXJ9g" name="LHS">
+      <nodes xmi:id="_Un3I44GqEeqSC4bGMjXJ9g" name="Selected" outgoing="_Un3I5YGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ParameterSet"/>
+      </nodes>
+      <nodes xmi:id="_Un3I5IGqEeqSC4bGMjXJ9g" name="ToBeDeleted" incoming="_Un3I5YGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TimeConstraint"/>
+      </nodes>
+      <edges xmi:id="_Un3I5YGqEeqSC4bGMjXJ9g" source="_Un3I44GqEeqSC4bGMjXJ9g" target="_Un3I5IGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ParameterSet/condition"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_Un3I5oGqEeqSC4bGMjXJ9g" name="RHS">
+      <nodes xmi:id="_Un3I54GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ParameterSet"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_Un3I6IGqEeqSC4bGMjXJ9g" origin="_Un3I44GqEeqSC4bGMjXJ9g" image="_Un3I54GqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

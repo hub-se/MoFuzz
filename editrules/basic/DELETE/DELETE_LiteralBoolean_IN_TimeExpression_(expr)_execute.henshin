@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_Uix0kIGqEeqSC4bGMjXJ9g" name="DELETE_LiteralBoolean_IN_TimeExpression_(expr)" description="Deletes one LiteralBoolean in TimeExpression">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_Uix0kYGqEeqSC4bGMjXJ9g" name="deleteLiteralBoolean_IN_TimeExpression" description="deletes one LiteralBoolean in the context: TimeExpression">
+    <lhs xmi:id="_Uix0koGqEeqSC4bGMjXJ9g" name="LHS">
+      <nodes xmi:id="_Uix0k4GqEeqSC4bGMjXJ9g" name="Selected" outgoing="_Uix0lYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TimeExpression"/>
+      </nodes>
+      <nodes xmi:id="_Uix0lIGqEeqSC4bGMjXJ9g" name="ToBeDeleted" incoming="_Uix0lYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LiteralBoolean"/>
+      </nodes>
+      <edges xmi:id="_Uix0lYGqEeqSC4bGMjXJ9g" source="_Uix0k4GqEeqSC4bGMjXJ9g" target="_Uix0lIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TimeExpression/expr"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_Uix0loGqEeqSC4bGMjXJ9g" name="RHS">
+      <nodes xmi:id="_Uix0l4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TimeExpression"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_Uix0mIGqEeqSC4bGMjXJ9g" origin="_Uix0k4GqEeqSC4bGMjXJ9g" image="_Uix0l4GqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

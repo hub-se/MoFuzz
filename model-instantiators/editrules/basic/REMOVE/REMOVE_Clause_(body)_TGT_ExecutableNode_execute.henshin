@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_TcQ4cIGqEeqSC4bGMjXJ9g" name="REMOVE_Clause_(body)_TGT_ExecutableNode" description="Removes Clause's reference body the target ExecutableNode">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_TcQ4cYGqEeqSC4bGMjXJ9g" name="removeFromClause_body_ExecutableNode" description="Removes from Clause's reference body the target ExecutableNode">
+    <lhs xmi:id="_TcQ4coGqEeqSC4bGMjXJ9g" name="LHS">
+      <nodes xmi:id="_TcQ4c4GqEeqSC4bGMjXJ9g" name="Selected" outgoing="_TcQ4dYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Clause"/>
+      </nodes>
+      <nodes xmi:id="_TcQ4dIGqEeqSC4bGMjXJ9g" name="OldTarget" incoming="_TcQ4dYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ExecutableNode"/>
+      </nodes>
+      <edges xmi:id="_TcQ4dYGqEeqSC4bGMjXJ9g" source="_TcQ4c4GqEeqSC4bGMjXJ9g" target="_TcQ4dIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Clause/body"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_TcQ4doGqEeqSC4bGMjXJ9g" name="RHS">
+      <nodes xmi:id="_TcQ4d4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Clause"/>
+      </nodes>
+      <nodes xmi:id="_TcQ4eIGqEeqSC4bGMjXJ9g" name="OldTarget">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ExecutableNode"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_TcQ4eYGqEeqSC4bGMjXJ9g" origin="_TcQ4c4GqEeqSC4bGMjXJ9g" image="_TcQ4d4GqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_TcQ4eoGqEeqSC4bGMjXJ9g" origin="_TcQ4dIGqEeqSC4bGMjXJ9g" image="_TcQ4eIGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

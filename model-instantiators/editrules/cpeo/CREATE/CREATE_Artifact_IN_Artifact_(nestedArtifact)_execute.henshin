@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_1rRKUIGoEeqjxJ91AzqJlg" name="CREATE_Artifact_IN_Artifact_(nestedArtifact)" description="Creates one Artifact in Artifact">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_1rRKUYGoEeqjxJ91AzqJlg" name="createArtifact_IN_Artifact" description="creates one Artifact in the context: Artifact">
+    <parameters xmi:id="_1rRKUoGoEeqjxJ91AzqJlg" name="IsLeaf" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <parameters xmi:id="_1rRKU4GoEeqjxJ91AzqJlg" name="IsAbstract" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <parameters xmi:id="_1rRKVIGoEeqjxJ91AzqJlg" name="IsFinalSpecialization" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <lhs xmi:id="_1rRKVYGoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_1rRKVoGoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Artifact"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_1rRKV4GoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_1rRKWIGoEeqjxJ91AzqJlg" name="Selected" outgoing="_1rRKXYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Artifact"/>
+      </nodes>
+      <nodes xmi:id="_1rRKWYGoEeqjxJ91AzqJlg" name="New" incoming="_1rRKXYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Artifact"/>
+        <attributes xmi:id="_1rRKWoGoEeqjxJ91AzqJlg" value="IsLeaf">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//RedefinableElement/isLeaf"/>
+        </attributes>
+        <attributes xmi:id="_1rRKW4GoEeqjxJ91AzqJlg" value="IsAbstract">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier/isAbstract"/>
+        </attributes>
+        <attributes xmi:id="_1rRKXIGoEeqjxJ91AzqJlg" value="IsFinalSpecialization">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier/isFinalSpecialization"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_1rRKXYGoEeqjxJ91AzqJlg" source="_1rRKWIGoEeqjxJ91AzqJlg" target="_1rRKWYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Artifact/nestedArtifact"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_1rRKXoGoEeqjxJ91AzqJlg" origin="_1rRKVoGoEeqjxJ91AzqJlg" image="_1rRKWIGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

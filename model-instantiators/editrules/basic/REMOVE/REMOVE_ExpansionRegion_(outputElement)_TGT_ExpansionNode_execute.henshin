@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_TZDzcIGqEeqSC4bGMjXJ9g" name="REMOVE_ExpansionRegion_(outputElement)_TGT_ExpansionNode" description="Removes ExpansionRegion's reference outputElement the target ExpansionNode">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_TZDzcYGqEeqSC4bGMjXJ9g" name="removeFromExpansionRegion_outputElement_ExpansionNode" description="Removes from ExpansionRegion's reference outputElement the target ExpansionNode">
+    <lhs xmi:id="_TZDzcoGqEeqSC4bGMjXJ9g" name="LHS">
+      <nodes xmi:id="_TZDzc4GqEeqSC4bGMjXJ9g" name="Selected" incoming="_TZDzdoGqEeqSC4bGMjXJ9g" outgoing="_TZDzdYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ExpansionRegion"/>
+      </nodes>
+      <nodes xmi:id="_TZDzdIGqEeqSC4bGMjXJ9g" name="OldTarget" incoming="_TZDzdYGqEeqSC4bGMjXJ9g" outgoing="_TZDzdoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ExpansionNode"/>
+      </nodes>
+      <edges xmi:id="_TZDzdYGqEeqSC4bGMjXJ9g" source="_TZDzc4GqEeqSC4bGMjXJ9g" target="_TZDzdIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ExpansionRegion/outputElement"/>
+      </edges>
+      <edges xmi:id="_TZDzdoGqEeqSC4bGMjXJ9g" source="_TZDzdIGqEeqSC4bGMjXJ9g" target="_TZDzc4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ExpansionNode/regionAsOutput"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_TZDzd4GqEeqSC4bGMjXJ9g" name="RHS">
+      <nodes xmi:id="_TZDzeIGqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ExpansionRegion"/>
+      </nodes>
+      <nodes xmi:id="_TZDzeYGqEeqSC4bGMjXJ9g" name="OldTarget">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ExpansionNode"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_TZDzeoGqEeqSC4bGMjXJ9g" origin="_TZDzc4GqEeqSC4bGMjXJ9g" image="_TZDzeIGqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_TZDze4GqEeqSC4bGMjXJ9g" origin="_TZDzdIGqEeqSC4bGMjXJ9g" image="_TZDzeYGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

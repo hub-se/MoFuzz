@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_1jfuYIGoEeqjxJ91AzqJlg" name="ADD_Property_(redefinedProperty)_TGT_Property" description="Adds to Property's reference redefinedProperty the target Property">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_1jfuYYGoEeqjxJ91AzqJlg" name="addToProperty_redefinedProperty_Property" description="Adds to Property's reference redefinedProperty the target Property">
+    <lhs xmi:id="_1jfuYoGoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_1jfuY4GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Property"/>
+      </nodes>
+      <nodes xmi:id="_1jfuZIGoEeqjxJ91AzqJlg" name="NewTarget">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Property"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_1jfuZYGoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_1jfuZoGoEeqjxJ91AzqJlg" name="Selected" outgoing="_1jfuaIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Property"/>
+      </nodes>
+      <nodes xmi:id="_1jfuZ4GoEeqjxJ91AzqJlg" name="NewTarget" incoming="_1jfuaIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Property"/>
+      </nodes>
+      <edges xmi:id="_1jfuaIGoEeqjxJ91AzqJlg" source="_1jfuZoGoEeqjxJ91AzqJlg" target="_1jfuZ4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Property/redefinedProperty"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_1jfuaYGoEeqjxJ91AzqJlg" origin="_1jfuY4GoEeqjxJ91AzqJlg" image="_1jfuZoGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_1jfuaoGoEeqjxJ91AzqJlg" origin="_1jfuZIGoEeqjxJ91AzqJlg" image="_1jfuZ4GoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

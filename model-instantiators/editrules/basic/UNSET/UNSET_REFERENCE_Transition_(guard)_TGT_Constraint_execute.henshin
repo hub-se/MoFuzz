@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UiVvsIGqEeqSC4bGMjXJ9g" name="UNSET_REFERENCE_Transition_(guard)_TGT_Constraint" description="Sets Transition's reference guard the target Constraint">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UiVvsYGqEeqSC4bGMjXJ9g" name="setTransition_guard_TO_Constraint" description="SetTransitionRefguardToConstraint">
+    <lhs xmi:id="_UiVvsoGqEeqSC4bGMjXJ9g" name="LHS">
+      <nodes xmi:id="_UiVvs4GqEeqSC4bGMjXJ9g" name="Selected" outgoing="_UiVvtYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Transition"/>
+      </nodes>
+      <nodes xmi:id="_UiVvtIGqEeqSC4bGMjXJ9g" name="NewTarget" incoming="_UiVvtYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Constraint"/>
+      </nodes>
+      <edges xmi:id="_UiVvtYGqEeqSC4bGMjXJ9g" source="_UiVvs4GqEeqSC4bGMjXJ9g" target="_UiVvtIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Transition/guard"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_UiVvtoGqEeqSC4bGMjXJ9g" name="RHS">
+      <nodes xmi:id="_UiVvt4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Transition"/>
+      </nodes>
+      <nodes xmi:id="_UiVvuIGqEeqSC4bGMjXJ9g" name="NewTarget">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Constraint"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_UiVvuYGqEeqSC4bGMjXJ9g" origin="_UiVvs4GqEeqSC4bGMjXJ9g" image="_UiVvt4GqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_UiVvuoGqEeqSC4bGMjXJ9g" origin="_UiVvtIGqEeqSC4bGMjXJ9g" image="_UiVvuIGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

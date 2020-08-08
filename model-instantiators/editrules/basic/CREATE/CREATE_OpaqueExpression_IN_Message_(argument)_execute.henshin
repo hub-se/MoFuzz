@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UP-NUIGqEeqSC4bGMjXJ9g" name="CREATE_OpaqueExpression_IN_Message_(argument)" description="Creates one OpaqueExpression in Message">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UP-NUYGqEeqSC4bGMjXJ9g" name="createOpaqueExpression_IN_Message" description="creates one OpaqueExpression in the context: Message">
+    <lhs xmi:id="_UP-NUoGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_UP-NU4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Message"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_UP-NVIGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_UP-NVYGqEeqSC4bGMjXJ9g" name="Selected" outgoing="_UP-NV4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Message"/>
+      </nodes>
+      <nodes xmi:id="_UP-NVoGqEeqSC4bGMjXJ9g" name="New" incoming="_UP-NV4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//OpaqueExpression"/>
+      </nodes>
+      <edges xmi:id="_UP-NV4GqEeqSC4bGMjXJ9g" source="_UP-NVYGqEeqSC4bGMjXJ9g" target="_UP-NVoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Message/argument"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_UP-NWIGqEeqSC4bGMjXJ9g" origin="_UP-NU4GqEeqSC4bGMjXJ9g" image="_UP-NVYGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

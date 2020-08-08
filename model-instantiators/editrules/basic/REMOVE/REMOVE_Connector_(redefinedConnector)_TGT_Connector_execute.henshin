@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_TVe7AIGqEeqSC4bGMjXJ9g" name="REMOVE_Connector_(redefinedConnector)_TGT_Connector" description="Removes Connector's reference redefinedConnector the target Connector">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_TVe7AYGqEeqSC4bGMjXJ9g" name="removeFromConnector_redefinedConnector_Connector" description="Removes from Connector's reference redefinedConnector the target Connector">
+    <lhs xmi:id="_TVe7AoGqEeqSC4bGMjXJ9g" name="LHS">
+      <nodes xmi:id="_TVe7A4GqEeqSC4bGMjXJ9g" name="Selected" outgoing="_TVe7BYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Connector"/>
+      </nodes>
+      <nodes xmi:id="_TVe7BIGqEeqSC4bGMjXJ9g" name="OldTarget" incoming="_TVe7BYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Connector"/>
+      </nodes>
+      <edges xmi:id="_TVe7BYGqEeqSC4bGMjXJ9g" source="_TVe7A4GqEeqSC4bGMjXJ9g" target="_TVe7BIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Connector/redefinedConnector"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_TVe7BoGqEeqSC4bGMjXJ9g" name="RHS">
+      <nodes xmi:id="_TVe7B4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Connector"/>
+      </nodes>
+      <nodes xmi:id="_TVe7CIGqEeqSC4bGMjXJ9g" name="OldTarget">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Connector"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_TVe7CYGqEeqSC4bGMjXJ9g" origin="_TVe7A4GqEeqSC4bGMjXJ9g" image="_TVe7B4GqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_TVe7CoGqEeqSC4bGMjXJ9g" origin="_TVe7BIGqEeqSC4bGMjXJ9g" image="_TVe7CIGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

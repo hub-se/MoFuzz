@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UWx_8IGqEeqSC4bGMjXJ9g" name="CREATE_LiteralReal_IN_ObjectNode_(upperBound)" description="Creates one LiteralReal in ObjectNode">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UWx_8YGqEeqSC4bGMjXJ9g" name="createLiteralReal_IN_ObjectNode" description="creates one LiteralReal in the context: ObjectNode">
+    <parameters xmi:id="_UWx_8oGqEeqSC4bGMjXJ9g" name="Value" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Real"/>
+    </parameters>
+    <lhs xmi:id="_UWx_84GqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_UWx_9IGqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ObjectNode"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_UWx_9YGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_UWx_9oGqEeqSC4bGMjXJ9g" name="Selected" outgoing="_UWx_-YGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ObjectNode"/>
+      </nodes>
+      <nodes xmi:id="_UWx_94GqEeqSC4bGMjXJ9g" name="New" incoming="_UWx_-YGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LiteralReal"/>
+        <attributes xmi:id="_UWx_-IGqEeqSC4bGMjXJ9g" value="Value">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LiteralReal/value"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_UWx_-YGqEeqSC4bGMjXJ9g" source="_UWx_9oGqEeqSC4bGMjXJ9g" target="_UWx_94GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ObjectNode/upperBound"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_UWx_-oGqEeqSC4bGMjXJ9g" origin="_UWx_9IGqEeqSC4bGMjXJ9g" image="_UWx_9oGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

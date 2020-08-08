@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_U-UhEIGqEeqSC4bGMjXJ9g" name="ADD_FunctionBehavior_(useCase)_TGT_UseCase" description="Adds to FunctionBehavior's reference useCase the target UseCase">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_U-UhEYGqEeqSC4bGMjXJ9g" name="addToFunctionBehavior_useCase_UseCase" description="Adds to FunctionBehavior's reference useCase the target UseCase">
+    <lhs xmi:id="_U-UhEoGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_U-UhE4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//FunctionBehavior"/>
+      </nodes>
+      <nodes xmi:id="_U-UhFIGqEeqSC4bGMjXJ9g" name="NewTarget">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//UseCase"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_U-UhFYGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_U-UhFoGqEeqSC4bGMjXJ9g" name="Selected" incoming="_U-UhGYGqEeqSC4bGMjXJ9g" outgoing="_U-UhGIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//FunctionBehavior"/>
+      </nodes>
+      <nodes xmi:id="_U-UhF4GqEeqSC4bGMjXJ9g" name="NewTarget" incoming="_U-UhGIGqEeqSC4bGMjXJ9g" outgoing="_U-UhGYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//UseCase"/>
+      </nodes>
+      <edges xmi:id="_U-UhGIGqEeqSC4bGMjXJ9g" source="_U-UhFoGqEeqSC4bGMjXJ9g" target="_U-UhF4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier/useCase"/>
+      </edges>
+      <edges xmi:id="_U-UhGYGqEeqSC4bGMjXJ9g" source="_U-UhF4GqEeqSC4bGMjXJ9g" target="_U-UhFoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//UseCase/subject"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_U-UhGoGqEeqSC4bGMjXJ9g" origin="_U-UhE4GqEeqSC4bGMjXJ9g" image="_U-UhFoGqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_U-UhG4GqEeqSC4bGMjXJ9g" origin="_U-UhFIGqEeqSC4bGMjXJ9g" image="_U-UhF4GqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

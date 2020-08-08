@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_Us1vgIGqEeqSC4bGMjXJ9g" name="DELETE_Deployment_IN_CollaborationUse_(roleBinding)" description="Deletes one Deployment in CollaborationUse">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_Us1vgYGqEeqSC4bGMjXJ9g" name="deleteDeployment_IN_CollaborationUse" description="deletes one Deployment in the context: CollaborationUse">
+    <lhs xmi:id="_Us1vgoGqEeqSC4bGMjXJ9g" name="LHS">
+      <nodes xmi:id="_Us1vg4GqEeqSC4bGMjXJ9g" name="Selected" outgoing="_Us1vhYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//CollaborationUse"/>
+      </nodes>
+      <nodes xmi:id="_Us1vhIGqEeqSC4bGMjXJ9g" name="ToBeDeleted" incoming="_Us1vhYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Deployment"/>
+      </nodes>
+      <edges xmi:id="_Us1vhYGqEeqSC4bGMjXJ9g" source="_Us1vg4GqEeqSC4bGMjXJ9g" target="_Us1vhIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//CollaborationUse/roleBinding"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_Us1vhoGqEeqSC4bGMjXJ9g" name="RHS">
+      <nodes xmi:id="_Us1vh4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//CollaborationUse"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_Us1viIGqEeqSC4bGMjXJ9g" origin="_Us1vg4GqEeqSC4bGMjXJ9g" image="_Us1vh4GqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

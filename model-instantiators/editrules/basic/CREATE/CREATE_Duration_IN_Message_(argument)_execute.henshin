@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UXntcIGqEeqSC4bGMjXJ9g" name="CREATE_Duration_IN_Message_(argument)" description="Creates one Duration in Message">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UXntcYGqEeqSC4bGMjXJ9g" name="createDuration_IN_Message" description="creates one Duration in the context: Message">
+    <lhs xmi:id="_UXntcoGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_UXntc4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Message"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_UXntdIGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_UXntdYGqEeqSC4bGMjXJ9g" name="Selected" outgoing="_UXntd4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Message"/>
+      </nodes>
+      <nodes xmi:id="_UXntdoGqEeqSC4bGMjXJ9g" name="New" incoming="_UXntd4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Duration"/>
+      </nodes>
+      <edges xmi:id="_UXntd4GqEeqSC4bGMjXJ9g" source="_UXntdYGqEeqSC4bGMjXJ9g" target="_UXntdoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Message/argument"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_UXnteIGqEeqSC4bGMjXJ9g" origin="_UXntc4GqEeqSC4bGMjXJ9g" image="_UXntdYGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

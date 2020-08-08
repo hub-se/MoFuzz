@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_2QKAEIGoEeqjxJ91AzqJlg" name="MOVE_ConditionalNode_FROM_SequenceNode_(executableNode)_TO_SequenceNode_(executableNode)" description="MOVEs ConditionalNode from SequenceNode(Reference:executableNode) to SequenceNode(Reference:executableNode">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_2QKAEYGoEeqjxJ91AzqJlg" name="moveConditionalNode_FROM_SequenceNode_executableNode_TO_SequenceNode_SequenceNode" description="Moves ConditionalNode from SequenceNode(Reference:executableNode) toSequenceNode(Reference:SequenceNode)">
+    <lhs xmi:id="_2QKAEoGoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_2QKAE4GoEeqjxJ91AzqJlg" name="Selected" incoming="_2QKAFoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ConditionalNode"/>
+      </nodes>
+      <nodes xmi:id="_2QKAFIGoEeqjxJ91AzqJlg" name="OldSource" outgoing="_2QKAFoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//SequenceNode"/>
+      </nodes>
+      <nodes xmi:id="_2QKAFYGoEeqjxJ91AzqJlg" name="NewSource">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//SequenceNode"/>
+      </nodes>
+      <edges xmi:id="_2QKAFoGoEeqjxJ91AzqJlg" source="_2QKAFIGoEeqjxJ91AzqJlg" target="_2QKAE4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//SequenceNode/executableNode"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_2QKAF4GoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_2QKAGIGoEeqjxJ91AzqJlg" name="Selected" incoming="_2QKAG4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ConditionalNode"/>
+      </nodes>
+      <nodes xmi:id="_2QKAGYGoEeqjxJ91AzqJlg" name="OldSource">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//SequenceNode"/>
+      </nodes>
+      <nodes xmi:id="_2QKAGoGoEeqjxJ91AzqJlg" name="NewSource" outgoing="_2QKAG4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//SequenceNode"/>
+      </nodes>
+      <edges xmi:id="_2QKAG4GoEeqjxJ91AzqJlg" source="_2QKAGoGoEeqjxJ91AzqJlg" target="_2QKAGIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//SequenceNode/executableNode"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_2QKAHIGoEeqjxJ91AzqJlg" origin="_2QKAE4GoEeqjxJ91AzqJlg" image="_2QKAGIGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_2QKAHYGoEeqjxJ91AzqJlg" origin="_2QKAFIGoEeqjxJ91AzqJlg" image="_2QKAGYGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_2QKAHoGoEeqjxJ91AzqJlg" origin="_2QKAFYGoEeqjxJ91AzqJlg" image="_2QKAGoGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

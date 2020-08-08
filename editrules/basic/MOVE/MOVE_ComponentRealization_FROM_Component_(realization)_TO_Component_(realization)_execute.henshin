@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_T0-6cIGqEeqSC4bGMjXJ9g" name="MOVE_ComponentRealization_FROM_Component_(realization)_TO_Component_(realization)" description="MOVEs ComponentRealization from Component(Reference:realization) to Component(Reference:realization">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_T0-6cYGqEeqSC4bGMjXJ9g" name="moveComponentRealization_FROM_Component_realization_TO_Component_Component" description="Moves ComponentRealization from Component(Reference:realization) toComponent(Reference:Component)">
+    <lhs xmi:id="_T0-6coGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_T0-6c4GqEeqSC4bGMjXJ9g" name="Selected" incoming="_T0-6doGqEeqSC4bGMjXJ9g" outgoing="_T0-6d4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ComponentRealization"/>
+      </nodes>
+      <nodes xmi:id="_T0-6dIGqEeqSC4bGMjXJ9g" name="OldSource" incoming="_T0-6d4GqEeqSC4bGMjXJ9g" outgoing="_T0-6doGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Component"/>
+      </nodes>
+      <nodes xmi:id="_T0-6dYGqEeqSC4bGMjXJ9g" name="NewSource">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Component"/>
+      </nodes>
+      <edges xmi:id="_T0-6doGqEeqSC4bGMjXJ9g" source="_T0-6dIGqEeqSC4bGMjXJ9g" target="_T0-6c4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Component/realization"/>
+      </edges>
+      <edges xmi:id="_T0-6d4GqEeqSC4bGMjXJ9g" source="_T0-6c4GqEeqSC4bGMjXJ9g" target="_T0-6dIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ComponentRealization/abstraction"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_T0-6eIGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_T0-6eYGqEeqSC4bGMjXJ9g" name="Selected" incoming="_T0-6fIGqEeqSC4bGMjXJ9g" outgoing="_T0-6fYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ComponentRealization"/>
+      </nodes>
+      <nodes xmi:id="_T0-6eoGqEeqSC4bGMjXJ9g" name="OldSource">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Component"/>
+      </nodes>
+      <nodes xmi:id="_T0-6e4GqEeqSC4bGMjXJ9g" name="NewSource" incoming="_T0-6fYGqEeqSC4bGMjXJ9g" outgoing="_T0-6fIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Component"/>
+      </nodes>
+      <edges xmi:id="_T0-6fIGqEeqSC4bGMjXJ9g" source="_T0-6e4GqEeqSC4bGMjXJ9g" target="_T0-6eYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Component/realization"/>
+      </edges>
+      <edges xmi:id="_T0-6fYGqEeqSC4bGMjXJ9g" source="_T0-6eYGqEeqSC4bGMjXJ9g" target="_T0-6e4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ComponentRealization/abstraction"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_T0-6foGqEeqSC4bGMjXJ9g" origin="_T0-6c4GqEeqSC4bGMjXJ9g" image="_T0-6eYGqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_T0-6f4GqEeqSC4bGMjXJ9g" origin="_T0-6dIGqEeqSC4bGMjXJ9g" image="_T0-6eoGqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_T0-6gIGqEeqSC4bGMjXJ9g" origin="_T0-6dYGqEeqSC4bGMjXJ9g" image="_T0-6e4GqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

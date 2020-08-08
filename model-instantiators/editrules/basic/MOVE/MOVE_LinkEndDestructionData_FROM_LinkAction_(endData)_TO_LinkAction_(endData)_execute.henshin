@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_TzJHYIGqEeqSC4bGMjXJ9g" name="MOVE_LinkEndDestructionData_FROM_LinkAction_(endData)_TO_LinkAction_(endData)" description="MOVEs LinkEndDestructionData from LinkAction(Reference:endData) to LinkAction(Reference:endData">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_TzJHYYGqEeqSC4bGMjXJ9g" name="moveLinkEndDestructionData_FROM_LinkAction_endData_TO_LinkAction_LinkAction" description="Moves LinkEndDestructionData from LinkAction(Reference:endData) toLinkAction(Reference:LinkAction)">
+    <lhs xmi:id="_TzJHYoGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_TzJHY4GqEeqSC4bGMjXJ9g" name="Selected" incoming="_TzJHZoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LinkEndDestructionData"/>
+      </nodes>
+      <nodes xmi:id="_TzJHZIGqEeqSC4bGMjXJ9g" name="OldSource" outgoing="_TzJHZoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//DestroyLinkAction"/>
+      </nodes>
+      <nodes xmi:id="_TzJHZYGqEeqSC4bGMjXJ9g" name="NewSource">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//DestroyLinkAction"/>
+      </nodes>
+      <edges xmi:id="_TzJHZoGqEeqSC4bGMjXJ9g" source="_TzJHZIGqEeqSC4bGMjXJ9g" target="_TzJHY4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LinkAction/endData"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_TzJHZ4GqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_TzJHaIGqEeqSC4bGMjXJ9g" name="Selected" incoming="_TzJHa4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LinkEndDestructionData"/>
+      </nodes>
+      <nodes xmi:id="_TzJHaYGqEeqSC4bGMjXJ9g" name="OldSource">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//DestroyLinkAction"/>
+      </nodes>
+      <nodes xmi:id="_TzJHaoGqEeqSC4bGMjXJ9g" name="NewSource" outgoing="_TzJHa4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//DestroyLinkAction"/>
+      </nodes>
+      <edges xmi:id="_TzJHa4GqEeqSC4bGMjXJ9g" source="_TzJHaoGqEeqSC4bGMjXJ9g" target="_TzJHaIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LinkAction/endData"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_TzJHbIGqEeqSC4bGMjXJ9g" origin="_TzJHY4GqEeqSC4bGMjXJ9g" image="_TzJHaIGqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_TzJHbYGqEeqSC4bGMjXJ9g" origin="_TzJHZIGqEeqSC4bGMjXJ9g" image="_TzJHaYGqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_TzJHboGqEeqSC4bGMjXJ9g" origin="_TzJHZYGqEeqSC4bGMjXJ9g" image="_TzJHaoGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

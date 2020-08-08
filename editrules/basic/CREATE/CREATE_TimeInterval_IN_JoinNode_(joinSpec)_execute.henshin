@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UFMgsIGqEeqSC4bGMjXJ9g" name="CREATE_TimeInterval_IN_JoinNode_(joinSpec)" description="Creates one TimeInterval in JoinNode">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UFMgsYGqEeqSC4bGMjXJ9g" name="createTimeInterval_IN_JoinNode" description="creates one TimeInterval in the context: JoinNode">
+    <lhs xmi:id="_UFMgsoGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_UFMgs4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//JoinNode"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_UFMgtIGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_UFMgtYGqEeqSC4bGMjXJ9g" name="Selected" outgoing="_UFMgt4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//JoinNode"/>
+      </nodes>
+      <nodes xmi:id="_UFMgtoGqEeqSC4bGMjXJ9g" name="New" incoming="_UFMgt4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TimeInterval"/>
+      </nodes>
+      <edges xmi:id="_UFMgt4GqEeqSC4bGMjXJ9g" source="_UFMgtYGqEeqSC4bGMjXJ9g" target="_UFMgtoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//JoinNode/joinSpec"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_UFMguIGqEeqSC4bGMjXJ9g" origin="_UFMgs4GqEeqSC4bGMjXJ9g" image="_UFMgtYGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

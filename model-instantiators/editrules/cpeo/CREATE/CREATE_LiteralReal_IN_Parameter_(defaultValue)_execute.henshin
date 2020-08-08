@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_1oTV4IGoEeqjxJ91AzqJlg" name="CREATE_LiteralReal_IN_Parameter_(defaultValue)" description="Creates one LiteralReal in Parameter">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_1oTV4YGoEeqjxJ91AzqJlg" name="createLiteralReal_IN_Parameter" description="creates one LiteralReal in the context: Parameter">
+    <parameters xmi:id="_1oTV4oGoEeqjxJ91AzqJlg" name="Value" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Real"/>
+    </parameters>
+    <lhs xmi:id="_1oTV44GoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_1oTV5IGoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Parameter"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_1oTV5YGoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_1oTV5oGoEeqjxJ91AzqJlg" name="Selected" outgoing="_1oTV6YGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Parameter"/>
+      </nodes>
+      <nodes xmi:id="_1oTV54GoEeqjxJ91AzqJlg" name="New" incoming="_1oTV6YGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LiteralReal"/>
+        <attributes xmi:id="_1oTV6IGoEeqjxJ91AzqJlg" value="Value">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LiteralReal/value"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_1oTV6YGoEeqjxJ91AzqJlg" source="_1oTV5oGoEeqjxJ91AzqJlg" target="_1oTV54GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Parameter/defaultValue"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_1oTV6oGoEeqjxJ91AzqJlg" origin="_1oTV5IGoEeqjxJ91AzqJlg" image="_1oTV5oGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

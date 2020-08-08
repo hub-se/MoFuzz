@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UZc5cIGqEeqSC4bGMjXJ9g" name="CREATE_Constraint_IN_ParameterSet_(condition)" description="Creates one Constraint in ParameterSet">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UZc5cYGqEeqSC4bGMjXJ9g" name="createConstraint_IN_ParameterSet" description="creates one Constraint in the context: ParameterSet">
+    <lhs xmi:id="_UZc5coGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_UZc5c4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ParameterSet"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_UZc5dIGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_UZc5dYGqEeqSC4bGMjXJ9g" name="Selected" outgoing="_UZc5d4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ParameterSet"/>
+      </nodes>
+      <nodes xmi:id="_UZc5doGqEeqSC4bGMjXJ9g" name="New" incoming="_UZc5d4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Constraint"/>
+      </nodes>
+      <edges xmi:id="_UZc5d4GqEeqSC4bGMjXJ9g" source="_UZc5dYGqEeqSC4bGMjXJ9g" target="_UZc5doGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ParameterSet/condition"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_UZc5eIGqEeqSC4bGMjXJ9g" origin="_UZc5c4GqEeqSC4bGMjXJ9g" image="_UZc5dYGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_110NcIGoEeqjxJ91AzqJlg" name="CREATE_LoopNode_IN_Activity_(ownedNode)" description="Creates one LoopNode in Activity">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_110NcYGoEeqjxJ91AzqJlg" name="createLoopNode_IN_Activity" description="creates one LoopNode in the context: Activity">
+    <parameters xmi:id="_110NcoGoEeqjxJ91AzqJlg" name="IsLeaf" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <parameters xmi:id="_110Nc4GoEeqjxJ91AzqJlg" name="IsLocallyReentrant" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <parameters xmi:id="_110NdIGoEeqjxJ91AzqJlg" name="MustIsolate" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <parameters xmi:id="_110NdYGoEeqjxJ91AzqJlg" name="IsTestedFirst" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <lhs xmi:id="_110NdoGoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_110Nd4GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Activity"/>
+      </nodes>
+      <nodes xmi:id="_110NeIGoEeqjxJ91AzqJlg" name="Existing">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//OutputPin"/>
+      </nodes>
+      <nodes xmi:id="_110NeYGoEeqjxJ91AzqJlg" name="Existing1">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ExecutableNode"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_110NeoGoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_110Ne4GoEeqjxJ91AzqJlg" name="Selected" outgoing="_110Ng4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Activity"/>
+      </nodes>
+      <nodes xmi:id="_110NfIGoEeqjxJ91AzqJlg" name="New" incoming="_110Ng4GoEeqjxJ91AzqJlg" outgoing="_110NhIGoEeqjxJ91AzqJlg _110NhYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LoopNode"/>
+        <attributes xmi:id="_110NfYGoEeqjxJ91AzqJlg" value="IsLeaf">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//RedefinableElement/isLeaf"/>
+        </attributes>
+        <attributes xmi:id="_110NfoGoEeqjxJ91AzqJlg" value="IsLocallyReentrant">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Action/isLocallyReentrant"/>
+        </attributes>
+        <attributes xmi:id="_110Nf4GoEeqjxJ91AzqJlg" value="MustIsolate">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//StructuredActivityNode/mustIsolate"/>
+        </attributes>
+        <attributes xmi:id="_110NgIGoEeqjxJ91AzqJlg" value="IsTestedFirst">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LoopNode/isTestedFirst"/>
+        </attributes>
+      </nodes>
+      <nodes xmi:id="_110NgYGoEeqjxJ91AzqJlg" name="Existing" incoming="_110NhIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//OutputPin"/>
+      </nodes>
+      <nodes xmi:id="_110NgoGoEeqjxJ91AzqJlg" name="Existing1" incoming="_110NhYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ExecutableNode"/>
+      </nodes>
+      <edges xmi:id="_110Ng4GoEeqjxJ91AzqJlg" source="_110Ne4GoEeqjxJ91AzqJlg" target="_110NfIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Activity/ownedNode"/>
+      </edges>
+      <edges xmi:id="_110NhIGoEeqjxJ91AzqJlg" source="_110NfIGoEeqjxJ91AzqJlg" target="_110NgYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LoopNode/decider"/>
+      </edges>
+      <edges xmi:id="_110NhYGoEeqjxJ91AzqJlg" source="_110NfIGoEeqjxJ91AzqJlg" target="_110NgoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LoopNode/test"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_110NhoGoEeqjxJ91AzqJlg" origin="_110Nd4GoEeqjxJ91AzqJlg" image="_110Ne4GoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_110Nh4GoEeqjxJ91AzqJlg" origin="_110NeIGoEeqjxJ91AzqJlg" image="_110NgYGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_110NiIGoEeqjxJ91AzqJlg" origin="_110NeYGoEeqjxJ91AzqJlg" image="_110NgoGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

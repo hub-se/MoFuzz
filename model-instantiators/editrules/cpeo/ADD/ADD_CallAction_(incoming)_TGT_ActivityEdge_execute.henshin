@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_1bMG8IGoEeqjxJ91AzqJlg" name="ADD_CallAction_(incoming)_TGT_ActivityEdge" description="Adds to CallAction's reference incoming the target ActivityEdge">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_1bMG8YGoEeqjxJ91AzqJlg" name="addToCallAction_incoming_ActivityEdge" description="Adds to CallAction's reference incoming the target ActivityEdge">
+    <lhs xmi:id="_1bMG8oGoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_1bMG84GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//CallAction"/>
+      </nodes>
+      <nodes xmi:id="_1bMG9IGoEeqjxJ91AzqJlg" name="NewTarget">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityEdge"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_1bMG9YGoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_1bMG9oGoEeqjxJ91AzqJlg" name="Selected" incoming="_1bMG-YGoEeqjxJ91AzqJlg" outgoing="_1bMG-IGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//CallAction"/>
+      </nodes>
+      <nodes xmi:id="_1bMG94GoEeqjxJ91AzqJlg" name="NewTarget" incoming="_1bMG-IGoEeqjxJ91AzqJlg" outgoing="_1bMG-YGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityEdge"/>
+      </nodes>
+      <edges xmi:id="_1bMG-IGoEeqjxJ91AzqJlg" source="_1bMG9oGoEeqjxJ91AzqJlg" target="_1bMG94GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityNode/incoming"/>
+      </edges>
+      <edges xmi:id="_1bMG-YGoEeqjxJ91AzqJlg" source="_1bMG94GoEeqjxJ91AzqJlg" target="_1bMG9oGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityEdge/target"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_1bMG-oGoEeqjxJ91AzqJlg" origin="_1bMG84GoEeqjxJ91AzqJlg" image="_1bMG9oGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_1bMG-4GoEeqjxJ91AzqJlg" origin="_1bMG9IGoEeqjxJ91AzqJlg" image="_1bMG94GoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

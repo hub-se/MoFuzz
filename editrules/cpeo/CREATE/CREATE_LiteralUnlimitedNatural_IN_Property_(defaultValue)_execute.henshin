@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_2CNqsIGoEeqjxJ91AzqJlg" name="CREATE_LiteralUnlimitedNatural_IN_Property_(defaultValue)" description="Creates one LiteralUnlimitedNatural in Property">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_2CNqsYGoEeqjxJ91AzqJlg" name="createLiteralUnlimitedNatural_IN_Property" description="creates one LiteralUnlimitedNatural in the context: Property">
+    <parameters xmi:id="_2CNqsoGoEeqjxJ91AzqJlg" name="Value" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//UnlimitedNatural"/>
+    </parameters>
+    <lhs xmi:id="_2CNqs4GoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_2CNqtIGoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Property"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_2CNqtYGoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_2CNqtoGoEeqjxJ91AzqJlg" name="Selected" outgoing="_2CNquYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Property"/>
+      </nodes>
+      <nodes xmi:id="_2CNqt4GoEeqjxJ91AzqJlg" name="New" incoming="_2CNquYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LiteralUnlimitedNatural"/>
+        <attributes xmi:id="_2CNquIGoEeqjxJ91AzqJlg" value="Value">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LiteralUnlimitedNatural/value"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_2CNquYGoEeqjxJ91AzqJlg" source="_2CNqtoGoEeqjxJ91AzqJlg" target="_2CNqt4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Property/defaultValue"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_2CNquoGoEeqjxJ91AzqJlg" origin="_2CNqtIGoEeqjxJ91AzqJlg" image="_2CNqtoGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

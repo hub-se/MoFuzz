@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_Uw8zcIGqEeqSC4bGMjXJ9g" name="DELETE_Interval_IN_Parameter_(defaultValue)" description="Deletes one Interval in Parameter">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_Uw8zcYGqEeqSC4bGMjXJ9g" name="deleteInterval_IN_Parameter" description="deletes one Interval in the context: Parameter">
+    <lhs xmi:id="_Uw8zcoGqEeqSC4bGMjXJ9g" name="LHS">
+      <nodes xmi:id="_Uw8zc4GqEeqSC4bGMjXJ9g" name="Selected" outgoing="_Uw8zdYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Parameter"/>
+      </nodes>
+      <nodes xmi:id="_Uw8zdIGqEeqSC4bGMjXJ9g" name="ToBeDeleted" incoming="_Uw8zdYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Interval"/>
+      </nodes>
+      <edges xmi:id="_Uw8zdYGqEeqSC4bGMjXJ9g" source="_Uw8zc4GqEeqSC4bGMjXJ9g" target="_Uw8zdIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Parameter/defaultValue"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_Uw8zdoGqEeqSC4bGMjXJ9g" name="RHS">
+      <nodes xmi:id="_Uw8zd4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Parameter"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_Uw8zeIGqEeqSC4bGMjXJ9g" origin="_Uw8zc4GqEeqSC4bGMjXJ9g" image="_Uw8zd4GqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

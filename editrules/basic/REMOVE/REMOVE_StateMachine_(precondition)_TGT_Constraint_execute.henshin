@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_Tagk8IGqEeqSC4bGMjXJ9g" name="REMOVE_StateMachine_(precondition)_TGT_Constraint" description="Removes StateMachine's reference precondition the target Constraint">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_Tagk8YGqEeqSC4bGMjXJ9g" name="removeFromStateMachine_precondition_Constraint" description="Removes from StateMachine's reference precondition the target Constraint">
+    <lhs xmi:id="_Tagk8oGqEeqSC4bGMjXJ9g" name="LHS">
+      <nodes xmi:id="_Tagk84GqEeqSC4bGMjXJ9g" name="Selected" outgoing="_Tagk9YGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//StateMachine"/>
+      </nodes>
+      <nodes xmi:id="_Tagk9IGqEeqSC4bGMjXJ9g" name="OldTarget" incoming="_Tagk9YGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Constraint"/>
+      </nodes>
+      <edges xmi:id="_Tagk9YGqEeqSC4bGMjXJ9g" source="_Tagk84GqEeqSC4bGMjXJ9g" target="_Tagk9IGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Behavior/precondition"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_Tagk9oGqEeqSC4bGMjXJ9g" name="RHS">
+      <nodes xmi:id="_Tagk94GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//StateMachine"/>
+      </nodes>
+      <nodes xmi:id="_Tagk-IGqEeqSC4bGMjXJ9g" name="OldTarget">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Constraint"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_Tagk-YGqEeqSC4bGMjXJ9g" origin="_Tagk84GqEeqSC4bGMjXJ9g" image="_Tagk94GqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_Tagk-oGqEeqSC4bGMjXJ9g" origin="_Tagk9IGqEeqSC4bGMjXJ9g" image="_Tagk-IGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

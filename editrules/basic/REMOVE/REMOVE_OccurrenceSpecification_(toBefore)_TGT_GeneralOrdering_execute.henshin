@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_TVErUIGqEeqSC4bGMjXJ9g" name="REMOVE_OccurrenceSpecification_(toBefore)_TGT_GeneralOrdering" description="Removes OccurrenceSpecification's reference toBefore the target GeneralOrdering">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_TVErUYGqEeqSC4bGMjXJ9g" name="removeFromOccurrenceSpecification_toBefore_GeneralOrdering" description="Removes from OccurrenceSpecification's reference toBefore the target GeneralOrdering">
+    <lhs xmi:id="_TVErUoGqEeqSC4bGMjXJ9g" name="LHS">
+      <nodes xmi:id="_TVErU4GqEeqSC4bGMjXJ9g" name="Selected" incoming="_TVErVoGqEeqSC4bGMjXJ9g" outgoing="_TVErVYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//OccurrenceSpecification"/>
+      </nodes>
+      <nodes xmi:id="_TVErVIGqEeqSC4bGMjXJ9g" name="OldTarget" incoming="_TVErVYGqEeqSC4bGMjXJ9g" outgoing="_TVErVoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//GeneralOrdering"/>
+      </nodes>
+      <edges xmi:id="_TVErVYGqEeqSC4bGMjXJ9g" source="_TVErU4GqEeqSC4bGMjXJ9g" target="_TVErVIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//OccurrenceSpecification/toBefore"/>
+      </edges>
+      <edges xmi:id="_TVErVoGqEeqSC4bGMjXJ9g" source="_TVErVIGqEeqSC4bGMjXJ9g" target="_TVErU4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//GeneralOrdering/after"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_TVErV4GqEeqSC4bGMjXJ9g" name="RHS">
+      <nodes xmi:id="_TVErWIGqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//OccurrenceSpecification"/>
+      </nodes>
+      <nodes xmi:id="_TVErWYGqEeqSC4bGMjXJ9g" name="OldTarget">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//GeneralOrdering"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_TVErWoGqEeqSC4bGMjXJ9g" origin="_TVErU4GqEeqSC4bGMjXJ9g" image="_TVErWIGqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_TVErW4GqEeqSC4bGMjXJ9g" origin="_TVErVIGqEeqSC4bGMjXJ9g" image="_TVErWYGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

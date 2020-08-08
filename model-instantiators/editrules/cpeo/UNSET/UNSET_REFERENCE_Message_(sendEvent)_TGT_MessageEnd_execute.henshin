@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_2DDYMIGoEeqjxJ91AzqJlg" name="UNSET_REFERENCE_Message_(sendEvent)_TGT_MessageEnd" description="Sets Message's reference sendEvent the target MessageEnd">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_2DDYMYGoEeqjxJ91AzqJlg" name="setMessage_sendEvent_TO_MessageEnd" description="SetMessageRefsendEventToMessageEnd">
+    <lhs xmi:id="_2DDYMoGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_2DDYM4GoEeqjxJ91AzqJlg" name="Selected" outgoing="_2DDYNYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Message"/>
+      </nodes>
+      <nodes xmi:id="_2DDYNIGoEeqjxJ91AzqJlg" name="NewTarget" incoming="_2DDYNYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//MessageEnd"/>
+      </nodes>
+      <edges xmi:id="_2DDYNYGoEeqjxJ91AzqJlg" source="_2DDYM4GoEeqjxJ91AzqJlg" target="_2DDYNIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Message/sendEvent"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_2DDYNoGoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_2DDYN4GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Message"/>
+      </nodes>
+      <nodes xmi:id="_2DDYOIGoEeqjxJ91AzqJlg" name="NewTarget">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//MessageEnd"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_2DDYOYGoEeqjxJ91AzqJlg" origin="_2DDYM4GoEeqjxJ91AzqJlg" image="_2DDYN4GoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_2DDYOoGoEeqjxJ91AzqJlg" origin="_2DDYNIGoEeqjxJ91AzqJlg" image="_2DDYOIGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

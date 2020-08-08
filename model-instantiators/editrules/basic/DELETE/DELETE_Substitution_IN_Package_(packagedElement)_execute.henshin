@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UyazEIGqEeqSC4bGMjXJ9g" name="DELETE_Substitution_IN_Package_(packagedElement)" description="Deletes one Substitution in Package">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UyazEYGqEeqSC4bGMjXJ9g" name="deleteSubstitution_IN_Package" description="deletes one Substitution in the context: Package">
+    <lhs xmi:id="_UyazEoGqEeqSC4bGMjXJ9g" name="LHS">
+      <nodes xmi:id="_UyazE4GqEeqSC4bGMjXJ9g" name="Selected" outgoing="_UyazFYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </nodes>
+      <nodes xmi:id="_UyazFIGqEeqSC4bGMjXJ9g" name="ToBeDeleted" incoming="_UyazFYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Substitution"/>
+      </nodes>
+      <edges xmi:id="_UyazFYGqEeqSC4bGMjXJ9g" source="_UyazE4GqEeqSC4bGMjXJ9g" target="_UyazFIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Package/packagedElement"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_UyazFoGqEeqSC4bGMjXJ9g" name="RHS">
+      <nodes xmi:id="_UyazF4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_UyazGIGqEeqSC4bGMjXJ9g" origin="_UyazE4GqEeqSC4bGMjXJ9g" image="_UyazF4GqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

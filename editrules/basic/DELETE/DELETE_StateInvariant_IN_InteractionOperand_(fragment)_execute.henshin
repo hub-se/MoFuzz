@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_Us0hYIGqEeqSC4bGMjXJ9g" name="DELETE_StateInvariant_IN_InteractionOperand_(fragment)" description="Deletes one StateInvariant in InteractionOperand">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_Us0hYYGqEeqSC4bGMjXJ9g" name="deleteStateInvariant_IN_InteractionOperand" description="deletes one StateInvariant in the context: InteractionOperand">
+    <lhs xmi:id="_Us0hYoGqEeqSC4bGMjXJ9g" name="LHS">
+      <nodes xmi:id="_Us0hY4GqEeqSC4bGMjXJ9g" name="Selected" incoming="_Us0hZoGqEeqSC4bGMjXJ9g" outgoing="_Us0hZYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InteractionOperand"/>
+      </nodes>
+      <nodes xmi:id="_Us0hZIGqEeqSC4bGMjXJ9g" name="ToBeDeleted" incoming="_Us0hZYGqEeqSC4bGMjXJ9g" outgoing="_Us0hZoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//StateInvariant"/>
+      </nodes>
+      <edges xmi:id="_Us0hZYGqEeqSC4bGMjXJ9g" source="_Us0hY4GqEeqSC4bGMjXJ9g" target="_Us0hZIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InteractionOperand/fragment"/>
+      </edges>
+      <edges xmi:id="_Us0hZoGqEeqSC4bGMjXJ9g" source="_Us0hZIGqEeqSC4bGMjXJ9g" target="_Us0hY4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InteractionFragment/enclosingOperand"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_Us0hZ4GqEeqSC4bGMjXJ9g" name="RHS">
+      <nodes xmi:id="_Us0haIGqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InteractionOperand"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_Us0haYGqEeqSC4bGMjXJ9g" origin="_Us0hY4GqEeqSC4bGMjXJ9g" image="_Us0haIGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

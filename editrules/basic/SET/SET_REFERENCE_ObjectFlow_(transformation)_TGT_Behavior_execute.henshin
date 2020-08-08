@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_TlgUAIGqEeqSC4bGMjXJ9g" name="SET_REFERENCE_ObjectFlow_(transformation)_TGT_Behavior" description="Sets ObjectFlow's reference transformation the target Behavior">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_TlgUAYGqEeqSC4bGMjXJ9g" name="setObjectFlow_transformation_TO_Behavior" description="SetObjectFlowReftransformationToBehavior">
+    <lhs xmi:id="_TlgUAoGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_TlgUA4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ObjectFlow"/>
+      </nodes>
+      <nodes xmi:id="_TlgUBIGqEeqSC4bGMjXJ9g" name="NewTarget">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Behavior"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_TlgUBYGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_TlgUBoGqEeqSC4bGMjXJ9g" name="Selected" outgoing="_TlgUCIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ObjectFlow"/>
+      </nodes>
+      <nodes xmi:id="_TlgUB4GqEeqSC4bGMjXJ9g" name="NewTarget" incoming="_TlgUCIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Behavior"/>
+      </nodes>
+      <edges xmi:id="_TlgUCIGqEeqSC4bGMjXJ9g" source="_TlgUBoGqEeqSC4bGMjXJ9g" target="_TlgUB4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ObjectFlow/transformation"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_TlgUCYGqEeqSC4bGMjXJ9g" origin="_TlgUA4GqEeqSC4bGMjXJ9g" image="_TlgUBoGqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_TlgUCoGqEeqSC4bGMjXJ9g" origin="_TlgUBIGqEeqSC4bGMjXJ9g" image="_TlgUB4GqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

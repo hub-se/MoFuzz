@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_0_Px0IGoEeqjxJ91AzqJlg" name="DELETE_ControlFlow_IN_StructuredActivityNode_(edge)" description="Deletes one ControlFlow in StructuredActivityNode">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_0_Px0YGoEeqjxJ91AzqJlg" name="deleteControlFlow_IN_StructuredActivityNode" description="deletes one ControlFlow in the context: StructuredActivityNode">
+    <lhs xmi:id="_0_Px0oGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_0_Px04GoEeqjxJ91AzqJlg" name="Selected" incoming="_0_Px2IGoEeqjxJ91AzqJlg" outgoing="_0_Px14GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//StructuredActivityNode"/>
+      </nodes>
+      <nodes xmi:id="_0_Px1IGoEeqjxJ91AzqJlg" name="ToBeDeleted" incoming="_0_Px14GoEeqjxJ91AzqJlg _0_Px2oGoEeqjxJ91AzqJlg _0_Px3IGoEeqjxJ91AzqJlg" outgoing="_0_Px2IGoEeqjxJ91AzqJlg _0_Px2YGoEeqjxJ91AzqJlg _0_Px24GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ControlFlow"/>
+      </nodes>
+      <nodes xmi:id="_0_Px1YGoEeqjxJ91AzqJlg" name="Existing" incoming="_0_Px2YGoEeqjxJ91AzqJlg" outgoing="_0_Px2oGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityNode"/>
+      </nodes>
+      <nodes xmi:id="_0_Px1oGoEeqjxJ91AzqJlg" name="Existing1" incoming="_0_Px24GoEeqjxJ91AzqJlg" outgoing="_0_Px3IGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityNode"/>
+      </nodes>
+      <edges xmi:id="_0_Px14GoEeqjxJ91AzqJlg" source="_0_Px04GoEeqjxJ91AzqJlg" target="_0_Px1IGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//StructuredActivityNode/edge"/>
+      </edges>
+      <edges xmi:id="_0_Px2IGoEeqjxJ91AzqJlg" source="_0_Px1IGoEeqjxJ91AzqJlg" target="_0_Px04GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityEdge/inStructuredNode"/>
+      </edges>
+      <edges xmi:id="_0_Px2YGoEeqjxJ91AzqJlg" source="_0_Px1IGoEeqjxJ91AzqJlg" target="_0_Px1YGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityEdge/target"/>
+      </edges>
+      <edges xmi:id="_0_Px2oGoEeqjxJ91AzqJlg" source="_0_Px1YGoEeqjxJ91AzqJlg" target="_0_Px1IGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityNode/incoming"/>
+      </edges>
+      <edges xmi:id="_0_Px24GoEeqjxJ91AzqJlg" source="_0_Px1IGoEeqjxJ91AzqJlg" target="_0_Px1oGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityEdge/source"/>
+      </edges>
+      <edges xmi:id="_0_Px3IGoEeqjxJ91AzqJlg" source="_0_Px1oGoEeqjxJ91AzqJlg" target="_0_Px1IGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityNode/outgoing"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_0_Px3YGoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_0_Px3oGoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//StructuredActivityNode"/>
+      </nodes>
+      <nodes xmi:id="_0_Px34GoEeqjxJ91AzqJlg" name="Existing">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityNode"/>
+      </nodes>
+      <nodes xmi:id="_0_Px4IGoEeqjxJ91AzqJlg" name="Existing1">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityNode"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_0_Px4YGoEeqjxJ91AzqJlg" origin="_0_Px04GoEeqjxJ91AzqJlg" image="_0_Px3oGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_0_Px4oGoEeqjxJ91AzqJlg" origin="_0_Px1YGoEeqjxJ91AzqJlg" image="_0_Px34GoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_0_Px44GoEeqjxJ91AzqJlg" origin="_0_Px1oGoEeqjxJ91AzqJlg" image="_0_Px4IGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

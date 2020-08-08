@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UO_V4IGqEeqSC4bGMjXJ9g" name="CREATE_Interval_IN_InteractionUse_(argument)" description="Creates one Interval in InteractionUse">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UO_V4YGqEeqSC4bGMjXJ9g" name="createInterval_IN_InteractionUse" description="creates one Interval in the context: InteractionUse">
+    <lhs xmi:id="_UO_V4oGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_UO_V44GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InteractionUse"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_UO_V5IGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_UO_V5YGqEeqSC4bGMjXJ9g" name="Selected" outgoing="_UO_V54GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InteractionUse"/>
+      </nodes>
+      <nodes xmi:id="_UO_V5oGqEeqSC4bGMjXJ9g" name="New" incoming="_UO_V54GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Interval"/>
+      </nodes>
+      <edges xmi:id="_UO_V54GqEeqSC4bGMjXJ9g" source="_UO_V5YGqEeqSC4bGMjXJ9g" target="_UO_V5oGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InteractionUse/argument"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_UO_V6IGqEeqSC4bGMjXJ9g" origin="_UO_V44GqEeqSC4bGMjXJ9g" image="_UO_V5YGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

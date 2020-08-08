@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_1SNKEIGoEeqjxJ91AzqJlg" name="DELETE_SequenceNode_IN_Activity_(ownedNode)" description="Deletes one SequenceNode in Activity">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_1SNKEYGoEeqjxJ91AzqJlg" name="deleteSequenceNode_IN_Activity" description="deletes one SequenceNode in the context: Activity">
+    <lhs xmi:id="_1SNKEoGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_1SNKE4GoEeqjxJ91AzqJlg" name="Selected" outgoing="_1SNKFYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Activity"/>
+      </nodes>
+      <nodes xmi:id="_1SNKFIGoEeqjxJ91AzqJlg" name="ToBeDeleted" incoming="_1SNKFYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//SequenceNode"/>
+      </nodes>
+      <edges xmi:id="_1SNKFYGoEeqjxJ91AzqJlg" source="_1SNKE4GoEeqjxJ91AzqJlg" target="_1SNKFIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Activity/ownedNode"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_1SNKFoGoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_1SNKF4GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Activity"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_1SNKGIGoEeqjxJ91AzqJlg" origin="_1SNKE4GoEeqjxJ91AzqJlg" image="_1SNKF4GoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

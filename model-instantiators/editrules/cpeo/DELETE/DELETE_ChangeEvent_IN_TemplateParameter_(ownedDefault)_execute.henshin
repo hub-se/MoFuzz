@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_08wegIGoEeqjxJ91AzqJlg" name="DELETE_ChangeEvent_IN_TemplateParameter_(ownedDefault)" description="Deletes one ChangeEvent in TemplateParameter">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_08wegYGoEeqjxJ91AzqJlg" name="deleteChangeEvent_IN_TemplateParameter" description="deletes one ChangeEvent in the context: TemplateParameter">
+    <lhs xmi:id="_08wegoGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_08weg4GoEeqjxJ91AzqJlg" name="Selected" outgoing="_08wehoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameter"/>
+      </nodes>
+      <nodes xmi:id="_08wehIGoEeqjxJ91AzqJlg" name="ToBeDeleted" incoming="_08wehoGoEeqjxJ91AzqJlg" outgoing="_08weh4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ChangeEvent"/>
+      </nodes>
+      <nodes xmi:id="_08wehYGoEeqjxJ91AzqJlg" name="Child" incoming="_08weh4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ValueSpecification"/>
+      </nodes>
+      <edges xmi:id="_08wehoGoEeqjxJ91AzqJlg" source="_08weg4GoEeqjxJ91AzqJlg" target="_08wehIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameter/ownedDefault"/>
+      </edges>
+      <edges xmi:id="_08weh4GoEeqjxJ91AzqJlg" source="_08wehIGoEeqjxJ91AzqJlg" target="_08wehYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ChangeEvent/changeExpression"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_08weiIGoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_08weiYGoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameter"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_08weioGoEeqjxJ91AzqJlg" origin="_08weg4GoEeqjxJ91AzqJlg" image="_08weiYGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

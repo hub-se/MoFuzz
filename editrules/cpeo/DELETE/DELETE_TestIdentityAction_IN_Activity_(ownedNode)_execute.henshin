@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_1JTFsIGoEeqjxJ91AzqJlg" name="DELETE_TestIdentityAction_IN_Activity_(ownedNode)" description="Deletes one TestIdentityAction in Activity">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_1JTFsYGoEeqjxJ91AzqJlg" name="deleteTestIdentityAction_IN_Activity" description="deletes one TestIdentityAction in the context: Activity">
+    <lhs xmi:id="_1JTFsoGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_1JTFs4GoEeqjxJ91AzqJlg" name="Selected" outgoing="_1JTFuIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Activity"/>
+      </nodes>
+      <nodes xmi:id="_1JTFtIGoEeqjxJ91AzqJlg" name="ToBeDeleted" incoming="_1JTFuIGoEeqjxJ91AzqJlg" outgoing="_1JTFuYGoEeqjxJ91AzqJlg _1JTFuoGoEeqjxJ91AzqJlg _1JTFu4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TestIdentityAction"/>
+      </nodes>
+      <nodes xmi:id="_1JTFtYGoEeqjxJ91AzqJlg" name="Child" incoming="_1JTFuYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//OutputPin"/>
+      </nodes>
+      <nodes xmi:id="_1JTFtoGoEeqjxJ91AzqJlg" name="Child1" incoming="_1JTFuoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InputPin"/>
+      </nodes>
+      <nodes xmi:id="_1JTFt4GoEeqjxJ91AzqJlg" name="Child2" incoming="_1JTFu4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InputPin"/>
+      </nodes>
+      <edges xmi:id="_1JTFuIGoEeqjxJ91AzqJlg" source="_1JTFs4GoEeqjxJ91AzqJlg" target="_1JTFtIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Activity/ownedNode"/>
+      </edges>
+      <edges xmi:id="_1JTFuYGoEeqjxJ91AzqJlg" source="_1JTFtIGoEeqjxJ91AzqJlg" target="_1JTFtYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TestIdentityAction/result"/>
+      </edges>
+      <edges xmi:id="_1JTFuoGoEeqjxJ91AzqJlg" source="_1JTFtIGoEeqjxJ91AzqJlg" target="_1JTFtoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TestIdentityAction/second"/>
+      </edges>
+      <edges xmi:id="_1JTFu4GoEeqjxJ91AzqJlg" source="_1JTFtIGoEeqjxJ91AzqJlg" target="_1JTFt4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TestIdentityAction/first"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_1JTFvIGoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_1JTFvYGoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Activity"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_1JTFvoGoEeqjxJ91AzqJlg" origin="_1JTFs4GoEeqjxJ91AzqJlg" image="_1JTFvYGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

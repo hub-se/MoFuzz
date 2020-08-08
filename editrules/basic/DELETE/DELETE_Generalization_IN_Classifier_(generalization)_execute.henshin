@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UmJRoIGqEeqSC4bGMjXJ9g" name="DELETE_Generalization_IN_Classifier_(generalization)" description="Deletes one Generalization in Classifier">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UmJRoYGqEeqSC4bGMjXJ9g" name="deleteGeneralization_IN_Classifier" description="deletes one Generalization in the context: Classifier">
+    <lhs xmi:id="_UmJRooGqEeqSC4bGMjXJ9g" name="LHS">
+      <nodes xmi:id="_UmJRo4GqEeqSC4bGMjXJ9g" name="Selected" incoming="_UmJRpoGqEeqSC4bGMjXJ9g" outgoing="_UmJRpYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier"/>
+      </nodes>
+      <nodes xmi:id="_UmJRpIGqEeqSC4bGMjXJ9g" name="ToBeDeleted" incoming="_UmJRpYGqEeqSC4bGMjXJ9g" outgoing="_UmJRpoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Generalization"/>
+      </nodes>
+      <edges xmi:id="_UmJRpYGqEeqSC4bGMjXJ9g" source="_UmJRo4GqEeqSC4bGMjXJ9g" target="_UmJRpIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier/generalization"/>
+      </edges>
+      <edges xmi:id="_UmJRpoGqEeqSC4bGMjXJ9g" source="_UmJRpIGqEeqSC4bGMjXJ9g" target="_UmJRo4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Generalization/specific"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_UmJRp4GqEeqSC4bGMjXJ9g" name="RHS">
+      <nodes xmi:id="_UmJRqIGqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_UmJRqYGqEeqSC4bGMjXJ9g" origin="_UmJRo4GqEeqSC4bGMjXJ9g" image="_UmJRqIGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

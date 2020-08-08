@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UvtdUIGqEeqSC4bGMjXJ9g" name="DELETE_LoopNode_IN_Activity_(structuredNode)" description="Deletes one LoopNode in Activity">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UvtdUYGqEeqSC4bGMjXJ9g" name="deleteLoopNode_IN_Activity" description="deletes one LoopNode in the context: Activity">
+    <lhs xmi:id="_UvtdUoGqEeqSC4bGMjXJ9g" name="LHS">
+      <nodes xmi:id="_UvtdU4GqEeqSC4bGMjXJ9g" name="Selected" outgoing="_UvtdVYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Activity"/>
+      </nodes>
+      <nodes xmi:id="_UvtdVIGqEeqSC4bGMjXJ9g" name="ToBeDeleted" incoming="_UvtdVYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LoopNode"/>
+      </nodes>
+      <edges xmi:id="_UvtdVYGqEeqSC4bGMjXJ9g" source="_UvtdU4GqEeqSC4bGMjXJ9g" target="_UvtdVIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Activity/structuredNode"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_UvtdVoGqEeqSC4bGMjXJ9g" name="RHS">
+      <nodes xmi:id="_UvtdV4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Activity"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_UvtdWIGqEeqSC4bGMjXJ9g" origin="_UvtdU4GqEeqSC4bGMjXJ9g" image="_UvtdV4GqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_2HyuQIGoEeqjxJ91AzqJlg" name="REMOVE_JoinNode_(inInterruptibleRegion)_TGT_InterruptibleActivityRegion" description="Removes JoinNode's reference inInterruptibleRegion the target InterruptibleActivityRegion">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_2HyuQYGoEeqjxJ91AzqJlg" name="removeFromJoinNode_inInterruptibleRegion_InterruptibleActivityRegion" description="Removes from JoinNode's reference inInterruptibleRegion the target InterruptibleActivityRegion">
+    <lhs xmi:id="_2HyuQoGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_2HyuQ4GoEeqjxJ91AzqJlg" name="Selected" incoming="_2HyuRoGoEeqjxJ91AzqJlg" outgoing="_2HyuRYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//JoinNode"/>
+      </nodes>
+      <nodes xmi:id="_2HyuRIGoEeqjxJ91AzqJlg" name="OldTarget" incoming="_2HyuRYGoEeqjxJ91AzqJlg" outgoing="_2HyuRoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InterruptibleActivityRegion"/>
+      </nodes>
+      <edges xmi:id="_2HyuRYGoEeqjxJ91AzqJlg" source="_2HyuQ4GoEeqjxJ91AzqJlg" target="_2HyuRIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityNode/inInterruptibleRegion"/>
+      </edges>
+      <edges xmi:id="_2HyuRoGoEeqjxJ91AzqJlg" source="_2HyuRIGoEeqjxJ91AzqJlg" target="_2HyuQ4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InterruptibleActivityRegion/node"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_2HyuR4GoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_2HyuSIGoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//JoinNode"/>
+      </nodes>
+      <nodes xmi:id="_2HyuSYGoEeqjxJ91AzqJlg" name="OldTarget">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InterruptibleActivityRegion"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_2HyuSoGoEeqjxJ91AzqJlg" origin="_2HyuQ4GoEeqjxJ91AzqJlg" image="_2HyuSIGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_2HyuS4GoEeqjxJ91AzqJlg" origin="_2HyuRIGoEeqjxJ91AzqJlg" image="_2HyuSYGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

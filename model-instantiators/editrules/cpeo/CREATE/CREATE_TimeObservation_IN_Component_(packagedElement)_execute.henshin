@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_15sA0IGoEeqjxJ91AzqJlg" name="CREATE_TimeObservation_IN_Component_(packagedElement)" description="Creates one TimeObservation in Component">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_15sA0YGoEeqjxJ91AzqJlg" name="createTimeObservation_IN_Component" description="creates one TimeObservation in the context: Component">
+    <parameters xmi:id="_15sA0oGoEeqjxJ91AzqJlg" name="FirstEvent" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <lhs xmi:id="_15sA04GoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_15sA1IGoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Component"/>
+      </nodes>
+      <nodes xmi:id="_15sA1YGoEeqjxJ91AzqJlg" name="Existing">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//NamedElement"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_15sA1oGoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_15sA14GoEeqjxJ91AzqJlg" name="Selected" outgoing="_15sA24GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Component"/>
+      </nodes>
+      <nodes xmi:id="_15sA2IGoEeqjxJ91AzqJlg" name="New" incoming="_15sA24GoEeqjxJ91AzqJlg" outgoing="_15sA3IGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TimeObservation"/>
+        <attributes xmi:id="_15sA2YGoEeqjxJ91AzqJlg" value="FirstEvent">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TimeObservation/firstEvent"/>
+        </attributes>
+      </nodes>
+      <nodes xmi:id="_15sA2oGoEeqjxJ91AzqJlg" name="Existing" incoming="_15sA3IGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//NamedElement"/>
+      </nodes>
+      <edges xmi:id="_15sA24GoEeqjxJ91AzqJlg" source="_15sA14GoEeqjxJ91AzqJlg" target="_15sA2IGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Component/packagedElement"/>
+      </edges>
+      <edges xmi:id="_15sA3IGoEeqjxJ91AzqJlg" source="_15sA2IGoEeqjxJ91AzqJlg" target="_15sA2oGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TimeObservation/event"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_15sA3YGoEeqjxJ91AzqJlg" origin="_15sA1IGoEeqjxJ91AzqJlg" image="_15sA14GoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_15sA3oGoEeqjxJ91AzqJlg" origin="_15sA1YGoEeqjxJ91AzqJlg" image="_15sA2oGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

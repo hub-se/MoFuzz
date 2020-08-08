@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UxK14IGqEeqSC4bGMjXJ9g" name="DELETE_InteractionOperand_IN_InteractionOperand_(fragment)" description="Deletes one InteractionOperand in InteractionOperand">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UxK14YGqEeqSC4bGMjXJ9g" name="deleteInteractionOperand_IN_InteractionOperand" description="deletes one InteractionOperand in the context: InteractionOperand">
+    <lhs xmi:id="_UxK14oGqEeqSC4bGMjXJ9g" name="LHS">
+      <nodes xmi:id="_UxK144GqEeqSC4bGMjXJ9g" name="Selected" incoming="_UxK15oGqEeqSC4bGMjXJ9g" outgoing="_UxK15YGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InteractionOperand"/>
+      </nodes>
+      <nodes xmi:id="_UxK15IGqEeqSC4bGMjXJ9g" name="ToBeDeleted" incoming="_UxK15YGqEeqSC4bGMjXJ9g" outgoing="_UxK15oGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InteractionOperand"/>
+      </nodes>
+      <edges xmi:id="_UxK15YGqEeqSC4bGMjXJ9g" source="_UxK144GqEeqSC4bGMjXJ9g" target="_UxK15IGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InteractionOperand/fragment"/>
+      </edges>
+      <edges xmi:id="_UxK15oGqEeqSC4bGMjXJ9g" source="_UxK15IGqEeqSC4bGMjXJ9g" target="_UxK144GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InteractionFragment/enclosingOperand"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_UxK154GqEeqSC4bGMjXJ9g" name="RHS">
+      <nodes xmi:id="_UxK16IGqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InteractionOperand"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_UxK16YGqEeqSC4bGMjXJ9g" origin="_UxK144GqEeqSC4bGMjXJ9g" image="_UxK16IGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

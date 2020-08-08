@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_13S0IIGoEeqjxJ91AzqJlg" name="CREATE_LiteralNull_IN_Lifeline_(selector)" description="Creates one LiteralNull in Lifeline">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_13S0IYGoEeqjxJ91AzqJlg" name="createLiteralNull_IN_Lifeline" description="creates one LiteralNull in the context: Lifeline">
+    <lhs xmi:id="_13S0IoGoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_13S0I4GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Lifeline"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_13S0JIGoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_13S0JYGoEeqjxJ91AzqJlg" name="Selected" outgoing="_13S0J4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Lifeline"/>
+      </nodes>
+      <nodes xmi:id="_13S0JoGoEeqjxJ91AzqJlg" name="New" incoming="_13S0J4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LiteralNull"/>
+      </nodes>
+      <edges xmi:id="_13S0J4GoEeqjxJ91AzqJlg" source="_13S0JYGoEeqjxJ91AzqJlg" target="_13S0JoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Lifeline/selector"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_13S0KIGoEeqjxJ91AzqJlg" origin="_13S0I4GoEeqjxJ91AzqJlg" image="_13S0JYGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

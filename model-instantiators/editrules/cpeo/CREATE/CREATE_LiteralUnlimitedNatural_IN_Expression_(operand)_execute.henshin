@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_1tq-EIGoEeqjxJ91AzqJlg" name="CREATE_LiteralUnlimitedNatural_IN_Expression_(operand)" description="Creates one LiteralUnlimitedNatural in Expression">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_1tq-EYGoEeqjxJ91AzqJlg" name="createLiteralUnlimitedNatural_IN_Expression" description="creates one LiteralUnlimitedNatural in the context: Expression">
+    <parameters xmi:id="_1tq-EoGoEeqjxJ91AzqJlg" name="Value" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//UnlimitedNatural"/>
+    </parameters>
+    <lhs xmi:id="_1tq-E4GoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_1tq-FIGoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Expression"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_1tq-FYGoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_1tq-FoGoEeqjxJ91AzqJlg" name="Selected" outgoing="_1tq-GYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Expression"/>
+      </nodes>
+      <nodes xmi:id="_1tq-F4GoEeqjxJ91AzqJlg" name="New" incoming="_1tq-GYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LiteralUnlimitedNatural"/>
+        <attributes xmi:id="_1tq-GIGoEeqjxJ91AzqJlg" value="Value">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LiteralUnlimitedNatural/value"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_1tq-GYGoEeqjxJ91AzqJlg" source="_1tq-FoGoEeqjxJ91AzqJlg" target="_1tq-F4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Expression/operand"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_1tq-GoGoEeqjxJ91AzqJlg" origin="_1tq-FIGoEeqjxJ91AzqJlg" image="_1tq-FoGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

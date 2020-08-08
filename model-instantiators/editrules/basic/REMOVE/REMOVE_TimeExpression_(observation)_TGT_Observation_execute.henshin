@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_TbVEUIGqEeqSC4bGMjXJ9g" name="REMOVE_TimeExpression_(observation)_TGT_Observation" description="Removes TimeExpression's reference observation the target Observation">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_TbVEUYGqEeqSC4bGMjXJ9g" name="removeFromTimeExpression_observation_Observation" description="Removes from TimeExpression's reference observation the target Observation">
+    <lhs xmi:id="_TbVEUoGqEeqSC4bGMjXJ9g" name="LHS">
+      <nodes xmi:id="_TbVEU4GqEeqSC4bGMjXJ9g" name="Selected" outgoing="_TbVEVYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TimeExpression"/>
+      </nodes>
+      <nodes xmi:id="_TbVEVIGqEeqSC4bGMjXJ9g" name="OldTarget" incoming="_TbVEVYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Observation"/>
+      </nodes>
+      <edges xmi:id="_TbVEVYGqEeqSC4bGMjXJ9g" source="_TbVEU4GqEeqSC4bGMjXJ9g" target="_TbVEVIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TimeExpression/observation"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_TbVEVoGqEeqSC4bGMjXJ9g" name="RHS">
+      <nodes xmi:id="_TbVEV4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TimeExpression"/>
+      </nodes>
+      <nodes xmi:id="_TbVEWIGqEeqSC4bGMjXJ9g" name="OldTarget">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Observation"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_TbVEWYGqEeqSC4bGMjXJ9g" origin="_TbVEU4GqEeqSC4bGMjXJ9g" image="_TbVEV4GqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_TbVEWoGqEeqSC4bGMjXJ9g" origin="_TbVEVIGqEeqSC4bGMjXJ9g" image="_TbVEWIGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

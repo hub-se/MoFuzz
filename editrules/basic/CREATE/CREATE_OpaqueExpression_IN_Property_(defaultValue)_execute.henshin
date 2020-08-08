@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_ULt_cIGqEeqSC4bGMjXJ9g" name="CREATE_OpaqueExpression_IN_Property_(defaultValue)" description="Creates one OpaqueExpression in Property">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_ULt_cYGqEeqSC4bGMjXJ9g" name="createOpaqueExpression_IN_Property" description="creates one OpaqueExpression in the context: Property">
+    <lhs xmi:id="_ULt_coGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_ULt_c4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Property"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_ULt_dIGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_ULt_dYGqEeqSC4bGMjXJ9g" name="Selected" outgoing="_ULt_d4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Property"/>
+      </nodes>
+      <nodes xmi:id="_ULt_doGqEeqSC4bGMjXJ9g" name="New" incoming="_ULt_d4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//OpaqueExpression"/>
+      </nodes>
+      <edges xmi:id="_ULt_d4GqEeqSC4bGMjXJ9g" source="_ULt_dYGqEeqSC4bGMjXJ9g" target="_ULt_doGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Property/defaultValue"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_ULt_eIGqEeqSC4bGMjXJ9g" origin="_ULt_c4GqEeqSC4bGMjXJ9g" image="_ULt_dYGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

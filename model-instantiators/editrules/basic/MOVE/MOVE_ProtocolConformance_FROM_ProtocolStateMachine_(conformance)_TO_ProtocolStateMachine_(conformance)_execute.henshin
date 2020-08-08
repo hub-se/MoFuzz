@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_T0FikIGqEeqSC4bGMjXJ9g" name="MOVE_ProtocolConformance_FROM_ProtocolStateMachine_(conformance)_TO_ProtocolStateMachine_(conformance)" description="MOVEs ProtocolConformance from ProtocolStateMachine(Reference:conformance) to ProtocolStateMachine(Reference:conformance">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_T0FikYGqEeqSC4bGMjXJ9g" name="moveProtocolConformance_FROM_ProtocolStateMachine_conformance_TO_ProtocolStateMachine_ProtocolStateMachine" description="Moves ProtocolConformance from ProtocolStateMachine(Reference:conformance) toProtocolStateMachine(Reference:ProtocolStateMachine)">
+    <lhs xmi:id="_T0FikoGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_T0Fik4GqEeqSC4bGMjXJ9g" name="Selected" incoming="_T0FiloGqEeqSC4bGMjXJ9g" outgoing="_T0Fil4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ProtocolConformance"/>
+      </nodes>
+      <nodes xmi:id="_T0FilIGqEeqSC4bGMjXJ9g" name="OldSource" incoming="_T0Fil4GqEeqSC4bGMjXJ9g" outgoing="_T0FiloGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ProtocolStateMachine"/>
+      </nodes>
+      <nodes xmi:id="_T0FilYGqEeqSC4bGMjXJ9g" name="NewSource">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ProtocolStateMachine"/>
+      </nodes>
+      <edges xmi:id="_T0FiloGqEeqSC4bGMjXJ9g" source="_T0FilIGqEeqSC4bGMjXJ9g" target="_T0Fik4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ProtocolStateMachine/conformance"/>
+      </edges>
+      <edges xmi:id="_T0Fil4GqEeqSC4bGMjXJ9g" source="_T0Fik4GqEeqSC4bGMjXJ9g" target="_T0FilIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ProtocolConformance/specificMachine"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_T0FimIGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_T0FimYGqEeqSC4bGMjXJ9g" name="Selected" incoming="_T0FinIGqEeqSC4bGMjXJ9g" outgoing="_T0FinYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ProtocolConformance"/>
+      </nodes>
+      <nodes xmi:id="_T0FimoGqEeqSC4bGMjXJ9g" name="OldSource">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ProtocolStateMachine"/>
+      </nodes>
+      <nodes xmi:id="_T0Fim4GqEeqSC4bGMjXJ9g" name="NewSource" incoming="_T0FinYGqEeqSC4bGMjXJ9g" outgoing="_T0FinIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ProtocolStateMachine"/>
+      </nodes>
+      <edges xmi:id="_T0FinIGqEeqSC4bGMjXJ9g" source="_T0Fim4GqEeqSC4bGMjXJ9g" target="_T0FimYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ProtocolStateMachine/conformance"/>
+      </edges>
+      <edges xmi:id="_T0FinYGqEeqSC4bGMjXJ9g" source="_T0FimYGqEeqSC4bGMjXJ9g" target="_T0Fim4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ProtocolConformance/specificMachine"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_T0FinoGqEeqSC4bGMjXJ9g" origin="_T0Fik4GqEeqSC4bGMjXJ9g" image="_T0FimYGqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_T0Fin4GqEeqSC4bGMjXJ9g" origin="_T0FilIGqEeqSC4bGMjXJ9g" image="_T0FimoGqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_T0FioIGqEeqSC4bGMjXJ9g" origin="_T0FilYGqEeqSC4bGMjXJ9g" image="_T0Fim4GqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

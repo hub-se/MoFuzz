@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_2OIm0IGoEeqjxJ91AzqJlg" name="REMOVE_Clause_(successorClause)_TGT_Clause" description="Removes Clause's reference successorClause the target Clause">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_2OIm0YGoEeqjxJ91AzqJlg" name="removeFromClause_successorClause_Clause" description="Removes from Clause's reference successorClause the target Clause">
+    <lhs xmi:id="_2OIm0oGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_2OIm04GoEeqjxJ91AzqJlg" name="Selected" incoming="_2OIm1oGoEeqjxJ91AzqJlg" outgoing="_2OIm1YGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Clause"/>
+      </nodes>
+      <nodes xmi:id="_2OIm1IGoEeqjxJ91AzqJlg" name="OldTarget" incoming="_2OIm1YGoEeqjxJ91AzqJlg" outgoing="_2OIm1oGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Clause"/>
+      </nodes>
+      <edges xmi:id="_2OIm1YGoEeqjxJ91AzqJlg" source="_2OIm04GoEeqjxJ91AzqJlg" target="_2OIm1IGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Clause/successorClause"/>
+      </edges>
+      <edges xmi:id="_2OIm1oGoEeqjxJ91AzqJlg" source="_2OIm1IGoEeqjxJ91AzqJlg" target="_2OIm04GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Clause/predecessorClause"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_2OIm14GoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_2OIm2IGoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Clause"/>
+      </nodes>
+      <nodes xmi:id="_2OIm2YGoEeqjxJ91AzqJlg" name="OldTarget">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Clause"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_2OIm2oGoEeqjxJ91AzqJlg" origin="_2OIm04GoEeqjxJ91AzqJlg" image="_2OIm2IGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_2OIm24GoEeqjxJ91AzqJlg" origin="_2OIm1IGoEeqjxJ91AzqJlg" image="_2OIm2YGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_08KooIGoEeqjxJ91AzqJlg" name="DELETE_LiteralReal_IN_Duration_(expr)" description="Deletes one LiteralReal in Duration">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_08KooYGoEeqjxJ91AzqJlg" name="deleteLiteralReal_IN_Duration" description="deletes one LiteralReal in the context: Duration">
+    <lhs xmi:id="_08KoooGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_08Koo4GoEeqjxJ91AzqJlg" name="Selected" outgoing="_08KopYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Duration"/>
+      </nodes>
+      <nodes xmi:id="_08KopIGoEeqjxJ91AzqJlg" name="ToBeDeleted" incoming="_08KopYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LiteralReal"/>
+      </nodes>
+      <edges xmi:id="_08KopYGoEeqjxJ91AzqJlg" source="_08Koo4GoEeqjxJ91AzqJlg" target="_08KopIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Duration/expr"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_08KopoGoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_08Kop4GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Duration"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_08KoqIGoEeqjxJ91AzqJlg" origin="_08Koo4GoEeqjxJ91AzqJlg" image="_08Kop4GoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_2BTrwIGoEeqjxJ91AzqJlg" name="CREATE_ClassifierTemplateParameter_IN_TemplateSignature_(ownedParameter)" description="Creates one ClassifierTemplateParameter in TemplateSignature">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_2BTrwYGoEeqjxJ91AzqJlg" name="createClassifierTemplateParameter_IN_TemplateSignature" description="creates one ClassifierTemplateParameter in the context: TemplateSignature">
+    <parameters xmi:id="_2BTrwoGoEeqjxJ91AzqJlg" name="AllowSubstitutable" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <lhs xmi:id="_2BTrw4GoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_2BTrxIGoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateSignature"/>
+      </nodes>
+      <nodes xmi:id="_2BTrxYGoEeqjxJ91AzqJlg" name="Existing">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_2BTrxoGoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_2BTrx4GoEeqjxJ91AzqJlg" name="Selected" incoming="_2BTrzIGoEeqjxJ91AzqJlg" outgoing="_2BTry4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateSignature"/>
+      </nodes>
+      <nodes xmi:id="_2BTryIGoEeqjxJ91AzqJlg" name="New" incoming="_2BTry4GoEeqjxJ91AzqJlg _2BTrzoGoEeqjxJ91AzqJlg" outgoing="_2BTrzIGoEeqjxJ91AzqJlg _2BTrzYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ClassifierTemplateParameter"/>
+        <attributes xmi:id="_2BTryYGoEeqjxJ91AzqJlg" value="AllowSubstitutable">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ClassifierTemplateParameter/allowSubstitutable"/>
+        </attributes>
+      </nodes>
+      <nodes xmi:id="_2BTryoGoEeqjxJ91AzqJlg" name="Existing" incoming="_2BTrzYGoEeqjxJ91AzqJlg" outgoing="_2BTrzoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier"/>
+      </nodes>
+      <edges xmi:id="_2BTry4GoEeqjxJ91AzqJlg" source="_2BTrx4GoEeqjxJ91AzqJlg" target="_2BTryIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateSignature/ownedParameter"/>
+      </edges>
+      <edges xmi:id="_2BTrzIGoEeqjxJ91AzqJlg" source="_2BTryIGoEeqjxJ91AzqJlg" target="_2BTrx4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameter/signature"/>
+      </edges>
+      <edges xmi:id="_2BTrzYGoEeqjxJ91AzqJlg" source="_2BTryIGoEeqjxJ91AzqJlg" target="_2BTryoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameter/parameteredElement"/>
+      </edges>
+      <edges xmi:id="_2BTrzoGoEeqjxJ91AzqJlg" source="_2BTryoGoEeqjxJ91AzqJlg" target="_2BTryIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ParameterableElement/templateParameter"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_2BTrz4GoEeqjxJ91AzqJlg" origin="_2BTrxIGoEeqjxJ91AzqJlg" image="_2BTrx4GoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_2BTr0IGoEeqjxJ91AzqJlg" origin="_2BTrxYGoEeqjxJ91AzqJlg" image="_2BTryoGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

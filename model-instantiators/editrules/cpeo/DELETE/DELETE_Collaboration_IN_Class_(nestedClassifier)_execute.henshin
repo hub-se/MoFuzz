@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_1CFDYIGoEeqjxJ91AzqJlg" name="DELETE_Collaboration_IN_Class_(nestedClassifier)" description="Deletes one Collaboration in Class">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_1CFDYYGoEeqjxJ91AzqJlg" name="deleteCollaboration_IN_Class" description="deletes one Collaboration in the context: Class">
+    <lhs xmi:id="_1CFDYoGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_1CFDY4GoEeqjxJ91AzqJlg" name="Selected" outgoing="_1CFDZYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+      </nodes>
+      <nodes xmi:id="_1CFDZIGoEeqjxJ91AzqJlg" name="ToBeDeleted" incoming="_1CFDZYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Collaboration"/>
+      </nodes>
+      <edges xmi:id="_1CFDZYGoEeqjxJ91AzqJlg" source="_1CFDY4GoEeqjxJ91AzqJlg" target="_1CFDZIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Class/nestedClassifier"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_1CFDZoGoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_1CFDZ4GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_1CFDaIGoEeqjxJ91AzqJlg" origin="_1CFDY4GoEeqjxJ91AzqJlg" image="_1CFDZ4GoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

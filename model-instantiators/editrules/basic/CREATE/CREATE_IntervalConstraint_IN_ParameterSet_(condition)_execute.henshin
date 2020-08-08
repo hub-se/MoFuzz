@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UPMxQIGqEeqSC4bGMjXJ9g" name="CREATE_IntervalConstraint_IN_ParameterSet_(condition)" description="Creates one IntervalConstraint in ParameterSet">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UPMxQYGqEeqSC4bGMjXJ9g" name="createIntervalConstraint_IN_ParameterSet" description="creates one IntervalConstraint in the context: ParameterSet">
+    <lhs xmi:id="_UPMxQoGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_UPMxQ4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ParameterSet"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_UPMxRIGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_UPMxRYGqEeqSC4bGMjXJ9g" name="Selected" outgoing="_UPMxR4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ParameterSet"/>
+      </nodes>
+      <nodes xmi:id="_UPMxRoGqEeqSC4bGMjXJ9g" name="New" incoming="_UPMxR4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//IntervalConstraint"/>
+      </nodes>
+      <edges xmi:id="_UPMxR4GqEeqSC4bGMjXJ9g" source="_UPMxRYGqEeqSC4bGMjXJ9g" target="_UPMxRoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ParameterSet/condition"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_UPMxSIGqEeqSC4bGMjXJ9g" origin="_UPMxQ4GqEeqSC4bGMjXJ9g" image="_UPMxRYGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

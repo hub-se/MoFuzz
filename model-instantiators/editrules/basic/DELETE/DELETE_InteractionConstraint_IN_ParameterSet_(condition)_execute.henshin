@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_Ulz6cIGqEeqSC4bGMjXJ9g" name="DELETE_InteractionConstraint_IN_ParameterSet_(condition)" description="Deletes one InteractionConstraint in ParameterSet">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_Ulz6cYGqEeqSC4bGMjXJ9g" name="deleteInteractionConstraint_IN_ParameterSet" description="deletes one InteractionConstraint in the context: ParameterSet">
+    <lhs xmi:id="_Ulz6coGqEeqSC4bGMjXJ9g" name="LHS">
+      <nodes xmi:id="_Ulz6c4GqEeqSC4bGMjXJ9g" name="Selected" outgoing="_Ulz6dYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ParameterSet"/>
+      </nodes>
+      <nodes xmi:id="_Ulz6dIGqEeqSC4bGMjXJ9g" name="ToBeDeleted" incoming="_Ulz6dYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InteractionConstraint"/>
+      </nodes>
+      <edges xmi:id="_Ulz6dYGqEeqSC4bGMjXJ9g" source="_Ulz6c4GqEeqSC4bGMjXJ9g" target="_Ulz6dIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ParameterSet/condition"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_Ulz6doGqEeqSC4bGMjXJ9g" name="RHS">
+      <nodes xmi:id="_Ulz6d4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ParameterSet"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_Ulz6eIGqEeqSC4bGMjXJ9g" origin="_Ulz6c4GqEeqSC4bGMjXJ9g" image="_Ulz6d4GqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

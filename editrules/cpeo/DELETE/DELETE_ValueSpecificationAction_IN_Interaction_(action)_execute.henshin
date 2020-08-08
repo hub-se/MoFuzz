@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_1QQCQIGoEeqjxJ91AzqJlg" name="DELETE_ValueSpecificationAction_IN_Interaction_(action)" description="Deletes one ValueSpecificationAction in Interaction">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_1QQCQYGoEeqjxJ91AzqJlg" name="deleteValueSpecificationAction_IN_Interaction" description="deletes one ValueSpecificationAction in the context: Interaction">
+    <lhs xmi:id="_1QQCQoGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_1QQCQ4GoEeqjxJ91AzqJlg" name="Selected" outgoing="_1QQCR4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Interaction"/>
+      </nodes>
+      <nodes xmi:id="_1QQCRIGoEeqjxJ91AzqJlg" name="ToBeDeleted" incoming="_1QQCR4GoEeqjxJ91AzqJlg" outgoing="_1QQCSIGoEeqjxJ91AzqJlg _1QQCSYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ValueSpecificationAction"/>
+      </nodes>
+      <nodes xmi:id="_1QQCRYGoEeqjxJ91AzqJlg" name="Child" incoming="_1QQCSIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//OutputPin"/>
+      </nodes>
+      <nodes xmi:id="_1QQCRoGoEeqjxJ91AzqJlg" name="Child1" incoming="_1QQCSYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ValueSpecification"/>
+      </nodes>
+      <edges xmi:id="_1QQCR4GoEeqjxJ91AzqJlg" source="_1QQCQ4GoEeqjxJ91AzqJlg" target="_1QQCRIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Interaction/action"/>
+      </edges>
+      <edges xmi:id="_1QQCSIGoEeqjxJ91AzqJlg" source="_1QQCRIGoEeqjxJ91AzqJlg" target="_1QQCRYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ValueSpecificationAction/result"/>
+      </edges>
+      <edges xmi:id="_1QQCSYGoEeqjxJ91AzqJlg" source="_1QQCRIGoEeqjxJ91AzqJlg" target="_1QQCRoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ValueSpecificationAction/value"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_1QQCSoGoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_1QQCS4GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Interaction"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_1QQCTIGoEeqjxJ91AzqJlg" origin="_1QQCQ4GoEeqjxJ91AzqJlg" image="_1QQCS4GoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

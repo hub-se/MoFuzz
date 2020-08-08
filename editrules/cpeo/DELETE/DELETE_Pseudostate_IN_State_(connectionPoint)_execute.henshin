@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_1BdYUIGoEeqjxJ91AzqJlg" name="DELETE_Pseudostate_IN_State_(connectionPoint)" description="Deletes one Pseudostate in State">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_1BdYUYGoEeqjxJ91AzqJlg" name="deletePseudostate_IN_State" description="deletes one Pseudostate in the context: State">
+    <lhs xmi:id="_1BdYUoGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_1BdYU4GoEeqjxJ91AzqJlg" name="Selected" incoming="_1BdYVoGoEeqjxJ91AzqJlg" outgoing="_1BdYVYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//State"/>
+      </nodes>
+      <nodes xmi:id="_1BdYVIGoEeqjxJ91AzqJlg" name="ToBeDeleted" incoming="_1BdYVYGoEeqjxJ91AzqJlg" outgoing="_1BdYVoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Pseudostate"/>
+      </nodes>
+      <edges xmi:id="_1BdYVYGoEeqjxJ91AzqJlg" source="_1BdYU4GoEeqjxJ91AzqJlg" target="_1BdYVIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//State/connectionPoint"/>
+      </edges>
+      <edges xmi:id="_1BdYVoGoEeqjxJ91AzqJlg" source="_1BdYVIGoEeqjxJ91AzqJlg" target="_1BdYU4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Pseudostate/state"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_1BdYV4GoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_1BdYWIGoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//State"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_1BdYWYGoEeqjxJ91AzqJlg" origin="_1BdYU4GoEeqjxJ91AzqJlg" image="_1BdYWIGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_2BkxgIGoEeqjxJ91AzqJlg" name="CREATE_Expression_IN_MultiplicityElement_(lowerValue)" description="Creates one Expression in MultiplicityElement">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_2BkxgYGoEeqjxJ91AzqJlg" name="createExpression_IN_MultiplicityElement" description="creates one Expression in the context: MultiplicityElement">
+    <lhs xmi:id="_2BkxgoGoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_2Bkxg4GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//MultiplicityElement"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_2BkxhIGoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_2BkxhYGoEeqjxJ91AzqJlg" name="Selected" outgoing="_2Bkxh4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//MultiplicityElement"/>
+      </nodes>
+      <nodes xmi:id="_2BkxhoGoEeqjxJ91AzqJlg" name="New" incoming="_2Bkxh4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Expression"/>
+      </nodes>
+      <edges xmi:id="_2Bkxh4GoEeqjxJ91AzqJlg" source="_2BkxhYGoEeqjxJ91AzqJlg" target="_2BkxhoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//MultiplicityElement/lowerValue"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_2BkxiIGoEeqjxJ91AzqJlg" origin="_2Bkxg4GoEeqjxJ91AzqJlg" image="_2BkxhYGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

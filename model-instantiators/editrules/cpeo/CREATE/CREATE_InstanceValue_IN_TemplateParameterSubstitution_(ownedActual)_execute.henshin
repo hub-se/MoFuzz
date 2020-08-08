@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_1-OikIGoEeqjxJ91AzqJlg" name="CREATE_InstanceValue_IN_TemplateParameterSubstitution_(ownedActual)" description="Creates one InstanceValue in TemplateParameterSubstitution">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_1-OikYGoEeqjxJ91AzqJlg" name="createInstanceValue_IN_TemplateParameterSubstitution" description="creates one InstanceValue in the context: TemplateParameterSubstitution">
+    <lhs xmi:id="_1-OikoGoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_1-Oik4GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameterSubstitution"/>
+      </nodes>
+      <nodes xmi:id="_1-OilIGoEeqjxJ91AzqJlg" name="Existing">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InstanceSpecification"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_1-OilYGoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_1-OiloGoEeqjxJ91AzqJlg" name="Selected" outgoing="_1-OimYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameterSubstitution"/>
+      </nodes>
+      <nodes xmi:id="_1-Oil4GoEeqjxJ91AzqJlg" name="New" incoming="_1-OimYGoEeqjxJ91AzqJlg" outgoing="_1-OimoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InstanceValue"/>
+      </nodes>
+      <nodes xmi:id="_1-OimIGoEeqjxJ91AzqJlg" name="Existing" incoming="_1-OimoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InstanceSpecification"/>
+      </nodes>
+      <edges xmi:id="_1-OimYGoEeqjxJ91AzqJlg" source="_1-OiloGoEeqjxJ91AzqJlg" target="_1-Oil4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameterSubstitution/ownedActual"/>
+      </edges>
+      <edges xmi:id="_1-OimoGoEeqjxJ91AzqJlg" source="_1-Oil4GoEeqjxJ91AzqJlg" target="_1-OimIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InstanceValue/instance"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_1-Oim4GoEeqjxJ91AzqJlg" origin="_1-Oik4GoEeqjxJ91AzqJlg" image="_1-OiloGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_1-OinIGoEeqjxJ91AzqJlg" origin="_1-OilIGoEeqjxJ91AzqJlg" image="_1-OimIGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

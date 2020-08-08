@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UOBFgIGqEeqSC4bGMjXJ9g" name="CREATE_ValuePin_IN_AddStructuralFeatureValueAction_(insertAt)" description="Creates one ValuePin in AddStructuralFeatureValueAction">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UOBFgYGqEeqSC4bGMjXJ9g" name="createValuePin_IN_AddStructuralFeatureValueAction" description="creates one ValuePin in the context: AddStructuralFeatureValueAction">
+    <parameters xmi:id="_UOBFgoGqEeqSC4bGMjXJ9g" name="IsLeaf" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <parameters xmi:id="_UOBFg4GqEeqSC4bGMjXJ9g" name="IsControlType" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <parameters xmi:id="_UOBFhIGqEeqSC4bGMjXJ9g" name="Ordering" kind="IN">
+      <type xsi:type="ecore:EEnum" href="http://www.eclipse.org/uml2/5.0.0/UML#//ObjectNodeOrderingKind"/>
+    </parameters>
+    <parameters xmi:id="_UOBFhYGqEeqSC4bGMjXJ9g" name="IsOrdered" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <parameters xmi:id="_UOBFhoGqEeqSC4bGMjXJ9g" name="IsUnique" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <parameters xmi:id="_UOBFh4GqEeqSC4bGMjXJ9g" name="IsControl1" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <lhs xmi:id="_UOBFiIGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_UOBFiYGqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//AddStructuralFeatureValueAction"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_UOBFioGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_UOBFi4GqEeqSC4bGMjXJ9g" name="Selected" outgoing="_UOBFk4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//AddStructuralFeatureValueAction"/>
+      </nodes>
+      <nodes xmi:id="_UOBFjIGqEeqSC4bGMjXJ9g" name="New" incoming="_UOBFk4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ValuePin"/>
+        <attributes xmi:id="_UOBFjYGqEeqSC4bGMjXJ9g" value="IsLeaf">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//RedefinableElement/isLeaf"/>
+        </attributes>
+        <attributes xmi:id="_UOBFjoGqEeqSC4bGMjXJ9g" value="IsControlType">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ObjectNode/isControlType"/>
+        </attributes>
+        <attributes xmi:id="_UOBFj4GqEeqSC4bGMjXJ9g" value="Ordering">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ObjectNode/ordering"/>
+        </attributes>
+        <attributes xmi:id="_UOBFkIGqEeqSC4bGMjXJ9g" value="IsOrdered">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//MultiplicityElement/isOrdered"/>
+        </attributes>
+        <attributes xmi:id="_UOBFkYGqEeqSC4bGMjXJ9g" value="IsUnique">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//MultiplicityElement/isUnique"/>
+        </attributes>
+        <attributes xmi:id="_UOBFkoGqEeqSC4bGMjXJ9g" value="IsControl1">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Pin/isControl"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_UOBFk4GqEeqSC4bGMjXJ9g" source="_UOBFi4GqEeqSC4bGMjXJ9g" target="_UOBFjIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//AddStructuralFeatureValueAction/insertAt"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_UOBFlIGqEeqSC4bGMjXJ9g" origin="_UOBFiYGqEeqSC4bGMjXJ9g" image="_UOBFi4GqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

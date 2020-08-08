@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_08nUkIGoEeqjxJ91AzqJlg" name="DELETE_Gate_IN_Interaction_(formalGate)" description="Deletes one Gate in Interaction">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_08nUkYGoEeqjxJ91AzqJlg" name="deleteGate_IN_Interaction" description="deletes one Gate in the context: Interaction">
+    <lhs xmi:id="_08nUkoGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_08nUk4GoEeqjxJ91AzqJlg" name="Selected" outgoing="_08nUlYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Interaction"/>
+      </nodes>
+      <nodes xmi:id="_08nUlIGoEeqjxJ91AzqJlg" name="ToBeDeleted" incoming="_08nUlYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Gate"/>
+      </nodes>
+      <edges xmi:id="_08nUlYGoEeqjxJ91AzqJlg" source="_08nUk4GoEeqjxJ91AzqJlg" target="_08nUlIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Interaction/formalGate"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_08nUloGoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_08nUl4GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Interaction"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_08nUmIGoEeqjxJ91AzqJlg" origin="_08nUk4GoEeqjxJ91AzqJlg" image="_08nUl4GoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_TaAOoIGqEeqSC4bGMjXJ9g" name="REMOVE_Extension_(memberEnd)_TGT_Property" description="Removes Extension's reference memberEnd the target Property">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_TaAOoYGqEeqSC4bGMjXJ9g" name="removeFromExtension_memberEnd_Property" description="Removes from Extension's reference memberEnd the target Property">
+    <lhs xmi:id="_TaAOooGqEeqSC4bGMjXJ9g" name="LHS">
+      <nodes xmi:id="_TaAOo4GqEeqSC4bGMjXJ9g" name="Selected" incoming="_TaAOpoGqEeqSC4bGMjXJ9g" outgoing="_TaAOpYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Extension"/>
+      </nodes>
+      <nodes xmi:id="_TaAOpIGqEeqSC4bGMjXJ9g" name="OldTarget" incoming="_TaAOpYGqEeqSC4bGMjXJ9g" outgoing="_TaAOpoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Property"/>
+      </nodes>
+      <edges xmi:id="_TaAOpYGqEeqSC4bGMjXJ9g" source="_TaAOo4GqEeqSC4bGMjXJ9g" target="_TaAOpIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Association/memberEnd"/>
+      </edges>
+      <edges xmi:id="_TaAOpoGqEeqSC4bGMjXJ9g" source="_TaAOpIGqEeqSC4bGMjXJ9g" target="_TaAOo4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Property/association"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_TaA1sIGqEeqSC4bGMjXJ9g" name="RHS">
+      <nodes xmi:id="_TaA1sYGqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Extension"/>
+      </nodes>
+      <nodes xmi:id="_TaA1soGqEeqSC4bGMjXJ9g" name="OldTarget">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Property"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_TaA1s4GqEeqSC4bGMjXJ9g" origin="_TaAOo4GqEeqSC4bGMjXJ9g" image="_TaA1sYGqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_TaA1tIGqEeqSC4bGMjXJ9g" origin="_TaAOpIGqEeqSC4bGMjXJ9g" image="_TaA1soGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

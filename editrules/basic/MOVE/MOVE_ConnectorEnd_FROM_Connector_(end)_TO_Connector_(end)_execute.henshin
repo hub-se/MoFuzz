@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_TyFXcIGqEeqSC4bGMjXJ9g" name="MOVE_ConnectorEnd_FROM_Connector_(end)_TO_Connector_(end)" description="MOVEs ConnectorEnd from Connector(Reference:end) to Connector(Reference:end">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_TyFXcYGqEeqSC4bGMjXJ9g" name="moveConnectorEnd_FROM_Connector_end_TO_Connector_Connector" description="Moves ConnectorEnd from Connector(Reference:end) toConnector(Reference:Connector)">
+    <lhs xmi:id="_TyFXcoGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_TyFXc4GqEeqSC4bGMjXJ9g" name="Selected" incoming="_TyFXdoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ConnectorEnd"/>
+      </nodes>
+      <nodes xmi:id="_TyFXdIGqEeqSC4bGMjXJ9g" name="OldSource" outgoing="_TyFXdoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Connector"/>
+      </nodes>
+      <nodes xmi:id="_TyFXdYGqEeqSC4bGMjXJ9g" name="NewSource">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Connector"/>
+      </nodes>
+      <edges xmi:id="_TyFXdoGqEeqSC4bGMjXJ9g" source="_TyFXdIGqEeqSC4bGMjXJ9g" target="_TyFXc4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Connector/end"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_TyFXd4GqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_TyFXeIGqEeqSC4bGMjXJ9g" name="Selected" incoming="_TyFXe4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ConnectorEnd"/>
+      </nodes>
+      <nodes xmi:id="_TyFXeYGqEeqSC4bGMjXJ9g" name="OldSource">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Connector"/>
+      </nodes>
+      <nodes xmi:id="_TyFXeoGqEeqSC4bGMjXJ9g" name="NewSource" outgoing="_TyFXe4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Connector"/>
+      </nodes>
+      <edges xmi:id="_TyFXe4GqEeqSC4bGMjXJ9g" source="_TyFXeoGqEeqSC4bGMjXJ9g" target="_TyFXeIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Connector/end"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_TyFXfIGqEeqSC4bGMjXJ9g" origin="_TyFXc4GqEeqSC4bGMjXJ9g" image="_TyFXeIGqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_TyFXfYGqEeqSC4bGMjXJ9g" origin="_TyFXdIGqEeqSC4bGMjXJ9g" image="_TyFXeYGqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_TyFXfoGqEeqSC4bGMjXJ9g" origin="_TyFXdYGqEeqSC4bGMjXJ9g" image="_TyFXeoGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

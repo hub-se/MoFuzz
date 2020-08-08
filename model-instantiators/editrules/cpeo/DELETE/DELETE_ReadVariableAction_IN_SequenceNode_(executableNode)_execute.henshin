@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_08bHUIGoEeqjxJ91AzqJlg" name="DELETE_ReadVariableAction_IN_SequenceNode_(executableNode)" description="Deletes one ReadVariableAction in SequenceNode">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_08bHUYGoEeqjxJ91AzqJlg" name="deleteReadVariableAction_IN_SequenceNode" description="deletes one ReadVariableAction in the context: SequenceNode">
+    <lhs xmi:id="_08bHUoGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_08bHU4GoEeqjxJ91AzqJlg" name="Selected" outgoing="_08bHV4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//SequenceNode"/>
+      </nodes>
+      <nodes xmi:id="_08bHVIGoEeqjxJ91AzqJlg" name="ToBeDeleted" incoming="_08bHV4GoEeqjxJ91AzqJlg" outgoing="_08bHWIGoEeqjxJ91AzqJlg _08bHWYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ReadVariableAction"/>
+      </nodes>
+      <nodes xmi:id="_08bHVYGoEeqjxJ91AzqJlg" name="Child" incoming="_08bHWIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//OutputPin"/>
+      </nodes>
+      <nodes xmi:id="_08bHVoGoEeqjxJ91AzqJlg" name="Existing" incoming="_08bHWYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Variable"/>
+      </nodes>
+      <edges xmi:id="_08bHV4GoEeqjxJ91AzqJlg" source="_08bHU4GoEeqjxJ91AzqJlg" target="_08bHVIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//SequenceNode/executableNode"/>
+      </edges>
+      <edges xmi:id="_08bHWIGoEeqjxJ91AzqJlg" source="_08bHVIGoEeqjxJ91AzqJlg" target="_08bHVYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ReadVariableAction/result"/>
+      </edges>
+      <edges xmi:id="_08bHWYGoEeqjxJ91AzqJlg" source="_08bHVIGoEeqjxJ91AzqJlg" target="_08bHVoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//VariableAction/variable"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_08bHWoGoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_08bHW4GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//SequenceNode"/>
+      </nodes>
+      <nodes xmi:id="_08bHXIGoEeqjxJ91AzqJlg" name="Existing">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Variable"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_08bHXYGoEeqjxJ91AzqJlg" origin="_08bHU4GoEeqjxJ91AzqJlg" image="_08bHW4GoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_08bHXoGoEeqjxJ91AzqJlg" origin="_08bHVoGoEeqjxJ91AzqJlg" image="_08bHXIGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

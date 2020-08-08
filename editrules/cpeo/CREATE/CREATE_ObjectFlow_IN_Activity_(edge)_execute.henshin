@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_1us40IGoEeqjxJ91AzqJlg" name="CREATE_ObjectFlow_IN_Activity_(edge)" description="Creates one ObjectFlow in Activity">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_1us40YGoEeqjxJ91AzqJlg" name="createObjectFlow_IN_Activity" description="creates one ObjectFlow in the context: Activity">
+    <parameters xmi:id="_1us40oGoEeqjxJ91AzqJlg" name="IsLeaf" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <parameters xmi:id="_1us404GoEeqjxJ91AzqJlg" name="IsMulticast" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <parameters xmi:id="_1us41IGoEeqjxJ91AzqJlg" name="IsMultireceive" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <lhs xmi:id="_1us41YGoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_1us41oGoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Activity"/>
+      </nodes>
+      <nodes xmi:id="_1us414GoEeqjxJ91AzqJlg" name="Existing">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityNode"/>
+      </nodes>
+      <nodes xmi:id="_1us42IGoEeqjxJ91AzqJlg" name="Existing1">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityNode"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_1us42YGoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_1us42oGoEeqjxJ91AzqJlg" name="Selected" incoming="_1us44oGoEeqjxJ91AzqJlg" outgoing="_1us44YGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Activity"/>
+      </nodes>
+      <nodes xmi:id="_1us424GoEeqjxJ91AzqJlg" name="New" incoming="_1us44YGoEeqjxJ91AzqJlg _1us45IGoEeqjxJ91AzqJlg _1us45oGoEeqjxJ91AzqJlg" outgoing="_1us44oGoEeqjxJ91AzqJlg _1us444GoEeqjxJ91AzqJlg _1us45YGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ObjectFlow"/>
+        <attributes xmi:id="_1us43IGoEeqjxJ91AzqJlg" value="IsLeaf">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//RedefinableElement/isLeaf"/>
+        </attributes>
+        <attributes xmi:id="_1us43YGoEeqjxJ91AzqJlg" value="IsMulticast">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ObjectFlow/isMulticast"/>
+        </attributes>
+        <attributes xmi:id="_1us43oGoEeqjxJ91AzqJlg" value="IsMultireceive">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ObjectFlow/isMultireceive"/>
+        </attributes>
+      </nodes>
+      <nodes xmi:id="_1us434GoEeqjxJ91AzqJlg" name="Existing" incoming="_1us444GoEeqjxJ91AzqJlg" outgoing="_1us45IGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityNode"/>
+      </nodes>
+      <nodes xmi:id="_1us44IGoEeqjxJ91AzqJlg" name="Existing1" incoming="_1us45YGoEeqjxJ91AzqJlg" outgoing="_1us45oGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityNode"/>
+      </nodes>
+      <edges xmi:id="_1us44YGoEeqjxJ91AzqJlg" source="_1us42oGoEeqjxJ91AzqJlg" target="_1us424GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Activity/edge"/>
+      </edges>
+      <edges xmi:id="_1us44oGoEeqjxJ91AzqJlg" source="_1us424GoEeqjxJ91AzqJlg" target="_1us42oGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityEdge/activity"/>
+      </edges>
+      <edges xmi:id="_1us444GoEeqjxJ91AzqJlg" source="_1us424GoEeqjxJ91AzqJlg" target="_1us434GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityEdge/target"/>
+      </edges>
+      <edges xmi:id="_1us45IGoEeqjxJ91AzqJlg" source="_1us434GoEeqjxJ91AzqJlg" target="_1us424GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityNode/incoming"/>
+      </edges>
+      <edges xmi:id="_1us45YGoEeqjxJ91AzqJlg" source="_1us424GoEeqjxJ91AzqJlg" target="_1us44IGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityEdge/source"/>
+      </edges>
+      <edges xmi:id="_1us45oGoEeqjxJ91AzqJlg" source="_1us44IGoEeqjxJ91AzqJlg" target="_1us424GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityNode/outgoing"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_1us454GoEeqjxJ91AzqJlg" origin="_1us41oGoEeqjxJ91AzqJlg" image="_1us42oGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_1us46IGoEeqjxJ91AzqJlg" origin="_1us414GoEeqjxJ91AzqJlg" image="_1us434GoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_1us46YGoEeqjxJ91AzqJlg" origin="_1us42IGoEeqjxJ91AzqJlg" image="_1us44IGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

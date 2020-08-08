@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UqmT0IGqEeqSC4bGMjXJ9g" name="DELETE_Interaction_IN_Transition_(effect)" description="Deletes one Interaction in Transition">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UqmT0YGqEeqSC4bGMjXJ9g" name="deleteInteraction_IN_Transition" description="deletes one Interaction in the context: Transition">
+    <lhs xmi:id="_UqmT0oGqEeqSC4bGMjXJ9g" name="LHS">
+      <nodes xmi:id="_UqmT04GqEeqSC4bGMjXJ9g" name="Selected" outgoing="_UqmT1YGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Transition"/>
+      </nodes>
+      <nodes xmi:id="_UqmT1IGqEeqSC4bGMjXJ9g" name="ToBeDeleted" incoming="_UqmT1YGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Interaction"/>
+      </nodes>
+      <edges xmi:id="_UqmT1YGqEeqSC4bGMjXJ9g" source="_UqmT04GqEeqSC4bGMjXJ9g" target="_UqmT1IGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Transition/effect"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_UqmT1oGqEeqSC4bGMjXJ9g" name="RHS">
+      <nodes xmi:id="_UqmT14GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Transition"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_UqmT2IGqEeqSC4bGMjXJ9g" origin="_UqmT04GqEeqSC4bGMjXJ9g" image="_UqmT14GqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

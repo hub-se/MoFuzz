@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_1x0eQIGoEeqjxJ91AzqJlg" name="CREATE_TemplateParameterSubstitution_IN_TemplateBinding_(parameterSubstitution)" description="Creates one TemplateParameterSubstitution in TemplateBinding">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_1x0eQYGoEeqjxJ91AzqJlg" name="createTemplateParameterSubstitution_IN_TemplateBinding" description="creates one TemplateParameterSubstitution in the context: TemplateBinding">
+    <lhs xmi:id="_1x1FUIGoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_1x1FUYGoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateBinding"/>
+      </nodes>
+      <nodes xmi:id="_1x1FUoGoEeqjxJ91AzqJlg" name="Existing">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameter"/>
+      </nodes>
+      <nodes xmi:id="_1x1FU4GoEeqjxJ91AzqJlg" name="Existing1">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ParameterableElement"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_1x1FVIGoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_1x1FVYGoEeqjxJ91AzqJlg" name="Selected" incoming="_1x1FWoGoEeqjxJ91AzqJlg" outgoing="_1x1FWYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateBinding"/>
+      </nodes>
+      <nodes xmi:id="_1x1FVoGoEeqjxJ91AzqJlg" name="New" incoming="_1x1FWYGoEeqjxJ91AzqJlg" outgoing="_1x1FWoGoEeqjxJ91AzqJlg _1x1FW4GoEeqjxJ91AzqJlg _1x1FXIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameterSubstitution"/>
+      </nodes>
+      <nodes xmi:id="_1x1FV4GoEeqjxJ91AzqJlg" name="Existing" incoming="_1x1FW4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameter"/>
+      </nodes>
+      <nodes xmi:id="_1x1FWIGoEeqjxJ91AzqJlg" name="Existing1" incoming="_1x1FXIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ParameterableElement"/>
+      </nodes>
+      <edges xmi:id="_1x1FWYGoEeqjxJ91AzqJlg" source="_1x1FVYGoEeqjxJ91AzqJlg" target="_1x1FVoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateBinding/parameterSubstitution"/>
+      </edges>
+      <edges xmi:id="_1x1FWoGoEeqjxJ91AzqJlg" source="_1x1FVoGoEeqjxJ91AzqJlg" target="_1x1FVYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameterSubstitution/templateBinding"/>
+      </edges>
+      <edges xmi:id="_1x1FW4GoEeqjxJ91AzqJlg" source="_1x1FVoGoEeqjxJ91AzqJlg" target="_1x1FV4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameterSubstitution/formal"/>
+      </edges>
+      <edges xmi:id="_1x1FXIGoEeqjxJ91AzqJlg" source="_1x1FVoGoEeqjxJ91AzqJlg" target="_1x1FWIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameterSubstitution/actual"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_1x1FXYGoEeqjxJ91AzqJlg" origin="_1x1FUYGoEeqjxJ91AzqJlg" image="_1x1FVYGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_1x1FXoGoEeqjxJ91AzqJlg" origin="_1x1FUoGoEeqjxJ91AzqJlg" image="_1x1FV4GoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_1x1FX4GoEeqjxJ91AzqJlg" origin="_1x1FU4GoEeqjxJ91AzqJlg" image="_1x1FWIGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

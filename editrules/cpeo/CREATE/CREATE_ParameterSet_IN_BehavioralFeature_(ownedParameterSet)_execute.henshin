@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_1yB5oIGoEeqjxJ91AzqJlg" name="CREATE_ParameterSet_IN_BehavioralFeature_(ownedParameterSet)" description="Creates one ParameterSet in BehavioralFeature">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_1yB5oYGoEeqjxJ91AzqJlg" name="createParameterSet_IN_BehavioralFeature" description="creates one ParameterSet in the context: BehavioralFeature">
+    <lhs xmi:id="_1yB5ooGoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_1yB5o4GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//BehavioralFeature"/>
+      </nodes>
+      <nodes xmi:id="_1yB5pIGoEeqjxJ91AzqJlg" name="Existing">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Parameter"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_1yB5pYGoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_1yB5poGoEeqjxJ91AzqJlg" name="Selected" outgoing="_1yB5qYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//BehavioralFeature"/>
+      </nodes>
+      <nodes xmi:id="_1yB5p4GoEeqjxJ91AzqJlg" name="New" incoming="_1yB5qYGoEeqjxJ91AzqJlg _1yB5q4GoEeqjxJ91AzqJlg" outgoing="_1yB5qoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ParameterSet"/>
+      </nodes>
+      <nodes xmi:id="_1yB5qIGoEeqjxJ91AzqJlg" name="Existing" incoming="_1yB5qoGoEeqjxJ91AzqJlg" outgoing="_1yB5q4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Parameter"/>
+      </nodes>
+      <edges xmi:id="_1yB5qYGoEeqjxJ91AzqJlg" source="_1yB5poGoEeqjxJ91AzqJlg" target="_1yB5p4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//BehavioralFeature/ownedParameterSet"/>
+      </edges>
+      <edges xmi:id="_1yB5qoGoEeqjxJ91AzqJlg" source="_1yB5p4GoEeqjxJ91AzqJlg" target="_1yB5qIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ParameterSet/parameter"/>
+      </edges>
+      <edges xmi:id="_1yB5q4GoEeqjxJ91AzqJlg" source="_1yB5qIGoEeqjxJ91AzqJlg" target="_1yB5p4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Parameter/parameterSet"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_1yB5rIGoEeqjxJ91AzqJlg" origin="_1yB5o4GoEeqjxJ91AzqJlg" image="_1yB5poGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_1yB5rYGoEeqjxJ91AzqJlg" origin="_1yB5pIGoEeqjxJ91AzqJlg" image="_1yB5qIGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

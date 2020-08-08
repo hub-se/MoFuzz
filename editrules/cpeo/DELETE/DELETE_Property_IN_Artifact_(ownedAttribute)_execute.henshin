@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_1JaacIGoEeqjxJ91AzqJlg" name="DELETE_Property_IN_Artifact_(ownedAttribute)" description="Deletes one Property in Artifact">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_1JaacYGoEeqjxJ91AzqJlg" name="deleteProperty_IN_Artifact" description="deletes one Property in the context: Artifact">
+    <lhs xmi:id="_1JaacoGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_1Jaac4GoEeqjxJ91AzqJlg" name="Selected" outgoing="_1JaadYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Artifact"/>
+      </nodes>
+      <nodes xmi:id="_1JaadIGoEeqjxJ91AzqJlg" name="ToBeDeleted" incoming="_1JaadYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Property"/>
+      </nodes>
+      <edges xmi:id="_1JaadYGoEeqjxJ91AzqJlg" source="_1Jaac4GoEeqjxJ91AzqJlg" target="_1JaadIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Artifact/ownedAttribute"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_1JaadoGoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_1Jaad4GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Artifact"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_1JaaeIGoEeqjxJ91AzqJlg" origin="_1Jaac4GoEeqjxJ91AzqJlg" image="_1Jaad4GoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

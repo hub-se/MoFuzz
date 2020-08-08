@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_0-7owIGoEeqjxJ91AzqJlg" name="DELETE_Connector_IN_StructuredClassifier_(ownedConnector)" description="Deletes one Connector in StructuredClassifier">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_0-8P0IGoEeqjxJ91AzqJlg" name="deleteConnector_IN_StructuredClassifier" description="deletes one Connector in the context: StructuredClassifier">
+    <lhs xmi:id="_0-8P0YGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_0-8P0oGoEeqjxJ91AzqJlg" name="Selected" outgoing="_0-8P2IGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//StructuredClassifier"/>
+      </nodes>
+      <nodes xmi:id="_0-8P04GoEeqjxJ91AzqJlg" name="ToBeDeleted" incoming="_0-8P2IGoEeqjxJ91AzqJlg" outgoing="_0-8P2YGoEeqjxJ91AzqJlg _0-8P24GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Connector"/>
+      </nodes>
+      <nodes xmi:id="_0-8P1IGoEeqjxJ91AzqJlg" name="Child" incoming="_0-8P2YGoEeqjxJ91AzqJlg" outgoing="_0-8P2oGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ConnectorEnd"/>
+      </nodes>
+      <nodes xmi:id="_0-8P1YGoEeqjxJ91AzqJlg" name="Existing" incoming="_0-8P2oGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ConnectableElement"/>
+      </nodes>
+      <nodes xmi:id="_0-8P1oGoEeqjxJ91AzqJlg" name="Child1" incoming="_0-8P24GoEeqjxJ91AzqJlg" outgoing="_0-8P3IGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ConnectorEnd"/>
+      </nodes>
+      <nodes xmi:id="_0-8P14GoEeqjxJ91AzqJlg" name="Existing1" incoming="_0-8P3IGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ConnectableElement"/>
+      </nodes>
+      <edges xmi:id="_0-8P2IGoEeqjxJ91AzqJlg" source="_0-8P0oGoEeqjxJ91AzqJlg" target="_0-8P04GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//StructuredClassifier/ownedConnector"/>
+      </edges>
+      <edges xmi:id="_0-8P2YGoEeqjxJ91AzqJlg" source="_0-8P04GoEeqjxJ91AzqJlg" target="_0-8P1IGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Connector/end"/>
+      </edges>
+      <edges xmi:id="_0-8P2oGoEeqjxJ91AzqJlg" source="_0-8P1IGoEeqjxJ91AzqJlg" target="_0-8P1YGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ConnectorEnd/role"/>
+      </edges>
+      <edges xmi:id="_0-8P24GoEeqjxJ91AzqJlg" source="_0-8P04GoEeqjxJ91AzqJlg" target="_0-8P1oGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Connector/end"/>
+      </edges>
+      <edges xmi:id="_0-8P3IGoEeqjxJ91AzqJlg" source="_0-8P1oGoEeqjxJ91AzqJlg" target="_0-8P14GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ConnectorEnd/role"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_0-8P3YGoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_0-8P3oGoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//StructuredClassifier"/>
+      </nodes>
+      <nodes xmi:id="_0-8P34GoEeqjxJ91AzqJlg" name="Existing">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ConnectableElement"/>
+      </nodes>
+      <nodes xmi:id="_0-8P4IGoEeqjxJ91AzqJlg" name="Existing1">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ConnectableElement"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_0-8P4YGoEeqjxJ91AzqJlg" origin="_0-8P0oGoEeqjxJ91AzqJlg" image="_0-8P3oGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_0-8P4oGoEeqjxJ91AzqJlg" origin="_0-8P1YGoEeqjxJ91AzqJlg" image="_0-8P34GoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_0-8P44GoEeqjxJ91AzqJlg" origin="_0-8P14GoEeqjxJ91AzqJlg" image="_0-8P4IGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

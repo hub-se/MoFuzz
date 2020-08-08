@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UIZlsIGqEeqSC4bGMjXJ9g" name="CREATE_PackageImport_IN_Namespace_(packageImport)" description="Creates one PackageImport in Namespace">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UIZlsYGqEeqSC4bGMjXJ9g" name="createPackageImport_IN_Namespace" description="creates one PackageImport in the context: Namespace">
+    <parameters xmi:id="_UIZlsoGqEeqSC4bGMjXJ9g" name="Visibility" kind="IN">
+      <type xsi:type="ecore:EEnum" href="http://www.eclipse.org/uml2/5.0.0/UML#//VisibilityKind"/>
+    </parameters>
+    <lhs xmi:id="_UIZls4GqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_UIZltIGqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Namespace"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_UIZltYGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_UIZltoGqEeqSC4bGMjXJ9g" name="Selected" incoming="_UIZluoGqEeqSC4bGMjXJ9g" outgoing="_UIZluYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Namespace"/>
+      </nodes>
+      <nodes xmi:id="_UIZlt4GqEeqSC4bGMjXJ9g" name="New" incoming="_UIZluYGqEeqSC4bGMjXJ9g" outgoing="_UIZluoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//PackageImport"/>
+        <attributes xmi:id="_UIZluIGqEeqSC4bGMjXJ9g" value="Visibility">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//PackageImport/visibility"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_UIZluYGqEeqSC4bGMjXJ9g" source="_UIZltoGqEeqSC4bGMjXJ9g" target="_UIZlt4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Namespace/packageImport"/>
+      </edges>
+      <edges xmi:id="_UIZluoGqEeqSC4bGMjXJ9g" source="_UIZlt4GqEeqSC4bGMjXJ9g" target="_UIZltoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//PackageImport/importingNamespace"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_UIZlu4GqEeqSC4bGMjXJ9g" origin="_UIZltIGqEeqSC4bGMjXJ9g" image="_UIZltoGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

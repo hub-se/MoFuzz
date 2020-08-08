@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UGIU0IGqEeqSC4bGMjXJ9g" name="CREATE_Expression_IN_JoinNode_(joinSpec)" description="Creates one Expression in JoinNode">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UGIU0YGqEeqSC4bGMjXJ9g" name="createExpression_IN_JoinNode" description="creates one Expression in the context: JoinNode">
+    <lhs xmi:id="_UGIU0oGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_UGIU04GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//JoinNode"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_UGIU1IGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_UGIU1YGqEeqSC4bGMjXJ9g" name="Selected" outgoing="_UGIU14GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//JoinNode"/>
+      </nodes>
+      <nodes xmi:id="_UGIU1oGqEeqSC4bGMjXJ9g" name="New" incoming="_UGIU14GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Expression"/>
+      </nodes>
+      <edges xmi:id="_UGIU14GqEeqSC4bGMjXJ9g" source="_UGIU1YGqEeqSC4bGMjXJ9g" target="_UGIU1oGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//JoinNode/joinSpec"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_UGIU2IGqEeqSC4bGMjXJ9g" origin="_UGIU04GqEeqSC4bGMjXJ9g" image="_UGIU1YGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

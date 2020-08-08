@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_TaogwIGqEeqSC4bGMjXJ9g" name="REMOVE_DestructionOccurrenceSpecification_(toBefore)_TGT_GeneralOrdering" description="Removes DestructionOccurrenceSpecification's reference toBefore the target GeneralOrdering">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_TaogwYGqEeqSC4bGMjXJ9g" name="removeFromDestructionOccurrenceSpecification_toBefore_GeneralOrdering" description="Removes from DestructionOccurrenceSpecification's reference toBefore the target GeneralOrdering">
+    <lhs xmi:id="_TaogwoGqEeqSC4bGMjXJ9g" name="LHS">
+      <nodes xmi:id="_Taogw4GqEeqSC4bGMjXJ9g" name="Selected" incoming="_TaogxoGqEeqSC4bGMjXJ9g" outgoing="_TaogxYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//DestructionOccurrenceSpecification"/>
+      </nodes>
+      <nodes xmi:id="_TaogxIGqEeqSC4bGMjXJ9g" name="OldTarget" incoming="_TaogxYGqEeqSC4bGMjXJ9g" outgoing="_TaogxoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//GeneralOrdering"/>
+      </nodes>
+      <edges xmi:id="_TaogxYGqEeqSC4bGMjXJ9g" source="_Taogw4GqEeqSC4bGMjXJ9g" target="_TaogxIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//OccurrenceSpecification/toBefore"/>
+      </edges>
+      <edges xmi:id="_TaogxoGqEeqSC4bGMjXJ9g" source="_TaogxIGqEeqSC4bGMjXJ9g" target="_Taogw4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//GeneralOrdering/after"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_Taogx4GqEeqSC4bGMjXJ9g" name="RHS">
+      <nodes xmi:id="_TaogyIGqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//DestructionOccurrenceSpecification"/>
+      </nodes>
+      <nodes xmi:id="_TaogyYGqEeqSC4bGMjXJ9g" name="OldTarget">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//GeneralOrdering"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_TaogyoGqEeqSC4bGMjXJ9g" origin="_Taogw4GqEeqSC4bGMjXJ9g" image="_TaogyIGqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_Taogy4GqEeqSC4bGMjXJ9g" origin="_TaogxIGqEeqSC4bGMjXJ9g" image="_TaogyYGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

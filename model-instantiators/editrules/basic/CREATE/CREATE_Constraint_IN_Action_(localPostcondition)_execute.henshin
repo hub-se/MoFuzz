@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UJKasIGqEeqSC4bGMjXJ9g" name="CREATE_Constraint_IN_Action_(localPostcondition)" description="Creates one Constraint in Action">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UJKasYGqEeqSC4bGMjXJ9g" name="createConstraint_IN_Action" description="creates one Constraint in the context: Action">
+    <lhs xmi:id="_UJKasoGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_UJKas4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Action"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_UJKatIGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_UJKatYGqEeqSC4bGMjXJ9g" name="Selected" outgoing="_UJKat4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Action"/>
+      </nodes>
+      <nodes xmi:id="_UJKatoGqEeqSC4bGMjXJ9g" name="New" incoming="_UJKat4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Constraint"/>
+      </nodes>
+      <edges xmi:id="_UJKat4GqEeqSC4bGMjXJ9g" source="_UJKatYGqEeqSC4bGMjXJ9g" target="_UJKatoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Action/localPostcondition"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_UJKauIGqEeqSC4bGMjXJ9g" origin="_UJKas4GqEeqSC4bGMjXJ9g" image="_UJKatYGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

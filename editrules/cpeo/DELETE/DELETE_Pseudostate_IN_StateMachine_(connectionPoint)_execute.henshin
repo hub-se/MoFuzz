@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_1GIc8IGoEeqjxJ91AzqJlg" name="DELETE_Pseudostate_IN_StateMachine_(connectionPoint)" description="Deletes one Pseudostate in StateMachine">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_1GIc8YGoEeqjxJ91AzqJlg" name="deletePseudostate_IN_StateMachine" description="deletes one Pseudostate in the context: StateMachine">
+    <lhs xmi:id="_1GIc8oGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_1GIc84GoEeqjxJ91AzqJlg" name="Selected" incoming="_1GIc9oGoEeqjxJ91AzqJlg" outgoing="_1GIc9YGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//StateMachine"/>
+      </nodes>
+      <nodes xmi:id="_1GIc9IGoEeqjxJ91AzqJlg" name="ToBeDeleted" incoming="_1GIc9YGoEeqjxJ91AzqJlg" outgoing="_1GIc9oGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Pseudostate"/>
+      </nodes>
+      <edges xmi:id="_1GIc9YGoEeqjxJ91AzqJlg" source="_1GIc84GoEeqjxJ91AzqJlg" target="_1GIc9IGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//StateMachine/connectionPoint"/>
+      </edges>
+      <edges xmi:id="_1GIc9oGoEeqjxJ91AzqJlg" source="_1GIc9IGoEeqjxJ91AzqJlg" target="_1GIc84GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Pseudostate/stateMachine"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_1GIc94GoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_1GIc-IGoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//StateMachine"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_1GIc-YGoEeqjxJ91AzqJlg" origin="_1GIc84GoEeqjxJ91AzqJlg" image="_1GIc-IGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

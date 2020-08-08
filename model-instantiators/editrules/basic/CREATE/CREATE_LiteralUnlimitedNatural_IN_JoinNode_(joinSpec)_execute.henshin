@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UFPkAIGqEeqSC4bGMjXJ9g" name="CREATE_LiteralUnlimitedNatural_IN_JoinNode_(joinSpec)" description="Creates one LiteralUnlimitedNatural in JoinNode">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UFPkAYGqEeqSC4bGMjXJ9g" name="createLiteralUnlimitedNatural_IN_JoinNode" description="creates one LiteralUnlimitedNatural in the context: JoinNode">
+    <parameters xmi:id="_UFPkAoGqEeqSC4bGMjXJ9g" name="Value" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//UnlimitedNatural"/>
+    </parameters>
+    <lhs xmi:id="_UFPkA4GqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_UFPkBIGqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//JoinNode"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_UFPkBYGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_UFPkBoGqEeqSC4bGMjXJ9g" name="Selected" outgoing="_UFPkCYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//JoinNode"/>
+      </nodes>
+      <nodes xmi:id="_UFPkB4GqEeqSC4bGMjXJ9g" name="New" incoming="_UFPkCYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LiteralUnlimitedNatural"/>
+        <attributes xmi:id="_UFPkCIGqEeqSC4bGMjXJ9g" value="Value">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LiteralUnlimitedNatural/value"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_UFPkCYGqEeqSC4bGMjXJ9g" source="_UFPkBoGqEeqSC4bGMjXJ9g" target="_UFPkB4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//JoinNode/joinSpec"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_UFPkCoGqEeqSC4bGMjXJ9g" origin="_UFPkBIGqEeqSC4bGMjXJ9g" image="_UFPkBoGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

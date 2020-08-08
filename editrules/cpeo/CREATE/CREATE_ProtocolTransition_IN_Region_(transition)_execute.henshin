@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_16-aQIGoEeqjxJ91AzqJlg" name="CREATE_ProtocolTransition_IN_Region_(transition)" description="Creates one ProtocolTransition in Region">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_16-aQYGoEeqjxJ91AzqJlg" name="createProtocolTransition_IN_Region" description="creates one ProtocolTransition in the context: Region">
+    <parameters xmi:id="_16-aQoGoEeqjxJ91AzqJlg" name="IsLeaf" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <parameters xmi:id="_16-aQ4GoEeqjxJ91AzqJlg" name="Kind" kind="IN">
+      <type xsi:type="ecore:EEnum" href="http://www.eclipse.org/uml2/5.0.0/UML#//TransitionKind"/>
+    </parameters>
+    <lhs xmi:id="_16-aRIGoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_16-aRYGoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Region"/>
+      </nodes>
+      <nodes xmi:id="_16-aRoGoEeqjxJ91AzqJlg" name="Existing">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Vertex"/>
+      </nodes>
+      <nodes xmi:id="_16-aR4GoEeqjxJ91AzqJlg" name="Existing1">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Vertex"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_16-aSIGoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_16-aSYGoEeqjxJ91AzqJlg" name="Selected" incoming="_16-aUIGoEeqjxJ91AzqJlg" outgoing="_16-aT4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Region"/>
+      </nodes>
+      <nodes xmi:id="_16-aSoGoEeqjxJ91AzqJlg" name="New" incoming="_16-aT4GoEeqjxJ91AzqJlg" outgoing="_16-aUIGoEeqjxJ91AzqJlg _16-aUYGoEeqjxJ91AzqJlg _16-aUoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ProtocolTransition"/>
+        <attributes xmi:id="_16-aS4GoEeqjxJ91AzqJlg" value="IsLeaf">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//RedefinableElement/isLeaf"/>
+        </attributes>
+        <attributes xmi:id="_16-aTIGoEeqjxJ91AzqJlg" value="Kind">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Transition/kind"/>
+        </attributes>
+      </nodes>
+      <nodes xmi:id="_16-aTYGoEeqjxJ91AzqJlg" name="Existing" incoming="_16-aUYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Vertex"/>
+      </nodes>
+      <nodes xmi:id="_16-aToGoEeqjxJ91AzqJlg" name="Existing1" incoming="_16-aUoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Vertex"/>
+      </nodes>
+      <edges xmi:id="_16-aT4GoEeqjxJ91AzqJlg" source="_16-aSYGoEeqjxJ91AzqJlg" target="_16-aSoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Region/transition"/>
+      </edges>
+      <edges xmi:id="_16-aUIGoEeqjxJ91AzqJlg" source="_16-aSoGoEeqjxJ91AzqJlg" target="_16-aSYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Transition/container"/>
+      </edges>
+      <edges xmi:id="_16-aUYGoEeqjxJ91AzqJlg" source="_16-aSoGoEeqjxJ91AzqJlg" target="_16-aTYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Transition/source"/>
+      </edges>
+      <edges xmi:id="_16-aUoGoEeqjxJ91AzqJlg" source="_16-aSoGoEeqjxJ91AzqJlg" target="_16-aToGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Transition/target"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_16-aU4GoEeqjxJ91AzqJlg" origin="_16-aRYGoEeqjxJ91AzqJlg" image="_16-aSYGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_16-aVIGoEeqjxJ91AzqJlg" origin="_16-aRoGoEeqjxJ91AzqJlg" image="_16-aTYGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_16-aVYGoEeqjxJ91AzqJlg" origin="_16-aR4GoEeqjxJ91AzqJlg" image="_16-aToGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

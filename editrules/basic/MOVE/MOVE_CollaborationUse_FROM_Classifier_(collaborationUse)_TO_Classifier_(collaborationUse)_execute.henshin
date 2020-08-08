@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_Tv-eoIGqEeqSC4bGMjXJ9g" name="MOVE_CollaborationUse_FROM_Classifier_(collaborationUse)_TO_Classifier_(collaborationUse)" description="MOVEs CollaborationUse from Classifier(Reference:collaborationUse) to Classifier(Reference:collaborationUse">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_Tv-eoYGqEeqSC4bGMjXJ9g" name="moveCollaborationUse_FROM_Classifier_collaborationUse_TO_Classifier_Classifier" description="Moves CollaborationUse from Classifier(Reference:collaborationUse) toClassifier(Reference:Classifier)">
+    <lhs xmi:id="_Tv-eooGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_Tv-eo4GqEeqSC4bGMjXJ9g" name="Selected" incoming="_Tv-epoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//CollaborationUse"/>
+      </nodes>
+      <nodes xmi:id="_Tv-epIGqEeqSC4bGMjXJ9g" name="OldSource" outgoing="_Tv-epoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier"/>
+      </nodes>
+      <nodes xmi:id="_Tv-epYGqEeqSC4bGMjXJ9g" name="NewSource">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier"/>
+      </nodes>
+      <edges xmi:id="_Tv-epoGqEeqSC4bGMjXJ9g" source="_Tv-epIGqEeqSC4bGMjXJ9g" target="_Tv-eo4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier/collaborationUse"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_Tv-ep4GqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_Tv-eqIGqEeqSC4bGMjXJ9g" name="Selected" incoming="_Tv-eq4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//CollaborationUse"/>
+      </nodes>
+      <nodes xmi:id="_Tv-eqYGqEeqSC4bGMjXJ9g" name="OldSource">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier"/>
+      </nodes>
+      <nodes xmi:id="_Tv-eqoGqEeqSC4bGMjXJ9g" name="NewSource" outgoing="_Tv-eq4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier"/>
+      </nodes>
+      <edges xmi:id="_Tv-eq4GqEeqSC4bGMjXJ9g" source="_Tv-eqoGqEeqSC4bGMjXJ9g" target="_Tv-eqIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier/collaborationUse"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_Tv-erIGqEeqSC4bGMjXJ9g" origin="_Tv-eo4GqEeqSC4bGMjXJ9g" image="_Tv-eqIGqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_Tv-erYGqEeqSC4bGMjXJ9g" origin="_Tv-epIGqEeqSC4bGMjXJ9g" image="_Tv-eqYGqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_Tv-eroGqEeqSC4bGMjXJ9g" origin="_Tv-epYGqEeqSC4bGMjXJ9g" image="_Tv-eqoGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

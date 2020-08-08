@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UuOPkIGqEeqSC4bGMjXJ9g" name="DELETE_Abstraction_IN_CollaborationUse_(roleBinding)" description="Deletes one Abstraction in CollaborationUse">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UuOPkYGqEeqSC4bGMjXJ9g" name="deleteAbstraction_IN_CollaborationUse" description="deletes one Abstraction in the context: CollaborationUse">
+    <lhs xmi:id="_UuOPkoGqEeqSC4bGMjXJ9g" name="LHS">
+      <nodes xmi:id="_UuOPk4GqEeqSC4bGMjXJ9g" name="Selected" outgoing="_UuOPlYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//CollaborationUse"/>
+      </nodes>
+      <nodes xmi:id="_UuOPlIGqEeqSC4bGMjXJ9g" name="ToBeDeleted" incoming="_UuOPlYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Abstraction"/>
+      </nodes>
+      <edges xmi:id="_UuOPlYGqEeqSC4bGMjXJ9g" source="_UuOPk4GqEeqSC4bGMjXJ9g" target="_UuOPlIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//CollaborationUse/roleBinding"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_UuOPloGqEeqSC4bGMjXJ9g" name="RHS">
+      <nodes xmi:id="_UuOPl4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//CollaborationUse"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_UuOPmIGqEeqSC4bGMjXJ9g" origin="_UuOPk4GqEeqSC4bGMjXJ9g" image="_UuOPl4GqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

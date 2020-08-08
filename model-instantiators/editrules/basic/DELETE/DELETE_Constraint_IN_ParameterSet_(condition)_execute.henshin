@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UpVvkIGqEeqSC4bGMjXJ9g" name="DELETE_Constraint_IN_ParameterSet_(condition)" description="Deletes one Constraint in ParameterSet">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UpVvkYGqEeqSC4bGMjXJ9g" name="deleteConstraint_IN_ParameterSet" description="deletes one Constraint in the context: ParameterSet">
+    <lhs xmi:id="_UpVvkoGqEeqSC4bGMjXJ9g" name="LHS">
+      <nodes xmi:id="_UpVvk4GqEeqSC4bGMjXJ9g" name="Selected" outgoing="_UpVvlYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ParameterSet"/>
+      </nodes>
+      <nodes xmi:id="_UpVvlIGqEeqSC4bGMjXJ9g" name="ToBeDeleted" incoming="_UpVvlYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Constraint"/>
+      </nodes>
+      <edges xmi:id="_UpVvlYGqEeqSC4bGMjXJ9g" source="_UpVvk4GqEeqSC4bGMjXJ9g" target="_UpVvlIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ParameterSet/condition"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_UpVvloGqEeqSC4bGMjXJ9g" name="RHS">
+      <nodes xmi:id="_UpVvl4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ParameterSet"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_UpVvmIGqEeqSC4bGMjXJ9g" origin="_UpVvk4GqEeqSC4bGMjXJ9g" image="_UpVvl4GqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

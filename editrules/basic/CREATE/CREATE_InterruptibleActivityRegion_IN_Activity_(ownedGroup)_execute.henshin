@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UN_3YIGqEeqSC4bGMjXJ9g" name="CREATE_InterruptibleActivityRegion_IN_Activity_(ownedGroup)" description="Creates one InterruptibleActivityRegion in Activity">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UN_3YYGqEeqSC4bGMjXJ9g" name="createInterruptibleActivityRegion_IN_Activity" description="creates one InterruptibleActivityRegion in the context: Activity">
+    <lhs xmi:id="_UN_3YoGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_UN_3Y4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Activity"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_UN_3ZIGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_UN_3ZYGqEeqSC4bGMjXJ9g" name="Selected" outgoing="_UN_3Z4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Activity"/>
+      </nodes>
+      <nodes xmi:id="_UN_3ZoGqEeqSC4bGMjXJ9g" name="New" incoming="_UN_3Z4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InterruptibleActivityRegion"/>
+      </nodes>
+      <edges xmi:id="_UN_3Z4GqEeqSC4bGMjXJ9g" source="_UN_3ZYGqEeqSC4bGMjXJ9g" target="_UN_3ZoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Activity/ownedGroup"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_UN_3aIGqEeqSC4bGMjXJ9g" origin="_UN_3Y4GqEeqSC4bGMjXJ9g" image="_UN_3ZYGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

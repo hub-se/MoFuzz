@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UF98wIGqEeqSC4bGMjXJ9g" name="CREATE_DurationConstraint_IN_ParameterSet_(condition)" description="Creates one DurationConstraint in ParameterSet">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UF98wYGqEeqSC4bGMjXJ9g" name="createDurationConstraint_IN_ParameterSet" description="creates one DurationConstraint in the context: ParameterSet">
+    <lhs xmi:id="_UF98woGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_UF98w4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ParameterSet"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_UF98xIGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_UF98xYGqEeqSC4bGMjXJ9g" name="Selected" outgoing="_UF98x4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ParameterSet"/>
+      </nodes>
+      <nodes xmi:id="_UF98xoGqEeqSC4bGMjXJ9g" name="New" incoming="_UF98x4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//DurationConstraint"/>
+      </nodes>
+      <edges xmi:id="_UF98x4GqEeqSC4bGMjXJ9g" source="_UF98xYGqEeqSC4bGMjXJ9g" target="_UF98xoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ParameterSet/condition"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_UF98yIGqEeqSC4bGMjXJ9g" origin="_UF98w4GqEeqSC4bGMjXJ9g" image="_UF98xYGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

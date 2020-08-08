@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_2VX3QIGoEeqjxJ91AzqJlg" name="MOVE_ValuePin_FROM_WriteVariableAction_(value)_TO_WriteVariableAction_(value)" description="MOVEs ValuePin from WriteVariableAction(Reference:value) to WriteVariableAction(Reference:value">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_2VX3QYGoEeqjxJ91AzqJlg" name="moveValuePin_FROM_WriteVariableAction_value_TO_WriteVariableAction_WriteVariableAction" description="Moves ValuePin from WriteVariableAction(Reference:value) toWriteVariableAction(Reference:WriteVariableAction)">
+    <lhs xmi:id="_2VX3QoGoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_2VX3Q4GoEeqjxJ91AzqJlg" name="Selected" incoming="_2VX3RoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ValuePin"/>
+      </nodes>
+      <nodes xmi:id="_2VX3RIGoEeqjxJ91AzqJlg" name="OldSource" outgoing="_2VX3RoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//WriteVariableAction"/>
+      </nodes>
+      <nodes xmi:id="_2VX3RYGoEeqjxJ91AzqJlg" name="NewSource">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//WriteVariableAction"/>
+      </nodes>
+      <edges xmi:id="_2VX3RoGoEeqjxJ91AzqJlg" source="_2VX3RIGoEeqjxJ91AzqJlg" target="_2VX3Q4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//WriteVariableAction/value"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_2VX3R4GoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_2VX3SIGoEeqjxJ91AzqJlg" name="Selected" incoming="_2VX3S4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ValuePin"/>
+      </nodes>
+      <nodes xmi:id="_2VX3SYGoEeqjxJ91AzqJlg" name="OldSource">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//WriteVariableAction"/>
+      </nodes>
+      <nodes xmi:id="_2VX3SoGoEeqjxJ91AzqJlg" name="NewSource" outgoing="_2VX3S4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//WriteVariableAction"/>
+      </nodes>
+      <edges xmi:id="_2VX3S4GoEeqjxJ91AzqJlg" source="_2VX3SoGoEeqjxJ91AzqJlg" target="_2VX3SIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//WriteVariableAction/value"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_2VX3TIGoEeqjxJ91AzqJlg" origin="_2VX3Q4GoEeqjxJ91AzqJlg" image="_2VX3SIGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_2VX3TYGoEeqjxJ91AzqJlg" origin="_2VX3RIGoEeqjxJ91AzqJlg" image="_2VX3SYGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_2VX3ToGoEeqjxJ91AzqJlg" origin="_2VX3RYGoEeqjxJ91AzqJlg" image="_2VX3SoGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

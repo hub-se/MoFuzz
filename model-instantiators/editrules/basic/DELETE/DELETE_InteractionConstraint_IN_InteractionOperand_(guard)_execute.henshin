@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_Ulg_gIGqEeqSC4bGMjXJ9g" name="DELETE_InteractionConstraint_IN_InteractionOperand_(guard)" description="Deletes one InteractionConstraint in InteractionOperand">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_Ulg_gYGqEeqSC4bGMjXJ9g" name="deleteInteractionConstraint_IN_InteractionOperand" description="deletes one InteractionConstraint in the context: InteractionOperand">
+    <lhs xmi:id="_Ulg_goGqEeqSC4bGMjXJ9g" name="LHS">
+      <nodes xmi:id="_Ulg_g4GqEeqSC4bGMjXJ9g" name="Selected" outgoing="_Ulg_hYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InteractionOperand"/>
+      </nodes>
+      <nodes xmi:id="_Ulg_hIGqEeqSC4bGMjXJ9g" name="ToBeDeleted" incoming="_Ulg_hYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InteractionConstraint"/>
+      </nodes>
+      <edges xmi:id="_Ulg_hYGqEeqSC4bGMjXJ9g" source="_Ulg_g4GqEeqSC4bGMjXJ9g" target="_Ulg_hIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InteractionOperand/guard"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_Ulg_hoGqEeqSC4bGMjXJ9g" name="RHS">
+      <nodes xmi:id="_Ulg_h4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InteractionOperand"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_Ulg_iIGqEeqSC4bGMjXJ9g" origin="_Ulg_g4GqEeqSC4bGMjXJ9g" image="_Ulg_h4GqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

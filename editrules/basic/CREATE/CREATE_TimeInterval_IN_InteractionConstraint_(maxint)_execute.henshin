@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UZCCsIGqEeqSC4bGMjXJ9g" name="CREATE_TimeInterval_IN_InteractionConstraint_(maxint)" description="Creates one TimeInterval in InteractionConstraint">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UZCCsYGqEeqSC4bGMjXJ9g" name="createTimeInterval_IN_InteractionConstraint" description="creates one TimeInterval in the context: InteractionConstraint">
+    <lhs xmi:id="_UZCCsoGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_UZCCs4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InteractionConstraint"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_UZCCtIGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_UZCCtYGqEeqSC4bGMjXJ9g" name="Selected" outgoing="_UZCCt4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InteractionConstraint"/>
+      </nodes>
+      <nodes xmi:id="_UZCCtoGqEeqSC4bGMjXJ9g" name="New" incoming="_UZCCt4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TimeInterval"/>
+      </nodes>
+      <edges xmi:id="_UZCCt4GqEeqSC4bGMjXJ9g" source="_UZCCtYGqEeqSC4bGMjXJ9g" target="_UZCCtoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InteractionConstraint/maxint"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_UZCCuIGqEeqSC4bGMjXJ9g" origin="_UZCCs4GqEeqSC4bGMjXJ9g" image="_UZCCtYGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

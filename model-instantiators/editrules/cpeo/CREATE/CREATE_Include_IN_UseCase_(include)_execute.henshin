@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_1nVFgIGoEeqjxJ91AzqJlg" name="CREATE_Include_IN_UseCase_(include)" description="Creates one Include in UseCase">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_1nVFgYGoEeqjxJ91AzqJlg" name="createInclude_IN_UseCase" description="creates one Include in the context: UseCase">
+    <lhs xmi:id="_1nVFgoGoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_1nVFg4GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//UseCase"/>
+      </nodes>
+      <nodes xmi:id="_1nVFhIGoEeqjxJ91AzqJlg" name="Existing">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//UseCase"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_1nVFhYGoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_1nVFhoGoEeqjxJ91AzqJlg" name="Selected" incoming="_1nVFioGoEeqjxJ91AzqJlg" outgoing="_1nVFiYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//UseCase"/>
+      </nodes>
+      <nodes xmi:id="_1nVFh4GoEeqjxJ91AzqJlg" name="New" incoming="_1nVFiYGoEeqjxJ91AzqJlg" outgoing="_1nVFioGoEeqjxJ91AzqJlg _1nVFi4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Include"/>
+      </nodes>
+      <nodes xmi:id="_1nVFiIGoEeqjxJ91AzqJlg" name="Existing" incoming="_1nVFi4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//UseCase"/>
+      </nodes>
+      <edges xmi:id="_1nVFiYGoEeqjxJ91AzqJlg" source="_1nVFhoGoEeqjxJ91AzqJlg" target="_1nVFh4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//UseCase/include"/>
+      </edges>
+      <edges xmi:id="_1nVFioGoEeqjxJ91AzqJlg" source="_1nVFh4GoEeqjxJ91AzqJlg" target="_1nVFhoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Include/includingCase"/>
+      </edges>
+      <edges xmi:id="_1nVFi4GoEeqjxJ91AzqJlg" source="_1nVFh4GoEeqjxJ91AzqJlg" target="_1nVFiIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Include/addition"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_1nVFjIGoEeqjxJ91AzqJlg" origin="_1nVFg4GoEeqjxJ91AzqJlg" image="_1nVFhoGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_1nVFjYGoEeqjxJ91AzqJlg" origin="_1nVFhIGoEeqjxJ91AzqJlg" image="_1nVFiIGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

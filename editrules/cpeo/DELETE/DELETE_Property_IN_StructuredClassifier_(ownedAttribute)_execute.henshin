@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_1HlOcIGoEeqjxJ91AzqJlg" name="DELETE_Property_IN_StructuredClassifier_(ownedAttribute)" description="Deletes one Property in StructuredClassifier">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_1HlOcYGoEeqjxJ91AzqJlg" name="deleteProperty_IN_StructuredClassifier" description="deletes one Property in the context: StructuredClassifier">
+    <lhs xmi:id="_1HlOcoGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_1HlOc4GoEeqjxJ91AzqJlg" name="Selected" outgoing="_1HlOdYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+      </nodes>
+      <nodes xmi:id="_1HlOdIGoEeqjxJ91AzqJlg" name="ToBeDeleted" incoming="_1HlOdYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Property"/>
+      </nodes>
+      <edges xmi:id="_1HlOdYGoEeqjxJ91AzqJlg" source="_1HlOc4GoEeqjxJ91AzqJlg" target="_1HlOdIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//StructuredClassifier/ownedAttribute"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_1HlOdoGoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_1HlOd4GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_1HlOeIGoEeqjxJ91AzqJlg" origin="_1HlOc4GoEeqjxJ91AzqJlg" image="_1HlOd4GoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

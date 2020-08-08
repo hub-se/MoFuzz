@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_1NiFcIGoEeqjxJ91AzqJlg" name="DELETE_BroadcastSignalAction_IN_SequenceNode_(executableNode)" description="Deletes one BroadcastSignalAction in SequenceNode">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_1NisgIGoEeqjxJ91AzqJlg" name="deleteBroadcastSignalAction_IN_SequenceNode" description="deletes one BroadcastSignalAction in the context: SequenceNode">
+    <lhs xmi:id="_1NisgYGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_1NisgoGoEeqjxJ91AzqJlg" name="Selected" outgoing="_1NishYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//SequenceNode"/>
+      </nodes>
+      <nodes xmi:id="_1Nisg4GoEeqjxJ91AzqJlg" name="ToBeDeleted" incoming="_1NishYGoEeqjxJ91AzqJlg" outgoing="_1NishoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//BroadcastSignalAction"/>
+      </nodes>
+      <nodes xmi:id="_1NishIGoEeqjxJ91AzqJlg" name="Existing" incoming="_1NishoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Signal"/>
+      </nodes>
+      <edges xmi:id="_1NishYGoEeqjxJ91AzqJlg" source="_1NisgoGoEeqjxJ91AzqJlg" target="_1Nisg4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//SequenceNode/executableNode"/>
+      </edges>
+      <edges xmi:id="_1NishoGoEeqjxJ91AzqJlg" source="_1Nisg4GoEeqjxJ91AzqJlg" target="_1NishIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//BroadcastSignalAction/signal"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_1Nish4GoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_1NisiIGoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//SequenceNode"/>
+      </nodes>
+      <nodes xmi:id="_1NisiYGoEeqjxJ91AzqJlg" name="Existing">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Signal"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_1NisioGoEeqjxJ91AzqJlg" origin="_1NisgoGoEeqjxJ91AzqJlg" image="_1NisiIGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_1Nisi4GoEeqjxJ91AzqJlg" origin="_1NishIGoEeqjxJ91AzqJlg" image="_1NisiYGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_0-MB4IGoEeqjxJ91AzqJlg" name="DELETE_Duration_IN_TimeExpression_(expr)" description="Deletes one Duration in TimeExpression">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_0-MB4YGoEeqjxJ91AzqJlg" name="deleteDuration_IN_TimeExpression" description="deletes one Duration in the context: TimeExpression">
+    <lhs xmi:id="_0-MB4oGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_0-MB44GoEeqjxJ91AzqJlg" name="Selected" outgoing="_0-MB5YGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TimeExpression"/>
+      </nodes>
+      <nodes xmi:id="_0-MB5IGoEeqjxJ91AzqJlg" name="ToBeDeleted" incoming="_0-MB5YGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Duration"/>
+      </nodes>
+      <edges xmi:id="_0-MB5YGoEeqjxJ91AzqJlg" source="_0-MB44GoEeqjxJ91AzqJlg" target="_0-MB5IGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TimeExpression/expr"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_0-MB5oGoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_0-MB54GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TimeExpression"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_0-MB6IGoEeqjxJ91AzqJlg" origin="_0-MB44GoEeqjxJ91AzqJlg" image="_0-MB54GoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

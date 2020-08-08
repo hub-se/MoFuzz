@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_0_1AoIGoEeqjxJ91AzqJlg" name="DELETE_ValuePin_IN_LoopNode_(loopVariableInput)" description="Deletes one ValuePin in LoopNode">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_0_1AoYGoEeqjxJ91AzqJlg" name="deleteValuePin_IN_LoopNode" description="deletes one ValuePin in the context: LoopNode">
+    <lhs xmi:id="_0_1AooGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_0_1Ao4GoEeqjxJ91AzqJlg" name="Selected" outgoing="_0_1ApoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LoopNode"/>
+      </nodes>
+      <nodes xmi:id="_0_1ApIGoEeqjxJ91AzqJlg" name="ToBeDeleted" incoming="_0_1ApoGoEeqjxJ91AzqJlg" outgoing="_0_1Ap4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ValuePin"/>
+      </nodes>
+      <nodes xmi:id="_0_1ApYGoEeqjxJ91AzqJlg" name="Child" incoming="_0_1Ap4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ValueSpecification"/>
+      </nodes>
+      <edges xmi:id="_0_1ApoGoEeqjxJ91AzqJlg" source="_0_1Ao4GoEeqjxJ91AzqJlg" target="_0_1ApIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LoopNode/loopVariableInput"/>
+      </edges>
+      <edges xmi:id="_0_1Ap4GoEeqjxJ91AzqJlg" source="_0_1ApIGoEeqjxJ91AzqJlg" target="_0_1ApYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ValuePin/value"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_0_1AqIGoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_0_1AqYGoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LoopNode"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_0_1AqoGoEeqjxJ91AzqJlg" origin="_0_1Ao4GoEeqjxJ91AzqJlg" image="_0_1AqYGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

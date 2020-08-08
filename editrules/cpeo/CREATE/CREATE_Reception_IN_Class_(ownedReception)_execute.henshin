@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_15MRkIGoEeqjxJ91AzqJlg" name="CREATE_Reception_IN_Class_(ownedReception)" description="Creates one Reception in Class">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_15MRkYGoEeqjxJ91AzqJlg" name="createReception_IN_Class" description="creates one Reception in the context: Class">
+    <parameters xmi:id="_15MRkoGoEeqjxJ91AzqJlg" name="IsLeaf" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <parameters xmi:id="_15MRk4GoEeqjxJ91AzqJlg" name="IsStatic" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <parameters xmi:id="_15MRlIGoEeqjxJ91AzqJlg" name="Concurrency" kind="IN">
+      <type xsi:type="ecore:EEnum" href="http://www.eclipse.org/uml2/5.0.0/UML#//CallConcurrencyKind"/>
+    </parameters>
+    <parameters xmi:id="_15MRlYGoEeqjxJ91AzqJlg" name="IsAbstract" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <lhs xmi:id="_15MRloGoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_15MRl4GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+      </nodes>
+      <nodes xmi:id="_15MRmIGoEeqjxJ91AzqJlg" name="Existing">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Signal"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_15MRmYGoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_15MRmoGoEeqjxJ91AzqJlg" name="Selected" outgoing="_15MRoYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+      </nodes>
+      <nodes xmi:id="_15MRm4GoEeqjxJ91AzqJlg" name="New" incoming="_15MRoYGoEeqjxJ91AzqJlg" outgoing="_15MRooGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Reception"/>
+        <attributes xmi:id="_15MRnIGoEeqjxJ91AzqJlg" value="IsLeaf">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//RedefinableElement/isLeaf"/>
+        </attributes>
+        <attributes xmi:id="_15MRnYGoEeqjxJ91AzqJlg" value="IsStatic">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Feature/isStatic"/>
+        </attributes>
+        <attributes xmi:id="_15MRnoGoEeqjxJ91AzqJlg" value="Concurrency">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//BehavioralFeature/concurrency"/>
+        </attributes>
+        <attributes xmi:id="_15MRn4GoEeqjxJ91AzqJlg" value="IsAbstract">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//BehavioralFeature/isAbstract"/>
+        </attributes>
+      </nodes>
+      <nodes xmi:id="_15MRoIGoEeqjxJ91AzqJlg" name="Existing" incoming="_15MRooGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Signal"/>
+      </nodes>
+      <edges xmi:id="_15MRoYGoEeqjxJ91AzqJlg" source="_15MRmoGoEeqjxJ91AzqJlg" target="_15MRm4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Class/ownedReception"/>
+      </edges>
+      <edges xmi:id="_15MRooGoEeqjxJ91AzqJlg" source="_15MRm4GoEeqjxJ91AzqJlg" target="_15MRoIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Reception/signal"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_15MRo4GoEeqjxJ91AzqJlg" origin="_15MRl4GoEeqjxJ91AzqJlg" image="_15MRmoGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_15MRpIGoEeqjxJ91AzqJlg" origin="_15MRmIGoEeqjxJ91AzqJlg" image="_15MRoIGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

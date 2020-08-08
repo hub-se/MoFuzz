@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_1AUv4IGoEeqjxJ91AzqJlg" name="DELETE_IntervalConstraint_IN_TemplateParameterSubstitution_(ownedActual)" description="Deletes one IntervalConstraint in TemplateParameterSubstitution">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_1AUv4YGoEeqjxJ91AzqJlg" name="deleteIntervalConstraint_IN_TemplateParameterSubstitution" description="deletes one IntervalConstraint in the context: TemplateParameterSubstitution">
+    <lhs xmi:id="_1AUv4oGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_1AUv44GoEeqjxJ91AzqJlg" name="Selected" outgoing="_1AUv5oGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameterSubstitution"/>
+      </nodes>
+      <nodes xmi:id="_1AUv5IGoEeqjxJ91AzqJlg" name="ToBeDeleted" incoming="_1AUv5oGoEeqjxJ91AzqJlg" outgoing="_1AUv54GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//IntervalConstraint"/>
+      </nodes>
+      <nodes xmi:id="_1AUv5YGoEeqjxJ91AzqJlg" name="Child" incoming="_1AUv54GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Interval"/>
+      </nodes>
+      <edges xmi:id="_1AUv5oGoEeqjxJ91AzqJlg" source="_1AUv44GoEeqjxJ91AzqJlg" target="_1AUv5IGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameterSubstitution/ownedActual"/>
+      </edges>
+      <edges xmi:id="_1AUv54GoEeqjxJ91AzqJlg" source="_1AUv5IGoEeqjxJ91AzqJlg" target="_1AUv5YGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Constraint/specification"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_1AUv6IGoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_1AUv6YGoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameterSubstitution"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_1AUv6oGoEeqjxJ91AzqJlg" origin="_1AUv44GoEeqjxJ91AzqJlg" image="_1AUv6YGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

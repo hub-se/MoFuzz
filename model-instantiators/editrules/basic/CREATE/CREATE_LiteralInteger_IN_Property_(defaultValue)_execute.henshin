@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UfJ40IGqEeqSC4bGMjXJ9g" name="CREATE_LiteralInteger_IN_Property_(defaultValue)" description="Creates one LiteralInteger in Property">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UfJ40YGqEeqSC4bGMjXJ9g" name="createLiteralInteger_IN_Property" description="creates one LiteralInteger in the context: Property">
+    <parameters xmi:id="_UfJ40oGqEeqSC4bGMjXJ9g" name="Value" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Integer"/>
+    </parameters>
+    <lhs xmi:id="_UfJ404GqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_UfJ41IGqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Property"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_UfJ41YGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_UfJ41oGqEeqSC4bGMjXJ9g" name="Selected" outgoing="_UfJ42YGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Property"/>
+      </nodes>
+      <nodes xmi:id="_UfJ414GqEeqSC4bGMjXJ9g" name="New" incoming="_UfJ42YGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LiteralInteger"/>
+        <attributes xmi:id="_UfJ42IGqEeqSC4bGMjXJ9g" value="Value">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LiteralInteger/value"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_UfJ42YGqEeqSC4bGMjXJ9g" source="_UfJ41oGqEeqSC4bGMjXJ9g" target="_UfJ414GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Property/defaultValue"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_UfJ42oGqEeqSC4bGMjXJ9g" origin="_UfJ41IGqEeqSC4bGMjXJ9g" image="_UfJ41oGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

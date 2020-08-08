@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_Ukqq8IGqEeqSC4bGMjXJ9g" name="DELETE_Port_IN_Signal_(ownedAttribute)" description="Deletes one Port in Signal">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_Ukqq8YGqEeqSC4bGMjXJ9g" name="deletePort_IN_Signal" description="deletes one Port in the context: Signal">
+    <lhs xmi:id="_Ukqq8oGqEeqSC4bGMjXJ9g" name="LHS">
+      <nodes xmi:id="_Ukqq84GqEeqSC4bGMjXJ9g" name="Selected" outgoing="_Ukqq9YGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Signal"/>
+      </nodes>
+      <nodes xmi:id="_Ukqq9IGqEeqSC4bGMjXJ9g" name="ToBeDeleted" incoming="_Ukqq9YGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Port"/>
+      </nodes>
+      <edges xmi:id="_Ukqq9YGqEeqSC4bGMjXJ9g" source="_Ukqq84GqEeqSC4bGMjXJ9g" target="_Ukqq9IGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Signal/ownedAttribute"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_Ukqq9oGqEeqSC4bGMjXJ9g" name="RHS">
+      <nodes xmi:id="_Ukqq94GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Signal"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_Ukqq-IGqEeqSC4bGMjXJ9g" origin="_Ukqq84GqEeqSC4bGMjXJ9g" image="_Ukqq94GqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

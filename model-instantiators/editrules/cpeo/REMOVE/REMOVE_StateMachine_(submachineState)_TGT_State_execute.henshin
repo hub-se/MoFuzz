@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_2FYTcIGoEeqjxJ91AzqJlg" name="REMOVE_StateMachine_(submachineState)_TGT_State" description="Removes StateMachine's reference submachineState the target State">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_2FYTcYGoEeqjxJ91AzqJlg" name="removeFromStateMachine_submachineState_State" description="Removes from StateMachine's reference submachineState the target State">
+    <lhs xmi:id="_2FYTcoGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_2FYTc4GoEeqjxJ91AzqJlg" name="Selected" incoming="_2FYTdoGoEeqjxJ91AzqJlg" outgoing="_2FYTdYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//StateMachine"/>
+      </nodes>
+      <nodes xmi:id="_2FYTdIGoEeqjxJ91AzqJlg" name="OldTarget" incoming="_2FYTdYGoEeqjxJ91AzqJlg" outgoing="_2FYTdoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//State"/>
+      </nodes>
+      <edges xmi:id="_2FYTdYGoEeqjxJ91AzqJlg" source="_2FYTc4GoEeqjxJ91AzqJlg" target="_2FYTdIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//StateMachine/submachineState"/>
+      </edges>
+      <edges xmi:id="_2FYTdoGoEeqjxJ91AzqJlg" source="_2FYTdIGoEeqjxJ91AzqJlg" target="_2FYTc4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//State/submachine"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_2FYTd4GoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_2FYTeIGoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//StateMachine"/>
+      </nodes>
+      <nodes xmi:id="_2FYTeYGoEeqjxJ91AzqJlg" name="OldTarget">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//State"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_2FYTeoGoEeqjxJ91AzqJlg" origin="_2FYTc4GoEeqjxJ91AzqJlg" image="_2FYTeIGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_2FYTe4GoEeqjxJ91AzqJlg" origin="_2FYTdIGoEeqjxJ91AzqJlg" image="_2FYTeYGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

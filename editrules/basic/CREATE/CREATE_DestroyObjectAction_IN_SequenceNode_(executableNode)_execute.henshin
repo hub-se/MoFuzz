@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UgeHcIGqEeqSC4bGMjXJ9g" name="CREATE_DestroyObjectAction_IN_SequenceNode_(executableNode)" description="Creates one DestroyObjectAction in SequenceNode">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UgeHcYGqEeqSC4bGMjXJ9g" name="createDestroyObjectAction_IN_SequenceNode" description="creates one DestroyObjectAction in the context: SequenceNode">
+    <parameters xmi:id="_UgeHcoGqEeqSC4bGMjXJ9g" name="IsLeaf" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <parameters xmi:id="_UgeHc4GqEeqSC4bGMjXJ9g" name="IsLocallyReentrant" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <parameters xmi:id="_UgeHdIGqEeqSC4bGMjXJ9g" name="IsDestroyLinks" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <parameters xmi:id="_UgeHdYGqEeqSC4bGMjXJ9g" name="IsDestroyOwnedObjects" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <lhs xmi:id="_UgeHdoGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_UgeHd4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//SequenceNode"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_UgeHeIGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_UgeHeYGqEeqSC4bGMjXJ9g" name="Selected" outgoing="_UgeHf4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//SequenceNode"/>
+      </nodes>
+      <nodes xmi:id="_UgeHeoGqEeqSC4bGMjXJ9g" name="New" incoming="_UgeHf4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//DestroyObjectAction"/>
+        <attributes xmi:id="_UgeHe4GqEeqSC4bGMjXJ9g" value="IsLeaf">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//RedefinableElement/isLeaf"/>
+        </attributes>
+        <attributes xmi:id="_UgeHfIGqEeqSC4bGMjXJ9g" value="IsLocallyReentrant">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Action/isLocallyReentrant"/>
+        </attributes>
+        <attributes xmi:id="_UgeHfYGqEeqSC4bGMjXJ9g" value="IsDestroyLinks">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//DestroyObjectAction/isDestroyLinks"/>
+        </attributes>
+        <attributes xmi:id="_UgeHfoGqEeqSC4bGMjXJ9g" value="IsDestroyOwnedObjects">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//DestroyObjectAction/isDestroyOwnedObjects"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_UgeHf4GqEeqSC4bGMjXJ9g" source="_UgeHeYGqEeqSC4bGMjXJ9g" target="_UgeHeoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//SequenceNode/executableNode"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_UgeHgIGqEeqSC4bGMjXJ9g" origin="_UgeHd4GqEeqSC4bGMjXJ9g" image="_UgeHeYGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

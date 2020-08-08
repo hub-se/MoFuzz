@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_09ooQIGoEeqjxJ91AzqJlg" name="DELETE_ReadExtentAction_IN_SequenceNode_(executableNode)" description="Deletes one ReadExtentAction in SequenceNode">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_09ooQYGoEeqjxJ91AzqJlg" name="deleteReadExtentAction_IN_SequenceNode" description="deletes one ReadExtentAction in the context: SequenceNode">
+    <lhs xmi:id="_09ooQoGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_09ooQ4GoEeqjxJ91AzqJlg" name="Selected" outgoing="_09ooR4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//SequenceNode"/>
+      </nodes>
+      <nodes xmi:id="_09ooRIGoEeqjxJ91AzqJlg" name="ToBeDeleted" incoming="_09ooR4GoEeqjxJ91AzqJlg" outgoing="_09ooSIGoEeqjxJ91AzqJlg _09ooSYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ReadExtentAction"/>
+      </nodes>
+      <nodes xmi:id="_09ooRYGoEeqjxJ91AzqJlg" name="Child" incoming="_09ooSIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//OutputPin"/>
+      </nodes>
+      <nodes xmi:id="_09ooRoGoEeqjxJ91AzqJlg" name="Existing" incoming="_09ooSYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier"/>
+      </nodes>
+      <edges xmi:id="_09ooR4GoEeqjxJ91AzqJlg" source="_09ooQ4GoEeqjxJ91AzqJlg" target="_09ooRIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//SequenceNode/executableNode"/>
+      </edges>
+      <edges xmi:id="_09ooSIGoEeqjxJ91AzqJlg" source="_09ooRIGoEeqjxJ91AzqJlg" target="_09ooRYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ReadExtentAction/result"/>
+      </edges>
+      <edges xmi:id="_09ooSYGoEeqjxJ91AzqJlg" source="_09ooRIGoEeqjxJ91AzqJlg" target="_09ooRoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ReadExtentAction/classifier"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_09ooSoGoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_09ooS4GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//SequenceNode"/>
+      </nodes>
+      <nodes xmi:id="_09ooTIGoEeqjxJ91AzqJlg" name="Existing">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_09ooTYGoEeqjxJ91AzqJlg" origin="_09ooQ4GoEeqjxJ91AzqJlg" image="_09ooS4GoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_09ooToGoEeqjxJ91AzqJlg" origin="_09ooRoGoEeqjxJ91AzqJlg" image="_09ooTIGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_1aVyYIGoEeqjxJ91AzqJlg" name="ADD_InformationItem_(represented)_TGT_Classifier" description="Adds to InformationItem's reference represented the target Classifier">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_1aVyYYGoEeqjxJ91AzqJlg" name="addToInformationItem_represented_Classifier" description="Adds to InformationItem's reference represented the target Classifier">
+    <lhs xmi:id="_1aVyYoGoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_1aVyY4GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InformationItem"/>
+      </nodes>
+      <nodes xmi:id="_1aVyZIGoEeqjxJ91AzqJlg" name="NewTarget">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_1aVyZYGoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_1aVyZoGoEeqjxJ91AzqJlg" name="Selected" outgoing="_1aVyaIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InformationItem"/>
+      </nodes>
+      <nodes xmi:id="_1aVyZ4GoEeqjxJ91AzqJlg" name="NewTarget" incoming="_1aVyaIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier"/>
+      </nodes>
+      <edges xmi:id="_1aVyaIGoEeqjxJ91AzqJlg" source="_1aVyZoGoEeqjxJ91AzqJlg" target="_1aVyZ4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InformationItem/represented"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_1aVyaYGoEeqjxJ91AzqJlg" origin="_1aVyY4GoEeqjxJ91AzqJlg" image="_1aVyZoGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_1aVyaoGoEeqjxJ91AzqJlg" origin="_1aVyZIGoEeqjxJ91AzqJlg" image="_1aVyZ4GoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

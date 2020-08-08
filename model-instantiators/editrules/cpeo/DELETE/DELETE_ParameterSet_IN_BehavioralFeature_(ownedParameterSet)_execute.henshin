@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_09_0oIGoEeqjxJ91AzqJlg" name="DELETE_ParameterSet_IN_BehavioralFeature_(ownedParameterSet)" description="Deletes one ParameterSet in BehavioralFeature">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_09_0oYGoEeqjxJ91AzqJlg" name="deleteParameterSet_IN_BehavioralFeature" description="deletes one ParameterSet in the context: BehavioralFeature">
+    <lhs xmi:id="_09_0ooGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_09_0o4GoEeqjxJ91AzqJlg" name="Selected" outgoing="_09_0poGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//BehavioralFeature"/>
+      </nodes>
+      <nodes xmi:id="_09_0pIGoEeqjxJ91AzqJlg" name="ToBeDeleted" incoming="_09_0poGoEeqjxJ91AzqJlg _09_0qIGoEeqjxJ91AzqJlg" outgoing="_09_0p4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ParameterSet"/>
+      </nodes>
+      <nodes xmi:id="_09_0pYGoEeqjxJ91AzqJlg" name="Existing" incoming="_09_0p4GoEeqjxJ91AzqJlg" outgoing="_09_0qIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Parameter"/>
+      </nodes>
+      <edges xmi:id="_09_0poGoEeqjxJ91AzqJlg" source="_09_0o4GoEeqjxJ91AzqJlg" target="_09_0pIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//BehavioralFeature/ownedParameterSet"/>
+      </edges>
+      <edges xmi:id="_09_0p4GoEeqjxJ91AzqJlg" source="_09_0pIGoEeqjxJ91AzqJlg" target="_09_0pYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ParameterSet/parameter"/>
+      </edges>
+      <edges xmi:id="_09_0qIGoEeqjxJ91AzqJlg" source="_09_0pYGoEeqjxJ91AzqJlg" target="_09_0pIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Parameter/parameterSet"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_09_0qYGoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_09_0qoGoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//BehavioralFeature"/>
+      </nodes>
+      <nodes xmi:id="_09_0q4GoEeqjxJ91AzqJlg" name="Existing">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Parameter"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_09_0rIGoEeqjxJ91AzqJlg" origin="_09_0o4GoEeqjxJ91AzqJlg" image="_09_0qoGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_09_0rYGoEeqjxJ91AzqJlg" origin="_09_0pYGoEeqjxJ91AzqJlg" image="_09_0q4GoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

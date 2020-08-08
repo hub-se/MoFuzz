@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_2WeqgIGoEeqjxJ91AzqJlg" name="MOVE_Interval_FROM_Message_(argument)_TO_Message_(argument)" description="MOVEs Interval from Message(Reference:argument) to Message(Reference:argument">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_2WeqgYGoEeqjxJ91AzqJlg" name="moveInterval_FROM_Message_argument_TO_Message_Message" description="Moves Interval from Message(Reference:argument) toMessage(Reference:Message)">
+    <lhs xmi:id="_2WeqgoGoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_2Weqg4GoEeqjxJ91AzqJlg" name="Selected" incoming="_2WeqhoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Interval"/>
+      </nodes>
+      <nodes xmi:id="_2WeqhIGoEeqjxJ91AzqJlg" name="OldSource" outgoing="_2WeqhoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Message"/>
+      </nodes>
+      <nodes xmi:id="_2WeqhYGoEeqjxJ91AzqJlg" name="NewSource">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Message"/>
+      </nodes>
+      <edges xmi:id="_2WeqhoGoEeqjxJ91AzqJlg" source="_2WeqhIGoEeqjxJ91AzqJlg" target="_2Weqg4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Message/argument"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_2Weqh4GoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_2WeqiIGoEeqjxJ91AzqJlg" name="Selected" incoming="_2Weqi4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Interval"/>
+      </nodes>
+      <nodes xmi:id="_2WeqiYGoEeqjxJ91AzqJlg" name="OldSource">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Message"/>
+      </nodes>
+      <nodes xmi:id="_2WeqioGoEeqjxJ91AzqJlg" name="NewSource" outgoing="_2Weqi4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Message"/>
+      </nodes>
+      <edges xmi:id="_2Weqi4GoEeqjxJ91AzqJlg" source="_2WeqioGoEeqjxJ91AzqJlg" target="_2WeqiIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Message/argument"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_2WeqjIGoEeqjxJ91AzqJlg" origin="_2Weqg4GoEeqjxJ91AzqJlg" image="_2WeqiIGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_2WeqjYGoEeqjxJ91AzqJlg" origin="_2WeqhIGoEeqjxJ91AzqJlg" image="_2WeqiYGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_2WeqjoGoEeqjxJ91AzqJlg" origin="_2WeqhYGoEeqjxJ91AzqJlg" image="_2WeqioGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

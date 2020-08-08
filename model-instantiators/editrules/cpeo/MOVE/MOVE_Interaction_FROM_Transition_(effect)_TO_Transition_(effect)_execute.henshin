@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_2dDMkIGoEeqjxJ91AzqJlg" name="MOVE_Interaction_FROM_Transition_(effect)_TO_Transition_(effect)" description="MOVEs Interaction from Transition(Reference:effect) to Transition(Reference:effect">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_2dDMkYGoEeqjxJ91AzqJlg" name="moveInteraction_FROM_Transition_effect_TO_Transition_Transition" description="Moves Interaction from Transition(Reference:effect) toTransition(Reference:Transition)">
+    <lhs xmi:id="_2dDMkoGoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_2dDMk4GoEeqjxJ91AzqJlg" name="Selected" incoming="_2dDMloGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Interaction"/>
+      </nodes>
+      <nodes xmi:id="_2dDMlIGoEeqjxJ91AzqJlg" name="OldSource" outgoing="_2dDMloGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Transition"/>
+      </nodes>
+      <nodes xmi:id="_2dDMlYGoEeqjxJ91AzqJlg" name="NewSource">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Transition"/>
+      </nodes>
+      <edges xmi:id="_2dDMloGoEeqjxJ91AzqJlg" source="_2dDMlIGoEeqjxJ91AzqJlg" target="_2dDMk4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Transition/effect"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_2dDMl4GoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_2dDMmIGoEeqjxJ91AzqJlg" name="Selected" incoming="_2dDMm4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Interaction"/>
+      </nodes>
+      <nodes xmi:id="_2dDMmYGoEeqjxJ91AzqJlg" name="OldSource">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Transition"/>
+      </nodes>
+      <nodes xmi:id="_2dDMmoGoEeqjxJ91AzqJlg" name="NewSource" outgoing="_2dDMm4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Transition"/>
+      </nodes>
+      <edges xmi:id="_2dDMm4GoEeqjxJ91AzqJlg" source="_2dDMmoGoEeqjxJ91AzqJlg" target="_2dDMmIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Transition/effect"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_2dDMnIGoEeqjxJ91AzqJlg" origin="_2dDMk4GoEeqjxJ91AzqJlg" image="_2dDMmIGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_2dDMnYGoEeqjxJ91AzqJlg" origin="_2dDMlIGoEeqjxJ91AzqJlg" image="_2dDMmYGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_2dDMnoGoEeqjxJ91AzqJlg" origin="_2dDMlYGoEeqjxJ91AzqJlg" image="_2dDMmoGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

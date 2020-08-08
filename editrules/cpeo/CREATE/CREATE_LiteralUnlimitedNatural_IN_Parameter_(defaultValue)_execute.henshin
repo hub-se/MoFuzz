@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_13mWIIGoEeqjxJ91AzqJlg" name="CREATE_LiteralUnlimitedNatural_IN_Parameter_(defaultValue)" description="Creates one LiteralUnlimitedNatural in Parameter">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_13mWIYGoEeqjxJ91AzqJlg" name="createLiteralUnlimitedNatural_IN_Parameter" description="creates one LiteralUnlimitedNatural in the context: Parameter">
+    <parameters xmi:id="_13mWIoGoEeqjxJ91AzqJlg" name="Value" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//UnlimitedNatural"/>
+    </parameters>
+    <lhs xmi:id="_13mWI4GoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_13mWJIGoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Parameter"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_13mWJYGoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_13mWJoGoEeqjxJ91AzqJlg" name="Selected" outgoing="_13mWKYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Parameter"/>
+      </nodes>
+      <nodes xmi:id="_13mWJ4GoEeqjxJ91AzqJlg" name="New" incoming="_13mWKYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LiteralUnlimitedNatural"/>
+        <attributes xmi:id="_13mWKIGoEeqjxJ91AzqJlg" value="Value">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LiteralUnlimitedNatural/value"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_13mWKYGoEeqjxJ91AzqJlg" source="_13mWJoGoEeqjxJ91AzqJlg" target="_13mWJ4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Parameter/defaultValue"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_13mWKoGoEeqjxJ91AzqJlg" origin="_13mWJIGoEeqjxJ91AzqJlg" image="_13mWJoGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

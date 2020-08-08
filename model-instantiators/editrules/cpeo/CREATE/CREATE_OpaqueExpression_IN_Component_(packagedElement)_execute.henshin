@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_1ox3AIGoEeqjxJ91AzqJlg" name="CREATE_OpaqueExpression_IN_Component_(packagedElement)" description="Creates one OpaqueExpression in Component">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_1ox3AYGoEeqjxJ91AzqJlg" name="createOpaqueExpression_IN_Component" description="creates one OpaqueExpression in the context: Component">
+    <lhs xmi:id="_1ox3AoGoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_1ox3A4GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Component"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_1ox3BIGoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_1ox3BYGoEeqjxJ91AzqJlg" name="Selected" outgoing="_1ox3B4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Component"/>
+      </nodes>
+      <nodes xmi:id="_1ox3BoGoEeqjxJ91AzqJlg" name="New" incoming="_1ox3B4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//OpaqueExpression"/>
+      </nodes>
+      <edges xmi:id="_1ox3B4GoEeqjxJ91AzqJlg" source="_1ox3BYGoEeqjxJ91AzqJlg" target="_1ox3BoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Component/packagedElement"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_1ox3CIGoEeqjxJ91AzqJlg" origin="_1ox3A4GoEeqjxJ91AzqJlg" image="_1ox3BYGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

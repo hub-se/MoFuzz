@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_15RxIIGoEeqjxJ91AzqJlg" name="CREATE_InstanceSpecification_IN_Package_(packagedElement)" description="Creates one InstanceSpecification in Package">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_15RxIYGoEeqjxJ91AzqJlg" name="createInstanceSpecification_IN_Package" description="creates one InstanceSpecification in the context: Package">
+    <lhs xmi:id="_15RxIoGoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_15RxI4GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_15RxJIGoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_15RxJYGoEeqjxJ91AzqJlg" name="Selected" outgoing="_15RxJ4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </nodes>
+      <nodes xmi:id="_15RxJoGoEeqjxJ91AzqJlg" name="New" incoming="_15RxJ4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InstanceSpecification"/>
+      </nodes>
+      <edges xmi:id="_15RxJ4GoEeqjxJ91AzqJlg" source="_15RxJYGoEeqjxJ91AzqJlg" target="_15RxJoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Package/packagedElement"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_15RxKIGoEeqjxJ91AzqJlg" origin="_15RxI4GoEeqjxJ91AzqJlg" image="_15RxJYGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

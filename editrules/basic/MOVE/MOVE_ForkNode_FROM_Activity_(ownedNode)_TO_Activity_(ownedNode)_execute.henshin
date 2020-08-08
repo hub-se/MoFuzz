@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_T0ytMIGqEeqSC4bGMjXJ9g" name="MOVE_ForkNode_FROM_Activity_(ownedNode)_TO_Activity_(ownedNode)" description="MOVEs ForkNode from Activity(Reference:ownedNode) to Activity(Reference:ownedNode">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_T0ytMYGqEeqSC4bGMjXJ9g" name="moveForkNode_FROM_Activity_ownedNode_TO_Activity_Activity" description="Moves ForkNode from Activity(Reference:ownedNode) toActivity(Reference:Activity)">
+    <lhs xmi:id="_T0ytMoGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_T0ytM4GqEeqSC4bGMjXJ9g" name="Selected" incoming="_T0ytNoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ForkNode"/>
+      </nodes>
+      <nodes xmi:id="_T0ytNIGqEeqSC4bGMjXJ9g" name="OldSource" outgoing="_T0ytNoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Activity"/>
+      </nodes>
+      <nodes xmi:id="_T0ytNYGqEeqSC4bGMjXJ9g" name="NewSource">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Activity"/>
+      </nodes>
+      <edges xmi:id="_T0ytNoGqEeqSC4bGMjXJ9g" source="_T0ytNIGqEeqSC4bGMjXJ9g" target="_T0ytM4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Activity/ownedNode"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_T0ytN4GqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_T0ytOIGqEeqSC4bGMjXJ9g" name="Selected" incoming="_T0ytO4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ForkNode"/>
+      </nodes>
+      <nodes xmi:id="_T0ytOYGqEeqSC4bGMjXJ9g" name="OldSource">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Activity"/>
+      </nodes>
+      <nodes xmi:id="_T0ytOoGqEeqSC4bGMjXJ9g" name="NewSource" outgoing="_T0ytO4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Activity"/>
+      </nodes>
+      <edges xmi:id="_T0ytO4GqEeqSC4bGMjXJ9g" source="_T0ytOoGqEeqSC4bGMjXJ9g" target="_T0ytOIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Activity/ownedNode"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_T0ytPIGqEeqSC4bGMjXJ9g" origin="_T0ytM4GqEeqSC4bGMjXJ9g" image="_T0ytOIGqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_T0ytPYGqEeqSC4bGMjXJ9g" origin="_T0ytNIGqEeqSC4bGMjXJ9g" image="_T0ytOYGqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_T0ytPoGqEeqSC4bGMjXJ9g" origin="_T0ytNYGqEeqSC4bGMjXJ9g" image="_T0ytOoGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

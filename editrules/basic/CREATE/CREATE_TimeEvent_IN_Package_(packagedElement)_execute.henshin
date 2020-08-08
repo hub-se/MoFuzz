@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UY9xQIGqEeqSC4bGMjXJ9g" name="CREATE_TimeEvent_IN_Package_(packagedElement)" description="Creates one TimeEvent in Package">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UY9xQYGqEeqSC4bGMjXJ9g" name="createTimeEvent_IN_Package" description="creates one TimeEvent in the context: Package">
+    <parameters xmi:id="_UY9xQoGqEeqSC4bGMjXJ9g" name="IsRelative" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <lhs xmi:id="_UY9xQ4GqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_UY9xRIGqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_UY9xRYGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_UY9xRoGqEeqSC4bGMjXJ9g" name="Selected" outgoing="_UY9xSYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </nodes>
+      <nodes xmi:id="_UY9xR4GqEeqSC4bGMjXJ9g" name="New" incoming="_UY9xSYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TimeEvent"/>
+        <attributes xmi:id="_UY9xSIGqEeqSC4bGMjXJ9g" value="IsRelative">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TimeEvent/isRelative"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_UY9xSYGqEeqSC4bGMjXJ9g" source="_UY9xRoGqEeqSC4bGMjXJ9g" target="_UY9xR4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Package/packagedElement"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_UY9xSoGqEeqSC4bGMjXJ9g" origin="_UY9xRIGqEeqSC4bGMjXJ9g" image="_UY9xRoGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

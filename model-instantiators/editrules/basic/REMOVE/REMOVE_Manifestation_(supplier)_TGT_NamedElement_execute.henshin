@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_TafW0IGqEeqSC4bGMjXJ9g" name="REMOVE_Manifestation_(supplier)_TGT_NamedElement" description="Removes Manifestation's reference supplier the target NamedElement">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_TafW0YGqEeqSC4bGMjXJ9g" name="removeFromManifestation_supplier_NamedElement" description="Removes from Manifestation's reference supplier the target NamedElement">
+    <lhs xmi:id="_TafW0oGqEeqSC4bGMjXJ9g" name="LHS">
+      <nodes xmi:id="_TafW04GqEeqSC4bGMjXJ9g" name="Selected" outgoing="_TafW1YGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Manifestation"/>
+      </nodes>
+      <nodes xmi:id="_TafW1IGqEeqSC4bGMjXJ9g" name="OldTarget" incoming="_TafW1YGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//NamedElement"/>
+      </nodes>
+      <edges xmi:id="_TafW1YGqEeqSC4bGMjXJ9g" source="_TafW04GqEeqSC4bGMjXJ9g" target="_TafW1IGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Dependency/supplier"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_TafW1oGqEeqSC4bGMjXJ9g" name="RHS">
+      <nodes xmi:id="_TafW14GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Manifestation"/>
+      </nodes>
+      <nodes xmi:id="_TafW2IGqEeqSC4bGMjXJ9g" name="OldTarget">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//NamedElement"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_TafW2YGqEeqSC4bGMjXJ9g" origin="_TafW04GqEeqSC4bGMjXJ9g" image="_TafW14GqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_TafW2oGqEeqSC4bGMjXJ9g" origin="_TafW1IGqEeqSC4bGMjXJ9g" image="_TafW2IGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

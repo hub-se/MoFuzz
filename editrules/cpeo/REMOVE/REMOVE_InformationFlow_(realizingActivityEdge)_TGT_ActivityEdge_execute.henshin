@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_2DxJ4IGoEeqjxJ91AzqJlg" name="REMOVE_InformationFlow_(realizingActivityEdge)_TGT_ActivityEdge" description="Removes InformationFlow's reference realizingActivityEdge the target ActivityEdge">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_2DxJ4YGoEeqjxJ91AzqJlg" name="removeFromInformationFlow_realizingActivityEdge_ActivityEdge" description="Removes from InformationFlow's reference realizingActivityEdge the target ActivityEdge">
+    <lhs xmi:id="_2DxJ4oGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_2DxJ44GoEeqjxJ91AzqJlg" name="Selected" outgoing="_2DxJ5YGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InformationFlow"/>
+      </nodes>
+      <nodes xmi:id="_2DxJ5IGoEeqjxJ91AzqJlg" name="OldTarget" incoming="_2DxJ5YGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityEdge"/>
+      </nodes>
+      <edges xmi:id="_2DxJ5YGoEeqjxJ91AzqJlg" source="_2DxJ44GoEeqjxJ91AzqJlg" target="_2DxJ5IGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InformationFlow/realizingActivityEdge"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_2DxJ5oGoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_2DxJ54GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InformationFlow"/>
+      </nodes>
+      <nodes xmi:id="_2DxJ6IGoEeqjxJ91AzqJlg" name="OldTarget">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityEdge"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_2DxJ6YGoEeqjxJ91AzqJlg" origin="_2DxJ44GoEeqjxJ91AzqJlg" image="_2DxJ54GoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_2DxJ6oGoEeqjxJ91AzqJlg" origin="_2DxJ5IGoEeqjxJ91AzqJlg" image="_2DxJ6IGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

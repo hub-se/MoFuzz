@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_2B794IGoEeqjxJ91AzqJlg" name="CREATE_SignalEvent_IN_TemplateParameter_(ownedDefault)" description="Creates one SignalEvent in TemplateParameter">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_2B794YGoEeqjxJ91AzqJlg" name="createSignalEvent_IN_TemplateParameter" description="creates one SignalEvent in the context: TemplateParameter">
+    <lhs xmi:id="_2B794oGoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_2B7944GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameter"/>
+      </nodes>
+      <nodes xmi:id="_2B795IGoEeqjxJ91AzqJlg" name="Existing">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Signal"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_2B795YGoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_2B795oGoEeqjxJ91AzqJlg" name="Selected" outgoing="_2B796YGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameter"/>
+      </nodes>
+      <nodes xmi:id="_2B7954GoEeqjxJ91AzqJlg" name="New" incoming="_2B796YGoEeqjxJ91AzqJlg" outgoing="_2B796oGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//SignalEvent"/>
+      </nodes>
+      <nodes xmi:id="_2B796IGoEeqjxJ91AzqJlg" name="Existing" incoming="_2B796oGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Signal"/>
+      </nodes>
+      <edges xmi:id="_2B796YGoEeqjxJ91AzqJlg" source="_2B795oGoEeqjxJ91AzqJlg" target="_2B7954GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameter/ownedDefault"/>
+      </edges>
+      <edges xmi:id="_2B796oGoEeqjxJ91AzqJlg" source="_2B7954GoEeqjxJ91AzqJlg" target="_2B796IGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//SignalEvent/signal"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_2B7964GoEeqjxJ91AzqJlg" origin="_2B7944GoEeqjxJ91AzqJlg" image="_2B795oGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_2B797IGoEeqjxJ91AzqJlg" origin="_2B795IGoEeqjxJ91AzqJlg" image="_2B796IGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

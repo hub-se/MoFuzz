@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_0-eVwIGoEeqjxJ91AzqJlg" name="DELETE_TimeInterval_IN_MultiplicityElement_(upperValue)" description="Deletes one TimeInterval in MultiplicityElement">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_0-eVwYGoEeqjxJ91AzqJlg" name="deleteTimeInterval_IN_MultiplicityElement" description="deletes one TimeInterval in the context: MultiplicityElement">
+    <lhs xmi:id="_0-eVwoGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_0-eVw4GoEeqjxJ91AzqJlg" name="Selected" outgoing="_0-eVx4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//MultiplicityElement"/>
+      </nodes>
+      <nodes xmi:id="_0-eVxIGoEeqjxJ91AzqJlg" name="ToBeDeleted" incoming="_0-eVx4GoEeqjxJ91AzqJlg" outgoing="_0-eVyIGoEeqjxJ91AzqJlg _0-e80IGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TimeInterval"/>
+      </nodes>
+      <nodes xmi:id="_0-eVxYGoEeqjxJ91AzqJlg" name="Existing" incoming="_0-eVyIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TimeExpression"/>
+      </nodes>
+      <nodes xmi:id="_0-eVxoGoEeqjxJ91AzqJlg" name="Existing1" incoming="_0-e80IGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TimeExpression"/>
+      </nodes>
+      <edges xmi:id="_0-eVx4GoEeqjxJ91AzqJlg" source="_0-eVw4GoEeqjxJ91AzqJlg" target="_0-eVxIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//MultiplicityElement/upperValue"/>
+      </edges>
+      <edges xmi:id="_0-eVyIGoEeqjxJ91AzqJlg" source="_0-eVxIGoEeqjxJ91AzqJlg" target="_0-eVxYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Interval/min"/>
+      </edges>
+      <edges xmi:id="_0-e80IGoEeqjxJ91AzqJlg" source="_0-eVxIGoEeqjxJ91AzqJlg" target="_0-eVxoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Interval/max"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_0-e80YGoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_0-e80oGoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//MultiplicityElement"/>
+      </nodes>
+      <nodes xmi:id="_0-e804GoEeqjxJ91AzqJlg" name="Existing">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TimeExpression"/>
+      </nodes>
+      <nodes xmi:id="_0-e81IGoEeqjxJ91AzqJlg" name="Existing1">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TimeExpression"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_0-e81YGoEeqjxJ91AzqJlg" origin="_0-eVw4GoEeqjxJ91AzqJlg" image="_0-e80oGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_0-e81oGoEeqjxJ91AzqJlg" origin="_0-eVxYGoEeqjxJ91AzqJlg" image="_0-e804GoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_0-e814GoEeqjxJ91AzqJlg" origin="_0-eVxoGoEeqjxJ91AzqJlg" image="_0-e81IGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_T3ligIGqEeqSC4bGMjXJ9g" name="MOVE_Comment_FROM_Element_(ownedComment)_TO_Element_(ownedComment)" description="MOVEs Comment from Element(Reference:ownedComment) to Element(Reference:ownedComment">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_T3ligYGqEeqSC4bGMjXJ9g" name="moveComment_FROM_Element_ownedComment_TO_Element_Element" description="Moves Comment from Element(Reference:ownedComment) toElement(Reference:Element)">
+    <lhs xmi:id="_T3ligoGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_T3lig4GqEeqSC4bGMjXJ9g" name="Selected" incoming="_T3lihoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Comment"/>
+      </nodes>
+      <nodes xmi:id="_T3lihIGqEeqSC4bGMjXJ9g" name="OldSource" outgoing="_T3lihoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Element"/>
+      </nodes>
+      <nodes xmi:id="_T3lihYGqEeqSC4bGMjXJ9g" name="NewSource">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Element"/>
+      </nodes>
+      <edges xmi:id="_T3lihoGqEeqSC4bGMjXJ9g" source="_T3lihIGqEeqSC4bGMjXJ9g" target="_T3lig4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Element/ownedComment"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_T3lih4GqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_T3liiIGqEeqSC4bGMjXJ9g" name="Selected" incoming="_T3lii4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Comment"/>
+      </nodes>
+      <nodes xmi:id="_T3liiYGqEeqSC4bGMjXJ9g" name="OldSource">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Element"/>
+      </nodes>
+      <nodes xmi:id="_T3liioGqEeqSC4bGMjXJ9g" name="NewSource" outgoing="_T3lii4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Element"/>
+      </nodes>
+      <edges xmi:id="_T3lii4GqEeqSC4bGMjXJ9g" source="_T3liioGqEeqSC4bGMjXJ9g" target="_T3liiIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Element/ownedComment"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_T3lijIGqEeqSC4bGMjXJ9g" origin="_T3lig4GqEeqSC4bGMjXJ9g" image="_T3liiIGqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_T3lijYGqEeqSC4bGMjXJ9g" origin="_T3lihIGqEeqSC4bGMjXJ9g" image="_T3liiYGqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_T3lijoGqEeqSC4bGMjXJ9g" origin="_T3lihYGqEeqSC4bGMjXJ9g" image="_T3liioGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

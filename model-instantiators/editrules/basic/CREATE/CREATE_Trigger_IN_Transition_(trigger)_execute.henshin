@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_Ubb2cIGqEeqSC4bGMjXJ9g" name="CREATE_Trigger_IN_Transition_(trigger)" description="Creates one Trigger in Transition">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_Ubb2cYGqEeqSC4bGMjXJ9g" name="createTrigger_IN_Transition" description="creates one Trigger in the context: Transition">
+    <lhs xmi:id="_Ubb2coGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_Ubb2c4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Transition"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_Ubb2dIGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_Ubb2dYGqEeqSC4bGMjXJ9g" name="Selected" outgoing="_Ubb2d4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Transition"/>
+      </nodes>
+      <nodes xmi:id="_Ubb2doGqEeqSC4bGMjXJ9g" name="New" incoming="_Ubb2d4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Trigger"/>
+      </nodes>
+      <edges xmi:id="_Ubb2d4GqEeqSC4bGMjXJ9g" source="_Ubb2dYGqEeqSC4bGMjXJ9g" target="_Ubb2doGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Transition/trigger"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_Ubb2eIGqEeqSC4bGMjXJ9g" origin="_Ubb2c4GqEeqSC4bGMjXJ9g" image="_Ubb2dYGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

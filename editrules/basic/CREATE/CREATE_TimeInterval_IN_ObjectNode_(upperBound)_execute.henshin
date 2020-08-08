@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UePS0IGqEeqSC4bGMjXJ9g" name="CREATE_TimeInterval_IN_ObjectNode_(upperBound)" description="Creates one TimeInterval in ObjectNode">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UePS0YGqEeqSC4bGMjXJ9g" name="createTimeInterval_IN_ObjectNode" description="creates one TimeInterval in the context: ObjectNode">
+    <lhs xmi:id="_UePS0oGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_UePS04GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ObjectNode"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_UePS1IGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_UePS1YGqEeqSC4bGMjXJ9g" name="Selected" outgoing="_UePS14GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ObjectNode"/>
+      </nodes>
+      <nodes xmi:id="_UePS1oGqEeqSC4bGMjXJ9g" name="New" incoming="_UePS14GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TimeInterval"/>
+      </nodes>
+      <edges xmi:id="_UePS14GqEeqSC4bGMjXJ9g" source="_UePS1YGqEeqSC4bGMjXJ9g" target="_UePS1oGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ObjectNode/upperBound"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_UePS2IGqEeqSC4bGMjXJ9g" origin="_UePS04GqEeqSC4bGMjXJ9g" image="_UePS1YGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

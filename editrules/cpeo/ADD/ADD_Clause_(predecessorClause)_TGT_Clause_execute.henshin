@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_1l0poIGoEeqjxJ91AzqJlg" name="ADD_Clause_(predecessorClause)_TGT_Clause" description="Adds to Clause's reference predecessorClause the target Clause">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_1l0poYGoEeqjxJ91AzqJlg" name="addToClause_predecessorClause_Clause" description="Adds to Clause's reference predecessorClause the target Clause">
+    <lhs xmi:id="_1l0pooGoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_1l0po4GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Clause"/>
+      </nodes>
+      <nodes xmi:id="_1l0ppIGoEeqjxJ91AzqJlg" name="NewTarget">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Clause"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_1l0ppYGoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_1l0ppoGoEeqjxJ91AzqJlg" name="Selected" incoming="_1l0pqYGoEeqjxJ91AzqJlg" outgoing="_1l0pqIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Clause"/>
+      </nodes>
+      <nodes xmi:id="_1l0pp4GoEeqjxJ91AzqJlg" name="NewTarget" incoming="_1l0pqIGoEeqjxJ91AzqJlg" outgoing="_1l0pqYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Clause"/>
+      </nodes>
+      <edges xmi:id="_1l0pqIGoEeqjxJ91AzqJlg" source="_1l0ppoGoEeqjxJ91AzqJlg" target="_1l0pp4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Clause/predecessorClause"/>
+      </edges>
+      <edges xmi:id="_1l0pqYGoEeqjxJ91AzqJlg" source="_1l0pp4GoEeqjxJ91AzqJlg" target="_1l0ppoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Clause/successorClause"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_1l0pqoGoEeqjxJ91AzqJlg" origin="_1l0po4GoEeqjxJ91AzqJlg" image="_1l0ppoGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_1l0pq4GoEeqjxJ91AzqJlg" origin="_1l0ppIGoEeqjxJ91AzqJlg" image="_1l0pp4GoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_TjKxsIGqEeqSC4bGMjXJ9g" name="REMOVE_ExceptionHandler_(exceptionType)_TGT_Classifier" description="Removes ExceptionHandler's reference exceptionType the target Classifier">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_TjKxsYGqEeqSC4bGMjXJ9g" name="removeFromExceptionHandler_exceptionType_Classifier" description="Removes from ExceptionHandler's reference exceptionType the target Classifier">
+    <lhs xmi:id="_TjKxsoGqEeqSC4bGMjXJ9g" name="LHS">
+      <nodes xmi:id="_TjKxs4GqEeqSC4bGMjXJ9g" name="Selected" outgoing="_TjKxtYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ExceptionHandler"/>
+      </nodes>
+      <nodes xmi:id="_TjKxtIGqEeqSC4bGMjXJ9g" name="OldTarget" incoming="_TjKxtYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier"/>
+      </nodes>
+      <edges xmi:id="_TjKxtYGqEeqSC4bGMjXJ9g" source="_TjKxs4GqEeqSC4bGMjXJ9g" target="_TjKxtIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ExceptionHandler/exceptionType"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_TjKxtoGqEeqSC4bGMjXJ9g" name="RHS">
+      <nodes xmi:id="_TjKxt4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ExceptionHandler"/>
+      </nodes>
+      <nodes xmi:id="_TjKxuIGqEeqSC4bGMjXJ9g" name="OldTarget">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_TjKxuYGqEeqSC4bGMjXJ9g" origin="_TjKxs4GqEeqSC4bGMjXJ9g" image="_TjKxt4GqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_TjKxuoGqEeqSC4bGMjXJ9g" origin="_TjKxtIGqEeqSC4bGMjXJ9g" image="_TjKxuIGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_1AM0EIGoEeqjxJ91AzqJlg" name="DELETE_OutputPin_IN_ConditionalNode_(result)" description="Deletes one OutputPin in ConditionalNode">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_1AM0EYGoEeqjxJ91AzqJlg" name="deleteOutputPin_IN_ConditionalNode" description="deletes one OutputPin in the context: ConditionalNode">
+    <lhs xmi:id="_1AM0EoGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_1AM0E4GoEeqjxJ91AzqJlg" name="Selected" outgoing="_1AM0FYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ConditionalNode"/>
+      </nodes>
+      <nodes xmi:id="_1AM0FIGoEeqjxJ91AzqJlg" name="ToBeDeleted" incoming="_1AM0FYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//OutputPin"/>
+      </nodes>
+      <edges xmi:id="_1AM0FYGoEeqjxJ91AzqJlg" source="_1AM0E4GoEeqjxJ91AzqJlg" target="_1AM0FIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ConditionalNode/result"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_1AM0FoGoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_1AM0F4GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ConditionalNode"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_1AM0GIGoEeqjxJ91AzqJlg" origin="_1AM0E4GoEeqjxJ91AzqJlg" image="_1AM0F4GoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_TyY5cIGqEeqSC4bGMjXJ9g" name="MOVE_PackageMerge_FROM_Package_(packageMerge)_TO_Package_(packageMerge)" description="MOVEs PackageMerge from Package(Reference:packageMerge) to Package(Reference:packageMerge">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_TyY5cYGqEeqSC4bGMjXJ9g" name="movePackageMerge_FROM_Package_packageMerge_TO_Package_Package" description="Moves PackageMerge from Package(Reference:packageMerge) toPackage(Reference:Package)">
+    <lhs xmi:id="_TyY5coGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_TyY5c4GqEeqSC4bGMjXJ9g" name="Selected" incoming="_TyY5doGqEeqSC4bGMjXJ9g" outgoing="_TyY5d4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//PackageMerge"/>
+      </nodes>
+      <nodes xmi:id="_TyY5dIGqEeqSC4bGMjXJ9g" name="OldSource" incoming="_TyY5d4GqEeqSC4bGMjXJ9g" outgoing="_TyY5doGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </nodes>
+      <nodes xmi:id="_TyY5dYGqEeqSC4bGMjXJ9g" name="NewSource">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </nodes>
+      <edges xmi:id="_TyY5doGqEeqSC4bGMjXJ9g" source="_TyY5dIGqEeqSC4bGMjXJ9g" target="_TyY5c4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Package/packageMerge"/>
+      </edges>
+      <edges xmi:id="_TyY5d4GqEeqSC4bGMjXJ9g" source="_TyY5c4GqEeqSC4bGMjXJ9g" target="_TyY5dIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//PackageMerge/receivingPackage"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_TyY5eIGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_TyY5eYGqEeqSC4bGMjXJ9g" name="Selected" incoming="_TyY5fIGqEeqSC4bGMjXJ9g" outgoing="_TyY5fYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//PackageMerge"/>
+      </nodes>
+      <nodes xmi:id="_TyY5eoGqEeqSC4bGMjXJ9g" name="OldSource">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </nodes>
+      <nodes xmi:id="_TyY5e4GqEeqSC4bGMjXJ9g" name="NewSource" incoming="_TyY5fYGqEeqSC4bGMjXJ9g" outgoing="_TyY5fIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </nodes>
+      <edges xmi:id="_TyY5fIGqEeqSC4bGMjXJ9g" source="_TyY5e4GqEeqSC4bGMjXJ9g" target="_TyY5eYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Package/packageMerge"/>
+      </edges>
+      <edges xmi:id="_TyY5fYGqEeqSC4bGMjXJ9g" source="_TyY5eYGqEeqSC4bGMjXJ9g" target="_TyY5e4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//PackageMerge/receivingPackage"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_TyY5foGqEeqSC4bGMjXJ9g" origin="_TyY5c4GqEeqSC4bGMjXJ9g" image="_TyY5eYGqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_TyY5f4GqEeqSC4bGMjXJ9g" origin="_TyY5dIGqEeqSC4bGMjXJ9g" image="_TyY5eoGqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_TyY5gIGqEeqSC4bGMjXJ9g" origin="_TyY5dYGqEeqSC4bGMjXJ9g" image="_TyY5e4GqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

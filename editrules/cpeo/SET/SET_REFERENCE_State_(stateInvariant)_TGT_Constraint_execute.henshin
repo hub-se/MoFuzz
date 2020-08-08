@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_2nh-QIGoEeqjxJ91AzqJlg" name="SET_REFERENCE_State_(stateInvariant)_TGT_Constraint" description="Sets State's reference stateInvariant the target Constraint">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_2nh-QYGoEeqjxJ91AzqJlg" name="setState_stateInvariant_TO_Constraint" description="SetStateRefstateInvariantToConstraint">
+    <lhs xmi:id="_2nh-QoGoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_2nh-Q4GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//State"/>
+      </nodes>
+      <nodes xmi:id="_2nh-RIGoEeqjxJ91AzqJlg" name="NewTarget">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Constraint"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_2nh-RYGoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_2nh-RoGoEeqjxJ91AzqJlg" name="Selected" outgoing="_2nh-SIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//State"/>
+      </nodes>
+      <nodes xmi:id="_2nh-R4GoEeqjxJ91AzqJlg" name="NewTarget" incoming="_2nh-SIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Constraint"/>
+      </nodes>
+      <edges xmi:id="_2nh-SIGoEeqjxJ91AzqJlg" source="_2nh-RoGoEeqjxJ91AzqJlg" target="_2nh-R4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//State/stateInvariant"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_2nh-SYGoEeqjxJ91AzqJlg" origin="_2nh-Q4GoEeqjxJ91AzqJlg" image="_2nh-RoGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_2nh-SoGoEeqjxJ91AzqJlg" origin="_2nh-RIGoEeqjxJ91AzqJlg" image="_2nh-R4GoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

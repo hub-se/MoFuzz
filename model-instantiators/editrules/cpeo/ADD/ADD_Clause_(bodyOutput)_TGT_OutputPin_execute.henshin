@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_1fHksIGoEeqjxJ91AzqJlg" name="ADD_Clause_(bodyOutput)_TGT_OutputPin" description="Adds to Clause's reference bodyOutput the target OutputPin">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_1fHksYGoEeqjxJ91AzqJlg" name="addToClause_bodyOutput_OutputPin" description="Adds to Clause's reference bodyOutput the target OutputPin">
+    <lhs xmi:id="_1fHksoGoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_1fHks4GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Clause"/>
+      </nodes>
+      <nodes xmi:id="_1fHktIGoEeqjxJ91AzqJlg" name="NewTarget">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//OutputPin"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_1fHktYGoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_1fHktoGoEeqjxJ91AzqJlg" name="Selected" outgoing="_1fHkuIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Clause"/>
+      </nodes>
+      <nodes xmi:id="_1fHkt4GoEeqjxJ91AzqJlg" name="NewTarget" incoming="_1fHkuIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//OutputPin"/>
+      </nodes>
+      <edges xmi:id="_1fHkuIGoEeqjxJ91AzqJlg" source="_1fHktoGoEeqjxJ91AzqJlg" target="_1fHkt4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Clause/bodyOutput"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_1fHkuYGoEeqjxJ91AzqJlg" origin="_1fHks4GoEeqjxJ91AzqJlg" image="_1fHktoGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_1fHkuoGoEeqjxJ91AzqJlg" origin="_1fHktIGoEeqjxJ91AzqJlg" image="_1fHkt4GoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

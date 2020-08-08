@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_2L2u4IGoEeqjxJ91AzqJlg" name="REMOVE_OutputPin_(inState)_TGT_State" description="Removes OutputPin's reference inState the target State">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_2L2u4YGoEeqjxJ91AzqJlg" name="removeFromOutputPin_inState_State" description="Removes from OutputPin's reference inState the target State">
+    <lhs xmi:id="_2L2u4oGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_2L2u44GoEeqjxJ91AzqJlg" name="Selected" outgoing="_2L2u5YGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//OutputPin"/>
+      </nodes>
+      <nodes xmi:id="_2L2u5IGoEeqjxJ91AzqJlg" name="OldTarget" incoming="_2L2u5YGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//State"/>
+      </nodes>
+      <edges xmi:id="_2L2u5YGoEeqjxJ91AzqJlg" source="_2L2u44GoEeqjxJ91AzqJlg" target="_2L2u5IGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ObjectNode/inState"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_2L2u5oGoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_2L2u54GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//OutputPin"/>
+      </nodes>
+      <nodes xmi:id="_2L2u6IGoEeqjxJ91AzqJlg" name="OldTarget">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//State"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_2L2u6YGoEeqjxJ91AzqJlg" origin="_2L2u44GoEeqjxJ91AzqJlg" image="_2L2u54GoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_2L2u6oGoEeqjxJ91AzqJlg" origin="_2L2u5IGoEeqjxJ91AzqJlg" image="_2L2u6IGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

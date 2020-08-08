@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UmAuwIGqEeqSC4bGMjXJ9g" name="DELETE_LiteralNull_IN_ActivityEdge_(guard)" description="Deletes one LiteralNull in ActivityEdge">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UmAuwYGqEeqSC4bGMjXJ9g" name="deleteLiteralNull_IN_ActivityEdge" description="deletes one LiteralNull in the context: ActivityEdge">
+    <lhs xmi:id="_UmAuwoGqEeqSC4bGMjXJ9g" name="LHS">
+      <nodes xmi:id="_UmAuw4GqEeqSC4bGMjXJ9g" name="Selected" outgoing="_UmAuxYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityEdge"/>
+      </nodes>
+      <nodes xmi:id="_UmAuxIGqEeqSC4bGMjXJ9g" name="ToBeDeleted" incoming="_UmAuxYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LiteralNull"/>
+      </nodes>
+      <edges xmi:id="_UmAuxYGqEeqSC4bGMjXJ9g" source="_UmAuw4GqEeqSC4bGMjXJ9g" target="_UmAuxIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityEdge/guard"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_UmAuxoGqEeqSC4bGMjXJ9g" name="RHS">
+      <nodes xmi:id="_UmAux4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityEdge"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_UmAuyIGqEeqSC4bGMjXJ9g" origin="_UmAuw4GqEeqSC4bGMjXJ9g" image="_UmAux4GqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

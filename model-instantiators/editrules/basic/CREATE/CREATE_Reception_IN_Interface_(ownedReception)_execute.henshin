@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UIAkIIGqEeqSC4bGMjXJ9g" name="CREATE_Reception_IN_Interface_(ownedReception)" description="Creates one Reception in Interface">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UIBLMIGqEeqSC4bGMjXJ9g" name="createReception_IN_Interface" description="creates one Reception in the context: Interface">
+    <parameters xmi:id="_UIBLMYGqEeqSC4bGMjXJ9g" name="IsLeaf" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <parameters xmi:id="_UIBLMoGqEeqSC4bGMjXJ9g" name="IsStatic" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <parameters xmi:id="_UIBLM4GqEeqSC4bGMjXJ9g" name="Concurrency" kind="IN">
+      <type xsi:type="ecore:EEnum" href="http://www.eclipse.org/uml2/5.0.0/UML#//CallConcurrencyKind"/>
+    </parameters>
+    <parameters xmi:id="_UIBLNIGqEeqSC4bGMjXJ9g" name="IsAbstract" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <lhs xmi:id="_UIBLNYGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_UIBLNoGqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Interface"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_UIBLN4GqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_UIBLOIGqEeqSC4bGMjXJ9g" name="Selected" outgoing="_UIBLPoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Interface"/>
+      </nodes>
+      <nodes xmi:id="_UIBLOYGqEeqSC4bGMjXJ9g" name="New" incoming="_UIBLPoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Reception"/>
+        <attributes xmi:id="_UIBLOoGqEeqSC4bGMjXJ9g" value="IsLeaf">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//RedefinableElement/isLeaf"/>
+        </attributes>
+        <attributes xmi:id="_UIBLO4GqEeqSC4bGMjXJ9g" value="IsStatic">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Feature/isStatic"/>
+        </attributes>
+        <attributes xmi:id="_UIBLPIGqEeqSC4bGMjXJ9g" value="Concurrency">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//BehavioralFeature/concurrency"/>
+        </attributes>
+        <attributes xmi:id="_UIBLPYGqEeqSC4bGMjXJ9g" value="IsAbstract">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//BehavioralFeature/isAbstract"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_UIBLPoGqEeqSC4bGMjXJ9g" source="_UIBLOIGqEeqSC4bGMjXJ9g" target="_UIBLOYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Interface/ownedReception"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_UIBLP4GqEeqSC4bGMjXJ9g" origin="_UIBLNoGqEeqSC4bGMjXJ9g" image="_UIBLOIGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

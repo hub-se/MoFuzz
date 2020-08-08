@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_1bJqsIGoEeqjxJ91AzqJlg" name="ADD_Collaboration_(collaborationRole)_TGT_ConnectableElement" description="Adds to Collaboration's reference collaborationRole the target ConnectableElement">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_1bJqsYGoEeqjxJ91AzqJlg" name="addToCollaboration_collaborationRole_ConnectableElement" description="Adds to Collaboration's reference collaborationRole the target ConnectableElement">
+    <lhs xmi:id="_1bJqsoGoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_1bJqs4GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Collaboration"/>
+      </nodes>
+      <nodes xmi:id="_1bJqtIGoEeqjxJ91AzqJlg" name="NewTarget">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ConnectableElement"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_1bJqtYGoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_1bJqtoGoEeqjxJ91AzqJlg" name="Selected" outgoing="_1bJquIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Collaboration"/>
+      </nodes>
+      <nodes xmi:id="_1bJqt4GoEeqjxJ91AzqJlg" name="NewTarget" incoming="_1bJquIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ConnectableElement"/>
+      </nodes>
+      <edges xmi:id="_1bJquIGoEeqjxJ91AzqJlg" source="_1bJqtoGoEeqjxJ91AzqJlg" target="_1bJqt4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Collaboration/collaborationRole"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_1bJquYGoEeqjxJ91AzqJlg" origin="_1bJqs4GoEeqjxJ91AzqJlg" image="_1bJqtoGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_1bJquoGoEeqjxJ91AzqJlg" origin="_1bJqtIGoEeqjxJ91AzqJlg" image="_1bJqt4GoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

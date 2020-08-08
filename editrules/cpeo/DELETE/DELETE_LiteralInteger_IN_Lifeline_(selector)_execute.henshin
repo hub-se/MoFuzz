@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_1H5-kIGoEeqjxJ91AzqJlg" name="DELETE_LiteralInteger_IN_Lifeline_(selector)" description="Deletes one LiteralInteger in Lifeline">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_1H5-kYGoEeqjxJ91AzqJlg" name="deleteLiteralInteger_IN_Lifeline" description="deletes one LiteralInteger in the context: Lifeline">
+    <lhs xmi:id="_1H5-koGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_1H5-k4GoEeqjxJ91AzqJlg" name="Selected" outgoing="_1H5-lYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Lifeline"/>
+      </nodes>
+      <nodes xmi:id="_1H5-lIGoEeqjxJ91AzqJlg" name="ToBeDeleted" incoming="_1H5-lYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LiteralInteger"/>
+      </nodes>
+      <edges xmi:id="_1H5-lYGoEeqjxJ91AzqJlg" source="_1H5-k4GoEeqjxJ91AzqJlg" target="_1H5-lIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Lifeline/selector"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_1H5-loGoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_1H5-l4GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Lifeline"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_1H5-mIGoEeqjxJ91AzqJlg" origin="_1H5-k4GoEeqjxJ91AzqJlg" image="_1H5-l4GoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

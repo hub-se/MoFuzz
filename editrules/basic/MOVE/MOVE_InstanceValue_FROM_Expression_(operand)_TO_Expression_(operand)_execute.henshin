@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UDWtoIGqEeqSC4bGMjXJ9g" name="MOVE_InstanceValue_FROM_Expression_(operand)_TO_Expression_(operand)" description="MOVEs InstanceValue from Expression(Reference:operand) to Expression(Reference:operand">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UDWtoYGqEeqSC4bGMjXJ9g" name="moveInstanceValue_FROM_Expression_operand_TO_Expression_Expression" description="Moves InstanceValue from Expression(Reference:operand) toExpression(Reference:Expression)">
+    <lhs xmi:id="_UDWtooGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_UDWto4GqEeqSC4bGMjXJ9g" name="Selected" incoming="_UDWtpoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InstanceValue"/>
+      </nodes>
+      <nodes xmi:id="_UDWtpIGqEeqSC4bGMjXJ9g" name="OldSource" outgoing="_UDWtpoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Expression"/>
+      </nodes>
+      <nodes xmi:id="_UDWtpYGqEeqSC4bGMjXJ9g" name="NewSource">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Expression"/>
+      </nodes>
+      <edges xmi:id="_UDWtpoGqEeqSC4bGMjXJ9g" source="_UDWtpIGqEeqSC4bGMjXJ9g" target="_UDWto4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Expression/operand"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_UDWtp4GqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_UDWtqIGqEeqSC4bGMjXJ9g" name="Selected" incoming="_UDWtq4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InstanceValue"/>
+      </nodes>
+      <nodes xmi:id="_UDWtqYGqEeqSC4bGMjXJ9g" name="OldSource">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Expression"/>
+      </nodes>
+      <nodes xmi:id="_UDWtqoGqEeqSC4bGMjXJ9g" name="NewSource" outgoing="_UDWtq4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Expression"/>
+      </nodes>
+      <edges xmi:id="_UDWtq4GqEeqSC4bGMjXJ9g" source="_UDWtqoGqEeqSC4bGMjXJ9g" target="_UDWtqIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Expression/operand"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_UDWtrIGqEeqSC4bGMjXJ9g" origin="_UDWto4GqEeqSC4bGMjXJ9g" image="_UDWtqIGqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_UDWtrYGqEeqSC4bGMjXJ9g" origin="_UDWtpIGqEeqSC4bGMjXJ9g" image="_UDWtqYGqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_UDWtroGqEeqSC4bGMjXJ9g" origin="_UDWtpYGqEeqSC4bGMjXJ9g" image="_UDWtqoGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_1JQCYIGoEeqjxJ91AzqJlg" name="DELETE_StringExpression_IN_Lifeline_(selector)" description="Deletes one StringExpression in Lifeline">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_1JQCYYGoEeqjxJ91AzqJlg" name="deleteStringExpression_IN_Lifeline" description="deletes one StringExpression in the context: Lifeline">
+    <lhs xmi:id="_1JQCYoGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_1JQCY4GoEeqjxJ91AzqJlg" name="Selected" outgoing="_1JQCZYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Lifeline"/>
+      </nodes>
+      <nodes xmi:id="_1JQCZIGoEeqjxJ91AzqJlg" name="ToBeDeleted" incoming="_1JQCZYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//StringExpression"/>
+      </nodes>
+      <edges xmi:id="_1JQCZYGoEeqjxJ91AzqJlg" source="_1JQCY4GoEeqjxJ91AzqJlg" target="_1JQCZIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Lifeline/selector"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_1JQCZoGoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_1JQCZ4GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Lifeline"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_1JQCaIGoEeqjxJ91AzqJlg" origin="_1JQCY4GoEeqjxJ91AzqJlg" image="_1JQCZ4GoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

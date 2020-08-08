@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_U15k4IGqEeqSC4bGMjXJ9g" name="DELETE_DeploymentSpecification_IN_Deployment_(configuration)" description="Deletes one DeploymentSpecification in Deployment">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_U15k4YGqEeqSC4bGMjXJ9g" name="deleteDeploymentSpecification_IN_Deployment" description="deletes one DeploymentSpecification in the context: Deployment">
+    <lhs xmi:id="_U15k4oGqEeqSC4bGMjXJ9g" name="LHS">
+      <nodes xmi:id="_U15k44GqEeqSC4bGMjXJ9g" name="Selected" incoming="_U15k5oGqEeqSC4bGMjXJ9g" outgoing="_U15k5YGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Deployment"/>
+      </nodes>
+      <nodes xmi:id="_U15k5IGqEeqSC4bGMjXJ9g" name="ToBeDeleted" incoming="_U15k5YGqEeqSC4bGMjXJ9g" outgoing="_U15k5oGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//DeploymentSpecification"/>
+      </nodes>
+      <edges xmi:id="_U15k5YGqEeqSC4bGMjXJ9g" source="_U15k44GqEeqSC4bGMjXJ9g" target="_U15k5IGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Deployment/configuration"/>
+      </edges>
+      <edges xmi:id="_U15k5oGqEeqSC4bGMjXJ9g" source="_U15k5IGqEeqSC4bGMjXJ9g" target="_U15k44GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//DeploymentSpecification/deployment"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_U15k54GqEeqSC4bGMjXJ9g" name="RHS">
+      <nodes xmi:id="_U15k6IGqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Deployment"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_U15k6YGqEeqSC4bGMjXJ9g" origin="_U15k44GqEeqSC4bGMjXJ9g" image="_U15k6IGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

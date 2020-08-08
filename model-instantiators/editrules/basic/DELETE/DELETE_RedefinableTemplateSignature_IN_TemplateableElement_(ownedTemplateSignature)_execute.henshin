@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UlpiYIGqEeqSC4bGMjXJ9g" name="DELETE_RedefinableTemplateSignature_IN_TemplateableElement_(ownedTemplateSignature)" description="Deletes one RedefinableTemplateSignature in TemplateableElement">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UlpiYYGqEeqSC4bGMjXJ9g" name="deleteRedefinableTemplateSignature_IN_TemplateableElement" description="deletes one RedefinableTemplateSignature in the context: TemplateableElement">
+    <lhs xmi:id="_UlpiYoGqEeqSC4bGMjXJ9g" name="LHS">
+      <nodes xmi:id="_UlpiY4GqEeqSC4bGMjXJ9g" name="Selected" incoming="_UlpiZoGqEeqSC4bGMjXJ9g" outgoing="_UlpiZYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier"/>
+      </nodes>
+      <nodes xmi:id="_UlpiZIGqEeqSC4bGMjXJ9g" name="ToBeDeleted" incoming="_UlpiZYGqEeqSC4bGMjXJ9g" outgoing="_UlpiZoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//RedefinableTemplateSignature"/>
+      </nodes>
+      <edges xmi:id="_UlpiZYGqEeqSC4bGMjXJ9g" source="_UlpiY4GqEeqSC4bGMjXJ9g" target="_UlpiZIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateableElement/ownedTemplateSignature"/>
+      </edges>
+      <edges xmi:id="_UlpiZoGqEeqSC4bGMjXJ9g" source="_UlpiZIGqEeqSC4bGMjXJ9g" target="_UlpiY4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateSignature/template"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_UlpiZ4GqEeqSC4bGMjXJ9g" name="RHS">
+      <nodes xmi:id="_UlpiaIGqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_UlpiaYGqEeqSC4bGMjXJ9g" origin="_UlpiY4GqEeqSC4bGMjXJ9g" image="_UlpiaIGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

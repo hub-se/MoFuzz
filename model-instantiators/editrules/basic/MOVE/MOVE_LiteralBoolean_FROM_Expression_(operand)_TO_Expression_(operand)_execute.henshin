@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_T0XPYIGqEeqSC4bGMjXJ9g" name="MOVE_LiteralBoolean_FROM_Expression_(operand)_TO_Expression_(operand)" description="MOVEs LiteralBoolean from Expression(Reference:operand) to Expression(Reference:operand">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_T0XPYYGqEeqSC4bGMjXJ9g" name="moveLiteralBoolean_FROM_Expression_operand_TO_Expression_Expression" description="Moves LiteralBoolean from Expression(Reference:operand) toExpression(Reference:Expression)">
+    <lhs xmi:id="_T0XPYoGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_T0XPY4GqEeqSC4bGMjXJ9g" name="Selected" incoming="_T0XPZoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LiteralBoolean"/>
+      </nodes>
+      <nodes xmi:id="_T0XPZIGqEeqSC4bGMjXJ9g" name="OldSource" outgoing="_T0XPZoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Expression"/>
+      </nodes>
+      <nodes xmi:id="_T0XPZYGqEeqSC4bGMjXJ9g" name="NewSource">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Expression"/>
+      </nodes>
+      <edges xmi:id="_T0XPZoGqEeqSC4bGMjXJ9g" source="_T0XPZIGqEeqSC4bGMjXJ9g" target="_T0XPY4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Expression/operand"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_T0XPZ4GqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_T0XPaIGqEeqSC4bGMjXJ9g" name="Selected" incoming="_T0XPa4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LiteralBoolean"/>
+      </nodes>
+      <nodes xmi:id="_T0XPaYGqEeqSC4bGMjXJ9g" name="OldSource">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Expression"/>
+      </nodes>
+      <nodes xmi:id="_T0XPaoGqEeqSC4bGMjXJ9g" name="NewSource" outgoing="_T0XPa4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Expression"/>
+      </nodes>
+      <edges xmi:id="_T0XPa4GqEeqSC4bGMjXJ9g" source="_T0XPaoGqEeqSC4bGMjXJ9g" target="_T0XPaIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Expression/operand"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_T0XPbIGqEeqSC4bGMjXJ9g" origin="_T0XPY4GqEeqSC4bGMjXJ9g" image="_T0XPaIGqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_T0XPbYGqEeqSC4bGMjXJ9g" origin="_T0XPZIGqEeqSC4bGMjXJ9g" image="_T0XPaYGqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_T0XPboGqEeqSC4bGMjXJ9g" origin="_T0XPZYGqEeqSC4bGMjXJ9g" image="_T0XPaoGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

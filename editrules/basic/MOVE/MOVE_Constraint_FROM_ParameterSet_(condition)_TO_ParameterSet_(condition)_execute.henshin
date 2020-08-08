@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_T1c0gIGqEeqSC4bGMjXJ9g" name="MOVE_Constraint_FROM_ParameterSet_(condition)_TO_ParameterSet_(condition)" description="MOVEs Constraint from ParameterSet(Reference:condition) to ParameterSet(Reference:condition">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_T1c0gYGqEeqSC4bGMjXJ9g" name="moveConstraint_FROM_ParameterSet_condition_TO_ParameterSet_ParameterSet" description="Moves Constraint from ParameterSet(Reference:condition) toParameterSet(Reference:ParameterSet)">
+    <lhs xmi:id="_T1c0goGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_T1c0g4GqEeqSC4bGMjXJ9g" name="Selected" incoming="_T1c0hoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Constraint"/>
+      </nodes>
+      <nodes xmi:id="_T1c0hIGqEeqSC4bGMjXJ9g" name="OldSource" outgoing="_T1c0hoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ParameterSet"/>
+      </nodes>
+      <nodes xmi:id="_T1c0hYGqEeqSC4bGMjXJ9g" name="NewSource">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ParameterSet"/>
+      </nodes>
+      <edges xmi:id="_T1c0hoGqEeqSC4bGMjXJ9g" source="_T1c0hIGqEeqSC4bGMjXJ9g" target="_T1c0g4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ParameterSet/condition"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_T1c0h4GqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_T1c0iIGqEeqSC4bGMjXJ9g" name="Selected" incoming="_T1c0i4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Constraint"/>
+      </nodes>
+      <nodes xmi:id="_T1c0iYGqEeqSC4bGMjXJ9g" name="OldSource">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ParameterSet"/>
+      </nodes>
+      <nodes xmi:id="_T1c0ioGqEeqSC4bGMjXJ9g" name="NewSource" outgoing="_T1c0i4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ParameterSet"/>
+      </nodes>
+      <edges xmi:id="_T1c0i4GqEeqSC4bGMjXJ9g" source="_T1c0ioGqEeqSC4bGMjXJ9g" target="_T1c0iIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ParameterSet/condition"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_T1c0jIGqEeqSC4bGMjXJ9g" origin="_T1c0g4GqEeqSC4bGMjXJ9g" image="_T1c0iIGqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_T1c0jYGqEeqSC4bGMjXJ9g" origin="_T1c0hIGqEeqSC4bGMjXJ9g" image="_T1c0iYGqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_T1c0joGqEeqSC4bGMjXJ9g" origin="_T1c0hYGqEeqSC4bGMjXJ9g" image="_T1c0ioGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

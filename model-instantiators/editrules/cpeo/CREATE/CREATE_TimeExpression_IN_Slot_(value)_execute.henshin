@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_19PrIIGoEeqjxJ91AzqJlg" name="CREATE_TimeExpression_IN_Slot_(value)" description="Creates one TimeExpression in Slot">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_19PrIYGoEeqjxJ91AzqJlg" name="createTimeExpression_IN_Slot" description="creates one TimeExpression in the context: Slot">
+    <lhs xmi:id="_19PrIoGoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_19PrI4GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Slot"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_19PrJIGoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_19PrJYGoEeqjxJ91AzqJlg" name="Selected" outgoing="_19PrJ4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Slot"/>
+      </nodes>
+      <nodes xmi:id="_19PrJoGoEeqjxJ91AzqJlg" name="New" incoming="_19PrJ4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TimeExpression"/>
+      </nodes>
+      <edges xmi:id="_19PrJ4GoEeqjxJ91AzqJlg" source="_19PrJYGoEeqjxJ91AzqJlg" target="_19PrJoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Slot/value"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_19PrKIGoEeqjxJ91AzqJlg" origin="_19PrI4GoEeqjxJ91AzqJlg" image="_19PrJYGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

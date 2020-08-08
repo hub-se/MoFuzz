@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UKR1AIGqEeqSC4bGMjXJ9g" name="CREATE_IntervalConstraint_IN_Extend_(condition)" description="Creates one IntervalConstraint in Extend">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UKR1AYGqEeqSC4bGMjXJ9g" name="createIntervalConstraint_IN_Extend" description="creates one IntervalConstraint in the context: Extend">
+    <lhs xmi:id="_UKR1AoGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_UKR1A4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Extend"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_UKR1BIGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_UKR1BYGqEeqSC4bGMjXJ9g" name="Selected" outgoing="_UKR1B4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Extend"/>
+      </nodes>
+      <nodes xmi:id="_UKR1BoGqEeqSC4bGMjXJ9g" name="New" incoming="_UKR1B4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//IntervalConstraint"/>
+      </nodes>
+      <edges xmi:id="_UKR1B4GqEeqSC4bGMjXJ9g" source="_UKR1BYGqEeqSC4bGMjXJ9g" target="_UKR1BoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Extend/condition"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_UKR1CIGqEeqSC4bGMjXJ9g" origin="_UKR1A4GqEeqSC4bGMjXJ9g" image="_UKR1BYGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

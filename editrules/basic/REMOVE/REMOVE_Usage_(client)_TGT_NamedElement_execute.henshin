@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_TfRwMIGqEeqSC4bGMjXJ9g" name="REMOVE_Usage_(client)_TGT_NamedElement" description="Removes Usage's reference client the target NamedElement">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_TfRwMYGqEeqSC4bGMjXJ9g" name="removeFromUsage_client_NamedElement" description="Removes from Usage's reference client the target NamedElement">
+    <lhs xmi:id="_TfRwMoGqEeqSC4bGMjXJ9g" name="LHS">
+      <nodes xmi:id="_TfRwM4GqEeqSC4bGMjXJ9g" name="Selected" outgoing="_TfRwNYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Usage"/>
+      </nodes>
+      <nodes xmi:id="_TfRwNIGqEeqSC4bGMjXJ9g" name="OldTarget" incoming="_TfRwNYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//NamedElement"/>
+      </nodes>
+      <edges xmi:id="_TfRwNYGqEeqSC4bGMjXJ9g" source="_TfRwM4GqEeqSC4bGMjXJ9g" target="_TfRwNIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Dependency/client"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_TfRwNoGqEeqSC4bGMjXJ9g" name="RHS">
+      <nodes xmi:id="_TfRwN4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Usage"/>
+      </nodes>
+      <nodes xmi:id="_TfRwOIGqEeqSC4bGMjXJ9g" name="OldTarget">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//NamedElement"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_TfRwOYGqEeqSC4bGMjXJ9g" origin="_TfRwM4GqEeqSC4bGMjXJ9g" image="_TfRwN4GqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_TfRwOoGqEeqSC4bGMjXJ9g" origin="_TfRwNIGqEeqSC4bGMjXJ9g" image="_TfRwOIGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

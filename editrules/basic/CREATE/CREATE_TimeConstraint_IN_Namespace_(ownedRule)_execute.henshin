@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UIoPMIGqEeqSC4bGMjXJ9g" name="CREATE_TimeConstraint_IN_Namespace_(ownedRule)" description="Creates one TimeConstraint in Namespace">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UIoPMYGqEeqSC4bGMjXJ9g" name="createTimeConstraint_IN_Namespace" description="creates one TimeConstraint in the context: Namespace">
+    <lhs xmi:id="_UIoPMoGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_UIoPM4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Namespace"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_UIoPNIGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_UIoPNYGqEeqSC4bGMjXJ9g" name="Selected" incoming="_UIoPOIGqEeqSC4bGMjXJ9g" outgoing="_UIoPN4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Namespace"/>
+      </nodes>
+      <nodes xmi:id="_UIoPNoGqEeqSC4bGMjXJ9g" name="New" incoming="_UIoPN4GqEeqSC4bGMjXJ9g" outgoing="_UIoPOIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TimeConstraint"/>
+      </nodes>
+      <edges xmi:id="_UIoPN4GqEeqSC4bGMjXJ9g" source="_UIoPNYGqEeqSC4bGMjXJ9g" target="_UIoPNoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Namespace/ownedRule"/>
+      </edges>
+      <edges xmi:id="_UIoPOIGqEeqSC4bGMjXJ9g" source="_UIoPNoGqEeqSC4bGMjXJ9g" target="_UIoPNYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Constraint/context"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_UIoPOYGqEeqSC4bGMjXJ9g" origin="_UIoPM4GqEeqSC4bGMjXJ9g" image="_UIoPNYGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

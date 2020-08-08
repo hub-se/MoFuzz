@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_1n_z4IGoEeqjxJ91AzqJlg" name="CREATE_Region_IN_State_(region)" description="Creates one Region in State">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_1n_z4YGoEeqjxJ91AzqJlg" name="createRegion_IN_State" description="creates one Region in the context: State">
+    <parameters xmi:id="_1n_z4oGoEeqjxJ91AzqJlg" name="IsLeaf" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <lhs xmi:id="_1n_z44GoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_1n_z5IGoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//State"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_1n_z5YGoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_1n_z5oGoEeqjxJ91AzqJlg" name="Selected" incoming="_1n_z6oGoEeqjxJ91AzqJlg" outgoing="_1n_z6YGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//State"/>
+      </nodes>
+      <nodes xmi:id="_1n_z54GoEeqjxJ91AzqJlg" name="New" incoming="_1n_z6YGoEeqjxJ91AzqJlg" outgoing="_1n_z6oGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Region"/>
+        <attributes xmi:id="_1n_z6IGoEeqjxJ91AzqJlg" value="IsLeaf">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//RedefinableElement/isLeaf"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_1n_z6YGoEeqjxJ91AzqJlg" source="_1n_z5oGoEeqjxJ91AzqJlg" target="_1n_z54GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//State/region"/>
+      </edges>
+      <edges xmi:id="_1n_z6oGoEeqjxJ91AzqJlg" source="_1n_z54GoEeqjxJ91AzqJlg" target="_1n_z5oGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Region/state"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_1n_z64GoEeqjxJ91AzqJlg" origin="_1n_z5IGoEeqjxJ91AzqJlg" image="_1n_z5oGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

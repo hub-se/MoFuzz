@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_16uioIGoEeqjxJ91AzqJlg" name="CREATE_BroadcastSignalAction_IN_Activity_(ownedNode)" description="Creates one BroadcastSignalAction in Activity">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_16uioYGoEeqjxJ91AzqJlg" name="createBroadcastSignalAction_IN_Activity" description="creates one BroadcastSignalAction in the context: Activity">
+    <parameters xmi:id="_16uiooGoEeqjxJ91AzqJlg" name="IsLeaf" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <parameters xmi:id="_16uio4GoEeqjxJ91AzqJlg" name="IsLocallyReentrant" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <lhs xmi:id="_16uipIGoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_16uipYGoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Activity"/>
+      </nodes>
+      <nodes xmi:id="_16uipoGoEeqjxJ91AzqJlg" name="Existing">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Signal"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_16uip4GoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_16uiqIGoEeqjxJ91AzqJlg" name="Selected" outgoing="_16vJsIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Activity"/>
+      </nodes>
+      <nodes xmi:id="_16uiqYGoEeqjxJ91AzqJlg" name="New" incoming="_16vJsIGoEeqjxJ91AzqJlg" outgoing="_16vJsYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//BroadcastSignalAction"/>
+        <attributes xmi:id="_16uiqoGoEeqjxJ91AzqJlg" value="IsLeaf">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//RedefinableElement/isLeaf"/>
+        </attributes>
+        <attributes xmi:id="_16uiq4GoEeqjxJ91AzqJlg" value="IsLocallyReentrant">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Action/isLocallyReentrant"/>
+        </attributes>
+      </nodes>
+      <nodes xmi:id="_16uirIGoEeqjxJ91AzqJlg" name="Existing" incoming="_16vJsYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Signal"/>
+      </nodes>
+      <edges xmi:id="_16vJsIGoEeqjxJ91AzqJlg" source="_16uiqIGoEeqjxJ91AzqJlg" target="_16uiqYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Activity/ownedNode"/>
+      </edges>
+      <edges xmi:id="_16vJsYGoEeqjxJ91AzqJlg" source="_16uiqYGoEeqjxJ91AzqJlg" target="_16uirIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//BroadcastSignalAction/signal"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_16vJsoGoEeqjxJ91AzqJlg" origin="_16uipYGoEeqjxJ91AzqJlg" image="_16uiqIGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_16vJs4GoEeqjxJ91AzqJlg" origin="_16uipoGoEeqjxJ91AzqJlg" image="_16uirIGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

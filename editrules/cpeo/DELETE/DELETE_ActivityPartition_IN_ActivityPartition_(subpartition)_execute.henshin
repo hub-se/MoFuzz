@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_1N544IGoEeqjxJ91AzqJlg" name="DELETE_ActivityPartition_IN_ActivityPartition_(subpartition)" description="Deletes one ActivityPartition in ActivityPartition">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_1N544YGoEeqjxJ91AzqJlg" name="deleteActivityPartition_IN_ActivityPartition" description="deletes one ActivityPartition in the context: ActivityPartition">
+    <lhs xmi:id="_1N544oGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_1N5444GoEeqjxJ91AzqJlg" name="Selected" incoming="_1N545oGoEeqjxJ91AzqJlg" outgoing="_1N545YGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityPartition"/>
+      </nodes>
+      <nodes xmi:id="_1N545IGoEeqjxJ91AzqJlg" name="ToBeDeleted" incoming="_1N545YGoEeqjxJ91AzqJlg" outgoing="_1N545oGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityPartition"/>
+      </nodes>
+      <edges xmi:id="_1N545YGoEeqjxJ91AzqJlg" source="_1N5444GoEeqjxJ91AzqJlg" target="_1N545IGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityPartition/subpartition"/>
+      </edges>
+      <edges xmi:id="_1N545oGoEeqjxJ91AzqJlg" source="_1N545IGoEeqjxJ91AzqJlg" target="_1N5444GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityPartition/superPartition"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_1N5454GoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_1N546IGoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityPartition"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_1N546YGoEeqjxJ91AzqJlg" origin="_1N5444GoEeqjxJ91AzqJlg" image="_1N546IGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

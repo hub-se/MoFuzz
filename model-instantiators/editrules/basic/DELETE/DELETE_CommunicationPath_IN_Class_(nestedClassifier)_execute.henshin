@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_Um4RcIGqEeqSC4bGMjXJ9g" name="DELETE_CommunicationPath_IN_Class_(nestedClassifier)" description="Deletes one CommunicationPath in Class">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_Um4RcYGqEeqSC4bGMjXJ9g" name="deleteCommunicationPath_IN_Class" description="deletes one CommunicationPath in the context: Class">
+    <lhs xmi:id="_Um4RcoGqEeqSC4bGMjXJ9g" name="LHS">
+      <nodes xmi:id="_Um4Rc4GqEeqSC4bGMjXJ9g" name="Selected" outgoing="_Um4RdYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+      </nodes>
+      <nodes xmi:id="_Um4RdIGqEeqSC4bGMjXJ9g" name="ToBeDeleted" incoming="_Um4RdYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//CommunicationPath"/>
+      </nodes>
+      <edges xmi:id="_Um4RdYGqEeqSC4bGMjXJ9g" source="_Um4Rc4GqEeqSC4bGMjXJ9g" target="_Um4RdIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Class/nestedClassifier"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_Um4RdoGqEeqSC4bGMjXJ9g" name="RHS">
+      <nodes xmi:id="_Um4Rd4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_Um4ReIGqEeqSC4bGMjXJ9g" origin="_Um4Rc4GqEeqSC4bGMjXJ9g" image="_Um4Rd4GqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

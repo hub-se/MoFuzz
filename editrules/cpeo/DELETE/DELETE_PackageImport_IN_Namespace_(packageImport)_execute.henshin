@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_09SC8IGoEeqjxJ91AzqJlg" name="DELETE_PackageImport_IN_Namespace_(packageImport)" description="Deletes one PackageImport in Namespace">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_09SC8YGoEeqjxJ91AzqJlg" name="deletePackageImport_IN_Namespace" description="deletes one PackageImport in the context: Namespace">
+    <lhs xmi:id="_09SC8oGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_09SC84GoEeqjxJ91AzqJlg" name="Selected" incoming="_09SC94GoEeqjxJ91AzqJlg" outgoing="_09SC9oGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Namespace"/>
+      </nodes>
+      <nodes xmi:id="_09SC9IGoEeqjxJ91AzqJlg" name="ToBeDeleted" incoming="_09SC9oGoEeqjxJ91AzqJlg" outgoing="_09SC94GoEeqjxJ91AzqJlg _09SC-IGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//PackageImport"/>
+      </nodes>
+      <nodes xmi:id="_09SC9YGoEeqjxJ91AzqJlg" name="Existing" incoming="_09SC-IGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </nodes>
+      <edges xmi:id="_09SC9oGoEeqjxJ91AzqJlg" source="_09SC84GoEeqjxJ91AzqJlg" target="_09SC9IGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Namespace/packageImport"/>
+      </edges>
+      <edges xmi:id="_09SC94GoEeqjxJ91AzqJlg" source="_09SC9IGoEeqjxJ91AzqJlg" target="_09SC84GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//PackageImport/importingNamespace"/>
+      </edges>
+      <edges xmi:id="_09SC-IGoEeqjxJ91AzqJlg" source="_09SC9IGoEeqjxJ91AzqJlg" target="_09SC9YGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//PackageImport/importedPackage"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_09SC-YGoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_09SC-oGoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Namespace"/>
+      </nodes>
+      <nodes xmi:id="_09SC-4GoEeqjxJ91AzqJlg" name="Existing">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_09SC_IGoEeqjxJ91AzqJlg" origin="_09SC84GoEeqjxJ91AzqJlg" image="_09SC-oGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_09SC_YGoEeqjxJ91AzqJlg" origin="_09SC9YGoEeqjxJ91AzqJlg" image="_09SC-4GoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

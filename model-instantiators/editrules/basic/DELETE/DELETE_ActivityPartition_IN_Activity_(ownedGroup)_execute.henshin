@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UkP0MIGqEeqSC4bGMjXJ9g" name="DELETE_ActivityPartition_IN_Activity_(ownedGroup)" description="Deletes one ActivityPartition in Activity">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UkP0MYGqEeqSC4bGMjXJ9g" name="deleteActivityPartition_IN_Activity" description="deletes one ActivityPartition in the context: Activity">
+    <lhs xmi:id="_UkP0MoGqEeqSC4bGMjXJ9g" name="LHS">
+      <nodes xmi:id="_UkP0M4GqEeqSC4bGMjXJ9g" name="Selected" outgoing="_UkP0NYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Activity"/>
+      </nodes>
+      <nodes xmi:id="_UkP0NIGqEeqSC4bGMjXJ9g" name="ToBeDeleted" incoming="_UkP0NYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityPartition"/>
+      </nodes>
+      <edges xmi:id="_UkP0NYGqEeqSC4bGMjXJ9g" source="_UkP0M4GqEeqSC4bGMjXJ9g" target="_UkP0NIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Activity/ownedGroup"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_UkP0NoGqEeqSC4bGMjXJ9g" name="RHS">
+      <nodes xmi:id="_UkP0N4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Activity"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_UkP0OIGqEeqSC4bGMjXJ9g" origin="_UkP0M4GqEeqSC4bGMjXJ9g" image="_UkP0N4GqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_Ua31wIGqEeqSC4bGMjXJ9g" name="CREATE_IntervalConstraint_IN_Action_(localPostcondition)" description="Creates one IntervalConstraint in Action">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_Ua31wYGqEeqSC4bGMjXJ9g" name="createIntervalConstraint_IN_Action" description="creates one IntervalConstraint in the context: Action">
+    <lhs xmi:id="_Ua31woGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_Ua31w4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Action"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_Ua31xIGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_Ua31xYGqEeqSC4bGMjXJ9g" name="Selected" outgoing="_Ua31x4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Action"/>
+      </nodes>
+      <nodes xmi:id="_Ua31xoGqEeqSC4bGMjXJ9g" name="New" incoming="_Ua31x4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//IntervalConstraint"/>
+      </nodes>
+      <edges xmi:id="_Ua31x4GqEeqSC4bGMjXJ9g" source="_Ua31xYGqEeqSC4bGMjXJ9g" target="_Ua31xoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Action/localPostcondition"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_Ua31yIGqEeqSC4bGMjXJ9g" origin="_Ua31w4GqEeqSC4bGMjXJ9g" image="_Ua31xYGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

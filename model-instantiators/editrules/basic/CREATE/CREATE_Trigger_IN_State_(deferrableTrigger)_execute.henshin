@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UFusMIGqEeqSC4bGMjXJ9g" name="CREATE_Trigger_IN_State_(deferrableTrigger)" description="Creates one Trigger in State">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UFusMYGqEeqSC4bGMjXJ9g" name="createTrigger_IN_State" description="creates one Trigger in the context: State">
+    <lhs xmi:id="_UFusMoGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_UFusM4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//State"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_UFusNIGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_UFusNYGqEeqSC4bGMjXJ9g" name="Selected" outgoing="_UFusN4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//State"/>
+      </nodes>
+      <nodes xmi:id="_UFusNoGqEeqSC4bGMjXJ9g" name="New" incoming="_UFusN4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Trigger"/>
+      </nodes>
+      <edges xmi:id="_UFusN4GqEeqSC4bGMjXJ9g" source="_UFusNYGqEeqSC4bGMjXJ9g" target="_UFusNoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//State/deferrableTrigger"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_UFusOIGqEeqSC4bGMjXJ9g" origin="_UFusM4GqEeqSC4bGMjXJ9g" image="_UFusNYGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

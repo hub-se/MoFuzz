@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_19TVgIGoEeqjxJ91AzqJlg" name="CREATE_CallEvent_IN_Package_(packagedElement)" description="Creates one CallEvent in Package">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_19TVgYGoEeqjxJ91AzqJlg" name="createCallEvent_IN_Package" description="creates one CallEvent in the context: Package">
+    <lhs xmi:id="_19TVgoGoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_19TVg4GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </nodes>
+      <nodes xmi:id="_19TVhIGoEeqjxJ91AzqJlg" name="Existing">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Operation"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_19TVhYGoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_19TVhoGoEeqjxJ91AzqJlg" name="Selected" outgoing="_19TViYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </nodes>
+      <nodes xmi:id="_19TVh4GoEeqjxJ91AzqJlg" name="New" incoming="_19TViYGoEeqjxJ91AzqJlg" outgoing="_19TVioGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//CallEvent"/>
+      </nodes>
+      <nodes xmi:id="_19TViIGoEeqjxJ91AzqJlg" name="Existing" incoming="_19TVioGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Operation"/>
+      </nodes>
+      <edges xmi:id="_19TViYGoEeqjxJ91AzqJlg" source="_19TVhoGoEeqjxJ91AzqJlg" target="_19TVh4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Package/packagedElement"/>
+      </edges>
+      <edges xmi:id="_19TVioGoEeqjxJ91AzqJlg" source="_19TVh4GoEeqjxJ91AzqJlg" target="_19TViIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//CallEvent/operation"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_19TVi4GoEeqjxJ91AzqJlg" origin="_19TVg4GoEeqjxJ91AzqJlg" image="_19TVhoGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_19TVjIGoEeqjxJ91AzqJlg" origin="_19TVhIGoEeqjxJ91AzqJlg" image="_19TViIGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

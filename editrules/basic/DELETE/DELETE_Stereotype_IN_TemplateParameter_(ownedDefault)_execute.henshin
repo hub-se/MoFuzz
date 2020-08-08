@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UtwVgIGqEeqSC4bGMjXJ9g" name="DELETE_Stereotype_IN_TemplateParameter_(ownedDefault)" description="Deletes one Stereotype in TemplateParameter">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UtwVgYGqEeqSC4bGMjXJ9g" name="deleteStereotype_IN_TemplateParameter" description="deletes one Stereotype in the context: TemplateParameter">
+    <lhs xmi:id="_UtwVgoGqEeqSC4bGMjXJ9g" name="LHS">
+      <nodes xmi:id="_UtwVg4GqEeqSC4bGMjXJ9g" name="Selected" outgoing="_UtwVhYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameter"/>
+      </nodes>
+      <nodes xmi:id="_UtwVhIGqEeqSC4bGMjXJ9g" name="ToBeDeleted" incoming="_UtwVhYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Stereotype"/>
+      </nodes>
+      <edges xmi:id="_UtwVhYGqEeqSC4bGMjXJ9g" source="_UtwVg4GqEeqSC4bGMjXJ9g" target="_UtwVhIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameter/ownedDefault"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_UtwVhoGqEeqSC4bGMjXJ9g" name="RHS">
+      <nodes xmi:id="_UtwVh4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameter"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_UtwViIGqEeqSC4bGMjXJ9g" origin="_UtwVg4GqEeqSC4bGMjXJ9g" image="_UtwVh4GqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

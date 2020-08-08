@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_TVm20IGqEeqSC4bGMjXJ9g" name="REMOVE_Connector_(contract)_TGT_Behavior" description="Removes Connector's reference contract the target Behavior">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_TVm20YGqEeqSC4bGMjXJ9g" name="removeFromConnector_contract_Behavior" description="Removes from Connector's reference contract the target Behavior">
+    <lhs xmi:id="_TVm20oGqEeqSC4bGMjXJ9g" name="LHS">
+      <nodes xmi:id="_TVm204GqEeqSC4bGMjXJ9g" name="Selected" outgoing="_TVm21YGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Connector"/>
+      </nodes>
+      <nodes xmi:id="_TVm21IGqEeqSC4bGMjXJ9g" name="OldTarget" incoming="_TVm21YGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Behavior"/>
+      </nodes>
+      <edges xmi:id="_TVm21YGqEeqSC4bGMjXJ9g" source="_TVm204GqEeqSC4bGMjXJ9g" target="_TVm21IGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Connector/contract"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_TVm21oGqEeqSC4bGMjXJ9g" name="RHS">
+      <nodes xmi:id="_TVm214GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Connector"/>
+      </nodes>
+      <nodes xmi:id="_TVm22IGqEeqSC4bGMjXJ9g" name="OldTarget">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Behavior"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_TVm22YGqEeqSC4bGMjXJ9g" origin="_TVm204GqEeqSC4bGMjXJ9g" image="_TVm214GqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_TVm22oGqEeqSC4bGMjXJ9g" origin="_TVm21IGqEeqSC4bGMjXJ9g" image="_TVm22IGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

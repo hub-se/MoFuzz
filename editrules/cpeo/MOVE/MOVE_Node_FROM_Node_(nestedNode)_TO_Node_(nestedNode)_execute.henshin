@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_2ZMAQIGoEeqjxJ91AzqJlg" name="MOVE_Node_FROM_Node_(nestedNode)_TO_Node_(nestedNode)" description="MOVEs Node from Node(Reference:nestedNode) to Node(Reference:nestedNode">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_2ZMAQYGoEeqjxJ91AzqJlg" name="moveNode_FROM_Node_nestedNode_TO_Node_Node" description="Moves Node from Node(Reference:nestedNode) toNode(Reference:Node)">
+    <lhs xmi:id="_2ZMAQoGoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_2ZMnUIGoEeqjxJ91AzqJlg" name="Selected" incoming="_2ZMnU4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Node"/>
+      </nodes>
+      <nodes xmi:id="_2ZMnUYGoEeqjxJ91AzqJlg" name="OldSource" outgoing="_2ZMnU4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Node"/>
+      </nodes>
+      <nodes xmi:id="_2ZMnUoGoEeqjxJ91AzqJlg" name="NewSource">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Node"/>
+      </nodes>
+      <edges xmi:id="_2ZMnU4GoEeqjxJ91AzqJlg" source="_2ZMnUYGoEeqjxJ91AzqJlg" target="_2ZMnUIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Node/nestedNode"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_2ZMnVIGoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_2ZMnVYGoEeqjxJ91AzqJlg" name="Selected" incoming="_2ZMnWIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Node"/>
+      </nodes>
+      <nodes xmi:id="_2ZMnVoGoEeqjxJ91AzqJlg" name="OldSource">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Node"/>
+      </nodes>
+      <nodes xmi:id="_2ZMnV4GoEeqjxJ91AzqJlg" name="NewSource" outgoing="_2ZMnWIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Node"/>
+      </nodes>
+      <edges xmi:id="_2ZMnWIGoEeqjxJ91AzqJlg" source="_2ZMnV4GoEeqjxJ91AzqJlg" target="_2ZMnVYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Node/nestedNode"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_2ZMnWYGoEeqjxJ91AzqJlg" origin="_2ZMnUIGoEeqjxJ91AzqJlg" image="_2ZMnVYGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_2ZMnWoGoEeqjxJ91AzqJlg" origin="_2ZMnUYGoEeqjxJ91AzqJlg" image="_2ZMnVoGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_2ZMnW4GoEeqjxJ91AzqJlg" origin="_2ZMnUoGoEeqjxJ91AzqJlg" image="_2ZMnV4GoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

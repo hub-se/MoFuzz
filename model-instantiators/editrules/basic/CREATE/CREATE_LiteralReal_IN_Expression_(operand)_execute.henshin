@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_Ufa-kIGqEeqSC4bGMjXJ9g" name="CREATE_LiteralReal_IN_Expression_(operand)" description="Creates one LiteralReal in Expression">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_Ufa-kYGqEeqSC4bGMjXJ9g" name="createLiteralReal_IN_Expression" description="creates one LiteralReal in the context: Expression">
+    <parameters xmi:id="_Ufa-koGqEeqSC4bGMjXJ9g" name="Value" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Real"/>
+    </parameters>
+    <lhs xmi:id="_Ufa-k4GqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_Ufa-lIGqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Expression"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_Ufa-lYGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_Ufa-loGqEeqSC4bGMjXJ9g" name="Selected" outgoing="_Ufa-mYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Expression"/>
+      </nodes>
+      <nodes xmi:id="_Ufa-l4GqEeqSC4bGMjXJ9g" name="New" incoming="_Ufa-mYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LiteralReal"/>
+        <attributes xmi:id="_Ufa-mIGqEeqSC4bGMjXJ9g" value="Value">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LiteralReal/value"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_Ufa-mYGqEeqSC4bGMjXJ9g" source="_Ufa-loGqEeqSC4bGMjXJ9g" target="_Ufa-l4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Expression/operand"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_Ufa-moGqEeqSC4bGMjXJ9g" origin="_Ufa-lIGqEeqSC4bGMjXJ9g" image="_Ufa-loGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

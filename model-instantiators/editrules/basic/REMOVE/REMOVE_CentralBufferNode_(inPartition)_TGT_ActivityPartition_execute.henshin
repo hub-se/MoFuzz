@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_TXvk0IGqEeqSC4bGMjXJ9g" name="REMOVE_CentralBufferNode_(inPartition)_TGT_ActivityPartition" description="Removes CentralBufferNode's reference inPartition the target ActivityPartition">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_TXvk0YGqEeqSC4bGMjXJ9g" name="removeFromCentralBufferNode_inPartition_ActivityPartition" description="Removes from CentralBufferNode's reference inPartition the target ActivityPartition">
+    <lhs xmi:id="_TXvk0oGqEeqSC4bGMjXJ9g" name="LHS">
+      <nodes xmi:id="_TXvk04GqEeqSC4bGMjXJ9g" name="Selected" incoming="_TXvk1oGqEeqSC4bGMjXJ9g" outgoing="_TXvk1YGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//CentralBufferNode"/>
+      </nodes>
+      <nodes xmi:id="_TXvk1IGqEeqSC4bGMjXJ9g" name="OldTarget" incoming="_TXvk1YGqEeqSC4bGMjXJ9g" outgoing="_TXvk1oGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityPartition"/>
+      </nodes>
+      <edges xmi:id="_TXvk1YGqEeqSC4bGMjXJ9g" source="_TXvk04GqEeqSC4bGMjXJ9g" target="_TXvk1IGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityNode/inPartition"/>
+      </edges>
+      <edges xmi:id="_TXvk1oGqEeqSC4bGMjXJ9g" source="_TXvk1IGqEeqSC4bGMjXJ9g" target="_TXvk04GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityPartition/node"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_TXvk14GqEeqSC4bGMjXJ9g" name="RHS">
+      <nodes xmi:id="_TXvk2IGqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//CentralBufferNode"/>
+      </nodes>
+      <nodes xmi:id="_TXvk2YGqEeqSC4bGMjXJ9g" name="OldTarget">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityPartition"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_TXvk2oGqEeqSC4bGMjXJ9g" origin="_TXvk04GqEeqSC4bGMjXJ9g" image="_TXvk2IGqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_TXvk24GqEeqSC4bGMjXJ9g" origin="_TXvk1IGqEeqSC4bGMjXJ9g" image="_TXvk2YGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

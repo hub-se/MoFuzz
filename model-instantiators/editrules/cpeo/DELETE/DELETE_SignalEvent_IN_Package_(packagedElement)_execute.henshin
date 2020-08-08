@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_1RFvwIGoEeqjxJ91AzqJlg" name="DELETE_SignalEvent_IN_Package_(packagedElement)" description="Deletes one SignalEvent in Package">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_1RFvwYGoEeqjxJ91AzqJlg" name="deleteSignalEvent_IN_Package" description="deletes one SignalEvent in the context: Package">
+    <lhs xmi:id="_1RFvwoGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_1RFvw4GoEeqjxJ91AzqJlg" name="Selected" outgoing="_1RFvxoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </nodes>
+      <nodes xmi:id="_1RFvxIGoEeqjxJ91AzqJlg" name="ToBeDeleted" incoming="_1RFvxoGoEeqjxJ91AzqJlg" outgoing="_1RFvx4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//SignalEvent"/>
+      </nodes>
+      <nodes xmi:id="_1RFvxYGoEeqjxJ91AzqJlg" name="Existing" incoming="_1RFvx4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Signal"/>
+      </nodes>
+      <edges xmi:id="_1RFvxoGoEeqjxJ91AzqJlg" source="_1RFvw4GoEeqjxJ91AzqJlg" target="_1RFvxIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Package/packagedElement"/>
+      </edges>
+      <edges xmi:id="_1RFvx4GoEeqjxJ91AzqJlg" source="_1RFvxIGoEeqjxJ91AzqJlg" target="_1RFvxYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//SignalEvent/signal"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_1RFvyIGoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_1RFvyYGoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </nodes>
+      <nodes xmi:id="_1RFvyoGoEeqjxJ91AzqJlg" name="Existing">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Signal"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_1RFvy4GoEeqjxJ91AzqJlg" origin="_1RFvw4GoEeqjxJ91AzqJlg" image="_1RFvyYGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_1RFvzIGoEeqjxJ91AzqJlg" origin="_1RFvxYGoEeqjxJ91AzqJlg" image="_1RFvyoGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

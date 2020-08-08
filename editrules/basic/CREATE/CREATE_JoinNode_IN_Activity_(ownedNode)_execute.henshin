@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UaYtkIGqEeqSC4bGMjXJ9g" name="CREATE_JoinNode_IN_Activity_(ownedNode)" description="Creates one JoinNode in Activity">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UaYtkYGqEeqSC4bGMjXJ9g" name="createJoinNode_IN_Activity" description="creates one JoinNode in the context: Activity">
+    <parameters xmi:id="_UaYtkoGqEeqSC4bGMjXJ9g" name="IsLeaf" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <parameters xmi:id="_UaYtk4GqEeqSC4bGMjXJ9g" name="IsCombineDuplicate" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <lhs xmi:id="_UaYtlIGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_UaYtlYGqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Activity"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_UaYtloGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_UaYtl4GqEeqSC4bGMjXJ9g" name="Selected" outgoing="_UaYtm4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Activity"/>
+      </nodes>
+      <nodes xmi:id="_UaYtmIGqEeqSC4bGMjXJ9g" name="New" incoming="_UaYtm4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//JoinNode"/>
+        <attributes xmi:id="_UaYtmYGqEeqSC4bGMjXJ9g" value="IsLeaf">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//RedefinableElement/isLeaf"/>
+        </attributes>
+        <attributes xmi:id="_UaYtmoGqEeqSC4bGMjXJ9g" value="IsCombineDuplicate">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//JoinNode/isCombineDuplicate"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_UaYtm4GqEeqSC4bGMjXJ9g" source="_UaYtl4GqEeqSC4bGMjXJ9g" target="_UaYtmIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Activity/ownedNode"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_UaYtnIGqEeqSC4bGMjXJ9g" origin="_UaYtlYGqEeqSC4bGMjXJ9g" image="_UaYtl4GqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

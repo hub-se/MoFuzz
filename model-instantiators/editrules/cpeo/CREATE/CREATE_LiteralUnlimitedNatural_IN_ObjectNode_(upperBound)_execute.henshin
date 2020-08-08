@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_2Al6EIGoEeqjxJ91AzqJlg" name="CREATE_LiteralUnlimitedNatural_IN_ObjectNode_(upperBound)" description="Creates one LiteralUnlimitedNatural in ObjectNode">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_2Al6EYGoEeqjxJ91AzqJlg" name="createLiteralUnlimitedNatural_IN_ObjectNode" description="creates one LiteralUnlimitedNatural in the context: ObjectNode">
+    <parameters xmi:id="_2Al6EoGoEeqjxJ91AzqJlg" name="Value" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//UnlimitedNatural"/>
+    </parameters>
+    <lhs xmi:id="_2Al6E4GoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_2Al6FIGoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ObjectNode"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_2Al6FYGoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_2Al6FoGoEeqjxJ91AzqJlg" name="Selected" outgoing="_2Al6GYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ObjectNode"/>
+      </nodes>
+      <nodes xmi:id="_2Al6F4GoEeqjxJ91AzqJlg" name="New" incoming="_2Al6GYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LiteralUnlimitedNatural"/>
+        <attributes xmi:id="_2Al6GIGoEeqjxJ91AzqJlg" value="Value">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LiteralUnlimitedNatural/value"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_2Al6GYGoEeqjxJ91AzqJlg" source="_2Al6FoGoEeqjxJ91AzqJlg" target="_2Al6F4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ObjectNode/upperBound"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_2Al6GoGoEeqjxJ91AzqJlg" origin="_2Al6FIGoEeqjxJ91AzqJlg" image="_2Al6FoGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

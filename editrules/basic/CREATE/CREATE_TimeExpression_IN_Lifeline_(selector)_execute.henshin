@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UN8NAIGqEeqSC4bGMjXJ9g" name="CREATE_TimeExpression_IN_Lifeline_(selector)" description="Creates one TimeExpression in Lifeline">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UN8NAYGqEeqSC4bGMjXJ9g" name="createTimeExpression_IN_Lifeline" description="creates one TimeExpression in the context: Lifeline">
+    <lhs xmi:id="_UN8NAoGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_UN8NA4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Lifeline"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_UN8NBIGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_UN8NBYGqEeqSC4bGMjXJ9g" name="Selected" outgoing="_UN8NB4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Lifeline"/>
+      </nodes>
+      <nodes xmi:id="_UN8NBoGqEeqSC4bGMjXJ9g" name="New" incoming="_UN8NB4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TimeExpression"/>
+      </nodes>
+      <edges xmi:id="_UN8NB4GqEeqSC4bGMjXJ9g" source="_UN8NBYGqEeqSC4bGMjXJ9g" target="_UN8NBoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Lifeline/selector"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_UN8NCIGqEeqSC4bGMjXJ9g" origin="_UN8NA4GqEeqSC4bGMjXJ9g" image="_UN8NBYGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

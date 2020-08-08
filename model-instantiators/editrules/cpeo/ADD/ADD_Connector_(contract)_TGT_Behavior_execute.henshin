@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_1ZXiAIGoEeqjxJ91AzqJlg" name="ADD_Connector_(contract)_TGT_Behavior" description="Adds to Connector's reference contract the target Behavior">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_1ZXiAYGoEeqjxJ91AzqJlg" name="addToConnector_contract_Behavior" description="Adds to Connector's reference contract the target Behavior">
+    <lhs xmi:id="_1ZXiAoGoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_1ZXiA4GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Connector"/>
+      </nodes>
+      <nodes xmi:id="_1ZXiBIGoEeqjxJ91AzqJlg" name="NewTarget">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Behavior"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_1ZXiBYGoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_1ZXiBoGoEeqjxJ91AzqJlg" name="Selected" outgoing="_1ZXiCIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Connector"/>
+      </nodes>
+      <nodes xmi:id="_1ZXiB4GoEeqjxJ91AzqJlg" name="NewTarget" incoming="_1ZXiCIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Behavior"/>
+      </nodes>
+      <edges xmi:id="_1ZXiCIGoEeqjxJ91AzqJlg" source="_1ZXiBoGoEeqjxJ91AzqJlg" target="_1ZXiB4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Connector/contract"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_1ZXiCYGoEeqjxJ91AzqJlg" origin="_1ZXiA4GoEeqjxJ91AzqJlg" image="_1ZXiBoGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_1ZXiCoGoEeqjxJ91AzqJlg" origin="_1ZXiBIGoEeqjxJ91AzqJlg" image="_1ZXiB4GoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

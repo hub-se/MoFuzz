@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_1GrPgIGoEeqjxJ91AzqJlg" name="DELETE_ReduceAction_IN_Interaction_(action)" description="Deletes one ReduceAction in Interaction">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_1GrPgYGoEeqjxJ91AzqJlg" name="deleteReduceAction_IN_Interaction" description="deletes one ReduceAction in the context: Interaction">
+    <lhs xmi:id="_1GrPgoGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_1GrPg4GoEeqjxJ91AzqJlg" name="Selected" outgoing="_1GrPiIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Interaction"/>
+      </nodes>
+      <nodes xmi:id="_1GrPhIGoEeqjxJ91AzqJlg" name="ToBeDeleted" incoming="_1GrPiIGoEeqjxJ91AzqJlg" outgoing="_1GrPiYGoEeqjxJ91AzqJlg _1GrPioGoEeqjxJ91AzqJlg _1GrPi4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ReduceAction"/>
+      </nodes>
+      <nodes xmi:id="_1GrPhYGoEeqjxJ91AzqJlg" name="Child" incoming="_1GrPiYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InputPin"/>
+      </nodes>
+      <nodes xmi:id="_1GrPhoGoEeqjxJ91AzqJlg" name="Child1" incoming="_1GrPioGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//OutputPin"/>
+      </nodes>
+      <nodes xmi:id="_1GrPh4GoEeqjxJ91AzqJlg" name="Existing" incoming="_1GrPi4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Behavior"/>
+      </nodes>
+      <edges xmi:id="_1GrPiIGoEeqjxJ91AzqJlg" source="_1GrPg4GoEeqjxJ91AzqJlg" target="_1GrPhIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Interaction/action"/>
+      </edges>
+      <edges xmi:id="_1GrPiYGoEeqjxJ91AzqJlg" source="_1GrPhIGoEeqjxJ91AzqJlg" target="_1GrPhYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ReduceAction/collection"/>
+      </edges>
+      <edges xmi:id="_1GrPioGoEeqjxJ91AzqJlg" source="_1GrPhIGoEeqjxJ91AzqJlg" target="_1GrPhoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ReduceAction/result"/>
+      </edges>
+      <edges xmi:id="_1GrPi4GoEeqjxJ91AzqJlg" source="_1GrPhIGoEeqjxJ91AzqJlg" target="_1GrPh4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ReduceAction/reducer"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_1GrPjIGoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_1GrPjYGoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Interaction"/>
+      </nodes>
+      <nodes xmi:id="_1GrPjoGoEeqjxJ91AzqJlg" name="Existing">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Behavior"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_1GrPj4GoEeqjxJ91AzqJlg" origin="_1GrPg4GoEeqjxJ91AzqJlg" image="_1GrPjYGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_1GrPkIGoEeqjxJ91AzqJlg" origin="_1GrPh4GoEeqjxJ91AzqJlg" image="_1GrPjoGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

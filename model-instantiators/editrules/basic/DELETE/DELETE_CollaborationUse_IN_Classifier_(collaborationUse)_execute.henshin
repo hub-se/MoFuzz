@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UrcoYIGqEeqSC4bGMjXJ9g" name="DELETE_CollaborationUse_IN_Classifier_(collaborationUse)" description="Deletes one CollaborationUse in Classifier">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UrcoYYGqEeqSC4bGMjXJ9g" name="deleteCollaborationUse_IN_Classifier" description="deletes one CollaborationUse in the context: Classifier">
+    <lhs xmi:id="_UrcoYoGqEeqSC4bGMjXJ9g" name="LHS">
+      <nodes xmi:id="_UrcoY4GqEeqSC4bGMjXJ9g" name="Selected" outgoing="_UrcoZYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier"/>
+      </nodes>
+      <nodes xmi:id="_UrcoZIGqEeqSC4bGMjXJ9g" name="ToBeDeleted" incoming="_UrcoZYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//CollaborationUse"/>
+      </nodes>
+      <edges xmi:id="_UrcoZYGqEeqSC4bGMjXJ9g" source="_UrcoY4GqEeqSC4bGMjXJ9g" target="_UrcoZIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier/collaborationUse"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_UrcoZoGqEeqSC4bGMjXJ9g" name="RHS">
+      <nodes xmi:id="_UrcoZ4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_UrcoaIGqEeqSC4bGMjXJ9g" origin="_UrcoY4GqEeqSC4bGMjXJ9g" image="_UrcoZ4GqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

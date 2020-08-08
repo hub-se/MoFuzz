@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_U6dUwIGqEeqSC4bGMjXJ9g" name="ADD_ActivityPartition_(edge)_TGT_ActivityEdge" description="Adds to ActivityPartition's reference edge the target ActivityEdge">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_U6dUwYGqEeqSC4bGMjXJ9g" name="addToActivityPartition_edge_ActivityEdge" description="Adds to ActivityPartition's reference edge the target ActivityEdge">
+    <lhs xmi:id="_U6dUwoGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_U6dUw4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityPartition"/>
+      </nodes>
+      <nodes xmi:id="_U6dUxIGqEeqSC4bGMjXJ9g" name="NewTarget">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityEdge"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_U6dUxYGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_U6dUxoGqEeqSC4bGMjXJ9g" name="Selected" incoming="_U6dUyYGqEeqSC4bGMjXJ9g" outgoing="_U6dUyIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityPartition"/>
+      </nodes>
+      <nodes xmi:id="_U6dUx4GqEeqSC4bGMjXJ9g" name="NewTarget" incoming="_U6dUyIGqEeqSC4bGMjXJ9g" outgoing="_U6dUyYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityEdge"/>
+      </nodes>
+      <edges xmi:id="_U6dUyIGqEeqSC4bGMjXJ9g" source="_U6dUxoGqEeqSC4bGMjXJ9g" target="_U6dUx4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityPartition/edge"/>
+      </edges>
+      <edges xmi:id="_U6dUyYGqEeqSC4bGMjXJ9g" source="_U6dUx4GqEeqSC4bGMjXJ9g" target="_U6dUxoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityEdge/inPartition"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_U6dUyoGqEeqSC4bGMjXJ9g" origin="_U6dUw4GqEeqSC4bGMjXJ9g" image="_U6dUxoGqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_U6dUy4GqEeqSC4bGMjXJ9g" origin="_U6dUxIGqEeqSC4bGMjXJ9g" image="_U6dUx4GqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_1VdSYIGoEeqjxJ91AzqJlg" name="DELETE_CallBehaviorAction_IN_Interaction_(action)" description="Deletes one CallBehaviorAction in Interaction">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_1VdSYYGoEeqjxJ91AzqJlg" name="deleteCallBehaviorAction_IN_Interaction" description="deletes one CallBehaviorAction in the context: Interaction">
+    <lhs xmi:id="_1VdSYoGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_1VdSY4GoEeqjxJ91AzqJlg" name="Selected" outgoing="_1VdSZoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Interaction"/>
+      </nodes>
+      <nodes xmi:id="_1VdSZIGoEeqjxJ91AzqJlg" name="ToBeDeleted" incoming="_1VdSZoGoEeqjxJ91AzqJlg" outgoing="_1VdSZ4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//CallBehaviorAction"/>
+      </nodes>
+      <nodes xmi:id="_1VdSZYGoEeqjxJ91AzqJlg" name="Existing" incoming="_1VdSZ4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Behavior"/>
+      </nodes>
+      <edges xmi:id="_1VdSZoGoEeqjxJ91AzqJlg" source="_1VdSY4GoEeqjxJ91AzqJlg" target="_1VdSZIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Interaction/action"/>
+      </edges>
+      <edges xmi:id="_1VdSZ4GoEeqjxJ91AzqJlg" source="_1VdSZIGoEeqjxJ91AzqJlg" target="_1VdSZYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//CallBehaviorAction/behavior"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_1VdSaIGoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_1VdSaYGoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Interaction"/>
+      </nodes>
+      <nodes xmi:id="_1VdSaoGoEeqjxJ91AzqJlg" name="Existing">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Behavior"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_1VdSa4GoEeqjxJ91AzqJlg" origin="_1VdSY4GoEeqjxJ91AzqJlg" image="_1VdSaYGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_1VdSbIGoEeqjxJ91AzqJlg" origin="_1VdSZYGoEeqjxJ91AzqJlg" image="_1VdSaoGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

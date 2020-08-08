@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_19LZsIGoEeqjxJ91AzqJlg" name="CREATE_LiteralString_IN_JoinNode_(joinSpec)" description="Creates one LiteralString in JoinNode">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_19LZsYGoEeqjxJ91AzqJlg" name="createLiteralString_IN_JoinNode" description="creates one LiteralString in the context: JoinNode">
+    <lhs xmi:id="_19LZsoGoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_19LZs4GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//JoinNode"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_19LZtIGoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_19LZtYGoEeqjxJ91AzqJlg" name="Selected" outgoing="_19LZt4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//JoinNode"/>
+      </nodes>
+      <nodes xmi:id="_19LZtoGoEeqjxJ91AzqJlg" name="New" incoming="_19LZt4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LiteralString"/>
+      </nodes>
+      <edges xmi:id="_19LZt4GoEeqjxJ91AzqJlg" source="_19LZtYGoEeqjxJ91AzqJlg" target="_19LZtoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//JoinNode/joinSpec"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_19LZuIGoEeqjxJ91AzqJlg" origin="_19LZs4GoEeqjxJ91AzqJlg" image="_19LZtYGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

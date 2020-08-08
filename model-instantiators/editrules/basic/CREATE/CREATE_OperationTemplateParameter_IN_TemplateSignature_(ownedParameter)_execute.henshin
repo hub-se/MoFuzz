@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UWrSQIGqEeqSC4bGMjXJ9g" name="CREATE_OperationTemplateParameter_IN_TemplateSignature_(ownedParameter)" description="Creates one OperationTemplateParameter in TemplateSignature">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UWrSQYGqEeqSC4bGMjXJ9g" name="createOperationTemplateParameter_IN_TemplateSignature" description="creates one OperationTemplateParameter in the context: TemplateSignature">
+    <lhs xmi:id="_UWrSQoGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_UWrSQ4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateSignature"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_UWrSRIGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_UWrSRYGqEeqSC4bGMjXJ9g" name="Selected" incoming="_UWrSSIGqEeqSC4bGMjXJ9g" outgoing="_UWrSR4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateSignature"/>
+      </nodes>
+      <nodes xmi:id="_UWrSRoGqEeqSC4bGMjXJ9g" name="New" incoming="_UWrSR4GqEeqSC4bGMjXJ9g" outgoing="_UWrSSIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//OperationTemplateParameter"/>
+      </nodes>
+      <edges xmi:id="_UWrSR4GqEeqSC4bGMjXJ9g" source="_UWrSRYGqEeqSC4bGMjXJ9g" target="_UWrSRoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateSignature/ownedParameter"/>
+      </edges>
+      <edges xmi:id="_UWrSSIGqEeqSC4bGMjXJ9g" source="_UWrSRoGqEeqSC4bGMjXJ9g" target="_UWrSRYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameter/signature"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_UWrSSYGqEeqSC4bGMjXJ9g" origin="_UWrSQ4GqEeqSC4bGMjXJ9g" image="_UWrSRYGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

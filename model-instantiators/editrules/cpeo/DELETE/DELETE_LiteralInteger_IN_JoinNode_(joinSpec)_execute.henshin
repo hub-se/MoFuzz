@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_1U54wIGoEeqjxJ91AzqJlg" name="DELETE_LiteralInteger_IN_JoinNode_(joinSpec)" description="Deletes one LiteralInteger in JoinNode">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_1U54wYGoEeqjxJ91AzqJlg" name="deleteLiteralInteger_IN_JoinNode" description="deletes one LiteralInteger in the context: JoinNode">
+    <lhs xmi:id="_1U54woGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_1U54w4GoEeqjxJ91AzqJlg" name="Selected" outgoing="_1U54xYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//JoinNode"/>
+      </nodes>
+      <nodes xmi:id="_1U54xIGoEeqjxJ91AzqJlg" name="ToBeDeleted" incoming="_1U54xYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LiteralInteger"/>
+      </nodes>
+      <edges xmi:id="_1U54xYGoEeqjxJ91AzqJlg" source="_1U54w4GoEeqjxJ91AzqJlg" target="_1U54xIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//JoinNode/joinSpec"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_1U54xoGoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_1U54x4GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//JoinNode"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_1U54yIGoEeqjxJ91AzqJlg" origin="_1U54w4GoEeqjxJ91AzqJlg" image="_1U54x4GoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_2PbAQIGoEeqjxJ91AzqJlg" name="REMOVE_ParameterSet_(parameter)_TGT_Parameter" description="Removes ParameterSet's reference parameter the target Parameter">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_2PbAQYGoEeqjxJ91AzqJlg" name="removeFromParameterSet_parameter_Parameter" description="Removes from ParameterSet's reference parameter the target Parameter">
+    <lhs xmi:id="_2PbAQoGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_2PbAQ4GoEeqjxJ91AzqJlg" name="Selected" incoming="_2PbARoGoEeqjxJ91AzqJlg" outgoing="_2PbARYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ParameterSet"/>
+      </nodes>
+      <nodes xmi:id="_2PbARIGoEeqjxJ91AzqJlg" name="OldTarget" incoming="_2PbARYGoEeqjxJ91AzqJlg" outgoing="_2PbARoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Parameter"/>
+      </nodes>
+      <edges xmi:id="_2PbARYGoEeqjxJ91AzqJlg" source="_2PbAQ4GoEeqjxJ91AzqJlg" target="_2PbARIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ParameterSet/parameter"/>
+      </edges>
+      <edges xmi:id="_2PbARoGoEeqjxJ91AzqJlg" source="_2PbARIGoEeqjxJ91AzqJlg" target="_2PbAQ4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Parameter/parameterSet"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_2PbAR4GoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_2PbASIGoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ParameterSet"/>
+      </nodes>
+      <nodes xmi:id="_2PbASYGoEeqjxJ91AzqJlg" name="OldTarget">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Parameter"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_2PbASoGoEeqjxJ91AzqJlg" origin="_2PbAQ4GoEeqjxJ91AzqJlg" image="_2PbASIGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_2PbAS4GoEeqjxJ91AzqJlg" origin="_2PbARIGoEeqjxJ91AzqJlg" image="_2PbASYGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

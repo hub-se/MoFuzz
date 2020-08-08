@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_TZR14IGqEeqSC4bGMjXJ9g" name="REMOVE_ForkNode_(redefinedNode)_TGT_ActivityNode" description="Removes ForkNode's reference redefinedNode the target ActivityNode">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_TZR14YGqEeqSC4bGMjXJ9g" name="removeFromForkNode_redefinedNode_ActivityNode" description="Removes from ForkNode's reference redefinedNode the target ActivityNode">
+    <lhs xmi:id="_TZR14oGqEeqSC4bGMjXJ9g" name="LHS">
+      <nodes xmi:id="_TZR144GqEeqSC4bGMjXJ9g" name="Selected" outgoing="_TZR15YGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ForkNode"/>
+      </nodes>
+      <nodes xmi:id="_TZR15IGqEeqSC4bGMjXJ9g" name="OldTarget" incoming="_TZR15YGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityNode"/>
+      </nodes>
+      <edges xmi:id="_TZR15YGqEeqSC4bGMjXJ9g" source="_TZR144GqEeqSC4bGMjXJ9g" target="_TZR15IGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityNode/redefinedNode"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_TZR15oGqEeqSC4bGMjXJ9g" name="RHS">
+      <nodes xmi:id="_TZR154GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ForkNode"/>
+      </nodes>
+      <nodes xmi:id="_TZR16IGqEeqSC4bGMjXJ9g" name="OldTarget">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityNode"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_TZR16YGqEeqSC4bGMjXJ9g" origin="_TZR144GqEeqSC4bGMjXJ9g" image="_TZR154GqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_TZR16oGqEeqSC4bGMjXJ9g" origin="_TZR15IGqEeqSC4bGMjXJ9g" image="_TZR16IGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_08-g8IGoEeqjxJ91AzqJlg" name="DELETE_ReadIsClassifiedObjectAction_IN_SequenceNode_(executableNode)" description="Deletes one ReadIsClassifiedObjectAction in SequenceNode">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_08-g8YGoEeqjxJ91AzqJlg" name="deleteReadIsClassifiedObjectAction_IN_SequenceNode" description="deletes one ReadIsClassifiedObjectAction in the context: SequenceNode">
+    <lhs xmi:id="_08-g8oGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_08-g84GoEeqjxJ91AzqJlg" name="Selected" outgoing="_08-g-IGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//SequenceNode"/>
+      </nodes>
+      <nodes xmi:id="_08-g9IGoEeqjxJ91AzqJlg" name="ToBeDeleted" incoming="_08-g-IGoEeqjxJ91AzqJlg" outgoing="_08-g-YGoEeqjxJ91AzqJlg _08-g-oGoEeqjxJ91AzqJlg _08-g-4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ReadIsClassifiedObjectAction"/>
+      </nodes>
+      <nodes xmi:id="_08-g9YGoEeqjxJ91AzqJlg" name="Child" incoming="_08-g-YGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//OutputPin"/>
+      </nodes>
+      <nodes xmi:id="_08-g9oGoEeqjxJ91AzqJlg" name="Child1" incoming="_08-g-oGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InputPin"/>
+      </nodes>
+      <nodes xmi:id="_08-g94GoEeqjxJ91AzqJlg" name="Existing" incoming="_08-g-4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier"/>
+      </nodes>
+      <edges xmi:id="_08-g-IGoEeqjxJ91AzqJlg" source="_08-g84GoEeqjxJ91AzqJlg" target="_08-g9IGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//SequenceNode/executableNode"/>
+      </edges>
+      <edges xmi:id="_08-g-YGoEeqjxJ91AzqJlg" source="_08-g9IGoEeqjxJ91AzqJlg" target="_08-g9YGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ReadIsClassifiedObjectAction/result"/>
+      </edges>
+      <edges xmi:id="_08-g-oGoEeqjxJ91AzqJlg" source="_08-g9IGoEeqjxJ91AzqJlg" target="_08-g9oGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ReadIsClassifiedObjectAction/object"/>
+      </edges>
+      <edges xmi:id="_08-g-4GoEeqjxJ91AzqJlg" source="_08-g9IGoEeqjxJ91AzqJlg" target="_08-g94GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ReadIsClassifiedObjectAction/classifier"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_08-g_IGoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_08-g_YGoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//SequenceNode"/>
+      </nodes>
+      <nodes xmi:id="_08-g_oGoEeqjxJ91AzqJlg" name="Existing">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_08-g_4GoEeqjxJ91AzqJlg" origin="_08-g84GoEeqjxJ91AzqJlg" image="_08-g_YGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_08-hAIGoEeqjxJ91AzqJlg" origin="_08-g94GoEeqjxJ91AzqJlg" image="_08-g_oGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

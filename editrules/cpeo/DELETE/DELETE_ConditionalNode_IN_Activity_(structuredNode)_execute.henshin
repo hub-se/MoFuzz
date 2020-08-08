@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_1G1nkIGoEeqjxJ91AzqJlg" name="DELETE_ConditionalNode_IN_Activity_(structuredNode)" description="Deletes one ConditionalNode in Activity">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_1G1nkYGoEeqjxJ91AzqJlg" name="deleteConditionalNode_IN_Activity" description="deletes one ConditionalNode in the context: Activity">
+    <lhs xmi:id="_1G1nkoGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_1G1nk4GoEeqjxJ91AzqJlg" name="Selected" outgoing="_1G1nmIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Activity"/>
+      </nodes>
+      <nodes xmi:id="_1G1nlIGoEeqjxJ91AzqJlg" name="ToBeDeleted" incoming="_1G1nmIGoEeqjxJ91AzqJlg" outgoing="_1G1nmYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ConditionalNode"/>
+      </nodes>
+      <nodes xmi:id="_1G1nlYGoEeqjxJ91AzqJlg" name="Child" incoming="_1G1nmYGoEeqjxJ91AzqJlg" outgoing="_1G1nmoGoEeqjxJ91AzqJlg _1G1nm4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Clause"/>
+      </nodes>
+      <nodes xmi:id="_1G1nloGoEeqjxJ91AzqJlg" name="Existing" incoming="_1G1nmoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//OutputPin"/>
+      </nodes>
+      <nodes xmi:id="_1G1nl4GoEeqjxJ91AzqJlg" name="Existing1" incoming="_1G1nm4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ExecutableNode"/>
+      </nodes>
+      <edges xmi:id="_1G1nmIGoEeqjxJ91AzqJlg" source="_1G1nk4GoEeqjxJ91AzqJlg" target="_1G1nlIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Activity/structuredNode"/>
+      </edges>
+      <edges xmi:id="_1G1nmYGoEeqjxJ91AzqJlg" source="_1G1nlIGoEeqjxJ91AzqJlg" target="_1G1nlYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ConditionalNode/clause"/>
+      </edges>
+      <edges xmi:id="_1G1nmoGoEeqjxJ91AzqJlg" source="_1G1nlYGoEeqjxJ91AzqJlg" target="_1G1nloGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Clause/decider"/>
+      </edges>
+      <edges xmi:id="_1G1nm4GoEeqjxJ91AzqJlg" source="_1G1nlYGoEeqjxJ91AzqJlg" target="_1G1nl4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Clause/test"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_1G1nnIGoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_1G1nnYGoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Activity"/>
+      </nodes>
+      <nodes xmi:id="_1G1nnoGoEeqjxJ91AzqJlg" name="Existing">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//OutputPin"/>
+      </nodes>
+      <nodes xmi:id="_1G1nn4GoEeqjxJ91AzqJlg" name="Existing1">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ExecutableNode"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_1G1noIGoEeqjxJ91AzqJlg" origin="_1G1nk4GoEeqjxJ91AzqJlg" image="_1G1nnYGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_1G1noYGoEeqjxJ91AzqJlg" origin="_1G1nloGoEeqjxJ91AzqJlg" image="_1G1nnoGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_1G1nooGoEeqjxJ91AzqJlg" origin="_1G1nl4GoEeqjxJ91AzqJlg" image="_1G1nn4GoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

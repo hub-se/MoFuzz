@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_2hUBgIGoEeqjxJ91AzqJlg" name="MOVE_QualifierValue_FROM_LinkEndData_(qualifier)_TO_LinkEndData_(qualifier)" description="MOVEs QualifierValue from LinkEndData(Reference:qualifier) to LinkEndData(Reference:qualifier">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_2hUBgYGoEeqjxJ91AzqJlg" name="moveQualifierValue_FROM_LinkEndData_qualifier_TO_LinkEndData_LinkEndData" description="Moves QualifierValue from LinkEndData(Reference:qualifier) toLinkEndData(Reference:LinkEndData)">
+    <lhs xmi:id="_2hUBgoGoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_2hUBg4GoEeqjxJ91AzqJlg" name="Selected" incoming="_2hUBhoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//QualifierValue"/>
+      </nodes>
+      <nodes xmi:id="_2hUBhIGoEeqjxJ91AzqJlg" name="OldSource" outgoing="_2hUBhoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LinkEndData"/>
+      </nodes>
+      <nodes xmi:id="_2hUBhYGoEeqjxJ91AzqJlg" name="NewSource">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LinkEndData"/>
+      </nodes>
+      <edges xmi:id="_2hUBhoGoEeqjxJ91AzqJlg" source="_2hUBhIGoEeqjxJ91AzqJlg" target="_2hUBg4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LinkEndData/qualifier"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_2hUBh4GoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_2hUBiIGoEeqjxJ91AzqJlg" name="Selected" incoming="_2hUBi4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//QualifierValue"/>
+      </nodes>
+      <nodes xmi:id="_2hUBiYGoEeqjxJ91AzqJlg" name="OldSource">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LinkEndData"/>
+      </nodes>
+      <nodes xmi:id="_2hUBioGoEeqjxJ91AzqJlg" name="NewSource" outgoing="_2hUBi4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LinkEndData"/>
+      </nodes>
+      <edges xmi:id="_2hUBi4GoEeqjxJ91AzqJlg" source="_2hUBioGoEeqjxJ91AzqJlg" target="_2hUBiIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LinkEndData/qualifier"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_2hUBjIGoEeqjxJ91AzqJlg" origin="_2hUBg4GoEeqjxJ91AzqJlg" image="_2hUBiIGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_2hUBjYGoEeqjxJ91AzqJlg" origin="_2hUBhIGoEeqjxJ91AzqJlg" image="_2hUBiYGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_2hUBjoGoEeqjxJ91AzqJlg" origin="_2hUBhYGoEeqjxJ91AzqJlg" image="_2hUBioGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

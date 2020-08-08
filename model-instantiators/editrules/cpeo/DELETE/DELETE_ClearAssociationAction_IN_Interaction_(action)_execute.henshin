@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_06GMEIGoEeqjxJ91AzqJlg" name="DELETE_ClearAssociationAction_IN_Interaction_(action)" description="Deletes one ClearAssociationAction in Interaction">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_06GMEYGoEeqjxJ91AzqJlg" name="deleteClearAssociationAction_IN_Interaction" description="deletes one ClearAssociationAction in the context: Interaction">
+    <lhs xmi:id="_06GzIIGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_06GzIYGoEeqjxJ91AzqJlg" name="Selected" outgoing="_06GzJYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Interaction"/>
+      </nodes>
+      <nodes xmi:id="_06GzIoGoEeqjxJ91AzqJlg" name="ToBeDeleted" incoming="_06GzJYGoEeqjxJ91AzqJlg" outgoing="_06GzJoGoEeqjxJ91AzqJlg _06GzJ4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ClearAssociationAction"/>
+      </nodes>
+      <nodes xmi:id="_06GzI4GoEeqjxJ91AzqJlg" name="Child" incoming="_06GzJoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InputPin"/>
+      </nodes>
+      <nodes xmi:id="_06GzJIGoEeqjxJ91AzqJlg" name="Existing" incoming="_06GzJ4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Association"/>
+      </nodes>
+      <edges xmi:id="_06GzJYGoEeqjxJ91AzqJlg" source="_06GzIYGoEeqjxJ91AzqJlg" target="_06GzIoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Interaction/action"/>
+      </edges>
+      <edges xmi:id="_06GzJoGoEeqjxJ91AzqJlg" source="_06GzIoGoEeqjxJ91AzqJlg" target="_06GzI4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ClearAssociationAction/object"/>
+      </edges>
+      <edges xmi:id="_06GzJ4GoEeqjxJ91AzqJlg" source="_06GzIoGoEeqjxJ91AzqJlg" target="_06GzJIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ClearAssociationAction/association"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_06GzKIGoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_06GzKYGoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Interaction"/>
+      </nodes>
+      <nodes xmi:id="_06GzKoGoEeqjxJ91AzqJlg" name="Existing">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Association"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_06GzK4GoEeqjxJ91AzqJlg" origin="_06GzIYGoEeqjxJ91AzqJlg" image="_06GzKYGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_06GzLIGoEeqjxJ91AzqJlg" origin="_06GzJIGoEeqjxJ91AzqJlg" image="_06GzKoGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

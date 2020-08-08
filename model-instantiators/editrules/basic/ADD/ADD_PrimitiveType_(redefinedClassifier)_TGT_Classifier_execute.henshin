@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_U4JAkIGqEeqSC4bGMjXJ9g" name="ADD_PrimitiveType_(redefinedClassifier)_TGT_Classifier" description="Adds to PrimitiveType's reference redefinedClassifier the target Classifier">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_U4JAkYGqEeqSC4bGMjXJ9g" name="addToPrimitiveType_redefinedClassifier_Classifier" description="Adds to PrimitiveType's reference redefinedClassifier the target Classifier">
+    <lhs xmi:id="_U4JAkoGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_U4JAk4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//PrimitiveType"/>
+      </nodes>
+      <nodes xmi:id="_U4JAlIGqEeqSC4bGMjXJ9g" name="NewTarget">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_U4JAlYGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_U4JAloGqEeqSC4bGMjXJ9g" name="Selected" outgoing="_U4JAmIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//PrimitiveType"/>
+      </nodes>
+      <nodes xmi:id="_U4JAl4GqEeqSC4bGMjXJ9g" name="NewTarget" incoming="_U4JAmIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier"/>
+      </nodes>
+      <edges xmi:id="_U4JAmIGqEeqSC4bGMjXJ9g" source="_U4JAloGqEeqSC4bGMjXJ9g" target="_U4JAl4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier/redefinedClassifier"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_U4JAmYGqEeqSC4bGMjXJ9g" origin="_U4JAk4GqEeqSC4bGMjXJ9g" image="_U4JAloGqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_U4JAmoGqEeqSC4bGMjXJ9g" origin="_U4JAlIGqEeqSC4bGMjXJ9g" image="_U4JAl4GqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

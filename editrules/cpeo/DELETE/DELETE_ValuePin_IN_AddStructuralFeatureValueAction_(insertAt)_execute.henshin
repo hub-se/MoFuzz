@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_06w6cIGoEeqjxJ91AzqJlg" name="DELETE_ValuePin_IN_AddStructuralFeatureValueAction_(insertAt)" description="Deletes one ValuePin in AddStructuralFeatureValueAction">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_06w6cYGoEeqjxJ91AzqJlg" name="deleteValuePin_IN_AddStructuralFeatureValueAction" description="deletes one ValuePin in the context: AddStructuralFeatureValueAction">
+    <lhs xmi:id="_06w6coGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_06w6c4GoEeqjxJ91AzqJlg" name="Selected" outgoing="_06w6doGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//AddStructuralFeatureValueAction"/>
+      </nodes>
+      <nodes xmi:id="_06w6dIGoEeqjxJ91AzqJlg" name="ToBeDeleted" incoming="_06w6doGoEeqjxJ91AzqJlg" outgoing="_06w6d4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ValuePin"/>
+      </nodes>
+      <nodes xmi:id="_06w6dYGoEeqjxJ91AzqJlg" name="Child" incoming="_06w6d4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ValueSpecification"/>
+      </nodes>
+      <edges xmi:id="_06w6doGoEeqjxJ91AzqJlg" source="_06w6c4GoEeqjxJ91AzqJlg" target="_06w6dIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//AddStructuralFeatureValueAction/insertAt"/>
+      </edges>
+      <edges xmi:id="_06w6d4GoEeqjxJ91AzqJlg" source="_06w6dIGoEeqjxJ91AzqJlg" target="_06w6dYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ValuePin/value"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_06w6eIGoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_06w6eYGoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//AddStructuralFeatureValueAction"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_06w6eoGoEeqjxJ91AzqJlg" origin="_06w6c4GoEeqjxJ91AzqJlg" image="_06w6eYGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

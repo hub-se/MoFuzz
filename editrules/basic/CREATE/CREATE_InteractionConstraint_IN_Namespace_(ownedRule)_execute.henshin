@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_ULPeUIGqEeqSC4bGMjXJ9g" name="CREATE_InteractionConstraint_IN_Namespace_(ownedRule)" description="Creates one InteractionConstraint in Namespace">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_ULPeUYGqEeqSC4bGMjXJ9g" name="createInteractionConstraint_IN_Namespace" description="creates one InteractionConstraint in the context: Namespace">
+    <lhs xmi:id="_ULPeUoGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_ULPeU4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Namespace"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_ULPeVIGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_ULPeVYGqEeqSC4bGMjXJ9g" name="Selected" incoming="_ULPeWIGqEeqSC4bGMjXJ9g" outgoing="_ULPeV4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Namespace"/>
+      </nodes>
+      <nodes xmi:id="_ULPeVoGqEeqSC4bGMjXJ9g" name="New" incoming="_ULPeV4GqEeqSC4bGMjXJ9g" outgoing="_ULPeWIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InteractionConstraint"/>
+      </nodes>
+      <edges xmi:id="_ULPeV4GqEeqSC4bGMjXJ9g" source="_ULPeVYGqEeqSC4bGMjXJ9g" target="_ULPeVoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Namespace/ownedRule"/>
+      </edges>
+      <edges xmi:id="_ULPeWIGqEeqSC4bGMjXJ9g" source="_ULPeVoGqEeqSC4bGMjXJ9g" target="_ULPeVYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Constraint/context"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_ULPeWYGqEeqSC4bGMjXJ9g" origin="_ULPeU4GqEeqSC4bGMjXJ9g" image="_ULPeVYGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

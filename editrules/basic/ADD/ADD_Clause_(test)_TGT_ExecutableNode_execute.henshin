@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_U5TeMIGqEeqSC4bGMjXJ9g" name="ADD_Clause_(test)_TGT_ExecutableNode" description="Adds to Clause's reference test the target ExecutableNode">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_U5TeMYGqEeqSC4bGMjXJ9g" name="addToClause_test_ExecutableNode" description="Adds to Clause's reference test the target ExecutableNode">
+    <lhs xmi:id="_U5TeMoGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_U5TeM4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Clause"/>
+      </nodes>
+      <nodes xmi:id="_U5TeNIGqEeqSC4bGMjXJ9g" name="NewTarget">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ExecutableNode"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_U5TeNYGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_U5TeNoGqEeqSC4bGMjXJ9g" name="Selected" outgoing="_U5TeOIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Clause"/>
+      </nodes>
+      <nodes xmi:id="_U5TeN4GqEeqSC4bGMjXJ9g" name="NewTarget" incoming="_U5TeOIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ExecutableNode"/>
+      </nodes>
+      <edges xmi:id="_U5TeOIGqEeqSC4bGMjXJ9g" source="_U5TeNoGqEeqSC4bGMjXJ9g" target="_U5TeN4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Clause/test"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_U5TeOYGqEeqSC4bGMjXJ9g" origin="_U5TeM4GqEeqSC4bGMjXJ9g" image="_U5TeNoGqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_U5TeOoGqEeqSC4bGMjXJ9g" origin="_U5TeNIGqEeqSC4bGMjXJ9g" image="_U5TeN4GqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

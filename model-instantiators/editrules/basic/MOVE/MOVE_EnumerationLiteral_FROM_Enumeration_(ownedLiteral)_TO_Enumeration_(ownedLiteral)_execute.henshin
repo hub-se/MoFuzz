@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_TnvvsIGqEeqSC4bGMjXJ9g" name="MOVE_EnumerationLiteral_FROM_Enumeration_(ownedLiteral)_TO_Enumeration_(ownedLiteral)" description="MOVEs EnumerationLiteral from Enumeration(Reference:ownedLiteral) to Enumeration(Reference:ownedLiteral">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_TnvvsYGqEeqSC4bGMjXJ9g" name="moveEnumerationLiteral_FROM_Enumeration_ownedLiteral_TO_Enumeration_Enumeration" description="Moves EnumerationLiteral from Enumeration(Reference:ownedLiteral) toEnumeration(Reference:Enumeration)">
+    <lhs xmi:id="_TnvvsoGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_Tnvvs4GqEeqSC4bGMjXJ9g" name="Selected" incoming="_TnvvtoGqEeqSC4bGMjXJ9g" outgoing="_Tnvvt4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//EnumerationLiteral"/>
+      </nodes>
+      <nodes xmi:id="_TnvvtIGqEeqSC4bGMjXJ9g" name="OldSource" incoming="_Tnvvt4GqEeqSC4bGMjXJ9g" outgoing="_TnvvtoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Enumeration"/>
+      </nodes>
+      <nodes xmi:id="_TnvvtYGqEeqSC4bGMjXJ9g" name="NewSource">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Enumeration"/>
+      </nodes>
+      <edges xmi:id="_TnvvtoGqEeqSC4bGMjXJ9g" source="_TnvvtIGqEeqSC4bGMjXJ9g" target="_Tnvvs4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Enumeration/ownedLiteral"/>
+      </edges>
+      <edges xmi:id="_Tnvvt4GqEeqSC4bGMjXJ9g" source="_Tnvvs4GqEeqSC4bGMjXJ9g" target="_TnvvtIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//EnumerationLiteral/enumeration"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_TnvvuIGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_TnvvuYGqEeqSC4bGMjXJ9g" name="Selected" incoming="_TnvvvIGqEeqSC4bGMjXJ9g" outgoing="_TnvvvYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//EnumerationLiteral"/>
+      </nodes>
+      <nodes xmi:id="_TnvvuoGqEeqSC4bGMjXJ9g" name="OldSource">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Enumeration"/>
+      </nodes>
+      <nodes xmi:id="_Tnvvu4GqEeqSC4bGMjXJ9g" name="NewSource" incoming="_TnvvvYGqEeqSC4bGMjXJ9g" outgoing="_TnvvvIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Enumeration"/>
+      </nodes>
+      <edges xmi:id="_TnvvvIGqEeqSC4bGMjXJ9g" source="_Tnvvu4GqEeqSC4bGMjXJ9g" target="_TnvvuYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Enumeration/ownedLiteral"/>
+      </edges>
+      <edges xmi:id="_TnvvvYGqEeqSC4bGMjXJ9g" source="_TnvvuYGqEeqSC4bGMjXJ9g" target="_Tnvvu4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//EnumerationLiteral/enumeration"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_TnvvvoGqEeqSC4bGMjXJ9g" origin="_Tnvvs4GqEeqSC4bGMjXJ9g" image="_TnvvuYGqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_Tnvvv4GqEeqSC4bGMjXJ9g" origin="_TnvvtIGqEeqSC4bGMjXJ9g" image="_TnvvuoGqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_TnvvwIGqEeqSC4bGMjXJ9g" origin="_TnvvtYGqEeqSC4bGMjXJ9g" image="_Tnvvu4GqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

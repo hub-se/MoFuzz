@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_11CxYIGoEeqjxJ91AzqJlg" name="CREATE_InformationFlow_IN_TemplateParameterSubstitution_(ownedActual)" description="Creates one InformationFlow in TemplateParameterSubstitution">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_11CxYYGoEeqjxJ91AzqJlg" name="createInformationFlow_IN_TemplateParameterSubstitution" description="creates one InformationFlow in the context: TemplateParameterSubstitution">
+    <lhs xmi:id="_11CxYoGoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_11CxY4GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameterSubstitution"/>
+      </nodes>
+      <nodes xmi:id="_11CxZIGoEeqjxJ91AzqJlg" name="Existing">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier"/>
+      </nodes>
+      <nodes xmi:id="_11CxZYGoEeqjxJ91AzqJlg" name="Existing1">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//NamedElement"/>
+      </nodes>
+      <nodes xmi:id="_11CxZoGoEeqjxJ91AzqJlg" name="Existing2">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//NamedElement"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_11CxZ4GoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_11CxaIGoEeqjxJ91AzqJlg" name="Selected" outgoing="_11CxbYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameterSubstitution"/>
+      </nodes>
+      <nodes xmi:id="_11CxaYGoEeqjxJ91AzqJlg" name="New" incoming="_11CxbYGoEeqjxJ91AzqJlg" outgoing="_11CxboGoEeqjxJ91AzqJlg _11Cxb4GoEeqjxJ91AzqJlg _11CxcIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InformationFlow"/>
+      </nodes>
+      <nodes xmi:id="_11CxaoGoEeqjxJ91AzqJlg" name="Existing" incoming="_11CxboGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier"/>
+      </nodes>
+      <nodes xmi:id="_11Cxa4GoEeqjxJ91AzqJlg" name="Existing1" incoming="_11Cxb4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//NamedElement"/>
+      </nodes>
+      <nodes xmi:id="_11CxbIGoEeqjxJ91AzqJlg" name="Existing2" incoming="_11CxcIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//NamedElement"/>
+      </nodes>
+      <edges xmi:id="_11CxbYGoEeqjxJ91AzqJlg" source="_11CxaIGoEeqjxJ91AzqJlg" target="_11CxaYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameterSubstitution/ownedActual"/>
+      </edges>
+      <edges xmi:id="_11CxboGoEeqjxJ91AzqJlg" source="_11CxaYGoEeqjxJ91AzqJlg" target="_11CxaoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InformationFlow/conveyed"/>
+      </edges>
+      <edges xmi:id="_11Cxb4GoEeqjxJ91AzqJlg" source="_11CxaYGoEeqjxJ91AzqJlg" target="_11Cxa4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InformationFlow/informationTarget"/>
+      </edges>
+      <edges xmi:id="_11CxcIGoEeqjxJ91AzqJlg" source="_11CxaYGoEeqjxJ91AzqJlg" target="_11CxbIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InformationFlow/informationSource"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_11CxcYGoEeqjxJ91AzqJlg" origin="_11CxY4GoEeqjxJ91AzqJlg" image="_11CxaIGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_11CxcoGoEeqjxJ91AzqJlg" origin="_11CxZIGoEeqjxJ91AzqJlg" image="_11CxaoGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_11Cxc4GoEeqjxJ91AzqJlg" origin="_11CxZYGoEeqjxJ91AzqJlg" image="_11Cxa4GoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_11CxdIGoEeqjxJ91AzqJlg" origin="_11CxZoGoEeqjxJ91AzqJlg" image="_11CxbIGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

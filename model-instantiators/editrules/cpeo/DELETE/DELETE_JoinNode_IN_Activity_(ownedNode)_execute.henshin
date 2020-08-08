@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_09Q00IGoEeqjxJ91AzqJlg" name="DELETE_JoinNode_IN_Activity_(ownedNode)" description="Deletes one JoinNode in Activity">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_09Q00YGoEeqjxJ91AzqJlg" name="deleteJoinNode_IN_Activity" description="deletes one JoinNode in the context: Activity">
+    <lhs xmi:id="_09Q00oGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_09Q004GoEeqjxJ91AzqJlg" name="Selected" outgoing="_09Rb4IGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Activity"/>
+      </nodes>
+      <nodes xmi:id="_09Q01IGoEeqjxJ91AzqJlg" name="ToBeDeleted" incoming="_09Rb4IGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//JoinNode"/>
+      </nodes>
+      <edges xmi:id="_09Rb4IGoEeqjxJ91AzqJlg" source="_09Q004GoEeqjxJ91AzqJlg" target="_09Q01IGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Activity/ownedNode"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_09Rb4YGoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_09Rb4oGoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Activity"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_09Rb44GoEeqjxJ91AzqJlg" origin="_09Q004GoEeqjxJ91AzqJlg" image="_09Rb4oGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

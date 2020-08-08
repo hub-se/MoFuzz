@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_1Pd_IIGoEeqjxJ91AzqJlg" name="DELETE_CreateLinkAction_IN_SequenceNode_(executableNode)" description="Deletes one CreateLinkAction in SequenceNode">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_1Pd_IYGoEeqjxJ91AzqJlg" name="deleteCreateLinkAction_IN_SequenceNode" description="deletes one CreateLinkAction in the context: SequenceNode">
+    <lhs xmi:id="_1Pd_IoGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_1Pd_I4GoEeqjxJ91AzqJlg" name="Selected" outgoing="_1Pd_KoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//SequenceNode"/>
+      </nodes>
+      <nodes xmi:id="_1Pd_JIGoEeqjxJ91AzqJlg" name="ToBeDeleted" incoming="_1Pd_KoGoEeqjxJ91AzqJlg" outgoing="_1Pd_K4GoEeqjxJ91AzqJlg _1Pd_LIGoEeqjxJ91AzqJlg _1Pd_LoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//CreateLinkAction"/>
+      </nodes>
+      <nodes xmi:id="_1Pd_JYGoEeqjxJ91AzqJlg" name="Child" incoming="_1Pd_K4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InputPin"/>
+      </nodes>
+      <nodes xmi:id="_1Pd_JoGoEeqjxJ91AzqJlg" name="Child1" incoming="_1Pd_LIGoEeqjxJ91AzqJlg" outgoing="_1Pd_LYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LinkEndCreationData"/>
+      </nodes>
+      <nodes xmi:id="_1Pd_J4GoEeqjxJ91AzqJlg" name="Existing" incoming="_1Pd_LYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Property"/>
+      </nodes>
+      <nodes xmi:id="_1Pd_KIGoEeqjxJ91AzqJlg" name="Child2" incoming="_1Pd_LoGoEeqjxJ91AzqJlg" outgoing="_1Pd_L4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LinkEndCreationData"/>
+      </nodes>
+      <nodes xmi:id="_1Pd_KYGoEeqjxJ91AzqJlg" name="Existing1" incoming="_1Pd_L4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Property"/>
+      </nodes>
+      <edges xmi:id="_1Pd_KoGoEeqjxJ91AzqJlg" source="_1Pd_I4GoEeqjxJ91AzqJlg" target="_1Pd_JIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//SequenceNode/executableNode"/>
+      </edges>
+      <edges xmi:id="_1Pd_K4GoEeqjxJ91AzqJlg" source="_1Pd_JIGoEeqjxJ91AzqJlg" target="_1Pd_JYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LinkAction/inputValue"/>
+      </edges>
+      <edges xmi:id="_1Pd_LIGoEeqjxJ91AzqJlg" source="_1Pd_JIGoEeqjxJ91AzqJlg" target="_1Pd_JoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LinkAction/endData"/>
+      </edges>
+      <edges xmi:id="_1Pd_LYGoEeqjxJ91AzqJlg" source="_1Pd_JoGoEeqjxJ91AzqJlg" target="_1Pd_J4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LinkEndData/end"/>
+      </edges>
+      <edges xmi:id="_1Pd_LoGoEeqjxJ91AzqJlg" source="_1Pd_JIGoEeqjxJ91AzqJlg" target="_1Pd_KIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LinkAction/endData"/>
+      </edges>
+      <edges xmi:id="_1Pd_L4GoEeqjxJ91AzqJlg" source="_1Pd_KIGoEeqjxJ91AzqJlg" target="_1Pd_KYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LinkEndData/end"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_1Pd_MIGoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_1Pd_MYGoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//SequenceNode"/>
+      </nodes>
+      <nodes xmi:id="_1Pd_MoGoEeqjxJ91AzqJlg" name="Existing">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Property"/>
+      </nodes>
+      <nodes xmi:id="_1Pd_M4GoEeqjxJ91AzqJlg" name="Existing1">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Property"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_1Pd_NIGoEeqjxJ91AzqJlg" origin="_1Pd_I4GoEeqjxJ91AzqJlg" image="_1Pd_MYGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_1Pd_NYGoEeqjxJ91AzqJlg" origin="_1Pd_J4GoEeqjxJ91AzqJlg" image="_1Pd_MoGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_1Pd_NoGoEeqjxJ91AzqJlg" origin="_1Pd_KYGoEeqjxJ91AzqJlg" image="_1Pd_M4GoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

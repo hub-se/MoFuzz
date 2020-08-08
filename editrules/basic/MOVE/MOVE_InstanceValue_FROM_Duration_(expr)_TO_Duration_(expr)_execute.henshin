@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_Tn0oMIGqEeqSC4bGMjXJ9g" name="MOVE_InstanceValue_FROM_Duration_(expr)_TO_Duration_(expr)" description="MOVEs InstanceValue from Duration(Reference:expr) to Duration(Reference:expr">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_Tn0oMYGqEeqSC4bGMjXJ9g" name="moveInstanceValue_FROM_Duration_expr_TO_Duration_Duration" description="Moves InstanceValue from Duration(Reference:expr) toDuration(Reference:Duration)">
+    <lhs xmi:id="_Tn0oMoGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_Tn0oM4GqEeqSC4bGMjXJ9g" name="Selected" incoming="_Tn0oNoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InstanceValue"/>
+      </nodes>
+      <nodes xmi:id="_Tn0oNIGqEeqSC4bGMjXJ9g" name="OldSource" outgoing="_Tn0oNoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Duration"/>
+      </nodes>
+      <nodes xmi:id="_Tn0oNYGqEeqSC4bGMjXJ9g" name="NewSource">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Duration"/>
+      </nodes>
+      <edges xmi:id="_Tn0oNoGqEeqSC4bGMjXJ9g" source="_Tn0oNIGqEeqSC4bGMjXJ9g" target="_Tn0oM4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Duration/expr"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_Tn0oN4GqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_Tn0oOIGqEeqSC4bGMjXJ9g" name="Selected" incoming="_Tn0oO4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InstanceValue"/>
+      </nodes>
+      <nodes xmi:id="_Tn0oOYGqEeqSC4bGMjXJ9g" name="OldSource">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Duration"/>
+      </nodes>
+      <nodes xmi:id="_Tn0oOoGqEeqSC4bGMjXJ9g" name="NewSource" outgoing="_Tn0oO4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Duration"/>
+      </nodes>
+      <edges xmi:id="_Tn0oO4GqEeqSC4bGMjXJ9g" source="_Tn0oOoGqEeqSC4bGMjXJ9g" target="_Tn0oOIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Duration/expr"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_Tn0oPIGqEeqSC4bGMjXJ9g" origin="_Tn0oM4GqEeqSC4bGMjXJ9g" image="_Tn0oOIGqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_Tn0oPYGqEeqSC4bGMjXJ9g" origin="_Tn0oNIGqEeqSC4bGMjXJ9g" image="_Tn0oOYGqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_Tn0oPoGqEeqSC4bGMjXJ9g" origin="_Tn0oNYGqEeqSC4bGMjXJ9g" image="_Tn0oOoGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

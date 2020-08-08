@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UjCTQIGqEeqSC4bGMjXJ9g" name="DELETE_PrimitiveType_IN_Class_(nestedClassifier)" description="Deletes one PrimitiveType in Class">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UjCTQYGqEeqSC4bGMjXJ9g" name="deletePrimitiveType_IN_Class" description="deletes one PrimitiveType in the context: Class">
+    <lhs xmi:id="_UjCTQoGqEeqSC4bGMjXJ9g" name="LHS">
+      <nodes xmi:id="_UjCTQ4GqEeqSC4bGMjXJ9g" name="Selected" outgoing="_UjCTRYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+      </nodes>
+      <nodes xmi:id="_UjCTRIGqEeqSC4bGMjXJ9g" name="ToBeDeleted" incoming="_UjCTRYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//PrimitiveType"/>
+      </nodes>
+      <edges xmi:id="_UjCTRYGqEeqSC4bGMjXJ9g" source="_UjCTQ4GqEeqSC4bGMjXJ9g" target="_UjCTRIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Class/nestedClassifier"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_UjCTRoGqEeqSC4bGMjXJ9g" name="RHS">
+      <nodes xmi:id="_UjCTR4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_UjCTSIGqEeqSC4bGMjXJ9g" origin="_UjCTQ4GqEeqSC4bGMjXJ9g" image="_UjCTR4GqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

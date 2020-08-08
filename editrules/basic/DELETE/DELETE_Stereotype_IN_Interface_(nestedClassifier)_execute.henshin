@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UknnoIGqEeqSC4bGMjXJ9g" name="DELETE_Stereotype_IN_Interface_(nestedClassifier)" description="Deletes one Stereotype in Interface">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UknnoYGqEeqSC4bGMjXJ9g" name="deleteStereotype_IN_Interface" description="deletes one Stereotype in the context: Interface">
+    <lhs xmi:id="_UknnooGqEeqSC4bGMjXJ9g" name="LHS">
+      <nodes xmi:id="_Uknno4GqEeqSC4bGMjXJ9g" name="Selected" outgoing="_UknnpYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Interface"/>
+      </nodes>
+      <nodes xmi:id="_UknnpIGqEeqSC4bGMjXJ9g" name="ToBeDeleted" incoming="_UknnpYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Stereotype"/>
+      </nodes>
+      <edges xmi:id="_UknnpYGqEeqSC4bGMjXJ9g" source="_Uknno4GqEeqSC4bGMjXJ9g" target="_UknnpIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Interface/nestedClassifier"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_UknnpoGqEeqSC4bGMjXJ9g" name="RHS">
+      <nodes xmi:id="_Uknnp4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Interface"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_UknnqIGqEeqSC4bGMjXJ9g" origin="_Uknno4GqEeqSC4bGMjXJ9g" image="_Uknnp4GqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

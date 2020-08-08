@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_2MHNkIGoEeqjxJ91AzqJlg" name="REMOVE_ExpansionNode_(inState)_TGT_State" description="Removes ExpansionNode's reference inState the target State">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_2MHNkYGoEeqjxJ91AzqJlg" name="removeFromExpansionNode_inState_State" description="Removes from ExpansionNode's reference inState the target State">
+    <lhs xmi:id="_2MHNkoGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_2MHNk4GoEeqjxJ91AzqJlg" name="Selected" outgoing="_2MHNlYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ExpansionNode"/>
+      </nodes>
+      <nodes xmi:id="_2MHNlIGoEeqjxJ91AzqJlg" name="OldTarget" incoming="_2MHNlYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//State"/>
+      </nodes>
+      <edges xmi:id="_2MHNlYGoEeqjxJ91AzqJlg" source="_2MHNk4GoEeqjxJ91AzqJlg" target="_2MHNlIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ObjectNode/inState"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_2MHNloGoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_2MHNl4GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ExpansionNode"/>
+      </nodes>
+      <nodes xmi:id="_2MHNmIGoEeqjxJ91AzqJlg" name="OldTarget">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//State"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_2MHNmYGoEeqjxJ91AzqJlg" origin="_2MHNk4GoEeqjxJ91AzqJlg" image="_2MHNl4GoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_2MHNmoGoEeqjxJ91AzqJlg" origin="_2MHNlIGoEeqjxJ91AzqJlg" image="_2MHNmIGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

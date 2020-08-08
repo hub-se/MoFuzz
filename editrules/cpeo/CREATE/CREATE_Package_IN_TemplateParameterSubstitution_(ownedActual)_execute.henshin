@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_17KngIGoEeqjxJ91AzqJlg" name="CREATE_Package_IN_TemplateParameterSubstitution_(ownedActual)" description="Creates one Package in TemplateParameterSubstitution">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_17KngYGoEeqjxJ91AzqJlg" name="createPackage_IN_TemplateParameterSubstitution" description="creates one Package in the context: TemplateParameterSubstitution">
+    <lhs xmi:id="_17KngoGoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_17Kng4GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameterSubstitution"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_17KnhIGoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_17KnhYGoEeqjxJ91AzqJlg" name="Selected" outgoing="_17Knh4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameterSubstitution"/>
+      </nodes>
+      <nodes xmi:id="_17KnhoGoEeqjxJ91AzqJlg" name="New" incoming="_17Knh4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </nodes>
+      <edges xmi:id="_17Knh4GoEeqjxJ91AzqJlg" source="_17KnhYGoEeqjxJ91AzqJlg" target="_17KnhoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameterSubstitution/ownedActual"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_17KniIGoEeqjxJ91AzqJlg" origin="_17Kng4GoEeqjxJ91AzqJlg" image="_17KnhYGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

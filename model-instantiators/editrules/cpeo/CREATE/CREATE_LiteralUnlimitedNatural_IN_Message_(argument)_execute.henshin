@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_18DYUIGoEeqjxJ91AzqJlg" name="CREATE_LiteralUnlimitedNatural_IN_Message_(argument)" description="Creates one LiteralUnlimitedNatural in Message">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_18DYUYGoEeqjxJ91AzqJlg" name="createLiteralUnlimitedNatural_IN_Message" description="creates one LiteralUnlimitedNatural in the context: Message">
+    <parameters xmi:id="_18DYUoGoEeqjxJ91AzqJlg" name="Value" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//UnlimitedNatural"/>
+    </parameters>
+    <lhs xmi:id="_18DYU4GoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_18DYVIGoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Message"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_18DYVYGoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_18DYVoGoEeqjxJ91AzqJlg" name="Selected" outgoing="_18DYWYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Message"/>
+      </nodes>
+      <nodes xmi:id="_18DYV4GoEeqjxJ91AzqJlg" name="New" incoming="_18DYWYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LiteralUnlimitedNatural"/>
+        <attributes xmi:id="_18DYWIGoEeqjxJ91AzqJlg" value="Value">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LiteralUnlimitedNatural/value"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_18DYWYGoEeqjxJ91AzqJlg" source="_18DYVoGoEeqjxJ91AzqJlg" target="_18DYV4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Message/argument"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_18DYWoGoEeqjxJ91AzqJlg" origin="_18DYVIGoEeqjxJ91AzqJlg" image="_18DYVoGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

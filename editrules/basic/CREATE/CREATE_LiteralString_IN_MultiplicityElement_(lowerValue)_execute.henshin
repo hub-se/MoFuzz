@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UOgNsIGqEeqSC4bGMjXJ9g" name="CREATE_LiteralString_IN_MultiplicityElement_(lowerValue)" description="Creates one LiteralString in MultiplicityElement">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UOgNsYGqEeqSC4bGMjXJ9g" name="createLiteralString_IN_MultiplicityElement" description="creates one LiteralString in the context: MultiplicityElement">
+    <lhs xmi:id="_UOgNsoGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_UOgNs4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//MultiplicityElement"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_UOgNtIGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_UOgNtYGqEeqSC4bGMjXJ9g" name="Selected" outgoing="_UOgNt4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//MultiplicityElement"/>
+      </nodes>
+      <nodes xmi:id="_UOgNtoGqEeqSC4bGMjXJ9g" name="New" incoming="_UOgNt4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LiteralString"/>
+      </nodes>
+      <edges xmi:id="_UOgNt4GqEeqSC4bGMjXJ9g" source="_UOgNtYGqEeqSC4bGMjXJ9g" target="_UOgNtoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//MultiplicityElement/lowerValue"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_UOgNuIGqEeqSC4bGMjXJ9g" origin="_UOgNs4GqEeqSC4bGMjXJ9g" image="_UOgNtYGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

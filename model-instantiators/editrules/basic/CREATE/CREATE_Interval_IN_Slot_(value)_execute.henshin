@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UGQ3sIGqEeqSC4bGMjXJ9g" name="CREATE_Interval_IN_Slot_(value)" description="Creates one Interval in Slot">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UGQ3sYGqEeqSC4bGMjXJ9g" name="createInterval_IN_Slot" description="creates one Interval in the context: Slot">
+    <lhs xmi:id="_UGQ3soGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_UGQ3s4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Slot"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_UGQ3tIGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_UGQ3tYGqEeqSC4bGMjXJ9g" name="Selected" outgoing="_UGRewIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Slot"/>
+      </nodes>
+      <nodes xmi:id="_UGQ3toGqEeqSC4bGMjXJ9g" name="New" incoming="_UGRewIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Interval"/>
+      </nodes>
+      <edges xmi:id="_UGRewIGqEeqSC4bGMjXJ9g" source="_UGQ3tYGqEeqSC4bGMjXJ9g" target="_UGQ3toGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Slot/value"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_UGRewYGqEeqSC4bGMjXJ9g" origin="_UGQ3s4GqEeqSC4bGMjXJ9g" image="_UGQ3tYGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

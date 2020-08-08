@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_TdGl8IGqEeqSC4bGMjXJ9g" name="REMOVE_Signal_(powertypeExtent)_TGT_GeneralizationSet" description="Removes Signal's reference powertypeExtent the target GeneralizationSet">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_TdGl8YGqEeqSC4bGMjXJ9g" name="removeFromSignal_powertypeExtent_GeneralizationSet" description="Removes from Signal's reference powertypeExtent the target GeneralizationSet">
+    <lhs xmi:id="_TdGl8oGqEeqSC4bGMjXJ9g" name="LHS">
+      <nodes xmi:id="_TdGl84GqEeqSC4bGMjXJ9g" name="Selected" incoming="_TdGl9oGqEeqSC4bGMjXJ9g" outgoing="_TdGl9YGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Signal"/>
+      </nodes>
+      <nodes xmi:id="_TdGl9IGqEeqSC4bGMjXJ9g" name="OldTarget" incoming="_TdGl9YGqEeqSC4bGMjXJ9g" outgoing="_TdGl9oGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//GeneralizationSet"/>
+      </nodes>
+      <edges xmi:id="_TdGl9YGqEeqSC4bGMjXJ9g" source="_TdGl84GqEeqSC4bGMjXJ9g" target="_TdGl9IGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier/powertypeExtent"/>
+      </edges>
+      <edges xmi:id="_TdGl9oGqEeqSC4bGMjXJ9g" source="_TdGl9IGqEeqSC4bGMjXJ9g" target="_TdGl84GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//GeneralizationSet/powertype"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_TdGl94GqEeqSC4bGMjXJ9g" name="RHS">
+      <nodes xmi:id="_TdGl-IGqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Signal"/>
+      </nodes>
+      <nodes xmi:id="_TdGl-YGqEeqSC4bGMjXJ9g" name="OldTarget">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//GeneralizationSet"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_TdGl-oGqEeqSC4bGMjXJ9g" origin="_TdGl84GqEeqSC4bGMjXJ9g" image="_TdGl-IGqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_TdGl-4GqEeqSC4bGMjXJ9g" origin="_TdGl9IGqEeqSC4bGMjXJ9g" image="_TdGl-YGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

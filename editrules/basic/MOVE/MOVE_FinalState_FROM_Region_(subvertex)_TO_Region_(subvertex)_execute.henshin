@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_Tu12MIGqEeqSC4bGMjXJ9g" name="MOVE_FinalState_FROM_Region_(subvertex)_TO_Region_(subvertex)" description="MOVEs FinalState from Region(Reference:subvertex) to Region(Reference:subvertex">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_Tu12MYGqEeqSC4bGMjXJ9g" name="moveFinalState_FROM_Region_subvertex_TO_Region_Region" description="Moves FinalState from Region(Reference:subvertex) toRegion(Reference:Region)">
+    <lhs xmi:id="_Tu12MoGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_Tu12M4GqEeqSC4bGMjXJ9g" name="Selected" incoming="_Tu12NoGqEeqSC4bGMjXJ9g" outgoing="_Tu12N4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//FinalState"/>
+      </nodes>
+      <nodes xmi:id="_Tu12NIGqEeqSC4bGMjXJ9g" name="OldSource" incoming="_Tu12N4GqEeqSC4bGMjXJ9g" outgoing="_Tu12NoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Region"/>
+      </nodes>
+      <nodes xmi:id="_Tu12NYGqEeqSC4bGMjXJ9g" name="NewSource">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Region"/>
+      </nodes>
+      <edges xmi:id="_Tu12NoGqEeqSC4bGMjXJ9g" source="_Tu12NIGqEeqSC4bGMjXJ9g" target="_Tu12M4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Region/subvertex"/>
+      </edges>
+      <edges xmi:id="_Tu12N4GqEeqSC4bGMjXJ9g" source="_Tu12M4GqEeqSC4bGMjXJ9g" target="_Tu12NIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Vertex/container"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_Tu12OIGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_Tu12OYGqEeqSC4bGMjXJ9g" name="Selected" incoming="_Tu12PIGqEeqSC4bGMjXJ9g" outgoing="_Tu12PYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//FinalState"/>
+      </nodes>
+      <nodes xmi:id="_Tu12OoGqEeqSC4bGMjXJ9g" name="OldSource">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Region"/>
+      </nodes>
+      <nodes xmi:id="_Tu12O4GqEeqSC4bGMjXJ9g" name="NewSource" incoming="_Tu12PYGqEeqSC4bGMjXJ9g" outgoing="_Tu12PIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Region"/>
+      </nodes>
+      <edges xmi:id="_Tu12PIGqEeqSC4bGMjXJ9g" source="_Tu12O4GqEeqSC4bGMjXJ9g" target="_Tu12OYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Region/subvertex"/>
+      </edges>
+      <edges xmi:id="_Tu12PYGqEeqSC4bGMjXJ9g" source="_Tu12OYGqEeqSC4bGMjXJ9g" target="_Tu12O4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Vertex/container"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_Tu12PoGqEeqSC4bGMjXJ9g" origin="_Tu12M4GqEeqSC4bGMjXJ9g" image="_Tu12OYGqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_Tu12P4GqEeqSC4bGMjXJ9g" origin="_Tu12NIGqEeqSC4bGMjXJ9g" image="_Tu12OoGqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_Tu12QIGqEeqSC4bGMjXJ9g" origin="_Tu12NYGqEeqSC4bGMjXJ9g" image="_Tu12O4GqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

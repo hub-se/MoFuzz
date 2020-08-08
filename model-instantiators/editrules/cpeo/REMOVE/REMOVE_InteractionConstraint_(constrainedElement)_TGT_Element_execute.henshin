@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_2G3hMIGoEeqjxJ91AzqJlg" name="REMOVE_InteractionConstraint_(constrainedElement)_TGT_Element" description="Removes InteractionConstraint's reference constrainedElement the target Element">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_2G3hMYGoEeqjxJ91AzqJlg" name="removeFromInteractionConstraint_constrainedElement_Element" description="Removes from InteractionConstraint's reference constrainedElement the target Element">
+    <lhs xmi:id="_2G3hMoGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_2G3hM4GoEeqjxJ91AzqJlg" name="Selected" outgoing="_2G3hNYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InteractionConstraint"/>
+      </nodes>
+      <nodes xmi:id="_2G3hNIGoEeqjxJ91AzqJlg" name="OldTarget" incoming="_2G3hNYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Element"/>
+      </nodes>
+      <edges xmi:id="_2G3hNYGoEeqjxJ91AzqJlg" source="_2G3hM4GoEeqjxJ91AzqJlg" target="_2G3hNIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Constraint/constrainedElement"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_2G3hNoGoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_2G3hN4GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InteractionConstraint"/>
+      </nodes>
+      <nodes xmi:id="_2G3hOIGoEeqjxJ91AzqJlg" name="OldTarget">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Element"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_2G3hOYGoEeqjxJ91AzqJlg" origin="_2G3hM4GoEeqjxJ91AzqJlg" image="_2G3hN4GoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_2G3hOoGoEeqjxJ91AzqJlg" origin="_2G3hNIGoEeqjxJ91AzqJlg" image="_2G3hOIGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UDvvMIGqEeqSC4bGMjXJ9g" name="MOVE_Operation_FROM_TemplateParameter_(ownedParameteredElement)_TO_TemplateParameter_(ownedParameteredElement)" description="MOVEs Operation from TemplateParameter(Reference:ownedParameteredElement) to TemplateParameter(Reference:ownedParameteredElement">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UDvvMYGqEeqSC4bGMjXJ9g" name="moveOperation_FROM_TemplateParameter_ownedParameteredElement_TO_TemplateParameter_TemplateParameter" description="Moves Operation from TemplateParameter(Reference:ownedParameteredElement) toTemplateParameter(Reference:TemplateParameter)">
+    <lhs xmi:id="_UDvvMoGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_UDvvM4GqEeqSC4bGMjXJ9g" name="Selected" incoming="_UDvvNoGqEeqSC4bGMjXJ9g" outgoing="_UDvvN4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Operation"/>
+      </nodes>
+      <nodes xmi:id="_UDvvNIGqEeqSC4bGMjXJ9g" name="OldSource" incoming="_UDvvN4GqEeqSC4bGMjXJ9g" outgoing="_UDvvNoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//OperationTemplateParameter"/>
+      </nodes>
+      <nodes xmi:id="_UDvvNYGqEeqSC4bGMjXJ9g" name="NewSource">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//OperationTemplateParameter"/>
+      </nodes>
+      <edges xmi:id="_UDvvNoGqEeqSC4bGMjXJ9g" source="_UDvvNIGqEeqSC4bGMjXJ9g" target="_UDvvM4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameter/ownedParameteredElement"/>
+      </edges>
+      <edges xmi:id="_UDvvN4GqEeqSC4bGMjXJ9g" source="_UDvvM4GqEeqSC4bGMjXJ9g" target="_UDvvNIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ParameterableElement/owningTemplateParameter"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_UDvvOIGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_UDvvOYGqEeqSC4bGMjXJ9g" name="Selected" incoming="_UDvvPIGqEeqSC4bGMjXJ9g" outgoing="_UDvvPYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Operation"/>
+      </nodes>
+      <nodes xmi:id="_UDvvOoGqEeqSC4bGMjXJ9g" name="OldSource">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//OperationTemplateParameter"/>
+      </nodes>
+      <nodes xmi:id="_UDvvO4GqEeqSC4bGMjXJ9g" name="NewSource" incoming="_UDvvPYGqEeqSC4bGMjXJ9g" outgoing="_UDvvPIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//OperationTemplateParameter"/>
+      </nodes>
+      <edges xmi:id="_UDvvPIGqEeqSC4bGMjXJ9g" source="_UDvvO4GqEeqSC4bGMjXJ9g" target="_UDvvOYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameter/ownedParameteredElement"/>
+      </edges>
+      <edges xmi:id="_UDvvPYGqEeqSC4bGMjXJ9g" source="_UDvvOYGqEeqSC4bGMjXJ9g" target="_UDvvO4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ParameterableElement/owningTemplateParameter"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_UDvvPoGqEeqSC4bGMjXJ9g" origin="_UDvvM4GqEeqSC4bGMjXJ9g" image="_UDvvOYGqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_UDvvP4GqEeqSC4bGMjXJ9g" origin="_UDvvNIGqEeqSC4bGMjXJ9g" image="_UDvvOoGqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_UDvvQIGqEeqSC4bGMjXJ9g" origin="_UDvvNYGqEeqSC4bGMjXJ9g" image="_UDvvO4GqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

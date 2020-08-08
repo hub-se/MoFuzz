@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_1qbc0IGoEeqjxJ91AzqJlg" name="CREATE_RemoveVariableValueAction_IN_Activity_(ownedNode)" description="Creates one RemoveVariableValueAction in Activity">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_1qbc0YGoEeqjxJ91AzqJlg" name="createRemoveVariableValueAction_IN_Activity" description="creates one RemoveVariableValueAction in the context: Activity">
+    <parameters xmi:id="_1qbc0oGoEeqjxJ91AzqJlg" name="IsLeaf" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <parameters xmi:id="_1qbc04GoEeqjxJ91AzqJlg" name="IsLocallyReentrant" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <parameters xmi:id="_1qbc1IGoEeqjxJ91AzqJlg" name="IsRemoveDuplicates" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <lhs xmi:id="_1qbc1YGoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_1qbc1oGoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Activity"/>
+      </nodes>
+      <nodes xmi:id="_1qbc14GoEeqjxJ91AzqJlg" name="Existing">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Variable"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_1qbc2IGoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_1qbc2YGoEeqjxJ91AzqJlg" name="Selected" outgoing="_1qbc34GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Activity"/>
+      </nodes>
+      <nodes xmi:id="_1qbc2oGoEeqjxJ91AzqJlg" name="New" incoming="_1qbc34GoEeqjxJ91AzqJlg" outgoing="_1qbc4IGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//RemoveVariableValueAction"/>
+        <attributes xmi:id="_1qbc24GoEeqjxJ91AzqJlg" value="IsLeaf">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//RedefinableElement/isLeaf"/>
+        </attributes>
+        <attributes xmi:id="_1qbc3IGoEeqjxJ91AzqJlg" value="IsLocallyReentrant">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Action/isLocallyReentrant"/>
+        </attributes>
+        <attributes xmi:id="_1qbc3YGoEeqjxJ91AzqJlg" value="IsRemoveDuplicates">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//RemoveVariableValueAction/isRemoveDuplicates"/>
+        </attributes>
+      </nodes>
+      <nodes xmi:id="_1qbc3oGoEeqjxJ91AzqJlg" name="Existing" incoming="_1qbc4IGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Variable"/>
+      </nodes>
+      <edges xmi:id="_1qbc34GoEeqjxJ91AzqJlg" source="_1qbc2YGoEeqjxJ91AzqJlg" target="_1qbc2oGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Activity/ownedNode"/>
+      </edges>
+      <edges xmi:id="_1qbc4IGoEeqjxJ91AzqJlg" source="_1qbc2oGoEeqjxJ91AzqJlg" target="_1qbc3oGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//VariableAction/variable"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_1qbc4YGoEeqjxJ91AzqJlg" origin="_1qbc1oGoEeqjxJ91AzqJlg" image="_1qbc2YGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_1qbc4oGoEeqjxJ91AzqJlg" origin="_1qbc14GoEeqjxJ91AzqJlg" image="_1qbc3oGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

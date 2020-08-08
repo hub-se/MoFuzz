@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_1tQuYIGoEeqjxJ91AzqJlg" name="CREATE_Operation_IN_TemplateParameterSubstitution_(ownedActual)" description="Creates one Operation in TemplateParameterSubstitution">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_1tQuYYGoEeqjxJ91AzqJlg" name="createOperation_IN_TemplateParameterSubstitution" description="creates one Operation in the context: TemplateParameterSubstitution">
+    <parameters xmi:id="_1tQuYoGoEeqjxJ91AzqJlg" name="IsLeaf" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <parameters xmi:id="_1tQuY4GoEeqjxJ91AzqJlg" name="IsStatic" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <parameters xmi:id="_1tQuZIGoEeqjxJ91AzqJlg" name="Concurrency" kind="IN">
+      <type xsi:type="ecore:EEnum" href="http://www.eclipse.org/uml2/5.0.0/UML#//CallConcurrencyKind"/>
+    </parameters>
+    <parameters xmi:id="_1tQuZYGoEeqjxJ91AzqJlg" name="IsAbstract" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <parameters xmi:id="_1tQuZoGoEeqjxJ91AzqJlg" name="IsQuery" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <lhs xmi:id="_1tQuZ4GoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_1tQuaIGoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameterSubstitution"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_1tQuaYGoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_1tQuaoGoEeqjxJ91AzqJlg" name="Selected" outgoing="_1tQucYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameterSubstitution"/>
+      </nodes>
+      <nodes xmi:id="_1tQua4GoEeqjxJ91AzqJlg" name="New" incoming="_1tQucYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Operation"/>
+        <attributes xmi:id="_1tQubIGoEeqjxJ91AzqJlg" value="IsLeaf">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//RedefinableElement/isLeaf"/>
+        </attributes>
+        <attributes xmi:id="_1tQubYGoEeqjxJ91AzqJlg" value="IsStatic">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Feature/isStatic"/>
+        </attributes>
+        <attributes xmi:id="_1tQuboGoEeqjxJ91AzqJlg" value="Concurrency">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//BehavioralFeature/concurrency"/>
+        </attributes>
+        <attributes xmi:id="_1tQub4GoEeqjxJ91AzqJlg" value="IsAbstract">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//BehavioralFeature/isAbstract"/>
+        </attributes>
+        <attributes xmi:id="_1tQucIGoEeqjxJ91AzqJlg" value="IsQuery">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Operation/isQuery"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_1tQucYGoEeqjxJ91AzqJlg" source="_1tQuaoGoEeqjxJ91AzqJlg" target="_1tQua4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameterSubstitution/ownedActual"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_1tQucoGoEeqjxJ91AzqJlg" origin="_1tQuaIGoEeqjxJ91AzqJlg" image="_1tQuaoGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_1-jSsIGoEeqjxJ91AzqJlg" name="CREATE_LiteralNull_IN_ObjectNode_(upperBound)" description="Creates one LiteralNull in ObjectNode">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_1-jSsYGoEeqjxJ91AzqJlg" name="createLiteralNull_IN_ObjectNode" description="creates one LiteralNull in the context: ObjectNode">
+    <lhs xmi:id="_1-jSsoGoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_1-jSs4GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ObjectNode"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_1-jStIGoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_1-jStYGoEeqjxJ91AzqJlg" name="Selected" outgoing="_1-jSt4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ObjectNode"/>
+      </nodes>
+      <nodes xmi:id="_1-jStoGoEeqjxJ91AzqJlg" name="New" incoming="_1-jSt4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LiteralNull"/>
+      </nodes>
+      <edges xmi:id="_1-jSt4GoEeqjxJ91AzqJlg" source="_1-jStYGoEeqjxJ91AzqJlg" target="_1-jStoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ObjectNode/upperBound"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_1-jSuIGoEeqjxJ91AzqJlg" origin="_1-jSs4GoEeqjxJ91AzqJlg" image="_1-jStYGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

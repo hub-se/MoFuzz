@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_U9WQsIGqEeqSC4bGMjXJ9g" name="ADD_ComponentRealization_(client)_TGT_NamedElement" description="Adds to ComponentRealization's reference client the target NamedElement">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_U9WQsYGqEeqSC4bGMjXJ9g" name="addToComponentRealization_client_NamedElement" description="Adds to ComponentRealization's reference client the target NamedElement">
+    <lhs xmi:id="_U9WQsoGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_U9WQs4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ComponentRealization"/>
+      </nodes>
+      <nodes xmi:id="_U9WQtIGqEeqSC4bGMjXJ9g" name="NewTarget">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//NamedElement"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_U9WQtYGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_U9WQtoGqEeqSC4bGMjXJ9g" name="Selected" outgoing="_U9WQuIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ComponentRealization"/>
+      </nodes>
+      <nodes xmi:id="_U9WQt4GqEeqSC4bGMjXJ9g" name="NewTarget" incoming="_U9WQuIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//NamedElement"/>
+      </nodes>
+      <edges xmi:id="_U9WQuIGqEeqSC4bGMjXJ9g" source="_U9WQtoGqEeqSC4bGMjXJ9g" target="_U9WQt4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Dependency/client"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_U9WQuYGqEeqSC4bGMjXJ9g" origin="_U9WQs4GqEeqSC4bGMjXJ9g" image="_U9WQtoGqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_U9WQuoGqEeqSC4bGMjXJ9g" origin="_U9WQtIGqEeqSC4bGMjXJ9g" image="_U9WQt4GqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

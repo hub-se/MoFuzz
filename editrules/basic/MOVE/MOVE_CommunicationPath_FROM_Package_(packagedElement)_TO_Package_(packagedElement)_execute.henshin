@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_T-ZVIIGqEeqSC4bGMjXJ9g" name="MOVE_CommunicationPath_FROM_Package_(packagedElement)_TO_Package_(packagedElement)" description="MOVEs CommunicationPath from Package(Reference:packagedElement) to Package(Reference:packagedElement">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_T-ZVIYGqEeqSC4bGMjXJ9g" name="moveCommunicationPath_FROM_Package_packagedElement_TO_Package_Package" description="Moves CommunicationPath from Package(Reference:packagedElement) toPackage(Reference:Package)">
+    <lhs xmi:id="_T-ZVIoGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_T-ZVI4GqEeqSC4bGMjXJ9g" name="Selected" incoming="_T-ZVJoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//CommunicationPath"/>
+      </nodes>
+      <nodes xmi:id="_T-ZVJIGqEeqSC4bGMjXJ9g" name="OldSource" outgoing="_T-ZVJoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </nodes>
+      <nodes xmi:id="_T-ZVJYGqEeqSC4bGMjXJ9g" name="NewSource">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </nodes>
+      <edges xmi:id="_T-ZVJoGqEeqSC4bGMjXJ9g" source="_T-ZVJIGqEeqSC4bGMjXJ9g" target="_T-ZVI4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Package/packagedElement"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_T-ZVJ4GqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_T-ZVKIGqEeqSC4bGMjXJ9g" name="Selected" incoming="_T-ZVK4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//CommunicationPath"/>
+      </nodes>
+      <nodes xmi:id="_T-ZVKYGqEeqSC4bGMjXJ9g" name="OldSource">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </nodes>
+      <nodes xmi:id="_T-ZVKoGqEeqSC4bGMjXJ9g" name="NewSource" outgoing="_T-ZVK4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </nodes>
+      <edges xmi:id="_T-ZVK4GqEeqSC4bGMjXJ9g" source="_T-ZVKoGqEeqSC4bGMjXJ9g" target="_T-ZVKIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Package/packagedElement"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_T-ZVLIGqEeqSC4bGMjXJ9g" origin="_T-ZVI4GqEeqSC4bGMjXJ9g" image="_T-ZVKIGqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_T-ZVLYGqEeqSC4bGMjXJ9g" origin="_T-ZVJIGqEeqSC4bGMjXJ9g" image="_T-ZVKYGqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_T-ZVLoGqEeqSC4bGMjXJ9g" origin="_T-ZVJYGqEeqSC4bGMjXJ9g" image="_T-ZVKoGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

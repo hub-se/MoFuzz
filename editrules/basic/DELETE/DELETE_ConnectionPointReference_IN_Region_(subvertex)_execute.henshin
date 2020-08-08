@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_U0hE0IGqEeqSC4bGMjXJ9g" name="DELETE_ConnectionPointReference_IN_Region_(subvertex)" description="Deletes one ConnectionPointReference in Region">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_U0hE0YGqEeqSC4bGMjXJ9g" name="deleteConnectionPointReference_IN_Region" description="deletes one ConnectionPointReference in the context: Region">
+    <lhs xmi:id="_U0hE0oGqEeqSC4bGMjXJ9g" name="LHS">
+      <nodes xmi:id="_U0hE04GqEeqSC4bGMjXJ9g" name="Selected" incoming="_U0hE1oGqEeqSC4bGMjXJ9g" outgoing="_U0hE1YGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Region"/>
+      </nodes>
+      <nodes xmi:id="_U0hE1IGqEeqSC4bGMjXJ9g" name="ToBeDeleted" incoming="_U0hE1YGqEeqSC4bGMjXJ9g" outgoing="_U0hE1oGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ConnectionPointReference"/>
+      </nodes>
+      <edges xmi:id="_U0hE1YGqEeqSC4bGMjXJ9g" source="_U0hE04GqEeqSC4bGMjXJ9g" target="_U0hE1IGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Region/subvertex"/>
+      </edges>
+      <edges xmi:id="_U0hE1oGqEeqSC4bGMjXJ9g" source="_U0hE1IGqEeqSC4bGMjXJ9g" target="_U0hE04GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Vertex/container"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_U0hE14GqEeqSC4bGMjXJ9g" name="RHS">
+      <nodes xmi:id="_U0hE2IGqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Region"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_U0hE2YGqEeqSC4bGMjXJ9g" origin="_U0hE04GqEeqSC4bGMjXJ9g" image="_U0hE2IGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_09kW0IGoEeqjxJ91AzqJlg" name="DELETE_LiteralNull_IN_TimeExpression_(expr)" description="Deletes one LiteralNull in TimeExpression">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_09kW0YGoEeqjxJ91AzqJlg" name="deleteLiteralNull_IN_TimeExpression" description="deletes one LiteralNull in the context: TimeExpression">
+    <lhs xmi:id="_09kW0oGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_09kW04GoEeqjxJ91AzqJlg" name="Selected" outgoing="_09kW1YGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TimeExpression"/>
+      </nodes>
+      <nodes xmi:id="_09kW1IGoEeqjxJ91AzqJlg" name="ToBeDeleted" incoming="_09kW1YGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LiteralNull"/>
+      </nodes>
+      <edges xmi:id="_09kW1YGoEeqjxJ91AzqJlg" source="_09kW04GoEeqjxJ91AzqJlg" target="_09kW1IGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TimeExpression/expr"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_09kW1oGoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_09kW14GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TimeExpression"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_09kW2IGoEeqjxJ91AzqJlg" origin="_09kW04GoEeqjxJ91AzqJlg" image="_09kW14GoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

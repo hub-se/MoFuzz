@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UFuFIIGqEeqSC4bGMjXJ9g" name="CREATE_Interval_IN_Duration_(expr)" description="Creates one Interval in Duration">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UFuFIYGqEeqSC4bGMjXJ9g" name="createInterval_IN_Duration" description="creates one Interval in the context: Duration">
+    <lhs xmi:id="_UFuFIoGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_UFuFI4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Duration"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_UFuFJIGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_UFuFJYGqEeqSC4bGMjXJ9g" name="Selected" outgoing="_UFuFJ4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Duration"/>
+      </nodes>
+      <nodes xmi:id="_UFuFJoGqEeqSC4bGMjXJ9g" name="New" incoming="_UFuFJ4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Interval"/>
+      </nodes>
+      <edges xmi:id="_UFuFJ4GqEeqSC4bGMjXJ9g" source="_UFuFJYGqEeqSC4bGMjXJ9g" target="_UFuFJoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Duration/expr"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_UFuFKIGqEeqSC4bGMjXJ9g" origin="_UFuFI4GqEeqSC4bGMjXJ9g" image="_UFuFJYGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

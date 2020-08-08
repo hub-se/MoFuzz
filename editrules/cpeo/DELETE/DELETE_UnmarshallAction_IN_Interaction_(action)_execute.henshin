@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_09uH0IGoEeqjxJ91AzqJlg" name="DELETE_UnmarshallAction_IN_Interaction_(action)" description="Deletes one UnmarshallAction in Interaction">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_09uH0YGoEeqjxJ91AzqJlg" name="deleteUnmarshallAction_IN_Interaction" description="deletes one UnmarshallAction in the context: Interaction">
+    <lhs xmi:id="_09uH0oGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_09uH04GoEeqjxJ91AzqJlg" name="Selected" outgoing="_09uH2IGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Interaction"/>
+      </nodes>
+      <nodes xmi:id="_09uH1IGoEeqjxJ91AzqJlg" name="ToBeDeleted" incoming="_09uH2IGoEeqjxJ91AzqJlg" outgoing="_09uH2YGoEeqjxJ91AzqJlg _09uH2oGoEeqjxJ91AzqJlg _09uH24GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//UnmarshallAction"/>
+      </nodes>
+      <nodes xmi:id="_09uH1YGoEeqjxJ91AzqJlg" name="Child" incoming="_09uH2YGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InputPin"/>
+      </nodes>
+      <nodes xmi:id="_09uH1oGoEeqjxJ91AzqJlg" name="Child1" incoming="_09uH2oGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//OutputPin"/>
+      </nodes>
+      <nodes xmi:id="_09uH14GoEeqjxJ91AzqJlg" name="Existing" incoming="_09uH24GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier"/>
+      </nodes>
+      <edges xmi:id="_09uH2IGoEeqjxJ91AzqJlg" source="_09uH04GoEeqjxJ91AzqJlg" target="_09uH1IGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Interaction/action"/>
+      </edges>
+      <edges xmi:id="_09uH2YGoEeqjxJ91AzqJlg" source="_09uH1IGoEeqjxJ91AzqJlg" target="_09uH1YGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//UnmarshallAction/object"/>
+      </edges>
+      <edges xmi:id="_09uH2oGoEeqjxJ91AzqJlg" source="_09uH1IGoEeqjxJ91AzqJlg" target="_09uH1oGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//UnmarshallAction/result"/>
+      </edges>
+      <edges xmi:id="_09uH24GoEeqjxJ91AzqJlg" source="_09uH1IGoEeqjxJ91AzqJlg" target="_09uH14GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//UnmarshallAction/unmarshallType"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_09uH3IGoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_09uH3YGoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Interaction"/>
+      </nodes>
+      <nodes xmi:id="_09uH3oGoEeqjxJ91AzqJlg" name="Existing">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_09uH34GoEeqjxJ91AzqJlg" origin="_09uH04GoEeqjxJ91AzqJlg" image="_09uH3YGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_09uH4IGoEeqjxJ91AzqJlg" origin="_09uH14GoEeqjxJ91AzqJlg" image="_09uH3oGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

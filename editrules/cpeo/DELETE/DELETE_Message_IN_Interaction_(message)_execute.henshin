@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_1BOHwIGoEeqjxJ91AzqJlg" name="DELETE_Message_IN_Interaction_(message)" description="Deletes one Message in Interaction">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_1BOHwYGoEeqjxJ91AzqJlg" name="deleteMessage_IN_Interaction" description="deletes one Message in the context: Interaction">
+    <lhs xmi:id="_1BOHwoGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_1BOHw4GoEeqjxJ91AzqJlg" name="Selected" incoming="_1BOHxoGoEeqjxJ91AzqJlg" outgoing="_1BOHxYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Interaction"/>
+      </nodes>
+      <nodes xmi:id="_1BOHxIGoEeqjxJ91AzqJlg" name="ToBeDeleted" incoming="_1BOHxYGoEeqjxJ91AzqJlg" outgoing="_1BOHxoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Message"/>
+      </nodes>
+      <edges xmi:id="_1BOHxYGoEeqjxJ91AzqJlg" source="_1BOHw4GoEeqjxJ91AzqJlg" target="_1BOHxIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Interaction/message"/>
+      </edges>
+      <edges xmi:id="_1BOHxoGoEeqjxJ91AzqJlg" source="_1BOHxIGoEeqjxJ91AzqJlg" target="_1BOHw4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Message/interaction"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_1BOHx4GoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_1BOHyIGoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Interaction"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_1BOHyYGoEeqjxJ91AzqJlg" origin="_1BOHw4GoEeqjxJ91AzqJlg" image="_1BOHyIGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

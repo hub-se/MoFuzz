@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_1s7XMIGoEeqjxJ91AzqJlg" name="CREATE_Pseudostate_IN_State_(connectionPoint)" description="Creates one Pseudostate in State">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_1s7XMYGoEeqjxJ91AzqJlg" name="createPseudostate_IN_State" description="creates one Pseudostate in the context: State">
+    <parameters xmi:id="_1s7XMoGoEeqjxJ91AzqJlg" name="Kind" kind="IN">
+      <type xsi:type="ecore:EEnum" href="http://www.eclipse.org/uml2/5.0.0/UML#//PseudostateKind"/>
+    </parameters>
+    <lhs xmi:id="_1s7XM4GoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_1s7XNIGoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//State"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_1s7XNYGoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_1s7XNoGoEeqjxJ91AzqJlg" name="Selected" incoming="_1s7XOoGoEeqjxJ91AzqJlg" outgoing="_1s7XOYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//State"/>
+      </nodes>
+      <nodes xmi:id="_1s7XN4GoEeqjxJ91AzqJlg" name="New" incoming="_1s7XOYGoEeqjxJ91AzqJlg" outgoing="_1s7XOoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Pseudostate"/>
+        <attributes xmi:id="_1s7XOIGoEeqjxJ91AzqJlg" value="Kind">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Pseudostate/kind"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_1s7XOYGoEeqjxJ91AzqJlg" source="_1s7XNoGoEeqjxJ91AzqJlg" target="_1s7XN4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//State/connectionPoint"/>
+      </edges>
+      <edges xmi:id="_1s7XOoGoEeqjxJ91AzqJlg" source="_1s7XN4GoEeqjxJ91AzqJlg" target="_1s7XNoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Pseudostate/state"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_1s7XO4GoEeqjxJ91AzqJlg" origin="_1s7XNIGoEeqjxJ91AzqJlg" image="_1s7XNoGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

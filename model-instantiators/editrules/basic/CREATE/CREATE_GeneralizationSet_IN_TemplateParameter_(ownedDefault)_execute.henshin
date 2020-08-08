@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UFie8IGqEeqSC4bGMjXJ9g" name="CREATE_GeneralizationSet_IN_TemplateParameter_(ownedDefault)" description="Creates one GeneralizationSet in TemplateParameter">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UFie8YGqEeqSC4bGMjXJ9g" name="createGeneralizationSet_IN_TemplateParameter" description="creates one GeneralizationSet in the context: TemplateParameter">
+    <parameters xmi:id="_UFie8oGqEeqSC4bGMjXJ9g" name="IsCovering" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <parameters xmi:id="_UFie84GqEeqSC4bGMjXJ9g" name="IsDisjoint" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <lhs xmi:id="_UFie9IGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_UFie9YGqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameter"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_UFie9oGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_UFie94GqEeqSC4bGMjXJ9g" name="Selected" outgoing="_UFie-4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameter"/>
+      </nodes>
+      <nodes xmi:id="_UFie-IGqEeqSC4bGMjXJ9g" name="New" incoming="_UFie-4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//GeneralizationSet"/>
+        <attributes xmi:id="_UFie-YGqEeqSC4bGMjXJ9g" value="IsCovering">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//GeneralizationSet/isCovering"/>
+        </attributes>
+        <attributes xmi:id="_UFie-oGqEeqSC4bGMjXJ9g" value="IsDisjoint">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//GeneralizationSet/isDisjoint"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_UFie-4GqEeqSC4bGMjXJ9g" source="_UFie94GqEeqSC4bGMjXJ9g" target="_UFie-IGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameter/ownedDefault"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_UFie_IGqEeqSC4bGMjXJ9g" origin="_UFie9YGqEeqSC4bGMjXJ9g" image="_UFie94GqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

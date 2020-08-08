@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_2nyc8IGoEeqjxJ91AzqJlg" name="SET_REFERENCE_ProtocolTransition_(preCondition)_TGT_Constraint" description="Sets ProtocolTransition's reference preCondition the target Constraint">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_2nyc8YGoEeqjxJ91AzqJlg" name="setProtocolTransition_preCondition_TO_Constraint" description="SetProtocolTransitionRefpreConditionToConstraint">
+    <lhs xmi:id="_2nyc8oGoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_2nyc84GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ProtocolTransition"/>
+      </nodes>
+      <nodes xmi:id="_2nyc9IGoEeqjxJ91AzqJlg" name="NewTarget">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Constraint"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_2nyc9YGoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_2nyc9oGoEeqjxJ91AzqJlg" name="Selected" outgoing="_2nyc-IGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ProtocolTransition"/>
+      </nodes>
+      <nodes xmi:id="_2nyc94GoEeqjxJ91AzqJlg" name="NewTarget" incoming="_2nyc-IGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Constraint"/>
+      </nodes>
+      <edges xmi:id="_2nyc-IGoEeqjxJ91AzqJlg" source="_2nyc9oGoEeqjxJ91AzqJlg" target="_2nyc94GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ProtocolTransition/preCondition"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_2nyc-YGoEeqjxJ91AzqJlg" origin="_2nyc84GoEeqjxJ91AzqJlg" image="_2nyc9oGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_2nyc-oGoEeqjxJ91AzqJlg" origin="_2nyc9IGoEeqjxJ91AzqJlg" image="_2nyc94GoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

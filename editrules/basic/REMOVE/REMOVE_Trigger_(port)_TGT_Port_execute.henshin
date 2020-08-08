@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_TeK88IGqEeqSC4bGMjXJ9g" name="REMOVE_Trigger_(port)_TGT_Port" description="Removes Trigger's reference port the target Port">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_TeK88YGqEeqSC4bGMjXJ9g" name="removeFromTrigger_port_Port" description="Removes from Trigger's reference port the target Port">
+    <lhs xmi:id="_TeK88oGqEeqSC4bGMjXJ9g" name="LHS">
+      <nodes xmi:id="_TeK884GqEeqSC4bGMjXJ9g" name="Selected" outgoing="_TeK89YGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Trigger"/>
+      </nodes>
+      <nodes xmi:id="_TeK89IGqEeqSC4bGMjXJ9g" name="OldTarget" incoming="_TeK89YGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Port"/>
+      </nodes>
+      <edges xmi:id="_TeK89YGqEeqSC4bGMjXJ9g" source="_TeK884GqEeqSC4bGMjXJ9g" target="_TeK89IGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Trigger/port"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_TeK89oGqEeqSC4bGMjXJ9g" name="RHS">
+      <nodes xmi:id="_TeK894GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Trigger"/>
+      </nodes>
+      <nodes xmi:id="_TeK8-IGqEeqSC4bGMjXJ9g" name="OldTarget">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Port"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_TeK8-YGqEeqSC4bGMjXJ9g" origin="_TeK884GqEeqSC4bGMjXJ9g" image="_TeK894GqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_TeK8-oGqEeqSC4bGMjXJ9g" origin="_TeK89IGqEeqSC4bGMjXJ9g" image="_TeK8-IGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

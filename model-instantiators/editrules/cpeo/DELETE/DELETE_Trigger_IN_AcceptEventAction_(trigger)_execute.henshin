@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_1Eca4IGoEeqjxJ91AzqJlg" name="DELETE_Trigger_IN_AcceptEventAction_(trigger)" description="Deletes one Trigger in AcceptEventAction">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_1Eca4YGoEeqjxJ91AzqJlg" name="deleteTrigger_IN_AcceptEventAction" description="deletes one Trigger in the context: AcceptEventAction">
+    <lhs xmi:id="_1Eca4oGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_1Eca44GoEeqjxJ91AzqJlg" name="Selected" outgoing="_1Eca5oGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//AcceptEventAction"/>
+      </nodes>
+      <nodes xmi:id="_1Eca5IGoEeqjxJ91AzqJlg" name="ToBeDeleted" incoming="_1Eca5oGoEeqjxJ91AzqJlg" outgoing="_1Eca54GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Trigger"/>
+      </nodes>
+      <nodes xmi:id="_1Eca5YGoEeqjxJ91AzqJlg" name="Existing" incoming="_1Eca54GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Event"/>
+      </nodes>
+      <edges xmi:id="_1Eca5oGoEeqjxJ91AzqJlg" source="_1Eca44GoEeqjxJ91AzqJlg" target="_1Eca5IGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//AcceptEventAction/trigger"/>
+      </edges>
+      <edges xmi:id="_1Eca54GoEeqjxJ91AzqJlg" source="_1Eca5IGoEeqjxJ91AzqJlg" target="_1Eca5YGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Trigger/event"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_1Eca6IGoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_1Eca6YGoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//AcceptEventAction"/>
+      </nodes>
+      <nodes xmi:id="_1Eca6oGoEeqjxJ91AzqJlg" name="Existing">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Event"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_1Eca64GoEeqjxJ91AzqJlg" origin="_1Eca44GoEeqjxJ91AzqJlg" image="_1Eca6YGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_1Eca7IGoEeqjxJ91AzqJlg" origin="_1Eca5YGoEeqjxJ91AzqJlg" image="_1Eca6oGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

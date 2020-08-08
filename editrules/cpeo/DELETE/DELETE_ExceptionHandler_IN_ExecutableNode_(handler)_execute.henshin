@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_1UkhkIGoEeqjxJ91AzqJlg" name="DELETE_ExceptionHandler_IN_ExecutableNode_(handler)" description="Deletes one ExceptionHandler in ExecutableNode">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_1UkhkYGoEeqjxJ91AzqJlg" name="deleteExceptionHandler_IN_ExecutableNode" description="deletes one ExceptionHandler in the context: ExecutableNode">
+    <lhs xmi:id="_1UkhkoGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_1Ukhk4GoEeqjxJ91AzqJlg" name="Selected" incoming="_1UkhmYGoEeqjxJ91AzqJlg" outgoing="_1UkhmIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ExecutableNode"/>
+      </nodes>
+      <nodes xmi:id="_1UkhlIGoEeqjxJ91AzqJlg" name="ToBeDeleted" incoming="_1UkhmIGoEeqjxJ91AzqJlg" outgoing="_1UkhmYGoEeqjxJ91AzqJlg _1UkhmoGoEeqjxJ91AzqJlg _1Ukhm4GoEeqjxJ91AzqJlg _1UkhnIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ExceptionHandler"/>
+      </nodes>
+      <nodes xmi:id="_1UkhlYGoEeqjxJ91AzqJlg" name="Existing" incoming="_1UkhmoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ObjectNode"/>
+      </nodes>
+      <nodes xmi:id="_1UkhloGoEeqjxJ91AzqJlg" name="Existing1" incoming="_1Ukhm4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier"/>
+      </nodes>
+      <nodes xmi:id="_1Ukhl4GoEeqjxJ91AzqJlg" name="Existing2" incoming="_1UkhnIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ExecutableNode"/>
+      </nodes>
+      <edges xmi:id="_1UkhmIGoEeqjxJ91AzqJlg" source="_1Ukhk4GoEeqjxJ91AzqJlg" target="_1UkhlIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ExecutableNode/handler"/>
+      </edges>
+      <edges xmi:id="_1UkhmYGoEeqjxJ91AzqJlg" source="_1UkhlIGoEeqjxJ91AzqJlg" target="_1Ukhk4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ExceptionHandler/protectedNode"/>
+      </edges>
+      <edges xmi:id="_1UkhmoGoEeqjxJ91AzqJlg" source="_1UkhlIGoEeqjxJ91AzqJlg" target="_1UkhlYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ExceptionHandler/exceptionInput"/>
+      </edges>
+      <edges xmi:id="_1Ukhm4GoEeqjxJ91AzqJlg" source="_1UkhlIGoEeqjxJ91AzqJlg" target="_1UkhloGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ExceptionHandler/exceptionType"/>
+      </edges>
+      <edges xmi:id="_1UkhnIGoEeqjxJ91AzqJlg" source="_1UkhlIGoEeqjxJ91AzqJlg" target="_1Ukhl4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ExceptionHandler/handlerBody"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_1UkhnYGoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_1UkhnoGoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ExecutableNode"/>
+      </nodes>
+      <nodes xmi:id="_1Ukhn4GoEeqjxJ91AzqJlg" name="Existing">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ObjectNode"/>
+      </nodes>
+      <nodes xmi:id="_1UkhoIGoEeqjxJ91AzqJlg" name="Existing1">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier"/>
+      </nodes>
+      <nodes xmi:id="_1UkhoYGoEeqjxJ91AzqJlg" name="Existing2">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ExecutableNode"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_1UkhooGoEeqjxJ91AzqJlg" origin="_1Ukhk4GoEeqjxJ91AzqJlg" image="_1UkhnoGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_1Ukho4GoEeqjxJ91AzqJlg" origin="_1UkhlYGoEeqjxJ91AzqJlg" image="_1Ukhn4GoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_1UkhpIGoEeqjxJ91AzqJlg" origin="_1UkhloGoEeqjxJ91AzqJlg" image="_1UkhoIGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_1UkhpYGoEeqjxJ91AzqJlg" origin="_1Ukhl4GoEeqjxJ91AzqJlg" image="_1UkhoYGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

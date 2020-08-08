@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_1FZdIIGoEeqjxJ91AzqJlg" name="DELETE_LoopNode_IN_Interaction_(action)" description="Deletes one LoopNode in Interaction">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_1FZdIYGoEeqjxJ91AzqJlg" name="deleteLoopNode_IN_Interaction" description="deletes one LoopNode in the context: Interaction">
+    <lhs xmi:id="_1FZdIoGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_1FZdI4GoEeqjxJ91AzqJlg" name="Selected" outgoing="_1FZdJ4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Interaction"/>
+      </nodes>
+      <nodes xmi:id="_1FZdJIGoEeqjxJ91AzqJlg" name="ToBeDeleted" incoming="_1FZdJ4GoEeqjxJ91AzqJlg" outgoing="_1FZdKIGoEeqjxJ91AzqJlg _1FZdKYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LoopNode"/>
+      </nodes>
+      <nodes xmi:id="_1FZdJYGoEeqjxJ91AzqJlg" name="Existing" incoming="_1FZdKIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//OutputPin"/>
+      </nodes>
+      <nodes xmi:id="_1FZdJoGoEeqjxJ91AzqJlg" name="Existing1" incoming="_1FZdKYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ExecutableNode"/>
+      </nodes>
+      <edges xmi:id="_1FZdJ4GoEeqjxJ91AzqJlg" source="_1FZdI4GoEeqjxJ91AzqJlg" target="_1FZdJIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Interaction/action"/>
+      </edges>
+      <edges xmi:id="_1FZdKIGoEeqjxJ91AzqJlg" source="_1FZdJIGoEeqjxJ91AzqJlg" target="_1FZdJYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LoopNode/decider"/>
+      </edges>
+      <edges xmi:id="_1FZdKYGoEeqjxJ91AzqJlg" source="_1FZdJIGoEeqjxJ91AzqJlg" target="_1FZdJoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LoopNode/test"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_1FZdKoGoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_1FZdK4GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Interaction"/>
+      </nodes>
+      <nodes xmi:id="_1FZdLIGoEeqjxJ91AzqJlg" name="Existing">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//OutputPin"/>
+      </nodes>
+      <nodes xmi:id="_1FZdLYGoEeqjxJ91AzqJlg" name="Existing1">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ExecutableNode"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_1FZdLoGoEeqjxJ91AzqJlg" origin="_1FZdI4GoEeqjxJ91AzqJlg" image="_1FZdK4GoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_1FZdL4GoEeqjxJ91AzqJlg" origin="_1FZdJYGoEeqjxJ91AzqJlg" image="_1FZdLIGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_1FZdMIGoEeqjxJ91AzqJlg" origin="_1FZdJoGoEeqjxJ91AzqJlg" image="_1FZdLYGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

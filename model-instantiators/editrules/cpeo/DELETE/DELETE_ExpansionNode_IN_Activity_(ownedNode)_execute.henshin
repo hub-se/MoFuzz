@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_1NtroIGoEeqjxJ91AzqJlg" name="DELETE_ExpansionNode_IN_Activity_(ownedNode)" description="Deletes one ExpansionNode in Activity">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_1NtroYGoEeqjxJ91AzqJlg" name="deleteExpansionNode_IN_Activity" description="deletes one ExpansionNode in the context: Activity">
+    <lhs xmi:id="_1NtrooGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_1Ntro4GoEeqjxJ91AzqJlg" name="Selected" outgoing="_1NtrpYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Activity"/>
+      </nodes>
+      <nodes xmi:id="_1NtrpIGoEeqjxJ91AzqJlg" name="ToBeDeleted" incoming="_1NtrpYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ExpansionNode"/>
+      </nodes>
+      <edges xmi:id="_1NtrpYGoEeqjxJ91AzqJlg" source="_1Ntro4GoEeqjxJ91AzqJlg" target="_1NtrpIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Activity/ownedNode"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_1NtrpoGoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_1Ntrp4GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Activity"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_1NtrqIGoEeqjxJ91AzqJlg" origin="_1Ntro4GoEeqjxJ91AzqJlg" image="_1Ntrp4GoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UVfmgIGqEeqSC4bGMjXJ9g" name="CREATE_TimeInterval_IN_TemplateParameterSubstitution_(ownedActual)" description="Creates one TimeInterval in TemplateParameterSubstitution">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UVfmgYGqEeqSC4bGMjXJ9g" name="createTimeInterval_IN_TemplateParameterSubstitution" description="creates one TimeInterval in the context: TemplateParameterSubstitution">
+    <lhs xmi:id="_UVfmgoGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_UVfmg4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameterSubstitution"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_UVfmhIGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_UVfmhYGqEeqSC4bGMjXJ9g" name="Selected" outgoing="_UVfmh4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameterSubstitution"/>
+      </nodes>
+      <nodes xmi:id="_UVfmhoGqEeqSC4bGMjXJ9g" name="New" incoming="_UVfmh4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TimeInterval"/>
+      </nodes>
+      <edges xmi:id="_UVfmh4GqEeqSC4bGMjXJ9g" source="_UVfmhYGqEeqSC4bGMjXJ9g" target="_UVfmhoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameterSubstitution/ownedActual"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_UVfmiIGqEeqSC4bGMjXJ9g" origin="_UVfmg4GqEeqSC4bGMjXJ9g" image="_UVfmhYGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_1pisAIGoEeqjxJ91AzqJlg" name="CREATE_PackageMerge_IN_Package_(packageMerge)" description="Creates one PackageMerge in Package">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_1pisAYGoEeqjxJ91AzqJlg" name="createPackageMerge_IN_Package" description="creates one PackageMerge in the context: Package">
+    <lhs xmi:id="_1pisAoGoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_1pisA4GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </nodes>
+      <nodes xmi:id="_1pisBIGoEeqjxJ91AzqJlg" name="Existing">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_1pisBYGoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_1pisBoGoEeqjxJ91AzqJlg" name="Selected" incoming="_1pisCoGoEeqjxJ91AzqJlg" outgoing="_1pisCYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </nodes>
+      <nodes xmi:id="_1pisB4GoEeqjxJ91AzqJlg" name="New" incoming="_1pisCYGoEeqjxJ91AzqJlg" outgoing="_1pisCoGoEeqjxJ91AzqJlg _1pisC4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//PackageMerge"/>
+      </nodes>
+      <nodes xmi:id="_1pisCIGoEeqjxJ91AzqJlg" name="Existing" incoming="_1pisC4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </nodes>
+      <edges xmi:id="_1pisCYGoEeqjxJ91AzqJlg" source="_1pisBoGoEeqjxJ91AzqJlg" target="_1pisB4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Package/packageMerge"/>
+      </edges>
+      <edges xmi:id="_1pisCoGoEeqjxJ91AzqJlg" source="_1pisB4GoEeqjxJ91AzqJlg" target="_1pisBoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//PackageMerge/receivingPackage"/>
+      </edges>
+      <edges xmi:id="_1pisC4GoEeqjxJ91AzqJlg" source="_1pisB4GoEeqjxJ91AzqJlg" target="_1pisCIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//PackageMerge/mergedPackage"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_1pisDIGoEeqjxJ91AzqJlg" origin="_1pisA4GoEeqjxJ91AzqJlg" image="_1pisBoGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_1pisDYGoEeqjxJ91AzqJlg" origin="_1pisBIGoEeqjxJ91AzqJlg" image="_1pisCIGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

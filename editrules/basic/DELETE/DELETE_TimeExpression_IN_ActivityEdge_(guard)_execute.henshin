@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_Ur-z4IGqEeqSC4bGMjXJ9g" name="DELETE_TimeExpression_IN_ActivityEdge_(guard)" description="Deletes one TimeExpression in ActivityEdge">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_Ur-z4YGqEeqSC4bGMjXJ9g" name="deleteTimeExpression_IN_ActivityEdge" description="deletes one TimeExpression in the context: ActivityEdge">
+    <lhs xmi:id="_Ur-z4oGqEeqSC4bGMjXJ9g" name="LHS">
+      <nodes xmi:id="_Ur-z44GqEeqSC4bGMjXJ9g" name="Selected" outgoing="_Ur-z5YGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityEdge"/>
+      </nodes>
+      <nodes xmi:id="_Ur-z5IGqEeqSC4bGMjXJ9g" name="ToBeDeleted" incoming="_Ur-z5YGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TimeExpression"/>
+      </nodes>
+      <edges xmi:id="_Ur-z5YGqEeqSC4bGMjXJ9g" source="_Ur-z44GqEeqSC4bGMjXJ9g" target="_Ur-z5IGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityEdge/guard"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_Ur-z5oGqEeqSC4bGMjXJ9g" name="RHS">
+      <nodes xmi:id="_Ur-z54GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityEdge"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_Ur-z6IGqEeqSC4bGMjXJ9g" origin="_Ur-z44GqEeqSC4bGMjXJ9g" image="_Ur-z54GqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

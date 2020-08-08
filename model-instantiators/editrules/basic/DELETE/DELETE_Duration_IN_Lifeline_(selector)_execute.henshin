@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_U0blQIGqEeqSC4bGMjXJ9g" name="DELETE_Duration_IN_Lifeline_(selector)" description="Deletes one Duration in Lifeline">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_U0blQYGqEeqSC4bGMjXJ9g" name="deleteDuration_IN_Lifeline" description="deletes one Duration in the context: Lifeline">
+    <lhs xmi:id="_U0blQoGqEeqSC4bGMjXJ9g" name="LHS">
+      <nodes xmi:id="_U0blQ4GqEeqSC4bGMjXJ9g" name="Selected" outgoing="_U0blRYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Lifeline"/>
+      </nodes>
+      <nodes xmi:id="_U0blRIGqEeqSC4bGMjXJ9g" name="ToBeDeleted" incoming="_U0blRYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Duration"/>
+      </nodes>
+      <edges xmi:id="_U0blRYGqEeqSC4bGMjXJ9g" source="_U0blQ4GqEeqSC4bGMjXJ9g" target="_U0blRIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Lifeline/selector"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_U0blRoGqEeqSC4bGMjXJ9g" name="RHS">
+      <nodes xmi:id="_U0blR4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Lifeline"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_U0blSIGqEeqSC4bGMjXJ9g" origin="_U0blQ4GqEeqSC4bGMjXJ9g" image="_U0blR4GqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

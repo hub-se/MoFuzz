@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_1MPE8IGoEeqjxJ91AzqJlg" name="DELETE_Parameter_IN_TemplateParameter_(ownedDefault)" description="Deletes one Parameter in TemplateParameter">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_1MPE8YGoEeqjxJ91AzqJlg" name="deleteParameter_IN_TemplateParameter" description="deletes one Parameter in the context: TemplateParameter">
+    <lhs xmi:id="_1MPE8oGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_1MPE84GoEeqjxJ91AzqJlg" name="Selected" outgoing="_1MPE9YGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameter"/>
+      </nodes>
+      <nodes xmi:id="_1MPE9IGoEeqjxJ91AzqJlg" name="ToBeDeleted" incoming="_1MPE9YGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Parameter"/>
+      </nodes>
+      <edges xmi:id="_1MPE9YGoEeqjxJ91AzqJlg" source="_1MPE84GoEeqjxJ91AzqJlg" target="_1MPE9IGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameter/ownedDefault"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_1MPE9oGoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_1MPE94GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameter"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_1MPsAIGoEeqjxJ91AzqJlg" origin="_1MPE84GoEeqjxJ91AzqJlg" image="_1MPE94GoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

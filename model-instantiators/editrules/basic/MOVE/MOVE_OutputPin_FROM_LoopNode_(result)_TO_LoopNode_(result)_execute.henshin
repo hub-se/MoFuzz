@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_T-KEkIGqEeqSC4bGMjXJ9g" name="MOVE_OutputPin_FROM_LoopNode_(result)_TO_LoopNode_(result)" description="MOVEs OutputPin from LoopNode(Reference:result) to LoopNode(Reference:result">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_T-KEkYGqEeqSC4bGMjXJ9g" name="moveOutputPin_FROM_LoopNode_result_TO_LoopNode_LoopNode" description="Moves OutputPin from LoopNode(Reference:result) toLoopNode(Reference:LoopNode)">
+    <lhs xmi:id="_T-KEkoGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_T-KEk4GqEeqSC4bGMjXJ9g" name="Selected" incoming="_T-KEloGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//OutputPin"/>
+      </nodes>
+      <nodes xmi:id="_T-KElIGqEeqSC4bGMjXJ9g" name="OldSource" outgoing="_T-KEloGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LoopNode"/>
+      </nodes>
+      <nodes xmi:id="_T-KElYGqEeqSC4bGMjXJ9g" name="NewSource">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LoopNode"/>
+      </nodes>
+      <edges xmi:id="_T-KEloGqEeqSC4bGMjXJ9g" source="_T-KElIGqEeqSC4bGMjXJ9g" target="_T-KEk4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LoopNode/result"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_T-KEl4GqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_T-KEmIGqEeqSC4bGMjXJ9g" name="Selected" incoming="_T-KEm4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//OutputPin"/>
+      </nodes>
+      <nodes xmi:id="_T-KEmYGqEeqSC4bGMjXJ9g" name="OldSource">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LoopNode"/>
+      </nodes>
+      <nodes xmi:id="_T-KEmoGqEeqSC4bGMjXJ9g" name="NewSource" outgoing="_T-KEm4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LoopNode"/>
+      </nodes>
+      <edges xmi:id="_T-KEm4GqEeqSC4bGMjXJ9g" source="_T-KEmoGqEeqSC4bGMjXJ9g" target="_T-KEmIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LoopNode/result"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_T-KEnIGqEeqSC4bGMjXJ9g" origin="_T-KEk4GqEeqSC4bGMjXJ9g" image="_T-KEmIGqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_T-KEnYGqEeqSC4bGMjXJ9g" origin="_T-KElIGqEeqSC4bGMjXJ9g" image="_T-KEmYGqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_T-KEnoGqEeqSC4bGMjXJ9g" origin="_T-KElYGqEeqSC4bGMjXJ9g" image="_T-KEmoGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

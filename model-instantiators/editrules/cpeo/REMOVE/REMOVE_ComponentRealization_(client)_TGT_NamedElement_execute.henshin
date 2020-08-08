@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_2NPO8IGoEeqjxJ91AzqJlg" name="REMOVE_ComponentRealization_(client)_TGT_NamedElement" description="Removes ComponentRealization's reference client the target NamedElement">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_2NPO8YGoEeqjxJ91AzqJlg" name="removeFromComponentRealization_client_NamedElement" description="Removes from ComponentRealization's reference client the target NamedElement">
+    <lhs xmi:id="_2NPO8oGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_2NPO84GoEeqjxJ91AzqJlg" name="Selected" outgoing="_2NPO9YGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ComponentRealization"/>
+      </nodes>
+      <nodes xmi:id="_2NPO9IGoEeqjxJ91AzqJlg" name="OldTarget" incoming="_2NPO9YGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//NamedElement"/>
+      </nodes>
+      <edges xmi:id="_2NPO9YGoEeqjxJ91AzqJlg" source="_2NPO84GoEeqjxJ91AzqJlg" target="_2NPO9IGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Dependency/client"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_2NPO9oGoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_2NPO94GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ComponentRealization"/>
+      </nodes>
+      <nodes xmi:id="_2NPO-IGoEeqjxJ91AzqJlg" name="OldTarget">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//NamedElement"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_2NPO-YGoEeqjxJ91AzqJlg" origin="_2NPO84GoEeqjxJ91AzqJlg" image="_2NPO94GoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_2NPO-oGoEeqjxJ91AzqJlg" origin="_2NPO9IGoEeqjxJ91AzqJlg" image="_2NPO-IGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

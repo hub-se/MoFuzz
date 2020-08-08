@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_2Nr64IGoEeqjxJ91AzqJlg" name="REMOVE_CommunicationPath_(redefinedClassifier)_TGT_Classifier" description="Removes CommunicationPath's reference redefinedClassifier the target Classifier">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_2Nr64YGoEeqjxJ91AzqJlg" name="removeFromCommunicationPath_redefinedClassifier_Classifier" description="Removes from CommunicationPath's reference redefinedClassifier the target Classifier">
+    <lhs xmi:id="_2Nr64oGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_2Nr644GoEeqjxJ91AzqJlg" name="Selected" outgoing="_2Nr65YGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//CommunicationPath"/>
+      </nodes>
+      <nodes xmi:id="_2Nr65IGoEeqjxJ91AzqJlg" name="OldTarget" incoming="_2Nr65YGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier"/>
+      </nodes>
+      <edges xmi:id="_2Nr65YGoEeqjxJ91AzqJlg" source="_2Nr644GoEeqjxJ91AzqJlg" target="_2Nr65IGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier/redefinedClassifier"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_2Nr65oGoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_2Nr654GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//CommunicationPath"/>
+      </nodes>
+      <nodes xmi:id="_2Nr66IGoEeqjxJ91AzqJlg" name="OldTarget">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_2Nr66YGoEeqjxJ91AzqJlg" origin="_2Nr644GoEeqjxJ91AzqJlg" image="_2Nr654GoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_2Nr66oGoEeqjxJ91AzqJlg" origin="_2Nr65IGoEeqjxJ91AzqJlg" image="_2Nr66IGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

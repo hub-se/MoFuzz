@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_1MTWYIGoEeqjxJ91AzqJlg" name="DELETE_SignalEvent_IN_TemplateParameter_(ownedDefault)" description="Deletes one SignalEvent in TemplateParameter">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_1MTWYYGoEeqjxJ91AzqJlg" name="deleteSignalEvent_IN_TemplateParameter" description="deletes one SignalEvent in the context: TemplateParameter">
+    <lhs xmi:id="_1MTWYoGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_1MTWY4GoEeqjxJ91AzqJlg" name="Selected" outgoing="_1MTWZoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameter"/>
+      </nodes>
+      <nodes xmi:id="_1MTWZIGoEeqjxJ91AzqJlg" name="ToBeDeleted" incoming="_1MTWZoGoEeqjxJ91AzqJlg" outgoing="_1MTWZ4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//SignalEvent"/>
+      </nodes>
+      <nodes xmi:id="_1MTWZYGoEeqjxJ91AzqJlg" name="Existing" incoming="_1MTWZ4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Signal"/>
+      </nodes>
+      <edges xmi:id="_1MTWZoGoEeqjxJ91AzqJlg" source="_1MTWY4GoEeqjxJ91AzqJlg" target="_1MTWZIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameter/ownedDefault"/>
+      </edges>
+      <edges xmi:id="_1MTWZ4GoEeqjxJ91AzqJlg" source="_1MTWZIGoEeqjxJ91AzqJlg" target="_1MTWZYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//SignalEvent/signal"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_1MTWaIGoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_1MTWaYGoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameter"/>
+      </nodes>
+      <nodes xmi:id="_1MTWaoGoEeqjxJ91AzqJlg" name="Existing">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Signal"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_1MTWa4GoEeqjxJ91AzqJlg" origin="_1MTWY4GoEeqjxJ91AzqJlg" image="_1MTWaYGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_1MTWbIGoEeqjxJ91AzqJlg" origin="_1MTWZYGoEeqjxJ91AzqJlg" image="_1MTWaoGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

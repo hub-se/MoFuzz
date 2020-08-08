@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UkLiwIGqEeqSC4bGMjXJ9g" name="DELETE_TimeConstraint_IN_Namespace_(ownedRule)" description="Deletes one TimeConstraint in Namespace">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UkLiwYGqEeqSC4bGMjXJ9g" name="deleteTimeConstraint_IN_Namespace" description="deletes one TimeConstraint in the context: Namespace">
+    <lhs xmi:id="_UkLiwoGqEeqSC4bGMjXJ9g" name="LHS">
+      <nodes xmi:id="_UkLiw4GqEeqSC4bGMjXJ9g" name="Selected" incoming="_UkLixoGqEeqSC4bGMjXJ9g" outgoing="_UkLixYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Namespace"/>
+      </nodes>
+      <nodes xmi:id="_UkLixIGqEeqSC4bGMjXJ9g" name="ToBeDeleted" incoming="_UkLixYGqEeqSC4bGMjXJ9g" outgoing="_UkLixoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TimeConstraint"/>
+      </nodes>
+      <edges xmi:id="_UkLixYGqEeqSC4bGMjXJ9g" source="_UkLiw4GqEeqSC4bGMjXJ9g" target="_UkLixIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Namespace/ownedRule"/>
+      </edges>
+      <edges xmi:id="_UkLixoGqEeqSC4bGMjXJ9g" source="_UkLixIGqEeqSC4bGMjXJ9g" target="_UkLiw4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Constraint/context"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_UkLix4GqEeqSC4bGMjXJ9g" name="RHS">
+      <nodes xmi:id="_UkLiyIGqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Namespace"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_UkLiyYGqEeqSC4bGMjXJ9g" origin="_UkLiw4GqEeqSC4bGMjXJ9g" image="_UkLiyIGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

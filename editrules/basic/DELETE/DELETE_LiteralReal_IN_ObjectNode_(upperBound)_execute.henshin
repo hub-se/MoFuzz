@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UqHysIGqEeqSC4bGMjXJ9g" name="DELETE_LiteralReal_IN_ObjectNode_(upperBound)" description="Deletes one LiteralReal in ObjectNode">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UqHysYGqEeqSC4bGMjXJ9g" name="deleteLiteralReal_IN_ObjectNode" description="deletes one LiteralReal in the context: ObjectNode">
+    <lhs xmi:id="_UqHysoGqEeqSC4bGMjXJ9g" name="LHS">
+      <nodes xmi:id="_UqHys4GqEeqSC4bGMjXJ9g" name="Selected" outgoing="_UqHytYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ObjectNode"/>
+      </nodes>
+      <nodes xmi:id="_UqHytIGqEeqSC4bGMjXJ9g" name="ToBeDeleted" incoming="_UqHytYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LiteralReal"/>
+      </nodes>
+      <edges xmi:id="_UqHytYGqEeqSC4bGMjXJ9g" source="_UqHys4GqEeqSC4bGMjXJ9g" target="_UqHytIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ObjectNode/upperBound"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_UqHytoGqEeqSC4bGMjXJ9g" name="RHS">
+      <nodes xmi:id="_UqHyt4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ObjectNode"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_UqHyuIGqEeqSC4bGMjXJ9g" origin="_UqHys4GqEeqSC4bGMjXJ9g" image="_UqHyt4GqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

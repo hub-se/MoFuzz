@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_12m3oIGoEeqjxJ91AzqJlg" name="CREATE_Expression_IN_InteractionConstraint_(minint)" description="Creates one Expression in InteractionConstraint">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_12m3oYGoEeqjxJ91AzqJlg" name="createExpression_IN_InteractionConstraint" description="creates one Expression in the context: InteractionConstraint">
+    <lhs xmi:id="_12m3ooGoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_12m3o4GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InteractionConstraint"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_12m3pIGoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_12m3pYGoEeqjxJ91AzqJlg" name="Selected" outgoing="_12m3p4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InteractionConstraint"/>
+      </nodes>
+      <nodes xmi:id="_12m3poGoEeqjxJ91AzqJlg" name="New" incoming="_12m3p4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Expression"/>
+      </nodes>
+      <edges xmi:id="_12m3p4GoEeqjxJ91AzqJlg" source="_12m3pYGoEeqjxJ91AzqJlg" target="_12m3poGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InteractionConstraint/minint"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_12m3qIGoEeqjxJ91AzqJlg" origin="_12m3o4GoEeqjxJ91AzqJlg" image="_12m3pYGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_Uodl0IGqEeqSC4bGMjXJ9g" name="DELETE_Manifestation_IN_Artifact_(manifestation)" description="Deletes one Manifestation in Artifact">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_Uodl0YGqEeqSC4bGMjXJ9g" name="deleteManifestation_IN_Artifact" description="deletes one Manifestation in the context: Artifact">
+    <lhs xmi:id="_Uodl0oGqEeqSC4bGMjXJ9g" name="LHS">
+      <nodes xmi:id="_Uodl04GqEeqSC4bGMjXJ9g" name="Selected" outgoing="_Uodl1YGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Artifact"/>
+      </nodes>
+      <nodes xmi:id="_Uodl1IGqEeqSC4bGMjXJ9g" name="ToBeDeleted" incoming="_Uodl1YGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Manifestation"/>
+      </nodes>
+      <edges xmi:id="_Uodl1YGqEeqSC4bGMjXJ9g" source="_Uodl04GqEeqSC4bGMjXJ9g" target="_Uodl1IGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Artifact/manifestation"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_Uodl1oGqEeqSC4bGMjXJ9g" name="RHS">
+      <nodes xmi:id="_Uodl14GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Artifact"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_Uodl2IGqEeqSC4bGMjXJ9g" origin="_Uodl04GqEeqSC4bGMjXJ9g" image="_Uodl14GqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

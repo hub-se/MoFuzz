@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_16f5IIGoEeqjxJ91AzqJlg" name="CREATE_LiteralNull_IN_TemplateParameter_(ownedDefault)" description="Creates one LiteralNull in TemplateParameter">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_16f5IYGoEeqjxJ91AzqJlg" name="createLiteralNull_IN_TemplateParameter" description="creates one LiteralNull in the context: TemplateParameter">
+    <lhs xmi:id="_16f5IoGoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_16f5I4GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameter"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_16f5JIGoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_16f5JYGoEeqjxJ91AzqJlg" name="Selected" outgoing="_16f5J4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameter"/>
+      </nodes>
+      <nodes xmi:id="_16f5JoGoEeqjxJ91AzqJlg" name="New" incoming="_16f5J4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LiteralNull"/>
+      </nodes>
+      <edges xmi:id="_16f5J4GoEeqjxJ91AzqJlg" source="_16f5JYGoEeqjxJ91AzqJlg" target="_16f5JoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameter/ownedDefault"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_16f5KIGoEeqjxJ91AzqJlg" origin="_16f5I4GoEeqjxJ91AzqJlg" image="_16f5JYGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

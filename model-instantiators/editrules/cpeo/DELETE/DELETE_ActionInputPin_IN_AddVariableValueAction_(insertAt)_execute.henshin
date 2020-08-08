@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_0-ZdQIGoEeqjxJ91AzqJlg" name="DELETE_ActionInputPin_IN_AddVariableValueAction_(insertAt)" description="Deletes one ActionInputPin in AddVariableValueAction">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_0-ZdQYGoEeqjxJ91AzqJlg" name="deleteActionInputPin_IN_AddVariableValueAction" description="deletes one ActionInputPin in the context: AddVariableValueAction">
+    <lhs xmi:id="_0-ZdQoGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_0-ZdQ4GoEeqjxJ91AzqJlg" name="Selected" outgoing="_0-ZdRoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//AddVariableValueAction"/>
+      </nodes>
+      <nodes xmi:id="_0-ZdRIGoEeqjxJ91AzqJlg" name="ToBeDeleted" incoming="_0-ZdRoGoEeqjxJ91AzqJlg" outgoing="_0-ZdR4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActionInputPin"/>
+      </nodes>
+      <nodes xmi:id="_0-ZdRYGoEeqjxJ91AzqJlg" name="Child" incoming="_0-ZdR4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Action"/>
+      </nodes>
+      <edges xmi:id="_0-ZdRoGoEeqjxJ91AzqJlg" source="_0-ZdQ4GoEeqjxJ91AzqJlg" target="_0-ZdRIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//AddVariableValueAction/insertAt"/>
+      </edges>
+      <edges xmi:id="_0-ZdR4GoEeqjxJ91AzqJlg" source="_0-ZdRIGoEeqjxJ91AzqJlg" target="_0-ZdRYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActionInputPin/fromAction"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_0-ZdSIGoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_0-ZdSYGoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//AddVariableValueAction"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_0-ZdSoGoEeqjxJ91AzqJlg" origin="_0-ZdQ4GoEeqjxJ91AzqJlg" image="_0-ZdSYGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

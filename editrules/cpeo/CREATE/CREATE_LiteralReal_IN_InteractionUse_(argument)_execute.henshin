@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_167W8IGoEeqjxJ91AzqJlg" name="CREATE_LiteralReal_IN_InteractionUse_(argument)" description="Creates one LiteralReal in InteractionUse">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_167W8YGoEeqjxJ91AzqJlg" name="createLiteralReal_IN_InteractionUse" description="creates one LiteralReal in the context: InteractionUse">
+    <parameters xmi:id="_167W8oGoEeqjxJ91AzqJlg" name="Value" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Real"/>
+    </parameters>
+    <lhs xmi:id="_167W84GoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_167W9IGoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InteractionUse"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_167W9YGoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_167W9oGoEeqjxJ91AzqJlg" name="Selected" outgoing="_167W-YGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InteractionUse"/>
+      </nodes>
+      <nodes xmi:id="_167W94GoEeqjxJ91AzqJlg" name="New" incoming="_167W-YGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LiteralReal"/>
+        <attributes xmi:id="_167W-IGoEeqjxJ91AzqJlg" value="Value">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LiteralReal/value"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_167W-YGoEeqjxJ91AzqJlg" source="_167W9oGoEeqjxJ91AzqJlg" target="_167W94GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InteractionUse/argument"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_167W-oGoEeqjxJ91AzqJlg" origin="_167W9IGoEeqjxJ91AzqJlg" image="_167W9oGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

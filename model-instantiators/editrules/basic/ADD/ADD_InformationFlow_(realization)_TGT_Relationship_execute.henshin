@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_VA-zgIGqEeqSC4bGMjXJ9g" name="ADD_InformationFlow_(realization)_TGT_Relationship" description="Adds to InformationFlow's reference realization the target Relationship">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_VA-zgYGqEeqSC4bGMjXJ9g" name="addToInformationFlow_realization_Relationship" description="Adds to InformationFlow's reference realization the target Relationship">
+    <lhs xmi:id="_VA-zgoGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_VA-zg4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InformationFlow"/>
+      </nodes>
+      <nodes xmi:id="_VA-zhIGqEeqSC4bGMjXJ9g" name="NewTarget">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Relationship"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_VA-zhYGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_VA-zhoGqEeqSC4bGMjXJ9g" name="Selected" outgoing="_VA-ziIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InformationFlow"/>
+      </nodes>
+      <nodes xmi:id="_VA-zh4GqEeqSC4bGMjXJ9g" name="NewTarget" incoming="_VA-ziIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Relationship"/>
+      </nodes>
+      <edges xmi:id="_VA-ziIGqEeqSC4bGMjXJ9g" source="_VA-zhoGqEeqSC4bGMjXJ9g" target="_VA-zh4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InformationFlow/realization"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_VA-ziYGqEeqSC4bGMjXJ9g" origin="_VA-zg4GqEeqSC4bGMjXJ9g" image="_VA-zhoGqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_VA-zioGqEeqSC4bGMjXJ9g" origin="_VA-zhIGqEeqSC4bGMjXJ9g" image="_VA-zh4GqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

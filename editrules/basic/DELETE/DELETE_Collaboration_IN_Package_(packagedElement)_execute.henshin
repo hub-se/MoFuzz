@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_Ut11EIGqEeqSC4bGMjXJ9g" name="DELETE_Collaboration_IN_Package_(packagedElement)" description="Deletes one Collaboration in Package">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_Ut11EYGqEeqSC4bGMjXJ9g" name="deleteCollaboration_IN_Package" description="deletes one Collaboration in the context: Package">
+    <lhs xmi:id="_Ut11EoGqEeqSC4bGMjXJ9g" name="LHS">
+      <nodes xmi:id="_Ut11E4GqEeqSC4bGMjXJ9g" name="Selected" outgoing="_Ut11FYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </nodes>
+      <nodes xmi:id="_Ut11FIGqEeqSC4bGMjXJ9g" name="ToBeDeleted" incoming="_Ut11FYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Collaboration"/>
+      </nodes>
+      <edges xmi:id="_Ut11FYGqEeqSC4bGMjXJ9g" source="_Ut11E4GqEeqSC4bGMjXJ9g" target="_Ut11FIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Package/packagedElement"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_Ut11FoGqEeqSC4bGMjXJ9g" name="RHS">
+      <nodes xmi:id="_Ut11F4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_Ut11GIGqEeqSC4bGMjXJ9g" origin="_Ut11E4GqEeqSC4bGMjXJ9g" image="_Ut11F4GqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

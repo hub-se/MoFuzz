@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_TX1EYIGqEeqSC4bGMjXJ9g" name="REMOVE_DurationConstraint_(constrainedElement)_TGT_Element" description="Removes DurationConstraint's reference constrainedElement the target Element">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_TX1rcIGqEeqSC4bGMjXJ9g" name="removeFromDurationConstraint_constrainedElement_Element" description="Removes from DurationConstraint's reference constrainedElement the target Element">
+    <lhs xmi:id="_TX1rcYGqEeqSC4bGMjXJ9g" name="LHS">
+      <nodes xmi:id="_TX1rcoGqEeqSC4bGMjXJ9g" name="Selected" outgoing="_TX1rdIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//DurationConstraint"/>
+      </nodes>
+      <nodes xmi:id="_TX1rc4GqEeqSC4bGMjXJ9g" name="OldTarget" incoming="_TX1rdIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Element"/>
+      </nodes>
+      <edges xmi:id="_TX1rdIGqEeqSC4bGMjXJ9g" source="_TX1rcoGqEeqSC4bGMjXJ9g" target="_TX1rc4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Constraint/constrainedElement"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_TX1rdYGqEeqSC4bGMjXJ9g" name="RHS">
+      <nodes xmi:id="_TX1rdoGqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//DurationConstraint"/>
+      </nodes>
+      <nodes xmi:id="_TX1rd4GqEeqSC4bGMjXJ9g" name="OldTarget">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Element"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_TX1reIGqEeqSC4bGMjXJ9g" origin="_TX1rcoGqEeqSC4bGMjXJ9g" image="_TX1rdoGqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_TX1reYGqEeqSC4bGMjXJ9g" origin="_TX1rc4GqEeqSC4bGMjXJ9g" image="_TX1rd4GqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

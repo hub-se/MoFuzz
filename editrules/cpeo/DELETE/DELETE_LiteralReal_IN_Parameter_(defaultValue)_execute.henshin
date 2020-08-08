@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_1Ho40IGoEeqjxJ91AzqJlg" name="DELETE_LiteralReal_IN_Parameter_(defaultValue)" description="Deletes one LiteralReal in Parameter">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_1Ho40YGoEeqjxJ91AzqJlg" name="deleteLiteralReal_IN_Parameter" description="deletes one LiteralReal in the context: Parameter">
+    <lhs xmi:id="_1Ho40oGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_1Ho404GoEeqjxJ91AzqJlg" name="Selected" outgoing="_1Ho41YGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Parameter"/>
+      </nodes>
+      <nodes xmi:id="_1Ho41IGoEeqjxJ91AzqJlg" name="ToBeDeleted" incoming="_1Ho41YGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LiteralReal"/>
+      </nodes>
+      <edges xmi:id="_1Ho41YGoEeqjxJ91AzqJlg" source="_1Ho404GoEeqjxJ91AzqJlg" target="_1Ho41IGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Parameter/defaultValue"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_1Ho41oGoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_1Ho414GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Parameter"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_1Ho42IGoEeqjxJ91AzqJlg" origin="_1Ho404GoEeqjxJ91AzqJlg" image="_1Ho414GoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

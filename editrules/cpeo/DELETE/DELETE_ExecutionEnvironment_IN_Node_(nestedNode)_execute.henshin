@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_07CAMIGoEeqjxJ91AzqJlg" name="DELETE_ExecutionEnvironment_IN_Node_(nestedNode)" description="Deletes one ExecutionEnvironment in Node">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_07CAMYGoEeqjxJ91AzqJlg" name="deleteExecutionEnvironment_IN_Node" description="deletes one ExecutionEnvironment in the context: Node">
+    <lhs xmi:id="_07CAMoGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_07CAM4GoEeqjxJ91AzqJlg" name="Selected" outgoing="_07CANYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Node"/>
+      </nodes>
+      <nodes xmi:id="_07CANIGoEeqjxJ91AzqJlg" name="ToBeDeleted" incoming="_07CANYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ExecutionEnvironment"/>
+      </nodes>
+      <edges xmi:id="_07CANYGoEeqjxJ91AzqJlg" source="_07CAM4GoEeqjxJ91AzqJlg" target="_07CANIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Node/nestedNode"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_07CANoGoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_07CAN4GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Node"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_07CAOIGoEeqjxJ91AzqJlg" origin="_07CAM4GoEeqjxJ91AzqJlg" image="_07CAN4GoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

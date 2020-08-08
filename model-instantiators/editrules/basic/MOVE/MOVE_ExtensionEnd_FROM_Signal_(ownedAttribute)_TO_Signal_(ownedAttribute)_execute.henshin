@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_T1GPMIGqEeqSC4bGMjXJ9g" name="MOVE_ExtensionEnd_FROM_Signal_(ownedAttribute)_TO_Signal_(ownedAttribute)" description="MOVEs ExtensionEnd from Signal(Reference:ownedAttribute) to Signal(Reference:ownedAttribute">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_T1GPMYGqEeqSC4bGMjXJ9g" name="moveExtensionEnd_FROM_Signal_ownedAttribute_TO_Signal_Signal" description="Moves ExtensionEnd from Signal(Reference:ownedAttribute) toSignal(Reference:Signal)">
+    <lhs xmi:id="_T1GPMoGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_T1GPM4GqEeqSC4bGMjXJ9g" name="Selected" incoming="_T1GPNoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ExtensionEnd"/>
+      </nodes>
+      <nodes xmi:id="_T1GPNIGqEeqSC4bGMjXJ9g" name="OldSource" outgoing="_T1GPNoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Signal"/>
+      </nodes>
+      <nodes xmi:id="_T1GPNYGqEeqSC4bGMjXJ9g" name="NewSource">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Signal"/>
+      </nodes>
+      <edges xmi:id="_T1GPNoGqEeqSC4bGMjXJ9g" source="_T1GPNIGqEeqSC4bGMjXJ9g" target="_T1GPM4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Signal/ownedAttribute"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_T1GPN4GqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_T1GPOIGqEeqSC4bGMjXJ9g" name="Selected" incoming="_T1GPO4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ExtensionEnd"/>
+      </nodes>
+      <nodes xmi:id="_T1GPOYGqEeqSC4bGMjXJ9g" name="OldSource">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Signal"/>
+      </nodes>
+      <nodes xmi:id="_T1GPOoGqEeqSC4bGMjXJ9g" name="NewSource" outgoing="_T1GPO4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Signal"/>
+      </nodes>
+      <edges xmi:id="_T1GPO4GqEeqSC4bGMjXJ9g" source="_T1GPOoGqEeqSC4bGMjXJ9g" target="_T1GPOIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Signal/ownedAttribute"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_T1GPPIGqEeqSC4bGMjXJ9g" origin="_T1GPM4GqEeqSC4bGMjXJ9g" image="_T1GPOIGqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_T1GPPYGqEeqSC4bGMjXJ9g" origin="_T1GPNIGqEeqSC4bGMjXJ9g" image="_T1GPOYGqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_T1GPPoGqEeqSC4bGMjXJ9g" origin="_T1GPNYGqEeqSC4bGMjXJ9g" image="_T1GPOoGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

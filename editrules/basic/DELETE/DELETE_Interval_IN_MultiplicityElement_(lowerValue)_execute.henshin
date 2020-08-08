@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_Ukpc0IGqEeqSC4bGMjXJ9g" name="DELETE_Interval_IN_MultiplicityElement_(lowerValue)" description="Deletes one Interval in MultiplicityElement">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UkqD4IGqEeqSC4bGMjXJ9g" name="deleteInterval_IN_MultiplicityElement" description="deletes one Interval in the context: MultiplicityElement">
+    <lhs xmi:id="_UkqD4YGqEeqSC4bGMjXJ9g" name="LHS">
+      <nodes xmi:id="_UkqD4oGqEeqSC4bGMjXJ9g" name="Selected" outgoing="_UkqD5IGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//MultiplicityElement"/>
+      </nodes>
+      <nodes xmi:id="_UkqD44GqEeqSC4bGMjXJ9g" name="ToBeDeleted" incoming="_UkqD5IGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Interval"/>
+      </nodes>
+      <edges xmi:id="_UkqD5IGqEeqSC4bGMjXJ9g" source="_UkqD4oGqEeqSC4bGMjXJ9g" target="_UkqD44GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//MultiplicityElement/lowerValue"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_UkqD5YGqEeqSC4bGMjXJ9g" name="RHS">
+      <nodes xmi:id="_UkqD5oGqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//MultiplicityElement"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_UkqD54GqEeqSC4bGMjXJ9g" origin="_UkqD4oGqEeqSC4bGMjXJ9g" image="_UkqD5oGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

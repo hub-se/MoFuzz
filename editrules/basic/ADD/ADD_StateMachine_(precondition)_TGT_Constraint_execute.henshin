@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_VB-SAIGqEeqSC4bGMjXJ9g" name="ADD_StateMachine_(precondition)_TGT_Constraint" description="Adds to StateMachine's reference precondition the target Constraint">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_VB-SAYGqEeqSC4bGMjXJ9g" name="addToStateMachine_precondition_Constraint" description="Adds to StateMachine's reference precondition the target Constraint">
+    <lhs xmi:id="_VB-SAoGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_VB-SA4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//StateMachine"/>
+      </nodes>
+      <nodes xmi:id="_VB-SBIGqEeqSC4bGMjXJ9g" name="NewTarget">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Constraint"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_VB-SBYGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_VB-SBoGqEeqSC4bGMjXJ9g" name="Selected" outgoing="_VB-SCIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//StateMachine"/>
+      </nodes>
+      <nodes xmi:id="_VB-SB4GqEeqSC4bGMjXJ9g" name="NewTarget" incoming="_VB-SCIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Constraint"/>
+      </nodes>
+      <edges xmi:id="_VB-SCIGqEeqSC4bGMjXJ9g" source="_VB-SBoGqEeqSC4bGMjXJ9g" target="_VB-SB4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Behavior/precondition"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_VB-SCYGqEeqSC4bGMjXJ9g" origin="_VB-SA4GqEeqSC4bGMjXJ9g" image="_VB-SBoGqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_VB-SCoGqEeqSC4bGMjXJ9g" origin="_VB-SBIGqEeqSC4bGMjXJ9g" image="_VB-SB4GqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

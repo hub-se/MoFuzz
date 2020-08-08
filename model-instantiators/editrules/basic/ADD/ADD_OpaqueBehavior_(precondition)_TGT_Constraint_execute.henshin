@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_VBZqQIGqEeqSC4bGMjXJ9g" name="ADD_OpaqueBehavior_(precondition)_TGT_Constraint" description="Adds to OpaqueBehavior's reference precondition the target Constraint">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_VBZqQYGqEeqSC4bGMjXJ9g" name="addToOpaqueBehavior_precondition_Constraint" description="Adds to OpaqueBehavior's reference precondition the target Constraint">
+    <lhs xmi:id="_VBZqQoGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_VBZqQ4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//OpaqueBehavior"/>
+      </nodes>
+      <nodes xmi:id="_VBZqRIGqEeqSC4bGMjXJ9g" name="NewTarget">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Constraint"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_VBZqRYGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_VBZqRoGqEeqSC4bGMjXJ9g" name="Selected" outgoing="_VBZqSIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//OpaqueBehavior"/>
+      </nodes>
+      <nodes xmi:id="_VBZqR4GqEeqSC4bGMjXJ9g" name="NewTarget" incoming="_VBZqSIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Constraint"/>
+      </nodes>
+      <edges xmi:id="_VBZqSIGqEeqSC4bGMjXJ9g" source="_VBZqRoGqEeqSC4bGMjXJ9g" target="_VBZqR4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Behavior/precondition"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_VBZqSYGqEeqSC4bGMjXJ9g" origin="_VBZqQ4GqEeqSC4bGMjXJ9g" image="_VBZqRoGqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_VBZqSoGqEeqSC4bGMjXJ9g" origin="_VBZqRIGqEeqSC4bGMjXJ9g" image="_VBZqR4GqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

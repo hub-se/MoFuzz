@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_Uak60IGqEeqSC4bGMjXJ9g" name="CREATE_Gate_IN_Interaction_(formalGate)" description="Creates one Gate in Interaction">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_Uak60YGqEeqSC4bGMjXJ9g" name="createGate_IN_Interaction" description="creates one Gate in the context: Interaction">
+    <lhs xmi:id="_Uak60oGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_Uak604GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Interaction"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_Uak61IGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_Uak61YGqEeqSC4bGMjXJ9g" name="Selected" outgoing="_Uak614GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Interaction"/>
+      </nodes>
+      <nodes xmi:id="_Uak61oGqEeqSC4bGMjXJ9g" name="New" incoming="_Uak614GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Gate"/>
+      </nodes>
+      <edges xmi:id="_Uak614GqEeqSC4bGMjXJ9g" source="_Uak61YGqEeqSC4bGMjXJ9g" target="_Uak61oGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Interaction/formalGate"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_Uak62IGqEeqSC4bGMjXJ9g" origin="_Uak604GqEeqSC4bGMjXJ9g" image="_Uak61YGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

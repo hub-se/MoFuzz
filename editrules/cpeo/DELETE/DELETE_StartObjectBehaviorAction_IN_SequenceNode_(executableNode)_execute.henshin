@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_0_55IIGoEeqjxJ91AzqJlg" name="DELETE_StartObjectBehaviorAction_IN_SequenceNode_(executableNode)" description="Deletes one StartObjectBehaviorAction in SequenceNode">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_0_55IYGoEeqjxJ91AzqJlg" name="deleteStartObjectBehaviorAction_IN_SequenceNode" description="deletes one StartObjectBehaviorAction in the context: SequenceNode">
+    <lhs xmi:id="_0_55IoGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_0_55I4GoEeqjxJ91AzqJlg" name="Selected" outgoing="_0_55JoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//SequenceNode"/>
+      </nodes>
+      <nodes xmi:id="_0_55JIGoEeqjxJ91AzqJlg" name="ToBeDeleted" incoming="_0_55JoGoEeqjxJ91AzqJlg" outgoing="_0_55J4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//StartObjectBehaviorAction"/>
+      </nodes>
+      <nodes xmi:id="_0_55JYGoEeqjxJ91AzqJlg" name="Child" incoming="_0_55J4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InputPin"/>
+      </nodes>
+      <edges xmi:id="_0_55JoGoEeqjxJ91AzqJlg" source="_0_55I4GoEeqjxJ91AzqJlg" target="_0_55JIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//SequenceNode/executableNode"/>
+      </edges>
+      <edges xmi:id="_0_55J4GoEeqjxJ91AzqJlg" source="_0_55JIGoEeqjxJ91AzqJlg" target="_0_55JYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//StartObjectBehaviorAction/object"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_0_55KIGoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_0_55KYGoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//SequenceNode"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_0_55KoGoEeqjxJ91AzqJlg" origin="_0_55I4GoEeqjxJ91AzqJlg" image="_0_55KYGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

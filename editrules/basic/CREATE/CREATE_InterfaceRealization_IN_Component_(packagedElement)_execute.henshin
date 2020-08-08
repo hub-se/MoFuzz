@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_Uh5DwIGqEeqSC4bGMjXJ9g" name="CREATE_InterfaceRealization_IN_Component_(packagedElement)" description="Creates one InterfaceRealization in Component">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_Uh5DwYGqEeqSC4bGMjXJ9g" name="createInterfaceRealization_IN_Component" description="creates one InterfaceRealization in the context: Component">
+    <lhs xmi:id="_Uh5DwoGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_Uh5Dw4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Component"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_Uh5DxIGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_Uh5DxYGqEeqSC4bGMjXJ9g" name="Selected" outgoing="_Uh5Dx4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Component"/>
+      </nodes>
+      <nodes xmi:id="_Uh5DxoGqEeqSC4bGMjXJ9g" name="New" incoming="_Uh5Dx4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InterfaceRealization"/>
+      </nodes>
+      <edges xmi:id="_Uh5Dx4GqEeqSC4bGMjXJ9g" source="_Uh5DxYGqEeqSC4bGMjXJ9g" target="_Uh5DxoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Component/packagedElement"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_Uh5DyIGqEeqSC4bGMjXJ9g" origin="_Uh5Dw4GqEeqSC4bGMjXJ9g" image="_Uh5DxYGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

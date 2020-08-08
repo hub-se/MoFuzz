@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_Ut7UoIGqEeqSC4bGMjXJ9g" name="DELETE_DurationConstraint_IN_Action_(localPostcondition)" description="Deletes one DurationConstraint in Action">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_Ut7UoYGqEeqSC4bGMjXJ9g" name="deleteDurationConstraint_IN_Action" description="deletes one DurationConstraint in the context: Action">
+    <lhs xmi:id="_Ut7UooGqEeqSC4bGMjXJ9g" name="LHS">
+      <nodes xmi:id="_Ut7Uo4GqEeqSC4bGMjXJ9g" name="Selected" outgoing="_Ut7UpYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Action"/>
+      </nodes>
+      <nodes xmi:id="_Ut7UpIGqEeqSC4bGMjXJ9g" name="ToBeDeleted" incoming="_Ut7UpYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//DurationConstraint"/>
+      </nodes>
+      <edges xmi:id="_Ut7UpYGqEeqSC4bGMjXJ9g" source="_Ut7Uo4GqEeqSC4bGMjXJ9g" target="_Ut7UpIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Action/localPostcondition"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_Ut7UpoGqEeqSC4bGMjXJ9g" name="RHS">
+      <nodes xmi:id="_Ut7Up4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Action"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_Ut7UqIGqEeqSC4bGMjXJ9g" origin="_Ut7Uo4GqEeqSC4bGMjXJ9g" image="_Ut7Up4GqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

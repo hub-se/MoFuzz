@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_1B1LwIGoEeqjxJ91AzqJlg" name="DELETE_Image_IN_Stereotype_(icon)" description="Deletes one Image in Stereotype">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_1B1LwYGoEeqjxJ91AzqJlg" name="deleteImage_IN_Stereotype" description="deletes one Image in the context: Stereotype">
+    <lhs xmi:id="_1B1LwoGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_1B1Lw4GoEeqjxJ91AzqJlg" name="Selected" outgoing="_1B1LxYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Stereotype"/>
+      </nodes>
+      <nodes xmi:id="_1B1LxIGoEeqjxJ91AzqJlg" name="ToBeDeleted" incoming="_1B1LxYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Image"/>
+      </nodes>
+      <edges xmi:id="_1B1LxYGoEeqjxJ91AzqJlg" source="_1B1Lw4GoEeqjxJ91AzqJlg" target="_1B1LxIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Stereotype/icon"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_1B1LxoGoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_1B1Lx4GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Stereotype"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_1B1LyIGoEeqjxJ91AzqJlg" origin="_1B1Lw4GoEeqjxJ91AzqJlg" image="_1B1Lx4GoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

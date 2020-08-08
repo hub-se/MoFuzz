@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UKM8gIGqEeqSC4bGMjXJ9g" name="CREATE_LiteralReal_IN_Message_(argument)" description="Creates one LiteralReal in Message">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UKM8gYGqEeqSC4bGMjXJ9g" name="createLiteralReal_IN_Message" description="creates one LiteralReal in the context: Message">
+    <parameters xmi:id="_UKM8goGqEeqSC4bGMjXJ9g" name="Value" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Real"/>
+    </parameters>
+    <lhs xmi:id="_UKM8g4GqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_UKM8hIGqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Message"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_UKM8hYGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_UKM8hoGqEeqSC4bGMjXJ9g" name="Selected" outgoing="_UKM8iYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Message"/>
+      </nodes>
+      <nodes xmi:id="_UKM8h4GqEeqSC4bGMjXJ9g" name="New" incoming="_UKM8iYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LiteralReal"/>
+        <attributes xmi:id="_UKM8iIGqEeqSC4bGMjXJ9g" value="Value">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LiteralReal/value"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_UKM8iYGqEeqSC4bGMjXJ9g" source="_UKM8hoGqEeqSC4bGMjXJ9g" target="_UKM8h4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Message/argument"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_UKM8ioGqEeqSC4bGMjXJ9g" origin="_UKM8hIGqEeqSC4bGMjXJ9g" image="_UKM8hoGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

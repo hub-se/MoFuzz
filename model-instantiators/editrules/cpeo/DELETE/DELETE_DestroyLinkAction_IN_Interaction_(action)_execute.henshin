@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_09I5AIGoEeqjxJ91AzqJlg" name="DELETE_DestroyLinkAction_IN_Interaction_(action)" description="Deletes one DestroyLinkAction in Interaction">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_09I5AYGoEeqjxJ91AzqJlg" name="deleteDestroyLinkAction_IN_Interaction" description="deletes one DestroyLinkAction in the context: Interaction">
+    <lhs xmi:id="_09I5AoGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_09I5A4GoEeqjxJ91AzqJlg" name="Selected" outgoing="_09I5CoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Interaction"/>
+      </nodes>
+      <nodes xmi:id="_09I5BIGoEeqjxJ91AzqJlg" name="ToBeDeleted" incoming="_09I5CoGoEeqjxJ91AzqJlg" outgoing="_09I5C4GoEeqjxJ91AzqJlg _09I5DIGoEeqjxJ91AzqJlg _09I5DoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//DestroyLinkAction"/>
+      </nodes>
+      <nodes xmi:id="_09I5BYGoEeqjxJ91AzqJlg" name="Child" incoming="_09I5C4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InputPin"/>
+      </nodes>
+      <nodes xmi:id="_09I5BoGoEeqjxJ91AzqJlg" name="Child1" incoming="_09I5DIGoEeqjxJ91AzqJlg" outgoing="_09I5DYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LinkEndDestructionData"/>
+      </nodes>
+      <nodes xmi:id="_09I5B4GoEeqjxJ91AzqJlg" name="Existing" incoming="_09I5DYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Property"/>
+      </nodes>
+      <nodes xmi:id="_09I5CIGoEeqjxJ91AzqJlg" name="Child2" incoming="_09I5DoGoEeqjxJ91AzqJlg" outgoing="_09I5D4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LinkEndDestructionData"/>
+      </nodes>
+      <nodes xmi:id="_09I5CYGoEeqjxJ91AzqJlg" name="Existing1" incoming="_09I5D4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Property"/>
+      </nodes>
+      <edges xmi:id="_09I5CoGoEeqjxJ91AzqJlg" source="_09I5A4GoEeqjxJ91AzqJlg" target="_09I5BIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Interaction/action"/>
+      </edges>
+      <edges xmi:id="_09I5C4GoEeqjxJ91AzqJlg" source="_09I5BIGoEeqjxJ91AzqJlg" target="_09I5BYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LinkAction/inputValue"/>
+      </edges>
+      <edges xmi:id="_09I5DIGoEeqjxJ91AzqJlg" source="_09I5BIGoEeqjxJ91AzqJlg" target="_09I5BoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LinkAction/endData"/>
+      </edges>
+      <edges xmi:id="_09I5DYGoEeqjxJ91AzqJlg" source="_09I5BoGoEeqjxJ91AzqJlg" target="_09I5B4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LinkEndData/end"/>
+      </edges>
+      <edges xmi:id="_09I5DoGoEeqjxJ91AzqJlg" source="_09I5BIGoEeqjxJ91AzqJlg" target="_09I5CIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LinkAction/endData"/>
+      </edges>
+      <edges xmi:id="_09I5D4GoEeqjxJ91AzqJlg" source="_09I5CIGoEeqjxJ91AzqJlg" target="_09I5CYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LinkEndData/end"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_09I5EIGoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_09I5EYGoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Interaction"/>
+      </nodes>
+      <nodes xmi:id="_09I5EoGoEeqjxJ91AzqJlg" name="Existing">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Property"/>
+      </nodes>
+      <nodes xmi:id="_09I5E4GoEeqjxJ91AzqJlg" name="Existing1">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Property"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_09I5FIGoEeqjxJ91AzqJlg" origin="_09I5A4GoEeqjxJ91AzqJlg" image="_09I5EYGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_09I5FYGoEeqjxJ91AzqJlg" origin="_09I5B4GoEeqjxJ91AzqJlg" image="_09I5EoGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_09I5FoGoEeqjxJ91AzqJlg" origin="_09I5CYGoEeqjxJ91AzqJlg" image="_09I5E4GoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

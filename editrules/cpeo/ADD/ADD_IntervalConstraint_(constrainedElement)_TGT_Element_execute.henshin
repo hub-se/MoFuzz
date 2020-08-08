@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_1X6JcIGoEeqjxJ91AzqJlg" name="ADD_IntervalConstraint_(constrainedElement)_TGT_Element" description="Adds to IntervalConstraint's reference constrainedElement the target Element">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_1X6JcYGoEeqjxJ91AzqJlg" name="addToIntervalConstraint_constrainedElement_Element" description="Adds to IntervalConstraint's reference constrainedElement the target Element">
+    <lhs xmi:id="_1X6JcoGoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_1X6Jc4GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//IntervalConstraint"/>
+      </nodes>
+      <nodes xmi:id="_1X6JdIGoEeqjxJ91AzqJlg" name="NewTarget">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Element"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_1X6JdYGoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_1X6JdoGoEeqjxJ91AzqJlg" name="Selected" outgoing="_1X6JeIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//IntervalConstraint"/>
+      </nodes>
+      <nodes xmi:id="_1X6Jd4GoEeqjxJ91AzqJlg" name="NewTarget" incoming="_1X6JeIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Element"/>
+      </nodes>
+      <edges xmi:id="_1X6JeIGoEeqjxJ91AzqJlg" source="_1X6JdoGoEeqjxJ91AzqJlg" target="_1X6Jd4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Constraint/constrainedElement"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_1X6JeYGoEeqjxJ91AzqJlg" origin="_1X6Jc4GoEeqjxJ91AzqJlg" image="_1X6JdoGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_1X6JeoGoEeqjxJ91AzqJlg" origin="_1X6JdIGoEeqjxJ91AzqJlg" image="_1X6Jd4GoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UndgQIGqEeqSC4bGMjXJ9g" name="DELETE_InstanceValue_IN_Parameter_(defaultValue)" description="Deletes one InstanceValue in Parameter">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UndgQYGqEeqSC4bGMjXJ9g" name="deleteInstanceValue_IN_Parameter" description="deletes one InstanceValue in the context: Parameter">
+    <lhs xmi:id="_UndgQoGqEeqSC4bGMjXJ9g" name="LHS">
+      <nodes xmi:id="_UndgQ4GqEeqSC4bGMjXJ9g" name="Selected" outgoing="_UndgRYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Parameter"/>
+      </nodes>
+      <nodes xmi:id="_UndgRIGqEeqSC4bGMjXJ9g" name="ToBeDeleted" incoming="_UndgRYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InstanceValue"/>
+      </nodes>
+      <edges xmi:id="_UndgRYGqEeqSC4bGMjXJ9g" source="_UndgQ4GqEeqSC4bGMjXJ9g" target="_UndgRIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Parameter/defaultValue"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_UndgRoGqEeqSC4bGMjXJ9g" name="RHS">
+      <nodes xmi:id="_UndgR4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Parameter"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_UndgSIGqEeqSC4bGMjXJ9g" origin="_UndgQ4GqEeqSC4bGMjXJ9g" image="_UndgR4GqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

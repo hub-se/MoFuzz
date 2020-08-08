@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UZ17AIGqEeqSC4bGMjXJ9g" name="CREATE_DurationObservation_IN_TemplateParameterSubstitution_(ownedActual)" description="Creates one DurationObservation in TemplateParameterSubstitution">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UZ17AYGqEeqSC4bGMjXJ9g" name="createDurationObservation_IN_TemplateParameterSubstitution" description="creates one DurationObservation in the context: TemplateParameterSubstitution">
+    <lhs xmi:id="_UZ17AoGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_UZ17A4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameterSubstitution"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_UZ17BIGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_UZ17BYGqEeqSC4bGMjXJ9g" name="Selected" outgoing="_UZ17B4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameterSubstitution"/>
+      </nodes>
+      <nodes xmi:id="_UZ17BoGqEeqSC4bGMjXJ9g" name="New" incoming="_UZ17B4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//DurationObservation"/>
+      </nodes>
+      <edges xmi:id="_UZ17B4GqEeqSC4bGMjXJ9g" source="_UZ17BYGqEeqSC4bGMjXJ9g" target="_UZ17BoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameterSubstitution/ownedActual"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_UZ17CIGqEeqSC4bGMjXJ9g" origin="_UZ17A4GqEeqSC4bGMjXJ9g" image="_UZ17BYGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

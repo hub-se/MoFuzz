@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_1xP2gIGoEeqjxJ91AzqJlg" name="CREATE_LiteralUnlimitedNatural_IN_Component_(packagedElement)" description="Creates one LiteralUnlimitedNatural in Component">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_1xP2gYGoEeqjxJ91AzqJlg" name="createLiteralUnlimitedNatural_IN_Component" description="creates one LiteralUnlimitedNatural in the context: Component">
+    <parameters xmi:id="_1xP2goGoEeqjxJ91AzqJlg" name="Value" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//UnlimitedNatural"/>
+    </parameters>
+    <lhs xmi:id="_1xP2g4GoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_1xP2hIGoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Component"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_1xP2hYGoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_1xP2hoGoEeqjxJ91AzqJlg" name="Selected" outgoing="_1xP2iYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Component"/>
+      </nodes>
+      <nodes xmi:id="_1xP2h4GoEeqjxJ91AzqJlg" name="New" incoming="_1xP2iYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LiteralUnlimitedNatural"/>
+        <attributes xmi:id="_1xP2iIGoEeqjxJ91AzqJlg" value="Value">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LiteralUnlimitedNatural/value"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_1xP2iYGoEeqjxJ91AzqJlg" source="_1xP2hoGoEeqjxJ91AzqJlg" target="_1xP2h4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Component/packagedElement"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_1xP2ioGoEeqjxJ91AzqJlg" origin="_1xP2hIGoEeqjxJ91AzqJlg" image="_1xP2hoGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

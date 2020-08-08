@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UKiTsIGqEeqSC4bGMjXJ9g" name="CREATE_InstanceValue_IN_Message_(argument)" description="Creates one InstanceValue in Message">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UKiTsYGqEeqSC4bGMjXJ9g" name="createInstanceValue_IN_Message" description="creates one InstanceValue in the context: Message">
+    <lhs xmi:id="_UKiTsoGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_UKiTs4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Message"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_UKiTtIGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_UKiTtYGqEeqSC4bGMjXJ9g" name="Selected" outgoing="_UKiTt4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Message"/>
+      </nodes>
+      <nodes xmi:id="_UKiTtoGqEeqSC4bGMjXJ9g" name="New" incoming="_UKiTt4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InstanceValue"/>
+      </nodes>
+      <edges xmi:id="_UKiTt4GqEeqSC4bGMjXJ9g" source="_UKiTtYGqEeqSC4bGMjXJ9g" target="_UKiTtoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Message/argument"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_UKiTuIGqEeqSC4bGMjXJ9g" origin="_UKiTs4GqEeqSC4bGMjXJ9g" image="_UKiTtYGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UIJuEIGqEeqSC4bGMjXJ9g" name="CREATE_Variable_IN_StructuredActivityNode_(variable)" description="Creates one Variable in StructuredActivityNode">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UIJuEYGqEeqSC4bGMjXJ9g" name="createVariable_IN_StructuredActivityNode" description="creates one Variable in the context: StructuredActivityNode">
+    <parameters xmi:id="_UIJuEoGqEeqSC4bGMjXJ9g" name="IsOrdered" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <parameters xmi:id="_UIJuE4GqEeqSC4bGMjXJ9g" name="IsUnique" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <lhs xmi:id="_UIJuFIGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_UIJuFYGqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//StructuredActivityNode"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_UIJuFoGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_UIJuF4GqEeqSC4bGMjXJ9g" name="Selected" incoming="_UIJuHIGqEeqSC4bGMjXJ9g" outgoing="_UIJuG4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//StructuredActivityNode"/>
+      </nodes>
+      <nodes xmi:id="_UIJuGIGqEeqSC4bGMjXJ9g" name="New" incoming="_UIJuG4GqEeqSC4bGMjXJ9g" outgoing="_UIJuHIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Variable"/>
+        <attributes xmi:id="_UIJuGYGqEeqSC4bGMjXJ9g" value="IsOrdered">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//MultiplicityElement/isOrdered"/>
+        </attributes>
+        <attributes xmi:id="_UIJuGoGqEeqSC4bGMjXJ9g" value="IsUnique">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//MultiplicityElement/isUnique"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_UIJuG4GqEeqSC4bGMjXJ9g" source="_UIJuF4GqEeqSC4bGMjXJ9g" target="_UIJuGIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//StructuredActivityNode/variable"/>
+      </edges>
+      <edges xmi:id="_UIJuHIGqEeqSC4bGMjXJ9g" source="_UIJuGIGqEeqSC4bGMjXJ9g" target="_UIJuF4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Variable/scope"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_UIJuHYGqEeqSC4bGMjXJ9g" origin="_UIJuFYGqEeqSC4bGMjXJ9g" image="_UIJuF4GqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

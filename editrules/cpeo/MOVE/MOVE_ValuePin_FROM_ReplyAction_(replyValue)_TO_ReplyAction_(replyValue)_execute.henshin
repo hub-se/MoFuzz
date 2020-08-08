@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_2VOtUIGoEeqjxJ91AzqJlg" name="MOVE_ValuePin_FROM_ReplyAction_(replyValue)_TO_ReplyAction_(replyValue)" description="MOVEs ValuePin from ReplyAction(Reference:replyValue) to ReplyAction(Reference:replyValue">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_2VOtUYGoEeqjxJ91AzqJlg" name="moveValuePin_FROM_ReplyAction_replyValue_TO_ReplyAction_ReplyAction" description="Moves ValuePin from ReplyAction(Reference:replyValue) toReplyAction(Reference:ReplyAction)">
+    <lhs xmi:id="_2VOtUoGoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_2VOtU4GoEeqjxJ91AzqJlg" name="Selected" incoming="_2VOtVoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ValuePin"/>
+      </nodes>
+      <nodes xmi:id="_2VOtVIGoEeqjxJ91AzqJlg" name="OldSource" outgoing="_2VOtVoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ReplyAction"/>
+      </nodes>
+      <nodes xmi:id="_2VOtVYGoEeqjxJ91AzqJlg" name="NewSource">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ReplyAction"/>
+      </nodes>
+      <edges xmi:id="_2VOtVoGoEeqjxJ91AzqJlg" source="_2VOtVIGoEeqjxJ91AzqJlg" target="_2VOtU4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ReplyAction/replyValue"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_2VOtV4GoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_2VOtWIGoEeqjxJ91AzqJlg" name="Selected" incoming="_2VOtW4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ValuePin"/>
+      </nodes>
+      <nodes xmi:id="_2VOtWYGoEeqjxJ91AzqJlg" name="OldSource">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ReplyAction"/>
+      </nodes>
+      <nodes xmi:id="_2VOtWoGoEeqjxJ91AzqJlg" name="NewSource" outgoing="_2VOtW4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ReplyAction"/>
+      </nodes>
+      <edges xmi:id="_2VOtW4GoEeqjxJ91AzqJlg" source="_2VOtWoGoEeqjxJ91AzqJlg" target="_2VOtWIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ReplyAction/replyValue"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_2VOtXIGoEeqjxJ91AzqJlg" origin="_2VOtU4GoEeqjxJ91AzqJlg" image="_2VOtWIGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_2VOtXYGoEeqjxJ91AzqJlg" origin="_2VOtVIGoEeqjxJ91AzqJlg" image="_2VOtWYGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_2VOtXoGoEeqjxJ91AzqJlg" origin="_2VOtVYGoEeqjxJ91AzqJlg" image="_2VOtWoGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

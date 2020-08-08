@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UorBMIGqEeqSC4bGMjXJ9g" name="DELETE_Comment_IN_Element_(ownedComment)" description="Deletes one Comment in Element">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UorBMYGqEeqSC4bGMjXJ9g" name="deleteComment_IN_Element" description="deletes one Comment in the context: Element">
+    <lhs xmi:id="_UorBMoGqEeqSC4bGMjXJ9g" name="LHS">
+      <nodes xmi:id="_UorBM4GqEeqSC4bGMjXJ9g" name="Selected" outgoing="_UorBNYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Element"/>
+      </nodes>
+      <nodes xmi:id="_UorBNIGqEeqSC4bGMjXJ9g" name="ToBeDeleted" incoming="_UorBNYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Comment"/>
+      </nodes>
+      <edges xmi:id="_UorBNYGqEeqSC4bGMjXJ9g" source="_UorBM4GqEeqSC4bGMjXJ9g" target="_UorBNIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Element/ownedComment"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_UorBNoGqEeqSC4bGMjXJ9g" name="RHS">
+      <nodes xmi:id="_UorBN4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Element"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_UorBOIGqEeqSC4bGMjXJ9g" origin="_UorBM4GqEeqSC4bGMjXJ9g" image="_UorBN4GqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

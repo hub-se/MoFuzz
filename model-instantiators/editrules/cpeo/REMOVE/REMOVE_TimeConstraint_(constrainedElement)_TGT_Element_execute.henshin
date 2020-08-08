@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_2G59cIGoEeqjxJ91AzqJlg" name="REMOVE_TimeConstraint_(constrainedElement)_TGT_Element" description="Removes TimeConstraint's reference constrainedElement the target Element">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_2G59cYGoEeqjxJ91AzqJlg" name="removeFromTimeConstraint_constrainedElement_Element" description="Removes from TimeConstraint's reference constrainedElement the target Element">
+    <lhs xmi:id="_2G59coGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_2G59c4GoEeqjxJ91AzqJlg" name="Selected" outgoing="_2G59dYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TimeConstraint"/>
+      </nodes>
+      <nodes xmi:id="_2G59dIGoEeqjxJ91AzqJlg" name="OldTarget" incoming="_2G59dYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Element"/>
+      </nodes>
+      <edges xmi:id="_2G59dYGoEeqjxJ91AzqJlg" source="_2G59c4GoEeqjxJ91AzqJlg" target="_2G59dIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Constraint/constrainedElement"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_2G59doGoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_2G59d4GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TimeConstraint"/>
+      </nodes>
+      <nodes xmi:id="_2G59eIGoEeqjxJ91AzqJlg" name="OldTarget">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Element"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_2G59eYGoEeqjxJ91AzqJlg" origin="_2G59c4GoEeqjxJ91AzqJlg" image="_2G59d4GoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_2G59eoGoEeqjxJ91AzqJlg" origin="_2G59dIGoEeqjxJ91AzqJlg" image="_2G59eIGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

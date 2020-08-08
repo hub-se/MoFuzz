@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_Tc5KkIGqEeqSC4bGMjXJ9g" name="REMOVE_Operation_(method)_TGT_Behavior" description="Removes Operation's reference method the target Behavior">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_Tc5KkYGqEeqSC4bGMjXJ9g" name="removeFromOperation_method_Behavior" description="Removes from Operation's reference method the target Behavior">
+    <lhs xmi:id="_Tc5KkoGqEeqSC4bGMjXJ9g" name="LHS">
+      <nodes xmi:id="_Tc5Kk4GqEeqSC4bGMjXJ9g" name="Selected" incoming="_Tc5KloGqEeqSC4bGMjXJ9g" outgoing="_Tc5KlYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Operation"/>
+      </nodes>
+      <nodes xmi:id="_Tc5KlIGqEeqSC4bGMjXJ9g" name="OldTarget" incoming="_Tc5KlYGqEeqSC4bGMjXJ9g" outgoing="_Tc5KloGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Behavior"/>
+      </nodes>
+      <edges xmi:id="_Tc5KlYGqEeqSC4bGMjXJ9g" source="_Tc5Kk4GqEeqSC4bGMjXJ9g" target="_Tc5KlIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//BehavioralFeature/method"/>
+      </edges>
+      <edges xmi:id="_Tc5KloGqEeqSC4bGMjXJ9g" source="_Tc5KlIGqEeqSC4bGMjXJ9g" target="_Tc5Kk4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Behavior/specification"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_Tc5Kl4GqEeqSC4bGMjXJ9g" name="RHS">
+      <nodes xmi:id="_Tc5KmIGqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Operation"/>
+      </nodes>
+      <nodes xmi:id="_Tc5KmYGqEeqSC4bGMjXJ9g" name="OldTarget">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Behavior"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_Tc5KmoGqEeqSC4bGMjXJ9g" origin="_Tc5Kk4GqEeqSC4bGMjXJ9g" image="_Tc5KmIGqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_Tc5Km4GqEeqSC4bGMjXJ9g" origin="_Tc5KlIGqEeqSC4bGMjXJ9g" image="_Tc5KmYGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

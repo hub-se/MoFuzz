@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_10jpMIGoEeqjxJ91AzqJlg" name="CREATE_FlowFinalNode_IN_Activity_(ownedNode)" description="Creates one FlowFinalNode in Activity">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_10jpMYGoEeqjxJ91AzqJlg" name="createFlowFinalNode_IN_Activity" description="creates one FlowFinalNode in the context: Activity">
+    <parameters xmi:id="_10jpMoGoEeqjxJ91AzqJlg" name="IsLeaf" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <lhs xmi:id="_10jpM4GoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_10jpNIGoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Activity"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_10jpNYGoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_10jpNoGoEeqjxJ91AzqJlg" name="Selected" outgoing="_10jpOYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Activity"/>
+      </nodes>
+      <nodes xmi:id="_10jpN4GoEeqjxJ91AzqJlg" name="New" incoming="_10jpOYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//FlowFinalNode"/>
+        <attributes xmi:id="_10jpOIGoEeqjxJ91AzqJlg" value="IsLeaf">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//RedefinableElement/isLeaf"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_10jpOYGoEeqjxJ91AzqJlg" source="_10jpNoGoEeqjxJ91AzqJlg" target="_10jpN4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Activity/ownedNode"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_10jpOoGoEeqjxJ91AzqJlg" origin="_10jpNIGoEeqjxJ91AzqJlg" image="_10jpNoGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

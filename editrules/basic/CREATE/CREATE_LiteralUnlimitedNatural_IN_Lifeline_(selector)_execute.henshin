@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UgWysIGqEeqSC4bGMjXJ9g" name="CREATE_LiteralUnlimitedNatural_IN_Lifeline_(selector)" description="Creates one LiteralUnlimitedNatural in Lifeline">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UgWysYGqEeqSC4bGMjXJ9g" name="createLiteralUnlimitedNatural_IN_Lifeline" description="creates one LiteralUnlimitedNatural in the context: Lifeline">
+    <parameters xmi:id="_UgWysoGqEeqSC4bGMjXJ9g" name="Value" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//UnlimitedNatural"/>
+    </parameters>
+    <lhs xmi:id="_UgWys4GqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_UgWytIGqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Lifeline"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_UgWytYGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_UgWytoGqEeqSC4bGMjXJ9g" name="Selected" outgoing="_UgWyuYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Lifeline"/>
+      </nodes>
+      <nodes xmi:id="_UgWyt4GqEeqSC4bGMjXJ9g" name="New" incoming="_UgWyuYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LiteralUnlimitedNatural"/>
+        <attributes xmi:id="_UgWyuIGqEeqSC4bGMjXJ9g" value="Value">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LiteralUnlimitedNatural/value"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_UgWyuYGqEeqSC4bGMjXJ9g" source="_UgWytoGqEeqSC4bGMjXJ9g" target="_UgWyt4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Lifeline/selector"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_UgWyuoGqEeqSC4bGMjXJ9g" origin="_UgWytIGqEeqSC4bGMjXJ9g" image="_UgWytoGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

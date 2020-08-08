@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_Ui8MoIGqEeqSC4bGMjXJ9g" name="DELETE_OpaqueExpression_IN_Duration_(expr)" description="Deletes one OpaqueExpression in Duration">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_Ui8MoYGqEeqSC4bGMjXJ9g" name="deleteOpaqueExpression_IN_Duration" description="deletes one OpaqueExpression in the context: Duration">
+    <lhs xmi:id="_Ui8MooGqEeqSC4bGMjXJ9g" name="LHS">
+      <nodes xmi:id="_Ui8Mo4GqEeqSC4bGMjXJ9g" name="Selected" outgoing="_Ui8MpYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Duration"/>
+      </nodes>
+      <nodes xmi:id="_Ui8MpIGqEeqSC4bGMjXJ9g" name="ToBeDeleted" incoming="_Ui8MpYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//OpaqueExpression"/>
+      </nodes>
+      <edges xmi:id="_Ui8MpYGqEeqSC4bGMjXJ9g" source="_Ui8Mo4GqEeqSC4bGMjXJ9g" target="_Ui8MpIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Duration/expr"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_Ui8MpoGqEeqSC4bGMjXJ9g" name="RHS">
+      <nodes xmi:id="_Ui8Mp4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Duration"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_Ui8MqIGqEeqSC4bGMjXJ9g" origin="_Ui8Mo4GqEeqSC4bGMjXJ9g" image="_Ui8Mp4GqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

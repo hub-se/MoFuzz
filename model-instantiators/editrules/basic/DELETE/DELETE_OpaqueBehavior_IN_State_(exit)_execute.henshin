@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UmJ4sIGqEeqSC4bGMjXJ9g" name="DELETE_OpaqueBehavior_IN_State_(exit)" description="Deletes one OpaqueBehavior in State">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UmJ4sYGqEeqSC4bGMjXJ9g" name="deleteOpaqueBehavior_IN_State" description="deletes one OpaqueBehavior in the context: State">
+    <lhs xmi:id="_UmJ4soGqEeqSC4bGMjXJ9g" name="LHS">
+      <nodes xmi:id="_UmJ4s4GqEeqSC4bGMjXJ9g" name="Selected" outgoing="_UmJ4tYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//State"/>
+      </nodes>
+      <nodes xmi:id="_UmJ4tIGqEeqSC4bGMjXJ9g" name="ToBeDeleted" incoming="_UmJ4tYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//OpaqueBehavior"/>
+      </nodes>
+      <edges xmi:id="_UmJ4tYGqEeqSC4bGMjXJ9g" source="_UmJ4s4GqEeqSC4bGMjXJ9g" target="_UmJ4tIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//State/exit"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_UmJ4toGqEeqSC4bGMjXJ9g" name="RHS">
+      <nodes xmi:id="_UmJ4t4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//State"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_UmJ4uIGqEeqSC4bGMjXJ9g" origin="_UmJ4s4GqEeqSC4bGMjXJ9g" image="_UmJ4t4GqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

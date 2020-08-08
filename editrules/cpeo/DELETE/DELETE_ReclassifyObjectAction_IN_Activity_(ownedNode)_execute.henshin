@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_0_MugIGoEeqjxJ91AzqJlg" name="DELETE_ReclassifyObjectAction_IN_Activity_(ownedNode)" description="Deletes one ReclassifyObjectAction in Activity">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_0_MugYGoEeqjxJ91AzqJlg" name="deleteReclassifyObjectAction_IN_Activity" description="deletes one ReclassifyObjectAction in the context: Activity">
+    <lhs xmi:id="_0_MugoGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_0_Mug4GoEeqjxJ91AzqJlg" name="Selected" outgoing="_0_MuhoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Activity"/>
+      </nodes>
+      <nodes xmi:id="_0_MuhIGoEeqjxJ91AzqJlg" name="ToBeDeleted" incoming="_0_MuhoGoEeqjxJ91AzqJlg" outgoing="_0_Muh4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ReclassifyObjectAction"/>
+      </nodes>
+      <nodes xmi:id="_0_MuhYGoEeqjxJ91AzqJlg" name="Child" incoming="_0_Muh4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InputPin"/>
+      </nodes>
+      <edges xmi:id="_0_MuhoGoEeqjxJ91AzqJlg" source="_0_Mug4GoEeqjxJ91AzqJlg" target="_0_MuhIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Activity/ownedNode"/>
+      </edges>
+      <edges xmi:id="_0_Muh4GoEeqjxJ91AzqJlg" source="_0_MuhIGoEeqjxJ91AzqJlg" target="_0_MuhYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ReclassifyObjectAction/object"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_0_MuiIGoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_0_MuiYGoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Activity"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_0_MuioGoEeqjxJ91AzqJlg" origin="_0_Mug4GoEeqjxJ91AzqJlg" image="_0_MuiYGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

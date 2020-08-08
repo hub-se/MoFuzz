@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UaVqQIGqEeqSC4bGMjXJ9g" name="CREATE_LiteralInteger_IN_TemplateParameter_(ownedDefault)" description="Creates one LiteralInteger in TemplateParameter">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UaVqQYGqEeqSC4bGMjXJ9g" name="createLiteralInteger_IN_TemplateParameter" description="creates one LiteralInteger in the context: TemplateParameter">
+    <parameters xmi:id="_UaVqQoGqEeqSC4bGMjXJ9g" name="Value" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Integer"/>
+    </parameters>
+    <lhs xmi:id="_UaVqQ4GqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_UaVqRIGqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameter"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_UaVqRYGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_UaVqRoGqEeqSC4bGMjXJ9g" name="Selected" outgoing="_UaVqSYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameter"/>
+      </nodes>
+      <nodes xmi:id="_UaVqR4GqEeqSC4bGMjXJ9g" name="New" incoming="_UaVqSYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LiteralInteger"/>
+        <attributes xmi:id="_UaVqSIGqEeqSC4bGMjXJ9g" value="Value">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LiteralInteger/value"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_UaVqSYGqEeqSC4bGMjXJ9g" source="_UaVqRoGqEeqSC4bGMjXJ9g" target="_UaVqR4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameter/ownedDefault"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_UaVqSoGqEeqSC4bGMjXJ9g" origin="_UaVqRIGqEeqSC4bGMjXJ9g" image="_UaVqRoGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

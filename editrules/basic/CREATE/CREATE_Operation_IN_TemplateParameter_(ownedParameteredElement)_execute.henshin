@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UH52cIGqEeqSC4bGMjXJ9g" name="CREATE_Operation_IN_TemplateParameter_(ownedParameteredElement)" description="Creates one Operation in TemplateParameter">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UH52cYGqEeqSC4bGMjXJ9g" name="createOperation_IN_TemplateParameter" description="creates one Operation in the context: TemplateParameter">
+    <parameters xmi:id="_UH52coGqEeqSC4bGMjXJ9g" name="IsLeaf" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <parameters xmi:id="_UH52c4GqEeqSC4bGMjXJ9g" name="IsStatic" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <parameters xmi:id="_UH52dIGqEeqSC4bGMjXJ9g" name="Concurrency" kind="IN">
+      <type xsi:type="ecore:EEnum" href="http://www.eclipse.org/uml2/5.0.0/UML#//CallConcurrencyKind"/>
+    </parameters>
+    <parameters xmi:id="_UH52dYGqEeqSC4bGMjXJ9g" name="IsAbstract" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <parameters xmi:id="_UH52doGqEeqSC4bGMjXJ9g" name="IsQuery" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <lhs xmi:id="_UH52d4GqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_UH52eIGqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//OperationTemplateParameter"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_UH52eYGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_UH52eoGqEeqSC4bGMjXJ9g" name="Selected" incoming="_UH6dhYGqEeqSC4bGMjXJ9g" outgoing="_UH6dhIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//OperationTemplateParameter"/>
+      </nodes>
+      <nodes xmi:id="_UH52e4GqEeqSC4bGMjXJ9g" name="New" incoming="_UH6dhIGqEeqSC4bGMjXJ9g" outgoing="_UH6dhYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Operation"/>
+        <attributes xmi:id="_UH52fIGqEeqSC4bGMjXJ9g" value="IsLeaf">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//RedefinableElement/isLeaf"/>
+        </attributes>
+        <attributes xmi:id="_UH6dgIGqEeqSC4bGMjXJ9g" value="IsStatic">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Feature/isStatic"/>
+        </attributes>
+        <attributes xmi:id="_UH6dgYGqEeqSC4bGMjXJ9g" value="Concurrency">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//BehavioralFeature/concurrency"/>
+        </attributes>
+        <attributes xmi:id="_UH6dgoGqEeqSC4bGMjXJ9g" value="IsAbstract">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//BehavioralFeature/isAbstract"/>
+        </attributes>
+        <attributes xmi:id="_UH6dg4GqEeqSC4bGMjXJ9g" value="IsQuery">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Operation/isQuery"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_UH6dhIGqEeqSC4bGMjXJ9g" source="_UH52eoGqEeqSC4bGMjXJ9g" target="_UH52e4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameter/ownedParameteredElement"/>
+      </edges>
+      <edges xmi:id="_UH6dhYGqEeqSC4bGMjXJ9g" source="_UH52e4GqEeqSC4bGMjXJ9g" target="_UH52eoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ParameterableElement/owningTemplateParameter"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_UH6dhoGqEeqSC4bGMjXJ9g" origin="_UH52eIGqEeqSC4bGMjXJ9g" image="_UH52eoGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

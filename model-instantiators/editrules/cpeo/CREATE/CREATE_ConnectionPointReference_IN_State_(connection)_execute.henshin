@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_158fgIGoEeqjxJ91AzqJlg" name="CREATE_ConnectionPointReference_IN_State_(connection)" description="Creates one ConnectionPointReference in State">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_158fgYGoEeqjxJ91AzqJlg" name="createConnectionPointReference_IN_State" description="creates one ConnectionPointReference in the context: State">
+    <lhs xmi:id="_158fgoGoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_158fg4GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//State"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_158fhIGoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_158fhYGoEeqjxJ91AzqJlg" name="Selected" incoming="_158fiIGoEeqjxJ91AzqJlg" outgoing="_158fh4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//State"/>
+      </nodes>
+      <nodes xmi:id="_158fhoGoEeqjxJ91AzqJlg" name="New" incoming="_158fh4GoEeqjxJ91AzqJlg" outgoing="_158fiIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ConnectionPointReference"/>
+      </nodes>
+      <edges xmi:id="_158fh4GoEeqjxJ91AzqJlg" source="_158fhYGoEeqjxJ91AzqJlg" target="_158fhoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//State/connection"/>
+      </edges>
+      <edges xmi:id="_158fiIGoEeqjxJ91AzqJlg" source="_158fhoGoEeqjxJ91AzqJlg" target="_158fhYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ConnectionPointReference/state"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_158fiYGoEeqjxJ91AzqJlg" origin="_158fg4GoEeqjxJ91AzqJlg" image="_158fhYGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

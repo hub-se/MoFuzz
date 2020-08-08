@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_2FSM0IGoEeqjxJ91AzqJlg" name="REMOVE_ProtocolStateMachine_(useCase)_TGT_UseCase" description="Removes ProtocolStateMachine's reference useCase the target UseCase">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_2FSM0YGoEeqjxJ91AzqJlg" name="removeFromProtocolStateMachine_useCase_UseCase" description="Removes from ProtocolStateMachine's reference useCase the target UseCase">
+    <lhs xmi:id="_2FSM0oGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_2FSM04GoEeqjxJ91AzqJlg" name="Selected" incoming="_2FSM1oGoEeqjxJ91AzqJlg" outgoing="_2FSM1YGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ProtocolStateMachine"/>
+      </nodes>
+      <nodes xmi:id="_2FSM1IGoEeqjxJ91AzqJlg" name="OldTarget" incoming="_2FSM1YGoEeqjxJ91AzqJlg" outgoing="_2FSM1oGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//UseCase"/>
+      </nodes>
+      <edges xmi:id="_2FSM1YGoEeqjxJ91AzqJlg" source="_2FSM04GoEeqjxJ91AzqJlg" target="_2FSM1IGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier/useCase"/>
+      </edges>
+      <edges xmi:id="_2FSM1oGoEeqjxJ91AzqJlg" source="_2FSM1IGoEeqjxJ91AzqJlg" target="_2FSM04GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//UseCase/subject"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_2FSM14GoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_2FSM2IGoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ProtocolStateMachine"/>
+      </nodes>
+      <nodes xmi:id="_2FSM2YGoEeqjxJ91AzqJlg" name="OldTarget">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//UseCase"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_2FSM2oGoEeqjxJ91AzqJlg" origin="_2FSM04GoEeqjxJ91AzqJlg" image="_2FSM2IGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_2FSM24GoEeqjxJ91AzqJlg" origin="_2FSM1IGoEeqjxJ91AzqJlg" image="_2FSM2YGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

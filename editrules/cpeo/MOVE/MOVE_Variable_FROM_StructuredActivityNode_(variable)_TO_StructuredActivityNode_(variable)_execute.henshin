@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_2QA2IIGoEeqjxJ91AzqJlg" name="MOVE_Variable_FROM_StructuredActivityNode_(variable)_TO_StructuredActivityNode_(variable)" description="MOVEs Variable from StructuredActivityNode(Reference:variable) to StructuredActivityNode(Reference:variable">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_2QA2IYGoEeqjxJ91AzqJlg" name="moveVariable_FROM_StructuredActivityNode_variable_TO_StructuredActivityNode_StructuredActivityNode" description="Moves Variable from StructuredActivityNode(Reference:variable) toStructuredActivityNode(Reference:StructuredActivityNode)">
+    <lhs xmi:id="_2QA2IoGoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_2QA2I4GoEeqjxJ91AzqJlg" name="Selected" incoming="_2QA2JoGoEeqjxJ91AzqJlg" outgoing="_2QA2J4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Variable"/>
+      </nodes>
+      <nodes xmi:id="_2QA2JIGoEeqjxJ91AzqJlg" name="OldSource" incoming="_2QA2J4GoEeqjxJ91AzqJlg" outgoing="_2QA2JoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//StructuredActivityNode"/>
+      </nodes>
+      <nodes xmi:id="_2QA2JYGoEeqjxJ91AzqJlg" name="NewSource">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//StructuredActivityNode"/>
+      </nodes>
+      <edges xmi:id="_2QA2JoGoEeqjxJ91AzqJlg" source="_2QA2JIGoEeqjxJ91AzqJlg" target="_2QA2I4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//StructuredActivityNode/variable"/>
+      </edges>
+      <edges xmi:id="_2QA2J4GoEeqjxJ91AzqJlg" source="_2QA2I4GoEeqjxJ91AzqJlg" target="_2QA2JIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Variable/scope"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_2QA2KIGoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_2QA2KYGoEeqjxJ91AzqJlg" name="Selected" incoming="_2QA2LIGoEeqjxJ91AzqJlg" outgoing="_2QA2LYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Variable"/>
+      </nodes>
+      <nodes xmi:id="_2QA2KoGoEeqjxJ91AzqJlg" name="OldSource">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//StructuredActivityNode"/>
+      </nodes>
+      <nodes xmi:id="_2QA2K4GoEeqjxJ91AzqJlg" name="NewSource" incoming="_2QA2LYGoEeqjxJ91AzqJlg" outgoing="_2QA2LIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//StructuredActivityNode"/>
+      </nodes>
+      <edges xmi:id="_2QA2LIGoEeqjxJ91AzqJlg" source="_2QA2K4GoEeqjxJ91AzqJlg" target="_2QA2KYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//StructuredActivityNode/variable"/>
+      </edges>
+      <edges xmi:id="_2QA2LYGoEeqjxJ91AzqJlg" source="_2QA2KYGoEeqjxJ91AzqJlg" target="_2QA2K4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Variable/scope"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_2QA2LoGoEeqjxJ91AzqJlg" origin="_2QA2I4GoEeqjxJ91AzqJlg" image="_2QA2KYGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_2QA2L4GoEeqjxJ91AzqJlg" origin="_2QA2JIGoEeqjxJ91AzqJlg" image="_2QA2KoGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_2QA2MIGoEeqjxJ91AzqJlg" origin="_2QA2JYGoEeqjxJ91AzqJlg" image="_2QA2K4GoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

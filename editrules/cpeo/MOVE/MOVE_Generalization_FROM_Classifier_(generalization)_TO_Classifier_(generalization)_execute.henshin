@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_2hC7wIGoEeqjxJ91AzqJlg" name="MOVE_Generalization_FROM_Classifier_(generalization)_TO_Classifier_(generalization)" description="MOVEs Generalization from Classifier(Reference:generalization) to Classifier(Reference:generalization">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_2hC7wYGoEeqjxJ91AzqJlg" name="moveGeneralization_FROM_Classifier_generalization_TO_Classifier_Classifier" description="Moves Generalization from Classifier(Reference:generalization) toClassifier(Reference:Classifier)">
+    <lhs xmi:id="_2hC7woGoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_2hC7w4GoEeqjxJ91AzqJlg" name="Selected" incoming="_2hC7xoGoEeqjxJ91AzqJlg" outgoing="_2hC7x4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Generalization"/>
+      </nodes>
+      <nodes xmi:id="_2hC7xIGoEeqjxJ91AzqJlg" name="OldSource" incoming="_2hC7x4GoEeqjxJ91AzqJlg" outgoing="_2hC7xoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier"/>
+      </nodes>
+      <nodes xmi:id="_2hC7xYGoEeqjxJ91AzqJlg" name="NewSource">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier"/>
+      </nodes>
+      <edges xmi:id="_2hC7xoGoEeqjxJ91AzqJlg" source="_2hC7xIGoEeqjxJ91AzqJlg" target="_2hC7w4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier/generalization"/>
+      </edges>
+      <edges xmi:id="_2hC7x4GoEeqjxJ91AzqJlg" source="_2hC7w4GoEeqjxJ91AzqJlg" target="_2hC7xIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Generalization/specific"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_2hC7yIGoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_2hC7yYGoEeqjxJ91AzqJlg" name="Selected" incoming="_2hC7zIGoEeqjxJ91AzqJlg" outgoing="_2hC7zYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Generalization"/>
+      </nodes>
+      <nodes xmi:id="_2hC7yoGoEeqjxJ91AzqJlg" name="OldSource">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier"/>
+      </nodes>
+      <nodes xmi:id="_2hC7y4GoEeqjxJ91AzqJlg" name="NewSource" incoming="_2hC7zYGoEeqjxJ91AzqJlg" outgoing="_2hC7zIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier"/>
+      </nodes>
+      <edges xmi:id="_2hC7zIGoEeqjxJ91AzqJlg" source="_2hC7y4GoEeqjxJ91AzqJlg" target="_2hC7yYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier/generalization"/>
+      </edges>
+      <edges xmi:id="_2hC7zYGoEeqjxJ91AzqJlg" source="_2hC7yYGoEeqjxJ91AzqJlg" target="_2hC7y4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Generalization/specific"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_2hC7zoGoEeqjxJ91AzqJlg" origin="_2hC7w4GoEeqjxJ91AzqJlg" image="_2hC7yYGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_2hC7z4GoEeqjxJ91AzqJlg" origin="_2hC7xIGoEeqjxJ91AzqJlg" image="_2hC7yoGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_2hC70IGoEeqjxJ91AzqJlg" origin="_2hC7xYGoEeqjxJ91AzqJlg" image="_2hC7y4GoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UGsVgIGqEeqSC4bGMjXJ9g" name="CREATE_Deployment_IN_TemplateParameter_(ownedDefault)" description="Creates one Deployment in TemplateParameter">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UGsVgYGqEeqSC4bGMjXJ9g" name="createDeployment_IN_TemplateParameter" description="creates one Deployment in the context: TemplateParameter">
+    <lhs xmi:id="_UGsVgoGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_UGsVg4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameter"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_UGsVhIGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_UGsVhYGqEeqSC4bGMjXJ9g" name="Selected" outgoing="_UGsVh4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameter"/>
+      </nodes>
+      <nodes xmi:id="_UGsVhoGqEeqSC4bGMjXJ9g" name="New" incoming="_UGsVh4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Deployment"/>
+      </nodes>
+      <edges xmi:id="_UGsVh4GqEeqSC4bGMjXJ9g" source="_UGsVhYGqEeqSC4bGMjXJ9g" target="_UGsVhoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameter/ownedDefault"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_UGsViIGqEeqSC4bGMjXJ9g" origin="_UGsVg4GqEeqSC4bGMjXJ9g" image="_UGsVhYGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

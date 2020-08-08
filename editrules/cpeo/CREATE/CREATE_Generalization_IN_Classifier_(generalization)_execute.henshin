@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_1oBpEIGoEeqjxJ91AzqJlg" name="CREATE_Generalization_IN_Classifier_(generalization)" description="Creates one Generalization in Classifier">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_1oBpEYGoEeqjxJ91AzqJlg" name="createGeneralization_IN_Classifier" description="creates one Generalization in the context: Classifier">
+    <lhs xmi:id="_1oBpEoGoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_1oBpE4GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier"/>
+      </nodes>
+      <nodes xmi:id="_1oBpFIGoEeqjxJ91AzqJlg" name="Existing">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_1oBpFYGoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_1oBpFoGoEeqjxJ91AzqJlg" name="Selected" incoming="_1oBpGoGoEeqjxJ91AzqJlg" outgoing="_1oBpGYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier"/>
+      </nodes>
+      <nodes xmi:id="_1oBpF4GoEeqjxJ91AzqJlg" name="New" incoming="_1oBpGYGoEeqjxJ91AzqJlg" outgoing="_1oBpGoGoEeqjxJ91AzqJlg _1oBpG4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Generalization"/>
+      </nodes>
+      <nodes xmi:id="_1oBpGIGoEeqjxJ91AzqJlg" name="Existing" incoming="_1oBpG4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier"/>
+      </nodes>
+      <edges xmi:id="_1oBpGYGoEeqjxJ91AzqJlg" source="_1oBpFoGoEeqjxJ91AzqJlg" target="_1oBpF4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier/generalization"/>
+      </edges>
+      <edges xmi:id="_1oBpGoGoEeqjxJ91AzqJlg" source="_1oBpF4GoEeqjxJ91AzqJlg" target="_1oBpFoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Generalization/specific"/>
+      </edges>
+      <edges xmi:id="_1oBpG4GoEeqjxJ91AzqJlg" source="_1oBpF4GoEeqjxJ91AzqJlg" target="_1oBpGIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Generalization/general"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_1oBpHIGoEeqjxJ91AzqJlg" origin="_1oBpE4GoEeqjxJ91AzqJlg" image="_1oBpFoGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_1oBpHYGoEeqjxJ91AzqJlg" origin="_1oBpFIGoEeqjxJ91AzqJlg" image="_1oBpGIGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

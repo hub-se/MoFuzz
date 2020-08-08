@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_2TOiMIGoEeqjxJ91AzqJlg" name="MOVE_TimeInterval_FROM_ObjectNode_(upperBound)_TO_ObjectNode_(upperBound)" description="MOVEs TimeInterval from ObjectNode(Reference:upperBound) to ObjectNode(Reference:upperBound">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_2TOiMYGoEeqjxJ91AzqJlg" name="moveTimeInterval_FROM_ObjectNode_upperBound_TO_ObjectNode_ObjectNode" description="Moves TimeInterval from ObjectNode(Reference:upperBound) toObjectNode(Reference:ObjectNode)">
+    <lhs xmi:id="_2TOiMoGoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_2TOiM4GoEeqjxJ91AzqJlg" name="Selected" incoming="_2TOiNoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TimeInterval"/>
+      </nodes>
+      <nodes xmi:id="_2TOiNIGoEeqjxJ91AzqJlg" name="OldSource" outgoing="_2TOiNoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ObjectNode"/>
+      </nodes>
+      <nodes xmi:id="_2TOiNYGoEeqjxJ91AzqJlg" name="NewSource">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ObjectNode"/>
+      </nodes>
+      <edges xmi:id="_2TOiNoGoEeqjxJ91AzqJlg" source="_2TOiNIGoEeqjxJ91AzqJlg" target="_2TOiM4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ObjectNode/upperBound"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_2TOiN4GoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_2TOiOIGoEeqjxJ91AzqJlg" name="Selected" incoming="_2TOiO4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TimeInterval"/>
+      </nodes>
+      <nodes xmi:id="_2TOiOYGoEeqjxJ91AzqJlg" name="OldSource">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ObjectNode"/>
+      </nodes>
+      <nodes xmi:id="_2TOiOoGoEeqjxJ91AzqJlg" name="NewSource" outgoing="_2TOiO4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ObjectNode"/>
+      </nodes>
+      <edges xmi:id="_2TOiO4GoEeqjxJ91AzqJlg" source="_2TOiOoGoEeqjxJ91AzqJlg" target="_2TOiOIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ObjectNode/upperBound"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_2TOiPIGoEeqjxJ91AzqJlg" origin="_2TOiM4GoEeqjxJ91AzqJlg" image="_2TOiOIGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_2TOiPYGoEeqjxJ91AzqJlg" origin="_2TOiNIGoEeqjxJ91AzqJlg" image="_2TOiOYGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_2TOiPoGoEeqjxJ91AzqJlg" origin="_2TOiNYGoEeqjxJ91AzqJlg" image="_2TOiOoGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UsNdYIGqEeqSC4bGMjXJ9g" name="DELETE_OutputPin_IN_LoopNode_(loopVariable)" description="Deletes one OutputPin in LoopNode">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UsNdYYGqEeqSC4bGMjXJ9g" name="deleteOutputPin_IN_LoopNode" description="deletes one OutputPin in the context: LoopNode">
+    <lhs xmi:id="_UsNdYoGqEeqSC4bGMjXJ9g" name="LHS">
+      <nodes xmi:id="_UsNdY4GqEeqSC4bGMjXJ9g" name="Selected" outgoing="_UsNdZYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LoopNode"/>
+      </nodes>
+      <nodes xmi:id="_UsNdZIGqEeqSC4bGMjXJ9g" name="ToBeDeleted" incoming="_UsNdZYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//OutputPin"/>
+      </nodes>
+      <edges xmi:id="_UsNdZYGqEeqSC4bGMjXJ9g" source="_UsNdY4GqEeqSC4bGMjXJ9g" target="_UsNdZIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LoopNode/loopVariable"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_UsNdZoGqEeqSC4bGMjXJ9g" name="RHS">
+      <nodes xmi:id="_UsNdZ4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LoopNode"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_UsNdaIGqEeqSC4bGMjXJ9g" origin="_UsNdY4GqEeqSC4bGMjXJ9g" image="_UsNdZ4GqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

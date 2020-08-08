@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_TgZKgIGqEeqSC4bGMjXJ9g" name="REMOVE_EncapsulatedClassifier_(redefinedClassifier)_TGT_Classifier" description="Removes EncapsulatedClassifier's reference redefinedClassifier the target Classifier">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_TgZKgYGqEeqSC4bGMjXJ9g" name="removeFromEncapsulatedClassifier_redefinedClassifier_Classifier" description="Removes from EncapsulatedClassifier's reference redefinedClassifier the target Classifier">
+    <lhs xmi:id="_TgZKgoGqEeqSC4bGMjXJ9g" name="LHS">
+      <nodes xmi:id="_TgZKg4GqEeqSC4bGMjXJ9g" name="Selected" outgoing="_TgZKhYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//EncapsulatedClassifier"/>
+      </nodes>
+      <nodes xmi:id="_TgZKhIGqEeqSC4bGMjXJ9g" name="OldTarget" incoming="_TgZKhYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier"/>
+      </nodes>
+      <edges xmi:id="_TgZKhYGqEeqSC4bGMjXJ9g" source="_TgZKg4GqEeqSC4bGMjXJ9g" target="_TgZKhIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier/redefinedClassifier"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_TgZKhoGqEeqSC4bGMjXJ9g" name="RHS">
+      <nodes xmi:id="_TgZKh4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//EncapsulatedClassifier"/>
+      </nodes>
+      <nodes xmi:id="_TgZKiIGqEeqSC4bGMjXJ9g" name="OldTarget">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_TgZKiYGqEeqSC4bGMjXJ9g" origin="_TgZKg4GqEeqSC4bGMjXJ9g" image="_TgZKh4GqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_TgZKioGqEeqSC4bGMjXJ9g" origin="_TgZKhIGqEeqSC4bGMjXJ9g" image="_TgZKiIGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

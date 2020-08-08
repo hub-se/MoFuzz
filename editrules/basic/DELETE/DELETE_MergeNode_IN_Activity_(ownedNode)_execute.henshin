@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_U06tcIGqEeqSC4bGMjXJ9g" name="DELETE_MergeNode_IN_Activity_(ownedNode)" description="Deletes one MergeNode in Activity">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_U06tcYGqEeqSC4bGMjXJ9g" name="deleteMergeNode_IN_Activity" description="deletes one MergeNode in the context: Activity">
+    <lhs xmi:id="_U06tcoGqEeqSC4bGMjXJ9g" name="LHS">
+      <nodes xmi:id="_U06tc4GqEeqSC4bGMjXJ9g" name="Selected" outgoing="_U06tdYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Activity"/>
+      </nodes>
+      <nodes xmi:id="_U06tdIGqEeqSC4bGMjXJ9g" name="ToBeDeleted" incoming="_U06tdYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//MergeNode"/>
+      </nodes>
+      <edges xmi:id="_U06tdYGqEeqSC4bGMjXJ9g" source="_U06tc4GqEeqSC4bGMjXJ9g" target="_U06tdIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Activity/ownedNode"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_U06tdoGqEeqSC4bGMjXJ9g" name="RHS">
+      <nodes xmi:id="_U06td4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Activity"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_U06teIGqEeqSC4bGMjXJ9g" origin="_U06tc4GqEeqSC4bGMjXJ9g" image="_U06td4GqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_12kbYIGoEeqjxJ91AzqJlg" name="CREATE_LiteralNull_IN_MultiplicityElement_(lowerValue)" description="Creates one LiteralNull in MultiplicityElement">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_12kbYYGoEeqjxJ91AzqJlg" name="createLiteralNull_IN_MultiplicityElement" description="creates one LiteralNull in the context: MultiplicityElement">
+    <lhs xmi:id="_12kbYoGoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_12lCcIGoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//MultiplicityElement"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_12lCcYGoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_12lCcoGoEeqjxJ91AzqJlg" name="Selected" outgoing="_12lCdIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//MultiplicityElement"/>
+      </nodes>
+      <nodes xmi:id="_12lCc4GoEeqjxJ91AzqJlg" name="New" incoming="_12lCdIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LiteralNull"/>
+      </nodes>
+      <edges xmi:id="_12lCdIGoEeqjxJ91AzqJlg" source="_12lCcoGoEeqjxJ91AzqJlg" target="_12lCc4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//MultiplicityElement/lowerValue"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_12lCdYGoEeqjxJ91AzqJlg" origin="_12lCcIGoEeqjxJ91AzqJlg" image="_12lCcoGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

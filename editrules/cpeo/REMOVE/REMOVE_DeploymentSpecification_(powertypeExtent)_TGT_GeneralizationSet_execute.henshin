@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_2JhzoIGoEeqjxJ91AzqJlg" name="REMOVE_DeploymentSpecification_(powertypeExtent)_TGT_GeneralizationSet" description="Removes DeploymentSpecification's reference powertypeExtent the target GeneralizationSet">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_2JhzoYGoEeqjxJ91AzqJlg" name="removeFromDeploymentSpecification_powertypeExtent_GeneralizationSet" description="Removes from DeploymentSpecification's reference powertypeExtent the target GeneralizationSet">
+    <lhs xmi:id="_2JhzooGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_2Jhzo4GoEeqjxJ91AzqJlg" name="Selected" incoming="_2JhzpoGoEeqjxJ91AzqJlg" outgoing="_2JhzpYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//DeploymentSpecification"/>
+      </nodes>
+      <nodes xmi:id="_2JhzpIGoEeqjxJ91AzqJlg" name="OldTarget" incoming="_2JhzpYGoEeqjxJ91AzqJlg" outgoing="_2JhzpoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//GeneralizationSet"/>
+      </nodes>
+      <edges xmi:id="_2JhzpYGoEeqjxJ91AzqJlg" source="_2Jhzo4GoEeqjxJ91AzqJlg" target="_2JhzpIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier/powertypeExtent"/>
+      </edges>
+      <edges xmi:id="_2JhzpoGoEeqjxJ91AzqJlg" source="_2JhzpIGoEeqjxJ91AzqJlg" target="_2Jhzo4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//GeneralizationSet/powertype"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_2Jhzp4GoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_2JhzqIGoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//DeploymentSpecification"/>
+      </nodes>
+      <nodes xmi:id="_2JhzqYGoEeqjxJ91AzqJlg" name="OldTarget">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//GeneralizationSet"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_2JhzqoGoEeqjxJ91AzqJlg" origin="_2Jhzo4GoEeqjxJ91AzqJlg" image="_2JhzqIGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_2Jhzq4GoEeqjxJ91AzqJlg" origin="_2JhzpIGoEeqjxJ91AzqJlg" image="_2JhzqYGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_1C0DMIGoEeqjxJ91AzqJlg" name="DELETE_InstanceValue_IN_ActivityEdge_(weight)" description="Deletes one InstanceValue in ActivityEdge">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_1C0DMYGoEeqjxJ91AzqJlg" name="deleteInstanceValue_IN_ActivityEdge" description="deletes one InstanceValue in the context: ActivityEdge">
+    <lhs xmi:id="_1C0DMoGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_1C0DM4GoEeqjxJ91AzqJlg" name="Selected" outgoing="_1C0DNoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityEdge"/>
+      </nodes>
+      <nodes xmi:id="_1C0DNIGoEeqjxJ91AzqJlg" name="ToBeDeleted" incoming="_1C0DNoGoEeqjxJ91AzqJlg" outgoing="_1C0DN4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InstanceValue"/>
+      </nodes>
+      <nodes xmi:id="_1C0DNYGoEeqjxJ91AzqJlg" name="Existing" incoming="_1C0DN4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InstanceSpecification"/>
+      </nodes>
+      <edges xmi:id="_1C0DNoGoEeqjxJ91AzqJlg" source="_1C0DM4GoEeqjxJ91AzqJlg" target="_1C0DNIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityEdge/weight"/>
+      </edges>
+      <edges xmi:id="_1C0DN4GoEeqjxJ91AzqJlg" source="_1C0DNIGoEeqjxJ91AzqJlg" target="_1C0DNYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InstanceValue/instance"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_1C0DOIGoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_1C0DOYGoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityEdge"/>
+      </nodes>
+      <nodes xmi:id="_1C0DOoGoEeqjxJ91AzqJlg" name="Existing">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InstanceSpecification"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_1C0DO4GoEeqjxJ91AzqJlg" origin="_1C0DM4GoEeqjxJ91AzqJlg" image="_1C0DOYGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_1C0DPIGoEeqjxJ91AzqJlg" origin="_1C0DNYGoEeqjxJ91AzqJlg" image="_1C0DOoGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

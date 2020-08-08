@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UFpzsIGqEeqSC4bGMjXJ9g" name="CREATE_LiteralInteger_IN_Lifeline_(selector)" description="Creates one LiteralInteger in Lifeline">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UFpzsYGqEeqSC4bGMjXJ9g" name="createLiteralInteger_IN_Lifeline" description="creates one LiteralInteger in the context: Lifeline">
+    <parameters xmi:id="_UFpzsoGqEeqSC4bGMjXJ9g" name="Value" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Integer"/>
+    </parameters>
+    <lhs xmi:id="_UFpzs4GqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_UFpztIGqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Lifeline"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_UFpztYGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_UFpztoGqEeqSC4bGMjXJ9g" name="Selected" outgoing="_UFpzuYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Lifeline"/>
+      </nodes>
+      <nodes xmi:id="_UFpzt4GqEeqSC4bGMjXJ9g" name="New" incoming="_UFpzuYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LiteralInteger"/>
+        <attributes xmi:id="_UFpzuIGqEeqSC4bGMjXJ9g" value="Value">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LiteralInteger/value"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_UFpzuYGqEeqSC4bGMjXJ9g" source="_UFpztoGqEeqSC4bGMjXJ9g" target="_UFpzt4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Lifeline/selector"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_UFpzuoGqEeqSC4bGMjXJ9g" origin="_UFpztIGqEeqSC4bGMjXJ9g" image="_UFpztoGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

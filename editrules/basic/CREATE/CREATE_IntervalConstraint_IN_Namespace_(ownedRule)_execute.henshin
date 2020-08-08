@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UbtjQIGqEeqSC4bGMjXJ9g" name="CREATE_IntervalConstraint_IN_Namespace_(ownedRule)" description="Creates one IntervalConstraint in Namespace">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UbtjQYGqEeqSC4bGMjXJ9g" name="createIntervalConstraint_IN_Namespace" description="creates one IntervalConstraint in the context: Namespace">
+    <lhs xmi:id="_UbtjQoGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_UbtjQ4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Namespace"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_UbtjRIGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_UbtjRYGqEeqSC4bGMjXJ9g" name="Selected" incoming="_UbtjSIGqEeqSC4bGMjXJ9g" outgoing="_UbtjR4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Namespace"/>
+      </nodes>
+      <nodes xmi:id="_UbtjRoGqEeqSC4bGMjXJ9g" name="New" incoming="_UbtjR4GqEeqSC4bGMjXJ9g" outgoing="_UbtjSIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//IntervalConstraint"/>
+      </nodes>
+      <edges xmi:id="_UbtjR4GqEeqSC4bGMjXJ9g" source="_UbtjRYGqEeqSC4bGMjXJ9g" target="_UbtjRoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Namespace/ownedRule"/>
+      </edges>
+      <edges xmi:id="_UbtjSIGqEeqSC4bGMjXJ9g" source="_UbtjRoGqEeqSC4bGMjXJ9g" target="_UbtjRYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Constraint/context"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_UbtjSYGqEeqSC4bGMjXJ9g" origin="_UbtjQ4GqEeqSC4bGMjXJ9g" image="_UbtjRYGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

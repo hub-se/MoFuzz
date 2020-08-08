@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_2j6pkIGoEeqjxJ91AzqJlg" name="MOVE_Include_FROM_UseCase_(include)_TO_UseCase_(include)" description="MOVEs Include from UseCase(Reference:include) to UseCase(Reference:include">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_2j6pkYGoEeqjxJ91AzqJlg" name="moveInclude_FROM_UseCase_include_TO_UseCase_UseCase" description="Moves Include from UseCase(Reference:include) toUseCase(Reference:UseCase)">
+    <lhs xmi:id="_2j6pkoGoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_2j6pk4GoEeqjxJ91AzqJlg" name="Selected" incoming="_2j6ploGoEeqjxJ91AzqJlg" outgoing="_2j6pl4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Include"/>
+      </nodes>
+      <nodes xmi:id="_2j6plIGoEeqjxJ91AzqJlg" name="OldSource" incoming="_2j6pl4GoEeqjxJ91AzqJlg" outgoing="_2j6ploGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//UseCase"/>
+      </nodes>
+      <nodes xmi:id="_2j6plYGoEeqjxJ91AzqJlg" name="NewSource">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//UseCase"/>
+      </nodes>
+      <edges xmi:id="_2j6ploGoEeqjxJ91AzqJlg" source="_2j6plIGoEeqjxJ91AzqJlg" target="_2j6pk4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//UseCase/include"/>
+      </edges>
+      <edges xmi:id="_2j6pl4GoEeqjxJ91AzqJlg" source="_2j6pk4GoEeqjxJ91AzqJlg" target="_2j6plIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Include/includingCase"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_2j6pmIGoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_2j6pmYGoEeqjxJ91AzqJlg" name="Selected" incoming="_2j6pnIGoEeqjxJ91AzqJlg" outgoing="_2j6pnYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Include"/>
+      </nodes>
+      <nodes xmi:id="_2j6pmoGoEeqjxJ91AzqJlg" name="OldSource">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//UseCase"/>
+      </nodes>
+      <nodes xmi:id="_2j6pm4GoEeqjxJ91AzqJlg" name="NewSource" incoming="_2j6pnYGoEeqjxJ91AzqJlg" outgoing="_2j6pnIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//UseCase"/>
+      </nodes>
+      <edges xmi:id="_2j6pnIGoEeqjxJ91AzqJlg" source="_2j6pm4GoEeqjxJ91AzqJlg" target="_2j6pmYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//UseCase/include"/>
+      </edges>
+      <edges xmi:id="_2j6pnYGoEeqjxJ91AzqJlg" source="_2j6pmYGoEeqjxJ91AzqJlg" target="_2j6pm4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Include/includingCase"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_2j6pnoGoEeqjxJ91AzqJlg" origin="_2j6pk4GoEeqjxJ91AzqJlg" image="_2j6pmYGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_2j6pn4GoEeqjxJ91AzqJlg" origin="_2j6plIGoEeqjxJ91AzqJlg" image="_2j6pmoGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_2j6poIGoEeqjxJ91AzqJlg" origin="_2j6plYGoEeqjxJ91AzqJlg" image="_2j6pm4GoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

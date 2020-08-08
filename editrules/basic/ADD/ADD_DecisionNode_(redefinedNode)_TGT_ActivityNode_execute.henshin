@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_U61IMIGqEeqSC4bGMjXJ9g" name="ADD_DecisionNode_(redefinedNode)_TGT_ActivityNode" description="Adds to DecisionNode's reference redefinedNode the target ActivityNode">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_U61IMYGqEeqSC4bGMjXJ9g" name="addToDecisionNode_redefinedNode_ActivityNode" description="Adds to DecisionNode's reference redefinedNode the target ActivityNode">
+    <lhs xmi:id="_U61IMoGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_U61IM4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//DecisionNode"/>
+      </nodes>
+      <nodes xmi:id="_U61INIGqEeqSC4bGMjXJ9g" name="NewTarget">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityNode"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_U61INYGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_U61INoGqEeqSC4bGMjXJ9g" name="Selected" outgoing="_U61IOIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//DecisionNode"/>
+      </nodes>
+      <nodes xmi:id="_U61IN4GqEeqSC4bGMjXJ9g" name="NewTarget" incoming="_U61IOIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityNode"/>
+      </nodes>
+      <edges xmi:id="_U61IOIGqEeqSC4bGMjXJ9g" source="_U61INoGqEeqSC4bGMjXJ9g" target="_U61IN4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityNode/redefinedNode"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_U61IOYGqEeqSC4bGMjXJ9g" origin="_U61IM4GqEeqSC4bGMjXJ9g" image="_U61INoGqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_U61IOoGqEeqSC4bGMjXJ9g" origin="_U61INIGqEeqSC4bGMjXJ9g" image="_U61IN4GqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

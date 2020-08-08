@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_1qP2oIGoEeqjxJ91AzqJlg" name="CREATE_LiteralUnlimitedNatural_IN_Duration_(expr)" description="Creates one LiteralUnlimitedNatural in Duration">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_1qP2oYGoEeqjxJ91AzqJlg" name="createLiteralUnlimitedNatural_IN_Duration" description="creates one LiteralUnlimitedNatural in the context: Duration">
+    <parameters xmi:id="_1qP2ooGoEeqjxJ91AzqJlg" name="Value" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//UnlimitedNatural"/>
+    </parameters>
+    <lhs xmi:id="_1qP2o4GoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_1qP2pIGoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Duration"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_1qP2pYGoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_1qP2poGoEeqjxJ91AzqJlg" name="Selected" outgoing="_1qP2qYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Duration"/>
+      </nodes>
+      <nodes xmi:id="_1qP2p4GoEeqjxJ91AzqJlg" name="New" incoming="_1qP2qYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LiteralUnlimitedNatural"/>
+        <attributes xmi:id="_1qP2qIGoEeqjxJ91AzqJlg" value="Value">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LiteralUnlimitedNatural/value"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_1qP2qYGoEeqjxJ91AzqJlg" source="_1qP2poGoEeqjxJ91AzqJlg" target="_1qP2p4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Duration/expr"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_1qP2qoGoEeqjxJ91AzqJlg" origin="_1qP2pIGoEeqjxJ91AzqJlg" image="_1qP2poGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

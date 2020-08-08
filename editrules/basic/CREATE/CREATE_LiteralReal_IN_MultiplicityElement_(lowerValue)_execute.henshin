@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UYJ48IGqEeqSC4bGMjXJ9g" name="CREATE_LiteralReal_IN_MultiplicityElement_(lowerValue)" description="Creates one LiteralReal in MultiplicityElement">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UYJ48YGqEeqSC4bGMjXJ9g" name="createLiteralReal_IN_MultiplicityElement" description="creates one LiteralReal in the context: MultiplicityElement">
+    <parameters xmi:id="_UYJ48oGqEeqSC4bGMjXJ9g" name="Value" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Real"/>
+    </parameters>
+    <lhs xmi:id="_UYJ484GqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_UYJ49IGqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//MultiplicityElement"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_UYJ49YGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_UYKgAIGqEeqSC4bGMjXJ9g" name="Selected" outgoing="_UYKgA4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//MultiplicityElement"/>
+      </nodes>
+      <nodes xmi:id="_UYKgAYGqEeqSC4bGMjXJ9g" name="New" incoming="_UYKgA4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LiteralReal"/>
+        <attributes xmi:id="_UYKgAoGqEeqSC4bGMjXJ9g" value="Value">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LiteralReal/value"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_UYKgA4GqEeqSC4bGMjXJ9g" source="_UYKgAIGqEeqSC4bGMjXJ9g" target="_UYKgAYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//MultiplicityElement/lowerValue"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_UYKgBIGqEeqSC4bGMjXJ9g" origin="_UYJ49IGqEeqSC4bGMjXJ9g" image="_UYKgAIGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

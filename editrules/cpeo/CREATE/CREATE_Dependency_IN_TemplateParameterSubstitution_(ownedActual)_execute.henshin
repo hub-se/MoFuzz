@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_1qqtYIGoEeqjxJ91AzqJlg" name="CREATE_Dependency_IN_TemplateParameterSubstitution_(ownedActual)" description="Creates one Dependency in TemplateParameterSubstitution">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_1qqtYYGoEeqjxJ91AzqJlg" name="createDependency_IN_TemplateParameterSubstitution" description="creates one Dependency in the context: TemplateParameterSubstitution">
+    <lhs xmi:id="_1qqtYoGoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_1qqtY4GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameterSubstitution"/>
+      </nodes>
+      <nodes xmi:id="_1qqtZIGoEeqjxJ91AzqJlg" name="Existing">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//NamedElement"/>
+      </nodes>
+      <nodes xmi:id="_1qqtZYGoEeqjxJ91AzqJlg" name="Existing1">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//NamedElement"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_1qqtZoGoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_1qqtZ4GoEeqjxJ91AzqJlg" name="Selected" outgoing="_1qqta4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameterSubstitution"/>
+      </nodes>
+      <nodes xmi:id="_1qqtaIGoEeqjxJ91AzqJlg" name="New" incoming="_1qqta4GoEeqjxJ91AzqJlg" outgoing="_1qqtbIGoEeqjxJ91AzqJlg _1qqtbYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Dependency"/>
+      </nodes>
+      <nodes xmi:id="_1qqtaYGoEeqjxJ91AzqJlg" name="Existing" incoming="_1qqtbIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//NamedElement"/>
+      </nodes>
+      <nodes xmi:id="_1qqtaoGoEeqjxJ91AzqJlg" name="Existing1" incoming="_1qqtbYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//NamedElement"/>
+      </nodes>
+      <edges xmi:id="_1qqta4GoEeqjxJ91AzqJlg" source="_1qqtZ4GoEeqjxJ91AzqJlg" target="_1qqtaIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameterSubstitution/ownedActual"/>
+      </edges>
+      <edges xmi:id="_1qqtbIGoEeqjxJ91AzqJlg" source="_1qqtaIGoEeqjxJ91AzqJlg" target="_1qqtaYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Dependency/supplier"/>
+      </edges>
+      <edges xmi:id="_1qqtbYGoEeqjxJ91AzqJlg" source="_1qqtaIGoEeqjxJ91AzqJlg" target="_1qqtaoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Dependency/client"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_1qqtboGoEeqjxJ91AzqJlg" origin="_1qqtY4GoEeqjxJ91AzqJlg" image="_1qqtZ4GoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_1qqtb4GoEeqjxJ91AzqJlg" origin="_1qqtZIGoEeqjxJ91AzqJlg" image="_1qqtaYGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_1qqtcIGoEeqjxJ91AzqJlg" origin="_1qqtZYGoEeqjxJ91AzqJlg" image="_1qqtaoGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

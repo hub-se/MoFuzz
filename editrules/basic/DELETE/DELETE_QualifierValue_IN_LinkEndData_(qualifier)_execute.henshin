@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_Uvh3IIGqEeqSC4bGMjXJ9g" name="DELETE_QualifierValue_IN_LinkEndData_(qualifier)" description="Deletes one QualifierValue in LinkEndData">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_Uvh3IYGqEeqSC4bGMjXJ9g" name="deleteQualifierValue_IN_LinkEndData" description="deletes one QualifierValue in the context: LinkEndData">
+    <lhs xmi:id="_Uvh3IoGqEeqSC4bGMjXJ9g" name="LHS">
+      <nodes xmi:id="_Uvh3I4GqEeqSC4bGMjXJ9g" name="Selected" outgoing="_Uvh3JYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LinkEndData"/>
+      </nodes>
+      <nodes xmi:id="_Uvh3JIGqEeqSC4bGMjXJ9g" name="ToBeDeleted" incoming="_Uvh3JYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//QualifierValue"/>
+      </nodes>
+      <edges xmi:id="_Uvh3JYGqEeqSC4bGMjXJ9g" source="_Uvh3I4GqEeqSC4bGMjXJ9g" target="_Uvh3JIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LinkEndData/qualifier"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_Uvh3JoGqEeqSC4bGMjXJ9g" name="RHS">
+      <nodes xmi:id="_Uvh3J4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LinkEndData"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_Uvh3KIGqEeqSC4bGMjXJ9g" origin="_Uvh3I4GqEeqSC4bGMjXJ9g" image="_Uvh3J4GqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

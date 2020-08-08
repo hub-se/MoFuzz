@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_TllMgIGqEeqSC4bGMjXJ9g" name="SET_REFERENCE_Port_(protocol)_TGT_ProtocolStateMachine" description="Sets Port's reference protocol the target ProtocolStateMachine">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_TllMgYGqEeqSC4bGMjXJ9g" name="setPort_protocol_TO_ProtocolStateMachine" description="SetPortRefprotocolToProtocolStateMachine">
+    <lhs xmi:id="_TllMgoGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_TllMg4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Port"/>
+      </nodes>
+      <nodes xmi:id="_TllMhIGqEeqSC4bGMjXJ9g" name="NewTarget">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ProtocolStateMachine"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_TllMhYGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_TllMhoGqEeqSC4bGMjXJ9g" name="Selected" outgoing="_TllMiIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Port"/>
+      </nodes>
+      <nodes xmi:id="_TllMh4GqEeqSC4bGMjXJ9g" name="NewTarget" incoming="_TllMiIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ProtocolStateMachine"/>
+      </nodes>
+      <edges xmi:id="_TllMiIGqEeqSC4bGMjXJ9g" source="_TllMhoGqEeqSC4bGMjXJ9g" target="_TllMh4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Port/protocol"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_TllMiYGqEeqSC4bGMjXJ9g" origin="_TllMg4GqEeqSC4bGMjXJ9g" image="_TllMhoGqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_TllMioGqEeqSC4bGMjXJ9g" origin="_TllMhIGqEeqSC4bGMjXJ9g" image="_TllMh4GqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

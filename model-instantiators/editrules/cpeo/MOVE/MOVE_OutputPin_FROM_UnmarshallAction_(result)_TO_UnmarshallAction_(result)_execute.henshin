@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_2b59EIGoEeqjxJ91AzqJlg" name="MOVE_OutputPin_FROM_UnmarshallAction_(result)_TO_UnmarshallAction_(result)" description="MOVEs OutputPin from UnmarshallAction(Reference:result) to UnmarshallAction(Reference:result">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_2b59EYGoEeqjxJ91AzqJlg" name="moveOutputPin_FROM_UnmarshallAction_result_TO_UnmarshallAction_UnmarshallAction" description="Moves OutputPin from UnmarshallAction(Reference:result) toUnmarshallAction(Reference:UnmarshallAction)">
+    <lhs xmi:id="_2b59EoGoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_2b59E4GoEeqjxJ91AzqJlg" name="Selected" incoming="_2b59FoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//OutputPin"/>
+      </nodes>
+      <nodes xmi:id="_2b59FIGoEeqjxJ91AzqJlg" name="OldSource" outgoing="_2b59FoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//UnmarshallAction"/>
+      </nodes>
+      <nodes xmi:id="_2b59FYGoEeqjxJ91AzqJlg" name="NewSource">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//UnmarshallAction"/>
+      </nodes>
+      <edges xmi:id="_2b59FoGoEeqjxJ91AzqJlg" source="_2b59FIGoEeqjxJ91AzqJlg" target="_2b59E4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//UnmarshallAction/result"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_2b59F4GoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_2b59GIGoEeqjxJ91AzqJlg" name="Selected" incoming="_2b59G4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//OutputPin"/>
+      </nodes>
+      <nodes xmi:id="_2b59GYGoEeqjxJ91AzqJlg" name="OldSource">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//UnmarshallAction"/>
+      </nodes>
+      <nodes xmi:id="_2b59GoGoEeqjxJ91AzqJlg" name="NewSource" outgoing="_2b59G4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//UnmarshallAction"/>
+      </nodes>
+      <edges xmi:id="_2b59G4GoEeqjxJ91AzqJlg" source="_2b59GoGoEeqjxJ91AzqJlg" target="_2b59GIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//UnmarshallAction/result"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_2b59HIGoEeqjxJ91AzqJlg" origin="_2b59E4GoEeqjxJ91AzqJlg" image="_2b59GIGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_2b59HYGoEeqjxJ91AzqJlg" origin="_2b59FIGoEeqjxJ91AzqJlg" image="_2b59GYGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_2b59HoGoEeqjxJ91AzqJlg" origin="_2b59FYGoEeqjxJ91AzqJlg" image="_2b59GoGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

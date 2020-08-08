@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_1cVWcIGoEeqjxJ91AzqJlg" name="ADD_Activity_(postcondition)_TGT_Constraint" description="Adds to Activity's reference postcondition the target Constraint">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_1cVWcYGoEeqjxJ91AzqJlg" name="addToActivity_postcondition_Constraint" description="Adds to Activity's reference postcondition the target Constraint">
+    <lhs xmi:id="_1cVWcoGoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_1cVWc4GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Activity"/>
+      </nodes>
+      <nodes xmi:id="_1cVWdIGoEeqjxJ91AzqJlg" name="NewTarget">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Constraint"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_1cVWdYGoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_1cVWdoGoEeqjxJ91AzqJlg" name="Selected" outgoing="_1cVWeIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Activity"/>
+      </nodes>
+      <nodes xmi:id="_1cVWd4GoEeqjxJ91AzqJlg" name="NewTarget" incoming="_1cVWeIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Constraint"/>
+      </nodes>
+      <edges xmi:id="_1cVWeIGoEeqjxJ91AzqJlg" source="_1cVWdoGoEeqjxJ91AzqJlg" target="_1cVWd4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Behavior/postcondition"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_1cVWeYGoEeqjxJ91AzqJlg" origin="_1cVWc4GoEeqjxJ91AzqJlg" image="_1cVWdoGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_1cVWeoGoEeqjxJ91AzqJlg" origin="_1cVWdIGoEeqjxJ91AzqJlg" image="_1cVWd4GoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

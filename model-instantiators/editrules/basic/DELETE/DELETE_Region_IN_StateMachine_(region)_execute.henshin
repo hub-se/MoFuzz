@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_Uy-MsIGqEeqSC4bGMjXJ9g" name="DELETE_Region_IN_StateMachine_(region)" description="Deletes one Region in StateMachine">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_Uy-MsYGqEeqSC4bGMjXJ9g" name="deleteRegion_IN_StateMachine" description="deletes one Region in the context: StateMachine">
+    <lhs xmi:id="_Uy-MsoGqEeqSC4bGMjXJ9g" name="LHS">
+      <nodes xmi:id="_Uy-Ms4GqEeqSC4bGMjXJ9g" name="Selected" incoming="_Uy-MtoGqEeqSC4bGMjXJ9g" outgoing="_Uy-MtYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//StateMachine"/>
+      </nodes>
+      <nodes xmi:id="_Uy-MtIGqEeqSC4bGMjXJ9g" name="ToBeDeleted" incoming="_Uy-MtYGqEeqSC4bGMjXJ9g" outgoing="_Uy-MtoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Region"/>
+      </nodes>
+      <edges xmi:id="_Uy-MtYGqEeqSC4bGMjXJ9g" source="_Uy-Ms4GqEeqSC4bGMjXJ9g" target="_Uy-MtIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//StateMachine/region"/>
+      </edges>
+      <edges xmi:id="_Uy-MtoGqEeqSC4bGMjXJ9g" source="_Uy-MtIGqEeqSC4bGMjXJ9g" target="_Uy-Ms4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Region/stateMachine"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_Uy-Mt4GqEeqSC4bGMjXJ9g" name="RHS">
+      <nodes xmi:id="_Uy-MuIGqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//StateMachine"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_Uy-MuYGqEeqSC4bGMjXJ9g" origin="_Uy-Ms4GqEeqSC4bGMjXJ9g" image="_Uy-MuIGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UUcdoIGqEeqSC4bGMjXJ9g" name="CREATE_ProtocolConformance_IN_ProtocolStateMachine_(conformance)" description="Creates one ProtocolConformance in ProtocolStateMachine">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UUcdoYGqEeqSC4bGMjXJ9g" name="createProtocolConformance_IN_ProtocolStateMachine" description="creates one ProtocolConformance in the context: ProtocolStateMachine">
+    <lhs xmi:id="_UUcdooGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_UUcdo4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ProtocolStateMachine"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_UUcdpIGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_UUcdpYGqEeqSC4bGMjXJ9g" name="Selected" incoming="_UUcdqIGqEeqSC4bGMjXJ9g" outgoing="_UUcdp4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ProtocolStateMachine"/>
+      </nodes>
+      <nodes xmi:id="_UUcdpoGqEeqSC4bGMjXJ9g" name="New" incoming="_UUcdp4GqEeqSC4bGMjXJ9g" outgoing="_UUcdqIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ProtocolConformance"/>
+      </nodes>
+      <edges xmi:id="_UUcdp4GqEeqSC4bGMjXJ9g" source="_UUcdpYGqEeqSC4bGMjXJ9g" target="_UUcdpoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ProtocolStateMachine/conformance"/>
+      </edges>
+      <edges xmi:id="_UUcdqIGqEeqSC4bGMjXJ9g" source="_UUcdpoGqEeqSC4bGMjXJ9g" target="_UUcdpYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ProtocolConformance/specificMachine"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_UUcdqYGqEeqSC4bGMjXJ9g" origin="_UUcdo4GqEeqSC4bGMjXJ9g" image="_UUcdpYGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

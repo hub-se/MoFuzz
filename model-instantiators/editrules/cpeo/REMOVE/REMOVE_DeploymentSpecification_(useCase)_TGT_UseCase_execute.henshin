@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_2KF0UIGoEeqjxJ91AzqJlg" name="REMOVE_DeploymentSpecification_(useCase)_TGT_UseCase" description="Removes DeploymentSpecification's reference useCase the target UseCase">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_2KF0UYGoEeqjxJ91AzqJlg" name="removeFromDeploymentSpecification_useCase_UseCase" description="Removes from DeploymentSpecification's reference useCase the target UseCase">
+    <lhs xmi:id="_2KF0UoGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_2KF0U4GoEeqjxJ91AzqJlg" name="Selected" incoming="_2KF0VoGoEeqjxJ91AzqJlg" outgoing="_2KF0VYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//DeploymentSpecification"/>
+      </nodes>
+      <nodes xmi:id="_2KF0VIGoEeqjxJ91AzqJlg" name="OldTarget" incoming="_2KF0VYGoEeqjxJ91AzqJlg" outgoing="_2KF0VoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//UseCase"/>
+      </nodes>
+      <edges xmi:id="_2KF0VYGoEeqjxJ91AzqJlg" source="_2KF0U4GoEeqjxJ91AzqJlg" target="_2KF0VIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier/useCase"/>
+      </edges>
+      <edges xmi:id="_2KF0VoGoEeqjxJ91AzqJlg" source="_2KF0VIGoEeqjxJ91AzqJlg" target="_2KF0U4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//UseCase/subject"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_2KF0V4GoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_2KF0WIGoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//DeploymentSpecification"/>
+      </nodes>
+      <nodes xmi:id="_2KF0WYGoEeqjxJ91AzqJlg" name="OldTarget">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//UseCase"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_2KF0WoGoEeqjxJ91AzqJlg" origin="_2KF0U4GoEeqjxJ91AzqJlg" image="_2KF0WIGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_2KF0W4GoEeqjxJ91AzqJlg" origin="_2KF0VIGoEeqjxJ91AzqJlg" image="_2KF0WYGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

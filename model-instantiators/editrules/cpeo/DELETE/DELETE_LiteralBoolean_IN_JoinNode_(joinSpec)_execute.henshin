@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_1JsuUIGoEeqjxJ91AzqJlg" name="DELETE_LiteralBoolean_IN_JoinNode_(joinSpec)" description="Deletes one LiteralBoolean in JoinNode">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_1JsuUYGoEeqjxJ91AzqJlg" name="deleteLiteralBoolean_IN_JoinNode" description="deletes one LiteralBoolean in the context: JoinNode">
+    <lhs xmi:id="_1JsuUoGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_1JsuU4GoEeqjxJ91AzqJlg" name="Selected" outgoing="_1JsuVYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//JoinNode"/>
+      </nodes>
+      <nodes xmi:id="_1JsuVIGoEeqjxJ91AzqJlg" name="ToBeDeleted" incoming="_1JsuVYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LiteralBoolean"/>
+      </nodes>
+      <edges xmi:id="_1JsuVYGoEeqjxJ91AzqJlg" source="_1JsuU4GoEeqjxJ91AzqJlg" target="_1JsuVIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//JoinNode/joinSpec"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_1JsuVoGoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_1JsuV4GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//JoinNode"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_1JsuWIGoEeqjxJ91AzqJlg" origin="_1JsuU4GoEeqjxJ91AzqJlg" image="_1JsuV4GoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

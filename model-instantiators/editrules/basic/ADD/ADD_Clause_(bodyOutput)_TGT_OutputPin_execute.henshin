@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_U4uPYIGqEeqSC4bGMjXJ9g" name="ADD_Clause_(bodyOutput)_TGT_OutputPin" description="Adds to Clause's reference bodyOutput the target OutputPin">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_U4uPYYGqEeqSC4bGMjXJ9g" name="addToClause_bodyOutput_OutputPin" description="Adds to Clause's reference bodyOutput the target OutputPin">
+    <lhs xmi:id="_U4uPYoGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_U4uPY4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Clause"/>
+      </nodes>
+      <nodes xmi:id="_U4uPZIGqEeqSC4bGMjXJ9g" name="NewTarget">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//OutputPin"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_U4uPZYGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_U4uPZoGqEeqSC4bGMjXJ9g" name="Selected" outgoing="_U4uPaIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Clause"/>
+      </nodes>
+      <nodes xmi:id="_U4uPZ4GqEeqSC4bGMjXJ9g" name="NewTarget" incoming="_U4uPaIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//OutputPin"/>
+      </nodes>
+      <edges xmi:id="_U4uPaIGqEeqSC4bGMjXJ9g" source="_U4uPZoGqEeqSC4bGMjXJ9g" target="_U4uPZ4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Clause/bodyOutput"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_U4uPaYGqEeqSC4bGMjXJ9g" origin="_U4uPY4GqEeqSC4bGMjXJ9g" image="_U4uPZoGqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_U4uPaoGqEeqSC4bGMjXJ9g" origin="_U4uPZIGqEeqSC4bGMjXJ9g" image="_U4uPZ4GqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_U-zpQIGqEeqSC4bGMjXJ9g" name="ADD_StateMachine_(submachineState)_TGT_State" description="Adds to StateMachine's reference submachineState the target State">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_U-zpQYGqEeqSC4bGMjXJ9g" name="addToStateMachine_submachineState_State" description="Adds to StateMachine's reference submachineState the target State">
+    <lhs xmi:id="_U-zpQoGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_U-zpQ4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//StateMachine"/>
+      </nodes>
+      <nodes xmi:id="_U-zpRIGqEeqSC4bGMjXJ9g" name="NewTarget">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//State"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_U-zpRYGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_U-zpRoGqEeqSC4bGMjXJ9g" name="Selected" incoming="_U-zpSYGqEeqSC4bGMjXJ9g" outgoing="_U-zpSIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//StateMachine"/>
+      </nodes>
+      <nodes xmi:id="_U-zpR4GqEeqSC4bGMjXJ9g" name="NewTarget" incoming="_U-zpSIGqEeqSC4bGMjXJ9g" outgoing="_U-zpSYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//State"/>
+      </nodes>
+      <edges xmi:id="_U-zpSIGqEeqSC4bGMjXJ9g" source="_U-zpRoGqEeqSC4bGMjXJ9g" target="_U-zpR4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//StateMachine/submachineState"/>
+      </edges>
+      <edges xmi:id="_U-zpSYGqEeqSC4bGMjXJ9g" source="_U-zpR4GqEeqSC4bGMjXJ9g" target="_U-zpRoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//State/submachine"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_U-zpSoGqEeqSC4bGMjXJ9g" origin="_U-zpQ4GqEeqSC4bGMjXJ9g" image="_U-zpRoGqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_U-zpS4GqEeqSC4bGMjXJ9g" origin="_U-zpRIGqEeqSC4bGMjXJ9g" image="_U-zpR4GqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_06o-oIGoEeqjxJ91AzqJlg" name="DELETE_Activity_IN_State_(doActivity)" description="Deletes one Activity in State">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_06o-oYGoEeqjxJ91AzqJlg" name="deleteActivity_IN_State" description="deletes one Activity in the context: State">
+    <lhs xmi:id="_06o-ooGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_06o-o4GoEeqjxJ91AzqJlg" name="Selected" outgoing="_06o-pYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//State"/>
+      </nodes>
+      <nodes xmi:id="_06o-pIGoEeqjxJ91AzqJlg" name="ToBeDeleted" incoming="_06o-pYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Activity"/>
+      </nodes>
+      <edges xmi:id="_06o-pYGoEeqjxJ91AzqJlg" source="_06o-o4GoEeqjxJ91AzqJlg" target="_06o-pIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//State/doActivity"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_06o-poGoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_06o-p4GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//State"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_06o-qIGoEeqjxJ91AzqJlg" origin="_06o-o4GoEeqjxJ91AzqJlg" image="_06o-p4GoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

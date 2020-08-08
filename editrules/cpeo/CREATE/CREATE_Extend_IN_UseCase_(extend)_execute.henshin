@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_1prO4IGoEeqjxJ91AzqJlg" name="CREATE_Extend_IN_UseCase_(extend)" description="Creates one Extend in UseCase">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_1prO4YGoEeqjxJ91AzqJlg" name="createExtend_IN_UseCase" description="creates one Extend in the context: UseCase">
+    <lhs xmi:id="_1prO4oGoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_1prO44GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//UseCase"/>
+      </nodes>
+      <nodes xmi:id="_1prO5IGoEeqjxJ91AzqJlg" name="Existing">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//UseCase"/>
+      </nodes>
+      <nodes xmi:id="_1prO5YGoEeqjxJ91AzqJlg" name="Existing1">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ExtensionPoint"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_1prO5oGoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_1prO54GoEeqjxJ91AzqJlg" name="Selected" incoming="_1prO7IGoEeqjxJ91AzqJlg" outgoing="_1prO64GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//UseCase"/>
+      </nodes>
+      <nodes xmi:id="_1prO6IGoEeqjxJ91AzqJlg" name="New" incoming="_1prO64GoEeqjxJ91AzqJlg" outgoing="_1prO7IGoEeqjxJ91AzqJlg _1prO7YGoEeqjxJ91AzqJlg _1prO7oGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Extend"/>
+      </nodes>
+      <nodes xmi:id="_1prO6YGoEeqjxJ91AzqJlg" name="Existing" incoming="_1prO7YGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//UseCase"/>
+      </nodes>
+      <nodes xmi:id="_1prO6oGoEeqjxJ91AzqJlg" name="Existing1" incoming="_1prO7oGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ExtensionPoint"/>
+      </nodes>
+      <edges xmi:id="_1prO64GoEeqjxJ91AzqJlg" source="_1prO54GoEeqjxJ91AzqJlg" target="_1prO6IGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//UseCase/extend"/>
+      </edges>
+      <edges xmi:id="_1prO7IGoEeqjxJ91AzqJlg" source="_1prO6IGoEeqjxJ91AzqJlg" target="_1prO54GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Extend/extension"/>
+      </edges>
+      <edges xmi:id="_1prO7YGoEeqjxJ91AzqJlg" source="_1prO6IGoEeqjxJ91AzqJlg" target="_1prO6YGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Extend/extendedCase"/>
+      </edges>
+      <edges xmi:id="_1prO7oGoEeqjxJ91AzqJlg" source="_1prO6IGoEeqjxJ91AzqJlg" target="_1prO6oGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Extend/extensionLocation"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_1prO74GoEeqjxJ91AzqJlg" origin="_1prO44GoEeqjxJ91AzqJlg" image="_1prO54GoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_1prO8IGoEeqjxJ91AzqJlg" origin="_1prO5IGoEeqjxJ91AzqJlg" image="_1prO6YGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_1prO8YGoEeqjxJ91AzqJlg" origin="_1prO5YGoEeqjxJ91AzqJlg" image="_1prO6oGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

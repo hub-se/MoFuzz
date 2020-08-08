@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_2GGFIIGoEeqjxJ91AzqJlg" name="REMOVE_TemplateSignature_(parameter)_TGT_TemplateParameter" description="Removes TemplateSignature's reference parameter the target TemplateParameter">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_2GGFIYGoEeqjxJ91AzqJlg" name="removeFromTemplateSignature_parameter_TemplateParameter" description="Removes from TemplateSignature's reference parameter the target TemplateParameter">
+    <lhs xmi:id="_2GGFIoGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_2GGFI4GoEeqjxJ91AzqJlg" name="Selected" outgoing="_2GGFJYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateSignature"/>
+      </nodes>
+      <nodes xmi:id="_2GGFJIGoEeqjxJ91AzqJlg" name="OldTarget" incoming="_2GGFJYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameter"/>
+      </nodes>
+      <edges xmi:id="_2GGFJYGoEeqjxJ91AzqJlg" source="_2GGFI4GoEeqjxJ91AzqJlg" target="_2GGFJIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateSignature/parameter"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_2GGFJoGoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_2GGFJ4GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateSignature"/>
+      </nodes>
+      <nodes xmi:id="_2GGFKIGoEeqjxJ91AzqJlg" name="OldTarget">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameter"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_2GGFKYGoEeqjxJ91AzqJlg" origin="_2GGFI4GoEeqjxJ91AzqJlg" image="_2GGFJ4GoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_2GGFKoGoEeqjxJ91AzqJlg" origin="_2GGFJIGoEeqjxJ91AzqJlg" image="_2GGFKIGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

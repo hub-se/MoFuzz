@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_173LEIGoEeqjxJ91AzqJlg" name="CREATE_Manifestation_IN_Package_(packagedElement)" description="Creates one Manifestation in Package">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_173LEYGoEeqjxJ91AzqJlg" name="createManifestation_IN_Package" description="creates one Manifestation in the context: Package">
+    <lhs xmi:id="_173LEoGoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_173LE4GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </nodes>
+      <nodes xmi:id="_173LFIGoEeqjxJ91AzqJlg" name="Existing1">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//NamedElement"/>
+      </nodes>
+      <nodes xmi:id="_173LFYGoEeqjxJ91AzqJlg" name="Existing2">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//PackageableElement"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_173LFoGoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_173LF4GoEeqjxJ91AzqJlg" name="Selected" outgoing="_173LG4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </nodes>
+      <nodes xmi:id="_173LGIGoEeqjxJ91AzqJlg" name="New" incoming="_173LG4GoEeqjxJ91AzqJlg" outgoing="_173LHIGoEeqjxJ91AzqJlg _173LHYGoEeqjxJ91AzqJlg _173LHoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Manifestation"/>
+      </nodes>
+      <nodes xmi:id="_173LGYGoEeqjxJ91AzqJlg" name="Existing1" incoming="_173LHYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//NamedElement"/>
+      </nodes>
+      <nodes xmi:id="_173LGoGoEeqjxJ91AzqJlg" name="Existing2" incoming="_173LHoGoEeqjxJ91AzqJlg _173LHIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//PackageableElement"/>
+      </nodes>
+      <edges xmi:id="_173LG4GoEeqjxJ91AzqJlg" source="_173LF4GoEeqjxJ91AzqJlg" target="_173LGIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Package/packagedElement"/>
+      </edges>
+      <edges xmi:id="_173LHIGoEeqjxJ91AzqJlg" source="_173LGIGoEeqjxJ91AzqJlg" target="_173LGoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Dependency/supplier"/>
+      </edges>
+      <edges xmi:id="_173LHYGoEeqjxJ91AzqJlg" source="_173LGIGoEeqjxJ91AzqJlg" target="_173LGYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Dependency/client"/>
+      </edges>
+      <edges xmi:id="_173LHoGoEeqjxJ91AzqJlg" source="_173LGIGoEeqjxJ91AzqJlg" target="_173LGoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Manifestation/utilizedElement"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_173LH4GoEeqjxJ91AzqJlg" origin="_173LE4GoEeqjxJ91AzqJlg" image="_173LF4GoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_173LIIGoEeqjxJ91AzqJlg" origin="_173LFIGoEeqjxJ91AzqJlg" image="_173LGYGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_173LIYGoEeqjxJ91AzqJlg" origin="_173LFYGoEeqjxJ91AzqJlg" image="_173LGoGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

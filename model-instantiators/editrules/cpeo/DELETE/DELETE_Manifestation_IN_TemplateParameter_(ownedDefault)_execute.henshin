@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_0-F7QIGoEeqjxJ91AzqJlg" name="DELETE_Manifestation_IN_TemplateParameter_(ownedDefault)" description="Deletes one Manifestation in TemplateParameter">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_0-F7QYGoEeqjxJ91AzqJlg" name="deleteManifestation_IN_TemplateParameter" description="deletes one Manifestation in the context: TemplateParameter">
+    <lhs xmi:id="_0-F7QoGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_0-F7Q4GoEeqjxJ91AzqJlg" name="Selected" outgoing="_0-F7R4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameter"/>
+      </nodes>
+      <nodes xmi:id="_0-F7RIGoEeqjxJ91AzqJlg" name="ToBeDeleted" incoming="_0-F7R4GoEeqjxJ91AzqJlg" outgoing="_0-F7SIGoEeqjxJ91AzqJlg _0-F7SYGoEeqjxJ91AzqJlg _0-F7SoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Manifestation"/>
+      </nodes>
+      <nodes xmi:id="_0-F7RYGoEeqjxJ91AzqJlg" name="Existing1" incoming="_0-F7SYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//NamedElement"/>
+      </nodes>
+      <nodes xmi:id="_0-F7RoGoEeqjxJ91AzqJlg" name="Existing2" incoming="_0-F7SoGoEeqjxJ91AzqJlg _0-F7SIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//PackageableElement"/>
+      </nodes>
+      <edges xmi:id="_0-F7R4GoEeqjxJ91AzqJlg" source="_0-F7Q4GoEeqjxJ91AzqJlg" target="_0-F7RIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameter/ownedDefault"/>
+      </edges>
+      <edges xmi:id="_0-F7SIGoEeqjxJ91AzqJlg" source="_0-F7RIGoEeqjxJ91AzqJlg" target="_0-F7RoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Dependency/supplier"/>
+      </edges>
+      <edges xmi:id="_0-F7SYGoEeqjxJ91AzqJlg" source="_0-F7RIGoEeqjxJ91AzqJlg" target="_0-F7RYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Dependency/client"/>
+      </edges>
+      <edges xmi:id="_0-F7SoGoEeqjxJ91AzqJlg" source="_0-F7RIGoEeqjxJ91AzqJlg" target="_0-F7RoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Manifestation/utilizedElement"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_0-F7S4GoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_0-F7TIGoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameter"/>
+      </nodes>
+      <nodes xmi:id="_0-F7TYGoEeqjxJ91AzqJlg" name="Existing1">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//NamedElement"/>
+      </nodes>
+      <nodes xmi:id="_0-F7ToGoEeqjxJ91AzqJlg" name="Existing2">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//PackageableElement"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_0-F7T4GoEeqjxJ91AzqJlg" origin="_0-F7Q4GoEeqjxJ91AzqJlg" image="_0-F7TIGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_0-F7UIGoEeqjxJ91AzqJlg" origin="_0-F7RYGoEeqjxJ91AzqJlg" image="_0-F7TYGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_0-F7UYGoEeqjxJ91AzqJlg" origin="_0-F7RoGoEeqjxJ91AzqJlg" image="_0-F7ToGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

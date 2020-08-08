@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_2UmbMIGoEeqjxJ91AzqJlg" name="MOVE_Property_FROM_Association_(ownedEnd)_TO_Association_(ownedEnd)" description="MOVEs Property from Association(Reference:ownedEnd) to Association(Reference:ownedEnd">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_2UmbMYGoEeqjxJ91AzqJlg" name="moveProperty_FROM_Association_ownedEnd_TO_Association_Association" description="Moves Property from Association(Reference:ownedEnd) toAssociation(Reference:Association)">
+    <lhs xmi:id="_2UmbMoGoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_2UmbM4GoEeqjxJ91AzqJlg" name="Selected" incoming="_2UmbNoGoEeqjxJ91AzqJlg" outgoing="_2UmbN4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Property"/>
+      </nodes>
+      <nodes xmi:id="_2UmbNIGoEeqjxJ91AzqJlg" name="OldSource" incoming="_2UmbN4GoEeqjxJ91AzqJlg" outgoing="_2UmbNoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Association"/>
+      </nodes>
+      <nodes xmi:id="_2UmbNYGoEeqjxJ91AzqJlg" name="NewSource">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Association"/>
+      </nodes>
+      <edges xmi:id="_2UmbNoGoEeqjxJ91AzqJlg" source="_2UmbNIGoEeqjxJ91AzqJlg" target="_2UmbM4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Association/ownedEnd"/>
+      </edges>
+      <edges xmi:id="_2UmbN4GoEeqjxJ91AzqJlg" source="_2UmbM4GoEeqjxJ91AzqJlg" target="_2UmbNIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Property/owningAssociation"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_2UmbOIGoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_2UmbOYGoEeqjxJ91AzqJlg" name="Selected" incoming="_2UmbPIGoEeqjxJ91AzqJlg" outgoing="_2UmbPYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Property"/>
+      </nodes>
+      <nodes xmi:id="_2UmbOoGoEeqjxJ91AzqJlg" name="OldSource">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Association"/>
+      </nodes>
+      <nodes xmi:id="_2UmbO4GoEeqjxJ91AzqJlg" name="NewSource" incoming="_2UmbPYGoEeqjxJ91AzqJlg" outgoing="_2UmbPIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Association"/>
+      </nodes>
+      <edges xmi:id="_2UmbPIGoEeqjxJ91AzqJlg" source="_2UmbO4GoEeqjxJ91AzqJlg" target="_2UmbOYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Association/ownedEnd"/>
+      </edges>
+      <edges xmi:id="_2UmbPYGoEeqjxJ91AzqJlg" source="_2UmbOYGoEeqjxJ91AzqJlg" target="_2UmbO4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Property/owningAssociation"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_2UmbPoGoEeqjxJ91AzqJlg" origin="_2UmbM4GoEeqjxJ91AzqJlg" image="_2UmbOYGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_2UmbP4GoEeqjxJ91AzqJlg" origin="_2UmbNIGoEeqjxJ91AzqJlg" image="_2UmbOoGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_2UmbQIGoEeqjxJ91AzqJlg" origin="_2UmbNYGoEeqjxJ91AzqJlg" image="_2UmbO4GoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

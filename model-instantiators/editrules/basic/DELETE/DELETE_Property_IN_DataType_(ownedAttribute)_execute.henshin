@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UrTecIGqEeqSC4bGMjXJ9g" name="DELETE_Property_IN_DataType_(ownedAttribute)" description="Deletes one Property in DataType">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UrTecYGqEeqSC4bGMjXJ9g" name="deleteProperty_IN_DataType" description="deletes one Property in the context: DataType">
+    <lhs xmi:id="_UrTecoGqEeqSC4bGMjXJ9g" name="LHS">
+      <nodes xmi:id="_UrTec4GqEeqSC4bGMjXJ9g" name="Selected" incoming="_UrTedoGqEeqSC4bGMjXJ9g" outgoing="_UrTedYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//DataType"/>
+      </nodes>
+      <nodes xmi:id="_UrTedIGqEeqSC4bGMjXJ9g" name="ToBeDeleted" incoming="_UrTedYGqEeqSC4bGMjXJ9g" outgoing="_UrTedoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Property"/>
+      </nodes>
+      <edges xmi:id="_UrTedYGqEeqSC4bGMjXJ9g" source="_UrTec4GqEeqSC4bGMjXJ9g" target="_UrTedIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//DataType/ownedAttribute"/>
+      </edges>
+      <edges xmi:id="_UrTedoGqEeqSC4bGMjXJ9g" source="_UrTedIGqEeqSC4bGMjXJ9g" target="_UrTec4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Property/datatype"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_UrTed4GqEeqSC4bGMjXJ9g" name="RHS">
+      <nodes xmi:id="_UrTeeIGqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//DataType"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_UrTeeYGqEeqSC4bGMjXJ9g" origin="_UrTec4GqEeqSC4bGMjXJ9g" image="_UrTeeIGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_1FI-cIGoEeqjxJ91AzqJlg" name="DELETE_Expression_IN_ActivityEdge_(guard)" description="Deletes one Expression in ActivityEdge">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_1FI-cYGoEeqjxJ91AzqJlg" name="deleteExpression_IN_ActivityEdge" description="deletes one Expression in the context: ActivityEdge">
+    <lhs xmi:id="_1FI-coGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_1FI-c4GoEeqjxJ91AzqJlg" name="Selected" outgoing="_1FI-dYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityEdge"/>
+      </nodes>
+      <nodes xmi:id="_1FI-dIGoEeqjxJ91AzqJlg" name="ToBeDeleted" incoming="_1FI-dYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Expression"/>
+      </nodes>
+      <edges xmi:id="_1FI-dYGoEeqjxJ91AzqJlg" source="_1FI-c4GoEeqjxJ91AzqJlg" target="_1FI-dIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityEdge/guard"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_1FI-doGoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_1FI-d4GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityEdge"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_1FI-eIGoEeqjxJ91AzqJlg" origin="_1FI-c4GoEeqjxJ91AzqJlg" image="_1FI-d4GoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

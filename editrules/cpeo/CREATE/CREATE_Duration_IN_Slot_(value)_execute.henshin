@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_1op7MIGoEeqjxJ91AzqJlg" name="CREATE_Duration_IN_Slot_(value)" description="Creates one Duration in Slot">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_1op7MYGoEeqjxJ91AzqJlg" name="createDuration_IN_Slot" description="creates one Duration in the context: Slot">
+    <lhs xmi:id="_1op7MoGoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_1op7M4GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Slot"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_1op7NIGoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_1op7NYGoEeqjxJ91AzqJlg" name="Selected" outgoing="_1op7N4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Slot"/>
+      </nodes>
+      <nodes xmi:id="_1op7NoGoEeqjxJ91AzqJlg" name="New" incoming="_1op7N4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Duration"/>
+      </nodes>
+      <edges xmi:id="_1op7N4GoEeqjxJ91AzqJlg" source="_1op7NYGoEeqjxJ91AzqJlg" target="_1op7NoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Slot/value"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_1op7OIGoEeqjxJ91AzqJlg" origin="_1op7M4GoEeqjxJ91AzqJlg" image="_1op7NYGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_2GLksIGoEeqjxJ91AzqJlg" name="REMOVE_Pin_(outgoing)_TGT_ActivityEdge" description="Removes Pin's reference outgoing the target ActivityEdge">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_2GLksYGoEeqjxJ91AzqJlg" name="removeFromPin_outgoing_ActivityEdge" description="Removes from Pin's reference outgoing the target ActivityEdge">
+    <lhs xmi:id="_2GLksoGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_2GLks4GoEeqjxJ91AzqJlg" name="Selected" incoming="_2GLktoGoEeqjxJ91AzqJlg" outgoing="_2GLktYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Pin"/>
+      </nodes>
+      <nodes xmi:id="_2GLktIGoEeqjxJ91AzqJlg" name="OldTarget" incoming="_2GLktYGoEeqjxJ91AzqJlg" outgoing="_2GLktoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityEdge"/>
+      </nodes>
+      <edges xmi:id="_2GLktYGoEeqjxJ91AzqJlg" source="_2GLks4GoEeqjxJ91AzqJlg" target="_2GLktIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityNode/outgoing"/>
+      </edges>
+      <edges xmi:id="_2GLktoGoEeqjxJ91AzqJlg" source="_2GLktIGoEeqjxJ91AzqJlg" target="_2GLks4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityEdge/source"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_2GLkt4GoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_2GLkuIGoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Pin"/>
+      </nodes>
+      <nodes xmi:id="_2GLkuYGoEeqjxJ91AzqJlg" name="OldTarget">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityEdge"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_2GLkuoGoEeqjxJ91AzqJlg" origin="_2GLks4GoEeqjxJ91AzqJlg" image="_2GLkuIGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_2GLku4GoEeqjxJ91AzqJlg" origin="_2GLktIGoEeqjxJ91AzqJlg" image="_2GLkuYGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UXCeoIGqEeqSC4bGMjXJ9g" name="CREATE_TimeConstraint_IN_Package_(packagedElement)" description="Creates one TimeConstraint in Package">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UXCeoYGqEeqSC4bGMjXJ9g" name="createTimeConstraint_IN_Package" description="creates one TimeConstraint in the context: Package">
+    <lhs xmi:id="_UXCeooGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_UXCeo4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_UXCepIGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_UXCepYGqEeqSC4bGMjXJ9g" name="Selected" outgoing="_UXCep4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </nodes>
+      <nodes xmi:id="_UXCepoGqEeqSC4bGMjXJ9g" name="New" incoming="_UXCep4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TimeConstraint"/>
+      </nodes>
+      <edges xmi:id="_UXCep4GqEeqSC4bGMjXJ9g" source="_UXCepYGqEeqSC4bGMjXJ9g" target="_UXCepoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Package/packagedElement"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_UXCeqIGqEeqSC4bGMjXJ9g" origin="_UXCeo4GqEeqSC4bGMjXJ9g" image="_UXCepYGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

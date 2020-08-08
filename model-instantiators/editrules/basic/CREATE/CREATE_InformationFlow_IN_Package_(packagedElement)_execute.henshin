@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UhmI0IGqEeqSC4bGMjXJ9g" name="CREATE_InformationFlow_IN_Package_(packagedElement)" description="Creates one InformationFlow in Package">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UhmI0YGqEeqSC4bGMjXJ9g" name="createInformationFlow_IN_Package" description="creates one InformationFlow in the context: Package">
+    <lhs xmi:id="_UhmI0oGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_UhmI04GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_UhmI1IGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_UhmI1YGqEeqSC4bGMjXJ9g" name="Selected" outgoing="_UhmI14GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </nodes>
+      <nodes xmi:id="_UhmI1oGqEeqSC4bGMjXJ9g" name="New" incoming="_UhmI14GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InformationFlow"/>
+      </nodes>
+      <edges xmi:id="_UhmI14GqEeqSC4bGMjXJ9g" source="_UhmI1YGqEeqSC4bGMjXJ9g" target="_UhmI1oGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Package/packagedElement"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_UhmI2IGqEeqSC4bGMjXJ9g" origin="_UhmI04GqEeqSC4bGMjXJ9g" image="_UhmI1YGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

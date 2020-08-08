@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_U-KwEIGqEeqSC4bGMjXJ9g" name="ADD_TemplateSignature_(parameter)_TGT_TemplateParameter" description="Adds to TemplateSignature's reference parameter the target TemplateParameter">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_U-KwEYGqEeqSC4bGMjXJ9g" name="addToTemplateSignature_parameter_TemplateParameter" description="Adds to TemplateSignature's reference parameter the target TemplateParameter">
+    <lhs xmi:id="_U-KwEoGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_U-KwE4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateSignature"/>
+      </nodes>
+      <nodes xmi:id="_U-KwFIGqEeqSC4bGMjXJ9g" name="NewTarget">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameter"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_U-KwFYGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_U-KwFoGqEeqSC4bGMjXJ9g" name="Selected" outgoing="_U-KwGIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateSignature"/>
+      </nodes>
+      <nodes xmi:id="_U-KwF4GqEeqSC4bGMjXJ9g" name="NewTarget" incoming="_U-KwGIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameter"/>
+      </nodes>
+      <edges xmi:id="_U-KwGIGqEeqSC4bGMjXJ9g" source="_U-KwFoGqEeqSC4bGMjXJ9g" target="_U-KwF4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateSignature/parameter"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_U-KwGYGqEeqSC4bGMjXJ9g" origin="_U-KwE4GqEeqSC4bGMjXJ9g" image="_U-KwFoGqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_U-KwGoGqEeqSC4bGMjXJ9g" origin="_U-KwFIGqEeqSC4bGMjXJ9g" image="_U-KwF4GqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

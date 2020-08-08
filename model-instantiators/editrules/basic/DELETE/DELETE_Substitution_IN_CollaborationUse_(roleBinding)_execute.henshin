@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UvT0sIGqEeqSC4bGMjXJ9g" name="DELETE_Substitution_IN_CollaborationUse_(roleBinding)" description="Deletes one Substitution in CollaborationUse">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UvT0sYGqEeqSC4bGMjXJ9g" name="deleteSubstitution_IN_CollaborationUse" description="deletes one Substitution in the context: CollaborationUse">
+    <lhs xmi:id="_UvT0soGqEeqSC4bGMjXJ9g" name="LHS">
+      <nodes xmi:id="_UvT0s4GqEeqSC4bGMjXJ9g" name="Selected" outgoing="_UvT0tYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//CollaborationUse"/>
+      </nodes>
+      <nodes xmi:id="_UvT0tIGqEeqSC4bGMjXJ9g" name="ToBeDeleted" incoming="_UvT0tYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Substitution"/>
+      </nodes>
+      <edges xmi:id="_UvT0tYGqEeqSC4bGMjXJ9g" source="_UvT0s4GqEeqSC4bGMjXJ9g" target="_UvT0tIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//CollaborationUse/roleBinding"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_UvT0toGqEeqSC4bGMjXJ9g" name="RHS">
+      <nodes xmi:id="_UvT0t4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//CollaborationUse"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_UvT0uIGqEeqSC4bGMjXJ9g" origin="_UvT0s4GqEeqSC4bGMjXJ9g" image="_UvT0t4GqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

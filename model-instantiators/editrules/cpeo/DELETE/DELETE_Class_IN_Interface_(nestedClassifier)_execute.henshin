@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_1EqdUIGoEeqjxJ91AzqJlg" name="DELETE_Class_IN_Interface_(nestedClassifier)" description="Deletes one Class in Interface">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_1EqdUYGoEeqjxJ91AzqJlg" name="deleteClass_IN_Interface" description="deletes one Class in the context: Interface">
+    <lhs xmi:id="_1EqdUoGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_1EqdU4GoEeqjxJ91AzqJlg" name="Selected" outgoing="_1EqdVYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Interface"/>
+      </nodes>
+      <nodes xmi:id="_1EqdVIGoEeqjxJ91AzqJlg" name="ToBeDeleted" incoming="_1EqdVYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+      </nodes>
+      <edges xmi:id="_1EqdVYGoEeqjxJ91AzqJlg" source="_1EqdU4GoEeqjxJ91AzqJlg" target="_1EqdVIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Interface/nestedClassifier"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_1EqdVoGoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_1EqdV4GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Interface"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_1EqdWIGoEeqjxJ91AzqJlg" origin="_1EqdU4GoEeqjxJ91AzqJlg" image="_1EqdV4GoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

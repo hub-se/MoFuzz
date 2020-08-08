@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_TkSzEIGqEeqSC4bGMjXJ9g" name="REMOVE_Property_(redefinedProperty)_TGT_Property" description="Removes Property's reference redefinedProperty the target Property">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_TkSzEYGqEeqSC4bGMjXJ9g" name="removeFromProperty_redefinedProperty_Property" description="Removes from Property's reference redefinedProperty the target Property">
+    <lhs xmi:id="_TkSzEoGqEeqSC4bGMjXJ9g" name="LHS">
+      <nodes xmi:id="_TkSzE4GqEeqSC4bGMjXJ9g" name="Selected" outgoing="_TkSzFYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Property"/>
+      </nodes>
+      <nodes xmi:id="_TkSzFIGqEeqSC4bGMjXJ9g" name="OldTarget" incoming="_TkSzFYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Property"/>
+      </nodes>
+      <edges xmi:id="_TkSzFYGqEeqSC4bGMjXJ9g" source="_TkSzE4GqEeqSC4bGMjXJ9g" target="_TkSzFIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Property/redefinedProperty"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_TkSzFoGqEeqSC4bGMjXJ9g" name="RHS">
+      <nodes xmi:id="_TkSzF4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Property"/>
+      </nodes>
+      <nodes xmi:id="_TkSzGIGqEeqSC4bGMjXJ9g" name="OldTarget">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Property"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_TkSzGYGqEeqSC4bGMjXJ9g" origin="_TkSzE4GqEeqSC4bGMjXJ9g" image="_TkSzF4GqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_TkSzGoGqEeqSC4bGMjXJ9g" origin="_TkSzFIGqEeqSC4bGMjXJ9g" image="_TkSzGIGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

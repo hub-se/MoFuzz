@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_Ulo7UIGqEeqSC4bGMjXJ9g" name="DELETE_LiteralInteger_IN_MultiplicityElement_(lowerValue)" description="Deletes one LiteralInteger in MultiplicityElement">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_Ulo7UYGqEeqSC4bGMjXJ9g" name="deleteLiteralInteger_IN_MultiplicityElement" description="deletes one LiteralInteger in the context: MultiplicityElement">
+    <lhs xmi:id="_Ulo7UoGqEeqSC4bGMjXJ9g" name="LHS">
+      <nodes xmi:id="_Ulo7U4GqEeqSC4bGMjXJ9g" name="Selected" outgoing="_Ulo7VYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//MultiplicityElement"/>
+      </nodes>
+      <nodes xmi:id="_Ulo7VIGqEeqSC4bGMjXJ9g" name="ToBeDeleted" incoming="_Ulo7VYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LiteralInteger"/>
+      </nodes>
+      <edges xmi:id="_Ulo7VYGqEeqSC4bGMjXJ9g" source="_Ulo7U4GqEeqSC4bGMjXJ9g" target="_Ulo7VIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//MultiplicityElement/lowerValue"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_Ulo7VoGqEeqSC4bGMjXJ9g" name="RHS">
+      <nodes xmi:id="_Ulo7V4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//MultiplicityElement"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_Ulo7WIGqEeqSC4bGMjXJ9g" origin="_Ulo7U4GqEeqSC4bGMjXJ9g" image="_Ulo7V4GqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

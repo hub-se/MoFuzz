@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UOcjUIGqEeqSC4bGMjXJ9g" name="CREATE_LiteralUnlimitedNatural_IN_Slot_(value)" description="Creates one LiteralUnlimitedNatural in Slot">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UOcjUYGqEeqSC4bGMjXJ9g" name="createLiteralUnlimitedNatural_IN_Slot" description="creates one LiteralUnlimitedNatural in the context: Slot">
+    <parameters xmi:id="_UOcjUoGqEeqSC4bGMjXJ9g" name="Value" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//UnlimitedNatural"/>
+    </parameters>
+    <lhs xmi:id="_UOcjU4GqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_UOcjVIGqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Slot"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_UOcjVYGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_UOcjVoGqEeqSC4bGMjXJ9g" name="Selected" outgoing="_UOcjWYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Slot"/>
+      </nodes>
+      <nodes xmi:id="_UOcjV4GqEeqSC4bGMjXJ9g" name="New" incoming="_UOcjWYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LiteralUnlimitedNatural"/>
+        <attributes xmi:id="_UOcjWIGqEeqSC4bGMjXJ9g" value="Value">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LiteralUnlimitedNatural/value"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_UOcjWYGqEeqSC4bGMjXJ9g" source="_UOcjVoGqEeqSC4bGMjXJ9g" target="_UOcjV4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Slot/value"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_UOcjWoGqEeqSC4bGMjXJ9g" origin="_UOcjVIGqEeqSC4bGMjXJ9g" image="_UOcjVoGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

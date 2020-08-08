@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UnShIIGqEeqSC4bGMjXJ9g" name="DELETE_StateMachine_IN_State_(exit)" description="Deletes one StateMachine in State">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UnShIYGqEeqSC4bGMjXJ9g" name="deleteStateMachine_IN_State" description="deletes one StateMachine in the context: State">
+    <lhs xmi:id="_UnShIoGqEeqSC4bGMjXJ9g" name="LHS">
+      <nodes xmi:id="_UnShI4GqEeqSC4bGMjXJ9g" name="Selected" outgoing="_UnShJYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//State"/>
+      </nodes>
+      <nodes xmi:id="_UnShJIGqEeqSC4bGMjXJ9g" name="ToBeDeleted" incoming="_UnShJYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//StateMachine"/>
+      </nodes>
+      <edges xmi:id="_UnShJYGqEeqSC4bGMjXJ9g" source="_UnShI4GqEeqSC4bGMjXJ9g" target="_UnShJIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//State/exit"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_UnShJoGqEeqSC4bGMjXJ9g" name="RHS">
+      <nodes xmi:id="_UnShJ4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//State"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_UnShKIGqEeqSC4bGMjXJ9g" origin="_UnShI4GqEeqSC4bGMjXJ9g" image="_UnShJ4GqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

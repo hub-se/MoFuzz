@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_TXKWAIGqEeqSC4bGMjXJ9g" name="REMOVE_BehavioralFeature_(method)_TGT_Behavior" description="Removes BehavioralFeature's reference method the target Behavior">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_TXKWAYGqEeqSC4bGMjXJ9g" name="removeFromBehavioralFeature_method_Behavior" description="Removes from BehavioralFeature's reference method the target Behavior">
+    <lhs xmi:id="_TXKWAoGqEeqSC4bGMjXJ9g" name="LHS">
+      <nodes xmi:id="_TXKWA4GqEeqSC4bGMjXJ9g" name="Selected" incoming="_TXKWBoGqEeqSC4bGMjXJ9g" outgoing="_TXKWBYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//BehavioralFeature"/>
+      </nodes>
+      <nodes xmi:id="_TXKWBIGqEeqSC4bGMjXJ9g" name="OldTarget" incoming="_TXKWBYGqEeqSC4bGMjXJ9g" outgoing="_TXKWBoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Behavior"/>
+      </nodes>
+      <edges xmi:id="_TXKWBYGqEeqSC4bGMjXJ9g" source="_TXKWA4GqEeqSC4bGMjXJ9g" target="_TXKWBIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//BehavioralFeature/method"/>
+      </edges>
+      <edges xmi:id="_TXKWBoGqEeqSC4bGMjXJ9g" source="_TXKWBIGqEeqSC4bGMjXJ9g" target="_TXKWA4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Behavior/specification"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_TXKWB4GqEeqSC4bGMjXJ9g" name="RHS">
+      <nodes xmi:id="_TXKWCIGqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//BehavioralFeature"/>
+      </nodes>
+      <nodes xmi:id="_TXKWCYGqEeqSC4bGMjXJ9g" name="OldTarget">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Behavior"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_TXKWCoGqEeqSC4bGMjXJ9g" origin="_TXKWA4GqEeqSC4bGMjXJ9g" image="_TXKWCIGqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_TXKWC4GqEeqSC4bGMjXJ9g" origin="_TXKWBIGqEeqSC4bGMjXJ9g" image="_TXKWCYGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

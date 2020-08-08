@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_TUdAQIGqEeqSC4bGMjXJ9g" name="REMOVE_UseCase_(useCase)_TGT_UseCase" description="Removes UseCase's reference useCase the target UseCase">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_TUdAQYGqEeqSC4bGMjXJ9g" name="removeFromUseCase_useCase_UseCase" description="Removes from UseCase's reference useCase the target UseCase">
+    <lhs xmi:id="_TUdAQoGqEeqSC4bGMjXJ9g" name="LHS">
+      <nodes xmi:id="_TUdAQ4GqEeqSC4bGMjXJ9g" name="Selected" incoming="_TUdARoGqEeqSC4bGMjXJ9g" outgoing="_TUdARYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//UseCase"/>
+      </nodes>
+      <nodes xmi:id="_TUdARIGqEeqSC4bGMjXJ9g" name="OldTarget" incoming="_TUdARYGqEeqSC4bGMjXJ9g" outgoing="_TUdARoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//UseCase"/>
+      </nodes>
+      <edges xmi:id="_TUdARYGqEeqSC4bGMjXJ9g" source="_TUdAQ4GqEeqSC4bGMjXJ9g" target="_TUdARIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier/useCase"/>
+      </edges>
+      <edges xmi:id="_TUdARoGqEeqSC4bGMjXJ9g" source="_TUdARIGqEeqSC4bGMjXJ9g" target="_TUdAQ4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//UseCase/subject"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_TUdAR4GqEeqSC4bGMjXJ9g" name="RHS">
+      <nodes xmi:id="_TUdASIGqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//UseCase"/>
+      </nodes>
+      <nodes xmi:id="_TUdASYGqEeqSC4bGMjXJ9g" name="OldTarget">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//UseCase"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_TUdASoGqEeqSC4bGMjXJ9g" origin="_TUdAQ4GqEeqSC4bGMjXJ9g" image="_TUdASIGqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_TUdAS4GqEeqSC4bGMjXJ9g" origin="_TUdARIGqEeqSC4bGMjXJ9g" image="_TUdASYGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

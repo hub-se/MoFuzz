@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_12b4gIGoEeqjxJ91AzqJlg" name="CREATE_Transition_IN_Region_(transition)" description="Creates one Transition in Region">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_12b4gYGoEeqjxJ91AzqJlg" name="createTransition_IN_Region" description="creates one Transition in the context: Region">
+    <parameters xmi:id="_12b4goGoEeqjxJ91AzqJlg" name="IsLeaf" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <parameters xmi:id="_12b4g4GoEeqjxJ91AzqJlg" name="Kind" kind="IN">
+      <type xsi:type="ecore:EEnum" href="http://www.eclipse.org/uml2/5.0.0/UML#//TransitionKind"/>
+    </parameters>
+    <lhs xmi:id="_12b4hIGoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_12b4hYGoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Region"/>
+      </nodes>
+      <nodes xmi:id="_12b4hoGoEeqjxJ91AzqJlg" name="Existing">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Vertex"/>
+      </nodes>
+      <nodes xmi:id="_12b4h4GoEeqjxJ91AzqJlg" name="Existing1">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Vertex"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_12b4iIGoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_12b4iYGoEeqjxJ91AzqJlg" name="Selected" incoming="_12b4kIGoEeqjxJ91AzqJlg" outgoing="_12b4j4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Region"/>
+      </nodes>
+      <nodes xmi:id="_12b4ioGoEeqjxJ91AzqJlg" name="New" incoming="_12b4j4GoEeqjxJ91AzqJlg" outgoing="_12b4kIGoEeqjxJ91AzqJlg _12b4kYGoEeqjxJ91AzqJlg _12b4koGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Transition"/>
+        <attributes xmi:id="_12b4i4GoEeqjxJ91AzqJlg" value="IsLeaf">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//RedefinableElement/isLeaf"/>
+        </attributes>
+        <attributes xmi:id="_12b4jIGoEeqjxJ91AzqJlg" value="Kind">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Transition/kind"/>
+        </attributes>
+      </nodes>
+      <nodes xmi:id="_12b4jYGoEeqjxJ91AzqJlg" name="Existing" incoming="_12b4kYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Vertex"/>
+      </nodes>
+      <nodes xmi:id="_12b4joGoEeqjxJ91AzqJlg" name="Existing1" incoming="_12b4koGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Vertex"/>
+      </nodes>
+      <edges xmi:id="_12b4j4GoEeqjxJ91AzqJlg" source="_12b4iYGoEeqjxJ91AzqJlg" target="_12b4ioGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Region/transition"/>
+      </edges>
+      <edges xmi:id="_12b4kIGoEeqjxJ91AzqJlg" source="_12b4ioGoEeqjxJ91AzqJlg" target="_12b4iYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Transition/container"/>
+      </edges>
+      <edges xmi:id="_12b4kYGoEeqjxJ91AzqJlg" source="_12b4ioGoEeqjxJ91AzqJlg" target="_12b4jYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Transition/source"/>
+      </edges>
+      <edges xmi:id="_12b4koGoEeqjxJ91AzqJlg" source="_12b4ioGoEeqjxJ91AzqJlg" target="_12b4joGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Transition/target"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_12b4k4GoEeqjxJ91AzqJlg" origin="_12b4hYGoEeqjxJ91AzqJlg" image="_12b4iYGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_12b4lIGoEeqjxJ91AzqJlg" origin="_12b4hoGoEeqjxJ91AzqJlg" image="_12b4jYGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_12b4lYGoEeqjxJ91AzqJlg" origin="_12b4h4GoEeqjxJ91AzqJlg" image="_12b4joGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

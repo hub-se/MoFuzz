@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_TlRDcIGqEeqSC4bGMjXJ9g" name="SET_REFERENCE_Message_(connector)_TGT_Connector" description="Sets Message's reference connector the target Connector">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_TlRDcYGqEeqSC4bGMjXJ9g" name="setMessage_connector_TO_Connector" description="SetMessageRefconnectorToConnector">
+    <lhs xmi:id="_TlRDcoGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_TlRDc4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Message"/>
+      </nodes>
+      <nodes xmi:id="_TlRDdIGqEeqSC4bGMjXJ9g" name="NewTarget">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Connector"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_TlRDdYGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_TlRDdoGqEeqSC4bGMjXJ9g" name="Selected" outgoing="_TlRDeIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Message"/>
+      </nodes>
+      <nodes xmi:id="_TlRDd4GqEeqSC4bGMjXJ9g" name="NewTarget" incoming="_TlRDeIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Connector"/>
+      </nodes>
+      <edges xmi:id="_TlRDeIGqEeqSC4bGMjXJ9g" source="_TlRDdoGqEeqSC4bGMjXJ9g" target="_TlRDd4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Message/connector"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_TlRDeYGqEeqSC4bGMjXJ9g" origin="_TlRDc4GqEeqSC4bGMjXJ9g" image="_TlRDdoGqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_TlRDeoGqEeqSC4bGMjXJ9g" origin="_TlRDdIGqEeqSC4bGMjXJ9g" image="_TlRDd4GqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

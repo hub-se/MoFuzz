@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_19RgUIGoEeqjxJ91AzqJlg" name="CREATE_LiteralReal_IN_Slot_(value)" description="Creates one LiteralReal in Slot">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_19RgUYGoEeqjxJ91AzqJlg" name="createLiteralReal_IN_Slot" description="creates one LiteralReal in the context: Slot">
+    <parameters xmi:id="_19RgUoGoEeqjxJ91AzqJlg" name="Value" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Real"/>
+    </parameters>
+    <lhs xmi:id="_19RgU4GoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_19RgVIGoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Slot"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_19RgVYGoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_19RgVoGoEeqjxJ91AzqJlg" name="Selected" outgoing="_19RgWYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Slot"/>
+      </nodes>
+      <nodes xmi:id="_19RgV4GoEeqjxJ91AzqJlg" name="New" incoming="_19RgWYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LiteralReal"/>
+        <attributes xmi:id="_19RgWIGoEeqjxJ91AzqJlg" value="Value">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LiteralReal/value"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_19RgWYGoEeqjxJ91AzqJlg" source="_19RgVoGoEeqjxJ91AzqJlg" target="_19RgV4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Slot/value"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_19RgWoGoEeqjxJ91AzqJlg" origin="_19RgVIGoEeqjxJ91AzqJlg" image="_19RgVoGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

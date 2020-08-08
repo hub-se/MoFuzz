@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_1NKSAIGoEeqjxJ91AzqJlg" name="DELETE_ValuePin_IN_RemoveVariableValueAction_(removeAt)" description="Deletes one ValuePin in RemoveVariableValueAction">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_1NKSAYGoEeqjxJ91AzqJlg" name="deleteValuePin_IN_RemoveVariableValueAction" description="deletes one ValuePin in the context: RemoveVariableValueAction">
+    <lhs xmi:id="_1NKSAoGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_1NKSA4GoEeqjxJ91AzqJlg" name="Selected" outgoing="_1NKSBoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//RemoveVariableValueAction"/>
+      </nodes>
+      <nodes xmi:id="_1NKSBIGoEeqjxJ91AzqJlg" name="ToBeDeleted" incoming="_1NKSBoGoEeqjxJ91AzqJlg" outgoing="_1NKSB4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ValuePin"/>
+      </nodes>
+      <nodes xmi:id="_1NKSBYGoEeqjxJ91AzqJlg" name="Child" incoming="_1NKSB4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ValueSpecification"/>
+      </nodes>
+      <edges xmi:id="_1NKSBoGoEeqjxJ91AzqJlg" source="_1NKSA4GoEeqjxJ91AzqJlg" target="_1NKSBIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//RemoveVariableValueAction/removeAt"/>
+      </edges>
+      <edges xmi:id="_1NKSB4GoEeqjxJ91AzqJlg" source="_1NKSBIGoEeqjxJ91AzqJlg" target="_1NKSBYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ValuePin/value"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_1NKSCIGoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_1NKSCYGoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//RemoveVariableValueAction"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_1NKSCoGoEeqjxJ91AzqJlg" origin="_1NKSA4GoEeqjxJ91AzqJlg" image="_1NKSCYGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

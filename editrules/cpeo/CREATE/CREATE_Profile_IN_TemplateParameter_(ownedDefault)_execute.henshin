@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_1nv8QIGoEeqjxJ91AzqJlg" name="CREATE_Profile_IN_TemplateParameter_(ownedDefault)" description="Creates one Profile in TemplateParameter">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_1nv8QYGoEeqjxJ91AzqJlg" name="createProfile_IN_TemplateParameter" description="creates one Profile in the context: TemplateParameter">
+    <lhs xmi:id="_1nv8QoGoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_1nv8Q4GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameter"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_1nv8RIGoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_1nv8RYGoEeqjxJ91AzqJlg" name="Selected" outgoing="_1nv8R4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameter"/>
+      </nodes>
+      <nodes xmi:id="_1nv8RoGoEeqjxJ91AzqJlg" name="New" incoming="_1nv8R4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Profile"/>
+      </nodes>
+      <edges xmi:id="_1nv8R4GoEeqjxJ91AzqJlg" source="_1nv8RYGoEeqjxJ91AzqJlg" target="_1nv8RoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameter/ownedDefault"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_1nwjUIGoEeqjxJ91AzqJlg" origin="_1nv8Q4GoEeqjxJ91AzqJlg" image="_1nv8RYGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

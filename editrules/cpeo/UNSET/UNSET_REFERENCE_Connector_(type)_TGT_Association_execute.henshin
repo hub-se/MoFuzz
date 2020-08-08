@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_2DSBsIGoEeqjxJ91AzqJlg" name="UNSET_REFERENCE_Connector_(type)_TGT_Association" description="Sets Connector's reference type the target Association">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_2DSBsYGoEeqjxJ91AzqJlg" name="setConnector_type_TO_Association" description="SetConnectorReftypeToAssociation">
+    <lhs xmi:id="_2DSBsoGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_2DSBs4GoEeqjxJ91AzqJlg" name="Selected" outgoing="_2DSBtYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Connector"/>
+      </nodes>
+      <nodes xmi:id="_2DSBtIGoEeqjxJ91AzqJlg" name="NewTarget" incoming="_2DSBtYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Association"/>
+      </nodes>
+      <edges xmi:id="_2DSBtYGoEeqjxJ91AzqJlg" source="_2DSBs4GoEeqjxJ91AzqJlg" target="_2DSBtIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Connector/type"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_2DSBtoGoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_2DSBt4GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Connector"/>
+      </nodes>
+      <nodes xmi:id="_2DSBuIGoEeqjxJ91AzqJlg" name="NewTarget">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Association"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_2DSBuYGoEeqjxJ91AzqJlg" origin="_2DSBs4GoEeqjxJ91AzqJlg" image="_2DSBt4GoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_2DSBuoGoEeqjxJ91AzqJlg" origin="_2DSBtIGoEeqjxJ91AzqJlg" image="_2DSBuIGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_2m-koIGoEeqjxJ91AzqJlg" name="MOVE_Operation_FROM_DataType_(ownedOperation)_TO_DataType_(ownedOperation)" description="MOVEs Operation from DataType(Reference:ownedOperation) to DataType(Reference:ownedOperation">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_2m-koYGoEeqjxJ91AzqJlg" name="moveOperation_FROM_DataType_ownedOperation_TO_DataType_DataType" description="Moves Operation from DataType(Reference:ownedOperation) toDataType(Reference:DataType)">
+    <lhs xmi:id="_2m-kooGoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_2m-ko4GoEeqjxJ91AzqJlg" name="Selected" incoming="_2m-kpoGoEeqjxJ91AzqJlg" outgoing="_2m-kp4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Operation"/>
+      </nodes>
+      <nodes xmi:id="_2m-kpIGoEeqjxJ91AzqJlg" name="OldSource" incoming="_2m-kp4GoEeqjxJ91AzqJlg" outgoing="_2m-kpoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//DataType"/>
+      </nodes>
+      <nodes xmi:id="_2m-kpYGoEeqjxJ91AzqJlg" name="NewSource">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//DataType"/>
+      </nodes>
+      <edges xmi:id="_2m-kpoGoEeqjxJ91AzqJlg" source="_2m-kpIGoEeqjxJ91AzqJlg" target="_2m-ko4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//DataType/ownedOperation"/>
+      </edges>
+      <edges xmi:id="_2m-kp4GoEeqjxJ91AzqJlg" source="_2m-ko4GoEeqjxJ91AzqJlg" target="_2m-kpIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Operation/datatype"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_2m-kqIGoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_2m-kqYGoEeqjxJ91AzqJlg" name="Selected" incoming="_2m-krIGoEeqjxJ91AzqJlg" outgoing="_2m-krYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Operation"/>
+      </nodes>
+      <nodes xmi:id="_2m-kqoGoEeqjxJ91AzqJlg" name="OldSource">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//DataType"/>
+      </nodes>
+      <nodes xmi:id="_2m-kq4GoEeqjxJ91AzqJlg" name="NewSource" incoming="_2m-krYGoEeqjxJ91AzqJlg" outgoing="_2m-krIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//DataType"/>
+      </nodes>
+      <edges xmi:id="_2m-krIGoEeqjxJ91AzqJlg" source="_2m-kq4GoEeqjxJ91AzqJlg" target="_2m-kqYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//DataType/ownedOperation"/>
+      </edges>
+      <edges xmi:id="_2m-krYGoEeqjxJ91AzqJlg" source="_2m-kqYGoEeqjxJ91AzqJlg" target="_2m-kq4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Operation/datatype"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_2m-kroGoEeqjxJ91AzqJlg" origin="_2m-ko4GoEeqjxJ91AzqJlg" image="_2m-kqYGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_2m-kr4GoEeqjxJ91AzqJlg" origin="_2m-kpIGoEeqjxJ91AzqJlg" image="_2m-kqoGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_2m-ksIGoEeqjxJ91AzqJlg" origin="_2m-kpYGoEeqjxJ91AzqJlg" image="_2m-kq4GoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

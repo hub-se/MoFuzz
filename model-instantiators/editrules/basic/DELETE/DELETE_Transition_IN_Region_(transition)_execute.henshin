@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UstMoIGqEeqSC4bGMjXJ9g" name="DELETE_Transition_IN_Region_(transition)" description="Deletes one Transition in Region">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UstMoYGqEeqSC4bGMjXJ9g" name="deleteTransition_IN_Region" description="deletes one Transition in the context: Region">
+    <lhs xmi:id="_UstMooGqEeqSC4bGMjXJ9g" name="LHS">
+      <nodes xmi:id="_UstMo4GqEeqSC4bGMjXJ9g" name="Selected" incoming="_UstMpoGqEeqSC4bGMjXJ9g" outgoing="_UstMpYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Region"/>
+      </nodes>
+      <nodes xmi:id="_UstMpIGqEeqSC4bGMjXJ9g" name="ToBeDeleted" incoming="_UstMpYGqEeqSC4bGMjXJ9g" outgoing="_UstMpoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Transition"/>
+      </nodes>
+      <edges xmi:id="_UstMpYGqEeqSC4bGMjXJ9g" source="_UstMo4GqEeqSC4bGMjXJ9g" target="_UstMpIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Region/transition"/>
+      </edges>
+      <edges xmi:id="_UstMpoGqEeqSC4bGMjXJ9g" source="_UstMpIGqEeqSC4bGMjXJ9g" target="_UstMo4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Transition/container"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_UstMp4GqEeqSC4bGMjXJ9g" name="RHS">
+      <nodes xmi:id="_UstMqIGqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Region"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_UstMqYGqEeqSC4bGMjXJ9g" origin="_UstMo4GqEeqSC4bGMjXJ9g" image="_UstMqIGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

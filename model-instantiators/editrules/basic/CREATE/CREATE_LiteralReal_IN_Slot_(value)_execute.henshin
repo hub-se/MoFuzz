@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UgsJ4IGqEeqSC4bGMjXJ9g" name="CREATE_LiteralReal_IN_Slot_(value)" description="Creates one LiteralReal in Slot">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UgsJ4YGqEeqSC4bGMjXJ9g" name="createLiteralReal_IN_Slot" description="creates one LiteralReal in the context: Slot">
+    <parameters xmi:id="_UgsJ4oGqEeqSC4bGMjXJ9g" name="Value" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Real"/>
+    </parameters>
+    <lhs xmi:id="_UgsJ44GqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_UgsJ5IGqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Slot"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_UgsJ5YGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_UgsJ5oGqEeqSC4bGMjXJ9g" name="Selected" outgoing="_UgsJ6YGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Slot"/>
+      </nodes>
+      <nodes xmi:id="_UgsJ54GqEeqSC4bGMjXJ9g" name="New" incoming="_UgsJ6YGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LiteralReal"/>
+        <attributes xmi:id="_UgsJ6IGqEeqSC4bGMjXJ9g" value="Value">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LiteralReal/value"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_UgsJ6YGqEeqSC4bGMjXJ9g" source="_UgsJ5oGqEeqSC4bGMjXJ9g" target="_UgsJ54GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Slot/value"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_UgsJ6oGqEeqSC4bGMjXJ9g" origin="_UgsJ5IGqEeqSC4bGMjXJ9g" image="_UgsJ5oGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

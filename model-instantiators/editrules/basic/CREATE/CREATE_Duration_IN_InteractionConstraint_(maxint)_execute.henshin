@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UW3fgIGqEeqSC4bGMjXJ9g" name="CREATE_Duration_IN_InteractionConstraint_(maxint)" description="Creates one Duration in InteractionConstraint">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UW3fgYGqEeqSC4bGMjXJ9g" name="createDuration_IN_InteractionConstraint" description="creates one Duration in the context: InteractionConstraint">
+    <lhs xmi:id="_UW3fgoGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_UW3fg4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InteractionConstraint"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_UW3fhIGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_UW3fhYGqEeqSC4bGMjXJ9g" name="Selected" outgoing="_UW3fh4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InteractionConstraint"/>
+      </nodes>
+      <nodes xmi:id="_UW3fhoGqEeqSC4bGMjXJ9g" name="New" incoming="_UW3fh4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Duration"/>
+      </nodes>
+      <edges xmi:id="_UW3fh4GqEeqSC4bGMjXJ9g" source="_UW3fhYGqEeqSC4bGMjXJ9g" target="_UW3fhoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InteractionConstraint/maxint"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_UW3fiIGqEeqSC4bGMjXJ9g" origin="_UW3fg4GqEeqSC4bGMjXJ9g" image="_UW3fhYGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

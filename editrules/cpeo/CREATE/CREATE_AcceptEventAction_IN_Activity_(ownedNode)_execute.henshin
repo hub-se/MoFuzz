@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_13XFkIGoEeqjxJ91AzqJlg" name="CREATE_AcceptEventAction_IN_Activity_(ownedNode)" description="Creates one AcceptEventAction in Activity">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_13XFkYGoEeqjxJ91AzqJlg" name="createAcceptEventAction_IN_Activity" description="creates one AcceptEventAction in the context: Activity">
+    <parameters xmi:id="_13XFkoGoEeqjxJ91AzqJlg" name="IsLeaf" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <parameters xmi:id="_13XFk4GoEeqjxJ91AzqJlg" name="IsLocallyReentrant" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <parameters xmi:id="_13XFlIGoEeqjxJ91AzqJlg" name="IsUnmarshall" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <lhs xmi:id="_13XFlYGoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_13XFloGoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Activity"/>
+      </nodes>
+      <nodes xmi:id="_13XFl4GoEeqjxJ91AzqJlg" name="Existing">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Event"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_13XFmIGoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_13XFmYGoEeqjxJ91AzqJlg" name="Selected" outgoing="_13XspYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Activity"/>
+      </nodes>
+      <nodes xmi:id="_13XFmoGoEeqjxJ91AzqJlg" name="New" incoming="_13XspYGoEeqjxJ91AzqJlg" outgoing="_13XspoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//AcceptEventAction"/>
+        <attributes xmi:id="_13XsoIGoEeqjxJ91AzqJlg" value="IsLeaf">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//RedefinableElement/isLeaf"/>
+        </attributes>
+        <attributes xmi:id="_13XsoYGoEeqjxJ91AzqJlg" value="IsLocallyReentrant">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Action/isLocallyReentrant"/>
+        </attributes>
+        <attributes xmi:id="_13XsooGoEeqjxJ91AzqJlg" value="IsUnmarshall">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//AcceptEventAction/isUnmarshall"/>
+        </attributes>
+      </nodes>
+      <nodes xmi:id="_13Xso4GoEeqjxJ91AzqJlg" name="Child" incoming="_13XspoGoEeqjxJ91AzqJlg" outgoing="_13Xsp4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Trigger"/>
+      </nodes>
+      <nodes xmi:id="_13XspIGoEeqjxJ91AzqJlg" name="Existing" incoming="_13Xsp4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Event"/>
+      </nodes>
+      <edges xmi:id="_13XspYGoEeqjxJ91AzqJlg" source="_13XFmYGoEeqjxJ91AzqJlg" target="_13XFmoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Activity/ownedNode"/>
+      </edges>
+      <edges xmi:id="_13XspoGoEeqjxJ91AzqJlg" source="_13XFmoGoEeqjxJ91AzqJlg" target="_13Xso4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//AcceptEventAction/trigger"/>
+      </edges>
+      <edges xmi:id="_13Xsp4GoEeqjxJ91AzqJlg" source="_13Xso4GoEeqjxJ91AzqJlg" target="_13XspIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Trigger/event"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_13XsqIGoEeqjxJ91AzqJlg" origin="_13XFloGoEeqjxJ91AzqJlg" image="_13XFmYGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_13XsqYGoEeqjxJ91AzqJlg" origin="_13XFl4GoEeqjxJ91AzqJlg" image="_13XspIGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

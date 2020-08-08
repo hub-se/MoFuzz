@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UQ6BcIGqEeqSC4bGMjXJ9g" name="CREATE_Comment_IN_Element_(ownedComment)" description="Creates one Comment in Element">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UQ6BcYGqEeqSC4bGMjXJ9g" name="createComment_IN_Element" description="creates one Comment in the context: Element">
+    <lhs xmi:id="_UQ6ogIGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_UQ6ogYGqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Element"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_UQ6ogoGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_UQ6og4GqEeqSC4bGMjXJ9g" name="Selected" outgoing="_UQ6ohYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Element"/>
+      </nodes>
+      <nodes xmi:id="_UQ6ohIGqEeqSC4bGMjXJ9g" name="New" incoming="_UQ6ohYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Comment"/>
+      </nodes>
+      <edges xmi:id="_UQ6ohYGqEeqSC4bGMjXJ9g" source="_UQ6og4GqEeqSC4bGMjXJ9g" target="_UQ6ohIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Element/ownedComment"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_UQ6ohoGqEeqSC4bGMjXJ9g" origin="_UQ6ogYGqEeqSC4bGMjXJ9g" image="_UQ6og4GqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

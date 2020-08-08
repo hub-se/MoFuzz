@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_TiSn8IGqEeqSC4bGMjXJ9g" name="REMOVE_InformationFlow_(realizingMessage)_TGT_Message" description="Removes InformationFlow's reference realizingMessage the target Message">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_TiSn8YGqEeqSC4bGMjXJ9g" name="removeFromInformationFlow_realizingMessage_Message" description="Removes from InformationFlow's reference realizingMessage the target Message">
+    <lhs xmi:id="_TiSn8oGqEeqSC4bGMjXJ9g" name="LHS">
+      <nodes xmi:id="_TiSn84GqEeqSC4bGMjXJ9g" name="Selected" outgoing="_TiSn9YGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InformationFlow"/>
+      </nodes>
+      <nodes xmi:id="_TiSn9IGqEeqSC4bGMjXJ9g" name="OldTarget" incoming="_TiSn9YGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Message"/>
+      </nodes>
+      <edges xmi:id="_TiSn9YGqEeqSC4bGMjXJ9g" source="_TiSn84GqEeqSC4bGMjXJ9g" target="_TiSn9IGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InformationFlow/realizingMessage"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_TiSn9oGqEeqSC4bGMjXJ9g" name="RHS">
+      <nodes xmi:id="_TiSn94GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InformationFlow"/>
+      </nodes>
+      <nodes xmi:id="_TiSn-IGqEeqSC4bGMjXJ9g" name="OldTarget">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Message"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_TiSn-YGqEeqSC4bGMjXJ9g" origin="_TiSn84GqEeqSC4bGMjXJ9g" image="_TiSn94GqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_TiSn-oGqEeqSC4bGMjXJ9g" origin="_TiSn9IGqEeqSC4bGMjXJ9g" image="_TiSn-IGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

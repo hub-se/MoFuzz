@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_T-VqwIGqEeqSC4bGMjXJ9g" name="MOVE_Transition_FROM_Region_(transition)_TO_Region_(transition)" description="MOVEs Transition from Region(Reference:transition) to Region(Reference:transition">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_T-VqwYGqEeqSC4bGMjXJ9g" name="moveTransition_FROM_Region_transition_TO_Region_Region" description="Moves Transition from Region(Reference:transition) toRegion(Reference:Region)">
+    <lhs xmi:id="_T-VqwoGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_T-Vqw4GqEeqSC4bGMjXJ9g" name="Selected" incoming="_T-VqxoGqEeqSC4bGMjXJ9g" outgoing="_T-Vqx4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Transition"/>
+      </nodes>
+      <nodes xmi:id="_T-VqxIGqEeqSC4bGMjXJ9g" name="OldSource" incoming="_T-Vqx4GqEeqSC4bGMjXJ9g" outgoing="_T-VqxoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Region"/>
+      </nodes>
+      <nodes xmi:id="_T-VqxYGqEeqSC4bGMjXJ9g" name="NewSource">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Region"/>
+      </nodes>
+      <edges xmi:id="_T-VqxoGqEeqSC4bGMjXJ9g" source="_T-VqxIGqEeqSC4bGMjXJ9g" target="_T-Vqw4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Region/transition"/>
+      </edges>
+      <edges xmi:id="_T-Vqx4GqEeqSC4bGMjXJ9g" source="_T-Vqw4GqEeqSC4bGMjXJ9g" target="_T-VqxIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Transition/container"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_T-VqyIGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_T-VqyYGqEeqSC4bGMjXJ9g" name="Selected" incoming="_T-VqzIGqEeqSC4bGMjXJ9g" outgoing="_T-VqzYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Transition"/>
+      </nodes>
+      <nodes xmi:id="_T-VqyoGqEeqSC4bGMjXJ9g" name="OldSource">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Region"/>
+      </nodes>
+      <nodes xmi:id="_T-Vqy4GqEeqSC4bGMjXJ9g" name="NewSource" incoming="_T-VqzYGqEeqSC4bGMjXJ9g" outgoing="_T-VqzIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Region"/>
+      </nodes>
+      <edges xmi:id="_T-VqzIGqEeqSC4bGMjXJ9g" source="_T-Vqy4GqEeqSC4bGMjXJ9g" target="_T-VqyYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Region/transition"/>
+      </edges>
+      <edges xmi:id="_T-VqzYGqEeqSC4bGMjXJ9g" source="_T-VqyYGqEeqSC4bGMjXJ9g" target="_T-Vqy4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Transition/container"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_T-VqzoGqEeqSC4bGMjXJ9g" origin="_T-Vqw4GqEeqSC4bGMjXJ9g" image="_T-VqyYGqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_T-Vqz4GqEeqSC4bGMjXJ9g" origin="_T-VqxIGqEeqSC4bGMjXJ9g" image="_T-VqyoGqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_T-Vq0IGqEeqSC4bGMjXJ9g" origin="_T-VqxYGqEeqSC4bGMjXJ9g" image="_T-Vqy4GqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

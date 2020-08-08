@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_2IeDsIGoEeqjxJ91AzqJlg" name="REMOVE_InformationItem_(redefinedClassifier)_TGT_Classifier" description="Removes InformationItem's reference redefinedClassifier the target Classifier">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_2IeDsYGoEeqjxJ91AzqJlg" name="removeFromInformationItem_redefinedClassifier_Classifier" description="Removes from InformationItem's reference redefinedClassifier the target Classifier">
+    <lhs xmi:id="_2IeDsoGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_2IeDs4GoEeqjxJ91AzqJlg" name="Selected" outgoing="_2IeDtYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InformationItem"/>
+      </nodes>
+      <nodes xmi:id="_2IeDtIGoEeqjxJ91AzqJlg" name="OldTarget" incoming="_2IeDtYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier"/>
+      </nodes>
+      <edges xmi:id="_2IeDtYGoEeqjxJ91AzqJlg" source="_2IeDs4GoEeqjxJ91AzqJlg" target="_2IeDtIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier/redefinedClassifier"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_2IeDtoGoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_2IeDt4GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InformationItem"/>
+      </nodes>
+      <nodes xmi:id="_2IeDuIGoEeqjxJ91AzqJlg" name="OldTarget">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Classifier"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_2IeDuYGoEeqjxJ91AzqJlg" origin="_2IeDs4GoEeqjxJ91AzqJlg" image="_2IeDt4GoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_2IeDuoGoEeqjxJ91AzqJlg" origin="_2IeDtIGoEeqjxJ91AzqJlg" image="_2IeDuIGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

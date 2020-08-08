@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_1A-3MIGoEeqjxJ91AzqJlg" name="DELETE_LinkEndCreationData_IN_LinkAction_(endData)" description="Deletes one LinkEndCreationData in LinkAction">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_1A-3MYGoEeqjxJ91AzqJlg" name="deleteLinkEndCreationData_IN_LinkAction" description="deletes one LinkEndCreationData in the context: LinkAction">
+    <lhs xmi:id="_1A-3MoGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_1A-3M4GoEeqjxJ91AzqJlg" name="Selected" outgoing="_1A-3NoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//CreateLinkAction"/>
+      </nodes>
+      <nodes xmi:id="_1A-3NIGoEeqjxJ91AzqJlg" name="ToBeDeleted" incoming="_1A-3NoGoEeqjxJ91AzqJlg" outgoing="_1A-3N4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LinkEndCreationData"/>
+      </nodes>
+      <nodes xmi:id="_1A-3NYGoEeqjxJ91AzqJlg" name="Existing" incoming="_1A-3N4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Property"/>
+      </nodes>
+      <edges xmi:id="_1A-3NoGoEeqjxJ91AzqJlg" source="_1A-3M4GoEeqjxJ91AzqJlg" target="_1A-3NIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LinkAction/endData"/>
+      </edges>
+      <edges xmi:id="_1A-3N4GoEeqjxJ91AzqJlg" source="_1A-3NIGoEeqjxJ91AzqJlg" target="_1A-3NYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LinkEndData/end"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_1A-3OIGoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_1A-3OYGoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//CreateLinkAction"/>
+      </nodes>
+      <nodes xmi:id="_1A-3OoGoEeqjxJ91AzqJlg" name="Existing">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Property"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_1A-3O4GoEeqjxJ91AzqJlg" origin="_1A-3M4GoEeqjxJ91AzqJlg" image="_1A-3OYGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_1A-3PIGoEeqjxJ91AzqJlg" origin="_1A-3NYGoEeqjxJ91AzqJlg" image="_1A-3OoGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_1Um90IGoEeqjxJ91AzqJlg" name="DELETE_TimeEvent_IN_Package_(packagedElement)" description="Deletes one TimeEvent in Package">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_1Um90YGoEeqjxJ91AzqJlg" name="deleteTimeEvent_IN_Package" description="deletes one TimeEvent in the context: Package">
+    <lhs xmi:id="_1Um90oGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_1Um904GoEeqjxJ91AzqJlg" name="Selected" outgoing="_1Um91oGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </nodes>
+      <nodes xmi:id="_1Um91IGoEeqjxJ91AzqJlg" name="ToBeDeleted" incoming="_1Um91oGoEeqjxJ91AzqJlg" outgoing="_1Um914GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TimeEvent"/>
+      </nodes>
+      <nodes xmi:id="_1Um91YGoEeqjxJ91AzqJlg" name="Child" incoming="_1Um914GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TimeExpression"/>
+      </nodes>
+      <edges xmi:id="_1Um91oGoEeqjxJ91AzqJlg" source="_1Um904GoEeqjxJ91AzqJlg" target="_1Um91IGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Package/packagedElement"/>
+      </edges>
+      <edges xmi:id="_1Um914GoEeqjxJ91AzqJlg" source="_1Um91IGoEeqjxJ91AzqJlg" target="_1Um91YGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TimeEvent/when"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_1Um92IGoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_1Um92YGoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_1Um92oGoEeqjxJ91AzqJlg" origin="_1Um904GoEeqjxJ91AzqJlg" image="_1Um92YGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

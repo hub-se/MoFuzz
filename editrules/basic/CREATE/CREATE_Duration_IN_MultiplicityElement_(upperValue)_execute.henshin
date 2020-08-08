@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UG80MIGqEeqSC4bGMjXJ9g" name="CREATE_Duration_IN_MultiplicityElement_(upperValue)" description="Creates one Duration in MultiplicityElement">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UG80MYGqEeqSC4bGMjXJ9g" name="createDuration_IN_MultiplicityElement" description="creates one Duration in the context: MultiplicityElement">
+    <lhs xmi:id="_UG80MoGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_UG80M4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//MultiplicityElement"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_UG80NIGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_UG80NYGqEeqSC4bGMjXJ9g" name="Selected" outgoing="_UG80N4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//MultiplicityElement"/>
+      </nodes>
+      <nodes xmi:id="_UG80NoGqEeqSC4bGMjXJ9g" name="New" incoming="_UG80N4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Duration"/>
+      </nodes>
+      <edges xmi:id="_UG80N4GqEeqSC4bGMjXJ9g" source="_UG80NYGqEeqSC4bGMjXJ9g" target="_UG80NoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//MultiplicityElement/upperValue"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_UG80OIGqEeqSC4bGMjXJ9g" origin="_UG80M4GqEeqSC4bGMjXJ9g" image="_UG80NYGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

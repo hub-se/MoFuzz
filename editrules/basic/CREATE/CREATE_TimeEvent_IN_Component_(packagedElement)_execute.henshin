@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UJ2XMIGqEeqSC4bGMjXJ9g" name="CREATE_TimeEvent_IN_Component_(packagedElement)" description="Creates one TimeEvent in Component">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UJ2-QIGqEeqSC4bGMjXJ9g" name="createTimeEvent_IN_Component" description="creates one TimeEvent in the context: Component">
+    <parameters xmi:id="_UJ2-QYGqEeqSC4bGMjXJ9g" name="IsRelative" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+    </parameters>
+    <lhs xmi:id="_UJ2-QoGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_UJ2-Q4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Component"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_UJ2-RIGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_UJ2-RYGqEeqSC4bGMjXJ9g" name="Selected" outgoing="_UJ2-SIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Component"/>
+      </nodes>
+      <nodes xmi:id="_UJ2-RoGqEeqSC4bGMjXJ9g" name="New" incoming="_UJ2-SIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TimeEvent"/>
+        <attributes xmi:id="_UJ2-R4GqEeqSC4bGMjXJ9g" value="IsRelative">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TimeEvent/isRelative"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_UJ2-SIGqEeqSC4bGMjXJ9g" source="_UJ2-RYGqEeqSC4bGMjXJ9g" target="_UJ2-RoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Component/packagedElement"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_UJ2-SYGqEeqSC4bGMjXJ9g" origin="_UJ2-Q4GqEeqSC4bGMjXJ9g" image="_UJ2-RYGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

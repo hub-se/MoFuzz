@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_TXnpAIGqEeqSC4bGMjXJ9g" name="REMOVE_Association_(memberEnd)_TGT_Property" description="Removes Association's reference memberEnd the target Property">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_TXnpAYGqEeqSC4bGMjXJ9g" name="removeFromAssociation_memberEnd_Property" description="Removes from Association's reference memberEnd the target Property">
+    <lhs xmi:id="_TXnpAoGqEeqSC4bGMjXJ9g" name="LHS">
+      <nodes xmi:id="_TXnpA4GqEeqSC4bGMjXJ9g" name="Selected" incoming="_TXnpBoGqEeqSC4bGMjXJ9g" outgoing="_TXnpBYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Association"/>
+      </nodes>
+      <nodes xmi:id="_TXnpBIGqEeqSC4bGMjXJ9g" name="OldTarget" incoming="_TXnpBYGqEeqSC4bGMjXJ9g" outgoing="_TXnpBoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Property"/>
+      </nodes>
+      <edges xmi:id="_TXnpBYGqEeqSC4bGMjXJ9g" source="_TXnpA4GqEeqSC4bGMjXJ9g" target="_TXnpBIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Association/memberEnd"/>
+      </edges>
+      <edges xmi:id="_TXnpBoGqEeqSC4bGMjXJ9g" source="_TXnpBIGqEeqSC4bGMjXJ9g" target="_TXnpA4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Property/association"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_TXnpB4GqEeqSC4bGMjXJ9g" name="RHS">
+      <nodes xmi:id="_TXnpCIGqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Association"/>
+      </nodes>
+      <nodes xmi:id="_TXnpCYGqEeqSC4bGMjXJ9g" name="OldTarget">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Property"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_TXnpCoGqEeqSC4bGMjXJ9g" origin="_TXnpA4GqEeqSC4bGMjXJ9g" image="_TXnpCIGqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_TXnpC4GqEeqSC4bGMjXJ9g" origin="_TXnpBIGqEeqSC4bGMjXJ9g" image="_TXnpCYGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

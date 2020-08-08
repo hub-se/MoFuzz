@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UUMmAIGqEeqSC4bGMjXJ9g" name="CREATE_Extend_IN_UseCase_(extend)" description="Creates one Extend in UseCase">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UUMmAYGqEeqSC4bGMjXJ9g" name="createExtend_IN_UseCase" description="creates one Extend in the context: UseCase">
+    <lhs xmi:id="_UUMmAoGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_UUMmA4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//UseCase"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_UUMmBIGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_UUMmBYGqEeqSC4bGMjXJ9g" name="Selected" incoming="_UUMmCIGqEeqSC4bGMjXJ9g" outgoing="_UUMmB4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//UseCase"/>
+      </nodes>
+      <nodes xmi:id="_UUMmBoGqEeqSC4bGMjXJ9g" name="New" incoming="_UUMmB4GqEeqSC4bGMjXJ9g" outgoing="_UUMmCIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Extend"/>
+      </nodes>
+      <edges xmi:id="_UUMmB4GqEeqSC4bGMjXJ9g" source="_UUMmBYGqEeqSC4bGMjXJ9g" target="_UUMmBoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//UseCase/extend"/>
+      </edges>
+      <edges xmi:id="_UUMmCIGqEeqSC4bGMjXJ9g" source="_UUMmBoGqEeqSC4bGMjXJ9g" target="_UUMmBYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Extend/extension"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_UUMmCYGqEeqSC4bGMjXJ9g" origin="_UUMmA4GqEeqSC4bGMjXJ9g" image="_UUMmBYGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

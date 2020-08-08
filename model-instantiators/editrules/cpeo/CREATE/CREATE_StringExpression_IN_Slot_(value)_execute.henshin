@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_1v82AIGoEeqjxJ91AzqJlg" name="CREATE_StringExpression_IN_Slot_(value)" description="Creates one StringExpression in Slot">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_1v82AYGoEeqjxJ91AzqJlg" name="createStringExpression_IN_Slot" description="creates one StringExpression in the context: Slot">
+    <lhs xmi:id="_1v82AoGoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_1v82A4GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Slot"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_1v82BIGoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_1v82BYGoEeqjxJ91AzqJlg" name="Selected" outgoing="_1v82B4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Slot"/>
+      </nodes>
+      <nodes xmi:id="_1v82BoGoEeqjxJ91AzqJlg" name="New" incoming="_1v82B4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//StringExpression"/>
+      </nodes>
+      <edges xmi:id="_1v82B4GoEeqjxJ91AzqJlg" source="_1v82BYGoEeqjxJ91AzqJlg" target="_1v82BoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Slot/value"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_1v82CIGoEeqjxJ91AzqJlg" origin="_1v82A4GoEeqjxJ91AzqJlg" image="_1v82BYGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_2ZKyIIGoEeqjxJ91AzqJlg" name="MOVE_Gate_FROM_InteractionUse_(actualGate)_TO_InteractionUse_(actualGate)" description="MOVEs Gate from InteractionUse(Reference:actualGate) to InteractionUse(Reference:actualGate">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_2ZKyIYGoEeqjxJ91AzqJlg" name="moveGate_FROM_InteractionUse_actualGate_TO_InteractionUse_InteractionUse" description="Moves Gate from InteractionUse(Reference:actualGate) toInteractionUse(Reference:InteractionUse)">
+    <lhs xmi:id="_2ZKyIoGoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_2ZKyI4GoEeqjxJ91AzqJlg" name="Selected" incoming="_2ZKyJoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Gate"/>
+      </nodes>
+      <nodes xmi:id="_2ZKyJIGoEeqjxJ91AzqJlg" name="OldSource" outgoing="_2ZKyJoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InteractionUse"/>
+      </nodes>
+      <nodes xmi:id="_2ZKyJYGoEeqjxJ91AzqJlg" name="NewSource">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InteractionUse"/>
+      </nodes>
+      <edges xmi:id="_2ZKyJoGoEeqjxJ91AzqJlg" source="_2ZKyJIGoEeqjxJ91AzqJlg" target="_2ZKyI4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InteractionUse/actualGate"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_2ZKyJ4GoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_2ZKyKIGoEeqjxJ91AzqJlg" name="Selected" incoming="_2ZKyK4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Gate"/>
+      </nodes>
+      <nodes xmi:id="_2ZKyKYGoEeqjxJ91AzqJlg" name="OldSource">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InteractionUse"/>
+      </nodes>
+      <nodes xmi:id="_2ZKyKoGoEeqjxJ91AzqJlg" name="NewSource" outgoing="_2ZKyK4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InteractionUse"/>
+      </nodes>
+      <edges xmi:id="_2ZKyK4GoEeqjxJ91AzqJlg" source="_2ZKyKoGoEeqjxJ91AzqJlg" target="_2ZKyKIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InteractionUse/actualGate"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_2ZKyLIGoEeqjxJ91AzqJlg" origin="_2ZKyI4GoEeqjxJ91AzqJlg" image="_2ZKyKIGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_2ZKyLYGoEeqjxJ91AzqJlg" origin="_2ZKyJIGoEeqjxJ91AzqJlg" image="_2ZKyKYGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_2ZKyLoGoEeqjxJ91AzqJlg" origin="_2ZKyJYGoEeqjxJ91AzqJlg" image="_2ZKyKoGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

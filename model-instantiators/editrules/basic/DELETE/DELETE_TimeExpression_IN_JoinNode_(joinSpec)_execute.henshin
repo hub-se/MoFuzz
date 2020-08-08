@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_Ur2RAIGqEeqSC4bGMjXJ9g" name="DELETE_TimeExpression_IN_JoinNode_(joinSpec)" description="Deletes one TimeExpression in JoinNode">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_Ur2RAYGqEeqSC4bGMjXJ9g" name="deleteTimeExpression_IN_JoinNode" description="deletes one TimeExpression in the context: JoinNode">
+    <lhs xmi:id="_Ur2RAoGqEeqSC4bGMjXJ9g" name="LHS">
+      <nodes xmi:id="_Ur2RA4GqEeqSC4bGMjXJ9g" name="Selected" outgoing="_Ur2RBYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//JoinNode"/>
+      </nodes>
+      <nodes xmi:id="_Ur2RBIGqEeqSC4bGMjXJ9g" name="ToBeDeleted" incoming="_Ur2RBYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TimeExpression"/>
+      </nodes>
+      <edges xmi:id="_Ur2RBYGqEeqSC4bGMjXJ9g" source="_Ur2RA4GqEeqSC4bGMjXJ9g" target="_Ur2RBIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//JoinNode/joinSpec"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_Ur2RBoGqEeqSC4bGMjXJ9g" name="RHS">
+      <nodes xmi:id="_Ur2RB4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//JoinNode"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_Ur2RCIGqEeqSC4bGMjXJ9g" origin="_Ur2RA4GqEeqSC4bGMjXJ9g" image="_Ur2RB4GqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

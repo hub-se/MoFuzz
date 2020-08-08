@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_18NwYIGoEeqjxJ91AzqJlg" name="CREATE_SignalEvent_IN_TemplateParameterSubstitution_(ownedActual)" description="Creates one SignalEvent in TemplateParameterSubstitution">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_18NwYYGoEeqjxJ91AzqJlg" name="createSignalEvent_IN_TemplateParameterSubstitution" description="creates one SignalEvent in the context: TemplateParameterSubstitution">
+    <lhs xmi:id="_18NwYoGoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_18NwY4GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameterSubstitution"/>
+      </nodes>
+      <nodes xmi:id="_18NwZIGoEeqjxJ91AzqJlg" name="Existing">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Signal"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_18NwZYGoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_18NwZoGoEeqjxJ91AzqJlg" name="Selected" outgoing="_18NwaYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameterSubstitution"/>
+      </nodes>
+      <nodes xmi:id="_18NwZ4GoEeqjxJ91AzqJlg" name="New" incoming="_18NwaYGoEeqjxJ91AzqJlg" outgoing="_18NwaoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//SignalEvent"/>
+      </nodes>
+      <nodes xmi:id="_18NwaIGoEeqjxJ91AzqJlg" name="Existing" incoming="_18NwaoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Signal"/>
+      </nodes>
+      <edges xmi:id="_18NwaYGoEeqjxJ91AzqJlg" source="_18NwZoGoEeqjxJ91AzqJlg" target="_18NwZ4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TemplateParameterSubstitution/ownedActual"/>
+      </edges>
+      <edges xmi:id="_18NwaoGoEeqjxJ91AzqJlg" source="_18NwZ4GoEeqjxJ91AzqJlg" target="_18NwaIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//SignalEvent/signal"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_18Nwa4GoEeqjxJ91AzqJlg" origin="_18NwY4GoEeqjxJ91AzqJlg" image="_18NwZoGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_18NwbIGoEeqjxJ91AzqJlg" origin="_18NwZIGoEeqjxJ91AzqJlg" image="_18NwaIGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

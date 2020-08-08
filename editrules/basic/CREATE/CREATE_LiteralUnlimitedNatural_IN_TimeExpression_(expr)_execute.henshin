@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UTFywIGqEeqSC4bGMjXJ9g" name="CREATE_LiteralUnlimitedNatural_IN_TimeExpression_(expr)" description="Creates one LiteralUnlimitedNatural in TimeExpression">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UTFywYGqEeqSC4bGMjXJ9g" name="createLiteralUnlimitedNatural_IN_TimeExpression" description="creates one LiteralUnlimitedNatural in the context: TimeExpression">
+    <parameters xmi:id="_UTFywoGqEeqSC4bGMjXJ9g" name="Value" kind="IN">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//UnlimitedNatural"/>
+    </parameters>
+    <lhs xmi:id="_UTFyw4GqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_UTFyxIGqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TimeExpression"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_UTFyxYGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_UTFyxoGqEeqSC4bGMjXJ9g" name="Selected" outgoing="_UTFyyYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TimeExpression"/>
+      </nodes>
+      <nodes xmi:id="_UTFyx4GqEeqSC4bGMjXJ9g" name="New" incoming="_UTFyyYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LiteralUnlimitedNatural"/>
+        <attributes xmi:id="_UTFyyIGqEeqSC4bGMjXJ9g" value="Value">
+          <type href="http://www.eclipse.org/uml2/5.0.0/UML#//LiteralUnlimitedNatural/value"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_UTFyyYGqEeqSC4bGMjXJ9g" source="_UTFyxoGqEeqSC4bGMjXJ9g" target="_UTFyx4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//TimeExpression/expr"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_UTFyyoGqEeqSC4bGMjXJ9g" origin="_UTFyxIGqEeqSC4bGMjXJ9g" image="_UTFyxoGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

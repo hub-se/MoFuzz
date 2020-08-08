@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_Tav1gIGqEeqSC4bGMjXJ9g" name="REMOVE_CommunicationPath_(memberEnd)_TGT_Property" description="Removes CommunicationPath's reference memberEnd the target Property">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_Tav1gYGqEeqSC4bGMjXJ9g" name="removeFromCommunicationPath_memberEnd_Property" description="Removes from CommunicationPath's reference memberEnd the target Property">
+    <lhs xmi:id="_Tav1goGqEeqSC4bGMjXJ9g" name="LHS">
+      <nodes xmi:id="_Tav1g4GqEeqSC4bGMjXJ9g" name="Selected" incoming="_Tav1hoGqEeqSC4bGMjXJ9g" outgoing="_Tav1hYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//CommunicationPath"/>
+      </nodes>
+      <nodes xmi:id="_Tav1hIGqEeqSC4bGMjXJ9g" name="OldTarget" incoming="_Tav1hYGqEeqSC4bGMjXJ9g" outgoing="_Tav1hoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Property"/>
+      </nodes>
+      <edges xmi:id="_Tav1hYGqEeqSC4bGMjXJ9g" source="_Tav1g4GqEeqSC4bGMjXJ9g" target="_Tav1hIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Association/memberEnd"/>
+      </edges>
+      <edges xmi:id="_Tav1hoGqEeqSC4bGMjXJ9g" source="_Tav1hIGqEeqSC4bGMjXJ9g" target="_Tav1g4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Property/association"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_Tav1h4GqEeqSC4bGMjXJ9g" name="RHS">
+      <nodes xmi:id="_Tav1iIGqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//CommunicationPath"/>
+      </nodes>
+      <nodes xmi:id="_Tav1iYGqEeqSC4bGMjXJ9g" name="OldTarget">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Property"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_Tav1ioGqEeqSC4bGMjXJ9g" origin="_Tav1g4GqEeqSC4bGMjXJ9g" image="_Tav1iIGqEeqSC4bGMjXJ9g"/>
+    <mappings xmi:id="_Tav1i4GqEeqSC4bGMjXJ9g" origin="_Tav1hIGqEeqSC4bGMjXJ9g" image="_Tav1iYGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

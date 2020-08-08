@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UojFYIGqEeqSC4bGMjXJ9g" name="DELETE_ControlFlow_IN_Activity_(edge)" description="Deletes one ControlFlow in Activity">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UojFYYGqEeqSC4bGMjXJ9g" name="deleteControlFlow_IN_Activity" description="deletes one ControlFlow in the context: Activity">
+    <lhs xmi:id="_UojFYoGqEeqSC4bGMjXJ9g" name="LHS">
+      <nodes xmi:id="_UojFY4GqEeqSC4bGMjXJ9g" name="Selected" incoming="_UojFZoGqEeqSC4bGMjXJ9g" outgoing="_UojFZYGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Activity"/>
+      </nodes>
+      <nodes xmi:id="_UojFZIGqEeqSC4bGMjXJ9g" name="ToBeDeleted" incoming="_UojFZYGqEeqSC4bGMjXJ9g" outgoing="_UojFZoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ControlFlow"/>
+      </nodes>
+      <edges xmi:id="_UojFZYGqEeqSC4bGMjXJ9g" source="_UojFY4GqEeqSC4bGMjXJ9g" target="_UojFZIGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Activity/edge"/>
+      </edges>
+      <edges xmi:id="_UojFZoGqEeqSC4bGMjXJ9g" source="_UojFZIGqEeqSC4bGMjXJ9g" target="_UojFY4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//ActivityEdge/activity"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_UojFZ4GqEeqSC4bGMjXJ9g" name="RHS">
+      <nodes xmi:id="_UojFaIGqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Activity"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_UojFaYGqEeqSC4bGMjXJ9g" origin="_UojFY4GqEeqSC4bGMjXJ9g" image="_UojFaIGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>

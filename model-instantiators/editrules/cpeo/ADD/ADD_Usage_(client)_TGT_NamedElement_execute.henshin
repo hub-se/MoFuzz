@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_1aQ54IGoEeqjxJ91AzqJlg" name="ADD_Usage_(client)_TGT_NamedElement" description="Adds to Usage's reference client the target NamedElement">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_1aQ54YGoEeqjxJ91AzqJlg" name="addToUsage_client_NamedElement" description="Adds to Usage's reference client the target NamedElement">
+    <lhs xmi:id="_1aQ54oGoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_1aQ544GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Usage"/>
+      </nodes>
+      <nodes xmi:id="_1aQ55IGoEeqjxJ91AzqJlg" name="NewTarget">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//NamedElement"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_1aQ55YGoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_1aQ55oGoEeqjxJ91AzqJlg" name="Selected" outgoing="_1aQ56IGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Usage"/>
+      </nodes>
+      <nodes xmi:id="_1aQ554GoEeqjxJ91AzqJlg" name="NewTarget" incoming="_1aQ56IGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//NamedElement"/>
+      </nodes>
+      <edges xmi:id="_1aQ56IGoEeqjxJ91AzqJlg" source="_1aQ55oGoEeqjxJ91AzqJlg" target="_1aQ554GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Dependency/client"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_1aQ56YGoEeqjxJ91AzqJlg" origin="_1aQ544GoEeqjxJ91AzqJlg" image="_1aQ55oGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_1aQ56oGoEeqjxJ91AzqJlg" origin="_1aQ55IGoEeqjxJ91AzqJlg" image="_1aQ554GoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

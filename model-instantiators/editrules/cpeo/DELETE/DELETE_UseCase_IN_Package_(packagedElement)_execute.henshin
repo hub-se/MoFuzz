@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_1Fgx4IGoEeqjxJ91AzqJlg" name="DELETE_UseCase_IN_Package_(packagedElement)" description="Deletes one UseCase in Package">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_1Fgx4YGoEeqjxJ91AzqJlg" name="deleteUseCase_IN_Package" description="deletes one UseCase in the context: Package">
+    <lhs xmi:id="_1Fgx4oGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_1Fgx44GoEeqjxJ91AzqJlg" name="Selected" outgoing="_1Fgx5YGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </nodes>
+      <nodes xmi:id="_1Fgx5IGoEeqjxJ91AzqJlg" name="ToBeDeleted" incoming="_1Fgx5YGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//UseCase"/>
+      </nodes>
+      <edges xmi:id="_1Fgx5YGoEeqjxJ91AzqJlg" source="_1Fgx44GoEeqjxJ91AzqJlg" target="_1Fgx5IGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Package/packagedElement"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_1Fgx5oGoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_1Fgx54GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_1Fgx6IGoEeqjxJ91AzqJlg" origin="_1Fgx44GoEeqjxJ91AzqJlg" image="_1Fgx54GoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

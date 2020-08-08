@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_2U59MIGoEeqjxJ91AzqJlg" name="MOVE_InputPin_FROM_OpaqueAction_(inputValue)_TO_OpaqueAction_(inputValue)" description="MOVEs InputPin from OpaqueAction(Reference:inputValue) to OpaqueAction(Reference:inputValue">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_2U59MYGoEeqjxJ91AzqJlg" name="moveInputPin_FROM_OpaqueAction_inputValue_TO_OpaqueAction_OpaqueAction" description="Moves InputPin from OpaqueAction(Reference:inputValue) toOpaqueAction(Reference:OpaqueAction)">
+    <lhs xmi:id="_2U59MoGoEeqjxJ91AzqJlg" name="Lhs">
+      <nodes xmi:id="_2U59M4GoEeqjxJ91AzqJlg" name="Selected" incoming="_2U59NoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InputPin"/>
+      </nodes>
+      <nodes xmi:id="_2U59NIGoEeqjxJ91AzqJlg" name="OldSource" outgoing="_2U59NoGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//OpaqueAction"/>
+      </nodes>
+      <nodes xmi:id="_2U59NYGoEeqjxJ91AzqJlg" name="NewSource">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//OpaqueAction"/>
+      </nodes>
+      <edges xmi:id="_2U59NoGoEeqjxJ91AzqJlg" source="_2U59NIGoEeqjxJ91AzqJlg" target="_2U59M4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//OpaqueAction/inputValue"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_2U59N4GoEeqjxJ91AzqJlg" name="Rhs">
+      <nodes xmi:id="_2U59OIGoEeqjxJ91AzqJlg" name="Selected" incoming="_2U59O4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//InputPin"/>
+      </nodes>
+      <nodes xmi:id="_2U59OYGoEeqjxJ91AzqJlg" name="OldSource">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//OpaqueAction"/>
+      </nodes>
+      <nodes xmi:id="_2U59OoGoEeqjxJ91AzqJlg" name="NewSource" outgoing="_2U59O4GoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//OpaqueAction"/>
+      </nodes>
+      <edges xmi:id="_2U59O4GoEeqjxJ91AzqJlg" source="_2U59OoGoEeqjxJ91AzqJlg" target="_2U59OIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//OpaqueAction/inputValue"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_2U59PIGoEeqjxJ91AzqJlg" origin="_2U59M4GoEeqjxJ91AzqJlg" image="_2U59OIGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_2U59PYGoEeqjxJ91AzqJlg" origin="_2U59NIGoEeqjxJ91AzqJlg" image="_2U59OYGoEeqjxJ91AzqJlg"/>
+    <mappings xmi:id="_2U59PoGoEeqjxJ91AzqJlg" origin="_2U59NYGoEeqjxJ91AzqJlg" image="_2U59OoGoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

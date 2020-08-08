@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_1QerwIGoEeqjxJ91AzqJlg" name="DELETE_FunctionBehavior_IN_Transition_(effect)" description="Deletes one FunctionBehavior in Transition">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_1QerwYGoEeqjxJ91AzqJlg" name="deleteFunctionBehavior_IN_Transition" description="deletes one FunctionBehavior in the context: Transition">
+    <lhs xmi:id="_1QerwoGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_1Qerw4GoEeqjxJ91AzqJlg" name="Selected" outgoing="_1QerxYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Transition"/>
+      </nodes>
+      <nodes xmi:id="_1QerxIGoEeqjxJ91AzqJlg" name="ToBeDeleted" incoming="_1QerxYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//FunctionBehavior"/>
+      </nodes>
+      <edges xmi:id="_1QerxYGoEeqjxJ91AzqJlg" source="_1Qerw4GoEeqjxJ91AzqJlg" target="_1QerxIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Transition/effect"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_1QerxoGoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_1Qerx4GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Transition"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_1QeryIGoEeqjxJ91AzqJlg" origin="_1Qerw4GoEeqjxJ91AzqJlg" image="_1Qerx4GoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

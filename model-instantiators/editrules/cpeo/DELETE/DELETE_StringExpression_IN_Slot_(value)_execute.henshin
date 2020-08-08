@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_1HcEgIGoEeqjxJ91AzqJlg" name="DELETE_StringExpression_IN_Slot_(value)" description="Deletes one StringExpression in Slot">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_1HcEgYGoEeqjxJ91AzqJlg" name="deleteStringExpression_IN_Slot" description="deletes one StringExpression in the context: Slot">
+    <lhs xmi:id="_1HcEgoGoEeqjxJ91AzqJlg" name="LHS">
+      <nodes xmi:id="_1HcEg4GoEeqjxJ91AzqJlg" name="Selected" outgoing="_1HcEhYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Slot"/>
+      </nodes>
+      <nodes xmi:id="_1HcEhIGoEeqjxJ91AzqJlg" name="ToBeDeleted" incoming="_1HcEhYGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//StringExpression"/>
+      </nodes>
+      <edges xmi:id="_1HcEhYGoEeqjxJ91AzqJlg" source="_1HcEg4GoEeqjxJ91AzqJlg" target="_1HcEhIGoEeqjxJ91AzqJlg">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Slot/value"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_1HcEhoGoEeqjxJ91AzqJlg" name="RHS">
+      <nodes xmi:id="_1HcEh4GoEeqjxJ91AzqJlg" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Slot"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_1HcEiIGoEeqjxJ91AzqJlg" origin="_1HcEg4GoEeqjxJ91AzqJlg" image="_1HcEh4GoEeqjxJ91AzqJlg"/>
+  </units>
+</henshin:Module>

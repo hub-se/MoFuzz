@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_UgNBsIGqEeqSC4bGMjXJ9g" name="CREATE_Manifestation_IN_CollaborationUse_(roleBinding)" description="Creates one Manifestation in CollaborationUse">
+  <imports href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <imports href="http://www.eclipse.org/uml2/5.0.0/Types#/"/>
+  <imports href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_UgNBsYGqEeqSC4bGMjXJ9g" name="createManifestation_IN_CollaborationUse" description="creates one Manifestation in the context: CollaborationUse">
+    <lhs xmi:id="_UgNBsoGqEeqSC4bGMjXJ9g" name="Lhs">
+      <nodes xmi:id="_UgNBs4GqEeqSC4bGMjXJ9g" name="Selected">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//CollaborationUse"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_UgNBtIGqEeqSC4bGMjXJ9g" name="Rhs">
+      <nodes xmi:id="_UgNBtYGqEeqSC4bGMjXJ9g" name="Selected" outgoing="_UgNBt4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//CollaborationUse"/>
+      </nodes>
+      <nodes xmi:id="_UgNBtoGqEeqSC4bGMjXJ9g" name="New" incoming="_UgNBt4GqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//Manifestation"/>
+      </nodes>
+      <edges xmi:id="_UgNBt4GqEeqSC4bGMjXJ9g" source="_UgNBtYGqEeqSC4bGMjXJ9g" target="_UgNBtoGqEeqSC4bGMjXJ9g">
+        <type href="http://www.eclipse.org/uml2/5.0.0/UML#//CollaborationUse/roleBinding"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_UgNBuIGqEeqSC4bGMjXJ9g" origin="_UgNBs4GqEeqSC4bGMjXJ9g" image="_UgNBtYGqEeqSC4bGMjXJ9g"/>
+  </units>
+</henshin:Module>
