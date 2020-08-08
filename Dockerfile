@@ -17,6 +17,6 @@ RUN apt-get update && apt-get install -y \
 # Install MoFuzz
 WORKDIR /workspace
 RUN git clone https://github.com/hub-se/MoFuzz.git
-WORKDIR /workspace/mofuzz
+WORKDIR /workspace/MoFuzz/mofuzz
 RUN mvn package
-WORKDIR /workspace
+WORKDIR /workspace/MoFuzz
